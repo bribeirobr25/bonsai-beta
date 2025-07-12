@@ -191,12 +191,12 @@ export const bonsaiSpecies = [
         url: 'https://inaturalist.ca'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_2.jpg': {
-        source: 'Alamy Stock Photos',
-        url: 'https://www.alamy.com'
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_3.jpg': {
-        source: 'Natural Habitat Photography',
-        url: 'https://www.alamy.com'
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
       }
     }
   },
@@ -353,12 +353,12 @@ export const bonsaiSpecies = [
     },
     imageCredits: {
       '/bonsai_photos/juniper/development_stages/juniper_early_stage.jpg': {
-        source: 'Juniper Bonsai Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'FromYouFlowers',
+        url: 'https://www.fromyouflowers.com'
       },
       '/bonsai_photos/juniper/development_stages/juniper_middle_stage.jpg': {
-        source: 'Coniferous Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'joe gardener',
+        url: 'https://joegardener.com'
       },
       '/bonsai_photos/juniper/development_stages/juniper_mature_stage.jpg': {
         source: 'Master Bonsai Gallery',
@@ -563,8 +563,8 @@ export const bonsaiSpecies = [
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_middle_stage.jpg': {
-        source: 'Deciduous Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Club of Santa Barbara',
+        url: 'https://www.santabarbarabonsai.org'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_mature_stage.jpg': {
         source: 'Mature Maple Gallery',
