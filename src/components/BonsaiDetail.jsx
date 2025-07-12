@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft, X, ExternalLink } from 'lucide-react';
+import { ArrowLeft, X, ExternalLink, Camera, Info, Leaf, Palette, Mountain, Wrench } from 'lucide-react';
 import { getDifficultyColor, getClimateIcon } from '../data/bonsaiData';
 
 const BonsaiDetail = ({ species, onBack }) => {
@@ -7,12 +7,12 @@ const BonsaiDetail = ({ species, onBack }) => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const tabs = [
-    { id: 'overview', label: 'Overview' },
-    { id: 'development', label: 'Development' },
-    { id: 'seasons', label: 'Seasons' },
-    { id: 'styles', label: 'Styles' },
-    { id: 'nature', label: 'In Nature' },
-    { id: 'techniques', label: 'Techniques' }
+    { id: 'overview', label: 'Overview', icon: Info },
+    { id: 'development', label: 'Development', icon: Leaf },
+    { id: 'seasons', label: 'Seasons', icon: Palette },
+    { id: 'styles', label: 'Styles', icon: Camera },
+    { id: 'nature', label: 'In Nature', icon: Mountain },
+    { id: 'techniques', label: 'Techniques', icon: Wrench }
   ];
 
   const getImageLabel = (category, key) => {
@@ -49,16 +49,16 @@ const BonsaiDetail = ({ species, onBack }) => {
   const ImageGallery = ({ images, category }) => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {Object.entries(images).map(([key, imagePath]) => (
-        <div key={key} className="relative group cursor-pointer" onClick={() => setSelectedImage(imagePath)}>
-          <div className="relative overflow-hidden rounded-lg shadow-lg">
+        <div key={key} className="group cursor-pointer" onClick={() => setSelectedImage(imagePath)}>
+          <div className="relative overflow-hidden rounded-lg bg-gray-50">
             <img
               src={imagePath}
               alt={getImageLabel(category, key)}
-              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+              className="w-full h-64 object-cover transition-all duration-500 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-              <span className="text-white text-sm font-medium bg-black/50 px-2 py-1 rounded">
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300" />
+            <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <span className="text-white text-sm font-medium bg-black/70 px-3 py-1 rounded-full">
                 {getImageLabel(category, key)}
               </span>
             </div>
@@ -72,11 +72,11 @@ const BonsaiDetail = ({ species, onBack }) => {
     const credit = species.imageCredits?.[imagePath];
     
     return (
-      <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-        <div className="relative max-w-4xl max-h-[90vh] bg-white rounded-lg overflow-hidden">
+      <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-4">
+        <div className="relative max-w-5xl max-h-[90vh] bg-white rounded-xl overflow-hidden shadow-2xl">
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
+            className="absolute top-4 right-4 z-10 bg-white/90 text-gray-700 p-2 rounded-full hover:bg-white transition-colors"
           >
             <X size={20} />
           </button>
@@ -88,17 +88,17 @@ const BonsaiDetail = ({ species, onBack }) => {
           />
           
           {credit && (
-            <div className="p-4 bg-gray-50 border-t">
+            <div className="p-6 bg-gray-50 border-t">
               <div className="flex items-center justify-between">
                 <span className="text-sm text-gray-600">
-                  Photo credit: <span className="font-medium">{credit.source}</span>
+                  Photo credit: <span className="font-medium text-gray-900">{credit.source}</span>
                 </span>
                 {credit.url && (
                   <a
                     href={credit.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"
+                    className="flex items-center gap-2 text-green-600 hover:text-green-700 text-sm font-medium transition-colors"
                   >
                     Visit Source <ExternalLink size={14} />
                   </a>
@@ -115,110 +115,120 @@ const BonsaiDetail = ({ species, onBack }) => {
     switch (activeTab) {
       case 'overview':
         return (
-          <div className="space-y-8">
-            {/* Featured Image Section */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Featured Image</h3>
-                <div className="relative group cursor-pointer" onClick={() => setSelectedImage(species.images.developmentStages.mature)}>
-                  <img
-                    src={species.images.developmentStages.mature}
-                    alt={`${species.commonName} - Mature specimen`}
-                    className="w-full h-64 md:h-80 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
-                  <div className="absolute bottom-4 left-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <span className="text-white text-sm font-medium bg-black/50 px-2 py-1 rounded">
-                      Click to view full size
-                    </span>
+          <div className="space-y-12">
+            {/* Hero Image */}
+            <div className="relative">
+              <div className="aspect-[16/9] bg-gray-50 rounded-xl overflow-hidden cursor-pointer group" 
+                   onClick={() => setSelectedImage(species.images.developmentStages.mature)}>
+                <img
+                  src={species.images.developmentStages.mature}
+                  alt={`${species.commonName} - Mature specimen`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300" />
+                <div className="absolute bottom-6 left-6 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <span className="text-white text-sm font-medium bg-black/70 px-4 py-2 rounded-full">
+                    Click to enlarge
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Species Information Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Basic Information */}
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-lg font-medium text-gray-900 mb-6">Basic Information</h3>
+                  <div className="space-y-4">
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Group</span>
+                      <span className="font-medium text-gray-900">{species.group}</span>
+                    </div>
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Climate</span>
+                      <span className="font-medium text-gray-900 flex items-center gap-2">
+                        {getClimateIcon(species.climate)} {species.climate}
+                      </span>
+                    </div>
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Native Region</span>
+                      <span className="font-medium text-gray-900">{species.nativeRegion}</span>
+                    </div>
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Leaf Type</span>
+                      <span className="font-medium text-gray-900">{species.leafType}</span>
+                    </div>
+                    <div className="flex justify-between py-3">
+                      <span className="text-gray-600">Flowering</span>
+                      <span className="font-medium text-gray-900">{species.flowering}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Care Requirements */}
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-lg font-medium text-gray-900 mb-6">Care Requirements</h3>
+                  <div className="space-y-4">
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Difficulty Level</span>
+                      <span className={`px-3 py-1 rounded-full text-xs font-medium ${getDifficultyColor(species.difficultyLevel)}`}>
+                        {species.difficultyLevel}
+                      </span>
+                    </div>
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Temperature Range</span>
+                      <span className="font-medium text-gray-900">{species.temperatureMin}°C – {species.temperatureMax}°C</span>
+                    </div>
+                    <div className="flex justify-between py-3 border-b border-gray-100">
+                      <span className="text-gray-600">Position</span>
+                      <span className="font-medium text-gray-900">{species.position}</span>
+                    </div>
+                    <div className="flex justify-between py-3">
+                      <span className="text-gray-600">Sun Exposure</span>
+                      <span className="font-medium text-gray-900">{species.sunExposure}</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Species Information */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Species Information</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="space-y-4">
-                    <div>
-                      <span className="font-medium text-gray-700">Group:</span>
-                      <span className="ml-2 text-gray-600">{species.group}</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Temperature Range:</span>
-                      <span className="ml-2 text-gray-600">{species.temperatureMin}°C – {species.temperatureMax}°C</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Sun Exposure:</span>
-                      <span className="ml-2 text-gray-600">{species.sunExposure}</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Position:</span>
-                      <span className="ml-2 text-gray-600">{species.position}</span>
-                    </div>
+            {/* Care Tips */}
+            <div className="bg-gray-50 rounded-xl p-8">
+              <h3 className="text-lg font-medium text-gray-900 mb-6">Care Guidelines</h3>
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-medium text-gray-900 mb-3">General Care</h4>
+                  <p className="text-gray-700 leading-relaxed">{species.careTips.general}</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Soil</h4>
+                    <p className="text-sm text-gray-600">{species.careTips.soilType}</p>
                   </div>
-                  <div className="space-y-4">
-                    <div>
-                      <span className="font-medium text-gray-700">Leaf Type:</span>
-                      <span className="ml-2 text-gray-600">{species.leafType}</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Climate:</span>
-                      <span className="ml-2 text-gray-600">{getClimateIcon(species.climate)} {species.climate}</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Flowering:</span>
-                      <span className="ml-2 text-gray-600">{species.flowering}</span>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Native Region:</span>
-                      <span className="ml-2 text-gray-600">{species.nativeRegion}</span>
-                    </div>
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Feeding</h4>
+                    <p className="text-sm text-gray-600">{species.careTips.feeding}</p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-gray-900 mb-2">Watering</h4>
+                    <p className="text-sm text-gray-600">{species.careTips.watering}</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Care Information */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Care Information</h3>
-                <div className="space-y-4">
-                  <div>
-                    <span className="font-medium text-gray-700">Difficulty Level:</span>
-                    <span className={`ml-2 px-2 py-1 rounded-full text-xs font-medium ${getDifficultyColor(species.difficultyLevel)}`}>
-                      {species.difficultyLevel}
-                    </span>
-                  </div>
-                  <div>
-                    <span className="font-medium text-gray-700 block mb-2">General Care Tips:</span>
-                    <p className="text-gray-600 leading-relaxed">{species.careTips.general}</p>
-                  </div>
-                  <div>
-                    <span className="font-medium text-gray-700 block mb-2">Soil Type:</span>
-                    <p className="text-gray-600 leading-relaxed">{species.careTips.soilType}</p>
-                  </div>
-                  <div>
-                    <span className="font-medium text-gray-700 block mb-2">Feeding:</span>
-                    <p className="text-gray-600 leading-relaxed">{species.careTips.feeding}</p>
-                  </div>
-                  <div>
-                    <span className="font-medium text-gray-700 block mb-2">Watering:</span>
-                    <p className="text-gray-600 leading-relaxed">{species.careTips.watering}</p>
-                  </div>
-                  <div>
-                    <span className="font-medium text-gray-700 block mb-2">Common Bonsai Styles:</span>
-                    <div className="flex flex-wrap gap-2">
-                      {species.bonsaiStyles.map((style, index) => (
-                        <span key={index} className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-sm">
-                          {style}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+            {/* Bonsai Styles */}
+            <div>
+              <h3 className="text-lg font-medium text-gray-900 mb-6">Popular Bonsai Styles</h3>
+              <div className="flex flex-wrap gap-3">
+                {species.bonsaiStyles.map((style, index) => (
+                  <span key={index} className="px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm font-medium">
+                    {style}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
@@ -226,76 +236,89 @@ const BonsaiDetail = ({ species, onBack }) => {
 
       case 'development':
         return (
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Development Stages</h3>
-              <p className="text-gray-600 mb-6">
-                Explore the different development stages of {species.commonName} bonsai, from early development to mature specimens.
+          <div className="space-y-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-light text-gray-900 mb-4">Development Stages</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Follow the progression of {species.commonName} from early development through maturity.
               </p>
-              <ImageGallery images={species.images.developmentStages} category="development" />
             </div>
+            <ImageGallery images={species.images.developmentStages} category="development" />
           </div>
         );
 
       case 'seasons':
         return (
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Seasonal Variations</h3>
-              <p className="text-gray-600 mb-6">
-                See how {species.commonName} changes throughout the four seasons, showcasing its natural beauty year-round.
+          <div className="space-y-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-light text-gray-900 mb-4">Seasonal Changes</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Observe how {species.commonName} transforms throughout the seasons.
               </p>
-              <ImageGallery images={species.images.seasons} category="seasons" />
             </div>
+            <ImageGallery images={species.images.seasons} category="seasons" />
           </div>
         );
 
       case 'styles':
         return (
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Bonsai Styles</h3>
-              <p className="text-gray-600 mb-6">
-                Discover the various bonsai styles that work well with {species.commonName}, each showcasing different artistic expressions.
+          <div className="space-y-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-light text-gray-900 mb-4">Bonsai Styles</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Explore different styling approaches for {species.commonName}.
               </p>
-              <ImageGallery images={species.images.styles} category="styles" />
             </div>
+            <ImageGallery images={species.images.styles} category="styles" />
           </div>
         );
 
       case 'nature':
         return (
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">In Nature</h3>
-              <p className="text-gray-600 mb-6">
-                See {species.commonName} in its natural habitat, growing wild in its native environment. These images show how the species appears in nature before being cultivated as bonsai.
+          <div className="space-y-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-light text-gray-900 mb-4">In Natural Habitat</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                See {species.commonName} in its native environment and natural form.
               </p>
-              <ImageGallery images={species.images.nature} category="nature" />
             </div>
+            <ImageGallery images={species.images.nature} category="nature" />
           </div>
         );
 
       case 'techniques':
         return (
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Bonsai Techniques</h3>
-              <p className="text-gray-600 mb-6">
-                Learn about the various techniques used in bonsai cultivation, and how they apply to {species.commonName}.
+          <div className="space-y-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-light text-gray-900 mb-4">Bonsai Techniques</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Professional techniques and timing for {species.commonName} care and styling.
               </p>
-              <div className="space-y-6">
-                {species.techniques.filter(tech => !tech.notRecommended).map((technique, index) => (
-                  <div key={index} className="border-b pb-4 last:border-b-0 last:pb-0">
-                    <h4 className="text-lg font-semibold text-gray-700 mb-2">{technique.name}</h4>
-                    <p className="text-gray-600 mb-2">{technique.description}</p>
-                    <ul className="list-disc list-inside text-gray-600 text-sm">
-                      <li><span className="font-medium">Timing:</span> {technique.timing}</li>
-                      <li><span className="font-medium">Maturity Stage:</span> {technique.maturityStage}</li>
-                    </ul>
+            </div>
+            <div className="grid gap-6">
+              {species.techniques.map((technique, index) => (
+                <div key={index} className="bg-white border border-gray-100 rounded-xl p-6">
+                  <div className="flex items-start justify-between mb-4">
+                    <h4 className="text-lg font-medium text-gray-900">{technique.name}</h4>
+                    {technique.notRecommended && (
+                      <span className="px-3 py-1 bg-red-50 text-red-600 text-xs font-medium rounded-full">
+                        Not Recommended
+                      </span>
+                    )}
                   </div>
-                ))}
-              </div>
+                  <p className="text-gray-700 mb-4 leading-relaxed">{technique.description}</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                      <span className="font-medium text-gray-900">Timing:</span>
+                      <p className="text-gray-600 mt-1">{technique.timing}</p>
+                    </div>
+                    <div>
+                      <span className="font-medium text-gray-900">Maturity Stage:</span>
+                      <p className="text-gray-600 mt-1">{technique.maturityStage}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         );
@@ -306,72 +329,66 @@ const BonsaiDetail = ({ species, onBack }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <div className="bg-white shadow-sm border-b">
-        <div className="max-w-6xl mx-auto px-4 py-6">
-          <button
-            onClick={onBack}
-            className="flex items-center gap-2 text-green-600 hover:text-green-700 mb-4 transition-colors"
-          >
-            <ArrowLeft size={20} />
-            Back to Gallery
-          </button>
-          
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                {species.scientificName}
-              </h1>
-              <p className="text-lg text-gray-600">{species.commonName}</p>
+      <header className="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur-sm z-40">
+        <div className="max-w-6xl mx-auto px-6 py-6">
+          <div className="flex items-center justify-between">
+            <button
+              onClick={onBack}
+              className="flex items-center gap-3 text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              <ArrowLeft className="h-5 w-5" />
+              <span className="text-sm font-medium">Back to Collection</span>
+            </button>
+            
+            <div className="text-center">
+              <h1 className="text-2xl font-light text-gray-900">{species.commonName}</h1>
+              <p className="text-sm text-gray-500 italic">{species.scientificName}</p>
             </div>
-            <div className="mt-4 md:mt-0">
-              <span className={`px-3 py-1 rounded-full text-sm font-medium ${getDifficultyColor(species.difficultyLevel)}`}>
-                {species.difficultyLevel}
-              </span>
-            </div>
+            
+            <div className="w-24"></div> {/* Spacer for centering */}
           </div>
         </div>
-      </div>
+      </header>
 
       {/* Navigation Tabs */}
-      <div className="bg-white border-b">
-        <div className="max-w-6xl mx-auto px-4">
-          <nav className="flex space-x-8">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
-                  activeTab === tab.id
-                    ? 'border-green-500 text-green-600'
-                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </nav>
+      <nav className="border-b border-gray-100 sticky top-[73px] bg-white/95 backdrop-blur-sm z-30">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex space-x-8 overflow-x-auto">
+            {tabs.map((tab) => {
+              const Icon = tab.icon;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`flex items-center gap-2 py-4 px-2 border-b-2 transition-colors whitespace-nowrap ${
+                    activeTab === tab.id
+                      ? 'border-green-500 text-green-600'
+                      : 'border-transparent text-gray-500 hover:text-gray-700'
+                  }`}
+                >
+                  <Icon className="h-4 w-4" />
+                  <span className="text-sm font-medium">{tab.label}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      </nav>
 
       {/* Content */}
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <main className="max-w-6xl mx-auto px-6 py-12">
         {renderTabContent()}
-      </div>
+      </main>
 
       {/* Image Modal */}
       {selectedImage && (
-        <ImageModal 
-          imagePath={selectedImage} 
-          onClose={() => setSelectedImage(null)} 
-        />
+        <ImageModal imagePath={selectedImage} onClose={() => setSelectedImage(null)} />
       )}
     </div>
   );
 };
 
 export default BonsaiDetail;
-
-
 
