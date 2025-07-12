@@ -40,9 +40,9 @@ Make sure you have Node.js and pnpm (or npm) installed on your system.
     ```bash
     git clone https://github.com/bribeirobr25/bonsai-beta.git
     ```
-2.  **Navigate into the project directory:**
+2.  **Navigate into the cloned repository directory:**
     ```bash
-    cd bonsai-beta/bonsai-photo-book
+    cd bonsai-beta
     ```
 3.  **Install dependencies:**
     ```bash
@@ -66,16 +66,14 @@ Make sure you have Node.js and pnpm (or npm) installed on your system.
 
 ```
 bonsai-beta/
-├── bonsai-photo-book/          # React application source code
-│   ├── public/                 # Static assets (images, favicon)
-│   │   └── bonsai_photos/      # Optimized bonsai images
-│   ├── src/                    # React source files
-│   │   ├── components/         # Reusable React components
-│   │   ├── data/               # Data files (bonsaiData.js)
-│   │   └── App.jsx             # Main application component
-│   ├── ...                     # Other React project files
-├── bonsai_photos/              # Original collected bonsai images (before optimization)
-└── README.md                   # This file
+├── public/                 # Static assets (images, favicon)
+│   └── bonsai_photos/      # Optimized bonsai images
+├── src/                    # React source files
+│   ├── components/         # Reusable React components
+│   ├── data/               # Data files (bonsaiData.js)
+│   └── App.jsx             # Main application component
+├── ...                     # Other React project files (package.json, vite.config.js, etc.)
+└── README.md               # This file
 ```
 
 ## Contributing
