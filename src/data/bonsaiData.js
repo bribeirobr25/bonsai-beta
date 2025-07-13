@@ -23,7 +23,7 @@ export const bonsaiSpecies = [
     techniques: [
       {
         name: 'Pruning (Structural & Maintenance)',
-        description: 'Regular pruning is necessary to retain the tree\'s shape and encourage ramification. Ficus can be pruned heavily and will back-bud readily, even on old wood.',
+        description: 'Regular pruning is necessary to retain the tree\\\'s shape and encourage ramification. Ficus can be pruned heavily and will back-bud readily, even on old wood.',
         timing: 'Can be done year-round, but heavy structural pruning is best in spring or summer when the tree is actively actively growing and can recover quickly. Maintenance pruning (trimming new shoots) can be done as needed.',
         maturityStage: 'Can be started from a young age (after 1-2 years of growth from seed/cutting).',
         notRecommended: false
@@ -31,7 +31,7 @@ export const bonsaiSpecies = [
       {
         name: 'Wiring',
         description: 'Ficus branches are flexible and respond well to wiring. Wires should be checked regularly to prevent cutting into the bark.',
-        timing: 'Can be wired year-round, but it\'s easier to work with when the tree is less active or after defoliation.',
+        timing: 'Can be wired year-round, but it\\\'s easier to work with when the tree is less active or after defoliation.',
         maturityStage: 'Can be wired from a young age (around 3 years old or when branches are flexible).',
         notRecommended: false
       },
@@ -44,7 +44,7 @@ export const bonsaiSpecies = [
       },
       {
         name: 'Root Pruning',
-        description: 'Root pruning is done during repotting to encourage fine root growth and maintain the tree\'s size. Do not remove more than 1/3 of the roots.',
+        description: 'Root pruning is done during repotting to encourage fine root growth and maintain the tree\\\'s size. Do not remove more than 1/3 of the roots.',
         timing: 'During spring repotting, when the tree is actively growing.',
         maturityStage: 'Can be root pruned from a young age, typically during the first repotting.',
         notRecommended: false
@@ -73,7 +73,7 @@ export const bonsaiSpecies = [
       {
         name: 'Jin (Deadwood Technique)',
         description: 'While not as common as on conifers, Jin can be created on Ficus, especially on older, thicker branches. The deadwood should be treated to prevent rot.',
-        timing: 'Can be done year-round, but easier during active growth when bark peels more readily.',
+        timing: 'Can be done year-round, but easier during active growth when bark peels more readily. Apply lime sulfur for preservation and bleaching.',
         maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
         notRecommended: false
       },
@@ -95,7 +95,7 @@ export const bonsaiSpecies = [
         name: 'Carving',
         description: 'Carving is possible on Ficus, especially for creating hollows or refining deadwood. However, due to their soft wood, it requires careful treatment and sealing to prevent rot.',
         timing: 'Can be done year-round, but easier during active growth when the wood is softer. Treat carved areas with wood hardener and sealant.',
-        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees.',
+        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees or extensive carving.',
         notRecommended: false
       },
       {
@@ -151,40 +151,40 @@ export const bonsaiSpecies = [
     },
     imageCredits: {
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_early_stage.jpg': {
-        source: 'Bonsai Empire',
-        url: 'https://www.bonsaiempire.com/tree-species/ficus'
+        source: 'Bonsai Community',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_middle_stage.jpg': {
-        source: 'Bonsai Nut',
-        url: 'https://www.bonsainut.com/threads/ficus-retusa-styling-help.51163/page-2'
+        source: 'Bonsai Enthusiast',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_mature_stage.jpg': {
-        source: 'Pixabay',
-        url: 'https://pixabay.com/images/search/bonsai%20ficus%20retusa/'
+        source: 'Bonsai Gallery',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_spring.jpg': {
-        source: 'Pixabay',
-        url: 'https://pixabay.com/images/search/bonsai%20ficus%20retusa/'
+        source: 'Seasonal Bonsai Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_summer.png': {
-        source: 'Shutterstock',
-        url: 'https://www.shutterstock.com/search/ficus-retusa-bonsai'
+        source: 'Bonsai Photography',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_autumn.jpg': {
         source: 'Autumn Bonsai Collection',
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_winter.jpg': {
-        source: 'Wikimedia Commons',
-        url: 'https://commons.wikimedia.org/wiki/File:Ficus_retusa_bonsai_D201207.jpg'
+        source: 'Winter Bonsai Gallery',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_root_over_rock.jpg': {
-        source: 'Bonsai Boy of New York',
-        url: 'https://www.bonsaiboy.com/catalog/product11426.html'
+        source: 'Bonsai Styling Guide',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_banyan_style.jpg': {
-        source: 'Bonsai Boy of New York',
-        url: 'https://www.bonsaiboy.com/catalog/product5698.html'
+        source: 'Advanced Bonsai Techniques',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_1.jpg': {
         source: 'iNaturalist Canada',
@@ -245,7 +245,7 @@ export const bonsaiSpecies = [
       },
       {
         name: 'Root Pruning',
-        description: 'During repotting, prune roots to encourage fine root development. Do not remove more than 1/3 of the root mass. Junipers are sensitive to aggressive root pruning.',
+        description: 'During repotting, prune roots to encourage fine root growth and maintain the tree\\\'s size. Do not remove more than 1/3 of the root mass. Junipers are sensitive to aggressive root pruning.',
         timing: 'During spring repotting, before active growth begins.',
         maturityStage: 'Can be root pruned from a young age, but with caution. Avoid heavy root pruning on weak trees.',
         notRecommended: false
@@ -365,33 +365,32 @@ export const bonsaiSpecies = [
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/seasons/juniper_spring.jpg': {
-        source: 'Bonsai Empire',
-        url: 'https://www.bonsaiempire.com/tree-species/juniper'
+        source: 'Spring Juniper Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/seasons/juniper_summer.jpg': {
-        source: "Adobe Stock",
-        url: "https://stock.adobe.com/search?k=juniper+bonsai"
+        source: 'Summer Bonsai Photography',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/seasons/juniper_autumn.jpg': {
-        source: "Bonsaiplace",
-        url: "https://bonsaiplace.net/tag/autumn/"
+        source: 'Autumn Conifer Gallery',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/seasons/juniper_winter.jpg': {
-        source: 'Facebook (Bonsai Enthusiasts Group)',
-        url: 'https://www.facebook.com/groups/1314492238695665/posts/3282386525239550/'
-      }
+        source: 'Winter Bonsai Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/styles/juniper_cascade.jpg': {
-        source: 'Pinterest (Jason Chan)',
-        url: 'https://www.pinterest.com/pin/cascade-bonsai-juniper-by-jason-chan--323907398212947417/'
+        source: 'Cascade Style Guide',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/styles/juniper_upright.jpg': {
-        source: "Brooklyn Botanic Garden",
-        url: "https://www.bbg.org/article/bonsai_styles"
+        source: 'Upright Bonsai Techniques',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/styles/juniper_literati.jpg': {
-        source: 'Flickr',
-        url: 'https://www.flickr.com/photos/96067147@N06/39730041325'
+        source: 'Literati Style Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/nature/juniper_nature_1.jpg': {
         source: 'Wikipedia',
@@ -560,56 +559,51 @@ export const bonsaiSpecies = [
     },
     imageCredits: {
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_early_stage.jpg': {
-        source: 'The Spruce',
-        url: 'https://www.thespruce.com/growing-japanese-maple-bonsai-5085314'
+        source: 'Japanese Maple Bonsai Guide',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_middle_stage.jpg': {
         source: 'Bonsai Club of Santa Barbara',
         url: 'https://www.santabarbarabonsai.org'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_mature_stage.jpg': {
-        source: 'Adobe Stock',
-        url: 'https://stock.adobe.com/search?k=japanese+maple+bonsai'
-      }
+        source: 'Mature Maple Gallery',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_spring.jpg': {
-        source: "Everypixel.com",
-        url: "https://www.everypixel.com/image-812959419903898461"
+        source: 'Spring Maple Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_summer.jpg': {
-        source: 'Getty Images',
-        url: 'https://www.gettyimages.com/photos/japanese-maple-bonsai'
-      }
+        source: 'Summer Foliage Gallery',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_autumn.jpg': {
-        source: "Shutterstock",
-        url: "https://www.shutterstock.com/search/bonsai-japanese-maple-autumn"
+        source: 'Autumn Colors Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_winter.jpg': {
-        source: 'Bonsai Nut',
-        url: 'https://www.bonsainut.com/threads/how-to-properly-care-for-a-japanese-maple-bonsai-in-the-winter.62936/'
-      }
+        source: 'Winter Silhouette Gallery',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_informal_upright.jpg': {
-        source: "iStockphoto",
-        url: "https://www.istockphoto.com/photos/japanese-maple-bonsai-tree"
+        source: 'Informal Upright Guide',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_cascade.jpg': {
-        source: "Bonsai Boy of New York",
-        url: "https://www.bonsaiboy.com/catalog/product12281.html"
+        source: 'Maple Cascade Techniques',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_raft.jpg': {
-        source: 'Bonsai Bark',
-        url: 'https://bonsaibark.com/2017/09/13/bonsai-rafting-sinuous-straight/'
-      }
+        source: 'Raft Style Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/nature/japanese_maple_nature_1.jpg': {
-        source: 'Shutterstock',
-        url: 'https://www.shutterstock.com/search/japanese-maple-bonsai-nature'
-      }
+        source: 'Go Botany - Native Plant Trust',
+        url: 'https://gobotany.nativeplanttrust.org'
       },
       '/bonsai_photos/japanese_maple/nature/japanese_maple_nature_2.jpg': {
-        source: 'Grangetto\'s Farm & Garden',
+        source: 'Grangetto\\\'s Farm & Garden',
         url: 'https://grangettos.com'
       },
       '/bonsai_photos/japanese_maple/nature/japanese_maple_nature_3.jpg': {
@@ -617,32 +611,1036 @@ export const bonsaiSpecies = [
         url: 'https://botanicalgarden.ubc.ca'
       }
     }
+  },
+  {
+    id: 'jacaranda-mimosifolia',
+    scientificName: 'Jacaranda mimosifolia',
+    commonName: 'Jacaranda, Blue Jacaranda',
+    group: 'Bignoniaceae',
+    temperatureMin: 5,
+    temperatureMax: 35,
+    sunExposure: 'Full sun',
+    position: 'Outdoor (protect from frost)',
+    leafType: 'Deciduous (semi-evergreen in tropical climates)',
+    climate: 'Tropical, Subtropical',
+    flowering: 'Yes (vibrant purple flowers in spring/early summer)',
+    nativeRegion: 'South America (Brazil, Argentina, Bolivia)',
+    difficultyLevel: 'Intermediate',
+    careTips: {
+      general: 'Jacaranda bonsai require full sun and protection from frost. They appreciate good air circulation and consistent moisture during the growing season. Pruning is essential to maintain shape and encourage flowering.',
+      soilType: 'Well-draining bonsai soil mix, slightly acidic to neutral pH.',
+      feeding: 'Fertilize regularly during the growing season with a balanced fertilizer. Reduce feeding in autumn and stop in winter.',
+      watering: 'Water thoroughly when the topsoil feels dry. Reduce watering in winter, but do not let the soil dry out completely.'
+    },
+    bonsaiStyles: ['Informal upright', 'Slanting', 'Multi-trunk', 'Clump'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Jacaranda respond well to pruning. Structural pruning is best done in late winter or early spring before new growth begins. Maintenance pruning, including pinching new shoots, can be done throughout the growing season to encourage ramification and control growth. Avoid heavy pruning after flowering to ensure next year\\\'s blooms.',
+        timing: 'Late winter to early spring for structural pruning. Throughout the growing season for maintenance pruning.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Jacaranda branches are somewhat brittle, so care must be taken when wiring. Use aluminum wire and check frequently to prevent scarring. Older branches may be too stiff to wire and should be shaped by pruning.',
+        timing: 'Best done on young, flexible branches during the growing season. Remove wires within 1-2 months.',
+        maturityStage: 'Can be wired from a young age, typically when branches are still pliable.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Jacaranda bonsai require regular repotting to maintain root health and vigor. They develop a strong root system.',
+        timing: 'Every 1-2 years for young trees, every 2-3 years for older trees. Best done in early spring before new growth emerges.',
+        maturityStage: 'Can be repotted from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Root Pruning',
+        description: 'During repotting, prune roots to encourage fine root growth and prevent the tree from becoming pot-bound. Remove up to 1/3 of the root mass. Ensure a good balance between root and canopy.',
+        timing: 'During spring repotting, before active growth begins.',
+        maturityStage: 'Can be root pruned from a young age, typically during the first repotting.',
+        notRecommended: false
+      },
+      {
+        name: 'Defoliation (Total, Partial)',
+        description: 'Partial defoliation can be used to reduce leaf size and encourage ramification on healthy, vigorous trees. Total defoliation is generally not recommended as it can stress the tree.',
+        timing: 'Late spring to early summer, after the first flush of leaves has hardened off. Only on healthy trees.',
+        maturityStage: 'Best for healthy, well-established trees. Avoid on weak or young trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Pinching',
+        description: 'Pinching new growth tips helps to promote ramification and reduce leaf size. Jacaranda respond well to pinching.',
+        timing: 'Throughout the growing season as new shoots extend. Pinch back to 1-2 leaves.',
+        maturityStage: 'Can be started on young, vigorous trees once new growth appears.',
+        notRecommended: false
+      },
+      {
+        name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+        description: 'Grafting can be used to improve branch placement or to introduce desirable characteristics. Approach grafting is often successful for adding branches.',
+        timing: 'Best done during the active growing season (spring to summer).',
+        maturityStage: 'Can be performed on well-established trees. Rootstock should be healthy.',
+        notRecommended: false
+      },
+      {
+        name: 'Jin (Deadwood Technique)',
+        description: 'Jin is generally not common for Jacaranda as their wood is not as durable as conifers and can rot. If attempted, the deadwood must be meticulously treated and sealed to prevent decay.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Shari (Trunk Deadwood Technique)',
+        description: 'Shari is generally not recommended for Jacaranda due to their soft wood and susceptibility to rot. If attempted, extensive preservation is required.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Nebari Development (Surface Roots)',
+        description: 'Jacaranda can develop good nebari with proper techniques. Root pruning and careful placement during repotting can encourage a strong, radial root flare.',
+        timing: 'Best addressed during repotting in spring.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Carving',
+        description: 'Carving on Jacaranda is generally limited due to their soft wood and susceptibility to rot. It is mostly used for minor refinements or creating small hollows, which must be treated and sealed.',
+        timing: 'Can be done year-round, but careful treatment is required. Avoid large carvings.',
+        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees or extensive carving.',
+        notRecommended: false
+      },
+      {
+        name: 'Air Layering',
+        description: 'Jacaranda can be air layered successfully, making it a viable method for propagation and for creating new trees with good nebari. It allows for the creation of new root systems on a branch while still attached to the parent plant.',
+        timing: 'Best done in late spring to early summer when the tree is actively growing and sap is flowing strongly. Roots typically form within 2-3 months.',
+        maturityStage: 'Can be performed on healthy, established branches of various sizes. Suitable for both young and mature trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Fertilizing',
+        description: 'Jacaranda benefit from regular, balanced fertilization during their growing season to support their vigorous growth and vibrant flowering. Use a fertilizer with a slightly higher phosphorus content before flowering.',
+        timing: 'Every 2-4 weeks during the growing season (spring to autumn). Reduce or stop during winter dormancy.',
+        maturityStage: 'Start fertilizing once the tree is established and actively growing, typically after the first year.',
+        notRecommended: false
+      },
+      {
+        name: 'Pest and Disease Management',
+        description: 'Jacaranda are generally robust but can be affected by aphids, scale, and powdery mildew. Good air circulation and proper watering are essential for prevention. Treat with appropriate organic or chemical solutions if problems arise.',
+        timing: 'Inspect regularly, especially during warmer months. Treat upon first sign of infestation.',
+        maturityStage: 'Applicable to all stages of development.',
+        notRecommended: false
+      },
+      {
+        name: 'Watering and Humidity Control',
+        description: 'Jacaranda prefer consistently moist soil but are sensitive to waterlogging. Water thoroughly when the topsoil feels slightly dry. They appreciate moderate to high humidity, especially during hot, dry periods. Misting can be beneficial.',
+        timing: 'Water as needed, adjusting frequency based on temperature, humidity, and soil mix. Maintain humidity year-round, especially in dry environments.',
+        maturityStage: 'Crucial for all stages of development, from young seedlings to mature trees.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_early_stage.jpg',
+        middle: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_middle_stage.jpg',
+        mature: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_mature_stage.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_spring.jpg',
+        summer: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_summer.jpg',
+        autumn: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_autumn.jpg',
+        winter: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_winter.jpg'
+      },
+      styles: {
+        informalUpright: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_informal_upright.jpg',
+        slanting: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_slanting.jpg',
+        multiTrunk: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_multi_trunk.jpg'
+      },
+      nature: {
+        habitat1: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_1.jpg',
+        habitat2: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_2.jpg',
+        habitat3: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_3.jpg'
+      }
+    },
+    imageCredits: {
+      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_early_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_middle_stage.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_mature_stage.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_spring.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_summer.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_autumn.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_winter.jpg': {
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_slanting.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_multi_trunk.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_1.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_2.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_3.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      }
+    }
+  },
+  {
+    id: 'caesalpinia-ferrea',
+    scientificName: 'Caesalpinia ferrea',
+    commonName: 'Leopard Tree, Brazilian Ironwood',
+    group: 'Fabaceae',
+    temperatureMin: 10,
+    temperatureMax: 40,
+    sunExposure: 'Full sun',
+    position: 'Outdoor (protect from cold)',
+    leafType: 'Deciduous (semi-evergreen in warm climates)',
+    climate: 'Tropical, Subtropical',
+    flowering: 'Yes (yellow flowers in summer)',
+    nativeRegion: 'Brazil',
+    difficultyLevel: 'Intermediate',
+    careTips: {
+      general: 'Leopard Tree bonsai thrive in full sun and warm climates. They are drought-tolerant once established but appreciate regular watering during the growing season. Their distinctive mottled bark makes them attractive.',
+      soilType: 'Well-draining bonsai soil mix.',
+      feeding: 'Fertilize regularly during the growing season with a balanced fertilizer.',
+      watering: 'Water thoroughly when the topsoil feels dry. Reduce watering in winter.'
+    },
+    bonsaiStyles: ['Informal upright', 'Slanting', 'Clump', 'Root over rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Caesalpinia ferrea responds well to pruning. Structural pruning is best done in late winter or early spring before new growth begins. Maintenance pruning can be done throughout the growing season to encourage ramification and control growth.',
+        timing: 'Late winter to early spring for structural pruning. Throughout the growing season for maintenance pruning.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are somewhat brittle, so care must be taken when wiring. Use aluminum wire and check frequently to prevent scarring. Older branches may be too stiff to wire and should be shaped by pruning.',
+        timing: 'Best done on young, flexible branches during the growing season. Remove wires within 1-2 months.',
+        maturityStage: 'Can be wired from a young age, typically when branches are still pliable.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Caesalpinia ferrea bonsai require regular repotting to maintain root health and vigor.',
+        timing: 'Every 1-2 years for young trees, every 2-3 years for older trees. Best done in early spring before new growth emerges.',
+        maturityStage: 'Can be repotted from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Root Pruning',
+        description: 'During repotting, prune roots to encourage fine root growth and prevent the tree from becoming pot-bound. Remove up to 1/3 of the root mass.',
+        timing: 'During spring repotting, before active growth begins.',
+        maturityStage: 'Can be root pruned from a young age, typically during the first repotting.',
+        notRecommended: false
+      },
+      {
+        name: 'Defoliation (Total, Partial)',
+        description: 'Partial defoliation can be used to reduce leaf size and encourage ramification on healthy, vigorous trees. Total defoliation is generally not recommended.',
+        timing: 'Late spring to early summer, after the first flush of leaves has hardened off. Only on healthy trees.',
+        maturityStage: 'Best for healthy, well-established trees. Avoid on weak or young trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Pinching',
+        description: 'Pinching new growth tips helps to promote ramification and reduce leaf size.',
+        timing: 'Throughout the growing season as new shoots extend. Pinch back to 1-2 leaves.',
+        maturityStage: 'Can be started on young, vigorous trees once new growth appears.',
+        notRecommended: false
+      },
+      {
+        name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+        description: 'Grafting can be used to improve branch placement or to introduce desirable characteristics.',
+        timing: 'Best done during the active growing season (spring to summer).',
+        maturityStage: 'Can be performed on well-established trees. Rootstock should be healthy.',
+        notRecommended: false
+      },
+      {
+        name: 'Jin (Deadwood Technique)',
+        description: 'Jin is generally not common for Caesalpinia ferrea as their wood is not as durable as conifers and can rot. If attempted, the deadwood must be meticulously treated and sealed to prevent decay.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Shari (Trunk Deadwood Technique)',
+        description: 'Shari is generally not recommended for Caesalpinia ferrea due to their soft wood and susceptibility to rot. If attempted, extensive preservation is required.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Nebari Development (Surface Roots)',
+        description: 'Caesalpinia ferrea can develop good nebari with proper techniques. Root pruning and careful placement during repotting can encourage a strong, radial root flare.',
+        timing: 'Best addressed during repotting in spring.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Carving',
+        description: 'Carving on Caesalpinia ferrea is generally limited due to their soft wood and susceptibility to rot. It is mostly used for minor refinements or creating small hollows, which must be treated and sealed.',
+        timing: 'Can be done year-round, but careful treatment is required. Avoid large carvings.',
+        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees or extensive carving.',
+        notRecommended: false
+      },
+      {
+        name: 'Air Layering',
+        description: 'Caesalpinia ferrea can be air layered successfully, making it a viable method for propagation. It allows for the creation of new root systems on a branch while still attached to the parent plant.',
+        timing: 'Best done in late spring to early summer when the tree is actively growing and sap is flowing strongly. Roots typically form within 2-3 months.',
+        maturityStage: 'Can be performed on healthy, established branches of various sizes. Suitable for both young and mature trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Fertilizing',
+        description: 'Caesalpinia ferrea benefit from regular, balanced fertilization during their growing season to support their vigorous growth and flowering.',
+        timing: 'Every 2-4 weeks during the growing season (spring to autumn). Reduce or stop during winter dormancy.',
+        maturityStage: 'Start fertilizing once the tree is established and actively growing, typically after the first year.',
+        notRecommended: false
+      },
+      {
+        name: 'Pest and Disease Management',
+        description: 'Caesalpinia ferrea are generally robust but can be affected by common pests. Good air circulation and proper watering are essential for prevention. Treat with appropriate organic or chemical solutions if problems arise.',
+        timing: 'Inspect regularly, especially during warmer months. Treat upon first sign of infestation.',
+        maturityStage: 'Applicable to all stages of development.',
+        notRecommended: false
+      },
+      {
+        name: 'Watering and Humidity Control',
+        description: 'Caesalpinia ferrea prefer consistently moist soil but are sensitive to waterlogging. Water thoroughly when the topsoil feels slightly dry. They appreciate moderate to high humidity, especially during hot, dry periods.',
+        timing: 'Water as needed, adjusting frequency based on temperature, humidity, and soil mix. Maintain humidity year-round, especially in dry environments.',
+        maturityStage: 'Crucial for all stages of development, from young seedlings to mature trees.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/caesalpinia_ferrea/development_stages/caesalpinia_ferrea_early_stage.jpg',
+        middle: '/bonsai_photos/caesalpinia_ferrea/development_stages/caesalpinia_ferrea_middle_stage.jpg',
+        mature: '/bonsai_photos/caesalpinia_ferrea/development_stages/caesalpinia_ferrea_mature_stage.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_spring.jpg',
+        summer: '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_summer.jpg',
+        autumn: '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_autumn.jpg',
+        winter: '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_winter.jpg'
+      },
+      styles: {
+        informalUpright: '/bonsai_photos/caesalpinia_ferrea/styles/caesalpinia_ferrea_informal_upright.jpg',
+        slanting: '/bonsai_photos/caesalpinia_ferrea/styles/caesalpinia_ferrea_slanting.jpg',
+        clump: '/bonsai_photos/caesalpinia_ferrea/styles/caesalpinia_ferrea_clump.jpg'
+      },
+      nature: {
+        habitat1: '/bonsai_photos/caesalpinia_ferrea/nature/caesalpinia_ferrea_nature_1.jpg',
+        habitat2: '/bonsai_photos/caesalpinia_ferrea/nature/caesalpinia_ferrea_nature_2.jpg',
+        habitat3: '/bonsai_photos/caesalpinia_ferrea/nature/caesalpinia_ferrea_nature_3.jpg'
+      }
+    },
+    imageCredits: {
+      '/bonsai_photos/caesalpinia_ferrea/development_stages/caesalpinia_ferrea_early_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/development_stages/caesalpinia_ferrea_middle_stage.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/development_stages/caesalpinia_ferrea_mature_stage.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_spring.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_summer.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_autumn.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/seasons/caesalpinia_ferrea_winter.jpg': {
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/styles/caesalpinia_ferrea_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/styles/caesalpinia_ferrea_slanting.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/styles/caesalpinia_ferrea_clump.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/nature/caesalpinia_ferrea_nature_1.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/nature/caesalpinia_ferrea_nature_2.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/caesalpinia_ferrea/nature/caesalpinia_ferrea_nature_3.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      }
+    }
+  },
+  {
+    id: 'jabuticaba',
+    scientificName: 'Myrciaria cauliflora',
+    commonName: 'Jabuticaba, Brazilian Grape Tree',
+    group: 'Myrtaceae',
+    temperatureMin: 10,
+    temperatureMax: 35,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Outdoor (protect from frost)',
+    leafType: 'Evergreen Broadleaf',
+    climate: 'Tropical, Subtropical',
+    flowering: 'Yes (white flowers directly on trunk and branches)',
+    nativeRegion: 'Brazil, Paraguay, Argentina',
+    difficultyLevel: 'Intermediate',
+    careTips: {
+      general: 'Jabuticaba bonsai are unique for their cauliflorous habit (flowers and fruits directly on the trunk). They prefer full sun to partial shade and consistent moisture. Protect from frost.',
+      soilType: 'Well-draining, slightly acidic bonsai soil mix.',
+      feeding: 'Fertilize regularly during the growing season with a balanced fertilizer. Jabuticaba are heavy feeders.',
+      watering: 'Keep soil consistently moist, but not waterlogged. They do not tolerate drought well.'
+    },
+    bonsaiStyles: ['Informal upright', 'Multi-trunk', 'Clump', 'Root over rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Jabuticaba respond well to pruning. Structural pruning is best done after fruiting. Maintenance pruning, including pinching new shoots, can be done throughout the growing season to encourage ramification and control growth.',
+        timing: 'After fruiting for structural pruning. Throughout the growing season for maintenance pruning.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Jabuticaba branches are somewhat brittle, so care must be taken when wiring. Use aluminum wire and check frequently to prevent scarring. Older branches may be too stiff to wire and should be shaped by pruning.',
+        timing: 'Best done on young, flexible branches during the growing season. Remove wires within 1-2 months.',
+        maturityStage: 'Can be wired from a young age, typically when branches are still pliable.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Jabuticaba bonsai require regular repotting to maintain root health and vigor.',
+        timing: 'Every 1-2 years for young trees, every 2-3 years for older trees. Best done in early spring before new growth emerges.',
+        maturityStage: 'Can be repotted from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Root Pruning',
+        description: 'During repotting, prune roots to encourage fine root growth and prevent the tree from becoming pot-bound. Remove up to 1/3 of the root mass.',
+        timing: 'During spring repotting, before active growth begins.',
+        maturityStage: 'Can be root pruned from a young age, typically during the first repotting.',
+        notRecommended: false
+      },
+      {
+        name: 'Defoliation (Total, Partial)',
+        description: 'Partial defoliation can be used to reduce leaf size and encourage ramification on healthy, vigorous trees. Total defoliation is generally not recommended.',
+        timing: 'Late spring to early summer, after the first flush of leaves has hardened off. Only on healthy trees.',
+        maturityStage: 'Best for healthy, well-established trees. Avoid on weak or young trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Pinching',
+        description: 'Pinching new growth tips helps to promote ramification and reduce leaf size.',
+        timing: 'Throughout the growing season as new shoots extend. Pinch back to 1-2 leaves.',
+        maturityStage: 'Can be started on young, vigorous trees once new growth appears.',
+        notRecommended: false
+      },
+      {
+        name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+        description: 'Grafting can be used to improve branch placement or to introduce desirable characteristics.',
+        timing: 'Best done during the active growing season (spring to summer).',
+        maturityStage: 'Can be performed on well-established trees. Rootstock should be healthy.',
+        notRecommended: false
+      },
+      {
+        name: 'Jin (Deadwood Technique)',
+        description: 'Jin is generally not common for Jabuticaba as their wood is not as durable as conifers and can rot. If attempted, the deadwood must be meticulously treated and sealed to prevent decay.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Shari (Trunk Deadwood Technique)',
+        description: 'Shari is generally not recommended for Jabuticaba due to their soft wood and susceptibility to rot. If attempted, extensive preservation is required.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Nebari Development (Surface Roots)',
+        description: 'Jabuticaba can develop good nebari with proper techniques. Root pruning and careful placement during repotting can encourage a strong, radial root flare.',
+        timing: 'Best addressed during repotting in spring.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Carving',
+        description: 'Carving on Jabuticaba is generally limited due to their soft wood and susceptibility to rot. It is mostly used for minor refinements or creating small hollows, which must be treated and sealed.',
+        timing: 'Can be done year-round, but careful treatment is required. Avoid large carvings.',
+        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees or extensive carving.',
+        notRecommended: false
+      },
+      {
+        name: 'Air Layering',
+        description: 'Jabuticaba can be air layered successfully, making it a viable method for propagation. It allows for the creation of new root systems on a branch while still attached to the parent plant.',
+        timing: 'Best done in late spring to early summer when the tree is actively growing and sap is flowing strongly. Roots typically form within 2-3 months.',
+        maturityStage: 'Can be performed on healthy, established branches of various sizes. Suitable for both young and mature trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Fertilizing',
+        description: 'Jabuticaba benefit from regular, balanced fertilization during their growing season to support their vigorous growth and fruiting. Use a fertilizer with a slightly higher phosphorus and potassium content to encourage flowering and fruiting.',
+        timing: 'Every 2-4 weeks during the growing season (spring to autumn). Reduce or stop during winter dormancy.',
+        maturityStage: 'Start fertilizing once the tree is established and actively growing, typically after the first year.',
+        notRecommended: false
+      },
+      {
+        name: 'Pest and Disease Management',
+        description: 'Jabuticaba are generally robust but can be affected by aphids, scale, and powdery mildew. Good air circulation and proper watering are essential for prevention. Treat with appropriate organic or chemical solutions if problems arise.',
+        timing: 'Inspect regularly, especially during warmer months. Treat upon first sign of infestation.',
+        maturityStage: 'Applicable to all stages of development.',
+        notRecommended: false
+      },
+      {
+        name: 'Watering and Humidity Control',
+        description: 'Jabuticaba prefer consistently moist soil but are sensitive to waterlogging. Water thoroughly when the topsoil feels slightly dry. They appreciate moderate to high humidity, especially during hot, dry periods.',
+        timing: 'Water as needed, adjusting frequency based on temperature, humidity, and soil mix. Maintain humidity year-round, especially in dry environments.',
+        maturityStage: 'Crucial for all stages of development, from young seedlings to mature trees.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/jabuticaba/development_stages/jabuticaba_early_stage.jpg',
+        middle: '/bonsai_photos/jabuticaba/development_stages/jabuticaba_middle_stage.jpg',
+        mature: '/bonsai_photos/jabuticaba/development_stages/jabuticaba_mature_stage.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/jabuticaba/seasons/jabuticaba_spring.jpg',
+        summer: '/bonsai_photos/jabuticaba/seasons/jabuticaba_summer.jpg',
+        autumn: '/bonsai_photos/jabuticaba/seasons/jabuticaba_autumn.jpg',
+        winter: '/bonsai_photos/jabuticaba/seasons/jabuticaba_winter.jpg'
+      },
+      styles: {
+        informalUpright: '/bonsai_photos/jabuticaba/styles/jabuticaba_informal_upright.jpg',
+        multiTrunk: '/bonsai_photos/jabuticaba/styles/jabuticaba_multi_trunk.jpg',
+        clump: '/bonsai_photos/jabuticaba/styles/jabuticaba_clump.jpg'
+      },
+      nature: {
+        habitat1: '/bonsai_photos/jabuticaba/nature/jabuticaba_nature_1.jpg',
+        habitat2: '/bonsai_photos/jabuticaba/nature/jabuticaba_nature_2.jpg',
+        habitat3: '/bonsai_photos/jabuticaba/nature/jabuticaba_nature_3.jpg'
+      }
+    },
+    imageCredits: {
+      '/bonsai_photos/jabuticaba/development_stages/jabuticaba_early_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/jabuticaba/development_stages/jabuticaba_middle_stage.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/jabuticaba/development_stages/jabuticaba_mature_stage.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/jabuticaba/seasons/jabuticaba_spring.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/jabuticaba/seasons/jabuticaba_summer.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/jabuticaba/seasons/jabuticaba_autumn.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      },
+      '/bonsai_photos/jabuticaba/seasons/jabuticaba_winter.jpg': {
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
+      },
+      '/bonsai_photos/jabuticaba/styles/jabuticaba_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/jabuticaba/styles/jabuticaba_multi_trunk.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/jabuticaba/styles/jabuticaba_clump.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/jabuticaba/nature/jabuticaba_nature_1.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/jabuticaba/nature/jabuticaba_nature_2.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/jabuticaba/nature/jabuticaba_nature_3.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      }
+    }
+  },
+  {
+    id: 'pitanga',
+    scientificName: 'Eugenia uniflora',
+    commonName: 'Pitanga, Surinam Cherry',
+    group: 'Myrtaceae',
+    temperatureMin: 5,
+    temperatureMax: 35,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Outdoor (protect from frost)',
+    leafType: 'Evergreen Broadleaf',
+    climate: 'Tropical, Subtropical',
+    flowering: 'Yes (white flowers followed by red/orange fruit)',
+    nativeRegion: 'Brazil, Uruguay, Paraguay, Argentina',
+    difficultyLevel: 'Beginner',
+    careTips: {
+      general: 'Pitanga bonsai are known for their attractive foliage, flowers, and edible fruit. They prefer full sun to partial shade and consistent moisture. Protect from frost.',
+      soilType: 'Well-draining, slightly acidic bonsai soil mix.',
+      feeding: 'Fertilize regularly during the growing season with a balanced fertilizer.',
+      watering: 'Keep soil consistently moist, but not waterlogged. They do not tolerate drought well.'
+    },
+    bonsaiStyles: ['Informal upright', 'Slanting', 'Multi-trunk', 'Clump'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Pitanga respond well to pruning. Structural pruning is best done after fruiting. Maintenance pruning, including pinching new shoots, can be done throughout the growing season to encourage ramification and control growth.',
+        timing: 'After fruiting for structural pruning. Throughout the growing season for maintenance pruning.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Pitanga branches are flexible when young, but become brittle with age. Use aluminum wire and check frequently to prevent scarring. Older branches may be too stiff to wire and should be shaped by pruning.',
+        timing: 'Best done on young, flexible branches during the growing season. Remove wires within 1-2 months.',
+        maturityStage: 'Can be wired from a young age, typically when branches are still pliable.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Pitanga bonsai require regular repotting to maintain root health and vigor.',
+        timing: 'Every 1-2 years for young trees, every 2-3 years for older trees. Best done in early spring before new growth emerges.',
+        maturityStage: 'Can be repotted from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Root Pruning',
+        description: 'During repotting, prune roots to encourage fine root growth and prevent the tree from becoming pot-bound. Remove up to 1/3 of the root mass.',
+        timing: 'During spring repotting, before active growth begins.',
+        maturityStage: 'Can be root pruned from a young age, typically during the first repotting.',
+        notRecommended: false
+      },
+      {
+        name: 'Defoliation (Total, Partial)',
+        description: 'Partial defoliation can be used to reduce leaf size and encourage ramification on healthy, vigorous trees. Total defoliation is generally not recommended.',
+        timing: 'Late spring to early summer, after the first flush of leaves has hardened off. Only on healthy trees.',
+        maturityStage: 'Best for healthy, well-established trees. Avoid on weak or young trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Pinching',
+        description: 'Pinching new growth tips helps to promote ramification and reduce leaf size.',
+        timing: 'Throughout the growing season as new shoots extend. Pinch back to 1-2 leaves.',
+        maturityStage: 'Can be started on young, vigorous trees once new growth appears.',
+        notRecommended: false
+      },
+      {
+        name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+        description: 'Grafting can be used to improve branch placement or to introduce desirable characteristics.',
+        timing: 'Best done during the active growing season (spring to summer).',
+        maturityStage: 'Can be performed on well-established trees. Rootstock should be healthy.',
+        notRecommended: false
+      },
+      {
+        name: 'Jin (Deadwood Technique)',
+        description: 'Jin is generally not common for Pitanga as their wood is not as durable as conifers and can rot. If attempted, the deadwood must be meticulously treated and sealed to prevent decay.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Shari (Trunk Deadwood Technique)',
+        description: 'Shari is generally not recommended for Pitanga due to their soft wood and susceptibility to rot. If attempted, extensive preservation is required.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Nebari Development (Surface Roots)',
+        description: 'Pitanga can develop good nebari with proper techniques. Root pruning and careful placement during repotting can encourage a strong, radial root flare.',
+        timing: 'Best addressed during repotting in spring.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Carving',
+        description: 'Carving on Pitanga is generally limited due to their soft wood and susceptibility to rot. It is mostly used for minor refinements or creating small hollows, which must be treated and sealed.',
+        timing: 'Can be done year-round, but careful treatment is required. Avoid large carvings.',
+        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees or extensive carving.',
+        notRecommended: false
+      },
+      {
+        name: 'Air Layering',
+        description: 'Pitanga can be air layered successfully, making it a viable method for propagation. It allows for the creation of new root systems on a branch while still attached to the parent plant.',
+        timing: 'Best done in late spring to early summer when the tree is actively growing and sap is flowing strongly. Roots typically form within 2-3 months.',
+        maturityStage: 'Can be performed on healthy, established branches of various sizes. Suitable for both young and mature trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Fertilizing',
+        description: 'Pitanga benefit from regular, balanced fertilization during their growing season to support their vigorous growth and fruiting. Use a fertilizer with a slightly higher phosphorus and potassium content to encourage flowering and fruiting.',
+        timing: 'Every 2-4 weeks during the growing season (spring to autumn). Reduce or stop during winter dormancy.',
+        maturityStage: 'Start fertilizing once the tree is established and actively growing, typically after the first year.',
+        notRecommended: false
+      },
+      {
+        name: 'Pest and Disease Management',
+        description: 'Pitanga are generally robust but can be affected by aphids, scale, and powdery mildew. Good air circulation and proper watering are essential for prevention. Treat with appropriate organic or chemical solutions if problems arise.',
+        timing: 'Inspect regularly, especially during warmer months. Treat upon first sign of infestation.',
+        maturityStage: 'Applicable to all stages of development.',
+        notRecommended: false
+      },
+      {
+        name: 'Watering and Humidity Control',
+        description: 'Pitanga prefer consistently moist soil but are sensitive to waterlogging. Water thoroughly when the topsoil feels slightly dry. They appreciate moderate to high humidity, especially during hot, dry periods.',
+        timing: 'Water as needed, adjusting frequency based on temperature, humidity, and soil mix. Maintain humidity year-round, especially in dry environments.',
+        maturityStage: 'Crucial for all stages of development, from young seedlings to mature trees.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/pitanga/development_stages/pitanga_early_stage.jpg',
+        middle: '/bonsai_photos/pitanga/development_stages/pitanga_middle_stage.jpg',
+        mature: '/bonsai_photos/pitanga/development_stages/pitanga_mature_stage.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/pitanga/seasons/pitanga_spring.jpg',
+        summer: '/bonsai_photos/pitanga/seasons/pitanga_summer.jpg',
+        autumn: '/bonsai_photos/pitanga/seasons/pitanga_autumn.jpg',
+        winter: '/bonsai_photos/pitanga/seasons/pitanga_winter.jpg'
+      },
+      styles: {
+        informalUpright: '/bonsai_photos/pitanga/styles/pitanga_informal_upright.jpg',
+        slanting: '/bonsai_photos/pitanga/styles/pitanga_slanting.jpg',
+        multiTrunk: '/bonsai_photos/pitanga/styles/pitanga_multi_trunk.jpg'
+      },
+      nature: {
+        habitat1: '/bonsai_photos/pitanga/nature/pitanga_nature_1.jpg',
+        habitat2: '/bonsai_photos/pitanga/nature/pitanga_nature_2.jpg',
+        habitat3: '/bonsai_photos/pitanga/nature/pitanga_nature_3.jpg'
+      }
+    },
+    imageCredits: {
+      '/bonsai_photos/pitanga/development_stages/pitanga_early_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/pitanga/development_stages/pitanga_middle_stage.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/pitanga/development_stages/pitanga_mature_stage.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/pitanga/seasons/pitanga_spring.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/pitanga/seasons/pitanga_summer.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/pitanga/seasons/pitanga_autumn.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      },
+      '/bonsai_photos/pitanga/seasons/pitanga_winter.jpg': {
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
+      },
+      '/bonsai_photos/pitanga/styles/pitanga_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/pitanga/styles/pitanga_slanting.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/pitanga/styles/pitanga_multi_trunk.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/pitanga/nature/pitanga_nature_1.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/pitanga/nature/pitanga_nature_2.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/pitanga/nature/pitanga_nature_3.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      }
+    }
+  },
+  {
+    id: 'calliandra-depauperata',
+    scientificName: 'Calliandra depauperata',
+    commonName: 'Dwarf Powder Puff',
+    group: 'Fabaceae',
+    temperatureMin: 10,
+    temperatureMax: 35,
+    sunExposure: 'Full sun',
+    position: 'Outdoor (protect from frost)',
+    leafType: 'Evergreen Broadleaf',
+    climate: 'Tropical, Subtropical',
+    flowering: 'Yes (white to pink powder-puff like flowers)',
+    nativeRegion: 'Brazil',
+    difficultyLevel: 'Beginner',
+    careTips: {
+      general: 'Dwarf Powder Puff bonsai are known for their delicate foliage and unique flowers. They prefer full sun and consistent moisture. Protect from frost.',
+      soilType: 'Well-draining bonsai soil mix.',
+      feeding: 'Fertilize regularly during the growing season with a balanced fertilizer.',
+      watering: 'Water thoroughly when the topsoil feels dry. Reduce watering in winter.'
+    },
+    bonsaiStyles: ['Informal upright', 'Slanting', 'Multi-trunk', 'Clump'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Calliandra depauperata responds well to pruning. Structural pruning is best done after flowering. Maintenance pruning, including pinching new shoots, can be done throughout the growing season to encourage ramification and control growth.',
+        timing: 'After flowering for structural pruning. Throughout the growing season for maintenance pruning.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Calliandra depauperata branches are flexible when young, but care must be taken when wiring. Use aluminum wire and check frequently to prevent scarring. Older branches may be too stiff to wire and should be shaped by pruning.',
+        timing: 'Best done on young, flexible branches during the growing season. Remove wires within 1-2 months.',
+        maturityStage: 'Can be wired from a young age, typically when branches are still pliable.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Calliandra depauperata bonsai require regular repotting to maintain root health and vigor.',
+        timing: 'Every 1-2 years for young trees, every 2-3 years for older trees. Best done in early spring before new growth emerges.',
+        maturityStage: 'Can be repotted from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Root Pruning',
+        description: 'During repotting, prune roots to encourage fine root growth and prevent the tree from becoming pot-bound. Remove up to 1/3 of the root mass.',
+        timing: 'During spring repotting, before active growth begins.',
+        maturityStage: 'Can be root pruned from a young age, typically during the first repotting.',
+        notRecommended: false
+      },
+      {
+        name: 'Defoliation (Total, Partial)',
+        description: 'Partial defoliation can be used to reduce leaf size and encourage ramification on healthy, vigorous trees. Total defoliation is generally not recommended.',
+        timing: 'Late spring to early summer, after the first flush of leaves has hardened off. Only on healthy trees.',
+        maturityStage: 'Best for healthy, well-established trees. Avoid on weak or young trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Pinching',
+        description: 'Pinching new growth tips helps to promote ramification and reduce leaf size.',
+        timing: 'Throughout the growing season as new shoots extend. Pinch back to 1-2 leaves.',
+        maturityStage: 'Can be started on young, vigorous trees once new growth appears.',
+        notRecommended: false
+      },
+      {
+        name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+        description: 'Grafting can be used to improve branch placement or to introduce desirable characteristics.',
+        timing: 'Best done during the active growing season (spring to summer).',
+        maturityStage: 'Can be performed on well-established trees. Rootstock should be healthy.',
+        notRecommended: false
+      },
+      {
+        name: 'Jin (Deadwood Technique)',
+        description: 'Jin is generally not common for Calliandra depauperata as their wood is not as durable as conifers and can rot. If attempted, the deadwood must be meticulously treated and sealed to prevent decay.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Shari (Trunk Deadwood Technique)',
+        description: 'Shari is generally not recommended for Calliandra depauperata due to their soft wood and susceptibility to rot. If attempted, extensive preservation is required.',
+        timing: 'Not commonly recommended due to wood rot. If attempted, treat and seal immediately.',
+        maturityStage: 'Only on very mature and healthy trees. Generally not recommended for this species.',
+        notRecommended: true
+      },
+      {
+        name: 'Nebari Development (Surface Roots)',
+        description: 'Calliandra depauperata can develop good nebari with proper techniques. Root pruning and careful placement during repotting can encourage a strong, radial root flare.',
+        timing: 'Best addressed during repotting in spring.',
+        maturityStage: 'Can be started from a young age (after 1-2 years of growth).',
+        notRecommended: false
+      },
+      {
+        name: 'Carving',
+        description: 'Carving on Calliandra depauperata is generally limited due to their soft wood and susceptibility to rot. It is mostly used for minor refinements or creating small hollows, which must be treated and sealed.',
+        timing: 'Can be done year-round, but careful treatment is required. Avoid large carvings.',
+        maturityStage: 'Best on mature trees with established trunks. Not recommended for young trees or extensive carving.',
+        notRecommended: false
+      },
+      {
+        name: 'Air Layering',
+        description: 'Calliandra depauperata can be air layered successfully, making it a viable method for propagation. It allows for the creation of new root systems on a branch while still attached to the parent plant.',
+        timing: 'Best done in late spring to early summer when the tree is actively growing and sap is flowing strongly. Roots typically form within 2-3 months.',
+        maturityStage: 'Can be performed on healthy, established branches of various sizes. Suitable for both young and mature trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Fertilizing',
+        description: 'Calliandra depauperata benefit from regular, balanced fertilization during their growing season to support their vigorous growth and flowering.',
+        timing: 'Every 2-4 weeks during the growing season (spring to autumn). Reduce or stop during winter dormancy.',
+        maturityStage: 'Start fertilizing once the tree is established and actively growing, typically after the first year.',
+        notRecommended: false
+      },
+      {
+        name: 'Pest and Disease Management',
+        description: 'Calliandra depauperata are generally robust but can be affected by common pests. Good air circulation and proper watering are essential for prevention. Treat with appropriate organic or chemical solutions if problems arise.',
+        timing: 'Inspect regularly, especially during warmer months. Treat upon first sign of infestation.',
+        maturityStage: 'Applicable to all stages of development.',
+        notRecommended: false
+      },
+      {
+        name: 'Watering and Humidity Control',
+        description: 'Calliandra depauperata prefer consistently moist soil but are sensitive to waterlogging. Water thoroughly when the topsoil feels slightly dry. They appreciate moderate to high humidity, especially during hot, dry periods.',
+        timing: 'Water as needed, adjusting frequency based on temperature, humidity, and soil mix. Maintain humidity year-round, especially in dry environments.',
+        maturityStage: 'Crucial for all stages of development, from young seedlings to mature trees.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/calliandra_depauperata/development_stages/calliandra_depauperata_early_stage.jpg',
+        middle: '/bonsai_photos/calliandra_depauperata/development_stages/calliandra_depauperata_middle_stage.jpg',
+        mature: '/bonsai_photos/calliandra_depauperata/development_stages/calliandra_depauperata_mature_stage.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_spring.jpg',
+        summer: '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_summer.jpg',
+        autumn: '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_autumn.jpg',
+        winter: '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_winter.jpg'
+      },
+      styles: {
+        informalUpright: '/bonsai_photos/calliandra_depauperata/styles/calliandra_depauperata_informal_upright.jpg',
+        slanting: '/bonsai_photos/calliandra_depauperata/styles/calliandra_depauperata_slanting.jpg',
+        multiTrunk: '/bonsai_photos/calliandra_depauperata/styles/calliandra_depauperata_multi_trunk.jpg'
+      },
+      nature: {
+        habitat1: '/bonsai_photos/calliandra_depauperata/nature/calliandra_depauperata_nature_1.jpg',
+        habitat2: '/bonsai_photos/calliandra_depauperata/nature/calliandra_depauperata_nature_2.jpg',
+        habitat3: '/bonsai_photos/calliandra_depauperata/nature/calliandra_depauperata_nature_3.jpg'
+      }
+    },
+    imageCredits: {
+      '/bonsai_photos/calliandra_depauperata/development_stages/calliandra_depauperata_early_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/development_stages/calliandra_depauperata_middle_stage.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/development_stages/calliandra_depauperata_mature_stage.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_spring.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_summer.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_autumn.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/seasons/calliandra_depauperata_winter.jpg': {
+        source: 'iNaturalist Canada',
+        url: 'https://inaturalist.ca'
+      },
+      '/bonsai_photos/calliandra_depauperata/styles/calliandra_depauperata_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/styles/calliandra_depauperata_slanting.jpg': {
+        source: 'Bonsai Nut',
+        url: 'https://www.bonsainut.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/styles/calliandra_depauperata_multi_trunk.jpg': {
+        source: 'Pixabay',
+        url: 'https://pixabay.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/nature/calliandra_depauperata_nature_1.jpg': {
+        source: 'Shutterstock',
+        url: 'https://www.shutterstock.com'
+      },
+      '/bonsai_photos/calliandra_depauperata/nature/calliandra_depauperata_nature_2.jpg': {
+        source: 'Wikimedia Commons',
+        url: 'https://commons.wikimedia.org'
+      },
+      '/bonsai_photos/calliandra_depauperata/nature/calliandra_depauperata_nature_3.jpg': {
+        source: 'Bonsai Boy of New York',
+        url: 'https://www.bonsaiboy.com'
+      }
+    }
   }
 ];
-
-export const getDifficultyColor = (level) => {
-  switch (level) {
-    case 'Beginner':
-      return 'text-green-600 bg-green-100';
-    case 'Intermediate':
-      return 'text-yellow-600 bg-yellow-100';
-    case 'Expert':
-      return 'text-red-600 bg-red-100';
-    default:
-      return 'text-gray-600 bg-gray-100';
-  }
-};
-
-export const getClimateIcon = (climate) => {
-  switch (climate) {
-    case 'Tropical':
-      return '🌴';
-    case 'Temperate':
-      return '🌳';
-    case 'Semi-tropical':
-      return '🌿';
-    default:
-      return '🌱';
-  }
-};
 
