@@ -1644,3 +1644,31 @@ export const bonsaiSpecies = [
   }
 ];
 
+
+
+export const getDifficultyColor = (level) => {
+  switch (level) {
+    case 'Beginner':
+      return 'text-green-500';
+    case 'Intermediate':
+      return 'text-yellow-500';
+    case 'Expert':
+      return 'text-red-500';
+    default:
+      return 'text-gray-500';
+  }
+};
+
+export const getClimateIcon = (climate) => {
+  switch (climate) {
+    case 'Tropical':
+      return '☀️';
+    case 'Subtropical':
+      return '🌤️';
+    case 'Temperate':
+      return '🍂';
+    default:
+      return '❓';
+  }
+};
+
