@@ -1649,13 +1649,13 @@ export const bonsaiSpecies = [
 export const getDifficultyColor = (level) => {
   switch (level) {
     case 'Beginner':
-      return 'text-green-600 bg-green-100';
+      return 'difficulty-badge-beginner';
     case 'Intermediate':
-      return 'text-yellow-600 bg-yellow-100';
+      return 'difficulty-badge-intermediate';
     case 'Expert':
-      return 'text-red-600 bg-red-100';
+      return 'difficulty-badge-expert';
     default:
-      return "text-gray-600 bg-gray-100";
+      return 'difficulty-badge-default';
   }
 };
 
