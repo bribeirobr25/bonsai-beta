@@ -3,58 +3,57 @@ import { Badge } from '@/components/ui/badge';
 import { getDifficultyColor, getClimateIcon } from '../data/bonsaiData';
 import { ArrowRight } from 'lucide-react';
 
-const BonsaiCard = ({ species, onClick }) => {
+const BonsaiSpeciesCard = ({ species, onClick }) => {
+  const handleCardClick = () => {
+    onClick(species);
+  };
   return (
     <Card 
-      className="group cursor-pointer hover:shadow-xl transition-all duration-500 border-0 shadow-sm hover:shadow-green-100/50 bg-white overflow-hidden"
-      onClick={() => onClick(species)}
+      className="bonsai-card"
+      onClick={handleCardClick}
     >
-      <div className="aspect-[4/3] bg-gray-50 overflow-hidden">
+      <div className="card-image-wrapper">
         <img 
           src={species.images.developmentStages.mature} 
           alt={`${species.commonName} mature stage`}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          className="card-image"
         />
       </div>
       
-      <CardContent className="p-6">
-        <div className="space-y-4">
-          {/* Header */}
-          <div className="space-y-1">
-            <div className="flex items-start justify-between">
-              <h3 className="text-lg font-medium text-gray-900 leading-tight">
+      <CardContent className="card-content">
+        <div className="card-content-layout">
+          <div className="card-header">
+            <div className="card-title-row">
+              <h3 className="card-title">
                 {species.commonName}
               </h3>
-              <span className="text-lg opacity-60">{getClimateIcon(species.climate)}</span>
+              <span className="card-climate-icon">{getClimateIcon(species.climate)}</span>
             </div>
-            <p className="text-sm text-gray-500 italic">{species.scientificName}</p>
+            <p className="card-scientific-name">{species.scientificName}</p>
           </div>
           
-          {/* Key Info */}
-          <div className="flex items-center gap-2">
-            <Badge className={`text-xs px-2 py-1 ${getDifficultyColor(species.difficultyLevel)}`}>
+          <div className="card-info-row">
+            <Badge className={`card-difficulty-badge ${getDifficultyColor(species.difficultyLevel)}`}>
               {species.difficultyLevel}
             </Badge>
-            <span className="text-xs text-gray-400">•</span>
-            <span className="text-xs text-gray-600">{species.position}</span>
+            <span className="card-info-separator">•</span>
+            <span className="card-position-text">{species.position}</span>
           </div>
           
-          {/* Climate & Origin */}
-          <div className="text-xs text-gray-500 space-y-1">
-            <div className="flex justify-between">
-              <span>Climate</span>
-              <span className="text-gray-700">{species.climate}</span>
+          <div className="card-details">
+            <div className="card-detail-row">
+              <span className="card-detail-label">Climate</span>
+              <span className="card-detail-value">{species.climate}</span>
             </div>
-            <div className="flex justify-between">
-              <span>Origin</span>
-              <span className="text-gray-700">{species.nativeRegion}</span>
+            <div className="card-detail-row">
+              <span className="card-detail-label">Origin</span>
+              <span className="card-detail-value">{species.nativeRegion}</span>
             </div>
           </div>
           
-          {/* Hover Action */}
-          <div className="flex items-center justify-between pt-2 border-t border-gray-50">
-            <span className="text-xs text-gray-500">View Details</span>
-            <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-green-600 group-hover:translate-x-1 transition-all duration-300" />
+          <div className="card-action-row">
+            <span className="card-action-text">View Details</span>
+            <ArrowRight className="card-action-icon" />
           </div>
         </div>
       </CardContent>
@@ -62,5 +61,5 @@ const BonsaiCard = ({ species, onClick }) => {
   );
 };
 
-export default BonsaiCard;
+export default BonsaiSpeciesCard;
 
