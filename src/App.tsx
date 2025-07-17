@@ -1,56 +1,31 @@
-import { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Search, TreePine, Leaf, Camera, ArrowRight } from 'lucide-react';
+import { Search, TreePine, Leaf, Camera } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import BonsaiSpeciesCard from './components/BonsaiCard';
-import BonsaiSpeciesDetail from './components/BonsaiDetail';
+import SkeletonCard from './components/SkeletonCard';
+import ErrorBoundary from './components/ErrorBoundary';
 import { bonsaiSpecies } from './data/bonsaiData';
+import { useSearch, useLoadingState } from './hooks';
+import type { BonsaiSpecies } from './types/bonsai';
 import './App.css';
 
 function BonsaiCollectionApp() {
-  const [currentlySelectedSpecies, setCurrentlySelectedSpecies] = useState(null);
-  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+  const { searchQuery, filteredSpecies, updateSearch, clearSearch } = useSearch(bonsaiSpecies);
+  const { isLoading } = useLoadingState(1000);
 
-  const getFilteredSpeciesList = () => bonsaiSpecies.filter(species =>
-    species.commonName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.scientificName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.group.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.difficultyLevel.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.position.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.leafType.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.climate.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.nativeRegion.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.flowering.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    species.sunExposure.toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-  const filteredSpeciesList = getFilteredSpeciesList();
-
-  const handleSpeciesSelection = (species) => {
-    setCurrentlySelectedSpecies(species);
+  const handleSpeciesSelection = (species: BonsaiSpecies) => {
+    navigate(`/species/${species.id}`);
   };
 
-  const handleBackToCollection = () => {
-    setCurrentlySelectedSpecies(null);
-  };
-
-  const handleSearchQueryChange = (event) => {
-    setSearchQuery(event.target.value);
+  const handleSearchQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    updateSearch(event.target.value);
   };
 
   const clearSearchQuery = () => {
-    setSearchQuery('');
+    clearSearch();
   };
-
-  if (currentlySelectedSpecies) {
-    return (
-      <BonsaiSpeciesDetail 
-        species={currentlySelectedSpecies} 
-        onBack={handleBackToCollection} 
-      />
-    );
-  }
 
   return (
     <div className="app-container">
@@ -89,6 +64,7 @@ function BonsaiCollectionApp() {
           <div className="search-field-wrapper">
             <Search className="search-icon" />
             <Input
+              type="text"
               placeholder="Search species, care level, or characteristics..."
               value={searchQuery}
               onChange={handleSearchQueryChange}
@@ -107,14 +83,20 @@ function BonsaiCollectionApp() {
           </div>
           {searchQuery && (
             <p className="search-results-count">
-              {filteredSpeciesList.length} result{filteredSpeciesList.length !== 1 ? 's' : ''} found
+              {filteredSpecies.length} result{filteredSpecies.length !== 1 ? 's' : ''} found
             </p>
           )}
         </div>
       </section>
 
       <section className="species-grid-section">
-        {filteredSpeciesList.length === 0 ? (
+        {isLoading ? (
+          <div className="species-grid">
+            {Array.from({ length: 6 }).map((_, index) => (
+              <SkeletonCard key={index} />
+            ))}
+          </div>
+        ) : filteredSpecies.length === 0 ? (
           <div className="empty-state">
             <TreePine className="empty-state-icon" />
             <h3 className="empty-state-title">No species found</h3>
@@ -122,12 +104,13 @@ function BonsaiCollectionApp() {
           </div>
         ) : (
           <div className="species-grid">
-            {filteredSpeciesList.map((species) => (
-              <BonsaiSpeciesCard
-                key={species.id}
-                species={species}
-                onClick={handleSpeciesSelection}
-              />
+            {filteredSpecies.map((species) => (
+              <ErrorBoundary key={species.id} fallbackMessage="Error loading species card.">
+                <BonsaiSpeciesCard
+                  species={species}
+                  onClick={handleSpeciesSelection}
+                />
+              </ErrorBoundary>
             ))}
           </div>
         )}

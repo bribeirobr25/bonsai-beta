@@ -151,6 +151,7 @@
   /* Image loading states */
   img {
     @apply transition-opacity duration-300;
+    will-change: opacity;
   }
   
   img[loading] {
@@ -159,6 +160,20 @@
   
   img:not([loading]) {
     @apply opacity-100;
+  }
+  
+  /* Shimmer animation for loading states */
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animate-shimmer {
+    animation: shimmer 1.5s infinite;
   }
 }
 
@@ -376,8 +391,13 @@
     @apply w-full h-full object-cover transition-transform duration-700;
   }
   
+  .card-image-placeholder {
+    @apply w-full h-full;
+  }
+  
   .bonsai-card:hover .card-image {
     transform: scale(1.05);
+    will-change: transform;
   }
   
   .card-content {
@@ -555,6 +575,10 @@
     @apply w-full h-full object-cover transition-transform duration-700;
   }
   
+  .detail-hero-placeholder {
+    @apply w-full h-full;
+  }
+  
   .detail-hero-overlay {
     @apply absolute inset-0 bg-black/0 transition-all duration-300;
   }
@@ -698,6 +722,10 @@
   
   .gallery-item-image {
     @apply w-full h-64 object-cover transition-all duration-500;
+  }
+  
+  .gallery-item-placeholder {
+    @apply w-full h-64;
   }
   
   .gallery-item-overlay {
@@ -910,6 +938,35 @@
   
   .ui-badge-outline {
     @apply text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground;
+  }
+  
+  /* Error Boundary */
+  .error-boundary {
+    @apply flex items-center justify-center min-h-[200px] p-8;
+  }
+  
+  .error-boundary-content {
+    @apply text-center space-y-4 max-w-md;
+  }
+  
+  .error-boundary-icon {
+    @apply h-12 w-12 text-red-500 mx-auto;
+  }
+  
+  .error-boundary-title {
+    @apply text-lg font-medium text-gray-900;
+  }
+  
+  .error-boundary-message {
+    @apply text-gray-600 text-sm leading-relaxed;
+  }
+  
+  .error-boundary-retry-button {
+    @apply flex items-center gap-2 mx-auto px-4 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors;
+  }
+  
+  .error-boundary-retry-icon {
+    @apply h-4 w-4;
   }
 }
 

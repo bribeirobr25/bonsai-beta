@@ -2,8 +2,10 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { getDifficultyColor, getClimateIcon } from '../data/bonsaiData';
 import { ArrowRight } from 'lucide-react';
+import LazyImage from './LazyImage';
+import type { BonsaiCardProps } from '../types/common';
 
-const BonsaiSpeciesCard = ({ species, onClick }) => {
+const BonsaiSpeciesCard: React.FC<BonsaiCardProps> = ({ species, onClick }) => {
   const handleCardClick = () => {
     onClick(species);
   };
@@ -13,10 +15,11 @@ const BonsaiSpeciesCard = ({ species, onClick }) => {
       onClick={handleCardClick}
     >
       <div className="card-image-wrapper">
-        <img 
+        <LazyImage 
           src={species.images.developmentStages.mature} 
-          alt={`${species.commonName} mature stage`}
+          alt={`${species.commonName} (${species.scientificName}) mature bonsai tree - ${species.difficultyLevel} difficulty level`}
           className="card-image"
+          placeholderClassName="card-image-placeholder"
         />
       </div>
       
@@ -33,7 +36,10 @@ const BonsaiSpeciesCard = ({ species, onClick }) => {
           </div>
           
           <div className="card-info-row">
-            <Badge className={`card-difficulty-badge ${getDifficultyColor(species.difficultyLevel)}`}>
+            <Badge 
+              variant="secondary" 
+              className={`card-difficulty-badge ${getDifficultyColor(species.difficultyLevel)}`}
+            >
               {species.difficultyLevel}
             </Badge>
             <span className="card-info-separator">•</span>
