@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowLeft, Camera, Info, Leaf, Palette, Mountain, Wrench } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { getDifficultyColor, getClimateIcon } from '../data/bonsaiData';
+import { getDifficultyBadgeClass, getClimateIcon } from '../data/bonsaiData';
 import { useImageModal, useTabNavigation } from '../hooks';
 import LazyImage from './LazyImage';
 import ImageGallery from './ImageGallery';
@@ -121,7 +121,7 @@ const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
                   <div className="detail-info-list">
                     <div className="detail-info-item">
                       <span className="detail-info-label">Difficulty Level</span>
-                      <span className={`detail-difficulty-badge ${getDifficultyColor(species.difficultyLevel)}`}>
+                      <span className={getDifficultyBadgeClass(species.difficultyLevel)}>
                         {species.difficultyLevel}
                       </span>
                     </div>

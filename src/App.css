@@ -268,7 +268,7 @@
   }
   
   .search-clear-button {
-    @apply absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 rounded-full;
+    @apply inline-flex items-center justify-center gap-2 px-2 py-2 rounded-lg text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 bg-transparent text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus:ring-gray-500 absolute right-2 top-1/2 transform -translate-y-1/2;
   }
   
   .search-results-count {
@@ -432,9 +432,6 @@
     @apply flex items-center gap-2;
   }
   
-  .card-difficulty-badge {
-    @apply text-xs px-2 py-1;
-  }
   
   .card-info-separator {
     @apply text-xs text-gray-400;
@@ -457,7 +454,7 @@
   }
   
   .card-detail-value {
-    @apply text-gray-700;
+    @apply font-medium text-gray-900;
   }
   
   .card-action-row {
@@ -495,7 +492,7 @@
   }
   
   .detail-back-button {
-    @apply flex items-center gap-3 text-gray-600 hover:text-gray-900 transition-colors;
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 bg-transparent text-gray-600 hover:bg-gray-100 focus:ring-gray-500;
   }
   
   .detail-back-icon {
@@ -639,9 +636,6 @@
     @apply font-medium text-gray-900 flex items-center gap-2;
   }
   
-  .detail-difficulty-badge {
-    @apply px-3 py-1 rounded-full text-xs font-medium;
-  }
   
   .detail-care-section {
     @apply bg-gray-50 rounded-xl p-8;
@@ -688,7 +682,7 @@
   }
   
   .detail-style-tag {
-    @apply px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm font-medium;
+    @apply px-3 py-1 rounded-full text-xs font-medium text-green-600 bg-green-100 text-sm px-4 py-2;
   }
   
   /* Gallery Sections */
@@ -770,7 +764,7 @@
   }
   
   .technique-not-recommended-badge {
-    @apply px-3 py-1 bg-red-50 text-red-600 text-xs font-medium rounded-full;
+    @apply px-3 py-1 rounded-full text-xs font-medium text-red-600 bg-red-100;
   }
   
   .technique-description {
@@ -799,7 +793,7 @@
   }
   
   .image-modal-close-button {
-    @apply absolute top-4 right-4 z-10 bg-white/90 text-gray-700 p-2 rounded-full hover:bg-white transition-colors;
+    @apply inline-flex items-center justify-center gap-2 p-2 rounded-full text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 bg-gray-100 text-gray-900 hover:bg-gray-200 focus:ring-gray-500 absolute top-4 right-4 z-10 bg-white/90 text-gray-700 hover:bg-white;
   }
   
   .image-modal-image {
@@ -826,7 +820,59 @@
     @apply flex items-center gap-2 text-green-600 hover:text-green-700 text-sm font-medium transition-colors;
   }
   
-  /* Difficulty Level Badges */
+  /* Unified Text Utilities */
+  .text-detail-label {
+    @apply text-gray-600;
+  }
+  
+  .text-detail-value {
+    @apply font-medium text-gray-900;
+  }
+  
+  .text-secondary {
+    @apply text-gray-500;
+  }
+  
+  .text-muted {
+    @apply text-gray-400;
+  }
+  
+  .text-small {
+    @apply text-xs;
+  }
+  
+  .text-small-secondary {
+    @apply text-xs text-gray-500;
+  }
+  
+  /* Note: Button styles are handled by ui-button-* classes above */
+  
+  /* Unified Badge System */
+  .badge {
+    @apply px-3 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .badge-success {
+    @apply text-green-600 bg-green-100;
+  }
+  
+  .badge-warning {
+    @apply text-yellow-600 bg-yellow-100;
+  }
+  
+  .badge-danger {
+    @apply text-red-600 bg-red-100;
+  }
+  
+  .badge-default {
+    @apply text-gray-600 bg-gray-100;
+  }
+  
+  /* Difficulty Badge Variants */
+  .difficulty-badge {
+    @apply px-3 py-1 rounded-full text-xs font-medium;
+  }
+  
   .difficulty-badge-beginner {
     @apply text-green-600 bg-green-100;
   }
@@ -962,7 +1008,7 @@
   }
   
   .error-boundary-retry-button {
-    @apply flex items-center gap-2 mx-auto px-4 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors;
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 bg-gray-100 text-gray-900 hover:bg-gray-200 focus:ring-gray-500 mx-auto bg-red-50 text-red-600 hover:bg-red-100;
   }
   
   .error-boundary-retry-icon {
