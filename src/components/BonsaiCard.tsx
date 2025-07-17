@@ -1,6 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { getDifficultyColor, getClimateIcon } from '../data/bonsaiData';
+import { getDifficultyBadgeClass, getClimateIcon } from '../data/bonsaiData';
 import { ArrowRight } from 'lucide-react';
 import LazyImage from './LazyImage';
 import type { BonsaiCardProps } from '../types/common';
@@ -36,12 +35,9 @@ const BonsaiSpeciesCard: React.FC<BonsaiCardProps> = ({ species, onClick }) => {
           </div>
           
           <div className="card-info-row">
-            <Badge 
-              variant="secondary" 
-              className={`card-difficulty-badge ${getDifficultyColor(species.difficultyLevel)}`}
-            >
+            <span className={getDifficultyBadgeClass(species.difficultyLevel)}>
               {species.difficultyLevel}
-            </Badge>
+            </span>
             <span className="card-info-separator">•</span>
             <span className="card-position-text">{species.position}</span>
           </div>
