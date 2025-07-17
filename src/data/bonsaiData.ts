@@ -1,4 +1,6 @@
-export const bonsaiSpecies = [
+import type { BonsaiSpecies, DifficultyLevel, Climate } from '../types/bonsai';
+
+export const bonsaiSpecies: BonsaiSpecies[] = [
   {
     id: 'ficus-retusa',
     scientificName: 'Ficus retusa',
@@ -1646,7 +1648,7 @@ export const bonsaiSpecies = [
 
 
 
-export const getDifficultyColor = (level) => {
+export const getDifficultyColor = (level: DifficultyLevel): string => {
   switch (level) {
     case 'Beginner':
       return 'difficulty-badge-beginner';
@@ -1659,7 +1661,7 @@ export const getDifficultyColor = (level) => {
   }
 };
 
-export const getClimateIcon = (climate) => {
+export const getClimateIcon = (climate: Climate | string): string => {
   switch (climate) {
     case 'Tropical':
       return '☀️';

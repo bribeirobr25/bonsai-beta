@@ -1,24 +1,25 @@
-import { useState } from 'react';
-import { ArrowLeft, X, ExternalLink, Camera, Info, Leaf, Palette, Mountain, Wrench } from 'lucide-react';
+import React from 'react';
+import { ArrowLeft, Camera, Info, Leaf, Palette, Mountain, Wrench } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { getDifficultyColor, getClimateIcon } from '../data/bonsaiData';
+import { useImageModal, useTabNavigation } from '../hooks';
+import LazyImage from './LazyImage';
+import ImageGallery from './ImageGallery';
+import ImageModal from './ImageModal';
+import TechniquesList from './TechniquesList';
+import TabNavigation from './TabNavigation';
+import type { BonsaiDetailProps, NavigationTab } from '../types/common';
 
-const BonsaiSpeciesDetail = ({ species, onBack }) => {
-  const [currentActiveTab, setCurrentActiveTab] = useState('overview');
-  const [currentSelectedImage, setCurrentSelectedImage] = useState(null);
-
-  const handleTabChange = (tabId) => {
-    setCurrentActiveTab(tabId);
+const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
+  const navigate = useNavigate();
+  const { activeTab, changeTab } = useTabNavigation('overview');
+  const { selectedImage, openModal, closeModal } = useImageModal();
+  
+  const handleBackToCollection = () => {
+    navigate('/');
   };
 
-  const handleImageSelect = (imagePath) => {
-    setCurrentSelectedImage(imagePath);
-  };
-
-  const handleImageModalClose = () => {
-    setCurrentSelectedImage(null);
-  };
-
-  const navigationTabs = [
+  const navigationTabs: NavigationTab[] = [
     { id: 'overview', label: 'Overview', icon: Info },
     { id: 'development', label: 'Development', icon: Leaf },
     { id: 'seasons', label: 'Seasons', icon: Palette },
@@ -27,8 +28,8 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
     { id: 'techniques', label: 'Techniques', icon: Wrench }
   ];
 
-  const getImageLabelFromKey = (category, key) => {
-    const categoryLabels = {
+  const getImageLabelFromKey = (category: string, key: string): string => {
+    const categoryLabels: Record<string, Record<string, string>> = {
       development: {
         early: 'Early Stage',
         middle: 'Middle Stage', 
@@ -58,83 +59,21 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
     return categoryLabels[category]?.[key] || key;
   };
 
-  const ImageGalleryComponent = ({ images, category }) => (
-    <div className="gallery-grid">
-      {Object.entries(images).map(([key, imagePath]) => (
-        <div key={key} className="gallery-item" onClick={() => handleImageSelect(imagePath)}>
-          <div className="gallery-item-container">
-            <img
-              src={imagePath}
-              alt={getImageLabelFromKey(category, key)}
-              className="gallery-item-image"
-            />
-            <div className="gallery-item-overlay" />
-            <div className="gallery-item-label-wrapper">
-              <span className="gallery-item-label">
-                {getImageLabelFromKey(category, key)}
-              </span>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
 
-  const ImageModalComponent = ({ imagePath, onClose }) => {
-    const imageCredit = species.imageCredits?.[imagePath];
-    
-    return (
-      <div className="image-modal-overlay">
-        <div className="image-modal-container">
-          <button
-            onClick={onClose}
-            className="image-modal-close-button"
-          >
-            <X size={20} />
-          </button>
-          
-          <img
-            src={imagePath}
-            alt="Full size view"
-            className="image-modal-image"
-          />
-          
-          {imageCredit && (
-            <div className="image-modal-credit-section">
-              <div className="image-modal-credit-row">
-                <span className="image-modal-credit-text">
-                  Photo credit: <span className="image-modal-credit-source">{imageCredit.source}</span>
-                </span>
-                {imageCredit.url && (
-                  <a
-                    href={imageCredit.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="image-modal-credit-link"
-                  >
-                    Visit Source <ExternalLink size={14} />
-                  </a>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
-    );
-  };
 
   const renderCurrentTabContent = () => {
-    switch (currentActiveTab) {
+    switch (activeTab) {
       case 'overview':
         return (
           <div className="detail-content-section">
             <div className="detail-hero-image-wrapper">
               <div className="detail-hero-image-container" 
-                   onClick={() => handleImageSelect(species.images.developmentStages.mature)}>
-                <img
+                   onClick={() => openModal(species.images.developmentStages.mature)}>
+                <LazyImage
                   src={species.images.developmentStages.mature}
-                  alt={`${species.commonName} - Mature specimen`}
+                  alt={`${species.commonName} (${species.scientificName}) mature bonsai tree from ${species.nativeRegion} - ${species.difficultyLevel} care level`}
                   className="detail-hero-image"
+                  placeholderClassName="detail-hero-placeholder"
                 />
                 <div className="detail-hero-overlay" />
                 <div className="detail-hero-action-hint">
@@ -249,7 +188,12 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
                 Follow the progression of {species.commonName} from early development through maturity.
               </p>
             </div>
-            <ImageGalleryComponent images={species.images.developmentStages} category="development" />
+            <ImageGallery 
+              images={species.images.developmentStages} 
+              category="development" 
+              onImageSelect={openModal}
+              getImageLabel={getImageLabelFromKey}
+            />
           </div>
         );
 
@@ -262,7 +206,12 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
                 Observe how {species.commonName} transforms throughout the seasons.
               </p>
             </div>
-            <ImageGalleryComponent images={species.images.seasons} category="seasons" />
+            <ImageGallery 
+              images={species.images.seasons} 
+              category="seasons" 
+              onImageSelect={openModal}
+              getImageLabel={getImageLabelFromKey}
+            />
           </div>
         );
 
@@ -275,7 +224,12 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
                 Explore different styling approaches for {species.commonName}.
               </p>
             </div>
-            <ImageGalleryComponent images={species.images.styles} category="styles" />
+            <ImageGallery 
+              images={species.images.styles} 
+              category="styles" 
+              onImageSelect={openModal}
+              getImageLabel={getImageLabelFromKey}
+            />
           </div>
         );
 
@@ -288,7 +242,12 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
                 See {species.commonName} in its native environment and natural form.
               </p>
             </div>
-            <ImageGalleryComponent images={species.images.nature} category="nature" />
+            <ImageGallery 
+              images={species.images.nature} 
+              category="nature" 
+              onImageSelect={openModal}
+              getImageLabel={getImageLabelFromKey}
+            />
           </div>
         );
 
@@ -301,31 +260,7 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
                 Professional techniques and timing for {species.commonName} care and styling.
               </p>
             </div>
-            <div className="techniques-grid">
-              {species.techniques.map((technique, index) => (
-                <div key={index} className="technique-item">
-                  <div className="technique-header">
-                    <h4 className="technique-title">{technique.name}</h4>
-                    {technique.notRecommended && (
-                      <span className="technique-not-recommended-badge">
-                        Not Recommended
-                      </span>
-                    )}
-                  </div>
-                  <p className="technique-description">{technique.description}</p>
-                  <div className="technique-details-grid">
-                    <div>
-                      <span className="technique-detail-label">Timing:</span>
-                      <p className="technique-detail-text">{technique.timing}</p>
-                    </div>
-                    <div>
-                      <span className="technique-detail-label">Maturity Stage:</span>
-                      <p className="technique-detail-text">{technique.maturityStage}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <TechniquesList techniques={species.techniques} />
           </div>
         );
 
@@ -340,7 +275,7 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
         <div className="detail-header-content">
           <div className="detail-header-navigation">
             <button
-              onClick={onBack}
+              onClick={handleBackToCollection}
               className="detail-back-button"
             >
               <ArrowLeft className="detail-back-icon" />
@@ -357,36 +292,22 @@ const BonsaiSpeciesDetail = ({ species, onBack }) => {
         </div>
       </header>
 
-      <nav className="detail-nav-tabs">
-        <div className="detail-nav-content">
-          <div className="detail-nav-tabs-list">
-            {navigationTabs.map((tab) => {
-              const Icon = tab.icon;
-              return (
-                <button
-                  key={tab.id}
-                  onClick={() => handleTabChange(tab.id)}
-                  className={`detail-nav-tab ${
-                    currentActiveTab === tab.id
-                      ? 'detail-nav-tab-active'
-                      : 'detail-nav-tab-inactive'
-                  }`}
-                >
-                  <Icon className="detail-nav-tab-icon" />
-                  <span className="detail-nav-tab-label">{tab.label}</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      </nav>
+      <TabNavigation 
+        tabs={navigationTabs}
+        activeTab={activeTab}
+        onTabChange={changeTab}
+      />
 
       <main className="detail-main-content">
         {renderCurrentTabContent()}
       </main>
 
-      {currentSelectedImage && (
-        <ImageModalComponent imagePath={currentSelectedImage} onClose={handleImageModalClose} />
+      {selectedImage && (
+        <ImageModal 
+          imagePath={selectedImage} 
+          species={species}
+          onClose={closeModal} 
+        />
       )}
     </div>
   );
