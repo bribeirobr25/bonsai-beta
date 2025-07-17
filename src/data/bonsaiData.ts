@@ -1648,17 +1648,22 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
 
 
 
-export const getDifficultyColor = (level: DifficultyLevel): string => {
-  switch (level) {
-    case 'Beginner':
-      return 'difficulty-badge-beginner';
-    case 'Intermediate':
-      return 'difficulty-badge-intermediate';
-    case 'Expert':
-      return 'difficulty-badge-expert';
-    default:
-      return 'difficulty-badge-default';
-  }
+export const getDifficultyBadgeClass = (level: DifficultyLevel): string => {
+  const baseClass = 'difficulty-badge';
+  const colorClass = (() => {
+    switch (level) {
+      case 'Beginner':
+        return 'difficulty-badge-beginner';
+      case 'Intermediate':
+        return 'difficulty-badge-intermediate';
+      case 'Expert':
+        return 'difficulty-badge-expert';
+      default:
+        return 'difficulty-badge-default';
+    }
+  })();
+  
+  return `${baseClass} ${colorClass}`;
 };
 
 export const getClimateIcon = (climate: Climate | string): string => {
