@@ -1,13 +1,15 @@
 import React from 'react';
-import { ArrowLeft, Camera, Info, Leaf, Palette, Mountain, Wrench } from 'lucide-react';
+import { ArrowLeft, Camera, Info, Leaf, Palette, Mountain, Wrench } from './icons';
 import { useNavigate } from 'react-router-dom';
 import { getDifficultyBadgeClass, getClimateIcon } from '../data/bonsaiData';
 import { useImageModal, useTabNavigation } from '../hooks';
 import LazyImage from './LazyImage';
-import ImageGallery from './ImageGallery';
+import GallerySection from './GallerySection';
 import ImageModal from './ImageModal';
 import TechniquesList from './TechniquesList';
 import TabNavigation from './TabNavigation';
+import InfoItem from './ui/InfoItem';
+import { GALLERY_CATEGORIES, GALLERY_CONFIG, IMAGE_LABELS } from '../constants/gallery';
 import type { BonsaiDetailProps, NavigationTab } from '../types/common';
 
 const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
@@ -29,34 +31,7 @@ const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
   ];
 
   const getImageLabelFromKey = (category: string, key: string): string => {
-    const categoryLabels: Record<string, Record<string, string>> = {
-      development: {
-        early: 'Early Stage',
-        middle: 'Middle Stage', 
-        mature: 'Mature Stage'
-      },
-      seasons: {
-        spring: 'Spring',
-        summer: 'Summer',
-        autumn: 'Autumn',
-        winter: 'Winter'
-      },
-      styles: {
-        rootOverRock: 'Root Over Rock',
-        banyan: 'Banyan Style',
-        cascade: 'Cascade',
-        upright: 'Upright',
-        literati: 'Literati',
-        informalUpright: 'Informal Upright',
-        raft: 'Raft Style'
-      },
-      nature: {
-        habitat1: 'Natural Habitat',
-        habitat2: 'Wild Environment',
-        habitat3: 'Native Setting'
-      }
-    };
-    return categoryLabels[category]?.[key] || key;
+    return IMAGE_LABELS[category as keyof typeof IMAGE_LABELS]?.[key as keyof typeof IMAGE_LABELS[keyof typeof IMAGE_LABELS]] || key;
   };
 
 
@@ -89,28 +64,18 @@ const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
                 <div>
                   <h3 className="detail-info-title">Basic Information</h3>
                   <div className="detail-info-list">
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Group</span>
-                      <span className="detail-info-value">{species.group}</span>
-                    </div>
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Climate</span>
-                      <span className="detail-info-value-with-icon">
-                        {getClimateIcon(species.climate)} {species.climate}
-                      </span>
-                    </div>
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Native Region</span>
-                      <span className="detail-info-value">{species.nativeRegion}</span>
-                    </div>
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Leaf Type</span>
-                      <span className="detail-info-value">{species.leafType}</span>
-                    </div>
-                    <div className="detail-info-item-last">
-                      <span className="detail-info-label">Flowering</span>
-                      <span className="detail-info-value">{species.flowering}</span>
-                    </div>
+                    <InfoItem label="Group" value={species.group} />
+                    <InfoItem 
+                      label="Climate" 
+                      value={(
+                        <span className="detail-info-value-with-icon">
+                          {getClimateIcon(species.climate)} {species.climate}
+                        </span>
+                      )}
+                    />
+                    <InfoItem label="Native Region" value={species.nativeRegion} />
+                    <InfoItem label="Leaf Type" value={species.leafType} />
+                    <InfoItem label="Flowering" value={species.flowering} isLast={true} />
                   </div>
                 </div>
               </div>
@@ -119,24 +84,20 @@ const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
                 <div>
                   <h3 className="detail-info-title">Care Requirements</h3>
                   <div className="detail-info-list">
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Difficulty Level</span>
-                      <span className={getDifficultyBadgeClass(species.difficultyLevel)}>
-                        {species.difficultyLevel}
-                      </span>
-                    </div>
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Temperature Range</span>
-                      <span className="detail-info-value">{species.temperatureMin}°C – {species.temperatureMax}°C</span>
-                    </div>
-                    <div className="detail-info-item">
-                      <span className="detail-info-label">Position</span>
-                      <span className="detail-info-value">{species.position}</span>
-                    </div>
-                    <div className="detail-info-item-last">
-                      <span className="detail-info-label">Sun Exposure</span>
-                      <span className="detail-info-value">{species.sunExposure}</span>
-                    </div>
+                    <InfoItem 
+                      label="Difficulty Level" 
+                      value={(
+                        <span className={getDifficultyBadgeClass(species.difficultyLevel)}>
+                          {species.difficultyLevel}
+                        </span>
+                      )}
+                    />
+                    <InfoItem 
+                      label="Temperature Range" 
+                      value={`${species.temperatureMin}°C – ${species.temperatureMax}°C`}
+                    />
+                    <InfoItem label="Position" value={species.position} />
+                    <InfoItem label="Sun Exposure" value={species.sunExposure} isLast={true} />
                   </div>
                 </div>
               </div>
@@ -181,83 +142,59 @@ const BonsaiSpeciesDetail: React.FC<BonsaiDetailProps> = ({ species }) => {
 
       case 'development':
         return (
-          <div className="gallery-section">
-            <div className="gallery-header">
-              <h3 className="gallery-title">Development Stages</h3>
-              <p className="gallery-description">
-                Follow the progression of {species.commonName} from early development through maturity.
-              </p>
-            </div>
-            <ImageGallery 
-              images={species.images.developmentStages} 
-              category="development" 
-              onImageSelect={openModal}
-              getImageLabel={getImageLabelFromKey}
-            />
-          </div>
+          <GallerySection
+            title={GALLERY_CONFIG[GALLERY_CATEGORIES.DEVELOPMENT].title}
+            description={GALLERY_CONFIG[GALLERY_CATEGORIES.DEVELOPMENT].description(species.commonName)}
+            images={species.images.developmentStages}
+            category={GALLERY_CATEGORIES.DEVELOPMENT}
+            onImageSelect={openModal}
+            getImageLabel={getImageLabelFromKey}
+          />
         );
 
       case 'seasons':
         return (
-          <div className="gallery-section">
-            <div className="gallery-header">
-              <h3 className="gallery-title">Seasonal Changes</h3>
-              <p className="gallery-description">
-                Observe how {species.commonName} transforms throughout the seasons.
-              </p>
-            </div>
-            <ImageGallery 
-              images={species.images.seasons} 
-              category="seasons" 
-              onImageSelect={openModal}
-              getImageLabel={getImageLabelFromKey}
-            />
-          </div>
+          <GallerySection
+            title={GALLERY_CONFIG[GALLERY_CATEGORIES.SEASONS].title}
+            description={GALLERY_CONFIG[GALLERY_CATEGORIES.SEASONS].description(species.commonName)}
+            images={species.images.seasons}
+            category={GALLERY_CATEGORIES.SEASONS}
+            onImageSelect={openModal}
+            getImageLabel={getImageLabelFromKey}
+          />
         );
 
       case 'styles':
         return (
-          <div className="gallery-section">
-            <div className="gallery-header">
-              <h3 className="gallery-title">Bonsai Styles</h3>
-              <p className="gallery-description">
-                Explore different styling approaches for {species.commonName}.
-              </p>
-            </div>
-            <ImageGallery 
-              images={species.images.styles} 
-              category="styles" 
-              onImageSelect={openModal}
-              getImageLabel={getImageLabelFromKey}
-            />
-          </div>
+          <GallerySection
+            title={GALLERY_CONFIG[GALLERY_CATEGORIES.STYLES].title}
+            description={GALLERY_CONFIG[GALLERY_CATEGORIES.STYLES].description(species.commonName)}
+            images={species.images.styles}
+            category={GALLERY_CATEGORIES.STYLES}
+            onImageSelect={openModal}
+            getImageLabel={getImageLabelFromKey}
+          />
         );
 
       case 'nature':
         return (
-          <div className="gallery-section">
-            <div className="gallery-header">
-              <h3 className="gallery-title">In Natural Habitat</h3>
-              <p className="gallery-description">
-                See {species.commonName} in its native environment and natural form.
-              </p>
-            </div>
-            <ImageGallery 
-              images={species.images.nature} 
-              category="nature" 
-              onImageSelect={openModal}
-              getImageLabel={getImageLabelFromKey}
-            />
-          </div>
+          <GallerySection
+            title={GALLERY_CONFIG[GALLERY_CATEGORIES.NATURE].title}
+            description={GALLERY_CONFIG[GALLERY_CATEGORIES.NATURE].description(species.commonName)}
+            images={species.images.nature}
+            category={GALLERY_CATEGORIES.NATURE}
+            onImageSelect={openModal}
+            getImageLabel={getImageLabelFromKey}
+          />
         );
 
       case 'techniques':
         return (
           <div className="gallery-section">
             <div className="gallery-header">
-              <h3 className="gallery-title">Bonsai Techniques</h3>
+              <h3 className="gallery-title">{GALLERY_CONFIG[GALLERY_CATEGORIES.TECHNIQUES].title}</h3>
               <p className="gallery-description">
-                Professional techniques and timing for {species.commonName} care and styling.
+                {GALLERY_CONFIG[GALLERY_CATEGORIES.TECHNIQUES].description(species.commonName)}
               </p>
             </div>
             <TechniquesList techniques={species.techniques} />

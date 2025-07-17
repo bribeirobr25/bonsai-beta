@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { getDifficultyBadgeClass, getClimateIcon } from '../data/bonsaiData';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from './icons';
 import LazyImage from './LazyImage';
 import type { BonsaiCardProps } from '../types/common';
 

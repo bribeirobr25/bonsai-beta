@@ -1,19 +1,11 @@
-import { useState, useCallback } from 'react';
+import { useModalState } from './useModalState';
 
 export const useImageModal = () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-
-  const openModal = useCallback((imagePath: string) => {
-    setSelectedImage(imagePath);
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setSelectedImage(null);
-  }, []);
+  const { selectedItem: selectedImage, isOpen, open: openModal, close: closeModal } = useModalState<string>();
 
   return {
     selectedImage,
-    isOpen: selectedImage !== null,
+    isOpen,
     openModal,
     closeModal
   };
