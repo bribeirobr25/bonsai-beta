@@ -755,7 +755,6 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         winter: '/bonsai_photos/jacaranda/seasons/jacaranda_winter.jpg'
       },
       styles: {
-        cascade: '/bonsai_photos/jacaranda/styles/jacaranda_cascade.jpg',
         informalUpright: '/bonsai_photos/jacaranda/styles/jacaranda_informal_upright.jpg',
         semiCascade: '/bonsai_photos/jacaranda/styles/jacaranda_semi_cascade.jpg'
       },
@@ -775,8 +774,8 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
       '/bonsai_photos/jacaranda/development_stages/jacaranda_mature_stage.jpg': {
-        source: 'Etsy',
-        url: 'https://www.etsy.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
       '/bonsai_photos/jacaranda/seasons/jacaranda_spring.jpg': {
         source: 'Bonsai Empire',
@@ -794,10 +793,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         source: 'Bonsai Empire',
         url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
-      '/bonsai_photos/jacaranda/styles/jacaranda_cascade.jpg': {
-        source: 'Bonsai Resource Center',
-        url: 'https://bonsairesourcecenter.com'
-      },
+
       '/bonsai_photos/jacaranda/styles/jacaranda_informal_upright.jpg': {
         source: 'Bonsai Empire',
         url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
