@@ -15,6 +15,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     flowering: 'Yes (hidden flowers)',
     nativeRegion: 'Tropical regions (every continent)',
     difficultyLevel: 'Beginner',
+    category: 'Beginner',
     careTips: {
       general: 'Requires a lot of light, relatively constant temperature, prefers higher humidity, can endure low humidity due to thick waxy leaves. Pruning and wiring are important. Can develop aerial roots with high humidity.',
       soilType: 'Well-draining bonsai soil mix.',
@@ -628,6 +629,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     flowering: 'Yes (vibrant purple flowers in spring/early summer)',
     nativeRegion: 'South America (Brazil, Argentina, Bolivia)',
     difficultyLevel: 'Intermediate',
+    category: 'Rare/Specialty',
     careTips: {
       general: 'Jacaranda bonsai require full sun and protection from frost. They appreciate good air circulation and consistent moisture during the growing season. Pruning is essential to maintain shape and encourage flowering.',
       soilType: 'Well-draining bonsai soil mix, slightly acidic to neutral pH.',
@@ -830,6 +832,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     flowering: 'Yes (yellow flowers in summer)',
     nativeRegion: 'Brazil',
     difficultyLevel: 'Intermediate',
+    category: 'Rare/Specialty',
     careTips: {
       general: 'Leopard Tree bonsai thrive in full sun and warm climates. They are drought-tolerant once established but appreciate regular watering during the growing season. Their distinctive mottled bark makes them attractive.',
       soilType: 'Well-draining bonsai soil mix.',
@@ -1036,6 +1039,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     flowering: 'Yes (white flowers directly on trunk and branches)',
     nativeRegion: 'Brazil, Paraguay, Argentina',
     difficultyLevel: 'Intermediate',
+    category: 'Rare/Specialty',
     careTips: {
       general: 'Jabuticaba bonsai are unique for their cauliflorous habit (flowers and fruits directly on the trunk). They prefer full sun to partial shade and consistent moisture. Protect from frost.',
       soilType: 'Well-draining, slightly acidic bonsai soil mix.',
@@ -1639,30 +1643,337 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         url: 'https://www.bonsaiboy.com'
       }
     }
+  },
+  // NEW BEGINNER SPECIES
+  {
+    id: 'chinese-elm',
+    scientificName: 'Ulmus parvifolia',
+    commonName: 'Chinese Elm',
+    group: 'Ulmaceae',
+    temperatureMin: 15,
+    temperatureMax: 30,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Indoor/Outdoor',
+    leafType: 'Deciduous',
+    climate: 'Temperate',
+    flowering: 'Inconspicuous',
+    nativeRegion: 'China, Japan, Korea',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'The Chinese Elm is one of the most popular bonsai for beginners. It develops fine branch ramification with small leaves and attractive scaling bark. Very forgiving and adaptable to indoor or outdoor conditions.',
+      soilType: 'Well-draining bonsai mix with akadama, pumice, and lava rock.',
+      feeding: 'Fertilize every 2 weeks during spring and fall with balanced fertilizer.',
+      watering: 'Water when soil surface begins to dry. Keep consistently moist but not waterlogged.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Broom', 'Slanting', 'Semi-Cascade'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune back to 2-3 leaves after 4-6 develop. Chinese Elm responds excellently to pruning and develops fine ramification.',
+        timing: 'Year-round, but most vigorous growth in spring and summer.',
+        maturityStage: 'Can be started from young age after 1-2 years.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible and respond well to wiring. Check wires regularly as bark can scar easily.',
+        timing: 'Year-round, leave wire on for 2-3 months.',
+        maturityStage: 'Can be wired from young age when branches are flexible.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2 years for young trees, 3-4 years for mature trees. Essential for healthy root development.',
+        timing: 'Early spring before new growth begins.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'jade-tree',
+    scientificName: 'Crassula ovata',
+    commonName: 'Jade Tree, Money Tree',
+    group: 'Crassulaceae',
+    temperatureMin: 10,
+    temperatureMax: 30,
+    sunExposure: 'Bright indirect light',
+    position: 'Indoor',
+    leafType: 'Evergreen Succulent',
+    climate: 'Subtropical',
+    flowering: 'Small white or pink flowers (rare indoors)',
+    nativeRegion: 'South Africa',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'A succulent plant perfect for absolute beginners. Thick woody stems and plump oval leaves give it a natural miniature tree appearance. Extremely forgiving and can survive neglect better than most bonsai.',
+      soilType: 'Well-draining succulent mix with excellent drainage. Essential to prevent root rot.',
+      feeding: 'Fertilize once monthly during spring and fall with half-strength balanced fertilizer. Light feeder.',
+      watering: 'Water sparingly. Allow soil to dry completely between waterings, typically every 2-3 weeks. Overwatering is the main cause of death.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Slanting', 'Cascade', 'Root-over-Rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Pinch growing tips to encourage branching. Heals slowly, so be patient. Can prune heavily if needed.',
+        timing: 'Spring and summer during growing season.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Use caution as branches are brittle and snap easily. Best on young, flexible branches. Consider guy wires for older branches.',
+        timing: 'Spring on young growth.',
+        maturityStage: 'Best on young trees with flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 3-4 years. Slow growing. Use dry soil and wait 1 week before watering after repotting.',
+        timing: 'Spring (March-April).',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'fukien-tea',
+    scientificName: 'Carmona retusa',
+    commonName: 'Fukien Tea',
+    group: 'Boraginaceae',
+    temperatureMin: 13,
+    temperatureMax: 24,
+    sunExposure: 'Bright indirect light',
+    position: 'Indoor',
+    leafType: 'Evergreen',
+    climate: 'Tropical',
+    flowering: 'Small white flowers year-round',
+    nativeRegion: 'Southern China, Southeast Asia',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'Popular indoor bonsai with small dark green leaves and white flowers that can appear year-round. Develops attractive light gray bark with age. Prefers warm, humid conditions.',
+      soilType: 'Well-draining bonsai mix, slightly acidic pH 6.0-6.5.',
+      feeding: 'Fertilize every 2 weeks during spring through fall, monthly in winter.',
+      watering: 'Keep soil consistently moist but not waterlogged. Water when top layer begins to dry.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Slanting', 'Cascade', 'Root-over-Rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune after flowering. Heals quickly and responds well to pruning. Trim new growth to maintain shape.',
+        timing: 'Year-round, best after flowering.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible and respond well to wiring. Leave wire on for 2-3 months.',
+        timing: 'Anytime during growing season.',
+        maturityStage: 'Can be wired from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years. Prefers slightly acidic soil.',
+        timing: 'Spring when new growth begins.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'dwarf-schefflera',
+    scientificName: 'Schefflera arboricola',
+    commonName: 'Dwarf Schefflera, Umbrella Tree',
+    group: 'Araliaceae',
+    temperatureMin: 10,
+    temperatureMax: 30,
+    sunExposure: 'Bright indirect to low light',
+    position: 'Indoor',
+    leafType: 'Evergreen',
+    climate: 'Tropical',
+    flowering: 'Rare indoors',
+    nativeRegion: 'Taiwan, Hainan',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'Extremely hardy indoor bonsai with distinctive umbrella-like leaf clusters. Very forgiving of neglect and poor conditions. Develops thick trunk and can produce aerial roots in humid conditions.',
+      soilType: 'Well-draining general bonsai mix.',
+      feeding: 'Fertilize every 2-3 weeks during spring through fall, monthly in winter.',
+      watering: 'Water when top inch of soil dries. Tolerates some neglect and irregular watering.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Slanting', 'Root-over-Rock', 'Banyan'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Can be pruned heavily if needed. Recovers quickly from hard pruning. Trim regularly to maintain shape.',
+        timing: 'Year-round, most vigorous in spring and summer.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible and respond well to wiring. Leave wire on for 2-3 months.',
+        timing: 'Anytime during growing season.',
+        maturityStage: 'Can be wired from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years. Very tolerant of root pruning.',
+        timing: 'Spring when new growth begins.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'boxwood',
+    scientificName: 'Buxus sempervirens',
+    commonName: 'Boxwood, Common Box',
+    group: 'Buxaceae',
+    temperatureMin: -10,
+    temperatureMax: 24,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Outdoor',
+    leafType: 'Evergreen',
+    climate: 'Temperate',
+    flowering: 'Inconspicuous',
+    nativeRegion: 'Europe, Mediterranean, Asia',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'Classic European bonsai with small evergreen leaves. Very hardy and responds excellently to pruning. Develops fine ramification naturally. Excellent for topiary-style bonsai and formal designs.',
+      soilType: 'Well-draining bonsai mix, slightly alkaline pH 6.5-7.5.',
+      feeding: 'Fertilize every 2 weeks during spring through fall.',
+      watering: 'Keep evenly moist. Water regularly, especially during hot weather.'
+    },
+    bonsaiStyles: ['Formal Upright', 'Informal Upright', 'Broom', 'Cascade'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Responds excellently to pruning. Can be pruned heavily to shape. Develops fine ramification with regular trimming.',
+        timing: 'Spring and summer during growing season.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible when young. Wire during growing season for best results.',
+        timing: 'Spring and summer.',
+        maturityStage: 'Best on young, flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years. Very hardy and tolerates root work well.',
+        timing: 'Early spring before new growth.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
   }
+
 ];
 
 
 
-export const getDifficultyBadgeClass = (level: DifficultyLevel): string => {
-  const baseClass = 'difficulty-badge';
-  const colorClass = (() => {
-    switch (level) {
-      case 'Beginner':
-        return 'difficulty-badge-beginner';
-      case 'Intermediate':
-        return 'difficulty-badge-intermediate';
-      case 'Expert':
-        return 'difficulty-badge-expert';
-      default:
-        return 'difficulty-badge-default';
-    }
-  })();
-  
-  return `${baseClass} ${colorClass}`;
+export const getDifficultyBadgeClass = (level: string) => {
+  switch (level) {
+    case 'Beginner':
+      return 'bg-green-100 text-green-800';
+    case 'Intermediate':
+      return 'bg-yellow-100 text-yellow-800';
+    case 'Expert':
+      return 'bg-red-100 text-red-800';
+    default:
+      return 'bg-gray-100 text-gray-800';
+  }
 };
 
-export const getClimateIcon = (climate: Climate | string): string => {
+export const getClimateIcon = (climate: string) => {
   switch (climate) {
     case 'Tropical':
       return '☀️';
@@ -1670,6 +1981,8 @@ export const getClimateIcon = (climate: Climate | string): string => {
       return '🌤️';
     case 'Temperate':
       return '🍂';
+    case 'Mediterranean':
+      return '🌿';
     default:
       return '❓';
   }
