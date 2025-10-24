@@ -153,40 +153,40 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_early_stage.jpg': {
-        source: 'Bonsai Community',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_middle_stage.jpg': {
-        source: 'Bonsai Enthusiast',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_mature_stage.jpg': {
-        source: 'Bonsai Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_spring.jpg': {
-        source: 'Seasonal Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_summer.png': {
-        source: 'Bonsai Photography',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_autumn.jpg': {
-        source: 'Autumn Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_winter.jpg': {
-        source: 'Bonsai Retailer',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_root_over_rock.jpg': {
-        source: 'Bonsai Styling Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_banyan_style.jpg': {
-        source: 'Advanced Bonsai Techniques',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_1.jpg': {
         source: 'iNaturalist Canada',
@@ -355,44 +355,44 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/juniper/development_stages/juniper_early_stage.jpg': {
-        source: 'Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/development_stages/juniper_middle_stage.jpg': {
         source: 'Eastern Leaf',
         url: 'https://easternleaf.com'
       },
       '/bonsai_photos/juniper/development_stages/juniper_mature_stage.jpg': {
-        source: 'Master Bonsai Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_spring.jpg': {
-        source: 'Spring Juniper Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_summer.jpg': {
-        source: 'Summer Bonsai Photography',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_autumn.jpg': {
-        source: 'Autumn Conifer Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_winter.jpg': {
-        source: 'Winter Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/styles/juniper_cascade.jpg': {
-        source: 'Bonsai Styling Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/styles/juniper_upright.jpg': {
-        source: 'Upright Bonsai Techniques',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/styles/juniper_literati.jpg': {
-        source: 'Literati Style Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/nature/juniper_nature_1.jpg': {
         source: 'Wikipedia',
@@ -561,44 +561,44 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_early_stage.jpg': {
-        source: 'Japanese Maple Bonsai Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_middle_stage.jpg': {
         source: 'Bonsai-En',
         url: 'https://bonsai-en.com.au'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_mature_stage.jpg': {
-        source: 'Mature Maple Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_spring.jpg': {
-        source: 'Spring Maple Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_summer.jpg': {
-        source: 'Summer Foliage Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_autumn.jpg': {
-        source: 'Autumn Colors Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_winter.jpg': {
-        source: 'Winter Silhouette Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_informal_upright.jpg': {
-        source: 'Informal Upright Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_cascade.jpg': {
-        source: 'Maple Cascade Techniques',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_raft.jpg': {
-        source: 'Raft Style Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/nature/japanese_maple_nature_1.jpg': {
         source: 'Go Botany - Native Plant Trust',
@@ -744,79 +744,79 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_early_stage.jpg',
-        middle: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_middle_stage.jpg',
-        mature: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_mature_stage.jpg'
+        early: '/bonsai_photos/jacaranda/development_stages/jacaranda_early_stage.jpg',
+        middle: '/bonsai_photos/jacaranda/development_stages/jacaranda_middle_stage.jpg',
+        mature: '/bonsai_photos/jacaranda/development_stages/jacaranda_mature_stage.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_spring.jpg',
-        summer: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_summer.jpg',
-        autumn: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_autumn.jpg',
-        winter: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_winter.jpg'
+        spring: '/bonsai_photos/jacaranda/seasons/jacaranda_spring.jpg',
+        summer: '/bonsai_photos/jacaranda/seasons/jacaranda_summer.jpg',
+        autumn: '/bonsai_photos/jacaranda/seasons/jacaranda_autumn.jpg',
+        winter: '/bonsai_photos/jacaranda/seasons/jacaranda_winter.jpg'
       },
       styles: {
-        informalUpright: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_informal_upright.jpg',
-        slanting: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_slanting.jpg',
-        multiTrunk: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_multi_trunk.jpg'
+        cascade: '/bonsai_photos/jacaranda/styles/jacaranda_cascade.jpg',
+        informalUpright: '/bonsai_photos/jacaranda/styles/jacaranda_informal_upright.jpg',
+        semiCascade: '/bonsai_photos/jacaranda/styles/jacaranda_semi_cascade.jpg'
       },
       nature: {
-        habitat1: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_1.jpg',
-        habitat2: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_2.jpg',
-        habitat3: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_3.jpg'
+        habitat1: '/bonsai_photos/jacaranda/nature/jacaranda_nature_1.jpg',
+        habitat2: '/bonsai_photos/jacaranda/nature/jacaranda_nature_2.jpg',
+        habitat3: '/bonsai_photos/jacaranda/nature/jacaranda_nature_3.jpg'
       }
     },
     imageCredits: {
-      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_early_stage.jpg': {
+      '/bonsai_photos/jacaranda/development_stages/jacaranda_early_stage.jpg': {
         source: 'Bonsai Empire',
-        url: 'https://www.bonsaiempire.com'
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_middle_stage.jpg': {
-        source: 'Bonsai Nut',
-        url: 'https://www.bonsainut.com'
+      '/bonsai_photos/jacaranda/development_stages/jacaranda_middle_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_mature_stage.jpg': {
-        source: 'Pixabay',
-        url: 'https://pixabay.com'
+      '/bonsai_photos/jacaranda/development_stages/jacaranda_mature_stage.jpg': {
+        source: 'Etsy',
+        url: 'https://www.etsy.com'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_spring.jpg': {
+      '/bonsai_photos/jacaranda/seasons/jacaranda_spring.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/seasons/jacaranda_summer.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/seasons/jacaranda_autumn.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/seasons/jacaranda_winter.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/styles/jacaranda_cascade.jpg': {
+        source: 'Bonsai Resource Center',
+        url: 'https://bonsairesourcecenter.com'
+      },
+      '/bonsai_photos/jacaranda/styles/jacaranda_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/styles/jacaranda_semi_cascade.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/nature/jacaranda_nature_1.jpg': {
+        source: 'The Spruce',
+        url: 'https://www.thespruce.com'
+      },
+      '/bonsai_photos/jacaranda/nature/jacaranda_nature_2.jpg': {
         source: 'Shutterstock',
         url: 'https://www.shutterstock.com'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_summer.jpg': {
+      '/bonsai_photos/jacaranda/nature/jacaranda_nature_3.jpg': {
         source: 'Wikimedia Commons',
         url: 'https://commons.wikimedia.org'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_autumn.jpg': {
-        source: 'Bonsai Boy of New York',
-        url: 'https://www.bonsaiboy.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_winter.jpg': {
-        source: 'iNaturalist Canada',
-        url: 'https://inaturalist.ca'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_informal_upright.jpg': {
-        source: 'Bonsai Empire',
-        url: 'https://www.bonsaiempire.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_slanting.jpg': {
-        source: 'Bonsai Nut',
-        url: 'https://www.bonsainut.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_multi_trunk.jpg': {
-        source: 'Pixabay',
-        url: 'https://pixabay.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_1.jpg': {
-        source: 'Shutterstock',
-        url: 'https://www.shutterstock.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_2.jpg': {
-        source: 'Wikimedia Commons',
-        url: 'https://commons.wikimedia.org'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_3.jpg': {
-        source: 'Bonsai Boy of New York',
-        url: 'https://www.bonsaiboy.com'
       }
     }
   },
