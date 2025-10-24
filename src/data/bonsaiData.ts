@@ -153,40 +153,40 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_early_stage.jpg': {
-        source: 'Bonsai Community',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_middle_stage.jpg': {
-        source: 'Bonsai Enthusiast',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/development_stages/ficus_retusa_mature_stage.jpg': {
-        source: 'Bonsai Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_spring.jpg': {
-        source: 'Seasonal Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_summer.png': {
-        source: 'Bonsai Photography',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_autumn.jpg': {
-        source: 'Autumn Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_winter.jpg': {
-        source: 'Bonsai Retailer',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_root_over_rock.jpg': {
-        source: 'Bonsai Styling Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_banyan_style.jpg': {
-        source: 'Advanced Bonsai Techniques',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/ficus'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_1.jpg': {
         source: 'iNaturalist Canada',
@@ -355,44 +355,44 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/juniper/development_stages/juniper_early_stage.jpg': {
-        source: 'Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/development_stages/juniper_middle_stage.jpg': {
         source: 'Eastern Leaf',
         url: 'https://easternleaf.com'
       },
       '/bonsai_photos/juniper/development_stages/juniper_mature_stage.jpg': {
-        source: 'Master Bonsai Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_spring.jpg': {
-        source: 'Spring Juniper Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_summer.jpg': {
-        source: 'Summer Bonsai Photography',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_autumn.jpg': {
-        source: 'Autumn Conifer Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/seasons/juniper_winter.jpg': {
-        source: 'Winter Bonsai Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/styles/juniper_cascade.jpg': {
-        source: 'Bonsai Styling Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/styles/juniper_upright.jpg': {
-        source: 'Upright Bonsai Techniques',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/styles/juniper_literati.jpg': {
-        source: 'Literati Style Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/juniper'
       },
       '/bonsai_photos/juniper/nature/juniper_nature_1.jpg': {
         source: 'Wikipedia',
@@ -561,44 +561,44 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_early_stage.jpg': {
-        source: 'Japanese Maple Bonsai Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_middle_stage.jpg': {
         source: 'Bonsai-En',
         url: 'https://bonsai-en.com.au'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_mature_stage.jpg': {
-        source: 'Mature Maple Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_spring.jpg': {
-        source: 'Spring Maple Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_summer.jpg': {
-        source: 'Summer Foliage Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_autumn.jpg': {
-        source: 'Autumn Colors Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/seasons/japanese_maple_winter.jpg': {
-        source: 'Winter Silhouette Gallery',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_informal_upright.jpg': {
-        source: 'Informal Upright Guide',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_cascade.jpg': {
-        source: 'Maple Cascade Techniques',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/styles/japanese_maple_raft.jpg': {
-        source: 'Raft Style Collection',
-        url: 'https://www.bonsaiempire.com'
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/maple'
       },
       '/bonsai_photos/japanese_maple/nature/japanese_maple_nature_1.jpg': {
         source: 'Go Botany - Native Plant Trust',
