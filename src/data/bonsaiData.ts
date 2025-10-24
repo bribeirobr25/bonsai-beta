@@ -744,79 +744,79 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_early_stage.jpg',
-        middle: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_middle_stage.jpg',
-        mature: '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_mature_stage.jpg'
+        early: '/bonsai_photos/jacaranda/development_stages/jacaranda_early_stage.jpg',
+        middle: '/bonsai_photos/jacaranda/development_stages/jacaranda_middle_stage.jpg',
+        mature: '/bonsai_photos/jacaranda/development_stages/jacaranda_mature_stage.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_spring.jpg',
-        summer: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_summer.jpg',
-        autumn: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_autumn.jpg',
-        winter: '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_winter.jpg'
+        spring: '/bonsai_photos/jacaranda/seasons/jacaranda_spring.jpg',
+        summer: '/bonsai_photos/jacaranda/seasons/jacaranda_summer.jpg',
+        autumn: '/bonsai_photos/jacaranda/seasons/jacaranda_autumn.jpg',
+        winter: '/bonsai_photos/jacaranda/seasons/jacaranda_winter.jpg'
       },
       styles: {
-        informalUpright: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_informal_upright.jpg',
-        slanting: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_slanting.jpg',
-        multiTrunk: '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_multi_trunk.jpg'
+        cascade: '/bonsai_photos/jacaranda/styles/jacaranda_cascade.jpg',
+        informalUpright: '/bonsai_photos/jacaranda/styles/jacaranda_informal_upright.jpg',
+        semiCascade: '/bonsai_photos/jacaranda/styles/jacaranda_semi_cascade.jpg'
       },
       nature: {
-        habitat1: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_1.jpg',
-        habitat2: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_2.jpg',
-        habitat3: '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_3.jpg'
+        habitat1: '/bonsai_photos/jacaranda/nature/jacaranda_nature_1.jpg',
+        habitat2: '/bonsai_photos/jacaranda/nature/jacaranda_nature_2.jpg',
+        habitat3: '/bonsai_photos/jacaranda/nature/jacaranda_nature_3.jpg'
       }
     },
     imageCredits: {
-      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_early_stage.jpg': {
+      '/bonsai_photos/jacaranda/development_stages/jacaranda_early_stage.jpg': {
         source: 'Bonsai Empire',
-        url: 'https://www.bonsaiempire.com'
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_middle_stage.jpg': {
-        source: 'Bonsai Nut',
-        url: 'https://www.bonsainut.com'
+      '/bonsai_photos/jacaranda/development_stages/jacaranda_middle_stage.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/development_stages/jacaranda_mimosifolia_mature_stage.jpg': {
-        source: 'Pixabay',
-        url: 'https://pixabay.com'
+      '/bonsai_photos/jacaranda/development_stages/jacaranda_mature_stage.jpg': {
+        source: 'Etsy',
+        url: 'https://www.etsy.com'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_spring.jpg': {
+      '/bonsai_photos/jacaranda/seasons/jacaranda_spring.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/seasons/jacaranda_summer.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/seasons/jacaranda_autumn.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/seasons/jacaranda_winter.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/styles/jacaranda_cascade.jpg': {
+        source: 'Bonsai Resource Center',
+        url: 'https://bonsairesourcecenter.com'
+      },
+      '/bonsai_photos/jacaranda/styles/jacaranda_informal_upright.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/styles/jacaranda_semi_cascade.jpg': {
+        source: 'Bonsai Empire',
+        url: 'https://www.bonsaiempire.com/tree-species/jacaranda'
+      },
+      '/bonsai_photos/jacaranda/nature/jacaranda_nature_1.jpg': {
+        source: 'The Spruce',
+        url: 'https://www.thespruce.com'
+      },
+      '/bonsai_photos/jacaranda/nature/jacaranda_nature_2.jpg': {
         source: 'Shutterstock',
         url: 'https://www.shutterstock.com'
       },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_summer.jpg': {
+      '/bonsai_photos/jacaranda/nature/jacaranda_nature_3.jpg': {
         source: 'Wikimedia Commons',
         url: 'https://commons.wikimedia.org'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_autumn.jpg': {
-        source: 'Bonsai Boy of New York',
-        url: 'https://www.bonsaiboy.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/seasons/jacaranda_mimosifolia_winter.jpg': {
-        source: 'iNaturalist Canada',
-        url: 'https://inaturalist.ca'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_informal_upright.jpg': {
-        source: 'Bonsai Empire',
-        url: 'https://www.bonsaiempire.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_slanting.jpg': {
-        source: 'Bonsai Nut',
-        url: 'https://www.bonsainut.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/styles/jacaranda_mimosifolia_multi_trunk.jpg': {
-        source: 'Pixabay',
-        url: 'https://pixabay.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_1.jpg': {
-        source: 'Shutterstock',
-        url: 'https://www.shutterstock.com'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_2.jpg': {
-        source: 'Wikimedia Commons',
-        url: 'https://commons.wikimedia.org'
-      },
-      '/bonsai_photos/jacaranda_mimosifolia/nature/jacaranda_mimosifolia_nature_3.jpg': {
-        source: 'Bonsai Boy of New York',
-        url: 'https://www.bonsaiboy.com'
       }
     }
   },
