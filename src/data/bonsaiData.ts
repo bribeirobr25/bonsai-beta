@@ -177,7 +177,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/seasons/ficus_retusa_winter.jpg': {
-        source: 'Winter Bonsai Gallery',
+        source: 'Bonsai Retailer',
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/ficus_retusa/styles/ficus_retusa_root_over_rock.jpg': {
@@ -193,12 +193,12 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         url: 'https://inaturalist.ca'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_2.jpg': {
-        source: 'iNaturalist Canada',
-        url: 'https://inaturalist.ca'
+        source: 'Reddit - r/FicusTrees',
+        url: 'https://www.reddit.com/r/FicusTrees/'
       },
       '/bonsai_photos/ficus_retusa/nature/ficus_retusa_nature_3.jpg': {
-        source: 'iNaturalist Canada',
-        url: 'https://inaturalist.ca'
+        source: 'Gardener\'s Path',
+        url: 'https://gardenerspath.com'
       }
     }
   },
@@ -355,12 +355,12 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     imageCredits: {
       '/bonsai_photos/juniper/development_stages/juniper_early_stage.jpg': {
-        source: 'FromYouFlowers',
-        url: 'https://www.fromyouflowers.com'
+        source: 'Bonsai Collection',
+        url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/development_stages/juniper_middle_stage.jpg': {
-        source: 'joe gardener',
-        url: 'https://joegardener.com'
+        source: 'Eastern Leaf',
+        url: 'https://easternleaf.com'
       },
       '/bonsai_photos/juniper/development_stages/juniper_mature_stage.jpg': {
         source: 'Master Bonsai Gallery',
@@ -383,7 +383,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/styles/juniper_cascade.jpg': {
-        source: 'Cascade Style Guide',
+        source: 'Bonsai Styling Guide',
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/juniper/styles/juniper_upright.jpg': {
@@ -565,8 +565,8 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
         url: 'https://www.bonsaiempire.com'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_middle_stage.jpg': {
-        source: 'Bonsai Club of Santa Barbara',
-        url: 'https://www.santabarbarabonsai.org'
+        source: 'Bonsai-En',
+        url: 'https://bonsai-en.com.au'
       },
       '/bonsai_photos/japanese_maple/development_stages/japanese_maple_mature_stage.jpg': {
         source: 'Mature Maple Gallery',
