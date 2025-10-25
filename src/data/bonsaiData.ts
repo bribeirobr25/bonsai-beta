@@ -1954,11 +1954,645 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
       nature: {}
     },
     imageCredits: {}
+  },
+  // BEGINNER SPECIES - PHASE 2
+  {
+    id: 'cotoneaster',
+    scientificName: 'Cotoneaster horizontalis',
+    commonName: 'Cotoneaster, Rock Cotoneaster',
+    group: 'Rosaceae',
+    temperatureMin: -15,
+    temperatureMax: 30,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Outdoor',
+    leafType: 'Deciduous',
+    climate: 'Temperate',
+    flowering: 'Small pink-white flowers in spring, red berries in fall',
+    nativeRegion: 'China',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'Cotoneaster is an excellent beginner species with small leaves, attractive flowers, and bright red berries. Very hardy and forgiving. The horizontal branching pattern makes it naturally suited for bonsai. Tolerates pruning well and develops fine ramification.',
+      soilType: 'Well-draining bonsai mix. Tolerates various soil types.',
+      feeding: 'Fertilize every 2 weeks during spring through fall with balanced fertilizer.',
+      watering: 'Water regularly when soil surface dries. Tolerates some drought but prefers consistent moisture during growing season.'
+    },
+    bonsaiStyles: ['Cascade', 'Semi-Cascade', 'Informal Upright', 'Root-over-Rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune after flowering to maintain shape. Cotoneaster responds excellently to hard pruning and develops fine ramification quickly.',
+        timing: 'After flowering (late spring) for structural pruning. Throughout growing season for maintenance.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible and respond well to wiring. Wire during growing season.',
+        timing: 'Spring and summer.',
+        maturityStage: 'Can be wired from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years. Very tolerant of root pruning.',
+        timing: 'Early spring before buds open.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'privet',
+    scientificName: 'Ligustrum sinense',
+    commonName: 'Privet, Chinese Privet',
+    group: 'Oleaceae',
+    temperatureMin: -10,
+    temperatureMax: 35,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Outdoor',
+    leafType: 'Semi-evergreen',
+    climate: 'Temperate',
+    flowering: 'Small white fragrant flowers in summer',
+    nativeRegion: 'China',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'Privet is extremely hardy and forgiving, making it perfect for beginners. Fast-growing with small leaves that reduce well. Develops thick trunk quickly. Tolerates heavy pruning and neglect. Fragrant white flowers appear in summer.',
+      soilType: 'Well-draining bonsai mix. Very adaptable to various soil types.',
+      feeding: 'Fertilize every 2 weeks during spring through fall. Responds well to feeding.',
+      watering: 'Water regularly when soil surface dries. Very tolerant of irregular watering.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Broom', 'Cascade'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Can be pruned heavily and recovers quickly. Develops fine ramification with regular trimming. One of the most forgiving species for pruning.',
+        timing: 'Year-round, most vigorous in spring and summer.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible when young. Wire during growing season for best results.',
+        timing: 'Spring through fall.',
+        maturityStage: 'Best on young, flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2 years. Very tolerant of aggressive root pruning.',
+        timing: 'Early spring before new growth.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'elephant-bush',
+    scientificName: 'Portulacaria afra',
+    commonName: 'Elephant Bush, Dwarf Jade',
+    group: 'Didiereaceae',
+    temperatureMin: 5,
+    temperatureMax: 35,
+    sunExposure: 'Full sun to bright indirect light',
+    position: 'Indoor/Outdoor',
+    leafType: 'Evergreen Succulent',
+    climate: 'Subtropical',
+    flowering: 'Small pink flowers (rare in cultivation)',
+    nativeRegion: 'South Africa',
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: 'Elephant Bush is a succulent that is extremely easy to care for and perfect for absolute beginners. Small round leaves on reddish stems create an attractive miniature tree appearance. Very forgiving of neglect and irregular watering. Grows quickly and develops thick trunk.',
+      soilType: 'Well-draining succulent mix with excellent drainage. Essential to prevent root rot.',
+      feeding: 'Fertilize monthly during spring through fall with half-strength balanced fertilizer. Light feeder.',
+      watering: 'Water sparingly. Allow soil to dry completely between waterings. More drought-tolerant than Jade tree. Overwatering is the main cause of problems.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Slanting', 'Cascade', 'Multi-trunk'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Responds excellently to pruning. Pinch growing tips regularly to encourage dense branching. Can be pruned heavily if needed.',
+        timing: 'Spring through fall during growing season.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are somewhat brittle. Use caution when wiring. Best on young, flexible growth.',
+        timing: 'Spring and summer on new growth.',
+        maturityStage: 'Best on young trees with flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years. Use dry soil and wait 1 week before watering after repotting.',
+        timing: 'Spring (March-May).',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  // INTERMEDIATE SPECIES - PHASE 2
+  {
+    id: 'azalea',
+    scientificName: 'Rhododendron indicum',
+    commonName: 'Satsuki Azalea, Azalea',
+    group: 'Ericaceae',
+    temperatureMin: -5,
+    temperatureMax: 30,
+    sunExposure: 'Partial shade to full sun',
+    position: 'Outdoor',
+    leafType: 'Evergreen',
+    climate: 'Temperate',
+    flowering: 'Spectacular flowers in late spring (pink, red, white, purple)',
+    nativeRegion: 'Japan, China',
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: 'Satsuki Azalea is one of the most popular flowering bonsai species, especially in Japan. Produces spectacular blooms in late spring. Requires acidic soil and consistent moisture. The timing of flowering can be controlled through careful watering and temperature management.',
+      soilType: 'Acidic bonsai mix with kanuma soil. pH 4.5-6.0 essential. Never use alkaline soil.',
+      feeding: 'Use acid-loving plant fertilizer. Feed after flowering through fall. Do not fertilize during flowering or in winter.',
+      watering: 'Keep consistently moist but not waterlogged. Use rainwater or acidified water if tap water is alkaline. Never let soil dry out completely.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Cascade', 'Semi-Cascade', 'Multi-trunk'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune immediately after flowering to maintain shape and encourage next year blooms. Remove spent flowers. Pinch new growth throughout summer.',
+        timing: 'After flowering (late spring/early summer). Light maintenance throughout growing season.',
+        maturityStage: 'Can be started after 2-3 years.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are brittle. Wire carefully during growing season. Protect bark with raffia if needed.',
+        timing: 'After flowering through summer.',
+        maturityStage: 'Best on young, flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years immediately after flowering. Must use acidic soil mix.',
+        timing: 'After flowering in late spring.',
+        maturityStage: 'Can be repotted after 2-3 years.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'serissa',
+    scientificName: 'Serissa japonica',
+    commonName: 'Serissa, Tree of a Thousand Stars',
+    group: 'Rubiaceae',
+    temperatureMin: 10,
+    temperatureMax: 30,
+    sunExposure: 'Bright indirect light to partial sun',
+    position: 'Indoor/Outdoor',
+    leafType: 'Evergreen',
+    climate: 'Subtropical',
+    flowering: 'Small white or pink flowers year-round',
+    nativeRegion: 'Southeast Asia',
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: 'Known as Tree of a Thousand Stars for its abundant small white flowers. Tiny leaves and fine branching create delicate appearance. Can be temperamental about changes in environment - dislikes being moved. Flowers can appear year-round with proper care. Develops attractive gnarled bark with age.',
+      soilType: 'Well-draining bonsai mix, slightly acidic pH 6.0-6.5.',
+      feeding: 'Fertilize every 2 weeks during spring through fall. Reduce to monthly in winter. Increase fertilizing when flowers appear.',
+      watering: 'Keep soil evenly moist but not waterlogged. Sensitive to both overwatering and underwatering. Dislikes sudden changes in watering routine.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Root-over-Rock', 'Cascade', 'Broom'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune regularly to maintain shape and encourage dense growth. Can be pruned year-round. Responds well to pinching new growth.',
+        timing: 'Year-round, most vigorous in spring and summer.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible but bark scars easily. Use caution and check wires frequently. Remove after 2-3 months.',
+        timing: 'Spring and summer during active growth.',
+        maturityStage: 'Can be wired from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2 years. Dislikes root disturbance - be gentle. May drop leaves after repotting but recovers.',
+        timing: 'Spring when new growth begins.',
+        maturityStage: 'Can be repotted after 1-2 years.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'olive',
+    scientificName: 'Olea europaea',
+    commonName: 'Olive, European Olive',
+    group: 'Oleaceae',
+    temperatureMin: -5,
+    temperatureMax: 40,
+    sunExposure: 'Full sun',
+    position: 'Outdoor',
+    leafType: 'Evergreen',
+    climate: 'Mediterranean',
+    flowering: 'Small white flowers in spring, may produce olives',
+    nativeRegion: 'Mediterranean',
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: 'Mediterranean classic with silvery-green leaves and gnarled bark. Very drought-tolerant once established. Loves full sun and heat. Can produce small olives. Develops thick, twisted trunk with age creating ancient appearance. Requires winter dormancy period with cooler temperatures.',
+      soilType: 'Well-draining bonsai mix. Tolerates poor, rocky soil. Good drainage essential.',
+      feeding: 'Fertilize every 2-3 weeks during spring through fall. Reduce in winter.',
+      watering: 'Water when soil surface dries. Drought-tolerant but grows better with regular watering during growing season. Reduce watering in winter.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Slanting', 'Literati', 'Multi-trunk'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune after flowering or in late winter. Responds well to hard pruning. Develops fine ramification with regular trimming.',
+        timing: 'Late winter or after flowering in spring.',
+        maturityStage: 'Can be started after 2-3 years.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Older branches are stiff. Wire young growth during growing season. Leave wire on for several months.',
+        timing: 'Spring and summer on young growth.',
+        maturityStage: 'Best on young, flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 3-4 years. Slow-growing. Tolerates root pruning well.',
+        timing: 'Early spring before new growth.',
+        maturityStage: 'Can be repotted after 2-3 years.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'trident-maple',
+    scientificName: 'Acer buergerianum',
+    commonName: 'Trident Maple',
+    group: 'Sapindaceae',
+    temperatureMin: -15,
+    temperatureMax: 35,
+    sunExposure: 'Full sun to partial shade',
+    position: 'Outdoor',
+    leafType: 'Deciduous',
+    climate: 'Temperate',
+    flowering: 'Inconspicuous',
+    nativeRegion: 'China, Japan, Korea',
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: 'Trident Maple is one of the most popular deciduous bonsai species. Three-lobed leaves turn brilliant orange and red in autumn. Develops excellent ramification and attractive flaking bark with age. Vigorous grower that responds well to training. Requires winter dormancy.',
+      soilType: 'Well-draining bonsai mix with good water retention.',
+      feeding: 'Fertilize every 2 weeks during spring through fall with balanced fertilizer. Stop fertilizing in late summer to harden off growth for winter.',
+      watering: 'Keep consistently moist during growing season. Water daily in summer heat. Reduce watering in winter but do not let soil dry completely.'
+    },
+    bonsaiStyles: ['Broom', 'Informal Upright', 'Formal Upright', 'Root-over-Rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Responds excellently to pruning. Develops fine ramification quickly. Prune back to 1-2 leaves after 4-6 develop. Structural pruning in late winter.',
+        timing: 'Structural pruning in late winter. Maintenance pruning throughout growing season.',
+        maturityStage: 'Can be started from young age.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are flexible when young. Wire during growing season. Check frequently as branches thicken quickly.',
+        timing: 'Spring through summer.',
+        maturityStage: 'Best on young, flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2 years for young trees, 3-4 years for mature trees. Tolerates aggressive root pruning.',
+        timing: 'Early spring before buds swell.',
+        maturityStage: 'Can be repotted from young age.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'pomegranate',
+    scientificName: 'Punica granatum',
+    commonName: 'Pomegranate',
+    group: 'Lythraceae',
+    temperatureMin: -5,
+    temperatureMax: 40,
+    sunExposure: 'Full sun',
+    position: 'Outdoor',
+    leafType: 'Deciduous',
+    climate: 'Mediterranean',
+    flowering: 'Orange-red flowers in summer, small fruits',
+    nativeRegion: 'Mediterranean, Middle East',
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: 'Pomegranate produces spectacular orange-red flowers and miniature fruits. Dwarf varieties are ideal for bonsai. Loves heat and full sun. Develops attractive flaking bark. Flowers appear on new growth. Requires winter dormancy in cooler climates.',
+      soilType: 'Well-draining bonsai mix. Tolerates various soil types.',
+      feeding: 'Fertilize every 2 weeks during spring through fall. Increase phosphorus during flowering season.',
+      watering: 'Water regularly during growing season. Reduce watering in winter. Tolerates some drought but flowers better with consistent moisture.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Slanting', 'Multi-trunk', 'Root-over-Rock'],
+    techniques: [
+      {
+        name: 'Pruning (Structural & Maintenance)',
+        description: 'Prune after flowering or in late winter. Flowers appear on new growth so avoid heavy pruning in spring. Pinch growing tips to encourage branching.',
+        timing: 'Late winter for structural pruning. After flowering for maintenance.',
+        maturityStage: 'Can be started after 2-3 years.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Branches are somewhat brittle. Wire carefully during growing season. Young branches are more flexible.',
+        timing: 'Spring and summer on young growth.',
+        maturityStage: 'Best on young, flexible branches.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 2-3 years. Tolerates root pruning well.',
+        timing: 'Early spring before buds open.',
+        maturityStage: 'Can be repotted after 2 years.',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  // ADVANCED SPECIES - PHASE 2
+  {
+    id: 'japanese-black-pine',
+    scientificName: 'Pinus thunbergii',
+    commonName: 'Japanese Black Pine',
+    group: 'Pinaceae',
+    temperatureMin: -15,
+    temperatureMax: 35,
+    sunExposure: 'Full sun',
+    position: 'Outdoor',
+    leafType: 'Evergreen Conifer',
+    climate: 'Temperate',
+    flowering: 'Cones',
+    nativeRegion: 'Japan, Korea',
+    difficultyLevel: 'Advanced',
+    category: 'Advanced',
+    careTips: {
+      general: 'Japanese Black Pine is one of the most classic and revered bonsai species in Japan. Requires specific techniques including candle pinching, needle plucking, and careful timing. Develops thick, rugged bark and dense needle pads with proper care. Requires full sun and excellent air circulation. Not recommended for beginners.',
+      soilType: 'Well-draining bonsai mix with high percentage of inorganic components (akadama, pumice, lava rock).',
+      feeding: 'Fertilize moderately during spring and fall. Reduce nitrogen in late summer. Do not overfeed or needles will become too long.',
+      watering: 'Water when soil surface dries. Good drainage essential. Reduce watering in winter but do not let soil dry completely.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Literati', 'Windswept'],
+    techniques: [
+      {
+        name: 'Candle Pinching',
+        description: 'Essential technique for controlling needle length and encouraging back-budding. Pinch or cut candles in spring when they extend but before needles open.',
+        timing: 'Late spring when candles are fully extended.',
+        maturityStage: 'Only on mature, healthy trees (5+ years).',
+        notRecommended: false
+      },
+      {
+        name: 'Needle Plucking',
+        description: 'Remove old needles in fall to improve light penetration and encourage back-budding. Advanced technique requiring experience.',
+        timing: 'Fall (October-November).',
+        maturityStage: 'Only on mature, vigorous trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Wire in fall through winter when sap flow is reduced. Branches are stiff and require strong wire. Leave wire on for 1-2 years.',
+        timing: 'Fall through winter.',
+        maturityStage: 'Can be wired after 3-4 years.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 3-5 years. Pines are sensitive to root work. Do not remove more than 1/3 of root mass.',
+        timing: 'Early spring before buds swell.',
+        maturityStage: 'Only repot established trees (3+ years).',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'japanese-white-pine',
+    scientificName: 'Pinus parviflora',
+    commonName: 'Japanese White Pine',
+    group: 'Pinaceae',
+    temperatureMin: -20,
+    temperatureMax: 30,
+    sunExposure: 'Full sun',
+    position: 'Outdoor',
+    leafType: 'Evergreen Conifer',
+    climate: 'Temperate',
+    flowering: 'Cones',
+    nativeRegion: 'Japan',
+    difficultyLevel: 'Advanced',
+    category: 'Advanced',
+    careTips: {
+      general: 'Japanese White Pine is considered the pinnacle of bonsai artistry. Shorter needles than Black Pine with bluish-green color. Requires advanced techniques and years of patient development. Often grafted onto Black Pine rootstock for vigor. Extremely valuable specimens can be worth tens of thousands of dollars.',
+      soilType: 'Well-draining bonsai mix with high percentage of inorganic components. Excellent drainage critical.',
+      feeding: 'Fertilize moderately during spring and fall. Low nitrogen to keep needles short. Specialized pine fertilizer recommended.',
+      watering: 'Water when soil surface dries. Excellent drainage essential. More sensitive to overwatering than Black Pine.'
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Literati', 'Cascade'],
+    techniques: [
+      {
+        name: 'Candle Pinching',
+        description: 'Critical technique for controlling needle length. More delicate than Black Pine. Pinch candles when extended but before needles open.',
+        timing: 'Late spring (May-June depending on climate).',
+        maturityStage: 'Only on mature, healthy trees (5+ years).',
+        notRecommended: false
+      },
+      {
+        name: 'Needle Plucking',
+        description: 'Remove old needles to improve light and air circulation. Requires experience and understanding of tree vigor.',
+        timing: 'Fall (October-November).',
+        maturityStage: 'Only on mature, vigorous trees.',
+        notRecommended: false
+      },
+      {
+        name: 'Wiring',
+        description: 'Wire in fall through winter. Branches are more flexible than Black Pine but still require careful work. Leave wire on for 1-2 years.',
+        timing: 'Fall through winter.',
+        maturityStage: 'Can be wired after 3-5 years.',
+        notRecommended: false
+      },
+      {
+        name: 'Repotting',
+        description: 'Repot every 3-5 years. Very sensitive to root work. Minimal root pruning. Often grafted, so protect graft union.',
+        timing: 'Early spring before buds swell.',
+        maturityStage: 'Only repot well-established trees (5+ years).',
+        notRecommended: false
+      }
+    ],
+    images: {
+      developmentStages: {
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
+      },
+      seasons: {
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
   }
-
 ];
-
-
 
 export const getDifficultyBadgeClass = (level: string) => {
   switch (level) {
