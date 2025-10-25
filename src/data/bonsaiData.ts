@@ -1668,28 +1668,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Broom', 'Slanting', 'Semi-Cascade'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune back to 2-3 leaves after 4-6 develop. Chinese Elm responds excellently to pruning and develops fine ramification.',
-        timing: 'Year-round, but most vigorous growth in spring and summer.',
-        maturityStage: 'Can be started from young age after 1-2 years.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible and respond well to wiring. Check wires regularly as bark can scar easily.',
-        timing: 'Year-round, leave wire on for 2-3 months.',
-        maturityStage: 'Can be wired from young age when branches are flexible.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2 years for young trees, 3-4 years for mature trees. Essential for healthy root development.',
-        timing: 'Early spring before new growth begins.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Chinese Elm tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During spring repotting when tree is entering active growth.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Chinese Elm responds well to defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Very effective technique for Chinese Elm to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Chinese Elm accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Chinese Elm. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Chinese Elm due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Chinese Elm develops excellent nebari naturally. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Chinese Elm to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Chinese Elm responds excellently to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Chinese Elm is a vigorous grower and benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during spring through autumn. Reduce or stop during winter dormancy.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Chinese Elm can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Chinese Elm prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -1730,28 +1793,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Slanting', 'Cascade', 'Root-over-Rock'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Pinch growing tips to encourage branching. Heals slowly, so be patient. Can prune heavily if needed.',
-        timing: 'Spring and summer during growing season.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Use caution as branches are brittle and snap easily. Best on young, flexible branches. Consider guy wires for older branches.',
-        timing: 'Spring on young growth.',
-        maturityStage: 'Best on young trees with flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 3-4 years. Slow growing. Use dry soil and wait 1 week before watering after repotting.',
-        timing: 'Spring (March-April).',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Jade Tree requires careful root pruning with caution. Remove up to 1/4 of root mass during repotting to encourage fine feeder roots. Succulents are sensitive to root damage.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation is not recommended for Jade Tree. Succulents store water in leaves and defoliation causes stress. Selective leaf removal only when necessary.',
+      timing: 'Not recommended as a regular technique.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and branching. Useful technique for Jade Tree to develop fuller canopy.',
+      timing: 'Throughout growing season. Pinch new shoots back to desired length once they extend several nodes.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Grafting is rarely used on Jade Tree as succulents propagate easily from cuttings and grafting success rates are low. Not a recommended technique for this species.',
+      timing: 'Not recommended for succulents.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Jin is not recommended for Jade Tree due to succulent nature - exposed tissue will rot. Not a suitable technique for this species.',
+      timing: 'Not recommended.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Jade Tree due to succulent nature. Not applicable to succulents.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Jade Tree can develop good surface roots. Techniques like root pruning, strategic repotting, and root exposure enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving is not recommended for Jade Tree due to soft succulent tissue that will rot and not heal properly. Not a suitable technique for this species.',
+      timing: 'Not recommended.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Air Layering',
+      description: 'Air layering is not necessary for Jade Tree as succulents propagate extremely easily from cuttings. Simply cutting and planting is more effective.',
+      timing: 'Not recommended - use cuttings instead.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Jade Tree  benefits from regular fertilization during growing season. Use diluted balanced fertilizer - succulents need less feeding.',
+      timing: 'Monthly during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Jade Tree can be affected by mealybugs, scale insects, root rot from overwatering. Avoid overwatering to prevent root rot. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Jade Tree prefers infrequent watering - allow soil to dry between waterings. Water deeply but infrequently. Prefers low humidity, avoid misting.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. Minimal watering in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -1792,28 +1918,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Slanting', 'Cascade', 'Root-over-Rock'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune after flowering. Heals quickly and responds well to pruning. Trim new growth to maintain shape.',
-        timing: 'Year-round, best after flowering.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible and respond well to wiring. Leave wire on for 2-3 months.',
-        timing: 'Anytime during growing season.',
-        maturityStage: 'Can be wired from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years. Prefers slightly acidic soil.',
-        timing: 'Spring when new growth begins.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Fukien Tea tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Fukien Tea can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Fukien Tea to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Fukien Tea accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Fukien Tea. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Fukien Tea due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Fukien Tea can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Fukien Tea to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Fukien Tea responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Fukien Tea  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Fukien Tea can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Fukien Tea prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Requires high humidity, mist regularly.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -1854,28 +2043,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Slanting', 'Root-over-Rock', 'Banyan'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Can be pruned heavily if needed. Recovers quickly from hard pruning. Trim regularly to maintain shape.',
-        timing: 'Year-round, most vigorous in spring and summer.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible and respond well to wiring. Leave wire on for 2-3 months.',
-        timing: 'Anytime during growing season.',
-        maturityStage: 'Can be wired from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years. Very tolerant of root pruning.',
-        timing: 'Spring when new growth begins.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Dwarf Schefflera tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Dwarf Schefflera can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Dwarf Schefflera to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Dwarf Schefflera accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Jin is not recommended for Dwarf Schefflera due to soft wood that rots easily. Not a suitable technique for this species.',
+      timing: 'Not recommended.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Dwarf Schefflera due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Dwarf Schefflera can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving is not recommended for Dwarf Schefflera due to soft wood prone to rot. Not a suitable technique for this species.',
+      timing: 'Not recommended.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Air Layering',
+      description: 'Dwarf Schefflera responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Dwarf Schefflera  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Dwarf Schefflera can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Dwarf Schefflera prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Requires high humidity, mist regularly.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -1916,28 +2168,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Formal Upright', 'Informal Upright', 'Broom', 'Cascade'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Responds excellently to pruning. Can be pruned heavily to shape. Develops fine ramification with regular trimming.',
-        timing: 'Spring and summer during growing season.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible when young. Wire during growing season for best results.',
-        timing: 'Spring and summer.',
-        maturityStage: 'Best on young, flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years. Very hardy and tolerates root work well.',
-        timing: 'Early spring before new growth.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Boxwood tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Boxwood can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Boxwood to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Boxwood accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Boxwood. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Boxwood due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Boxwood can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Boxwood to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Boxwood responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Boxwood  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Boxwood can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Boxwood prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -1979,28 +2294,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Cascade', 'Semi-Cascade', 'Informal Upright', 'Root-over-Rock'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune after flowering to maintain shape. Cotoneaster responds excellently to hard pruning and develops fine ramification quickly.',
-        timing: 'After flowering (late spring) for structural pruning. Throughout growing season for maintenance.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible and respond well to wiring. Wire during growing season.',
-        timing: 'Spring and summer.',
-        maturityStage: 'Can be wired from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years. Very tolerant of root pruning.',
-        timing: 'Early spring before buds open.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Cotoneaster tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During spring repotting when tree is entering active growth.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Cotoneaster responds well to defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Very effective technique for Cotoneaster to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Cotoneaster accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Cotoneaster. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Cotoneaster due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Cotoneaster develops excellent nebari naturally. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Cotoneaster to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Cotoneaster responds excellently to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Cotoneaster is a vigorous grower and benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during spring through autumn. Reduce or stop during winter dormancy.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Cotoneaster can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Cotoneaster prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2041,28 +2419,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Broom', 'Cascade'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Can be pruned heavily and recovers quickly. Develops fine ramification with regular trimming. One of the most forgiving species for pruning.',
-        timing: 'Year-round, most vigorous in spring and summer.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible when young. Wire during growing season for best results.',
-        timing: 'Spring through fall.',
-        maturityStage: 'Best on young, flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2 years. Very tolerant of aggressive root pruning.',
-        timing: 'Early spring before new growth.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Privet tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Privet can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Privet to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Privet accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Privet. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Privet due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Privet can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Privet to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Privet responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Privet  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Privet can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Privet prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2103,28 +2544,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Slanting', 'Cascade', 'Multi-trunk'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Responds excellently to pruning. Pinch growing tips regularly to encourage dense branching. Can be pruned heavily if needed.',
-        timing: 'Spring through fall during growing season.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are somewhat brittle. Use caution when wiring. Best on young, flexible growth.',
-        timing: 'Spring and summer on new growth.',
-        maturityStage: 'Best on young trees with flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years. Use dry soil and wait 1 week before watering after repotting.',
-        timing: 'Spring (March-May).',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Elephant Bush requires careful root pruning with caution. Remove up to 1/4 of root mass during repotting to encourage fine feeder roots. Succulents are sensitive to root damage.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation is not recommended for Elephant Bush. Succulents store water in leaves and defoliation causes stress. Selective leaf removal only when necessary.',
+      timing: 'Not recommended as a regular technique.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and branching. Useful technique for Elephant Bush to develop fuller canopy.',
+      timing: 'Throughout growing season. Pinch new shoots back to desired length once they extend several nodes.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Grafting is rarely used on Elephant Bush as succulents propagate easily from cuttings and grafting success rates are low. Not a recommended technique for this species.',
+      timing: 'Not recommended for succulents.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Jin is not recommended for Elephant Bush due to succulent nature - exposed tissue will rot. Not a suitable technique for this species.',
+      timing: 'Not recommended.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Elephant Bush due to succulent nature. Not applicable to succulents.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Elephant Bush can develop good surface roots. Techniques like root pruning, strategic repotting, and root exposure enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving is not recommended for Elephant Bush due to soft succulent tissue that will rot and not heal properly. Not a suitable technique for this species.',
+      timing: 'Not recommended.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Air Layering',
+      description: 'Air layering is not necessary for Elephant Bush as succulents propagate extremely easily from cuttings. Simply cutting and planting is more effective.',
+      timing: 'Not recommended - use cuttings instead.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Elephant Bush  benefits from regular fertilization during growing season. Use diluted balanced fertilizer - succulents need less feeding.',
+      timing: 'Monthly during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Elephant Bush can be affected by mealybugs, scale insects, root rot from overwatering. Avoid overwatering to prevent root rot. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Elephant Bush prefers infrequent watering - allow soil to dry between waterings. Water deeply but infrequently. Prefers low humidity, avoid misting.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. Minimal watering in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2166,28 +2670,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Cascade', 'Semi-Cascade', 'Multi-trunk'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune immediately after flowering to maintain shape and encourage next year blooms. Remove spent flowers. Pinch new growth throughout summer.',
-        timing: 'After flowering (late spring/early summer). Light maintenance throughout growing season.',
-        maturityStage: 'Can be started after 2-3 years.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are brittle. Wire carefully during growing season. Protect bark with raffia if needed.',
-        timing: 'After flowering through summer.',
-        maturityStage: 'Best on young, flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years immediately after flowering. Must use acidic soil mix.',
-        timing: 'After flowering in late spring.',
-        maturityStage: 'Can be repotted after 2-3 years.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Azalea tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Azalea can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Azalea to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Azalea accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Azalea. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Azalea due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Azalea can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Azalea to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Azalea responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Azalea  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Azalea can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Azalea prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2228,28 +2795,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Root-over-Rock', 'Cascade', 'Broom'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune regularly to maintain shape and encourage dense growth. Can be pruned year-round. Responds well to pinching new growth.',
-        timing: 'Year-round, most vigorous in spring and summer.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible but bark scars easily. Use caution and check wires frequently. Remove after 2-3 months.',
-        timing: 'Spring and summer during active growth.',
-        maturityStage: 'Can be wired from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2 years. Dislikes root disturbance - be gentle. May drop leaves after repotting but recovers.',
-        timing: 'Spring when new growth begins.',
-        maturityStage: 'Can be repotted after 1-2 years.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Serissa tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Serissa can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Serissa to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Serissa accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Serissa. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Serissa due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Serissa can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Serissa to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Serissa responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Serissa  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Serissa can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Serissa prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2290,28 +2920,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Slanting', 'Literati', 'Multi-trunk'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune after flowering or in late winter. Responds well to hard pruning. Develops fine ramification with regular trimming.',
-        timing: 'Late winter or after flowering in spring.',
-        maturityStage: 'Can be started after 2-3 years.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Older branches are stiff. Wire young growth during growing season. Leave wire on for several months.',
-        timing: 'Spring and summer on young growth.',
-        maturityStage: 'Best on young, flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 3-4 years. Slow-growing. Tolerates root pruning well.',
-        timing: 'Early spring before new growth.',
-        maturityStage: 'Can be repotted after 2-3 years.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Olive tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During growing season repotting when tree is actively growing.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Olive can tolerate defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Useful technique for Olive to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Olive accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Olive. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Olive due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Olive can develop good surface roots. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Olive to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Olive responds well to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Olive  benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during growing season. Reduce in winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Olive can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Olive prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2352,28 +3045,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Broom', 'Informal Upright', 'Formal Upright', 'Root-over-Rock'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Responds excellently to pruning. Develops fine ramification quickly. Prune back to 1-2 leaves after 4-6 develop. Structural pruning in late winter.',
-        timing: 'Structural pruning in late winter. Maintenance pruning throughout growing season.',
-        maturityStage: 'Can be started from young age.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are flexible when young. Wire during growing season. Check frequently as branches thicken quickly.',
-        timing: 'Spring through summer.',
-        maturityStage: 'Best on young, flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2 years for young trees, 3-4 years for mature trees. Tolerates aggressive root pruning.',
-        timing: 'Early spring before buds swell.',
-        maturityStage: 'Can be repotted from young age.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Trident Maple tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During spring repotting when tree is entering active growth.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Trident Maple responds well to defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Very effective technique for Trident Maple to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Trident Maple accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Trident Maple. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Trident Maple due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Trident Maple develops excellent nebari naturally. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Trident Maple to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Trident Maple responds excellently to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Trident Maple is a vigorous grower and benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during spring through autumn. Reduce or stop during winter dormancy.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Trident Maple can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Trident Maple prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2414,28 +3170,91 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Slanting', 'Multi-trunk', 'Root-over-Rock'],
     techniques: [
-      {
-        name: 'Pruning (Structural & Maintenance)',
-        description: 'Prune after flowering or in late winter. Flowers appear on new growth so avoid heavy pruning in spring. Pinch growing tips to encourage branching.',
-        timing: 'Late winter for structural pruning. After flowering for maintenance.',
-        maturityStage: 'Can be started after 2-3 years.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Branches are somewhat brittle. Wire carefully during growing season. Young branches are more flexible.',
-        timing: 'Spring and summer on young growth.',
-        maturityStage: 'Best on young, flexible branches.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 2-3 years. Tolerates root pruning well.',
-        timing: 'Early spring before buds open.',
-        maturityStage: 'Can be repotted after 2 years.',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Root Pruning',
+      description: 'Pomegranate tolerates root pruning well. Remove up to 1/3 of root mass during repotting to encourage fine feeder roots.',
+      timing: 'During spring repotting when tree is entering active growth.',
+      maturityStage: 'Can begin root pruning during first repotting after 1-2 years.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Defoliation reduces leaf size, encourages ramification, and allows light to interior branches. Pomegranate responds well to defoliation when healthy and vigorous.',
+      timing: 'Mid-summer (June-July) after first flush has hardened. Only defoliate healthy, vigorous trees. Can be done annually or every other year for deciduous species.',
+      maturityStage: 'Only on established, healthy trees (minimum 3-4 years old). Not recommended for weak or recently repotted trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Pinching',
+      description: 'Pinching new growth encourages ramification and compact growth. Very effective technique for Pomegranate to develop dense foliage pads.',
+      timing: 'Throughout growing season. Pinch new shoots back to 1-2 leaves once they extend 3-4 leaves.',
+      maturityStage: 'Can begin on young trees once vigorous growth is established.',
+      notRecommended: false
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Pomegranate accepts grafts well. Thread grafting can add branches in desired locations. Approach grafting useful for trunk fusion or adding roots.',
+      timing: 'Best during active growing season (late spring to early summer) when sap flow is strong.',
+      maturityStage: 'Perform on established trees (3-5 years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Can be created on Pomegranate. The wood must be treated with lime sulfur to prevent rot. Creates dramatic aged appearance.',
+      timing: 'Can be done during growing season when bark peels more easily. Apply lime sulfur for preservation and bleaching.',
+      maturityStage: 'Best on mature trees with established branches. Not recommended for young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is not recommended for Pomegranate due to tendency for exposed wood to rot quickly. Deciduous and broadleaf evergreen trees rarely use this technique.',
+      timing: 'Not recommended for this species.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Pomegranate develops excellent nebari naturally. Techniques like root pruning, ground layering, and air layering enhance radial root spread.',
+      timing: 'Work on nebari during spring repotting. Can be developed over multiple years.',
+      maturityStage: 'Begin developing nebari from young age (2-3 years) for best results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving can be done on Pomegranate to create hollows or refine deadwood. Requires thorough treatment with wood hardener and sealant to prevent rot.',
+      timing: 'Best during growing season when wood is easier to work. Treat immediately with preservatives.',
+      maturityStage: 'Only on mature trees. Limited use due to rot susceptibility.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Pomegranate responds excellently to air layering. Very effective technique for creating new trees from branches or improving trunk taper and nebari.',
+      timing: 'Late spring to early summer when tree is in active growth. Roots typically form within 2-3 months.',
+      maturityStage: 'Can be performed on healthy branches of various sizes. Works on both young and mature trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Pomegranate is a vigorous grower and benefits from regular fertilization during growing season. Use balanced fertilizer or slightly higher nitrogen in spring.',
+      timing: 'Every 2-3 weeks during spring through autumn. Reduce or stop during winter dormancy.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Pomegranate can be affected by aphids, spider mites, scale insects. Good air circulation and proper watering prevent most issues. Treat with appropriate organic or chemical controls when needed.',
+      timing: 'Monitor regularly throughout growing season. Treat immediately upon detection.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Pomegranate prefers consistent moisture but good drainage. Allow topsoil to dry slightly between waterings. Appreciates occasional misting in dry environments.',
+      timing: 'Water as needed based on soil moisture, temperature, and season. More frequent in summer, reduced in winter.',
+      maturityStage: 'Critical for all stages of development.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2477,35 +3296,98 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Literati', 'Windswept'],
     techniques: [
-      {
-        name: 'Candle Pinching',
-        description: 'Essential technique for controlling needle length and encouraging back-budding. Pinch or cut candles in spring when they extend but before needles open.',
-        timing: 'Late spring when candles are fully extended.',
-        maturityStage: 'Only on mature, healthy trees (5+ years).',
-        notRecommended: false
-      },
-      {
-        name: 'Needle Plucking',
-        description: 'Remove old needles in fall to improve light penetration and encourage back-budding. Advanced technique requiring experience.',
-        timing: 'Fall (October-November).',
-        maturityStage: 'Only on mature, vigorous trees.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Wire in fall through winter when sap flow is reduced. Branches are stiff and require strong wire. Leave wire on for 1-2 years.',
-        timing: 'Fall through winter.',
-        maturityStage: 'Can be wired after 3-4 years.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 3-5 years. Pines are sensitive to root work. Do not remove more than 1/3 of root mass.',
-        timing: 'Early spring before buds swell.',
-        maturityStage: 'Only repot established trees (3+ years).',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Pruning (Structural & Maintenance)',
+      description: 'Japanese Black Pine requires careful pruning. Never remove all needles from a branch as it will die. Prune back to areas with needles. Structural pruning creates the basic framework.',
+      timing: 'Structural pruning in late autumn to winter when sap flow is minimal. Avoid heavy pruning during active growth.',
+      maturityStage: 'Begin structural pruning after 3-4 years when tree has developed sufficient vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Root Pruning',
+      description: 'Japanese Black Pine tolerates root pruning but is more sensitive than deciduous species. Remove no more than 1/4 to 1/3 of root mass. Mycorrhizal fungi in roots are important for health.',
+      timing: 'During spring repotting, just before new growth begins.',
+      maturityStage: 'Can begin root pruning after 2-3 years, but be conservative with young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Total defoliation is not applicable to Japanese Black Pine. Conifers do not regenerate from bare wood. Needle plucking (already listed separately) is the appropriate technique for needle reduction.',
+      timing: 'Not applicable for conifers.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Pinching',
+      description: 'Traditional pinching is not used on Japanese Black Pine. Candle pinching (already listed separately) is the appropriate technique for controlling growth and encouraging back-budding in pines.',
+      timing: 'See candle pinching technique.',
+      maturityStage: 'See candle pinching technique.',
+      notRecommended: true
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Japanese Black Pine can be grafted to add branches or improve foliage characteristics. Thread grafting is particularly useful for adding branches in bare areas. Requires skill and patience.',
+      timing: 'Best in late winter to early spring before new growth begins.',
+      maturityStage: 'Perform on established trees (5+ years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Jin is a classic and essential technique for Japanese Black Pine. Pines naturally develop deadwood in nature. Creates dramatic aged appearance. Treat with lime sulfur for preservation and bleaching.',
+      timing: 'Can be done year-round, but easier during growing season when bark peels more readily. Apply lime sulfur treatment.',
+      maturityStage: 'Can begin on trees 5+ years old. Essential technique for creating aged pine bonsai.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is a classic technique for Japanese Black Pine, creating dramatic trunk deadwood features. Must be carefully carved and treated with lime sulfur. Creates the appearance of lightning strikes or natural aging.',
+      timing: 'Best during growing season for easier bark removal. Apply lime sulfur treatment after carving.',
+      maturityStage: 'Only on mature, well-established trees with thick trunks (8+ years old).',
+      notRecommended: false
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Japanese Black Pine can develop good surface roots but requires patience. Techniques like strategic root pruning during repotting and gradual soil removal expose roots. Radial root spread is important for stability and aesthetics.',
+      timing: 'Work on nebari during spring repotting. Develop gradually over many years.',
+      maturityStage: 'Begin developing nebari from young age (3-4 years) for best long-term results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving is common and highly valued on Japanese Black Pine. Pine wood is excellent for carving deadwood features. Creates dramatic jin and shari. Use rotary tools and hand carving tools. Treat with lime sulfur.',
+      timing: 'Can be done year-round but easier during growing season. Treat immediately with lime sulfur for preservation.',
+      maturityStage: 'Suitable for mature trees. Essential skill for advanced pine bonsai.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Air layering is possible but challenging on Japanese Black Pine. Pines root slowly and success rates are lower than deciduous species. Requires patience (often 1-2 years) and careful technique. Best on younger branches.',
+      timing: 'Late spring. May take 12-24 months for adequate roots to form.',
+      maturityStage: 'Best on younger, more vigorous branches (3-5 years old). Success rate decreases with age.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Japanese Black Pine requires regular but moderate fertilization. Use balanced fertilizer or slightly higher nitrogen in spring for needle growth. Reduce nitrogen in late summer to harden growth for winter.',
+      timing: 'Every 3-4 weeks during growing season (spring through early autumn). Reduce or stop in late autumn and winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Japanese Black Pine can be affected by spider mites, scale insects, adelgids, and needle cast diseases. Good air circulation is essential. Monitor regularly for pests. Treat promptly with appropriate controls.',
+      timing: 'Monitor regularly throughout year. Treat immediately upon detection. Preventive spraying in spring may be beneficial.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Japanese Black Pine prefers consistent moisture but excellent drainage. Never allow to dry completely as pines are sensitive to drought. Prefers moderate humidity. Avoid overhead watering in evening to prevent fungal issues.',
+      timing: 'Water as needed to keep soil consistently moist but not waterlogged. More frequent in summer, reduced but consistent in winter.',
+      maturityStage: 'Critical for all stages of development. Young pines especially sensitive to drying out.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
@@ -2546,35 +3428,98 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     },
     bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Literati', 'Cascade'],
     techniques: [
-      {
-        name: 'Candle Pinching',
-        description: 'Critical technique for controlling needle length. More delicate than Black Pine. Pinch candles when extended but before needles open.',
-        timing: 'Late spring (May-June depending on climate).',
-        maturityStage: 'Only on mature, healthy trees (5+ years).',
-        notRecommended: false
-      },
-      {
-        name: 'Needle Plucking',
-        description: 'Remove old needles to improve light and air circulation. Requires experience and understanding of tree vigor.',
-        timing: 'Fall (October-November).',
-        maturityStage: 'Only on mature, vigorous trees.',
-        notRecommended: false
-      },
-      {
-        name: 'Wiring',
-        description: 'Wire in fall through winter. Branches are more flexible than Black Pine but still require careful work. Leave wire on for 1-2 years.',
-        timing: 'Fall through winter.',
-        maturityStage: 'Can be wired after 3-5 years.',
-        notRecommended: false
-      },
-      {
-        name: 'Repotting',
-        description: 'Repot every 3-5 years. Very sensitive to root work. Minimal root pruning. Often grafted, so protect graft union.',
-        timing: 'Early spring before buds swell.',
-        maturityStage: 'Only repot well-established trees (5+ years).',
-        notRecommended: false
-      }
-    ],
+    {
+      name: 'Pruning (Structural & Maintenance)',
+      description: 'Japanese White Pine requires careful pruning. Never remove all needles from a branch as it will die. Prune back to areas with needles. Structural pruning creates the basic framework.',
+      timing: 'Structural pruning in late autumn to winter when sap flow is minimal. Avoid heavy pruning during active growth.',
+      maturityStage: 'Begin structural pruning after 3-4 years when tree has developed sufficient vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Root Pruning',
+      description: 'Japanese White Pine tolerates root pruning but is more sensitive than deciduous species. Remove no more than 1/4 to 1/3 of root mass. Mycorrhizal fungi in roots are important for health.',
+      timing: 'During spring repotting, just before new growth begins.',
+      maturityStage: 'Can begin root pruning after 2-3 years, but be conservative with young trees.',
+      notRecommended: false
+    },
+    {
+      name: 'Defoliation (Total, Partial)',
+      description: 'Total defoliation is not applicable to Japanese White Pine. Conifers do not regenerate from bare wood. Needle plucking (already listed separately) is the appropriate technique for needle reduction.',
+      timing: 'Not applicable for conifers.',
+      maturityStage: 'Not applicable.',
+      notRecommended: true
+    },
+    {
+      name: 'Pinching',
+      description: 'Traditional pinching is not used on Japanese White Pine. Candle pinching (already listed separately) is the appropriate technique for controlling growth and encouraging back-budding in pines.',
+      timing: 'See candle pinching technique.',
+      maturityStage: 'See candle pinching technique.',
+      notRecommended: true
+    },
+    {
+      name: 'Grafting (Scion grafting, Thread grafting, Approach grafting)',
+      description: 'Japanese White Pine can be grafted to add branches or improve foliage characteristics. Thread grafting is particularly useful for adding branches in bare areas. Requires skill and patience.',
+      timing: 'Best in late winter to early spring before new growth begins.',
+      maturityStage: 'Perform on established trees (5+ years old) with good vigor.',
+      notRecommended: false
+    },
+    {
+      name: 'Jin (Deadwood Technique)',
+      description: 'Jin is a classic and essential technique for Japanese White Pine. Pines naturally develop deadwood in nature. Creates dramatic aged appearance. Treat with lime sulfur for preservation and bleaching.',
+      timing: 'Can be done year-round, but easier during growing season when bark peels more readily. Apply lime sulfur treatment.',
+      maturityStage: 'Can begin on trees 5+ years old. Essential technique for creating aged pine bonsai.',
+      notRecommended: false
+    },
+    {
+      name: 'Shari (Trunk Deadwood Technique)',
+      description: 'Shari is a classic technique for Japanese White Pine, creating dramatic trunk deadwood features. Must be carefully carved and treated with lime sulfur. Creates the appearance of lightning strikes or natural aging.',
+      timing: 'Best during growing season for easier bark removal. Apply lime sulfur treatment after carving.',
+      maturityStage: 'Only on mature, well-established trees with thick trunks (8+ years old).',
+      notRecommended: false
+    },
+    {
+      name: 'Nebari Development (Surface Roots)',
+      description: 'Japanese White Pine can develop good surface roots but requires patience. Techniques like strategic root pruning during repotting and gradual soil removal expose roots. Radial root spread is important for stability and aesthetics.',
+      timing: 'Work on nebari during spring repotting. Develop gradually over many years.',
+      maturityStage: 'Begin developing nebari from young age (3-4 years) for best long-term results.',
+      notRecommended: false
+    },
+    {
+      name: 'Carving',
+      description: 'Carving is common and highly valued on Japanese White Pine. Pine wood is excellent for carving deadwood features. Creates dramatic jin and shari. Use rotary tools and hand carving tools. Treat with lime sulfur.',
+      timing: 'Can be done year-round but easier during growing season. Treat immediately with lime sulfur for preservation.',
+      maturityStage: 'Suitable for mature trees. Essential skill for advanced pine bonsai.',
+      notRecommended: false
+    },
+    {
+      name: 'Air Layering',
+      description: 'Air layering is possible but challenging on Japanese White Pine. Pines root slowly and success rates are lower than deciduous species. Requires patience (often 1-2 years) and careful technique. Best on younger branches.',
+      timing: 'Late spring. May take 12-24 months for adequate roots to form.',
+      maturityStage: 'Best on younger, more vigorous branches (3-5 years old). Success rate decreases with age.',
+      notRecommended: false
+    },
+    {
+      name: 'Fertilizing',
+      description: 'Japanese White Pine requires regular but moderate fertilization. Use balanced fertilizer or slightly higher nitrogen in spring for needle growth. Reduce nitrogen in late summer to harden growth for winter.',
+      timing: 'Every 3-4 weeks during growing season (spring through early autumn). Reduce or stop in late autumn and winter.',
+      maturityStage: 'Begin fertilizing once tree is established and actively growing.',
+      notRecommended: false
+    },
+    {
+      name: 'Pest and Disease Management',
+      description: 'Japanese White Pine can be affected by spider mites, scale insects, adelgids, and needle cast diseases. Good air circulation is essential. Monitor regularly for pests. Treat promptly with appropriate controls.',
+      timing: 'Monitor regularly throughout year. Treat immediately upon detection. Preventive spraying in spring may be beneficial.',
+      maturityStage: 'Applicable to all stages of development.',
+      notRecommended: false
+    },
+    {
+      name: 'Watering and Humidity Control',
+      description: 'Japanese White Pine prefers consistent moisture but excellent drainage. Never allow to dry completely as pines are sensitive to drought. Prefers moderate humidity. Avoid overhead watering in evening to prevent fungal issues.',
+      timing: 'Water as needed to keep soil consistently moist but not waterlogged. More frequent in summer, reduced but consistent in winter.',
+      maturityStage: 'Critical for all stages of development. Young pines especially sensitive to drying out.',
+      notRecommended: false
+    }
+  ],
     images: {
       developmentStages: {
         early: '/bonsai_photos/placeholder/placeholder_early.jpg',
