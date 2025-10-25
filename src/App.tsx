@@ -32,10 +32,15 @@ function BonsaiCollectionApp() {
       <header className="app-header">
         <div className="header-content">
           <div className="header-navigation">
-            <div className="header-brand">
+            <div className="header-brand" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
               <TreePine className="brand-icon" />
               <h1 className="brand-title">Bonsai Collection</h1>
             </div>
+            <nav className="header-nav">
+              <button onClick={() => navigate('/basics')} className="nav-link">Getting Started</button>
+              <button onClick={() => navigate('/history')} className="nav-link">History</button>
+              <button onClick={() => navigate('/about')} className="nav-link">About</button>
+            </nav>
             <div className="header-stats">
               <span className="stats-indicator">
                 <div className="stats-dot"></div>
