@@ -1,4 +1,4 @@
-import type { BonsaiSpecies, DifficultyLevel, Climate } from '../types/bonsai';
+import type { BonsaiSpecies } from '../types/bonsai';
 
 export const bonsaiSpecies: BonsaiSpecies[] = [
   {
@@ -3286,7 +3286,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     climate: 'Temperate',
     flowering: 'Cones',
     nativeRegion: 'Japan, Korea',
-    difficultyLevel: 'Advanced',
+    difficultyLevel: 'Expert',
     category: 'Advanced',
     careTips: {
       general: 'Japanese Black Pine is one of the most classic and revered bonsai species in Japan. Requires specific techniques including candle pinching, needle plucking, and careful timing. Develops thick, rugged bark and dense needle pads with proper care. Requires full sun and excellent air circulation. Not recommended for beginners.',
@@ -3418,7 +3418,7 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     climate: 'Temperate',
     flowering: 'Cones',
     nativeRegion: 'Japan',
-    difficultyLevel: 'Advanced',
+    difficultyLevel: 'Expert',
     category: 'Advanced',
     careTips: {
       general: 'Japanese White Pine is considered the pinnacle of bonsai artistry. Shorter needles than Black Pine with bluish-green color. Requires advanced techniques and years of patient development. Often grafted onto Black Pine rootstock for vigor. Extremely valuable specimens can be worth tens of thousands of dollars.',
