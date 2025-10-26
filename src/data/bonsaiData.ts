@@ -10544,7 +10544,5993 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
       nature: {}
     },
     imageCredits: {}
- }
+ },
+  {
+    id: 'camellia-japanese-camellia-tsubaki',
+    scientificName: "Camellia japonica",
+    commonName: "Camellia (Japanese Camellia, Tsubaki)",
+    group: "Various",
+    temperatureMin: -12,
+    temperatureMax: 10,
+    sunExposure: "Semi-shade during the growing season is ideal, especially protection from intense midday and afternoon sun to prevent leaf burn. It can tolerate full sun if constantly watered, but partial shade is preferred. Needs a warm place in summer.",
+    position: "Outdoor. It requires a cool, frost-free place in winter, such as a cold frame or unheated garage, and should be kept outdoors year-round. It is not suitable as a tropical indoor houseplant.",
+    leafType: "Evergreen",
+    climate: "Hardy to approximately -12°C (10°F) for short periods, but requires winter protection in a cool, frost-free place (e.g., cold frame) to protect sensitive flower buds. Ideal growing temperatures are between 18°C and 25°C (65-77°F). Flower buds may drop if temperatures exceed 13°C (55°F) during bud development.",
+    flowering: "Seasonal",
+    nativeRegion: "East Asia, specifically China, Japan, and Korea. It grows naturally in forests at altitudes of approximately 300–1,100 meters (980–3,600 ft).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Its most distinguishing feature is the large, showy flowers (white, pink, or red) that bloom in late winter to early spring, often while the tree is still in its winter dormancy period. The flowers are terminal (at the ends of the twigs). It is also known for its dense, glossy, dark green evergreen foliage.",
+      soilType: "Requires a well-draining, highly acidic, and lime-free soil mix with a pH range of 5.5 to 6.5. A common professional mix is a blend of Akadama, Pumice, and Lava rock, or a mix of sandy loam, peat moss, and perlite. The soil must retain moisture but never become waterlogged.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires constant moisture; the root ball should never be allowed to dry out completely. Water thoroughly and frequently, especially during the growing season and flowering period. In hot, full sun, watering may be necessary once a day. Use rainwater or distilled water if tap water is hard (high in lime), as it is sensitive to alkaline conditions."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning for Camellia",
+      description: "Perform structural pruning in late spring, just after flowering has finished to avoid cutting off flower buds, which form on old wood. Focus on removing crossing branches and overly vigorous shoots to maintain the desired shape and encourage a balanced canopy. Retain thicker branches to develop a strong framework, as Camellia responds well to gradual branch reduction. Avoid heavy pruning during winter or early spring to prevent flower bud loss.",
+      timing: "Late spring (immediately after flowering)",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Light pruning throughout the growing season helps maintain shape and encourages flowering by removing weak, spindly growth. Pinch or snip back new shoots once they have produced 3-4 pairs of leaves to stimulate ramification without stressing the plant. Avoid heavy pruning late in the season to protect developing flower buds from damage.",
+      timing: "Growing season (spring to early summer), monthly as needed",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Soft Aluminum Wire",
+      description: "Use soft aluminum wire to avoid damaging the relatively brittle branches and smooth bark. Wire branches in early spring before new growth starts, as the stems are more flexible. Avoid wiring during or immediately after flowering to prevent flower bud damage. Remove wiring within 2-3 months to prevent bark scarring, especially since Camellia bark is smooth and sensitive.",
+      timing: "Early spring before bud break",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Acidic, Well-Draining Soil",
+      description: "Repot every 2-3 years in early spring before active growth begins, using a lime-free, acidic soil mix such as Akadama, pumice, and lava rock. Take care to keep the root ball moist and avoid root damage. Repotting too late or during flowering can stress the plant and cause bud drop. Use rainwater for watering after repotting to avoid alkalinity issues.",
+      timing: "Early spring (before growth starts)",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Careful Moisture Management",
+      description: "During repotting, prune roots moderately by removing about one-third of the root mass, focusing on removing thick, old roots and damaged roots. Avoid excessive root pruning as Camellia is slow-growing and sensitive to root shock. Maintain constant moisture after root pruning to aid recovery but prevent waterlogging to avoid root rot.",
+      timing: "Early spring during repotting",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation - Not Recommended",
+      description: "Full or partial defoliation is generally not recommended for Camellia bonsai because the species has relatively large, leathery leaves and slow growth. Removing leaves can cause undue stress, reduce flowering potential, and increase vulnerability to pests and diseases. Instead, focus on selective pruning and pinching to control foliage density.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch new shoot tips when they develop 3-4 pairs of leaves to encourage dense ramification and more compact growth. This technique helps maintain the tree’s shape and promotes flower bud formation on older wood. Use clean fingers or scissors to pinch, taking care not to damage the main branch or flower buds.",
+      timing: "Throughout the growing season, especially late spring to mid-summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Flower Color or Variety Change",
+      description: "Grafting is occasionally used to change flower color or to propagate superior varieties on established stock. Perform grafting in early spring when sap flow begins but before bud break. Use side or cleft grafts with healthy scions and rootstock, ensuring the rootstock is well-established to support scion growth. This technique is advanced and not necessary for all bonsai growers.",
+      timing: "Early spring, pre-bud break",
+      maturityStage: "Mature trees only (5+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) - Not Suitable",
+      description: "Creating jin (deadwood) is generally not suitable for Camellia bonsai because the species naturally has smooth, light beige bark and a compact habit. Introducing deadwood features does not complement the Camellia’s aesthetic and may increase the risk of infection or decay due to the species’ sensitivity. Focus on healthy, living branch and trunk development instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) - Not Suitable",
+      description: "Shari is not recommended for Camellia bonsai as the species’ bark is smooth and delicate. Creating trunk deadwood wounds can expose the tree to pathogens and negatively impact the natural, healthy appearance. Maintaining healthy bark and trunk integrity is more important for long-term vitality and aesthetic in Camellia.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development via Root Pruning and Surface Roots",
+      description: "Encourage nebari by carefully pruning roots during repotting, preserving fine feeder roots and promoting outward growth. Position the tree in the pot to expose some surface roots, gently spreading them to create a radial, balanced root flare. Avoid aggressive root pruning or deep planting, as Camellia’s slow growth requires careful management to develop attractive nebari over many years.",
+      timing: "Every 2-3 years during repotting in early spring",
+      maturityStage: "After 4 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving - Not Recommended",
+      description: "Carving techniques are not recommended for Camellia bonsai due to the species' brittle wood and smooth bark, which do not respond well to aggressive techniques. Carving wounds may not heal properly and increase susceptibility to infection. Maintain natural lines through pruning and wiring instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is an effective propagation method for Camellia, performed in late spring or early summer when sap flow is active. Select healthy semi-hardwood branches, girdle the bark, apply rooting hormone, and wrap with moist sphagnum moss and plastic. Monitor moisture levels and root development carefully, as Camellia roots slowly. Once roots are sufficient, cut and pot the new plant.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Acidic, Balanced Nutrients",
+      description: "Fertilize Camellia bonsai monthly during the growing season (spring through early autumn) using a balanced, acidic fertilizer (e.g., one formulated for azaleas or rhododendrons) with micronutrients. Reduce feeding during flower bud development to avoid bud drop and stop fertilizing during winter dormancy. Use organic or slow-release fertilizers to maintain soil health and acidity.",
+      timing: "Monthly from early spring to early autumn",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management Focused on Scale and Root Rot",
+      description: "Monitor regularly for common pests such as camellia scale, aphids, and spider mites, especially during warm months. Use horticultural oil or insecticidal soap for control, avoiding aggressive chemicals that may harm flower buds. Prevent root rot by maintaining well-draining acidic soil and avoiding waterlogging; treat fungal infections promptly with fungicides suitable for Camellia.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'chinese-wisteria',
+    scientificName: "Wisteria sinensis",
+    commonName: "Chinese Wisteria",
+    group: "Various",
+    temperatureMin: 10,
+    temperatureMax: 25,
+    sunExposure: "Full sun (Sunlight is essential for flowering and growth. Requires full sun conditions throughout most of the year, especially during the growing season.)",
+    position: "Outdoor (Requires full sun during the growing season. It is frost-hardy in the ground but requires a cold but frost-free location, such as a cold greenhouse or shed, for root protection in winter when grown as a bonsai.)",
+    leafType: "Deciduous",
+    climate: "Temperate climate (Resistant to hotter temperatures and can handle winter temperatures, but the roots in a bonsai pot must be protected from frost. A cold, frost-free winter environment is required.)",
+    flowering: "Seasonal",
+    nativeRegion: "China (Native to various regions of China.)",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Produces long, drooping clusters of fragrant, bluish-purple, violet, or white flowers on racemes in spring before the leaves emerge. The flowers have a fragrance similar to grapes. The plant contains the toxic glycoside wisterin, which is harmful to humans. The trunk tends to rot, which can be a design challenge.",
+      soilType: "Slightly acidic, well-draining bonsai mix (A standard, well-draining bonsai mix can be used. It must be slightly acidic, with a preferred pH level between 5.5 and 6.0.)",
+      feeding: "Fertilize regularly during growing season",
+      watering: "High water demand (Requires copious amounts of water, especially during the warm growing season. The soil should be kept consistently moist but never waterlogged. Regular watering protects leaf edges from drying out. Water less frequently during winter dormancy; misting the roots occasionally is suggested.)"
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Hard Structural Pruning",
+      description: "Chinese Wisteria requires aggressive structural pruning to control its vigorous growth and encourage a compact bonsai form. Cut back long, vigorous shoots to 2-4 buds to maintain shape and prevent excessive size. Remove seed pods promptly as they consume energy needed for flowering and branch development. This pruning also helps redirect energy into flowering buds rather than excessive leaf or tendril growth.",
+      timing: "Late winter to early spring before bud break, and again after flowering in late spring for maintenance pruning.",
+      maturityStage: "After 2-3 years once the basic structure is established.",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning of Tendrils",
+      description: "Due to its fast-growing, long tendrils, periodic maintenance pruning is essential to keep the bonsai tidy and maintain ramification. Pinch or trim back tendrils regularly during the growing season to prevent overextension and tangling, focusing on new growth that exceeds desired branch length. This encourages denser, shorter shoots and better flower bud formation.",
+      timing: "Throughout the growing season, every 2-3 weeks from late spring to early autumn.",
+      maturityStage: "After the first year of growth.",
+      notRecommended: false
+    },
+    {
+      name: "Gentle Wiring with Seasonal Timing",
+      description: "Wisteria branches are flexible but can snap if bent too sharply due to their woody but sometimes brittle nature. Use soft aluminum or annealed copper wire, applying it during late winter dormancy before bud swell. Wiring should be gentle and limited to avoid cutting into the bark, and wires should be removed within 3 months to prevent scarring. Wiring younger, thinner branches is easier; avoid wiring the trunk until it has thickened significantly.",
+      timing: "Late winter to early spring, prior to bud break.",
+      maturityStage: "After 3-4 years when branches are strong enough to shape.",
+      notRecommended: false
+    },
+    {
+      name: "Repotting in Early Spring",
+      description: "Repot Chinese Wisteria annually or biennially during early spring just before new growth begins to minimize root disturbance stress. Use a well-draining, slightly acidic bonsai soil mix (pH 5.5-6.0) to accommodate its high water needs while preventing waterlogging. Carefully remove old soil and prune about one-third of the root mass, focusing on removing old, woody roots to stimulate fresh root growth.",
+      timing: "Early spring, before bud break (March-April).",
+      maturityStage: "After 2 years of cultivation.",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Emphasis on Fine Roots",
+      description: "When repotting, prioritize pruning thick, woody roots to encourage the development of fine feeder roots that improve nutrient and water uptake. Given the species' sensitivity to root damage and frost, avoid excessive root pruning in the first few years. Root pruning should be moderate to maintain a healthy root ball, ensuring enough roots remain to support its high water demand and vigorous growth.",
+      timing: "During repotting in early spring.",
+      maturityStage: "From the second year onward.",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation to Improve Ramification",
+      description: "Partial defoliation can be used after flowering to promote back-budding and denser branch structure, but full defoliation is generally not recommended because Wisteria's leaves are large and essential for energy production. Remove only the largest leaves or those shading interior branches to improve light penetration and airflow. This technique helps balance energy distribution between leaves and flower buds.",
+      timing: "Late spring to early summer, immediately after flowering.",
+      maturityStage: "Mature trees with well-developed branch structure.",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinching back new shoots when they reach 4-6 leaves encourages lateral branching and controls size. Use your fingers or scissors to remove the soft growing tips, which helps to prevent overly long tendrils and promotes flowering on shorter shoots. This technique should be done regularly to maintain compact growth and reduce the need for hard pruning.",
+      timing: "Throughout the active growing season, roughly every 2-3 weeks from late spring to early autumn.",
+      maturityStage: "From year one of growth onward.",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Improvement",
+      description: "Grafting is occasionally used to add stronger or better-quality flowering branches or to repair damaged areas, as Wisteria can be slow to develop thick trunks and ideal branch placement. Use side grafting or approach grafting techniques during early spring when sap flow is active. Grafting onto established rootstock can speed up development of desirable branch structures and flowering potential.",
+      timing: "Early spring, just before or at the beginning of bud break.",
+      maturityStage: "After 3-5 years, when rootstock and scion are healthy and vigorous.",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Creating jin (deadwood branches) is generally not recommended on Chinese Wisteria due to the species’ tendency for trunk rot and susceptibility to fungal infections. Deadwood areas can encourage rot since Wisteria wood is relatively soft and prone to decay, especially in humid or wet climates. If jin is desired for artistic reasons, it must be carefully treated with fungicide and sealed properly to prevent decay.",
+      timing: "If applied, late winter during dormancy for best wound healing.",
+      maturityStage: "Mature trees only, with healthy, thick branches.",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Technique",
+      description: "Shari is generally discouraged on Chinese Wisteria because the trunk wood is prone to rot and fungal infections. Creating trunk deadwood exposes sensitive wood to moisture and pathogens, increasing the risk of rot, which is a common challenge with this species. Maintaining healthy bark and trunk integrity is preferred to preserve bonsai longevity.",
+      timing: "Not recommended, but if attempted, late winter with thorough sealing and fungicide application.",
+      maturityStage: "Mature specimens only.",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development through Surface Root Training",
+      description: "Developing an attractive nebari is challenging due to Wisteria’s naturally sparse surface roots. Encourage nebari by carefully spreading and wiring surface roots outward during repotting, and gently removing soil to expose thicker roots over several seasons. Consistent root pruning and repotting promote radial root growth, and using a shallow pot helps keep roots near the surface for display.",
+      timing: "During repotting in early spring and annually monitor root spread.",
+      maturityStage: "After 3-4 years when roots are strong enough to manipulate.",
+      notRecommended: false
+    },
+    {
+      name: "Carving for Trunk Texture",
+      description: "Carving is not generally recommended for Chinese Wisteria bonsai due to the softness and rot-prone nature of its wood. Aggressive carving can lead to decay and structural weakness. Instead, focus on natural movement and pruning for character. If carving is used for minor aesthetic effects, treat carved areas immediately with fungicide and sealants to prevent infection.",
+      timing: "If applied, late winter during dormancy.",
+      maturityStage: "Mature trees only.",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering to Propagate Large Specimens",
+      description: "Air layering is an effective propagation method for Chinese Wisteria to produce large bonsai material with established wood and roots. Perform air layering in late spring or early summer when sap flow is high, wrapping the wounded branch with moist sphagnum moss and plastic to encourage root development. This method allows quicker development of thick trunks compared to seed-grown plants.",
+      timing: "Late spring to early summer (May to July).",
+      maturityStage: "After 3-5 years when branches are vigorous and healthy.",
+      notRecommended: false
+    },
+    {
+      name: "Low-Nitrogen Fertilizing Regime",
+      description: "To promote flowering over excessive vegetative growth, use a low-nitrogen, high-phosphorus and potassium fertilizer during the growing season. Apply balanced bonsai fertilizer with an NPK ratio around 5-10-10 every 2-3 weeks from early spring until late summer. Cease fertilizing after flowering to avoid encouraging late flushes of leafy growth that reduce flower bud formation.",
+      timing: "Early spring (bud break) through late summer, every 2-3 weeks.",
+      maturityStage: "After first year of growth.",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Vigilance",
+      description: "Chinese Wisteria is susceptible to aphids, scale insects, and fungal diseases such as powdery mildew and root rot. Regularly inspect foliage and roots, especially during warm, humid periods. Use insecticidal soap or horticultural oil for pests and improve airflow and drainage to prevent fungal issues. Root rot risk is high if soil remains waterlogged, so maintain well-draining soil and avoid overwatering.",
+      timing: "Inspect weekly during growing season; treat pests as detected.",
+      maturityStage: "All stages.",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'red-maple',
+    scientificName: "Acer rubrum",
+    commonName: "Red Maple",
+    group: "Various",
+    temperatureMin: -10,
+    temperatureMax: 15,
+    sunExposure: "Full sun or moderate shade. Ideally, the tree should receive at least six hours of direct sunlight every day. Full sun is necessary to develop the characteristic bright fall colors.",
+    position: "Outdoor only. Requires strong seasonal changes and cold dormancy to maintain health and coloration. Should be protected from temperatures below -10 °C (15 °F), especially young or newly styled trees.",
+    leafType: "Deciduous",
+    climate: "Requires strong seasonal changes and cold dormancy. Protect from extreme cold below -10 °C (15 °F). Can tolerate cooler weather.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern and central North America (native to forests, wetlands, and urban areas).",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "Spectacular fall foliage colors ranging from bright reds, oranges, and yellows. The epithet 'rubrum' (red) refers to the red leaves, stems, twigs, and fruit. It is very sensitive to underwatering, which is its main vulnerability. Bark is sensitive and can scar easily from wiring; rubber-coated aluminum wire or pruning is recommended for shaping. Leaves are larger and more robust than Japanese Maple (*Acer palmatum*).",
+      soilType: "Wet to moist, water-retaining, and well-draining soil. Prefers slightly acidic to neutral soil. A standard bonsai soil mix or organic compost mix is recommended. Highly alkaline soils should be avoided as they can cause chlorosis. Overwatering is generally preferable to underwatering for this species.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires plenty of water, especially when temperatures are high. The soil should be kept wet to moist, as the tree is very sensitive to drying out and can deteriorate or die from insufficient water within a single day in high heat. Overwatering is generally considered better than underwatering."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Red Maple, structural pruning focuses on maintaining the informal upright or broom style by removing crossing branches and encouraging back-budding to promote ramification. Cut back long, vigorous shoots to 2-3 pairs of leaves to control internode length and maintain balanced growth. Avoid heavy pruning late in the season to prevent weakening the tree before dormancy.",
+      timing: "Late winter to early spring (before bud break) or early summer after initial growth flush",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Pinch or trim new shoots regularly during the growing season to reduce internode length and maintain compact foliage density. Remove any weak, leggy, or crossing shoots throughout the growing season. Frequent maintenance pruning helps manage the vigorous growth habit and large leaves of Red Maple.",
+      timing: "Spring through late summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Rubber-Coated Aluminum Wire",
+      description: "Due to the sensitive bark of Red Maple, use rubber-coated aluminum wire to minimize scarring and damage. Apply wire gently and monitor frequently, removing or adjusting wiring every 4-6 weeks to prevent bark damage, especially on young stems and thin branches. Wiring is best done on semi-hardened shoots during early to mid-summer.",
+      timing: "Early summer to mid-summer (after shoots semi-harden)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting During Early Spring",
+      description: "Repot Red Maple in early spring just before bud break to minimize stress and maximize recovery. Use a well-draining, slightly acidic bonsai soil mix with good water retention. Avoid repotting during hot or dormant periods as the tree is sensitive to drought and root disturbance.",
+      timing: "Early spring (before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "When repotting, prune back about one-third of the root mass, focusing on removing thick, unproductive roots while preserving fine feeder roots to maintain moisture uptake. Avoid aggressive root pruning because Red Maple is sensitive to underwatering and root stress, which can cause rapid decline in hot weather.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation can be performed in early summer to reduce leaf size and increase ramification, but full defoliation is generally not recommended due to the tree’s vigorous growth and sensitivity to stress. Remove only the largest, mature leaves to encourage back-budding and smaller subsequent leaves.",
+      timing: "Early summer after initial leaf maturity",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoots when they have 4-6 leaves by removing the terminal two leaves to encourage lateral branching and reduce internode length. This technique helps manage the vigorous growth and large leaf size typical of Red Maple, promoting a denser canopy with smaller leaves.",
+      timing: "Late spring through summer, every 2-3 weeks during active growth",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting Scions for Branch Development",
+      description: "Grafting can be used to add branches or improve ramification on older Red Maples, especially to introduce finer twigs or improve branch placement. Approach with caution as the species buds opposite and can produce vigorous shoots; ensure grafts are well cared for with ample moisture and protection from extreme cold.",
+      timing: "Late winter to early spring (before bud break)",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin Deadwood Technique",
+      description: "Jin (deadwood) is generally not suitable for Red Maple bonsai as the species has smooth, thin bark prone to scarring and slow healing. Creating jins can cause undue stress and aesthetic damage, detracting from the natural soft bark texture and vibrant fall colors.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari Trunk Deadwood",
+      description: "Shari is not recommended on Red Maple due to its smooth bark and susceptibility to scarring. Removing bark to create deadwood wounds may lead to infection or decline, and the species' strength lies in its vibrant foliage and smooth trunk rather than deadwood features.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Surface Root Pruning",
+      description: "Encourage nebari development by gradually exposing and pruning surface roots during repotting. Selectively prune thick roots and promote finer feeder roots around the base, ensuring roots are evenly spaced to achieve a balanced, radial nebari typical of informal upright styles.",
+      timing: "During early spring repotting, every 2-3 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Avoid Carving",
+      description: "Carving techniques are not recommended for Red Maple due to the species’ thin, smooth bark which scars easily and heals slowly. Carving wounds can harm tree health and detract from the natural aesthetic of the smooth trunk and bright foliage.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering can be successfully used to propagate Red Maple, ideally performed in late spring when sap flow is active. Use a moss and plastic wrap method on semi-hardwood branches, ensuring consistent moisture and protection from extreme cold. This technique helps produce new trees with established root systems.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing Schedule",
+      description: "Fertilize Red Maple bonsai monthly from early spring through late summer using a balanced, slow-release fertilizer with a slightly acidic pH. Reduce or stop fertilizing in autumn to allow the tree to enter dormancy. Avoid high nitrogen fertilizers in late summer to prevent excessive late growth that may not harden off before winter.",
+      timing: "Monthly from March to August",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Watering and Humidity Management",
+      description: "Maintain consistently moist soil, never allowing drying out, especially during hot weather, as Red Maple is highly sensitive to underwatering. Water thoroughly multiple times daily in summer if necessary, and use humidity trays or misting to increase ambient humidity. Avoid waterlogging by using well-draining soil to prevent root rot.",
+      timing: "Daily in growing season; adjust frequency based on temperature and soil moisture",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'amur-maple',
+    scientificName: "Acer ginnala",
+    commonName: "Amur Maple",
+    group: "Various",
+    temperatureMin: 3,
+    temperatureMax: -40,
+    sunExposure: "Highly adaptable, tolerating full sun, partial sun, and partial shade. However, it cannot withstand full sun throughout the day in summer due due to the risk of dehydration and leaf burn, especially in warmer climates. Morning sun with afternoon shade is ideal during the hottest months.",
+    position: "Outdoor",
+    leafType: "Deciduous",
+    climate: "Extremely cold-hardy, tolerating USDA hardy zone 3 (-40°C to -34°C) to zone 9 (-6°C to 0°C). It requires a cold dormancy period in winter. It can withstand slightly higher temperatures in summer if proper hydration and protection from leaf burn are maintained.",
+    flowering: "Seasonal",
+    nativeRegion: "Northeastern Asia, including eastern parts of Korea, Japan, and Russia.",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "Exceptional cold hardiness (down to -40°C), making it suitable for very cold climates. It is highly valued for its striking orange to red autumn foliage and its ability to reduce leaf size dramatically, comparable to the Japanese Trident Maple. It buds back quickly on old wood, allowing for aggressive cutback and shaping. The bark is initially smooth and grayish-brown, developing shallow chasms with age.",
+      soilType: "Moist, well-drained soil is highly preferable. It is adaptable and can be grown in heavy clay, loamy, or sandy soil. The ideal pH range is slightly acidic to neutral (pH 6.1 to 7.5). A recommended bonsai mix is a free-draining soil, such as a 2:1 ratio of Akadama and pumice.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires frequent watering during the summer growing season, typically 2 to 3 times per day to prevent dehydration and leaf burn. In winter, watering should be significantly reduced, with deep watering only necessary every 10-14 days due to water retention in the soil during cold weather. The soil should be kept consistently moist but not waterlogged."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning during late winter or early spring before bud break to shape the primary branches. Remove crossing, weak, or inward-growing branches to promote an open structure and enhance light penetration. Given the species’ vigorous growth and strong bud-back on old wood, aggressive cutback can be done to encourage ramification and compact growth.",
+      timing: "Late winter to early spring (before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Carry out maintenance pruning throughout the growing season to remove overly vigorous shoots and maintain shape. Pinch or cut back new shoots once they have 4-6 leaves to encourage branching and reduce leaf size. This frequent pruning helps manage the rapid growth and maintains the refined bonsai silhouette.",
+      timing: "Spring through late summer, every 2-4 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use relatively soft aluminum or annealed copper wire due to the flexible branches of Amur Maple. Wiring is best done during early spring or autumn when the branches are more pliable. Avoid wiring during the hottest summer months to prevent bark damage from sunburn or dehydration. Remove wires within 2-3 months to prevent scarring, as rapid growth can cause wire marks.",
+      timing: "Early spring or autumn",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Considerations",
+      description: "Repot Amur Maple bonsai every 2-3 years in early spring just before bud break. Use a well-draining mix such as 2:1 Akadama and pumice to maintain moisture without waterlogging. Ensure the roots are pruned and inspected during repotting due to their vigorous growth, and avoid repotting in late summer or fall to prevent stress before dormancy.",
+      timing: "Early spring (pre-bud break) every 2-3 years",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Approach",
+      description: "During repotting, prune roots aggressively to maintain a compact and fibrous root system. Remove thick, old roots but leave fine feeder roots to encourage healthy uptake. Because Amur Maple has strong root growth, regular root pruning helps maintain vigor and prevents pot binding. Avoid pruning during dormancy to reduce shock.",
+      timing: "Early spring during repotting",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Partial defoliation is recommended in early summer to reduce leaf size and enhance ramification. Remove only the largest, oldest leaves to avoid stressing the tree excessively. Complete defoliation is not advised due to the risk of leaf burn and dehydration, especially in warmer climates. Defoliation also improves light penetration and air circulation.",
+      timing: "Early summer after initial flush of growth",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching Technique",
+      description: "Pinch back new soft shoots regularly during the growing season when they have 4-6 leaves to encourage secondary branching and leaf size reduction. Use fingernails or sharp scissors to avoid damaging the growing tips. This technique complements pruning by controlling vigor and promoting a dense canopy typical of Amur Maple bonsai.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to add branches or repair damaged areas due to the species’ good compatibility with other Maples. Approach grafting in early spring for best success, using whip and tongue or side veneer graft methods. It helps in refining branch placement but is generally not necessary for beginners due to the species’ robust sprouting ability.",
+      timing: "Early spring",
+      maturityStage: "After 3 years or when structural refinement is needed",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood Technique)",
+      description: "Creating Jin on Amur Maple is possible but should be done sparingly, as the species does not naturally produce extensive deadwood. Use Jin to highlight an aged or weathered look on select branches, especially on mature specimens with textured bark. Apply lime sulfur after carving to preserve and bleach the deadwood.",
+      timing: "Late winter or early spring",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari can be used on older Amur Maple bonsai to create visual interest by exposing the trunk wood. Due to the species’ relatively thin bark and smooth young trunk, wait until the tree is mature and bark has developed shallow chasms before applying. Use gentle carving tools and preserve with lime sulfur to prevent rot.",
+      timing: "Late winter or early spring on mature specimens",
+      maturityStage: "Mature trees only (10+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development",
+      description: "Develop nebari by encouraging radial root growth during early development stages through root pruning and training. When repotting, spread roots evenly around the pot and prune dominant roots that grow downward. The species’ strong root growth responds well to careful root flare exposure and gradual nebari improvement over several years.",
+      timing: "During every repotting (early spring)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is recommended only on mature trunks or branches with well-developed bark and wood. Due to the relatively thin bark and risk of damage, novice carvers should proceed cautiously. Use carving to enhance naturalistic deadwood features but avoid excessive removal of living tissue to prevent stress or infection.",
+      timing: "Late winter or early spring on mature wood",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering is effective for propagating Amur Maple and creating new bonsai material. Perform air layering in late spring or early summer when sap flow is active, ensuring the medium is kept moist. Use sphagnum moss wrapped in plastic and secure tightly to encourage root development, then sever and pot once roots are established.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Fertilize regularly from early spring through late summer with a balanced, slow-release fertilizer high in nitrogen during spring and balanced NPK in summer to support vigorous growth. Reduce or stop fertilizing in autumn to prepare the tree for dormancy. Organic fertilizers or bonsai-specific formulas are preferred to maintain soil health.",
+      timing: "Early spring to late summer, every 4-6 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common pests such as aphids, spider mites, and scale, which can cause leaf damage and stress. Use insecticidal soap or neem oil in early morning or late evening to avoid leaf burn. Keep bonsai healthy through proper watering and airflow to prevent fungal diseases like powdery mildew, especially in humid conditions.",
+      timing: "Spring through fall, weekly inspection",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'flowering-plum',
+    scientificName: "Prunus cerasifera",
+    commonName: "Flowering Plum",
+    group: "Various",
+    temperatureMin: -10,
+    temperatureMax: -9,
+    sunExposure: "Full sun is required for optimal growth, trunk thickening, and flower production. However, during the hottest part of the summer, the delicate foliage and blossoms can be susceptible to burn, so providing partial shade or dappled light during the afternoon is preferable.",
+    position: "Outdoor. This species requires a period of cold dormancy (around 3 months) to flower and remain healthy. It is frost-hardy but must be protected from extremely low temperatures (below -9°C) and severe frost, especially when planted in small bonsai pots.",
+    leafType: "Deciduous",
+    climate: "Hardy to at least -10°C, but protection is needed below -9°C. The tree requires a cold dormancy period. The ideal growing temperature range is between 1°C and 30°C, with warm springs and summers being favorable. The tree needs protection from extremely cold winter climates.",
+    flowering: "Seasonal",
+    nativeRegion: "Native to Eurasia, specifically Southeast Europe to Central Asia and the Caucasus region.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The most distinguishing feature is the profuse, fragrant white or pink blossoms that appear in early spring before the leaves emerge, followed by small, edible, cherry-like plums. The species is known for its strong back-budding ability, which is useful for developing ramification, but its older wood is brittle and difficult to wire. The 'Pissardii' and 'Thundercloud' cultivars are popular for their dark purple foliage.",
+      soilType: "A well-draining, slightly acidic soil mix is essential. A recommended mix is a commercial bonsai soil or a custom mix of Akadama, Pumice, and Lava rock, with a slight preference for mixes that are slightly more organic than for other species, but still ensuring excellent drainage. The ideal pH range is 5.5 to 6.5. Cherries dislike calcareous water.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires a large amount of water during the growing season (spring and summer). The soil should be kept consistently moist but never waterlogged to prevent root rot. Water when the topsoil is slightly dry. Rainwater is preferred as the species dislikes calcareous (hard) water. Watering frequency will increase significantly in full sun and warm weather."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning during late winter dormancy before bud swell to define the main branches and remove any crossing or weak branches. Avoid cutting branches too short to prevent dieback, as Flowering Plum has brittle older wood. Retain a balanced framework to support future flowering and maintain vigor. Target branches that reduce airflow or light penetration to improve health and flowering potential.",
+      timing: "Late winter (February to early March) before bud swell",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Conduct maintenance pruning during the growing season after flowering to encourage back-budding and ramification. Remove long shoots and weak growth to maintain shape and promote flower bud formation for the next season. Avoid pruning during extreme heat or cold to reduce stress and dieback risk. Pinch or prune new growth regularly to keep compact foliage.",
+      timing: "Late spring to early summer, post-flowering; repeated as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Caution",
+      description: "Wire new spring growth carefully using soft aluminum or annealed copper wire, applying it lightly to avoid damaging brittle older wood. Remove wiring within 2-3 months to prevent wire scars, especially on stiff branches. Avoid wiring large or old branches as bending can cause breakage. Focus wiring on young shoots to develop branch direction and ramification.",
+      timing: "Early spring during new shoot growth",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing",
+      description: "Repot flowering plum bonsai every 2-3 years in early spring, just before the onset of active growth, to minimize root stress and promote healthy root development. Use a well-draining, slightly acidic mix with increased organic content. Avoid repotting after mid-spring to prevent interfering with flowering and growth cycles.",
+      timing: "Early spring (late February to early March) before bud break",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Technique",
+      description: "During repotting, prune roots moderately to maintain a fine fibrous root system essential for water uptake. Remove large, woody roots carefully to encourage new feeder root growth. Avoid excessive root pruning as it can stress this fast-growing but short-lived species. Maintain a balanced root-to-shoot ratio to support vigorous spring growth and flowering.",
+      timing: "At repotting, early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Partial defoliation is recommended in early summer to reduce leaf size and increase ramification but avoid full defoliation as it can stress the tree and reduce flowering. Remove only some mature leaves to allow continued photosynthesis and recovery. This helps balance vigor and flower bud formation in subsequent seasons.",
+      timing: "Early to mid-summer, after initial flush of growth",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch back new shoots regularly during the growing season to control vigor and encourage dense branching. Use fingertip pinching to remove soft tips before leaves fully expand. This technique promotes back-budding and finer ramification, essential for compact flowering bonsai. Avoid over-pinching which can reduce energy reserves.",
+      timing: "Spring through summer, repeated every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to introduce desirable cultivars such as 'Pissardii' or to repair damaged branches, using whip and tongue grafting in early spring. This allows the development of preferred foliage color or flower traits. Ensure grafts are kept moist and shaded until callusing and growth are established.",
+      timing: "Early spring, just before bud break",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Jin techniques can be applied sparingly on older branches to simulate age, but must be done cautiously due to brittle, stiff wood that can easily fracture. Remove bark and sapwood on select smaller branches during late winter to create natural deadwood features. Use sharp tools and avoid large jins to prevent weakening the branch structure.",
+      timing: "Late winter, during dormancy",
+      maturityStage: "Mature trees only (5+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is generally not recommended for Flowering Plum due to its brittle trunk wood and risk of dieback. Attempting trunk deadwood carving can compromise structural integrity and health. Instead, focus on natural aging through bark texture and branch shaping to create character.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Promote a wide, radial nebari by pruning roots evenly during repotting and positioning the tree straight in the pot. Encourage surface root growth by gently removing soil around the base in spring and applying root stimulator fertilizers. Training young trees to develop multiple thick roots near the soil surface supports stability and visual appeal.",
+      timing: "Early spring during repotting and growth season",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended on Flowering Plum bonsai due to fragile, brittle wood that is prone to splitting and dieback. Attempting detailed wood carving can weaken the structure and reduce the tree’s lifespan. Focus on natural shaping and gentle aging techniques instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering is suitable for propagation or creating new branches but requires careful timing and moisture management. Perform air layering in early spring when sap flow is increasing, using moist sphagnum moss and wrapping to retain humidity. Monitor closely to prevent drying out or fungal infections, as the species is prone to dieback at wound sites.",
+      timing: "Early spring, prior to active growth",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Use a balanced, slightly acidic fertilizer with micronutrients from early spring through mid-summer to support vigorous growth and flower bud formation. Apply a higher nitrogen formula in early spring, shifting to phosphorus and potassium-rich formulas post-flowering for root and flower development. Avoid fertilizing late in the season to allow dormancy preparation.",
+      timing: "March to July, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor for common pests such as aphids, scale, and spider mites, especially during warm months. Treat infestations early with insecticidal soap or horticultural oil. Watch for fungal diseases like powdery mildew and leaf spot; ensure good airflow, avoid overhead watering, and apply fungicides if necessary. Avoid excessive pruning wounds that can invite infection.",
+      timing: "Spring through summer, inspect weekly",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'dawn-redwood',
+    scientificName: "Metasequoia glyptostroboides",
+    commonName: "Dawn Redwood",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: -5,
+    sunExposure: "Full sun to semi-shade. Prefers a sunny position but requires semi-shade protection during the hottest weeks of summer to prevent scorching. Adequate light is crucial for healthy growth.",
+    position: "Outdoor. Requires a cool/cold environment during winter dormancy. Should be placed in a sunny position, but protected with semi-shade during the hottest part of summer. Must be protected from temperatures below -5 °C.",
+    leafType: "Coniferous",
+    climate: "Requires winter dormancy with temperatures above -5 °C. It is a hardy outdoor species, but protection (like an unheated greenhouse or insulation) is needed when temperatures are expected to drop below -5 °C.",
+    flowering: "Seasonal",
+    nativeRegion: "China (specifically the Sichuan and Hubei provinces). It was once presumed extinct and is the sole living species of the genus Metasequoia.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "A **deciduous conifer**, which is a rare characteristic, as most conifers are evergreen. Its soft, needle-like foliage turns a striking **bronze/orange color in autumn** before dropping. It is known for its extremely **fast growth** and ability to produce a very thick trunk and strong nebari quickly, making it excellent for developing large bonsai styles.",
+      soilType: "Well-draining soil mix with a neutral or slightly higher pH value, ideally between 5 and 6, but not over 7. A standard bonsai soil mix with good water retention is suitable, as the tree requires constant moisture. Repotting is generally required every two years for young trees due to aggressive root growth.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires a large amount of water, especially during the spring and summer growing months, often needing to be watered **once or twice a day** in hot weather. The soil should be kept constantly damp but not waterlogged. In winter, keep the roots damp but not wet. Benefits from high humidity, which can be achieved by misting the leaves or placing the pot on a gravel tray."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Dawn Redwood, structural pruning should focus on maintaining the upright trunk and encouraging strong primary branches while removing overly vigorous or crossing growth. Cut back long shoots in late spring after initial rapid growth to encourage ramification but avoid heavy cuts during summer heat to prevent stress. Remove any weak or overly thin branches to maintain a balanced silhouette and allow light penetration. This pruning encourages the development of the characteristic strong flared nebari and thick trunk.",
+      timing: "Late spring to early summer after initial flush of growth, avoid pruning during hottest summer weeks",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regular maintenance pruning involves trimming back new shoots throughout the growing season to maintain desired shape and encourage denser foliage pads. Pinch or cut back shoots once they have developed 4-6 pairs of needles, which promotes back budding and finer ramification. Avoid pruning during dormancy to prevent weakening the tree. Maintenance pruning also helps control the aggressive growth typical for this species.",
+      timing: "Throughout spring and summer, approximately every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Flexible Aluminum or Annealed Copper",
+      description: "Wiring Dawn Redwood requires using flexible aluminum or annealed copper wire to gently shape the soft, fast-growing branches without damaging the delicate bark. Due to rapid growth, wiring should be checked frequently (every 2-3 weeks) to avoid wire cutting into the bark. Wiring is best applied on semi-mature branches during early growing season when branches are pliable. Avoid heavy bends on thick trunks to prevent breakage.",
+      timing: "Early spring before new growth starts or early summer on semi-hardwood shoots; check wiring every 2-3 weeks",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Root Pruning",
+      description: "Repot every two years for young Dawn Redwoods to manage their aggressive root growth. Use a well-draining bonsai soil mix with good moisture retention. During repotting, prune back about one-third of the root mass, focusing on cutting overly long, thick roots to encourage fine feeder roots. Repotting in early spring before bud break ensures minimal stress and allows rapid root recovery during active growth.",
+      timing: "Early spring, just before bud break, every 2 years for young trees",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning to Control Vigorous Growth",
+      description: "Root pruning is critical to control the vigorous root system of Dawn Redwood. Trim back thick, dominant roots to encourage a fine, fibrous root system that supports a healthy nebari. Avoid removing more than 30-40% of the root mass to prevent excessive shock. Root pruning should coincide with repotting to optimize recovery and growth balance between roots and foliage.",
+      timing: "Early spring during repotting, every 2 years for young specimens",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation - Not Recommended",
+      description: "Full defoliation is generally not recommended for Dawn Redwood due to its deciduous conifer nature and rapid growth cycle. Removing all needles can overly stress the tree and delay recovery. Partial leaf trimming or maintenance pruning is preferred to manage foliage density without causing unnecessary stress.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new soft growth when shoots develop about 4-6 pairs of needles to encourage back budding and finer branching. Pinching avoids the need for heavy pruning and reduces stress on the tree. This technique also helps maintain the compact silhouette and promotes dense foliage pads typical for bonsai styling.",
+      timing: "Spring through early summer, repeated every 2-3 weeks during active growth",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Development",
+      description: "Grafting can be used to add branches or improve branch placement on Dawn Redwood, especially when natural branching is sparse on the trunk. Scion wood should be collected from healthy, vigorous donor trees in late winter or early spring before bud break. Approach grafting with care due to the species’ rapid growth and sap flow, ensuring good alignment and secure binding for successful union.",
+      timing: "Late winter to early spring before bud break",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique - Not Suitable",
+      description: "Creating jin (deadwood branches) is generally not suitable for Dawn Redwood because this species naturally has soft, stringy bark that does not hold deadwood well. Additionally, the fast growth and deciduous nature make deadwood less practical and aesthetically inconsistent with the natural character of the tree.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Technique - Limited Use",
+      description: "Shari can be applied cautiously to Dawn Redwood to enhance trunk character but should be minimal and carefully maintained due to the species’ soft bark and rapid growth. Small shari sections near the base can emphasize the flared nebari and aged appearance, but large deadwood areas may invite rot and pest problems. Proper sealing and monitoring are essential if used.",
+      timing: "Late winter to early spring, dormant period",
+      maturityStage: "Mature trees only, after 5 years",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development through Root Flare Exposure",
+      description: "Dawn Redwood naturally develops a strong, flared nebari quickly, but enhancing this feature requires careful root flare exposure during repotting. Remove excess soil around the base to reveal the flared roots and prune roots to encourage radial spread. Position the tree slightly elevated in the pot to emphasize nebari and stabilize the tree’s upright form.",
+      timing: "During repotting in early spring every 2 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving - Not Recommended",
+      description: "Carving is generally not recommended on Dawn Redwood due to its soft, stringy bark and fast growth which can cause wounds to heal poorly and invite disease. The natural bark texture and color are attractive features better preserved without carving interventions.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is an effective propagation technique for Dawn Redwood to produce clones with established roots. Perform air layering in late spring or early summer when sap flow is active, selecting healthy, semi-hardwood branches. Use sphagnum moss and wrap with plastic to maintain moisture; roots typically develop within 2-3 months. Ensure high humidity and shaded conditions during rooting for success.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Balanced, Slow-Release Fertilizer",
+      description: "Fertilize Dawn Redwood regularly during the growing season using a balanced fertilizer with an NPK ratio around 10-10-10 or 14-14-14, preferably slow-release to accommodate fast growth. Supplement with liquid feed every 2-3 weeks during spring and summer for optimal vigor. Reduce feeding in autumn as the tree prepares for dormancy and cease fertilizing in winter.",
+      timing: "Early spring through late summer, reduce in autumn, none in winter",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management - Monitor for Aphids and Root Rot",
+      description: "Dawn Redwood is susceptible to aphid infestations during rapid spring growth and root rot if overwatered or poorly drained. Regular inspection during spring and summer is essential. Use insecticidal soap or neem oil for aphids and ensure well-draining soil and correct watering practices to prevent root diseases. Avoid waterlogging to maintain root health.",
+      timing: "Inspect weekly during spring and summer growth; treat as needed",
+      maturityStage: "All maturity stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'hemlock',
+    scientificName: "Tsuga canadensis",
+    commonName: "Hemlock",
+    group: "Various",
+    temperatureMin: 18,
+    temperatureMax: -25,
+    sunExposure: "Prefers partial shade to full sun. It is best to provide morning sun and afternoon shade, or use a 30% shade cloth during the hottest parts of summer to prevent stress. It is highly shade tolerant.",
+    position: "Outdoor. It tolerates frost but must be protected from strong, icy winter winds and extreme summer heat.",
+    leafType: "Coniferous",
+    climate: "Thrives best in cool and moist climates. The optimal growing temperature is between 18-25°C (65-75°F). It does not tolerate temperatures regularly exceeding 32°C (90°F). It is frost-tolerant but requires winter protection from strong winds.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern North America, including the Great Lakes region, the Appalachian Mountains, the Northeastern United States, and Maritime Canada (from Nova Scotia to Minnesota, and south to Georgia and Alabama).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Features small, flat sprays of lacy, evergreen foliage with short, dark green needles (up to 9/16\" long) that have two distinct white bands beneath. The bark on older trees is grey-brown, flaky, and deeply furrowed, which is highly valued in bonsai. It produces small, attractive, egg-shaped cones. The species is unique among conifers for its high shade tolerance.",
+      soilType: "Prefers a well-drained, slightly acidic soil mix with a pH range of 5.5 to 6.5. A common mix is a standard bonsai substrate with a high proportion of inorganic components like Akadama, Pumice, and Lava rock, often with an added organic component like bark or peat moss to retain moisture. Examples include 2 parts Akadama to 1 part Pumice, or a mix of Akadama, pumice, and lava rock.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires regular and moderate watering to maintain evenly moist soil, but it must not be waterlogged to prevent root rot. The soil should be checked daily, and the tree should be watered thoroughly when the surface begins to dry. Increased frequency is needed in summer."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Hemlock, structural pruning focuses on removing crossing or inward-growing branches to maintain the tree’s natural elegant taper and open canopy. Since Hemlock grows vigorously, aggressive pruning just after a growth flush encourages dense branching and needle reduction. Target older, thick branches first to improve ramification while preserving the characteristic flat sprays of foliage. Avoid heavy pruning late in the growing season to prevent stress.",
+      timing: "Late spring to early summer, immediately after new growth flush",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Maintenance pruning involves regularly trimming back new shoots to 2-3 pairs of needles to maintain compact foliage pads and enhance needle reduction. Pinch or prune new growth multiple times during the growing season to prevent overly vigorous elongation. This helps maintain the tree’s fine silhouette and promotes density in the flat sprays unique to Hemlock.",
+      timing: "Throughout growing season, approximately every 2-4 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring",
+      description: "Use aluminum or annealed copper wire to gently shape Hemlock branches, being cautious not to damage the delicate bark which can be flaky and prone to scarring. Wire secondary and tertiary branches to create the species’ characteristic horizontal, flat branch structure. Wire in late winter to early spring before bud break and remove wiring after 2-3 months to prevent bark damage as the branches thicken quickly.",
+      timing: "Late winter to early spring (before bud break), check wiring monthly",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Hemlock every 2-3 years for younger specimens using a well-draining, slightly acidic bonsai mix rich in Akadama and pumice. Repotting should be done in early spring just before active growth resumes to minimize stress. Take care to protect fine feeder roots and avoid over-disturbing the root ball, as Hemlock prefers consistent moisture without waterlogging.",
+      timing: "Early spring (March-April) before bud break",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "When repotting, prune about one-third of the root mass focusing on thick tap roots and overly long roots to encourage a dense fibrous root system. Hemlock roots are moderately sensitive, so trim conservatively and avoid cutting too close to the trunk. Root pruning promotes healthy, compact root development suited for bonsai cultivation in slightly acidic, well-draining substrates.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is generally not recommended for Hemlock as it has small needles and is a conifer; removing needles can overly stress the tree and reduce carbohydrate reserves. Instead, rely on pinching and pruning to encourage needle reduction and ramification. Removing foliage can also expose sensitive bark to sunburn and dehydration.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching",
+      description: "Pinch new Hemlock shoots as soon as 3-4 pairs of needles have formed to maintain compact growth and improve needle density. This technique encourages the tree to produce shorter internodes and finer branching. Multiple pinchings during the growing season optimize needle reduction and maintain the signature flat sprays of foliage.",
+      timing: "From late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to replace damaged leader branches or improve branch placement since Hemlock can be slow to ramify in some areas. Approach with scion wood collected in early spring and graft onto healthy rootstock just before active growth. This technique is useful but not commonly required due to Hemlock’s vigorous natural growth.",
+      timing: "Early spring before bud break",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Jin is suitable but should be applied sparingly on Hemlock due to its thin, flaky bark and tendency to heal over deadwood quickly. Create jins on older, thick branches or apex areas to add character, using careful carving and application of lime sulfur to preserve the deadwood. Excessive jin can look unnatural given the species’ typically lush foliage.",
+      timing: "Late winter or early spring during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari can be applied on mature Hemlock trunks to expose textured, flaky bark and enhance visual interest. The bark’s natural deep furrows make shari particularly attractive but requires careful carving to avoid damaging live cambium. Use lime sulfur treatments after carving to bleach and preserve the deadwood areas.",
+      timing: "Late winter or early spring during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development",
+      description: "To encourage a wide, balanced nebari on Hemlock, prune roots evenly during repotting and avoid favoring any single root. Gently spread surface roots outward during repotting to expose them gradually, and prune vertical roots selectively to promote horizontal root growth. Over time, this creates a stable base that complements the tree’s natural taper.",
+      timing: "During repotting every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is recommended only for mature Hemlock bonsai with thick trunks, focusing on enhancing natural bark texture and deadwood features. Use fine tools to avoid chipping the flaky bark and work slowly to reveal natural furrows. Avoid carving young trees as the bark is thin and delicate, and the risk of infection or dieback is higher.",
+      timing: "Late winter or early spring during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering on Hemlock is possible but requires careful timing and moisture maintenance due to the species’ sensitivity to root disturbance and high moisture needs. Perform air layering in early summer when sap flow is strong, ensuring consistent humidity around the rooting medium. Protect the site from drying winds and monitor closely to prevent desiccation or rot.",
+      timing: "Early summer (June-July)",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Feed Hemlock bonsai with a balanced, slow-release fertilizer formulated for acid-loving plants, with a slightly higher nitrogen ratio in spring to support vigorous growth. Reduce nitrogen in late summer to promote hardening off before winter. Fertilize monthly from early spring to late summer, withholding fertilizer during dormancy in winter.",
+      timing: "Monthly from early spring (March) through late summer (August), no feeding in winter",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Hemlock bonsai can be susceptible to spider mites, aphids, and root rot if overwatered. Monitor foliage regularly for mite webs and aphid colonies, treating infestations early with insecticidal soap or neem oil. Avoid waterlogging by ensuring well-drained soil and moderate watering, and provide good air circulation to prevent fungal diseases.",
+      timing: "Inspect biweekly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'vine-maple',
+    scientificName: "Acer circinatum",
+    commonName: "Vine Maple",
+    group: "Various",
+    temperatureMin: 4,
+    temperatureMax: 5,
+    sunExposure: "Prefers partial shade or morning sun with protection from intense afternoon sun, especially in warmer climates, to prevent leaf burn. In its native habitat, it often grows as an understory tree, but can tolerate full sun if kept well-watered. Dappled sunlight is ideal during the summer.",
+    position: "Outdoor. Requires a distinct winter dormancy period and is hardy to cold temperatures. Must be protected from late spring frosts that can damage new growth.",
+    leafType: "Deciduous",
+    climate: "Hardy to USDA Zone 4/5, tolerating winter temperatures down to approximately -23°C (-10°F). It is crucial to protect new spring growth from late frosts, which can cause significant damage. In summer, protection from temperatures above 30°C (86°F) is recommended to prevent leaf scorch.",
+    flowering: "Seasonal",
+    nativeRegion: "Northwestern North America, specifically from southwestern British Columbia (Canada) south through Washington and Oregon to northern California (USA). It is typically found in moist woods, along stream banks, and as an understory tree in the coastal and Cascade Mountain regions.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The species is unique among maples for its slender, often multi-stemmed growth habit and its ability to thrive as an understory tree. Its leaves are distinctively circular (circinatum) with 7 to 9 sharply serrated lobes. The bark is naturally green, which can provide winter interest, especially the bright coral-red bark of the 'Pacific Fire' cultivar. It is one of the few North American native maples widely used for bonsai.",
+      soilType: "A well-draining, slightly acidic soil mix is required. A pH between 5.5 and 6.5 is ideal. A common mix includes coarse fir bark, pumice, and lava rock, or a standard bonsai mix with a higher organic component to retain moisture.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires moderate to high watering. The soil should be kept consistently moist but not waterlogged. Water daily during the growing season (spring/summer), and sometimes twice a day during hot periods. Water as the soil surface begins to dry out. Reduced watering is necessary during winter dormancy. Misting or placing on a humidity tray is beneficial in hot, dry conditions to keep the leaves moist and prevent crisping."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Vine Maple, structural pruning focuses on reducing leggy, elongated growth typical of this species. Remove long, weak shoots early in spring to encourage denser branching and a compact canopy. Thin out crossing branches to maintain clear structure and enhance light penetration, critical for this understory species. Maintain multi-stemmed vase or literati style by selectively pruning secondary stems to balance aesthetics and vigor.",
+      timing: "Early spring before bud break, with light touch-ups mid-growing season",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Pinch or prune new shoots regularly during the growing season to prevent leggy growth and maintain compactness. Remove any shoots growing inward or downward to keep the open canopy typical of its natural vase habit. Maintain leaf size reduction by trimming back after 4-6 leaves have expanded, which helps keep the overall bonsai proportionate.",
+      timing: "Throughout spring and summer, approximately every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Species-Specific Wiring Technique",
+      description: "Use soft aluminum or annealed copper wire to shape slender, flexible branches typical of Vine Maple. Wire branches early in spring when buds begin swelling but before leaf expansion to avoid breakage. Avoid heavy wiring on fragile, thin branches and regularly check wiring every 2-3 weeks because rapid spring growth can cause wire scarring. Employ gentle bends to mimic natural vase or literati style growth.",
+      timing: "Early spring before bud break, with monitoring every 2-3 weeks",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Vine Maple in early spring just before bud swell to minimize root stress. Use a well-draining, slightly acidic mix rich in organic components to retain moisture, reflecting its native moist habitat. This timing ensures rapid root recovery and supports vigorous spring growth. Avoid late-season repotting as it may hinder root establishment before winter dormancy.",
+      timing: "Early spring (late February to early April depending on climate)",
+      maturityStage: "After 3 years or when rootbound",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "Perform root pruning simultaneously with repotting to encourage fine feeder root development and maintain balance with the top growth. Trim back about one-third of the root mass, focusing on removing thick, woody roots while preserving fibrous roots. Be gentle to avoid over-pruning, which can stress this moderately vigorous but sensitive species.",
+      timing: "Early spring during repotting",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Selective defoliation can be used sparingly to reduce leaf size and increase ramification, but complete defoliation is not generally recommended due to the species’ sensitivity and risk of stress. Instead, remove larger leaves or partial leaflets in midsummer to balance energy and encourage back-budding. Ensure trees are healthy and vigorously growing before attempting this technique.",
+      timing: "Mid to late summer during active growth",
+      maturityStage: "After 4 years and only on vigorous specimens",
+      notRecommended: false
+    },
+    {
+      name: "Pinching",
+      description: "Pinch back soft new shoots regularly to control the naturally leggy growth habit and promote branching closer to the trunk. Remove the growing tip after 4-6 leaves have expanded to stimulate lateral bud development. This technique helps maintain the dense, compact canopy necessary for an attractive Vine Maple bonsai.",
+      timing: "Throughout spring and summer, approximately every 2 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to add branches or improve nebari on Vine Maple, especially because natural back-budding can be limited on older wood. Approach with scion wood collected from healthy, vigorous branches in spring and graft using side veneer or approach grafting techniques. Grafting can also be used to introduce cultivars like 'Pacific Fire' for bark color enhancement.",
+      timing: "Spring, just before bud burst",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating jins on Vine Maple is generally not recommended because the species has thin, delicate branches and bark that do not lend themselves well to deadwood techniques. Attempting jin carving risks damaging live tissue and detracting from the natural elegant vase form. Instead, focus on healthy, living branch development and natural aging.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not typically suitable for Vine Maple due to its slender trunk and thin bark, which can be damaged easily. The bright green bark that turns coral-red in winter is a unique aesthetic feature better preserved intact. Avoid trunk carving to maintain natural appearance and health.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "To develop a balanced nebari, encourage radial root growth by root pruning and selective wiring of surface roots during repotting. Multiple stems benefit from staggered nebari development by promoting outward-spreading roots from each stem base. Slightly exposing roots during repotting helps create an attractive, natural root flare that mimics its native multi-stemmed understory habit.",
+      timing: "During early spring repotting, annually or biannually",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally not recommended for Vine Maple bonsai because its thin bark and delicate wood are prone to damage and do not respond well to aggressive styling. The species’ natural elegance lies in its slender, clean lines and colorful bark rather than in artificial deadwood features. Focus on live branch and canopy refinement instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate new plants or create secondary trunks, especially for multi-stemmed bonsai designs. Perform air layering in late spring or early summer when sap flow is active, using sphagnum moss and plastic wrap to maintain moisture. This technique is useful for rejuvenation or creating fuller specimens but requires patience for root development.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Use a balanced, slow-release fertilizer with a slightly higher nitrogen ratio in spring to encourage healthy leaf and branch growth. Switch to a fertilizer with higher phosphorus and potassium during mid to late summer to support root development and fall color. Avoid fertilizing in late fall and winter during dormancy. Organic-based fertilizers are preferred to maintain soil health and moisture retention.",
+      timing: "Monthly from early spring through late summer, stop in fall",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor for common pests like aphids, scale, and spider mites, especially in warm, dry conditions where the species is more vulnerable. Use insecticidal soaps or horticultural oils as first-line treatments. Prevent fungal diseases by maintaining good air circulation and avoiding waterlogged soil. Regular misting can reduce spider mite infestations by increasing humidity.",
+      timing: "Inspect weekly during growing season, treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'rose-of-sharon-shrub-althea',
+    scientificName: "Hibiscus syriacus",
+    commonName: "Rose of Sharon (Shrub Althea)",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 0,
+    sunExposure: "Requires full sun for best flowering and compact growth. Can tolerate semi-shade, but this may reduce the abundance and size of blooms. Needs at least 6 hours of direct sunlight.",
+    position: "Outdoor - Hardy in many temperate climates (USDA Zones 5B-9A), but must be protected from hard frost in a bonsai container. An unheated, frost-free greenhouse or cold frame is ideal for winter. Can be kept outdoors from spring to autumn.",
+    leafType: "Deciduous",
+    climate: "Tolerates high summer temperatures. In winter, the tree is hardy but must be protected from strong frost in a bonsai container. A cold but frost-free location is required, with a minimum temperature of approximately -5°C to 0°C (23°F to 32°F) for container protection.",
+    flowering: "Seasonal",
+    nativeRegion: "East Asia, specifically South China and Taiwan to India. The name 'syriacus' is a misnomer.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Its main distinguishing feature is its prolific, showy, trumpet-shaped flowers that appear in summer. It is one of the few hardy, deciduous flowering shrubs used for bonsai. The bark is thin and easily damaged by wiring, requiring careful application and monitoring.",
+      soilType: "Not particular about the type of soil, but it must be well-drained and slightly acidic (pH 5-6). A common bonsai mix of 1/3 Akadama, 1/3 Pumice, and 1/3 Lava rock with a small organic component is suitable. Annual repotting is often necessary due to its vigorous root growth.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires ample and consistent watering, especially during the growing season and when flowering, to prevent leaf drop and ensure best bloom quality. Water thoroughly as soon as the surface of the soil appears dry. Avoid hard water if possible."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in late winter or early spring before bud break to define the main trunk and primary branches. Remove crossing, weak, or inward-growing branches to maintain the upright, vase-shaped habit typical of Rose of Sharon. Focus on reducing branch thickness to balance the vigorous growth and large leaf size, promoting better light penetration and airflow. This pruning helps control the overall size and encourages a compact bonsai form.",
+      timing: "Late winter to early spring, annually",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Carry out maintenance pruning throughout the growing season from spring to early autumn to remove excessive new shoots and maintain the desired silhouette. Pinch or cut back overly vigorous shoots to encourage ramification and smaller leaves. Also, prune spent flower heads to redirect energy towards branch development rather than seed production. Maintenance pruning helps manage the large natural growth and encourages flowering.",
+      timing: "Spring to early autumn, as needed",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Protective Padding",
+      description: "Due to the thin and easily damaged bark of Rose of Sharon, apply wiring with soft, protective padding such as raffia or foam strips to prevent bark scarring. Use aluminum or annealed copper wire, and apply gently to avoid damaging the delicate bark. Wiring is best done in late winter or very early spring when the bark is less brittle and before vigorous growth begins. Monitor wired branches frequently and remove wires promptly once shaping is achieved to avoid wire bite.",
+      timing: "Late winter to early spring; check every 2-3 weeks",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Annual Repotting",
+      description: "Repot annually in early spring before bud break to accommodate the species' vigorous root growth and prevent root binding. Use a well-draining, slightly acidic bonsai soil mix (e.g., Akadama, Pumice, Lava rock with organic matter). Check root health and prune any thick or circling roots to encourage fine root development, which supports healthy foliage and flowering. Ensure the tree is well-watered after repotting to reduce transplant shock.",
+      timing: "Early spring, annually",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Fine Root Encouragement",
+      description: "During repotting, prune thick, woody roots carefully to maintain a balanced and fibrous root system. Remove any dead or damaged roots and trim back overly long roots to keep the tree compact in the container. Encourage the growth of fine rootlets by maintaining good soil aeration and moisture. Proper root pruning is essential to prevent root-bound conditions and promote healthy nutrient uptake for vigorous flowering and foliage.",
+      timing: "During annual repotting in early spring",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation is recommended in early summer after the first flush of leaves to reduce leaf size and enhance ramification. Remove about 30-50% of the leaves, focusing on larger, mature leaves while leaving some foliage to maintain photosynthesis. Avoid full defoliation as it may stress the tree and reduce flowering potential. This technique helps manage the naturally large leaves and supports more compact growth.",
+      timing: "Early summer, after initial leaf flush",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new soft shoots regularly during the growing season to encourage branching and reduce leaf and flower size. Use your fingers to pinch off shoot tips when they reach 3-5 cm in length, which stimulates lateral bud development and denser foliage. This method also helps keep the bonsai compact and promotes a balanced floral display. Avoid cutting with scissors unless the shoot is woody.",
+      timing: "Spring through early autumn, weekly to biweekly",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Approach Grafting for Branch Development",
+      description: "Approach grafting can be used to add branches in specific areas where natural branching is sparse or to improve ramification. This technique is beneficial because Rose of Sharon can be slow to produce branches in desired locations. Select healthy scions and attach them to well-prepared sites on the trunk or branches in early spring. Grafting enhances design flexibility but requires skill to avoid damage to the thin bark.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 4-5 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Application",
+      description: "Jin is generally not recommended for Rose of Sharon bonsai due to the naturally thin bark and relatively soft wood, which are prone to damage and decay. Attempting to create deadwood features can weaken the tree and detract from its natural elegant appearance. Instead, focus on healthy trunk and branch development to showcase the species' graceful form and prolific flowering.",
+      timing: "N/A",
+      maturityStage: "All stages",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Application",
+      description: "Shari is also not advisable on Rose of Sharon bonsai because the thin bark and softer trunk wood do not lend themselves well to the creation of natural-looking deadwood strips. Applying shari risks exposing the tree to infection, pests, and structural weakness. Prioritize preserving healthy bark and trunk integrity to maintain vigor and flowering capacity.",
+      timing: "N/A",
+      maturityStage: "All stages",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development via Root Pruning and Surface Roots Exposure",
+      description: "Develop a strong nebari by carefully pruning roots during repotting and encouraging the spread of surface roots. Remove deep or downward-growing roots to force lateral root growth near the soil surface. Position the tree in the pot so that roots are visible and gently remove soil to expose and clean surface roots. A well-developed nebari enhances the visual stability and aesthetic appeal of the bonsai.",
+      timing: "During annual repotting in early spring",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for Rose of Sharon bonsai because the wood is relatively soft and the thin bark is easily damaged. Carving wounds heal slowly and can invite disease or pests. Instead, focus on natural growth shaping through pruning and wiring to develop character and form without compromising tree health.",
+      timing: "N/A",
+      maturityStage: "All stages",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is an effective method for propagating Rose of Sharon to produce clones with desirable traits or to create new bonsai material. Perform air layering in late spring to early summer when the tree is actively growing and sap flow is high. Use a moist sphagnum moss layer wrapped with plastic and secure it well to encourage root formation. This technique allows for relatively quick root development without removing the entire tree.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Balanced, Low-Nitrogen Formula",
+      description: "Fertilize Rose of Sharon bonsai regularly during the growing season (spring through early autumn) using a balanced fertilizer with slightly lower nitrogen content to avoid excessive leafy growth at the expense of flowering. A 10-10-10 or 10-15-10 NPK formula diluted to half strength is ideal. Apply fertilizer every 2-3 weeks to support vigorous growth, flowering, and root development. Cease fertilizing 6-8 weeks before winter dormancy.",
+      timing: "Spring to early autumn, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Monitoring and Management",
+      description: "Regularly inspect the bonsai for common pests such as aphids, spider mites, and whiteflies, which can be attracted to the large leaves and flowers. Use insecticidal soap or neem oil treatments as needed, applied during early morning or late evening to avoid leaf burn. Monitor for fungal diseases like powdery mildew, especially in humid conditions, and provide adequate air circulation to prevent outbreaks. Promptly remove affected leaves or flowers to reduce spread.",
+      timing: "Spring through autumn, weekly inspections",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'dogwood-cornus-florida',
+    scientificName: "Cornus florida",
+    commonName: "Dogwood (Cornus florida)",
+    group: "Various",
+    temperatureMin: 5,
+    temperatureMax: 9,
+    sunExposure: "Requires full sun to partial shade. Full sun encourages more abundant flowering. During the hottest weeks of summer (midday and early afternoon), partial shade or filtered sunlight is advised to prevent leaf and flower burn. Excellent air circulation is also necessary.",
+    position: "Outdoor. It is a hardy, deciduous species that requires a cold dormancy period. While it can be acclimated indoors during warm seasons, it must be placed outdoors for winter dormancy and to receive ample light.",
+    leafType: "Deciduous",
+    climate: "The species is hardy in USDA Zones 5a to 9b. For bonsai, it requires a cold dormancy period, with the root ball needing protection from temperatures consistently below 1.5°C (35°F). Ideal overwintering temperatures for the root mass are generally between 1.5°C and 12.5°C (35°F and 55°F). It tolerates warm to hot climates during the growing season.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern North America and northern Mexico, spanning much of the eastern half of the United States and extreme southern Ontario. It is native to USDA Hardiness Zones 5a through 9b.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Its most distinguishing feature is the showy, four-petaled \"flowers\" (which are actually bracts surrounding the true, inconspicuous flowers) that appear in spring before the leaves. It also offers striking purple and red fall foliage and attractive red berries, providing year-round interest. The need for a specific, slightly acidic soil pH (5.5-6.0) is a key care requirement.",
+      soilType: "A well-draining, moisture-retentive, and slightly acidic soil mix is required. An optimal pH level is between 5.5 and 6.0. A recommended mixture includes organic compost, nutrient-enhanced potting soil, and coarse sand. Peat moss can be added to help maintain the acidic pH and loam. Excellent drainage is crucial.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires thorough watering as soon as the soil surface begins to dry. The soil should be kept consistently moist but never waterlogged, as it is highly susceptible to root rot. It does not tolerate prolonged drought. Tepid water is recommended. Watering frequency will increase during hot periods and decrease significantly during winter dormancy."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Dogwood bonsai, structural pruning should be performed in late winter or very early spring before bud swell. Remove crossing, inward-growing, or weak branches to define a balanced framework and encourage strong branch development. Focus on maintaining open spaces to allow light penetration, which is critical for flowering and healthy foliage. Avoid heavy pruning during active growth to prevent stress.",
+      timing: "Late winter to early spring (before bud swell)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Maintenance pruning involves pinching back new shoots during the growing season (late spring to summer) to encourage ramification and compact growth. Remove any dead or diseased twigs promptly and trim overly vigorous shoots to maintain the tree’s shape and promote flowering. This helps in balancing energy between growth and flower/fruit production.",
+      timing: "Late spring through summer, as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use thin, soft anodized aluminum or annealed copper wire to wire Dogwood branches, as their relatively brittle nature requires gentle handling to avoid breakage. Wire should be applied in late winter or early spring before bud break, and removed by mid-summer to prevent scarring. Avoid wiring thick branches aggressively; instead, train younger shoots to develop desired structure.",
+      timing: "Late winter to early spring (before bud break), remove by mid-summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Dogwood bonsai every 2-3 years in early spring just before bud break, ensuring roots are healthy and not pot-bound. Use a well-draining, slightly acidic soil mix (pH 5.5-6.0) with organic compost and coarse sand. Avoid repotting in hot or dry conditions to reduce transplant shock. Root ball must be protected during colder months post-repotting.",
+      timing: "Early spring (pre-bud break), every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune approximately 20-30% of the root mass, focusing on removing large woody roots and unhealthy or rotting roots while preserving fine feeder roots essential for moisture uptake. Maintain a fibrous root system to support the species’ moisture needs and prevent root rot. Root pruning should be done with clean tools to avoid infections.",
+      timing: "Early spring during repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Partial defoliation can be applied in early summer to encourage smaller leaf size and improve ramification; however, complete defoliation is generally not recommended as Dogwood relies heavily on its leaves for energy to produce flowers and fruit. Partial removal of larger leaves helps increase light penetration and air circulation within the canopy.",
+      timing: "Early summer (after strong spring growth)",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching",
+      description: "Pinch back new shoots regularly from late spring through summer once they develop 4-6 leaves to control growth and promote finer branching. This technique encourages better flowering by redirecting energy to flower buds. Avoid late season pinching (after mid-summer) to prevent weakening the tree before dormancy.",
+      timing: "Late spring through mid-summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is often used to propagate colored varieties (pink or red bracts) not true to seed. Perform grafting in early spring before bud break using scions from healthy, flowering specimens. Use cleft or side veneer grafting techniques to ensure strong union and maintain flowering characteristics specific to colored cultivars.",
+      timing: "Early spring (pre-bud break)",
+      maturityStage: "After 3 years (healthy stock required)",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating jin on Dogwood bonsai is generally not recommended due to the species’ relatively smooth, thin bark and delicate branches, which do not lend themselves well to naturalistic deadwood features. Attempting jin can cause unnecessary stress and may invite pests or disease. Focus instead on healthy living wood aesthetics.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari carving is not typically suitable for Dogwood bonsai because the bark is thin and prone to damage; creating deadwood on the trunk risks exposing live tissue to infection and decay. The species’ natural beauty lies in its healthy bark and vibrant foliage rather than deadwood features, so this technique should be avoided.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Encourage nebari development by selecting young trees with multiple evenly spaced roots and carefully pruning roots during repotting to promote radial growth. Slightly expose surface roots gradually over several years to create a stable, attractive base. Avoid aggressive root pruning that could destabilize the tree or reduce moisture uptake.",
+      timing: "Start early, continue during repotting every 2-3 years",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally not recommended for Dogwood bonsai due to its delicate bark and susceptibility to infection. If carving is desired for dead branch stubs or minor refinements, it must be done very carefully with sterilized tools and sealed immediately to prevent disease. Emphasize natural branch taper and movement instead.",
+      timing: "N/A or with extreme caution during dormant season",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate new Dogwood bonsai material in late spring or early summer when sap flow is active. Remove a ring of bark about 1-2 cm wide, apply rooting hormone, and wrap sphagnum moss around the wound, securing with plastic. Maintain moisture and check root development regularly, usually taking 3-4 months.",
+      timing: "Late spring to summer (active growth period)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Fertilize Dogwood bonsai with a balanced, slow-release fertilizer formulated for acid-loving plants from early spring through mid-summer. Reduce fertilization in late summer and cease completely during dormancy. Organic fertilizers enriched with micronutrients support flower and fruit production, but avoid excessive nitrogen to prevent overly vigorous leafy growth at the expense of blooms.",
+      timing: "Early spring to mid-summer monthly; none in dormancy",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common issues like powdery mildew, leaf spot, dogwood borer, and aphids. Apply fungicides promptly when fungal infections appear, and use insecticidal soaps or horticultural oils during active pest infestations. Good air circulation and avoiding overhead watering reduce disease prevalence, critical for maintaining healthy Dogwood bonsai.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'holly-ilex-crenata',
+    scientificName: "Ilex crenata",
+    commonName: "Holly (Ilex crenata)",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Needs a lot of sunlight (full sun) for best growth and appearance. However, it is essential to place it in semi-shade during the hottest summer days to prevent scorching of the leaves. A minimum of 4-6 hours of direct sunlight is generally recommended.",
+    position: "Outdoor. Should be placed outside all year round. Needs a cool place in winter. Must be protected from strong frost (temperatures below -5°C) when in a bonsai pot, ideally in a cold frame. Not suitable for long-term indoor placement.",
+    leafType: "Evergreen",
+    climate: "Hardy, but needs protection from strong frost when in a bonsai pot. Tolerates temperatures down to approximately -5°C (23°F) when protected. Ideal growing temperatures are around 18°C to 24°C (64°F to 75°F) during the day and 14°C to 16°C (57°F to 61°F) at night in the growing season. Dormancy requires cool temperatures, ideally between 3°C and 13°C. Avoid temperatures below -9°C (15°F).",
+    flowering: "Seasonal",
+    nativeRegion: "East China, Japan, Korea, and Taiwan.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Its small, non-spiny, evergreen leaves resemble those of Boxwood (*Buxus sempervirens*), leading to its common use as a Boxwood substitute in bonsai. It is one of the few hollies that produces tiny, non-traditional holly leaves. The ability to produce small black berries (when male and female plants are present) adds seasonal interest. The compact growth and tolerance for heavy pruning make it very responsive to shaping.",
+      soilType: "Prefers a mildly acidic, well-draining bonsai mix. A suitable mixture is often based on Akadama, Pumice, and Lava rock. A common recommendation is 2 parts Akadama, 1 part Pumice, and 1 part Lava rock, or any mix that works well for Azaleas (which also prefer acidic soil). The soil should never become compacted.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water thoroughly as soon as the soil surface begins to dry out. It should never be allowed to dry out completely, as it is not drought-tolerant. In the active growing season (spring/summer), this may require watering once or twice per day, especially if the tree is in full sun and a fast-draining soil mix. Reduce watering frequency in fall and winter."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning during late winter or early spring before bud break to define the main framework of the tree. Remove any thick, crossing, or inward-growing branches to maintain the compact, dense growth habit typical of Ilex crenata. Due to its slow growth, avoid heavy cuts; instead, focus on gradual refinement to encourage ramification and maintain balance. This species responds well to pruning, but large wounds may take time to heal.",
+      timing: "Late winter to early spring, before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly prune new shoots during the growing season (spring to early summer) to maintain dense foliage pads and control leaf size. Pinch or trim back shoots once they have produced 3-4 pairs of leaves to stimulate back budding and finer ramification. Frequent maintenance pruning prevents overly long internodes and keeps the characteristic compact shape of the Holly bonsai.",
+      timing: "Spring through early summer, every 2-4 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring",
+      description: "Use thin, flexible anodized aluminum or annealed copper wire to wire branches when they are semi-hardwood in late spring to early summer. Avoid wiring in late summer or fall as the branches harden and become brittle. Because Ilex crenata has relatively thin and flexible branches, gentle wiring is sufficient; avoid heavy bends to prevent breakage. Monitor wired branches regularly and remove wire within 1-2 months to prevent scarring.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot every 2-3 years in early spring just before active growth begins. Use a mildly acidic, well-draining bonsai soil mix such as 2 parts Akadama, 1 part Pumice, and 1 part Lava rock to mimic natural preferences. Avoid repotting in late summer or fall to prevent root stress during dormancy. Carefully remove compacted soil and replace with fresh mix to maintain root health and vigor.",
+      timing: "Early spring, every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune roots moderately by removing about one-third of the root mass, focusing on thick, woody roots to encourage fine root growth. For Ilex crenata, root pruning helps maintain a compact root ball and prevents pot-bound conditions. Root pruning also stimulates new root tips essential for nutrient uptake, but avoid excessive cutting to prevent shock due to slow growth rate.",
+      timing: "Early spring, during repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is generally not recommended for Ilex crenata bonsai as the leaves are very small and evergreen. Removing all leaves may stress the tree unnecessarily and slow growth recovery. Partial leaf thinning can be done to improve light penetration and air circulation within dense foliage pads, but complete defoliation should be avoided to prevent weakening the tree.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching",
+      description: "Pinch back new shoots regularly during the growing season to maintain compactness and encourage branching. Use fingernails or sharp scissors to pinch shoots after 3-4 pairs of leaves have developed, which promotes back budding and denser foliage. This technique is critical for controlling growth and maintaining aesthetic pads typical of Ilex crenata bonsai.",
+      timing: "Spring through early summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to add branches or repair damaged areas on mature specimens but is not commonly necessary due to the natural dense branching habit of Ilex crenata. When grafting, use scion wood from healthy, compatible Ilex crenata plants in early spring before bud break. This can also be used to introduce male or female plants for berry production in a bonsai display.",
+      timing: "Early spring, before bud break",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating jin (deadwood branches) is generally not suitable for Ilex crenata bonsai as the species naturally has smooth, thin branches and a delicate appearance. Deadwood features can look unnatural and disrupt the overall aesthetic of this compact, evergreen species. It is better to emphasize healthy, dense foliage and natural branch movement.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari techniques are not recommended for Ilex crenata because the bark is smooth and thin, and the species does not develop naturally rugged deadwood features. Attempting shari may damage the trunk and compromise tree health. The species is best styled with clean trunks emphasizing natural smooth texture.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Promote a well-spread nebari by root pruning during repotting and positioning the tree horizontally in early stages to encourage radial root growth. Expose surface roots gradually by carefully removing soil during repotting, which enhances nebari visibility. Because Ilex crenata has a naturally compact root system, early training and root pruning are essential to develop a strong nebari for aesthetic balance.",
+      timing: "During repotting in early spring, from first years onward",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for Ilex crenata bonsai due to its thin branches and smooth bark, which are easily damaged. The species’ natural charm lies in its dense, compact foliage and clean trunk lines rather than artificial texture or deadwood effects. Focus on healthy growth and refinement through pruning rather than carving.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate Ilex crenata or create new bonsai from larger branches, especially in spring or early summer when sap flow is active. Select a healthy branch, remove a ring of bark about 1-2 cm wide, apply rooting hormone, and wrap with moist sphagnum moss covered in plastic. This method is useful for producing new plants or repairing damaged branches without risking the parent tree.",
+      timing: "Spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Feed Ilex crenata bonsai with a balanced, slow-release fertilizer high in nitrogen during the growing season (spring through early autumn) to support steady growth and dense foliage development. Use an acidic fertilizer suitable for acid-loving plants to maintain soil pH. Reduce or stop fertilizing in late autumn and winter during dormancy to avoid stimulating unwanted growth.",
+      timing: "Monthly from early spring to early autumn",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common pests like scale insects, spider mites, and aphids, which can affect Ilex crenata bonsai especially under dry or stressed conditions. Use horticultural oil sprays or insecticidal soap during early infestations. Prevent fungal diseases by maintaining good air circulation, avoiding overwatering, and ensuring the soil is well-draining, as hollies are susceptible to root rot if left in soggy conditions.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'gardenia-cape-jasmine-jasmin-bonsai',
+    scientificName: "Gardenia jasminoides",
+    commonName: "Gardenia (Cape Jasmine, Jasmin Bonsai)",
+    group: "Various",
+    temperatureMin: 16,
+    temperatureMax: 23,
+    sunExposure: "Requires **high light** (bright, indirect light) for best health and blooming. Needs **4 to 6 hours of sunlight per day**; a south-facing window is ideal in winter. Must be protected from strong, direct midday sun.",
+    position: "Primarily an **Indoor Bonsai** in temperate climates. Can be kept outdoors in spring and summer, but must be brought inside when night temperatures approach 10°C (50°F) and kept above 15°C (59°F) in winter. Requires high humidity.",
+    leafType: "Evergreen",
+    climate: "Ideal: **16°C to 23°C**. Winter minimum: **not below 15°C**. For flower bud formation, night temperatures should be **15.5°C-18.3°C** with daytime temperatures about **5.5°C higher**.",
+    flowering: "Seasonal",
+    nativeRegion: "Tropical and subtropical regions of **Africa, southern Asia, Australasia, and Oceania**.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Highly fragrant, creamy white flowers (often double) that bloom in summer. Flowers may develop into orange, six-ridged oval fruits if pollinated. The tree is sensitive to movement, which can cause buds to drop. Prone to chlorosis (yellowing leaves) due to iron deficiency in non-acidic soil.",
+      soilType: "Requires a **well-draining, acidic soil mix** with a pH range of **5.0 to 6.5**. A mix containing peat moss, pine bark, or other organic matter is essential. Use of rainwater or distilled water is recommended to maintain acidity and prevent chlorosis.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Needs constant moisture; the soil should be kept **slightly moist** but never waterlogged or allowed to dry out completely. Water thoroughly until it drains from the bottom. Use **rainwater or distilled water** to maintain low pH and prevent mineral buildup. High humidity is essential."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning during late winter or early spring before active growth begins to shape the main branches and trunk. Focus on removing weak, crossing, or inward-growing branches to promote airflow and light penetration, which is crucial to prevent fungal issues. Gardenia’s slow growth means pruning should be conservative to avoid excessive stress and bud drop.",
+      timing: "Late winter to early spring, before new growth",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly pinch or prune back new shoots throughout the growing season to maintain compactness and encourage denser branching. Avoid heavy pruning during flowering periods to prevent bud drop and loss of blooms. Remove any yellowing or dead leaves promptly to reduce disease risk.",
+      timing: "Spring through summer monthly, avoid during flowering",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Minimal Stress",
+      description: "Use thin, soft anodized aluminum wire to gently shape branches, applying minimal pressure to avoid damaging the fragile bark and buds. Wire only semi-hardwood growth during late spring or early summer when branches are pliable. Remove wiring within 3 months to prevent scarring, as Gardenia bark can be sensitive and prone to damage.",
+      timing: "Late spring to early summer, 1-3 months duration",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Acidic Soil Refresh",
+      description: "Repot every 2-3 years in early spring before growth begins, using a well-draining acidic bonsai mix containing peat moss and pine bark to maintain pH 5.0-6.5. Avoid disturbing roots excessively to prevent shock and bud drop. Use rainwater or distilled water immediately after repotting to prevent chlorosis.",
+      timing: "Early spring every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "Perform very light root pruning during repotting, removing only about 10-15% of the root mass, focusing on trimming fine roots carefully to avoid stressing the plant. Gardenia’s fine, superficial root system is sensitive and heavy root pruning can cause decline or bud drop. Always repot into fresh acidic soil and water well afterward.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation Avoidance",
+      description: "Defoliation is generally not recommended for Gardenia bonsai due to its sensitivity to stress and tendency to drop buds or leaves. Instead, use selective pruning and pinching to encourage branching and reduce leaf size. Maintaining stable environmental conditions supports leaf health better than defoliation.",
+      timing: "Not recommended",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch back soft new shoots with fingers as they elongate to promote bushier growth and finer branching. This technique encourages compact form without the stress of cutting and reduces the risk of bud drop. Perform pinching regularly during the active growing season, avoiding interference during flower bud development.",
+      timing: "Spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Variety Improvement",
+      description: "Grafting may be used to propagate specific cultivars or improve floral characteristics, but it is not commonly needed in bonsai practice. When performed, use wedge or cleft grafting in early spring on young, healthy stock to ensure success. Grafting can introduce genetic vigor but requires skill and care due to Gardenia’s sensitivity.",
+      timing: "Early spring before growth starts",
+      maturityStage: "Young to mature trees",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Not Recommended",
+      description: "Creating jin (deadwood) is not suitable for Gardenia due to its thin bark and delicate structure. The species does not naturally develop aged deadwood and attempts to create jin can cause irreversible damage and stress, leading to bud or flower loss.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Not Recommended",
+      description: "Shari techniques are not advised on Gardenia bonsai because its bark and trunk are sensitive and thin, making them prone to infection and decline if damaged. This species’ aesthetic is better maintained with healthy bark and foliage to showcase its fragrant flowers.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Surface Root Encouragement",
+      description: "Encourage nebari development by gently exposing surface roots during repotting and lightly pruning roots to promote radial root growth. Use a shallow pot to restrict downward root growth and encourage roots to spread horizontally. Avoid heavy root pruning to maintain fine roots essential for nutrient uptake.",
+      timing: "During repotting every 2-3 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Not Recommended",
+      description: "Carving is not recommended on Gardenia bonsai due to its thin bark and sensitive trunk tissue, which can lead to infections and stress. The species’ beauty lies in its healthy foliage and fragrant flowers rather than deadwood features.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering with High Humidity",
+      description: "Air layering can be used to propagate Gardenia but requires maintaining very high humidity around the layering site to prevent drying out. Perform air layering in late spring or early summer using sphagnum moss wrapped with plastic and secured tightly. Root formation can take several months due to slow growth.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Acidic, Balanced Fertilizing",
+      description: "Feed Gardenia bonsai monthly during the growing season with a balanced, acidifying fertilizer high in nitrogen, phosphorus, and potassium, plus micronutrients such as iron to prevent chlorosis. Use organic or slow-release fertilizers to avoid salt buildup. Reduce feeding frequency in autumn and stop in winter when growth slows.",
+      timing: "Monthly spring through early autumn",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Consistent Moisture and Humidity Management",
+      description: "Maintain consistently moist but well-drained soil using rainwater or distilled water to preserve acidity and prevent mineral buildup. Provide high humidity (60-80%) especially indoors, using humidity trays or misting. Avoid waterlogging and drying out to prevent root rot and bud drop; water thoroughly when topsoil feels slightly dry.",
+      timing: "Year-round, daily or as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'barbados-cherry',
+    scientificName: "Malpighia glabra",
+    commonName: "Barbados Cherry",
+    group: "Various",
+    temperatureMin: 18,
+    temperatureMax: 32,
+    sunExposure: "Full sun to semi-shade. It thrives in plenty of sunlight, ideally receiving six to eight hours of direct sunlight each day. Optimal growth is achieved with 10+ hours of light per day, which can be supplemented with fluorescent grow lights when kept indoors.",
+    position: "Outdoor during warm periods, Indoor during cold periods. It is a sub-tropical tree that must be brought indoors or into a greenhouse when temperatures drop below 10°C (50°F), as it is not frost-tolerant. When kept indoors, it requires placement near a bright, south-facing window or under supplemental grow lights.",
+    leafType: "Deciduous",
+    climate: "Optimal temperatures are 18°C to 32°C (65°F to 90°F). The tree is sub-tropical and must be protected from temperatures below 10°C (50°F), as temperatures below 7°C (45°F) can cause extensive damage, and freezing temperatures will kill the tree.",
+    flowering: "Seasonal",
+    nativeRegion: "Native to South and Central America, extending from South Texas through Mexico and the Caribbean to South America (as far as Peru and Brazil).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Produces small, edible, cherry-like fruits (Acerola) that are exceptionally rich in Vitamin C. It features bright pink to red flowers that bloom throughout the year in tropical climates, making it a highly ornamental species. The branches are brittle, requiring careful wiring, and the tree is a heavy feeder compared to many other bonsai species.",
+      soilType: "Slightly acidic, moist, and porous soil with a pH level between 5.5 and 6.5. A standard bonsai soil mix that retains moisture but drains well is recommended.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires consistently moist soil, but is sensitive to overwatering, which can lead to root rot. During the hot growing season, watering should be done daily, or whenever the surface of the soil appears dry. The soil should be thoroughly saturated during each watering."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Barbados Cherry bonsai, structural pruning is essential to control the naturally weeping habit and encourage a compact, upright form. Remove overly long, weak, or downward-hanging branches to maintain balance and open the canopy for light penetration. Focus on cutting back vigorous shoots during the early growing season to promote thicker branch development and improve trunk taper. Use sharp, sterilized tools to prevent branch dieback as the branches are brittle.",
+      timing: "Early spring before new growth begins or late winter when the tree is still dormant",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regular maintenance pruning involves pinching or cutting back new shoots to maintain the compact shape and prevent excessive elongation. Pinch new growth tips weekly during the growing season to encourage bushiness and flower production. Remove any crossing branches or those that shade lower foliage to maintain health and aesthetics. This helps control the tree’s natural tendency to outgrow its bonsai style.",
+      timing: "Throughout the growing season, from spring through early autumn, weekly or biweekly",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Caution",
+      description: "Due to the brittle nature of Barbados Cherry branches, wiring must be done very carefully with thin, flexible aluminum wire to avoid breakage. Start wiring with the thinnest wire possible and avoid forcing bends; instead, apply gentle, gradual pressure over weeks. Support wired branches with chopsticks or soft ties if necessary. Avoid wiring during periods of rapid growth when branches are more fragile.",
+      timing: "Late winter or early spring before new growth starts, with wiring checked and adjusted every 2-3 weeks",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting in Early Spring",
+      description: "Repotting Barbados Cherry bonsai should be done every 2-3 years in early spring before active growth begins. Use a slightly acidic, well-draining soil mix that retains moisture but prevents waterlogging. Carefully remove old soil to avoid damaging the delicate root system, which is sensitive to disturbance. Repotting stimulates root growth and overall tree vigor, essential for this heavy feeder.",
+      timing: "Early spring, every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Care",
+      description: "During repotting, prune back about one-third of the root mass to promote fine root development and maintain a healthy balance between root and shoot growth. Avoid removing thick roots excessively to prevent shock, as Barbados Cherry can be sensitive to root disturbance. Trim damaged or rotting roots promptly to prevent root rot, ensuring soil remains moist but well-aerated.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation can be employed to reduce leaf size and increase ramification but should be done cautiously due to the species’ moderate tolerance. Remove approximately 50% of the leaves in mid-summer to encourage a second flush of growth and better light penetration. Avoid complete defoliation as it can stress the tree and reduce flowering and fruiting vigor.",
+      timing: "Mid-summer, during strong active growth",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinching is crucial for controlling vigorous outgrowths and maintaining dense foliage. Use fingers to pinch back new shoots once they have developed 4-6 leaves, removing the tip to encourage lateral branching. This technique helps keep the tree compact and promotes flowering by directing energy to flower bud formation rather than excessive leaf growth.",
+      timing: "Weekly during the growing season, from spring through early autumn",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Improvement",
+      description: "Grafting is occasionally used to add branches or improve ramification on weaker areas of the bonsai. This technique can be used to introduce stronger growth or flower-producing branches. Use approach grafting or side grafting during early spring when the tree is actively growing. Grafting is beneficial because the species can be slow to develop secondary branches in desired locations.",
+      timing: "Early spring, during active growth",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Creating jin is generally not recommended for Barbados Cherry bonsai because the branches are brittle and the species naturally has a lush, living appearance. Attempting to create deadwood can cause unnecessary stress and damage. However, small jins can be used sparingly on older, thick branches if a weathered look is desired but must be done with great care.",
+      timing: "If used, late winter during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Technique",
+      description: "Shari is not suitable for Barbados Cherry bonsai as the thin bark and softer wood do not hold up well to carving. The species’ natural aesthetics focus on glossy leaves and bright flowers rather than deadwood features. Attempting shari risks exposing the tree to pests and diseases due to bark damage.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development via Root Pruning and Surface Roots",
+      description: "Promoting a wide, evenly spread nebari is important to create a stable and aesthetically pleasing bonsai. During repotting, prune the roots to encourage fine root growth evenly around the trunk base. Surface roots can be gently exposed by removing topsoil gradually over time, and minor root grafting can be attempted to improve nebari thickness. This species responds well to nebari development practices when combined with consistent root care.",
+      timing: "During repotting in early spring, ongoing surface root exposure in growing season",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally not recommended for Barbados Cherry bonsai due to its brittle branches and softer wood. The species’ ornamental value lies in its foliage, flowers, and fruit rather than deadwood features. Carving risks structural weakness and potential dieback.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is a reliable method for propagating Barbados Cherry bonsai to produce clones with desirable traits. Select healthy semi-hardwood branches during late spring or early summer, girdle the branch, apply rooting hormone, and wrap with moist sphagnum moss and plastic. Roots typically develop within 6-8 weeks, after which the new plant can be separated and potted. This method helps maintain genetic consistency and accelerates bonsai development.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Balanced Feed",
+      description: "Barbados Cherry bonsai requires frequent feeding due to its heavy feeding habits, especially during the warmer growing months. Use a balanced, water-soluble fertilizer with equal NPK ratios or slightly higher phosphorus to support flowering, applied every 2 weeks from early spring through late summer. Reduce feeding frequency in autumn and stop during winter dormancy. Organic fertilizers can also be used to improve soil health and moisture retention.",
+      timing: "Every 2 weeks from early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Barbados Cherry bonsai is susceptible to common pests such as aphids, spider mites, and scale insects, especially during warm periods. Regularly inspect the tree and treat infestations early with insecticidal soap or neem oil. Root rot can occur if overwatered; ensure well-draining soil and avoid waterlogging. Maintain good airflow and avoid excessive humidity indoors to reduce fungal issues.",
+      timing: "Year-round monitoring, increased vigilance during warm months",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'flowering-quince',
+    scientificName: "Chaenomeles speciosa",
+    commonName: "Flowering Quince",
+    group: "Various",
+    temperatureMin: 10,
+    temperatureMax: 24,
+    sunExposure: "Full sun is required to promote maximum flowering and fruiting. A minimum of 6 hours of direct sunlight is recommended. In extremely hot climates, some afternoon shade may be beneficial to protect the roots and prevent leaf scorch, but generally, it prefers full sun.",
+    position: "Outdoor. Chaenomeles speciosa is a temperate, cold-hardy species that requires a period of winter dormancy (overwintering) to thrive and set flowers. It should not be kept indoors.",
+    leafType: "Deciduous",
+    climate: "Active Growth (Spring/Summer): 10°C to 24°C (50°F to 75°F). Winter Dormancy: Requires temperatures near or below 5°C (41°F) for a period to ensure proper flowering. It is extremely cold-hardy and can withstand temperatures down to approximately -15°C to -25°C (5°F to -13°F) when protected from wind and excessive moisture. Roots should be protected from hard freezing.",
+    flowering: "Seasonal",
+    nativeRegion: "East Asia, specifically native to China, Tibet, and Myanmar (Burma).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Highly valued for its **early and prolific flowering**, often blooming in late winter or very early spring before leaves appear, with a potential second bloom in autumn. The presence of **thorns** on the branches is a distinguishing characteristic, requiring care during handling and wiring. The **'Chojubai' cultivar** is a popular choice for bonsai due to its naturally dwarf size and fine ramification. It is one of the few species that produces flowers and fruit on very old and very young wood.",
+      soilType: "Requires a well-draining, slightly acidic to neutral soil mix (pH 5.0-7.0). A common mix for bonsai is 75-80% small particle Akadama and 20-25% small particle Pumice, or a standard well-draining bonsai mix. The soil should be kept moist but must not be waterlogged. Calcium in the soil is beneficial for flowering and fruiting.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water regularly and thoroughly when the top inch of soil feels dry to the touch. The soil should be kept evenly moist but never waterlogged. In summer, watering may be required once or twice daily, depending on temperature, pot size, and soil composition. During winter dormancy, reduce watering significantly, approximately every two weeks, ensuring the soil does not dry out completely."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform heavy structural pruning in late spring after the main flowering period to shape the tree and control its vigorous growth. Remove thick branches that grow inward or cross each other, focusing on maintaining an open, balanced structure to enhance air circulation and light penetration. Target older, less productive wood to encourage renewal and flowering on young branches. Due to the thorny nature of Chaenomeles speciosa, use protective gloves and sharp tools to minimize damage.",
+      timing: "Late spring (after main flowering in early spring)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly prune back new shoots throughout the growing season to maintain the compact shape and encourage fine ramification, especially in the 'Chojubai' cultivar. Pinch or cut back to 2-3 leaf nodes to stimulate branching and flower bud formation on young wood. Remove any suckers or overly vigorous shoots promptly to prevent energy diversion from flowering wood.",
+      timing: "Spring through summer, monthly as growth occurs",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Thorn Consideration",
+      description: "Use flexible, thin aluminum or annealed copper wire to shape branches, avoiding injury to thorns and bark. Start wiring in late winter or early spring before bud swell, when branches are still pliable but dormant. Avoid wiring very young shoots as they are brittle and prone to breakage. Due to the presence of thorns, carefully position wire to prevent piercing and monitor wiring closely to prevent scarring during rapid growth.",
+      timing: "Late winter to early spring",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Minimal Root Pruning",
+      description: "Repot every 2-3 years in early spring before bud break to avoid stress and ensure healthy flowering. Use a well-draining acidic to neutral bonsai mix with sufficient Akadama and pumice. Root pruning should be conservative, removing only about 20-30% of roots to prevent shock, as Chaenomeles speciosa can be sensitive to excessive root loss. Protect roots from hard freeze after repotting by situating the bonsai in a sheltered location.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning for Flowering Enhancement",
+      description: "During repotting, selectively prune thick, old roots to encourage a finer root system that supports vigorous flowering and fruiting. Avoid removing the majority of feeder roots to maintain water absorption and overall health. Carefully untangle and spread roots to develop a wide nebari, which is important for stability and aesthetics in bonsai.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation - Not Recommended",
+      description: "Complete defoliation is generally not recommended for Flowering Quince bonsai because it may reduce the subsequent flowering potential and stress the tree. The species produces flowers on old and young wood, and removing leaves can interrupt energy production needed for flower bud development. Partial leaf pruning can be done to reduce leaf size but full defoliation should be avoided.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching for Ramification and Flowering",
+      description: "Pinch back new shoots regularly during the growing season by removing the soft shoot tips once they reach 4-5 sets of leaves. This encourages dense twiggy growth and promotes the development of flower buds on both old and young wood. Use clean fingertip pinching rather than cutting to avoid unnecessary wounds and reduce risk of disease.",
+      timing: "Spring through summer, every 2-3 weeks",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Improvement",
+      description: "Grafting is occasionally used to add finer branches or improve flowering wood, particularly in the 'Chojubai' cultivar. Approach grafting in early spring before active growth begins, using scion wood from healthy, flowering branches. This technique can be used to repair damaged areas or add more refined ramification but requires intermediate skill and care due to thorn presence.",
+      timing: "Early spring, before active growth",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin Deadwood - Not Recommended",
+      description: "Creating jin (deadwood branches) is not typically recommended for Flowering Quince bonsai because its natural beauty lies in its vibrant flowers and healthy twiggy branches. The presence of thorns and vigorous growth also makes jin creation less aesthetically pleasing and more difficult to maintain. Focus should remain on healthy branch development and flowering instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari Trunk Deadwood - Not Recommended",
+      description: "Shari (trunk deadwood) carving is not advised for Chaenomeles speciosa as it can detract from the species’ natural character and flowering ability. The bark ages quickly and naturally, so artificial deadwood techniques may appear unnatural and could stress the tree. Maintaining healthy, living bark supports vigorous flowering and overall bonsai health.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Root Flare Exposure",
+      description: "Encourage wide, radial nebari by carefully pruning and spreading roots during repotting and by slightly exposing the root flare above the soil line. This promotes stability and enhances the mature, aged appearance of the bonsai. Avoid excessive root pruning that could reduce nebari development, and protect roots from freezing during winter to maintain root health.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving - Not Recommended",
+      description: "Carving techniques are generally not recommended on Flowering Quince bonsai because the species’ relatively thin branches and vigorous growth make it prone to damage and poor healing. The natural rough bark develops quickly and is visually appealing without artificial carving. Focus on healthy branch development and natural aesthetics to highlight flowering.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering with Thorn Management",
+      description: "Air layering can be used to propagate new plants or create additional bonsai from existing trees. Perform air layering in late spring or early summer when the tree is actively growing. Take care to avoid thorns during incision and wrapping, and use sharp tools to make clean cuts. Keep the moss moist throughout the rooting period and protect the developing roots from drying or freezing.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing for Flowering and Growth",
+      description: "Apply a balanced, low-nitrogen fertilizer (e.g., NPK 10-10-10 or 6-12-12) to promote flowering and healthy growth. Begin feeding in early spring just before bud break and continue monthly through summer, reducing and stopping feeding in autumn to prepare for dormancy. Organic fertilizers rich in calcium can improve flower and fruit quality. Avoid high nitrogen fertilizers that encourage excessive leafy growth at the expense of flowers.",
+      timing: "Early spring to late summer, monthly",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management Specific to Chaenomeles speciosa",
+      description: "Monitor regularly for common pests such as aphids, scale insects, and spider mites, especially during the growing season. Use insecticidal soap or horticultural oil as needed, ensuring thorough coverage to reach under leaves and near thorns. Fungal diseases like leaf spot can be minimized by providing good air circulation and avoiding overhead watering. Winter protection from excessive moisture prevents root rot.",
+      timing: "Spring through fall, weekly inspections",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'winter-jasmine',
+    scientificName: "Jasminum nudiflorum",
+    commonName: "Winter Jasmine",
+    group: "Various",
+    temperatureMin: 6,
+    temperatureMax: -9,
+    sunExposure: "Full sun is preferred, but it will tolerate partial shade. Full sun encourages better flowering. A minimum of 4 to 6 hours of direct sunlight per day is recommended.",
+    position: "Outdoor only. It is a deciduous plant that requires a cold, dormant period to survive and thrive. It is highly cold-tolerant.",
+    leafType: "Deciduous",
+    climate: "Highly cold-tolerant, hardy in USDA Zones 6-9. This corresponds to minimum winter temperatures of -23.3°C to -3.9°C. For a potted bonsai, it is generally recommended to provide protection when temperatures consistently drop below -5°C to prevent root damage, though the plant itself can tolerate much colder temperatures in the ground. It requires a cold dormancy period.",
+    flowering: "Seasonal",
+    nativeRegion: "Native to China, specifically the provinces of Gansu, Shaanxi, Sichuan, Xizang (Tibet), and Yunnan.",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "The most distinguishing feature is its bright yellow, star-shaped, solitary flowers, about 1 cm across, which appear on bare, leafless stems in late winter or early spring, before the foliage emerges. This early blooming is why it is called \"flower that welcomes spring\" (Yingchun) in its native China. It is highly adaptable and resilient, tolerating drought and extensive wiring.",
+      soilType: "As a bonsai, it requires a highly porous, well-draining, inorganic bonsai soil mix. A common mix includes components like Akadama, Pumice, and Lava rock, often in a ratio of 2 parts Akadama to 1 part Pumice and 1 part Lava rock. It tolerates a wide range of soil pH in nature, but the bonsai mix is critical for proper drainage.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Needs to be watered daily during the growing season, ensuring the soil is thoroughly saturated and then allowed to dry slightly before the next watering. The soil must never be allowed to dry out completely. During the winter dormancy period, watering should be reduced, but the soil should not be allowed to dry out completely."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in late winter to early spring, just before new growth begins. Remove overly long or crossing branches to maintain the arching, sprawling habit typical of Winter Jasmine, encouraging a balanced, open structure that promotes flower display on bare wood. Focus on cutting back to strong buds or lateral branches to stimulate compact growth and maintain the desired bonsai silhouette.",
+      timing: "Late winter to early spring (before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Conduct maintenance pruning throughout the growing season by pinching or cutting back new shoots to 2-3 leaf nodes to encourage denser branching and compact foliage. Remove any weak or leggy growth to maintain vigor and flower production. This also helps keep the bonsai tidy and improves light penetration to inner branches.",
+      timing: "Spring through early autumn, as needed",
+      maturityStage: "From first year onwards",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use flexible aluminum or annealed copper wire to shape slender, green shoots, wiring in late winter or early spring before buds swell. Wiring is highly effective since Winter Jasmine tolerates extensive wiring without damage. Wire branches individually to create gentle curves and emphasize the natural arching habit, avoiding overly tight wraps to prevent bark scarring.",
+      timing: "Late winter to early spring",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Considerations",
+      description: "Repot Winter Jasmine bonsai every 2-3 years in early spring, just before new growth starts, to refresh the highly porous soil and prevent root binding. Use a well-draining mix of Akadama, Pumice, and Lava rock. Avoid repotting during flowering or late autumn to prevent stress and root damage.",
+      timing: "Early spring (before bud break), every 2-3 years",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune back about one-third of the root mass, focusing on thick, long roots while preserving fine feeder roots essential for water uptake. This encourages a dense, fibrous root system that supports the bonsai’s vigor and stability. Avoid excessive root pruning in young trees to prevent shock.",
+      timing: "Early spring, during repotting every 2-3 years",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is generally not recommended for Winter Jasmine bonsai as it can stress the plant and reduce the early flowering display on bare wood. The species naturally flowers on old wood during late winter or early spring, so maintaining foliage through the growing season is preferable to ensure energy reserves for flowering and growth.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching Technique",
+      description: "Pinch new shoots regularly during the growing season by removing the soft tips when they reach 4-5 leaves to encourage branching and compact growth. This technique maintains the bonsai’s dense foliage and helps keep the natural spreading habit controlled. Pinching also stimulates secondary bud development, improving flower bud formation.",
+      timing: "Spring through summer, every 2-3 weeks",
+      maturityStage: "From first year onwards",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely used with Winter Jasmine bonsai because the species readily produces vigorous shoots and roots on its own. However, it can be applied to repair damaged branches or improve branch placement when needed, preferably in early summer when sap flow is active to enhance graft success rates.",
+      timing: "Early summer",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Creating Jin is generally not suitable for Winter Jasmine bonsai as its natural aesthetic relies on delicate, slender green branches and vibrant flowers rather than deadwood features. Applying Jin can detract from the species’ characteristic early yellow blooms and graceful growth habit.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Technique",
+      description: "Shari is not recommended for Winter Jasmine bonsai. The thin, green shoots and relatively slender trunks do not lend themselves well to trunk deadwood carving, and such styling would compromise the plant’s health and natural form. The species’ beauty comes from its fresh green foliage and bright yellow flowers rather than aged wood effects.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Promote a wide, radial nebari by carefully pruning roots during repotting to encourage multiple fine roots radiating from the base. Over time, expose and clean surface roots by removing soil gently with a brush to highlight the nebari. This species naturally forms good nebari with consistent root pruning and repotting every 2-3 years.",
+      timing: "During repotting every 2-3 years",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for Winter Jasmine due to its thin, flexible branches and trunks which are prone to damage. The species’ appeal lies in its fresh, green growth and early winter flowers rather than aged, rugged appearance. Avoid carving to maintain plant health and vigor.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate Winter Jasmine bonsai by inducing roots on selected healthy branches during late spring to early summer. Choose vigorous, pencil-thick shoots, wound the bark, apply rooting hormone, and wrap with moist sphagnum moss and plastic wrap. Rooting typically occurs within 2-3 months, ensuring a new plant with similar characteristics.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Fertilize Winter Jasmine bonsai monthly during the active growing season from early spring to late summer using a balanced, slow-release fertilizer or liquid fertilizer with equal NPK values (e.g., 10-10-10). Reduce feeding in autumn and stop during winter dormancy to prevent stimulating growth. Organic fertilizers can also be beneficial for soil health.",
+      timing: "Monthly from early spring to late summer",
+      maturityStage: "From first year onwards",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Winter Jasmine is largely pest- and disease-resistant but occasionally may suffer from aphids or scale insects. Inspect regularly during spring and summer, and treat infestations promptly with insecticidal soap or horticultural oil. Good air circulation and avoiding overwatering reduce risks of fungal diseases.",
+      timing: "Regularly in spring and summer",
+      maturityStage: "From first year onwards",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'smoke-tree-also-known-as-venetian-sumach-dyers-sumach-smoke-bush-cloud-tree-wig-tree-mist-tree-jupiters-beard-european-smoketree-and-eurasian-smoketree',
+    scientificName: "Cotinus coggygria",
+    commonName: "Smoke Tree (also known as Venetian sumach, dyer's sumach, smoke bush, cloud tree, wig tree, mist tree, Jupiter's beard, European smoketree, and Eurasian smoketree)",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 5,
+    sunExposure: "Full sun (at least 6 hours of direct, unfiltered sunlight per day) during the growing season is ideal. It can tolerate partial shade, but this may lead to asymmetrical growth. Purple-leaved varieties require full sun to maintain their color.",
+    position: "Outdoor. Requires shelter from frost and icy winds when temperatures drop below -5°C. It is typically treated as an outdoor species.",
+    leafType: "Deciduous",
+    climate: "Tolerates temperatures down to -5°C, but requires protection from frost and icy winds below this point. Ideal growth climate is moderate temperatures and dry-to-average humidity. Extreme low temperatures can cause the overground part of the plant to die, though the root may remain alive.",
+    flowering: "Seasonal",
+    nativeRegion: "Eurasia, specifically from Southern Europe to the east, covering regions of Central Asia, the Himalayas, and the northern parts of China. It grows at altitudes of 800 to 1300 meters.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The species is named for its distinctive, large, feathery inflorescence clusters (up to 30 cm long) that resemble a cloud of smoke or a puff of air. The sap is irritating to the skin, requiring protective gloves and goggles when working with the tree. It is considered an easy-to-grow plant, but its rapid growth and short lifespan (20-50 years) are less favorable for traditional bonsai.",
+      soilType: "Prefers a high pH (alkaline) soil, which helps keep the plant healthy. It thrives best in infertile loam but is adaptable to most soil types, including clay, sand, and shallow rocky soil. Poorly drained, wet, or soggy soils must be avoided to prevent root rot. A basic, well-draining bonsai soil mix is suitable.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water moderately. Younger specimens need regular and deep watering. Mature plants are drought-resistant. During the growing season, water moderately, typically every 10 days, allowing the soil to dry out slightly between waterings to prevent root rot."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Conduct structural pruning in early spring before bud break to shape the dense crown and reduce overly vigorous branches. Focus on removing crossing branches and those growing inward to maintain the open, cloud-like appearance characteristic of Cotinus coggygria bonsai. Because of rapid growth, cut back to healthy buds to encourage ramification and better branch tapering.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Perform maintenance pruning during the growing season to control the fast growth and promote finer branching. Pinch or cut back fresh shoots once they reach 5-7 cm to maintain the compact silhouette and prevent overly dense foliage that can shade inner branches. Always use gloves and goggles due to sap irritancy.",
+      timing: "Late spring through summer, every 3-4 weeks",
+      maturityStage: "Young and mature trees",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use flexible, medium-thickness aluminum wire to shape branches in late winter or early spring before the sap flow intensifies. Due to relatively brittle wood and rapid growth, wiring should be checked and adjusted frequently every 2-3 weeks to avoid wire cutting into bark. Avoid wiring during the hottest summer months to prevent damage.",
+      timing: "Late winter to early spring, adjustments every 2-3 weeks",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Considerations",
+      description: "Repot every 2-3 years in early spring just before active growth starts. Use a well-draining alkaline bonsai soil mix to avoid root rot and maintain health. Avoid repotting during late summer or autumn as the root system will not recover well, increasing risk of dieback in winter.",
+      timing: "Early spring every 2-3 years",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Technique",
+      description: "During repotting, prune fibrous roots moderately to maintain a fine root ball but preserve thicker roots to support the plant’s rapid growth. Remove any blackened or rotten roots promptly to prevent Verticillium wilt infection. Always disinfect tools and work in sterile conditions because of the species’ susceptibility to soil-borne diseases.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Light defoliation can be executed in early summer to encourage smaller leaf size and better ramification. However, avoid full defoliation because Cotinus coggygria has relatively large leaves and full defoliation may stress the tree, reducing vigor in this short-lived species. Partial removal of larger leaves is preferred.",
+      timing: "Early summer, partial defoliation only",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch soft new shoots regularly during the growing season once they reach 5-7 cm, removing the top 1-2 cm to promote branching and denser foliage pads. This helps control the rapid growth and keeps the bonsai compact without overly stressing the tree. Use gloves to avoid sap contact.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "Young and mature trees",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely used on Cotinus coggygria bonsai due to its rapid natural growth and ease of propagation from cuttings. When used, grafting is mainly for introducing different leaf color varieties or correcting branch defects and should be done in late spring. It requires careful aftercare to prevent infection from the sap’s irritants.",
+      timing: "Late spring during active growth",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Jin techniques are generally not suitable for Cotinus coggygria because the wood is relatively soft and the species has a short lifespan, making deadwood features less durable and less natural-looking. The species’ aesthetic favors lush, smoky foliage rather than aged, deadwood effects.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not recommended for this species due to its thin bark and susceptibility to damage and infections. The trunk’s natural smoothness and coloration are better preserved without aggressive carving or exposure of deadwood, which can invite diseases.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Promote nebari development by encouraging radial root growth during initial repotting by pruning vertical roots and spreading horizontal roots evenly. Use shallow pots and prune roots carefully to create a balanced flared base, which enhances stability and visual appeal. Avoid excessive root pruning as the species can be sensitive.",
+      timing: "Starting at first repot after 2-3 years, repeated every repot cycle",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended due to the soft, brittle wood and short lifespan of Cotinus coggygria. Attempting to carve can weaken the tree structurally and expose it to pathogens, especially given the species’ vulnerability to Verticillium wilt and sap irritancy.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate new plants or salvage weak branches, ideally done in late spring or early summer when sap flow is strong. Use sterile tools and gloves to avoid sap irritation and infection. Maintain moisture in sphagnum moss wrap and monitor root development closely to avoid rot.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule and Type",
+      description: "Apply a balanced, low-nitrogen fertilizer monthly from early spring through late summer to support moderate growth and vibrant foliage color. Use an alkaline-based fertilizer to maintain soil pH and avoid over-fertilizing, which can encourage overly vigorous growth prone to dieback. Reduce feeding in autumn and stop during winter dormancy.",
+      timing: "Monthly from early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for aphids, scale, and spider mites, which commonly infest Cotinus coggygria bonsai. Prevent Verticillium wilt by avoiding overwatering and using sterilized soil and tools. Remove any infected parts promptly and maintain good air circulation around the tree to reduce fungal risks.",
+      timing: "Inspect monthly during growing season",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'honeysuckle-box-honeysuckle',
+    scientificName: "Lonicera nitida",
+    commonName: "Honeysuckle (Box Honeysuckle)",
+    group: "Various",
+    temperatureMin: 6,
+    temperatureMax: 7,
+    sunExposure: "Full sun to partial shade. For optimal growth and dense foliage, the bonsai should receive at least six hours of direct sunlight each day. Afternoon shade is recommended in warmer climates to prevent leaf scorch and dehydration during the hottest part of the summer.",
+    position: "Outdoor. Lonicera nitida is generally hardy and can tolerate temperatures down to -15°C (5°F) in the ground, but containerized bonsai require protection from harsh winter conditions, such as placement in a sheltered spot or an unheated greenhouse, especially when temperatures drop consistently below 1.5°C (35°F).",
+    leafType: "Evergreen",
+    climate: "Hardy to USDA Zone (6) 7. Can tolerate temperatures down to -15°C (5°F) in the ground, but containerized bonsai need winter protection below 1.5°C (35°F). Optimal growing temperatures are generally between 15°C to 27°C (59°F to 80°F).",
+    flowering: "Seasonal",
+    nativeRegion: "China, specifically the areas of Yunnan and West Sichuan, where it grows in scrub along streams at elevations of 1,200–3,000 meters (3,900–9,800 ft).",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "Small, glossy, ovate dark green leaves (up to 1/2 inch long) that resemble boxwood foliage. Its dense, fine foliage and aggressive growth make it an excellent species for creating compact, highly ramified bonsai quickly. It is a popular choice for beginners due to its vigor and tolerance for heavy pruning. The branches can be brittle, requiring careful wiring.",
+      soilType: "Prefers a consistently moist but well-draining soil mix to prevent waterlogging and root rot. A common recommendation is a mix of Akadama, Pumice, and Lava rock, or a mix of 60% Moler, 20% Akadama, and 20% Supalite. Repotting is typically done every two to three years in early spring before new growth begins.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires consistent moisture. The soil should be kept consistently moist but must be well-draining to avoid waterlogging, to which it is sensitive and prone to root rot. Water thoroughly when the top layer of soil feels dry. Watering frequency should be increased during the growing season (spring and summer) and hot weather, and reduced in winter, ensuring the soil does not dry out completely."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in early spring before new growth begins to define the main branches and overall silhouette. Honeysuckle’s vigorous growth requires removal of overly long or crossing branches to maintain a balanced framework. Cut back to healthy buds or lateral branches to encourage dense, compact growth. This process helps reduce brittleness in branches by avoiding overly long, unsupported growth.",
+      timing: "Early spring (before bud break)",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regular maintenance pruning involves frequent trimming of new shoots throughout the growing season to sustain dense foliage pads and reduce leaf size. Pinch or cut back new shoots once they reach 2-3 inches to promote ramification and prevent overly woody, brittle branches. This should be done carefully to avoid damaging very young, flexible growth.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Young Flexible Branches",
+      description: "Wire only young, flexible branches during the active growing season (spring to early summer) to shape the tree. Due to the brittleness of mature branches, avoid wiring older wood to prevent breakage. Use thin, soft anodized aluminum wire and apply gentle bends gradually. Remove wire after 4-6 weeks to prevent scarring.",
+      timing: "Spring to early summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Repotting in Early Spring",
+      description: "Repot every 2-3 years in early spring just before new growth starts to avoid root damage during active growth. Use a well-draining mix such as 60% Moler, 20% Akadama, and 20% Supalite to maintain consistent moisture without waterlogging. Gently tease roots to remove old soil and inspect for root rot, which this species is prone to if soil remains soggy.",
+      timing: "Early spring, every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Careful Inspection",
+      description: "During repotting, prune back about one-third of the root mass, focusing on removing thick, woody roots and any that appear rotten. Honeysuckle roots are sensitive to waterlogging, so ensuring healthy fine roots is critical. Avoid excessive root pruning to prevent stress; keep pruning conservative and balanced with top growth.",
+      timing: "Early spring during repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Partial Defoliation",
+      description: "Partial defoliation can be done selectively in early summer to reduce leaf size and increase ramification but full defoliation is not recommended due to stress on this vigorous species. Remove only some of the larger leaves, especially on vigorous shoots, to promote smaller foliage and new growth. Monitor tree health closely after defoliation to avoid weakening the plant.",
+      timing: "Early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoots when they reach 2-3 inches to encourage dense branching and reduce leaf size. This technique is effective due to Lonicera nitida’s rapid growth habit and promotes compact foliage pads. Use clean fingers or sharp scissors to avoid damaging the stem tissue.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting Not Commonly Used",
+      description: "Grafting is generally not used with Box Honeysuckle bonsai as the species readily produces dense branching from cuttings and responds aggressively to pruning. Its natural vigor and rapid growth make grafting unnecessary for ramification or trunk thickening.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Jin (Deadwood) Not Recommended",
+      description: "Creating jin or deadwood features is not recommended on Lonicera nitida because the wood is brittle and tends to splinter rather than produce natural-looking deadwood effects. The species’ aesthetic value lies in its dense, glossy foliage rather than aged or deadwood features.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Not Recommended",
+      description: "Shari is not suitable for Box Honeysuckle bonsai due to the brittleness and fine texture of the trunk wood. Attempting shari can cause damage and reduce the health and vigor of the tree, which is better appreciated for its lush foliage and compact growth habit.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Surface Root Training",
+      description: "Encourage nebari development by carefully spreading and positioning surface roots during early repotting stages. Use root hooks or gentle wiring on roots to create radial spreading, which enhances stability and visual appeal. Avoid aggressive root pruning to preserve fine feeder roots critical for moisture uptake.",
+      timing: "Early spring during repotting, starting at 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Not Recommended",
+      description: "Carving is generally not advised due to the brittle nature of the wood and the species’ small trunk diameter. The risk of damaging the tree outweighs the aesthetic benefits since Honeysuckle’s charm lies in its compact, dense foliage rather than trunk texture.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering with Moisture Control",
+      description: "Air layering can be successfully used to propagate or create new bonsai from mature branches but must be done in spring when sap flow is active. Ensure the moss or medium used for layering remains moist but not waterlogged to prevent root rot. Use a transparent plastic wrap to maintain humidity and monitor roots development regularly.",
+      timing: "Spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Regular Balanced Fertilizing",
+      description: "Feed with a balanced, low-nitrogen fertilizer (e.g., 10-10-10 NPK) every 2-3 weeks during the growing season to support vigorous but controlled growth. Reduce fertilization frequency in autumn and avoid feeding in winter when the tree is semi-dormant. Organic or slow-release fertilizers can help maintain steady nutrient supply.",
+      timing: "Spring to early autumn, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management for Root Rot and Aphids",
+      description: "Monitor for root rot by ensuring well-draining soil and avoiding overwatering, especially in cool, humid conditions. Aphids and scale insects may occasionally infest foliage; treat with insecticidal soap or neem oil as needed. Regular inspection and maintaining good airflow around the bonsai help prevent pest and fungal problems.",
+      timing: "Spring through summer, weekly inspections",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'fuchsia',
+    scientificName: "Fuchsia magellanica",
+    commonName: "Fuchsia",
+    group: "Various",
+    temperatureMin: 5,
+    temperatureMax: 41,
+    sunExposure: "Requires a bright, sunny spot for extensive flowering, but must be provided with afternoon shade to protect it from high summer heat. Needs protection from direct, intense sun, which can scorch the leaves.",
+    position: "Outdoor, but must be protected indoors or in a cool greenhouse when temperatures drop below 5°C (41°F). Can be kept outside during the growing season.",
+    leafType: "Deciduous",
+    climate: "Prefers cool temperatures. Must be protected from temperatures below 5°C (41°F). Dislikes high heat; move to heavy shade when temperatures exceed 30°C (85°F). Ideal growing range is 15°C to 24°C (60°F to 75°F).",
+    flowering: "Seasonal",
+    nativeRegion: "Southern Chile and Argentina (Lower Southern Cone of South America).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Known for its distinctive, pendulous, pink/purple flowers that bloom profusely in the summer on new growth. The most hardy and reliable variety for bonsai use. It is also known as Hardy Fuchsia or Hummingbird Fuchsia. The wood is soft, making wiring easy, but it must be watched closely to prevent the wire from cutting into the bark. The root system is very vigorous.",
+      soilType: "A basic, well-draining bonsai soil mix is suitable. The soil should be rich and moist, but must not retain too much water to prevent root rot. A mix of Akadama, pumice, and lava rock (1:1:1 ratio) or a mix of loamy soil, peat moss, and sand can be used. Prefers slightly acidic soil.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires daily watering throughout the growing season (spring/summer) to keep the soil moist, as it is a thirsty plant. In winter, allow the soil to dry out between waterings. It is crucial to ensure the soil never dries out completely. Prefers soft water."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform heavy structural pruning in early spring, just before new growth begins, to encourage strong framework and prolific flowering on new wood. Remove any crossing or inward-growing branches to improve airflow and light penetration, which is essential for fuchsia. Avoid late-season heavy pruning as it reduces flower production.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 1-2 years of growth",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Conduct weekly maintenance pruning during the growing season by pinching or trimming back overly vigorous shoots to maintain compactness and increase ramification. This also helps reduce leaf size and promotes more flowering on new growth. Remove any dead or weak branches promptly to maintain plant health.",
+      timing: "Weekly during spring and summer",
+      maturityStage: "After initial establishment",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Soft Materials",
+      description: "Use soft aluminum or annealed copper wire for wiring this species due to its soft, easily damaged wood. Wire branches carefully and check every 7-10 days to avoid wire cutting into the bark, as fuchsia grows rapidly. Wiring should be gentle and limited to avoid stressing the plant.",
+      timing: "Early spring or after pruning; check biweekly",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Annual Repotting",
+      description: "Repot fuchsia bonsai annually in early spring before bud break to accommodate its vigorous root growth and refresh soil nutrients. Use a well-draining, slightly acidic soil mix to prevent root rot. Repotting also allows for root pruning and improves overall health.",
+      timing: "Early spring, yearly",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning During Repotting",
+      description: "Trim back about one-third of the root mass during annual repotting to control vigor and encourage fine root development. Avoid cutting large thick roots excessively to prevent stress. After root pruning, keep the plant well-watered and shaded until it recovers.",
+      timing: "During annual spring repotting",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation is recommended only in late spring if leaf size reduction and increased ramification are desired. Remove about 30-50% of mature leaves carefully to avoid stress, as complete defoliation can weaken the plant. This technique helps increase light penetration and encourages new shoot growth.",
+      timing: "Late spring, on vigorous trees",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Summer Pinching",
+      description: "Pinch back new shoots weekly during summer to control excessive growth and promote dense branching. Remove the soft tips by pinching with fingers rather than cutting to avoid unnecessary wounds. This encourages flowering on subsequent new growth and reduces leaf size.",
+      timing: "Weekly during summer months (June - August)",
+      maturityStage: "After first growing season",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Varietal Improvement",
+      description: "Grafting is occasionally used to combine hardiness of Fuchsia magellanica rootstock with more ornamental or delicate cultivars. This technique helps improve flowering or foliage characteristics but requires skill to avoid incompatibility. It is mainly used by advanced growers.",
+      timing: "Late winter to early spring during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Application",
+      description: "Creating jin is generally not recommended for Fuchsia magellanica due to its soft wood and fast growth, which can lead to quick decay and unattractive deadwood. The species’ natural pendulous flowering style is better highlighted with healthy, living branches.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not suitable for Fuchsia magellanica because the soft, delicate bark and rapid growth do not support long-lasting deadwood features. Attempting shari often results in damage and poor healing, detracting from the overall aesthetic.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Root Flare Exposure",
+      description: "Encourage nebari development by carefully exposing and slightly spreading the root flare during repotting. Avoid heavy root pruning near the base to preserve surface roots. Position the tree in the pot to highlight a balanced, radial root spread for visual stability.",
+      timing: "During annual early spring repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended due to the soft and vulnerable nature of Fuchsia magellanica wood, which is prone to rot and damage. The species is better styled through pruning and wiring rather than aggressive wood modification.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering Propagation",
+      description: "Air layering can be successfully performed in late spring to early summer when the plant is actively growing. Use a rooting medium like sphagnum moss around a 2-3 cm section of a healthy branch, wrapped tightly with plastic. Maintain moisture and warmth for 4-6 weeks until roots develop before separation.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Apply a balanced liquid fertilizer every 2 weeks during the growing season (spring through summer) with a formulation higher in potassium to promote flowering. Reduce feeding in autumn and stop in winter when the plant is dormant. Use organic or slow-release fertilizers to maintain soil health.",
+      timing: "Biweekly from spring to late summer",
+      maturityStage: "After initial establishment",
+      notRecommended: false
+    },
+    {
+      name: "Watering and Humidity Management",
+      description: "Maintain consistently moist soil throughout the growing season with daily watering, preferably with soft water to prevent leaf tip burn. Avoid waterlogging by using well-draining soil. Provide humidity through misting or placing a humidity tray under the bonsai during dry periods, especially indoors or in greenhouses.",
+      timing: "Daily watering during spring and summer; reduce in winter",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'mango',
+    scientificName: "Mangifera indica",
+    commonName: "Mango",
+    group: "Various",
+    temperatureMin: 21,
+    temperatureMax: 70,
+    sunExposure: "Requires a minimum of 8 hours of uninterrupted direct sun exposure daily. Best positioned facing south or west to maximize light.",
+    position: "Indoor (Tropical/Warm Climate) or Outdoor (Frost-Free Climate). Must be protected from any frost and ideally kept above 21°C (70°F). Can be placed outside in warm weather but must be brought indoors or into a greenhouse when temperatures drop below 10°C (50°F).",
+    leafType: "Evergreen",
+    climate: "Thrives in warm, tropical conditions. Must be kept in a completely frost-free environment. Temperatures should ideally be maintained above 21°C (70°F). The tree is unlikely to survive if temperatures drop below -1.1°C (30°F), and even temperatures in the 4°C to 10°C (40°F to 50°F) range can be damaging.",
+    flowering: "Seasonal",
+    nativeRegion: "Indo-Malesian region, specifically native to India, Myanmar, and Bangladesh.",
+    difficultyLevel: 'Expert',
+    category: 'Advanced',
+    careTips: {
+      general: "The ability to produce edible fruit (mangoes) in miniature form, though this is more likely with grafted specimens. The new growth is a striking reddish-purple, adding seasonal color. The tree produces small, pinkish, fragrant flowers in large terminal panicles. Its large, glossy leaves require specific techniques like defoliation to achieve proper bonsai scale.",
+      soilType: "A well-draining, light soil mix with high organic content. The ideal pH range is slightly acidic to neutral, between 5.5 and 7.5. A good quality potting mix amended with composted manure or compost is recommended.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires frequent watering in a small pot, especially during the first few years. Unlike mature trees in the ground, bonsai in containers need more consistent moisture. Once the tree enters the pre-flower stage, reduce watering to moderate levels. Avoid waterlogging, as good drainage is essential."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Mango bonsai, structural pruning is essential to control its vigorous growth and to define the main branch framework. Begin by removing overly long or crossing branches to open the canopy and improve light penetration, which is crucial given the species' large leaves. Focus on cutting back strong vertical shoots to encourage lateral growth and maintain a balanced silhouette. Use sharp, sterilized tools to prevent sap oozing and infections, as mango trees produce a sticky resin.",
+      timing: "Late winter to early spring, just before the onset of active growth to minimize sap loss.",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Maintenance pruning involves regularly trimming new shoots during the growing season to control size and refine branch ramification. Pinch or cut back shoots once they reach 3-5 leaves to maintain compact foliage and encourage back budding. Given mango’s vigorous growth, frequent maintenance pruning prevents canopy congestion and helps maintain leaf size. Avoid heavy pruning during flowering to not stress the tree and reduce fruiting potential.",
+      timing: "Throughout the growing season (spring to early fall), every 2-4 weeks as needed.",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Species-Specific Wiring",
+      description: "Wiring mango branches requires caution due to their relatively flexible but resinous nature. Use aluminum or annealed copper wire and wrap branches moderately tight to avoid cutting into the bark, which is sensitive due to resin exudation. Wiring should focus primarily on younger, thinner branches to shape new growth; avoid wiring thick trunks unless absolutely necessary. Remove wiring after 2-3 months to prevent scarring, especially during rapid spring growth.",
+      timing: "Early spring or early summer when branches are moderately pliable and before rapid growth spurts.",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Considerations",
+      description: "Repot mango bonsai annually or biannually during early spring before new growth starts, ensuring root disturbance is minimized. Use a well-draining, organic-rich soil mix with a pH of 5.5-7.5, amended with composted manure to support vigorous root growth. Avoid repotting during flowering or fruiting stages to reduce stress and potential drop. Check root health each repotting and trim dead roots carefully.",
+      timing: "Early spring (February to March), before active growth.",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Specifics",
+      description: "Root pruning should be moderate to balance the tree’s vigorous shoot growth. Focus on trimming thick, woody roots and removing any unhealthy or circling roots. Retain fine feeder roots to maintain nutrient uptake. Because mango roots are sensitive to cold and moisture stress, root pruning must be followed by careful watering and humidity control to prevent shock.",
+      timing: "Simultaneous with repotting in early spring.",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation for Leaf Size Control",
+      description: "Partial defoliation is recommended to reduce the large leaf size typical of mango trees and to encourage back budding. Remove 50-70% of mature leaves during mid-summer, ensuring the tree is healthy and actively growing. This forces the tree to produce smaller, finer leaves more suitable for bonsai scale. Complete defoliation is not advised as it may overly stress the tree.",
+      timing: "Mid to late summer, after new growth has hardened off.",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch new shoots by removing the growing tips once 3-5 leaves have formed to promote branching and finer ramification. This technique helps control the vigorous growth and encourages denser foliage pads. Pinching also prevents the formation of overly long shoots that can disrupt the bonsai’s shape. Use clean fingers or sharp scissors to avoid damaging tissue.",
+      timing: "Throughout the growing season, especially spring and summer, every 2-3 weeks.",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Fruit Production",
+      description: "Grafting is highly recommended to produce fruit on mango bonsai and to accelerate fruiting time, as seed-grown trees take much longer. Use grafts from desirable fruiting cultivars onto vigorous rootstocks to combine vigor with fruit quality. Perform grafting in early spring when sap flow begins to increase. Ensure graft unions are protected from drying out and pests to maximize success.",
+      timing: "Early spring (February to March), before active growth.",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Application",
+      description: "Creating jin on mango bonsai is generally not recommended because the species naturally has smooth bark and resinous sap that does not lend itself well to deadwood preservation. Additionally, the tropical nature of the tree and its smooth bark means jin features may look unnatural or degrade quickly. For aesthetic reasons, jin should be avoided unless artistically justified and carefully maintained.",
+      timing: "N/A",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Considerations",
+      description: "Shari is also generally not suitable for mango bonsai due to the species’ smooth bark and tendency to exude sap, which can attract pests and promote decay. Attempting to create shari may cause unnecessary stress and damage to the trunk. Focus instead on healthy bark and trunk development to showcase the natural beauty of the mango bonsai.",
+      timing: "N/A",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development Techniques",
+      description: "Developing a strong nebari (surface root flare) is crucial for mango bonsai stability and aesthetics. Encourage nebari by root pruning evenly and positioning the tree low in the pot during repotting to promote radial root growth. Slightly air-layering roots near the surface can stimulate finer roots and improve nebari spread. Avoid deep root balling that restricts lateral root development.",
+      timing: "Begin after 2 years and continue during repotting cycles.",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for mango bonsai because the soft, resinous wood does not hold detailed carving well and is prone to infection and decay. The species’ natural beauty lies in its foliage color, flowers, and fruit rather than deadwood or carved features. Focus on natural shape and healthy growth instead.",
+      timing: "N/A",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is a preferred propagation method for mango bonsai to produce genetically identical, graft-compatible plants and maintain desired traits. Perform air layering in late spring to early summer when sap flow is strong for best rooting success. Use a moss medium wrapped with plastic and keep moist until roots develop before separation. This method reduces time to fruiting compared to seed propagation.",
+      timing: "Late spring to early summer (April to June).",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Fertilize mango bonsai with a balanced, slow-release fertilizer high in nitrogen in early spring to support vigorous growth. Switch to a fertilizer higher in phosphorus and potassium during flowering and fruiting stages to support flower development and fruit set. Use organic fertilizers or compost teas to maintain soil health. Reduce fertilizer application in late fall and winter when growth slows.",
+      timing: "March to September, monthly applications; reduce or stop October to February.",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Mango bonsai are susceptible to pests such as aphids, mealybugs, and scale insects, which thrive in warm, humid conditions. Regularly inspect foliage, stems, and roots and treat infestations promptly with insecticidal soap or neem oil. Watch for fungal diseases like anthracnose, especially during humid periods, and improve air circulation. Maintain cleanliness and avoid overwatering to reduce disease risk.",
+      timing: "Inspect weekly during growing season; treat as needed.",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'sawara-cypress',
+    scientificName: "Chamaecyparis pisifera",
+    commonName: "Sawara Cypress",
+    group: "Various",
+    temperatureMin: 0,
+    temperatureMax: 10,
+    sunExposure: "Full sun for at least 6 hours a day from spring to autumn. It also needs much light in winter.",
+    position: "Outdoor. It is a hardy outdoor tree. It needs to be protected against hard frosts and icy winds in winter.",
+    leafType: "Deciduous",
+    climate: "Hardy, but requires shelter during hard frosts and icy winds in winter. Specific cultivars vary in tolerance; for example, 'Filifera Arurea' is tolerant to frost but not heat. No specific Celsius range was provided, but the need for winter protection against hard frost implies it is not fully cold-tolerant and should be protected from temperatures significantly below 0°C.",
+    flowering: "Seasonal",
+    nativeRegion: "Taiwan and the Japanese islands of Honshu and Kyushu.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Known for its many cultivars, including the popular dwarf 'Tsukumo' and 'Boulevard'. The foliage has characteristic white stomatal bands at the base. It is one of the 'Five sacred Trees of Kiso' in Japan. Its wood has a lemon-like scent and is traditionally used for temple building and *ofuro* tubs due to its rot-resistant and aromatic properties. It is sensitive to atmospheric pollution and thrives best away from large urban settlements.",
+      soilType: "Free-draining compost with plenty of organic matter is recommended. The soil should be mostly sand to some clay, with a pH range of 5.5 to 7.5.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Abundantly watered during summer and whenever the temperature is high, as it is native to damp habitats. The foliage can also be drenched, but misting should be avoided when the sun is strong."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Sawara Cypress, structural pruning focuses on maintaining its natural pyramidal shape while encouraging dense, layered foliage pads. Remove any crossing or inward-growing branches early in spring before new growth starts to maintain airflow and light penetration. Emphasize the removal of vigorous vertical shoots to keep the compact form characteristic of cultivars like 'Tsukumo'. Avoid heavy cutting of older wood, as this species has slow growth and recovery can be prolonged.",
+      timing: "Early spring, just before new growth emerges",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regular maintenance pruning involves pinching back new shoots throughout the growing season to maintain shape and encourage back-budding on Sawara Cypress. Trim overly long shoots with sharp scissors to preserve the flat spray foliage arrangement and promote ramification. This species responds well to frequent light pruning rather than infrequent heavy cuts, which can stress the tree and lead to dieback.",
+      timing: "Late spring through early autumn, every 2-4 weeks",
+      maturityStage: "After first year of training",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use thin, annealed copper or aluminum wire to gently shape Sawara Cypress branches, avoiding excessive pressure to prevent bark damage. Wrap wire in a spiral from trunk to branch tips, keeping in mind the fibrous, peeling bark is sensitive, so wire should be checked and adjusted every 4-6 weeks. Wiring is best done in late winter or early spring before bud break, allowing shaping while branches are still flexible.",
+      timing: "Late winter to early spring, before bud break",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Sawara Cypress every 2–3 years in early spring before active growth begins. Use a well-draining soil mix high in sand and organic matter with a slightly acidic to neutral pH (5.5–7.5). Avoid repotting during hot summer months or late autumn to prevent stress, and ensure root disturbance is minimal to accommodate slow growth and reduce recovery time.",
+      timing: "Early spring, every 2–3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "When repotting, prune roots conservatively to maintain the fibrous root ball typical of Sawara Cypress. Trim back long or circling roots by around one-third, retaining as much fine root mass as possible to support the tree’s slow growth. Avoid aggressive root pruning as this species recovers slowly and is sensitive to stress caused by root disturbance.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is not recommended for Sawara Cypress due to its scale-like foliage and slow growth rate. Removing foliage can severely stress the tree and lead to dieback, as it relies on its foliage for photosynthesis and health. Maintain health through proper pruning and pinching instead of defoliation.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching",
+      description: "Pinch back new growth regularly using fingers to maintain the compact, dense foliage typical of Sawara Cypress. Pinching encourages back-budding and finer ramification, essential for achieving the layered flat sprays characteristic of this species. Avoid cutting with scissors during early growth flushes; instead, pinch when shoots are soft and flexible.",
+      timing: "Late spring to early autumn, every 2-3 weeks",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to propagate rare or slow-growing Sawara Cypress cultivars like 'Tsukumo', ensuring genetic consistency and vigor. Approach grafting carefully due to the species' sensitivity to atmospheric pollution and slower healing rates. Use cleft or side grafting in late winter or early spring when the tree is dormant but sap flow is about to start.",
+      timing: "Late winter to early spring, during dormancy",
+      maturityStage: "Mature stock plants only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Creating Jin is generally not suitable for Sawara Cypress, as its fibrous, peeling bark and slow growth make deadwood carving less durable and more prone to decay. The species’ traditional aesthetic favors healthy, naturally aged bark and vibrant foliage rather than deadwood features. Focus on natural aging rather than artificial deadwood creation.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Technique",
+      description: "Shari is not typically recommended for Sawara Cypress due to its sensitive bark and slow recovery rate. The species’ reddish-brown fibrous bark peels naturally, negating the need for artificial trunk deadwood. Introducing shari can increase vulnerability to infection and slow healing, particularly given its slow growth and environmental sensitivities.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Develop nebari by encouraging surface root growth during early training years. When repotting, carefully spread and prune roots horizontally to promote an even, radial root flare. Sawara Cypress responds well to nebari work due to its fibrous roots, but avoid over-pruning roots to prevent stress. Incorporate root pruning and soil mounding techniques to expose roots gradually over several seasons.",
+      timing: "After 2 years, during repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not generally recommended on Sawara Cypress due to its soft, fibrous bark that peels naturally and slow growth rate. Carving wounds tend to heal slowly and can invite decay. Instead, rely on natural bark aging and careful pruning to develop character in the trunk and branches.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be employed to propagate Sawara Cypress, especially for difficult-to-root cultivars. Perform air layering in late spring or early summer when sap flow is active to encourage root development. Use sphagnum moss and plastic wrap to retain moisture, and protect the site from strong sun and frost. Rooting may take several months due to slow growth.",
+      timing: "Late spring to early summer",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Fertilize Sawara Cypress with a balanced, slow-release fertilizer high in nitrogen during the growing season to support its medium to slow growth. Apply fertilizer monthly from early spring through late summer, reducing frequency in autumn and stopping in winter. Use organic fertilizers or low-salt synthetic types to avoid root burn, and ensure adequate watering to facilitate nutrient uptake.",
+      timing: "Monthly from early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Sawara Cypress is prone to spider mites, aphids, and fungal diseases like needle blight, especially in polluted or stagnant air environments. Regularly inspect foliage and maintain good airflow through pruning. Use insecticidal soap or neem oil for pests and ensure soil drainage to prevent root rot. Avoid overhead watering in strong sun to reduce fungal risks.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'chinese-hackberry',
+    scientificName: "Celtis sinensis",
+    commonName: "Chinese Hackberry",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Full sun is preferred for vigorous growth. Care must be taken to prevent the soil from drying out completely on very hot days. During winter, if brought indoors for protection, it still requires bright light.",
+    position: "Outdoor. Can be kept outdoors in full sun. Requires protection from frost when temperatures drop below -5°C. Can be overwintered in a well-lit, well-ventilated greenhouse or conservatory.",
+    leafType: "Deciduous",
+    climate: "Tolerates a wide range, but requires frost protection below -5°C (23°F). The preferred comfortable growing range is 5°C to 35°C (41°F to 95°F).",
+    flowering: "Seasonal",
+    nativeRegion: "East Asia, including China (provinces like Jiangsu, Gansu, Guangdong, Guizhou, Henan, Zhejiang), Korea, and Japan.",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "Highly valued for its ability to produce excellent fine ramification (dense, fine twig structure) quickly, which is a key trait in mature bonsai. It produces small, inconspicuous greenish flowers in spring, followed by small, edible, dark-orange to red-brown fruit in early summer. The leaves are glossy, dark green, oval, and have blunt teeth, reducing well for bonsai.",
+      soilType: "Requires a well-draining soil mix to prevent root rot, which is a common issue. A standard bonsai mix of 1/3 Akadama, 1/3 Pumice, and 1/3 Lava rock is highly recommended. It can tolerate a slightly acidic soil.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires frequent watering, especially in full sun and during the summer growing season, as it does not tolerate drying out. Water thoroughly when the top layer of soil begins to dry out slightly. Daily watering may be necessary in hot weather."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Chinese Hackberry, structural pruning focuses on selecting a strong central trunk and primary branches early in spring before bud break. Remove any crossing or inward-growing branches to maintain an open canopy that encourages air circulation and light penetration, which is crucial for its vigorous growth. This species responds well to hard pruning, which can be done to promote a robust ramification framework and trunk thickening.",
+      timing: "Early spring, just before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Maintenance pruning involves regular trimming of new shoots during the growing season to encourage dense, fine ramification typical of Chinese Hackberry. Pinch or cut back new growth once it has produced 3-4 leaves to promote back budding and finer twig development. This technique helps maintain the desired shape and vigor without weakening the tree.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring for Branch Positioning",
+      description: "Due to the flexible but somewhat brittle nature of Chinese Hackberry branches, wiring should be done cautiously using aluminum wire. Wire when branches are semi-hardwood in late spring to early summer to shape without breaking. Avoid wiring thick branches in winter as they become more brittle, and always monitor wired branches frequently to prevent wire scars due to rapid growth.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Soil",
+      description: "Repot Chinese Hackberry every 2 years during early spring before bud break to prevent root-bound conditions caused by vigorous growth. Use a well-draining bonsai soil mix (1/3 Akadama, 1/3 Pumice, 1/3 Lava rock) to avoid root rot. Check root health during repotting and remove any rotten or overly long roots to maintain a compact root system.",
+      timing: "Early spring, every 2 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "Root pruning should be done gently and conservatively to avoid excessive stress since Chinese Hackberry has vigorous roots but can be sensitive to over-pruning. Remove long, thick roots while preserving a good fibrous root mass to encourage fine root development. This promotes better nutrient uptake and stability in the bonsai pot.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Partial defoliation is recommended for Chinese Hackberry to improve ramification and reduce leaf size, enhancing the tree’s miniature appearance. Remove 50-70% of leaves in mid to late summer during strong growth but avoid full defoliation as the species can be stressed. This helps maintain vigor and promotes development of new shoots with smaller leaves.",
+      timing: "Mid to late summer during active growth",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching",
+      description: "Pinching new shoots after 3-4 leaves have formed is essential to promote dense twigging in Chinese Hackberry. This encourages back budding and finer branching patterns, which are highly valued in this species. Use fingernails or sharp scissors to pinch shoots regularly during the growing season for best results.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely used on Chinese Hackberry because it naturally produces excellent ramification and trunk development. However, grafting can be employed to repair damaged branches or introduce specific branch styles. When grafting, use scion wood from strong, healthy specimens and perform the procedure in early spring for best success.",
+      timing: "Early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating Jin on Chinese Hackberry is generally not recommended as this species’ bark and branch structure do not lend themselves well to naturalistic deadwood features. The bark tends to be thin and may not age attractively when stripped. Focus instead on healthy, live branch structures to showcase the species’ natural beauty.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is likewise not suitable for Chinese Hackberry due to its bark characteristics and preference for a clean trunk line to highlight its fine twig ramification. Introducing trunk deadwood can compromise the tree’s vigor and aesthetic balance. Preservation of healthy bark is preferred for this species.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Developing a wide, fibrous nebari is critical for Chinese Hackberry bonsai stability and aesthetics. During repotting, spread and prune roots radially and remove deep roots to encourage surface root growth. Slightly exposing roots above soil level over time will enhance nebari visibility, which complements the species’ natural form.",
+      timing: "At each repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended on Chinese Hackberry bonsai as the species does not produce durable or aesthetically pleasing deadwood features. The bark is thin and the wood is relatively soft, making carved areas prone to decay and unattractive appearance. Focus on live branch and trunk shaping techniques instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be successfully used on Chinese Hackberry to propagate desirable branches or create multiple trunks. Perform air layering in late spring to early summer when sap flow is active to enhance rooting success. Use sphagnum moss and a plastic wrap to retain moisture, and monitor the layer to prevent drying out.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Fertilize Chinese Hackberry regularly from early spring through late summer using a balanced bonsai fertilizer with micronutrients, such as a 10-10-10 NPK formula. Reduce or stop fertilizing in autumn to prepare the tree for dormancy. Organic fertilizers can be used to improve soil health and nutrient availability.",
+      timing: "Every 2 weeks from early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Chinese Hackberry is susceptible to common pests like aphids, scale insects, and spider mites, especially in hot, dry conditions. Regular inspection and treatment with insecticidal soap or neem oil are effective in controlling infestations. Prevent root rot by ensuring well-drained soil and avoiding overwatering, particularly in cooler months.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'indian-hawthorn',
+    scientificName: "Rhaphiolepis indica",
+    commonName: "Indian Hawthorn",
+    group: "Various",
+    temperatureMin: 21,
+    temperatureMax: 30,
+    sunExposure: "Full sun (at least 6 hours of direct sunlight per day) is required for optimal health and abundant flowering. It can tolerate partial shade, but this may reduce the quality of the blooms.",
+    position: "Outdoor (Can be overwintered indoors in colder climates)",
+    leafType: "Evergreen",
+    climate: "Optimal growth between 21°C and 30°C. It is frost-tolerant but requires protection when temperatures drop below -5°C to -6°C (20°F). Prolonged freezing temperatures should be avoided to prevent damage.",
+    flowering: "Seasonal",
+    nativeRegion: "South China",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Features fragrant, pinkish-white flowers (5/8” across) in loose terminal panicles in spring, followed by dark blue-black, edible berries (fruit) that are popular with birds. It is highly susceptible to **Entomosporium leaf spot**, a fungal disease, which necessitates watering at the soil level and ensuring good air circulation. It is also susceptible to fireblight and scale.",
+      soilType: "A highly free-draining, well-aerated bonsai soil mix is essential. A common inorganic mix is 1:1:1 ratio of Akadama, Pumice, and Lava Rock. It tolerates a wide pH range (slightly acidic to alkaline) but requires fertile soil. Organic material should be minimal to prevent waterlogging and fungal issues.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water thoroughly when the surface of the soil (substrate) is dry to the touch. It is moderately drought-tolerant once established but needs consistent moisture in a bonsai container. The soil must drain freely, as it is highly susceptible to root rot and fungal diseases from overwatering. Do not water when temperatures are below 7°C (45°F)."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning during late winter or early spring before new growth begins to remove overly thick branches and shape the basic framework. Indian Hawthorn responds well to selective branch removal to maintain its dense, rounded form and promote flowering. Remove crossing or inward-growing branches to improve air circulation, which helps prevent Entomosporium leaf spot. Use sharp, clean tools to minimize damage and encourage healthy healing.",
+      timing: "Late winter to early spring (before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly trim back new shoots during the growing season (spring to early summer) to maintain shape and encourage dense ramification. Pinch or prune back long shoots once they have produced 5-6 leaves to keep the compact habit and stimulate flowering wood formation. Avoid heavy pruning late in the season to prevent weakening the tree before winter.",
+      timing: "Spring to early summer, monthly as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Flexible Aluminum Wire",
+      description: "Use flexible aluminum wire to shape branches; this species has brittle purple-brown branches that can crack if bent too sharply. Apply wiring during early spring when branches are still supple but before vigorous growth begins. Avoid wiring thick branches in a single wrap; instead, apply multiple gentle bends over time to prevent breakage. Remove wiring within 2-3 months to avoid wire cutting into bark.",
+      timing: "Early spring, before bud swell",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Repotting in Early Spring",
+      description: "Repot Indian Hawthorn bonsai every 2-3 years in early spring just before new growth starts to minimize stress and promote root recovery. Use a highly free-draining soil mix (1:1:1 Akadama, Pumice, Lava Rock) to prevent root rot. Avoid repotting during cold weather or after flowering to prevent shock and reduce fungal risk.",
+      timing: "Early spring, every 2-3 years",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "When repotting, prune roots conservatively to maintain a healthy balance between fine feeder roots and structural roots. Remove long, thick roots and dead material but retain as many fine roots as possible to support the tree's moderate growth and flowering. Avoid heavy root pruning, which can delay recovery and reduce bloom quality.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation - Not Recommended",
+      description: "Full defoliation is not recommended for Indian Hawthorn due to its leathery, evergreen leaves and susceptibility to fungal diseases. Removing all leaves stresses the tree and can increase vulnerability to Entomosporium leaf spot and fireblight. Partial leaf trimming can be done to reduce leaf size but avoid complete defoliation.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoots once they have developed 5-6 leaves by pinching or cutting just above the second or third leaf pair to encourage dense branching and reduce internode length. This technique helps maintain the compact, rounded canopy typical for Indian Hawthorn bonsai and encourages formation of flowering wood. Perform pinching regularly during the active growing season.",
+      timing: "Spring to early summer, every 2-4 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting - Rarely Used",
+      description: "Grafting is rarely used on Indian Hawthorn bonsai as the species readily produces dense ramification and has good branching characteristics naturally. However, grafting may be employed to repair damaged branches or introduce specific flower or leaf traits in advanced bonsai specimens. Use cleft or whip grafting techniques during early spring.",
+      timing: "Early spring during sap rise",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) - Not Suitable",
+      description: "Creating jin (deadwood branches) is generally not suitable for Indian Hawthorn bonsai because its natural aesthetic is soft and rounded with no significant deadwood features. The fragile purple-brown branches do not respond well to aggressive deadwood carving and it detracts from the species’ characteristic look.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) - Not Suitable",
+      description: "Shari deadwood techniques are not recommended on Indian Hawthorn as its relatively thin trunk and bark texture do not lend themselves well to this style. Attempting shari may weaken the trunk and expose the tree to infections, which is risky given its susceptibility to fungal diseases.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Surface Root Exposure",
+      description: "To develop an attractive nebari, encourage roots to spread evenly at the base by carefully pruning roots during repotting and positioning the tree slightly elevated in the pot. Use soil that drains well and avoid burying the root flare too deeply. Over time, gently remove surface soil to expose radial roots and enhance nebari aesthetics.",
+      timing: "During repotting in early spring, ongoing maintenance",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving - Not Recommended",
+      description: "Carving techniques are not recommended for Indian Hawthorn bonsai because of its relatively thin and brittle branches and trunk that can easily be damaged. Additionally, carving may invite fungal infections, which this species is prone to. Focus on natural shaping and pruning instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Branch Propagation",
+      description: "Air layering can be used to propagate Indian Hawthorn to create new bonsai stock with similar characteristics. Perform air layering in late spring to early summer when the sap flow is active. Use a sphagnum moss medium wrapped in plastic, keep moist, and protect from direct sun to encourage root formation. This technique helps maintain desired traits and accelerate development.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Balanced, Low Nitrogen Feed",
+      description: "Fertilize Indian Hawthorn bonsai monthly from early spring to late summer using a balanced fertilizer with low nitrogen content to promote flowering and berry production without excessive foliage growth. Use organic or slow-release fertilizers and avoid feeding in late fall or winter. Supplement with micronutrients to maintain leaf health and vibrant coloration.",
+      timing: "Monthly, early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management Specific to Entomosporium and Scale",
+      description: "Prevent Entomosporium leaf spot by watering only at soil level to keep foliage dry and ensuring good air circulation around the tree. Regularly inspect for scale insects and fireblight symptoms; treat scale infestations with horticultural oil during dormant season. Apply fungicides as needed and prune infected branches promptly to control fungal outbreaks.",
+      timing: "Spring through fall monitoring, dormant season treatments for scale",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'ponderosa-pine',
+    scientificName: "Pinus ponderosa",
+    commonName: "Ponderosa Pine",
+    group: "Various",
+    temperatureMin: 40,
+    temperatureMax: 5,
+    sunExposure: "Full Sun. The more sun, the better. It will not thrive without full sun, which can lead to long, leggy needles, a lack of back budding, and excessive moisture retention in the soil.",
+    position: "Outdoor. Requires a period of winter dormancy and full sun to thrive. It is extremely winter hardy but must be protected from intense heat (over 40.5°C or 105°F) in a container.",
+    leafType: "Coniferous",
+    climate: "Heat Tolerant but Sensitive. The tree is extremely winter hardy, tolerating temperatures well below freezing. However, it is highly susceptible to intense heat; temperatures over 40.5°C (105°F) can severely burn the vascular tissue, especially in a container, as it struggles to move enough water to cool itself. Winter root temperatures should not drop below -12.2°C (10°F).",
+    flowering: "Seasonal",
+    nativeRegion: "Western North America. It is the most widely distributed pine species in North America, found from British Columbia down to Southern California and as far east as Nebraska. It is native to mountainous regions.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The species is a \"one-flush\" pine, meaning it produces one main flush of growth per year and cannot be decandled like two-flush pines (e.g., Japanese Black Pine) to reduce needle size. Its naturally long needles (up to 10 inches) are its most distinguishing and challenging feature for bonsai artists. It is a \"yellow pine\" known for its thick, rugged bark.",
+      soilType: "A well-draining, coarse mix is essential to ensure high oxygen levels and prevent overwatering. A common recommendation is a pumice-lava-akadama soil mixture. Fine clay soils are not suitable as they impede root oxygenation.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Dry Conditions. Requires a fairly dry environment. It is crucial to let the soil dry out between waterings to allow the root system to reinvigorate with oxygen. Overwatering is a common cause of failure. In extreme heat, extra watering may be needed to compensate for evaporation, but the dry-out rule still applies."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in late winter to early spring before the active growth flush. Focus on removing weak, crossing, or inward-growing branches to maintain the rugged, natural look of Ponderosa Pine. Avoid heavy pruning of vigorous branches to prevent excessive stress, as this species has a single growth flush and slow needle reduction. Retain thicker branches to emphasize its characteristic powerful trunk and bark.",
+      timing: "Late winter to early spring (before growth flush)",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Light maintenance pruning should be performed throughout the growing season to remove dead needles and small shoots, improving airflow and sunlight penetration. Pinch back soft new shoots to encourage denser branching but avoid cutting into old wood as Ponderosa Pine back buds poorly. Remove any long, leggy needles by selective trimming to improve aesthetics, but do not over-prune needles to avoid stressing the tree.",
+      timing: "Spring through summer, as needed",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Minimal Tension",
+      description: "Use aluminum or annealed copper wire with minimal tension to avoid bark damage, as Ponderosa Pine bark is thick but can crack under stress. Wire in late winter or early spring before bud break when branches are most flexible. Avoid wiring thick branches aggressively; instead, focus on positioning younger, thinner branches carefully. Remove wiring promptly after 2-3 months to prevent scarring.",
+      timing: "Late winter to early spring, remove within 2-3 months",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Coarse Soil Mix",
+      description: "Repot Ponderosa Pine every 2-3 years in early spring before bud break using a well-draining, coarse soil mix such as pumice-lava-akadama. Avoid fine soils to prevent root rot and oxygen deprivation. Carefully check root health and remove any dead or overly long roots to maintain compactness. Minimize root disturbance to reduce transplant shock, considering its sensitivity to overwatering.",
+      timing: "Early spring, every 2-3 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "Perform root pruning during repotting by cutting back only about one-third of the root mass to maintain vigor without shocking the tree. Focus on removing fine, unhealthy roots and preserving thick, healthy roots that support the tree’s powerful structure. Ensure roots are not left waterlogged by using coarse soil and allowing drying between waterings post root-pruning.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation Not Recommended",
+      description: "Defoliation is not recommended for Ponderosa Pine because it is a one-flush pine and cannot produce new short needles after leaf removal. Removing needles severely hampers photosynthesis and weakens the tree, leading to health decline. Instead, manage needle length through selective pruning and maintaining tree vigor.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Selective Pinching of New Shoots",
+      description: "Pinch back soft, new shoots in late spring to encourage denser branch development and reduce needle length indirectly. Use clean fingers or scissors to remove only the tips of these shoots, avoiding damage to buds or older needles. This helps control vigor without stressing the tree, as Ponderosa Pine does not respond well to decandling.",
+      timing: "Late spring to early summer, during active growth",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Improvement",
+      description: "Grafting is occasionally used to introduce better branch characteristics or repair damaged areas, but it is difficult and rarely practiced due to the species’ slow healing and strong bark. Use approach or side grafting during early spring when sap flow starts. Grafting is more applicable for advanced bonsai artists aiming to improve nebari or branch placement.",
+      timing: "Early spring, during active sap flow",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin Creation for Deadwood Accent",
+      description: "Creating jin (deadwood branches) is suitable to enhance the rugged, aged appearance of Ponderosa Pine. Remove selected branches by stripping bark and treating the deadwood with lime sulfur to preserve and bleach it. Perform jin work in late winter or early spring to minimize stress, and choose branches that complement the tree’s natural rugged style.",
+      timing: "Late winter to early spring",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari Application for Trunk Deadwood",
+      description: "Shari (trunk deadwood) is appropriate and can be used to emphasize the species’ characteristic thick, rugged bark and ancient look. Create shari by carefully removing bark strips on the trunk during dormancy, then treat with lime sulfur to prevent decay. Avoid large or deep wounds that could compromise tree health, and always allow ample recovery time.",
+      timing: "Late winter, during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development Through Root Pruning and Branch Selection",
+      description: "Develop nebari by selective root pruning during repotting and encouraging low, radial branch placement. Remove dominant vertical roots to promote fine, surface roots spreading evenly. Combine with strategic branch selection and wiring to ensure visual balance and a strong, natural base reflective of mature mountain-grown Ponderosa Pines.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Generally Not Recommended",
+      description: "Carving is generally not recommended for Ponderosa Pine bonsai as its thick bark and dense wood are difficult to work and prone to damage. Excessive carving can lead to stress and infection. Instead, emphasize natural bark texture and use jin/shari techniques sparingly for deadwood effects.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering can be employed to propagate new specimens from mature trees, especially when selecting branches with desirable characteristics. Perform air layering in late spring to early summer when sap flow supports rooting. Use coarse sphagnum moss and maintain high humidity around the layering site; ensure the parent tree remains healthy and well-watered during rooting.",
+      timing: "Late spring to early summer",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing with Balanced Low Nitrogen Feed",
+      description: "Fertilize Ponderosa Pine bonsai with a balanced, low-nitrogen fertilizer (e.g., 10-10-10 or 7-14-7) to prevent overly vigorous needle growth. Apply fertilizer monthly from early spring through mid-summer during active growth, then reduce or stop in late summer to allow hardening off. Avoid over-fertilizing, which can cause long needles and weak structure.",
+      timing: "Monthly from early spring to mid-summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management Focused on Needle Blight and Pine Beetles",
+      description: "Monitor regularly for needle blight fungi and pine beetle infestations, which are common threats to Ponderosa Pine bonsai. Use preventive fungicides in spring if conditions are humid, and inspect for beetle entry holes or resin flow. Maintain tree vigor through proper watering and feeding to resist pests, and isolate infected trees to prevent spread.",
+      timing: "Spring and summer monitoring, preventive treatments as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'virginia-pine',
+    scientificName: "Pinus virginiana",
+    commonName: "Virginia Pine",
+    group: "Various",
+    temperatureMin: 6,
+    temperatureMax: -23,
+    sunExposure: "Full sun exposure year-round is essential for healthy growth, developing flushes, and reducing needle size. Exposure to shade can cause long needles and die-back of branches.",
+    position: "Outdoor Only. Must be kept outside all year round as it requires a cold dormancy period. Should be placed in a protected position during the worst of the winter weather to prevent root freezing.",
+    leafType: "Coniferous",
+    climate: "Hardy to USDA Zone 6 (approx. -23°C to -18°C). Thrives in average summer temperatures of 21°C to 24°C. Protection from extreme heat (above 32°C) by providing light afternoon shade is recommended for younger trees.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern North America, specifically the eastern United States, ranging from Long Island (southern New York) south to northern Georgia and Alabama, and west to Ohio, Indiana, and Kentucky.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The species' most distinguishing feature is its short, twisted needles. It is known for being more forgiving than Japanese Black Pine, but its root system is sensitive, requiring careful handling and repotting only in early spring. Its scrubby, irregular habit makes it excellent for Literati (Bunjin) style bonsai.",
+      soilType: "A well-draining, acidic soil mix is required. A recommended composition includes Akadama, pumice, organic potting compost, and fine gravel/grit. The ideal soil pH is 5.5-6.5. It must avoid alkaline soils.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Keep the soil consistently moist but never waterlogged; good drainage is vital. Daily watering is often necessary in summer, and several times a week in cooler seasons. The soil must not be allowed to dry out completely."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in early spring before bud break to define the main branches and remove any crossing or weak branches. Virginia Pine’s naturally irregular and scrubby growth habit benefits from selective branch removal to enhance its rustic character, focusing on maintaining open spaces and encouraging ramification. Avoid heavy pruning late in the season to prevent die-back and minimize stress.",
+      timing: "Early spring (before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Throughout the growing season, prune new shoots after 4-6 pairs of needles have developed to maintain shape and encourage short needle length. Remove any long or weak shoots and trim back to 2-3 pairs of needles to promote dense foliage pads. This technique helps maintain the tree’s compact form and reduces needle size naturally.",
+      timing: "Late spring to summer, monthly as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Soft Aluminum Wire",
+      description: "Use soft aluminum wire to shape delicate branches, applying wire in early spring after bud swell but before significant elongation. Virginia Pine’s brittle branches require gentle wiring with minimal pressure to avoid breakage. Wiring should be checked frequently and removed within 3-4 months to prevent scarring due to rapid branch growth.",
+      timing: "Early spring (after bud swell), inspect monthly",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting in Early Spring",
+      description: "Repot Virginia Pine in early spring just before active growth begins, typically every 2-3 years for young trees. This timing minimizes root stress and allows rapid recovery. Use a well-draining acidic bonsai soil mix and avoid disturbing mature roots excessively due to their sensitivity.",
+      timing: "Early spring (March-April)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Careful Root Selection",
+      description: "During repotting, prune only about 1/3 of the root mass, focusing on cutting long, thick roots and trimming fine roots minimally to preserve health. Virginia Pine has a sensitive root system, so use sharp tools and avoid excessive root disturbance. After pruning, ensure good watering and shaded recovery for 1-2 weeks.",
+      timing: "Early spring, during repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation Not Recommended",
+      description: "Complete defoliation is not recommended for Virginia Pine because it can cause excessive stress and weaken the tree. The species naturally maintains short needles and responds better to decandling and pinching to reduce needle size rather than removing all needles.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoots in late spring and early summer after 4-6 pairs of needles have formed to encourage back-budding and reduce needle length. This method helps maintain the compact, twisted needle characteristic of Virginia Pine and promotes denser foliage pads.",
+      timing: "Late spring to mid-summer, repeat as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Jin and Apex Correction",
+      description: "Grafting is occasionally used to replace damaged apices or add jin features using scions from healthy trees. It helps improve aesthetics without stressing the main tree. Use grafting in early spring on young, actively growing branches for best success.",
+      timing: "Early spring (March-April)",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Creating jin is suitable for Virginia Pine due to its naturally rugged appearance. Use sharp carving tools in late summer or early autumn when the tree is actively growing to remove bark and expose deadwood. Treat deadwood with lime sulfur to preserve and bleach it for a weathered look.",
+      timing: "Late summer to early autumn",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood) Development",
+      description: "Shari is appropriate for mature Virginia Pines to enhance rustic character. Carve away bark strips on the trunk in summer when sap flow is active to promote healing around the deadwood areas. Use lime sulfur to protect the exposed wood and create contrast with live bark.",
+      timing: "Summer (active growth period)",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development by Surface Root Exposure",
+      description: "Expose surface roots gradually by removing soil during repotting to enhance nebari, focusing on spreading roots evenly around the trunk base. Virginia Pine’s root system responds well to this approach when done carefully to avoid damage. Mulching can help retain moisture while roots adjust.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving for Texture Enhancement",
+      description: "Light carving can be used to accentuate the natural rugged bark and irregular trunk texture of Virginia Pine. Perform carving in late summer when the tree is actively growing to facilitate healing. Avoid deep or aggressive carving to prevent long-term damage.",
+      timing: "Late summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is effective for propagating Virginia Pine and creating new bonsai specimens. Perform layering in late spring or early summer when sap flow is high, using sphagnum moss and plastic wrap to maintain moisture. Root initiation typically takes 2-3 months, after which the new plant can be separated and potted.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing Schedule",
+      description: "Fertilize Virginia Pine monthly from early spring through late summer with a balanced, acidic fertilizer (NPK 10-10-10) to support vigorous growth. Reduce feeding in autumn and stop in winter during dormancy. Organic fertilizers with slow-release properties help maintain soil acidity and reduce nutrient burn.",
+      timing: "Monthly from March to September",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common pests such as pine needle scale, aphids, and spider mites, especially during warm months. Use horticultural oils and insecticidal soaps to control infestations promptly. Ensure good air circulation and avoid overwatering to prevent fungal diseases like needle blight.",
+      timing: "Inspect monthly during growing season",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'douglas-fir',
+    scientificName: "Pseudotsuga menziesii",
+    commonName: "Douglas Fir",
+    group: "Various",
+    temperatureMin: 38,
+    temperatureMax: 100,
+    sunExposure: "Full Sun. Douglas Fir bonsai thrive in **full sun** all year round. Weaker or diseased trees may require 20-30% shade if temperatures exceed 32°C (90°F). Protection from intense, unexpected high temperatures in soft spring growth is necessary to prevent burning.",
+    position: "Outdoor. Requires a full sun exposure and a cold dormancy period. It is not suitable for indoor cultivation.",
+    leafType: "Evergreen",
+    climate: "Hardy. Thrives in full sun and high temperatures, responding well to temperatures **38°C (100°F) and above** when healthy. Requires a cold dormancy period, with the Coastal variety tolerating temperatures down to **-28°C to -30°C**. It requires a sufficient number of chill hours (400+ hours at ~4.5°C) to properly bud burst in spring.",
+    flowering: "Seasonal",
+    nativeRegion: "Western North America. Specifically, the Coast Douglas-fir (*P. menziesii var. menziesii*) grows from sea level up to 2,300m (7,500 ft) along the Pacific coast, and the Rocky Mountain Douglas-fir (*P. menziesii var. glauca*) grows from 550m to 3,260m (1,800 to 10,700 ft) in the Rocky Mountains.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "**Elongating Species** with a unique and challenging watering requirement: it needs a **perfect balance of water and oxygen**. Overwatering causes roots to atrophy and recede, while underwatering causes the foliage mass to burn. The bark changes dramatically with age, from smooth and grey with resin blisters on young trees to thick, fissured, and mixed dark/light brown on older trees. Pruning timing is critical: major styling in early spring, and new growth must be pruned back to juvenile buds before mid-summer for successful maturation. Common names include Douglas Spruce, Oregon Pine, British Columbian Pine, Puget Sound Pine, and Red Fir.",
+      soilType: "Highly specific soil mix required for repotting. A 1:1:1 ratio of **Akadama, Pumice, and Lava** is recommended. It is crucial to sift the mixture and use only particles between **2-6mm**, removing the finest particles. The species does not readily move out of its native dense, compact, black soil with a high degree of organic matter, making the transition to a domestic mix difficult. Repotting should occur in spring as buds begin to swell.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Highly sensitive and critical. Water only when the soil gets slightly dry, generally when the top quarter to half inch of soil dries out. **Avoid routine watering**. The tree requires a **perfect balance of water and oxygen**; too much water causes root atrophy, and too little causes foliage burn. Water thoroughly, soaking the entire root system, and ensure excellent drainage. Water less in winter."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform major structural pruning in early spring just before bud swell to allow the tree to recover and set new growth. Remove long internodes and poorly placed branches to encourage compact growth and back-budding, which is slow for Douglas Fir. Avoid pruning during active growth as this may stress the tree and reduce vigor.",
+      timing: "Early spring, before bud burst",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Pinch or prune new spring growth back to juvenile buds by mid-summer to maintain ramification and encourage dense needle pads. Avoid cutting into old wood since Douglas Fir rarely back-buds on old branches. Remove any dead or diseased needles promptly to reduce fungal spread.",
+      timing: "Mid to late summer, annually",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Soft Aluminum Wire",
+      description: "Use soft aluminum wire to gently shape branches, applying it only after spring growth has hardened off to avoid breaking brittle needles. Because the needles are flat and the branches elongate quickly, wiring should be checked regularly and removed within 3-4 months to prevent scarring. Avoid heavy bending; subtle shaping is preferred due to the brittle nature of young wood.",
+      timing: "Late spring to early summer, remove before fall",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Spring Repotting with Sifted Soil Mix",
+      description: "Repot in early spring as buds begin to swell using a well-draining 1:1:1 mix of Akadama, pumice, and lava rock between 2-6mm particle size. Remove all fine particles to prevent water retention which can cause root rot. Carefully tease roots to remove native dense soil and encourage new root development.",
+      timing: "Early spring, bud swell",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "Perform root pruning during repotting by trimming no more than 20-30% of the root mass to avoid stressing this species sensitive to root loss. Focus on removing older, thick roots and untangling circling roots while retaining fine feeder roots. Ensure excellent drainage to promote healthy root oxygenation post-pruning.",
+      timing: "Spring during repotting",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Avoid Defoliation",
+      description: "Defoliation is not recommended for Douglas Fir bonsai as this evergreen species has flat, soft needles and relies heavily on photosynthesis through its needle mass. Defoliation would cause excessive stress and reduce vigor due to slow back-budding and needle replacement times. Instead, maintain needle density through careful pruning and pest management.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch soft new growth by hand in early summer to control elongation and encourage denser needle pads. This technique preserves juvenile buds and helps maintain compactness without the stress of hard pruning. Perform regularly but lightly to avoid weakening the tree.",
+      timing: "Early to mid-summer, repeat as needed",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Development",
+      description: "Grafting is occasionally used to add fine branches or improve nebari, especially since Douglas Fir has difficulty back-budding on old wood. Use approach grafting or side grafting in early summer when sap flow is active. Select healthy juvenile scions to increase success rates.",
+      timing: "Early to mid-summer",
+      maturityStage: "After 3-5 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Application",
+      description: "Jin can be applied on older Douglas Fir specimens to highlight age and character but should be done conservatively. The resin-rich bark on young trees makes jin difficult and prone to bleeding sap, so apply only on mature, thick-barked areas. Use appropriate sealants to prevent decay.",
+      timing: "Late summer to early fall, after growth hardens",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood) Creation",
+      description: "Shari can be created on thick-trunked Douglas Fir bonsai to simulate natural trunk damage seen on old trees. This technique requires advanced skill to avoid compromising tree health, as the species is sensitive to wounds. Remove resin and treat exposed wood carefully to prevent infection.",
+      timing: "Late summer to early fall",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development via Root Pruning and Branch Selection",
+      description: "Promote nebari development by selective root pruning during repotting combined with careful branch selection and pruning. Encourage multiple low branches in early stages and remove dominant leaders to create radial root flare. Avoid damaging surface roots to maintain stability.",
+      timing: "During spring repotting and early structural pruning",
+      maturityStage: "After 3-5 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Not Recommended",
+      description: "Carving is generally not recommended on Douglas Fir bonsai due to the resinous nature of the wood and susceptibility to infection. The species’ bark and wood do not respond well to aggressive carving techniques and often lead to decay or sap bleeding. Focus on natural shaping through pruning and wiring instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering with Caution",
+      description: "Air layering can be used to propagate or shorten long branches, but requires careful timing and moisture control to prevent fungal infections. Perform in late spring to early summer when sap is flowing, and ensure high humidity around the layering site. Monitor closely for root development before removal.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3-5 years",
+      notRecommended: false
+    },
+    {
+      name: "Balanced Fertilizing Schedule",
+      description: "Apply a balanced, low-nitrogen fertilizer every 4-6 weeks from early spring through late summer to support healthy, compact growth and prevent excessive elongation. Use organic or slow-release fertilizers to avoid salt buildup in the sensitive root zone. Cease fertilizing in fall to prepare for dormancy.",
+      timing: "Early spring to late summer, every 4-6 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Vigilance",
+      description: "Monitor regularly for spider mites and Swiss Needle Cast, the two most common pests and diseases. Maintain good air circulation and avoid overwatering to reduce fungal risks. Use targeted miticides or fungicides early if infestations or symptoms appear, and promptly remove affected needles to limit spread.",
+      timing: "Spring through fall, regular monitoring",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'strawberry-tree',
+    scientificName: "Arbutus unedo",
+    commonName: "Strawberry Tree",
+    group: "Various",
+    temperatureMin: 15,
+    temperatureMax: 35,
+    sunExposure: "Requires full sun (at least 6 hours of direct sunlight per day) to thrive and produce flowers and fruit. It can tolerate partial shade, but growth will be less vigorous.",
+    position: "Outdoor. It is a hardy, evergreen species that requires a cold dormancy period. It can tolerate short periods of frost down to -9°C (15°F) but should be protected from prolonged, severe freezing, especially in a bonsai pot. In winter, protection is advised once temperatures consistently drop below 1.5°C (35°F).",
+    leafType: "Evergreen",
+    climate: "Optimal growing temperature range is 15°C to 35°C (59°F to 95°F). It is frost-tolerant down to approximately -9°C (15°F) for short periods, but sustained temperatures below 1.5°C (35°F) require protection.",
+    flowering: "Seasonal",
+    nativeRegion: "Mediterranean Basin, Western Europe (including Ireland, where it is known as the Killarney Strawberry Tree), and the Canary Islands.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The most distinguishing feature is the simultaneous presence of both the previous season's mature red fruit and the current season's new white flowers in the autumn, providing year-round interest. It is also one of the few broadleaf evergreens that can tolerate significant cold. It is highly sensitive to root disturbance, making repotting a delicate and infrequent task (every 3-5 years for mature trees).",
+      soilType: "Prefers a well-draining, slightly acidic soil mix (pH 5.5-6.5), though it is more tolerant of lime/alkaline soil than most ericaceous plants. A recommended mix is 70-80% inorganic matter (e.g., Akadama, Pumice, Lava Rock) and 20-30% organic matter (e.g., high-quality potting mix or peat). It is sensitive to root disturbance.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires consistent, moderate watering. The soil should be allowed to dry slightly between waterings, but the tree should not be allowed to dry out completely. Deep watering every 1-2 weeks is common for established trees in temperate climates, but frequency must increase in hot, dry conditions. It is drought-tolerant once established in the ground, but bonsai in pots require more vigilance."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in late winter or early spring before new growth begins to establish a strong branch framework. Focus on removing weak or crossing branches to enhance the natural spreading habit of Arbutus unedo, promoting airflow and light penetration. Due to slow growth, prune conservatively to avoid excessive stress and maintain the tree’s thick, rough bark, which is a key aesthetic feature.",
+      timing: "Late winter to early spring (before bud break)",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Carry out maintenance pruning throughout the growing season to control shoot length and encourage ramification. Pinch or trim new shoots once they have produced 4-6 leaves to maintain compact growth. Avoid heavy pruning in late summer or autumn to prevent interfering with flower and fruit development, which are unique for this species as they appear simultaneously.",
+      timing: "Spring through mid-summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Flexible Materials",
+      description: "Use soft, flexible copper or aluminum wire with moderate thickness to shape branches carefully, as Arbutus unedo wood is relatively firm but not brittle. Wiring should be done in late winter or early spring before bud swell to avoid bark damage. Because the bark flakes with age, avoid tight wiring on older branches to prevent scarring and wire marks.",
+      timing: "Late winter to early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Minimal Root Disturbance",
+      description: "Repot every 3-5 years in early spring just before active growth to minimize root stress. Use a well-draining, slightly acidic mix with high inorganic content to prevent waterlogging. Given the species’ sensitivity to root disturbance, only lightly trim roots and avoid severe root pruning to maintain health and vigor.",
+      timing: "Early spring (before bud break), every 3-5 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "During repotting, prune roots sparingly—remove only damaged or excessively long roots to avoid shocking the tree. Limit root pruning to a maximum of 20-30% of the root mass, as Arbutus unedo’s root system is sensitive and slow to recover. Maintain fibrous feeder roots to ensure adequate water and nutrient uptake.",
+      timing: "Early spring, every 3-5 years during repotting",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation Not Recommended",
+      description: "Full or partial defoliation is generally not recommended for Strawberry Tree bonsai because it is an evergreen species with relatively large leaves. Defoliation can stress the tree and reduce its ability to photosynthesize, negatively impacting flower and fruit production. Instead, rely on careful pruning and pinching to manage leaf size and density.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch back new shoots in late spring and early summer once they have developed 4-6 leaves to encourage denser branching and finer ramification. Use fingertip pinching rather than cutting to avoid unnecessary wound exposure. This technique helps maintain the compact appearance required for bonsai without stressing the tree.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Development",
+      description: "Grafting can be used to add branches in weak or bare areas, particularly on young trees where natural branch development is slow. Approach grafting in early spring before sap flow intensifies to improve success rates. Use scion wood from healthy, vigorous Strawberry Trees to maintain species characteristics and ensure strong union.",
+      timing: "Early spring (before active growth)",
+      maturityStage: "Young to semi-mature trees",
+      notRecommended: false
+    },
+    {
+      name: "Jin Deadwood Technique Not Recommended",
+      description: "Creating Jin (deadwood branches) is generally not suitable for Arbutus unedo bonsai, as the species’ rough bark and natural character do not lend themselves well to deadwood aesthetics. Attempting Jin can damage the live bark and disrupt natural healing, which is undesirable given its slow growth and sensitivity.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Not Recommended",
+      description: "Shari is also not recommended for Strawberry Tree bonsai because the tree’s natural bark shedding and flaking provide sufficient textural interest. Artificially creating deadwood on the trunk risks damaging the vital cambium layer and weakening the tree’s health.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Surface Root Encouragement",
+      description: "To develop a strong nebari, encourage surface roots by carefully positioning the tree in the pot with roots spread evenly at repotting. Lightly scrape or remove old soil and gently tease roots to expose fibrous feeder roots near the surface. Avoid heavy root pruning to maintain root mass and prevent stress.",
+      timing: "During repotting in early spring, every 3-5 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Not Recommended",
+      description: "Carving is not advisable on Arbutus unedo bonsai due to its relatively slow growth and sensitive bark. Carving wounds heal slowly and can lead to fungal infections or dieback, compromising tree health. Emphasize natural shaping via pruning and wiring instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering in Early Spring",
+      description: "Air layering can be successfully employed to propagate Strawberry Tree bonsai, preferably in early spring when sap flow begins. Use sphagnum moss around a healthy, flexible branch and cover with plastic wrap to maintain moisture. This technique allows for new trees to be developed without root disturbance to the parent plant.",
+      timing: "Early spring",
+      maturityStage: "Mature trees",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Balanced, Slow-Release Fertilizer",
+      description: "Apply a balanced (NPK 10-10-10) slow-release fertilizer monthly from early spring through late summer to support steady growth and flower/fruit development. Reduce feeding in autumn and suspend during winter dormancy. Use fertilizers formulated for acid-loving plants or slightly acidic soil to match the species’ preferences.",
+      timing: "Monthly from early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Watering and Humidity Management",
+      description: "Maintain consistent moderate watering, allowing the soil to dry slightly between watering but never letting it dry out completely, especially in bonsai pots. Increase watering frequency during hot, dry spells. The species prefers full sun and good airflow, so avoid excessive humidity but consider misting during very hot periods to reduce leaf stress.",
+      timing: "Year-round, adjust frequency seasonally",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'barberry',
+    scientificName: "Berberis thunbergii",
+    commonName: "Barberry",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Full sun to partial shade. Requires a minimum of six hours of direct sunlight daily, especially during the growing season (spring and summer), to ensure vigorous growth and the best development of its vivid autumn foliage colors (red/orange). Afternoon shade is recommended in regions with very hot summers to prevent leaf burn.",
+    position: "Outdoor. Requires placement outdoors in full sun to partial shade. Deciduous varieties like Berberis thunbergii require winter protection from extreme cold and frost, specifically temperatures below -5°C, by moving to a sheltered location or unheated greenhouse.",
+    leafType: "Deciduous",
+    climate: "Best in temperate zones. Must be protected from frosts below -5°C (23°F) during winter dormancy to prevent twig die-back. Thrives in warmer temperatures during the growing season.",
+    flowering: "Seasonal",
+    nativeRegion: "Japan",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "Distinguished by its sharp, spiny stems and its dramatic autumn foliage, which turns bright red or orange. It produces small, yellow flowers in spring, followed by glossy-red fruit (up to 8mm long) in autumn/winter, adding visual interest. The species is known for its adaptability, resilience, and the ease with which it develops fine ramification.",
+      soilType: "A standard, free-draining bonsai soil mix is required. Components should ensure the soil remains consistently moist but never waterlogged. A common non-specific recommendation is a mix of coarse sand and Akadama, with organic components like crushed sphagnum moss and charcoal. The soil should be well-aerated to prevent root rot. Repotting is typically done every two to three years in early spring before bud break.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires consistent moisture; the soil should be kept moist but never saturated or waterlogged. Water thoroughly when the top layer of soil feels slightly dry to the touch. Watering frequency will increase significantly during the hot summer months (potentially twice daily) and should be reduced during the dormant winter period."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in early spring before bud break to define the main branches and overall shape. Remove any crossing, inward-growing, or overly long branches to maintain a balanced, open canopy that enhances light penetration and air circulation. Due to the thorny nature and slow growth, carefully prune sharp thorns to prevent injury and encourage back-budding on older wood for denser ramification.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Conduct regular maintenance pruning throughout the growing season to pinch back new shoots once they have grown 2-3 pairs of leaves, encouraging finer branching and compact growth. Remove any dead or weak twigs promptly to prevent die-back and maintain tree health. This species' good back-budding ability means pruning stimulates dense ramification, essential for bonsai aesthetics.",
+      timing: "Spring through late summer, every 2-4 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Protective Padding",
+      description: "Wire branches carefully in late winter or early spring before growth resumes, using soft aluminum or annealed copper wire. Due to the sharp spines and relatively brittle young wood, use protective padding (e.g., raffia or rubber strips) under the wire to prevent damage during bending. Apply wiring to primary and secondary branches to shape the tree gradually, removing wires before they begin to bite into the bark, usually within 3-4 months.",
+      timing: "Late winter to early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting and Soil Refresh",
+      description: "Repot every 2-3 years in early spring just before bud break to refresh the soil and prevent root binding. Use a well-draining bonsai mix with coarse sand, Akadama, and organic components like crushed sphagnum moss and charcoal to maintain moisture without waterlogging. Inspect roots carefully, trimming any dead or excessively long roots to encourage fine root growth and overall health.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Caution",
+      description: "During repotting, prune roots moderately to balance root and foliage growth, focusing on removing thick, old roots to stimulate fine root development. This species has a delicate root system sensitive to over-pruning, so avoid aggressive root cutting to prevent stress and twig die-back. Clean cuts and fresh soil improve root regeneration and overall tree vigor.",
+      timing: "Every 2-3 years at repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation can be used selectively in midsummer to reduce leaf size and improve ramification but should be applied cautiously due to the species’ slow growth and potential stress. Remove only about half the leaves per branch to encourage a secondary flush of smaller leaves while avoiding weakening the tree. Avoid full defoliation, which can cause excessive stress and die-back.",
+      timing: "Mid-summer, after strong growth phase",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoot tips once they develop 2-3 pairs of leaves to promote dense branching and finer twig structure. This encourages the prolific back-budding characteristic of Berberis thunbergii and helps maintain a compact and refined canopy. Use clean fingernails or sharp scissors to avoid damaging the thorny stems.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting Not Typically Used",
+      description: "Grafting is generally unnecessary for Berberis thunbergii bonsai because the species readily back-buds and develops fine ramification on its own. Additionally, the thorny stems make grafting difficult and less practical for bonsai purposes. Focus on pruning and pinching techniques to refine structure instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Creating jin on Berberis thunbergii is possible but should be done sparingly and only on mature trees with thick branches. The yellow wood beneath the bark dries well and contrasts attractively with the colorful foliage, adding visual interest. Use sharp carving tools and treat deadwood with lime sulfur to preserve and highlight the feature.",
+      timing: "Late summer to early autumn, during active growth",
+      maturityStage: "Mature trees only (5+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood) Formation",
+      description: "Shari can be developed on older specimens to showcase the vertically-striped bark and yellow wood beneath, enhancing the bonsai's aged appearance. This technique requires careful carving and preservation with lime sulfur. Avoid excessive removal as it may weaken the trunk and compromise tree health.",
+      timing: "Late summer, during active growth",
+      maturityStage: "Mature trees only (5+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development by Surface Root Encouragement",
+      description: "Promote nebari by gradually exposing and spreading surface roots during repotting and root pruning. Trim deep roots to encourage lateral root growth near the soil surface. Position the tree slightly angled in the pot to accentuate nebari and enhance visual stability, taking care not to damage delicate roots.",
+      timing: "During repotting every 2-3 years in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Not Recommended for Young Trees",
+      description: "Carving delicate features into young or semi-mature Berberis thunbergii is generally not advised due to the species’ relatively thin bark and slow healing. Only experienced growers should attempt carving on mature trees, and even then, minimal carving is preferred to avoid stress and die-back.",
+      timing: "N/A",
+      maturityStage: "Mature trees only (5+ years)",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering can be successfully used in early summer on healthy, semi-hardwood branches to propagate new bonsai specimens. Remove a ring of bark about 2-3 cm wide, apply rooting hormone, and wrap with moist sphagnum moss and plastic film to retain humidity. Root formation typically takes 6-8 weeks, after which the new plant can be separated and potted.",
+      timing: "Early to mid-summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing Schedule",
+      description: "Fertilize Berberis thunbergii bonsai monthly from early spring through late summer using a balanced, low-nitrogen fertilizer to promote healthy foliage and root growth without excessive vegetative elongation. Reduce fertilization frequency in autumn and cease feeding during winter dormancy to prevent stimulating vulnerable growth. Organic fertilizers or slow-release pellets are preferred to maintain soil health.",
+      timing: "Monthly from early spring to late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common pests such as aphids, scale insects, and spider mites, which can affect Berberis thunbergii. Use insecticidal soap or horticultural oil sprays as needed, especially during active growth phases. Maintain good air circulation and avoid waterlogging to prevent fungal diseases like powdery mildew and root rot, which can cause twig die-back.",
+      timing: "Inspect bi-weekly during growing season",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'spindle-tree',
+    scientificName: "Euonymus europaeus",
+    commonName: "Spindle Tree",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Requires a location with good light, such as partial to full sun, but should be protected from the harsh, direct midday sun during the summer months to prevent leaf scorch. Bright, indirect light is generally optimal.",
+    position: "Outdoor. It is a hardy species that requires a cold period (dormancy) but needs protection from hard frost, specifically when temperatures drop below -5°C.",
+    leafType: "Deciduous",
+    climate: "Hardy, but requires winter protection when temperatures fall below -5°C (23°F) to prevent root damage, especially for smaller bonsai pots. It thrives in temperate climates.",
+    flowering: "Seasonal",
+    nativeRegion: "Europe to Western Asia",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The most distinguishing feature is the dramatic, brilliant red and pink autumn foliage, which rivals that of Japanese Maples. This is followed by the production of striking, four-lobed red seed capsules that split open to display vibrant orange seeds, providing significant seasonal interest. The leaves are oval, scalloped, and up to 7cm long.",
+      soilType: "A well-drained, slightly acidic soil mix is preferred. A common bonsai mix of 1:1:1 Akadama, Pumice, and Lava Rock is highly recommended for its excellent drainage and aeration properties. Repotting is typically done annually in spring as new buds extend, and less frequently (as needed) after the tree is over ten years old.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires consistent moisture. The soil should be kept evenly moist, but not waterlogged. Water thoroughly until it drains from the bottom holes, and allow the surface of the soil to dry slightly before watering again. Good drainage is essential."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Spindle Tree bonsai, structural pruning is essential in early spring before bud break. Remove any crossing branches, weak shoots, or overly vigorous vertical growth to maintain the broadly conical form and encourage spreading, slightly pendant shoots. Focus on cutting back to 2-3 leaves on selected branches to promote ramification and maintain balanced growth. Avoid heavy pruning late in the season to prevent stress and reduce autumn color intensity.",
+      timing: "Early spring (before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Throughout the growing season, consistently trim new shoots back to 2-3 leaves to control vigor and encourage dense branching. This also helps retain the small leaf size and overall compactness. Summer pruning should be done carefully to avoid leaf scorch by avoiding midday heat periods. Light pruning can also be used to improve autumn color by reducing excessive shading within the canopy.",
+      timing: "Spring through late summer, avoid hottest midday hours",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use aluminum wire for wiring Spindle Tree branches, as its shoots are moderately flexible but become brittle if wired during cold weather. Wire branches in early spring before bud swell or in late autumn after leaf fall to minimize damage. Avoid wiring thick branches; instead, focus on shaping younger shoots to develop the pendant and spreading habit. Remove wire promptly within 2-3 months to prevent bark scarring, as the bark can be thin and delicate.",
+      timing: "Early spring before bud swell or late autumn after leaf fall",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Spindle Tree bonsai annually in early spring just as new buds begin to swell. Use a well-drained mix of Akadama, Pumice, and Lava Rock in equal parts to maintain slight acidity and excellent drainage. Repotting encourages root health and vigor but avoid repotting in late summer or autumn as the tree enters dormancy. Older trees can be repotted less frequently, every 3-4 years, depending on root development.",
+      timing: "Early spring (bud swell stage)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune the roots moderately by removing long, thick roots and damaged ones to encourage fine root growth suitable for bonsai. Be careful not to remove more than one-third of the root mass to avoid stress. This species tolerates moderate root pruning well but requires prompt watering and protection from frost after repotting. Root pruning helps maintain the tree's size and supports seasonal vigor.",
+      timing: "During early spring repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is generally not recommended for Spindle Tree bonsai as it can overly stress the tree and reduce autumn leaf coloration intensity. The species naturally produces relatively small leaves and good autumn colors without this technique. Light leaf thinning to improve air circulation is preferable to full defoliation. Avoid defoliation in hot or dry conditions to prevent leaf burn and stress.",
+      timing: "Not recommended",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching",
+      description: "Pinching new growth with fingers is effective for Spindle Tree to slow growth and promote back budding. Pinch shoots back to 2-3 leaves during the growing season, especially in late spring and early summer, to refine branch structure and encourage denser foliage. This helps maintain the compact, spreading form and prevents overly vigorous growth. Regular pinching also supports better autumn coloration by balancing nutrient allocation.",
+      timing: "Late spring through early summer, repeated as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is occasionally used to replace weak or damaged branches or to introduce superior cultivars with better autumn color or form. Approach grafting in early spring before bud break using scion wood from healthy, vigorous plants. The Spindle Tree's moderate growth and hardy nature make grafting successful but not commonly necessary. Use side grafting or approach grafting techniques to minimize stress.",
+      timing: "Early spring before bud break",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Jin technique is generally not suitable for Spindle Tree bonsai because the species naturally does not develop significant deadwood features and has relatively thin bark. Attempting jin can damage the tree’s health and detract from its natural seasonal appeal. Instead, focus on healthy living branch development to highlight its striking autumn foliage and seed capsules.",
+      timing: "Not recommended",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not recommended for Spindle Tree bonsai as its naturally smooth bark and relatively thin trunk do not lend themselves to this technique. Applying shari risks exposing the tree to disease and decay, which this species is sensitive to. Preservation of healthy bark is crucial to maintain its vigor and seasonal interest.",
+      timing: "Not recommended",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "To develop a strong nebari, prune roots during early spring repotting to encourage fine root spread radially. Position the tree in the pot so that multiple thick roots spread evenly around the trunk base, creating a balanced appearance. Lightly scrape soil away from the base to expose roots gradually over seasons, enhancing visual stability. This species responds well to nebari development due to its moderate growth habit.",
+      timing: "During early spring repotting, annually for young trees",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for Spindle Tree bonsai due to its relatively thin bark and small trunk diameter. Aggressive carving can lead to long-term health problems and negatively impact the tree’s natural autumn display. Instead, focus on natural branch movement and foliage development to create interest.",
+      timing: "Not recommended",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate Spindle Tree bonsai or create a new specimen with desirable branch characteristics. Perform air layering in late spring to early summer when sap flow is strong. Use a clean cut and wrap sphagnum moss and plastic around the wounded area, keeping it moist until roots develop. This method helps preserve genetic traits and accelerate bonsai development.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Fertilize Spindle Tree bonsai every 2-3 weeks from early spring (bud swell) through late summer with a balanced, slow-release fertilizer low in nitrogen to promote autumn color. Reduce feeding in autumn and cease during dormancy in winter. Use organic or liquid bonsai fertilizers to enhance root health and overall vigor, avoiding excessive nitrogen which can reduce fall coloration.",
+      timing: "Early spring through late summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor Spindle Tree bonsai regularly for common pests such as aphids, scale insects, and spider mites, especially during spring and summer. Treat infestations promptly with insecticidal soap or horticultural oil. Prevent fungal diseases by ensuring good air circulation and avoiding overwatering. Protect the tree from root rot by using well-draining soil and avoiding prolonged wetness.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'alder-common-alder-european-alder-black-alder',
+    scientificName: "Alnus glutinosa",
+    commonName: "Alder (Common Alder, European Alder, Black Alder)",
+    group: "Various",
+    temperatureMin: -54,
+    temperatureMax: 8,
+    sunExposure: "Full sun or partial shade. It is generally intolerant of deep shade. Full sun encourages compact growth and better health. During the growing season, ensure it receives bright, direct light for a significant portion of the day.",
+    position: "Outdoor. It requires a **cold winter dormancy** and tolerates frost well. Mature specimens are hardy, but young trees should be protected from severe frost. Avoid indoor cultivation, as it requires good airflow and natural seasonal changes.",
+    leafType: "Deciduous",
+    climate: "Requires a cold winter dormancy. Extremely hardy, tolerating winter temperatures down to approximately **-54° C** in its natural habitat. The average annual temperature range it tolerates is **8° C to 14° C**. As a bonsai, it must be protected from severe, prolonged frost, especially in a pot, but must experience a distinct cold period.",
+    flowering: "Seasonal",
+    nativeRegion: "Native to temperate regions of the Northern Hemisphere, specifically throughout the British Isles and much of Europe, commonly found near rivers and wetlands.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Uniquely tolerant of **wet soil conditions** compared to most other bonsai species, making it less prone to issues from overwatering. It is a nitrogen-fixing tree, which means it can enrich the soil, but this also contributes to its vigorous growth rate. The bark is relatively soft and can be easily damaged by wiring, requiring extra care and frequent checks.",
+      soilType: "A well-draining soil mixture is essential to prevent root rot, despite its natural tolerance for wet conditions. A mix of Akadama, pumice, and lava rock, or a standard bonsai mix with a high proportion of inorganic material, is recommended. The tree thrives in slightly acidic to neutral soil, tolerating a pH of 6 to 8.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires **abundant water**. The soil must be kept **consistently moist** at all times, especially during the vigorous growing season (spring and summer). It prefers wetter conditions than many other bonsai species. Avoid letting the soil dry out completely, but ensure good drainage to prevent root rot. Reduce watering slightly during winter dormancy."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Alder bonsai, structural pruning should focus on removing vigorous, overly long shoots that disrupt the desired silhouette, especially since this species grows rapidly. Emphasize cutting back to outward-facing buds to encourage open branching and prevent dense, shaded interiors which Alders dislike. Prioritize shaping the trunk and primary branches early to develop a strong, straight main structure that reflects its natural growth habit near waterways.",
+      timing: "Late winter to early spring before bud break, or early summer after the first flush of growth.",
+      maturityStage: "After 1 year of growth",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Due to Alder's rapid growth, frequent maintenance pruning is necessary to control new shoots and maintain compact foliage pads. Pinch or prune new shoots once they reach 3-5 cm to prevent excessive elongation and maintain ramification. This helps reduce leaf size gradually and keeps the silhouette tidy without stressing the tree.",
+      timing: "Throughout the growing season, every 2-4 weeks depending on growth vigor.",
+      maturityStage: "From year 1 onward",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Extra Care",
+      description: "Wiring Alder requires gentle handling because of its soft, easily damaged bark. Use fine, annealed copper wire and wrap loosely to avoid bark injury. Check wiring every 1-2 weeks, especially during rapid growth phases, to prevent wire cutting into the bark. Avoid heavy bends or sharp angles; instead, use incremental bends over multiple wiring cycles to shape branches naturally.",
+      timing: "Late winter to early spring, and again mid-summer if needed.",
+      maturityStage: "After 2 years, when branches are sufficiently flexible but bark is tougher.",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Repotting",
+      description: "Alder bonsai should be repotted annually or biennially during late winter to early spring before bud break, as it grows vigorously and needs fresh nutrient-rich soil. Use a well-draining mix with high inorganic content to avoid waterlogging, despite its tolerance for wet soil. Repotting encourages root health, prevents pot-bound conditions, and supports vigorous top growth.",
+      timing: "Late winter (February to March), before sap flow begins.",
+      maturityStage: "From year 1 for young trees, every 2 years for mature specimens.",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "Root pruning should be limited to avoid shock, as Alder's extensive root system supports its rapid growth and moisture needs. Trim only about 20-30% of roots, focusing on long, circling roots and thinning the root ball evenly. Preserve fine feeder roots to maintain water uptake. This balances root health and vigor with pot space limitations.",
+      timing: "During repotting in late winter or early spring.",
+      maturityStage: "From year 1 onward.",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation for Ramification",
+      description: "Partial defoliation is recommended for Alder to reduce leaf size and encourage secondary branching, but complete defoliation should be limited to avoid weakening the tree. Removing half of the leaves after the first flush in early summer stimulates back budding and finer ramification. Repeat defoliation only if the tree remains healthy and vigorous.",
+      timing: "Early summer, after initial growth flush (June to July).",
+      maturityStage: "After 3 years or when tree has established strong vigor.",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinching is an effective technique for controlling Alder's fast-growing shoots by removing the soft, terminal growth with fingers rather than scissors. This helps to encourage branching without causing excessive wound stress. Pinch shoots when they reach 3-5 cm in length to maintain a dense canopy and reduce leaf size naturally.",
+      timing: "Throughout spring and summer during active growth, every 2-3 weeks.",
+      maturityStage: "From year 1 onward.",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Placement",
+      description: "Grafting is occasionally used on Alder bonsai to add branches in desired locations or repair damaged limbs, due to its vigorous healing ability. Approach grafting with care because of the soft bark; use side grafts or approach grafts rather than whip or bud grafts for better success. Timing grafts before active growth ensures quicker union.",
+      timing: "Early spring, just before bud break.",
+      maturityStage: "After 3 years, when trunk and branches have enough thickness.",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Jin is generally not recommended for Alder bonsai as its natural style and habitat favor smooth, living bark with minimal deadwood. The soft bark and rapid growth make it difficult to maintain deadwood features without decay. However, small jins may be created on older, thicker branches for subtle effect, but this requires careful monitoring.",
+      timing: "Not recommended, but if attempted, late summer or early autumn.",
+      maturityStage: "Mature trees only.",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not typically suitable for Alder bonsai because its smooth bark and natural appearance rarely exhibit trunk deadwood. Attempting shari risks exposing the soft cambium to pathogens and may result in rot. If desired for artistic effect, apply only minimal, shallow shari on mature, thick trunks with excellent drainage and monitoring.",
+      timing: "Not recommended; if attempted, late summer.",
+      maturityStage: "Mature trees only.",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "To develop a strong nebari on Alder, encourage surface root growth by slightly exposing roots during repotting and pruning long roots to promote radial root spread. Plant the tree shallowly to encourage root flare and avoid deep planting. Consistent root pruning and repotting every 1-2 years in youth help create a balanced, well-spread nebari.",
+      timing: "During repotting in late winter or early spring.",
+      maturityStage: "From year 1 onward.",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally not recommended on common Alder bonsai due to the species’ soft bark and wood, which is prone to damage and decay. Such work often results in rot and weakens the tree’s health. If carving is desired for deadwood effect, it should be extremely limited and performed only on mature, well-established specimens with excellent hygiene and aftercare.",
+      timing: "Not recommended; if performed, late summer with proper aftercare.",
+      maturityStage: "Mature trees only.",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering is an effective propagation technique for Alder, especially to clone desirable traits or develop bonsai material from larger trees. Choose healthy, semi-hardwood branches in late spring or early summer when sap flow is strong. Use sphagnum moss and plastic wrap to maintain moisture, ensuring rapid root formation due to the species’ vigorous growth.",
+      timing: "Late spring to early summer (May to July).",
+      maturityStage: "From 2 years onward.",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Alder requires a balanced fertilizer with a slightly higher nitrogen content to support its vigorous growth and nitrogen-fixing abilities. Apply a slow-release or liquid fertilizer every 2-3 weeks from early spring through late summer. Reduce or stop fertilization during winter dormancy to prevent weak, tender growth vulnerable to frost.",
+      timing: "Early spring to late summer (March to September).",
+      maturityStage: "From year 1 onward.",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Alder bonsai is susceptible to aphids, caterpillars, and fungal diseases like leaf spots and root rot if poorly drained. Monitor regularly during growing season and apply insecticidal soap or neem oil as needed. Maintain good airflow and avoid overwatering despite Alder’s wet soil tolerance to prevent fungal problems. Remove fallen leaves promptly to reduce disease risk.",
+      timing: "Inspect weekly during growing season (spring and summer).",
+      maturityStage: "All stages.",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'sycamore-maple',
+    scientificName: "Acer pseudoplatanus",
+    commonName: "Sycamore Maple",
+    group: "Various",
+    temperatureMin: -10,
+    temperatureMax: 15,
+    sunExposure: "Full sun or partial shade. Full sun exposure is beneficial for health and vigor.",
+    position: "Outdoor: Must be kept outdoors year-round to ensure a necessary dormant winter period. Avoid indoor placement due to low light and dry air.",
+    leafType: "Deciduous",
+    climate: "Requires exposure to seasonal temperature changes. Protect young or weak trees from frost below -10 °C (15 °F). Requires a clear dormant period in winter.",
+    flowering: "Seasonal",
+    nativeRegion: "Central and southern Europe and western Asia.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Not commonly used in traditional bonsai due to its large natural leaf size and aggressive growth, but it is valued for its bold leaves, rugged bark texture, and cold hardiness. It is an excellent choice for growers seeking fast development and large-scale bonsai. Its flowers are greenish-yellow, hanging in panicles in spring (April to June), followed by the characteristic paired winged samaras (helicopter seeds). The large leaves require aggressive defoliation techniques for size reduction.",
+      soilType: "Moist, well-draining, and fertile soil. Not tolerant of pure clay. A standard, porous bonsai substrate is recommended, such as a mix of Akadama, Pumice, and Lava rock (e.g., 1:1:1 ratio). It is tolerant of soil types over limestone or chalk.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires moist, well-draining soil. Water thoroughly when the topsoil begins to dry out. During the peak growing season and hot weather, daily watering, or even twice daily, may be necessary. Ensure the soil is not constantly waterlogged, as this can lead to root rot."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Sycamore Maple, structural pruning involves removing vigorous, overly dominant apical shoots to encourage lateral branch development and better taper. Because the species has strong apical dominance, cutting back to a pair of opposite buds helps avoid overly symmetrical branch placement. Remove crossing branches and any weak shoots to develop a bold, naturalistic silhouette. Focus on pruning during early spring before bud break or late autumn after leaf drop to minimize stress.",
+      timing: "Early spring before bud break or late autumn after leaf drop",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regular maintenance pruning should be performed throughout the growing season to control the rapid growth and large leaf size. Pinch or cut back new shoots once they have developed 4-6 leaves to maintain ramification and reduce leaf size. Maintenance pruning also encourages back-budding, which is important since Sycamore Maples can drop buds on old wood. Prune selectively to preserve the tree’s natural rugged appearance.",
+      timing: "Spring through late summer, every 2-4 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Caution",
+      description: "Due to the rapid growth and relatively brittle young branches of Sycamore Maple, wiring should be done carefully using thin, flexible aluminum wire. Apply wiring after spring flush when shoots have hardened but before vigorous growth resumes. Remove wiring within 4-6 weeks to avoid scarring since bark is smooth and prone to damage. Avoid heavy bends on thick branches; instead, use gradual bends combined with pruning to shape the tree.",
+      timing: "Late spring to early summer, after initial growth hardens",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Spring Repotting",
+      description: "Repot Sycamore Maple in early spring just before bud break, when roots begin to grow actively. Use a well-draining substrate such as Akadama, Pumice, and Lava rock in equal parts to maintain moisture without waterlogging. Avoid root disturbance during summer or winter dormant periods to prevent stress. Repotting every 2-3 years is typical due to the species’ vigorous root growth.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Aggressive Root Pruning",
+      description: "Root pruning should be moderately aggressive to control the fast-growing root system and promote fine root development. Remove thick, woody roots and reduce overly long roots by up to one-third during repotting. Avoid pruning during dormancy or extreme heat to prevent shock. Maintaining a balance between root and foliage mass is critical for tree health and vigor.",
+      timing: "During spring repotting",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Full Defoliation for Leaf Size Reduction",
+      description: "Complete defoliation is recommended once the tree is mature and vigorous to significantly reduce the large natural leaf size and encourage the growth of smaller leaves. Remove all leaves after the first flush of growth in early summer, ensuring the tree is healthy and well-watered. This technique forces the tree to produce a second leaf flush with smaller leaves and denser branching. Avoid defoliation in years with stress or weak growth.",
+      timing: "Early to mid-summer after initial growth flush",
+      maturityStage: "After 4-5 years, mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Pinching",
+      description: "Pinching new growth tips throughout the growing season controls vigor and encourages back-budding on Sycamore Maple. Use fingernails or sharp scissors to pinch off shoot tips once they have 4-6 leaves, which reduces leaf size and improves ramification. Pinching also helps prevent long, leggy shoots that can detract from the bonsai’s shape. Repeat pinching every 2-3 weeks during active growth.",
+      timing: "Spring through late summer, every 2-3 weeks",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Placement",
+      description: "Grafting is occasionally used to improve branch placement or add finer twigs since Sycamore Maple buds are opposite and can create symmetrical, less natural branch patterns. Approach grafting in early spring before sap flow increases to ensure good cambial contact. Use scion wood from healthy, vigorous shoots to maintain vigor. It is not commonly necessary but valuable for detailed refinement in advanced specimens.",
+      timing: "Early spring before bud break",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin Deadwood Creation",
+      description: "Creating jin on Sycamore Maple is possible but should be done sparingly due to the species’ smooth bark and rapid healing. Jin can add visual interest, especially on older branches, but avoid excessive deadwood which may invite decay. Use sharp carving tools and seal the deadwood with lime sulfur to prevent rot. Best applied on mature trees with well-developed wood.",
+      timing: "Late winter or early spring",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Avoid Shari (Trunk Deadwood)",
+      description: "Shari or trunk deadwood is generally not recommended on Sycamore Maple because the species’ relatively smooth bark and fast growth promote rapid wound closure, making deadwood features less dramatic and more prone to decay. Instead, focus on natural bark texture and subtle jin for aged appearance. Attempting shari can result in poor aesthetics and health risks.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Root Pruning and Surface Roots",
+      description: "Developing a strong nebari involves cutting back large central roots during repotting to encourage fine root flare and spreading surface roots. Position the tree in the pot so roots radiate evenly from the trunk base, gently spreading them outwards. Use root pruning annually or biannually to maintain nebari balance. Avoid deep planting as Sycamore Maple roots prefer shallow, fertile soil for moisture retention.",
+      timing: "During spring repotting, every 1-2 years initially",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Minimal Carving",
+      description: "Carving on Sycamore Maple should be minimal due to its smooth bark and fast healing properties, which can diminish carved features quickly. Light texturing or shallow grooves can enhance natural ruggedness but avoid deep cuts that risk infection or decay. Use carving sparingly and seal any wounds properly with lime sulfur to protect exposed wood.",
+      timing: "Late winter or early spring",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Air Layering for Branch Propagation",
+      description: "Air layering is effective for propagating Sycamore Maple branches to create new bonsai material or improve ramification. Perform air layering in late spring or early summer when sap flow is active to encourage root development. Use clean, sharp tools to wound the branch, apply rooting hormone, and wrap with moist sphagnum moss and plastic. Monitor humidity and remove layers once roots are well established, typically 6-8 weeks.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing with Balanced Feed",
+      description: "Fertilize Sycamore Maple regularly during the growing season with a balanced fertilizer (NPK 10-10-10) or one slightly higher in nitrogen to support vigorous growth. Apply every 2-3 weeks from early spring after bud break until late summer. Reduce or stop fertilizing in autumn to allow the tree to prepare for dormancy. Organic fertilizers combined with mineral feeds encourage healthy soil biology and root development.",
+      timing: "Early spring through late summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest Management for Aphids and Scale",
+      description: "Sycamore Maples are susceptible to aphids and scale insects, especially during rapid spring growth. Monitor closely for infestations and treat promptly with insecticidal soap or neem oil. Maintain good airflow and avoid excessive nitrogen fertilization to reduce pest outbreaks. Regular inspection and early intervention are critical to prevent weakening of the tree.",
+      timing: "Spring through early summer, weekly inspections",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'river-birch',
+    scientificName: "Betula nigra",
+    commonName: "River Birch",
+    group: "Various",
+    temperatureMin: 5,
+    temperatureMax: -8,
+    sunExposure: "Partial shade is preferred, especially during the hottest part of the day, to prevent leaf burn. It can tolerate full sun but needs careful monitoring in extreme heat. Should be kept outdoors.",
+    position: "Outdoor. Requires exposure to the elements but must be protected from intense midday summer sun and severe winter cold.",
+    leafType: "Deciduous",
+    climate: "Hardy in USDA Zones 5-8. Requires protection when temperatures drop below approximately -6.7°C (20°F) to prevent twig dieback. Tolerates warmer summer temperatures better than most other birch species.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern United States, ranging from Florida and the Gulf Coast up to Massachusetts and the Midwest, typically found in riverbeds and floodplains.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The most distinguishing feature is the characteristic reddish-brown to blackish **shaggy, peeling bark**, which is a major aesthetic element in bonsai. Unlike many other birches, *Betula nigra* does not suffer from excessive \"bleeding\" when pruned, making it easier to work with. It is also highly tolerant of wet, boggy soil conditions.",
+      soilType: "A well-draining, moisture-retentive, and slightly acidic soil mix is essential. A standard deciduous bonsai mix (e.g., Akadama, Pumice, Lava Rock) with a component for moisture retention (like organic compost or peat moss) is suitable. It must never be allowed to dry out.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "High and consistent watering is required. The soil must be kept constantly moist but not waterlogged, especially during the growing season and hot weather. Water thoroughly when the surface of the soil appears dry; never allow the soil to dry out completely."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning during early spring (before bud break) to establish the primary branch framework. Focus on removing overly vigorous, vertical shoots and crossing branches, which are common in Betula nigra due to its fast growth and tendency to drop branches. Retain a balance between strong scaffold branches to support the canopy and maintain airflow to prevent fungal issues. Avoid heavy mid-season structural cuts as it can stress the tree.",
+      timing: "Early spring before bud break",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Use light pruning throughout the growing season to remove dead, weak, or dropped branches, which this species is prone to losing unexpectedly. Trim back long shoots to encourage ramification and maintain the desired silhouette. Because Betula nigra does not bleed excessively, mid-season pruning is safer than with other birch species. Always sterilize tools to prevent disease transmission.",
+      timing: "Late spring through summer, as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use softer aluminum wire to avoid damaging the relatively brittle branches, wiring in late winter or early spring before bud swell. Due to rapid growth, wiring should be checked every 2-3 weeks and adjusted or removed promptly to prevent wire cutting into bark. Avoid wiring large or old branches to protect the delicate peeling bark. Wiring smaller branches to create fine ramification is effective on Betula nigra.",
+      timing: "Late winter to early spring, check biweekly",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Method",
+      description: "Repot in early spring just before bud break to minimize stress and maximize root recovery. Use a well-draining yet moisture-retentive acidic soil mix, incorporating organic material like peat moss to match the tree’s natural riverbed conditions. Avoid repotting during hot summer months or late fall to prevent root damage from temperature extremes. Repotting frequency is generally every 2-3 years for young trees and every 3-5 years for mature specimens.",
+      timing: "Early spring before bud break",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Approach",
+      description: "Perform root pruning concurrently with repotting, carefully trimming fibrous roots to encourage a dense, fine root system that supports high moisture uptake. Do not remove more than one-third of the root mass at once to avoid shocking the tree. Betula nigra’s adaptation to wet conditions means roots are less prone to rot, but maintaining good drainage is critical. Avoid aggressive root pruning in winter or summer heat.",
+      timing: "Early spring during repotting",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is generally not recommended for River Birch bonsai because it can stress the tree due to its vigorous growth and tendency to drop branches unexpectedly. Partial leaf thinning can be done in early summer to improve light penetration and airflow without removing all leaves. This helps maintain health and promotes back-budding while minimizing stress.",
+      timing: "Early summer for partial leaf thinning only",
+      maturityStage: "After 3 years",
+      notRecommended: true
+    },
+    {
+      name: "Pinching Shoots",
+      description: "Pinch back new shoots during the growing season once they reach 3-5 cm to encourage branching and control vigor. Use fingers rather than scissors to avoid excessive sap loss and damage to tender tips. Pinching helps maintain compact growth and refines branch structure, which is essential given the species’ rapid growth rate. Avoid heavy pinching late in the growing season to prevent weak growth before winter.",
+      timing: "Late spring through mid-summer, regularly",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely used with Betula nigra bonsai because the species readily back-buds and ramifies with proper pruning, and it does not bleed excessively when cut. However, grafting can be considered to add finer branches or repair damaged areas. Use whip or side grafting techniques in early spring when sap flow begins, ensuring compatibility and clean cuts for successful unions.",
+      timing: "Early spring just before bud break",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Creating jin is suitable for Betula nigra bonsai to accentuate aged character, but should be applied carefully due to the species’ tendency to drop branches naturally. Select only strong dead branches or those recently pruned to create jin, then strip bark and treat with lime sulfur for preservation and visual contrast with the reddish-brown bark. Avoid excessive jin as it can weaken the tree aesthetically and structurally.",
+      timing: "Late winter or early spring during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari can be applied sparingly to Betula nigra to enhance the textured, peeling bark appearance, but must be done cautiously to avoid compromising the tree’s health. Use sharp carving tools during dormancy to remove small sections of outer bark and expose underlying deadwood, then treat with lime sulfur. Because the species’ bark is a key aesthetic, overuse of shari is discouraged to maintain natural character.",
+      timing: "Late winter during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development",
+      description: "Promote a wide, stable nebari by root pruning and training young trees to encourage radial root spread. During repotting, prune roots asymmetrically to promote surface roots extending outward. Avoid deep planting to prevent root rot in moist soil conditions. Utilize low wiring of primary roots in early growth stages to guide outward growth and enhance visual stability.",
+      timing: "Begin after first repot (1-2 years), ongoing during repotting",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally not recommended on Betula nigra bonsai because its natural beauty lies in its peeling, shaggy bark rather than artificial wood textures. Excessive carving risks damaging living tissue and exposing the tree to pathogens. If necessary, minimal carving for jin or shari should be done with care during dormancy and followed by protective treatments to prevent decay.",
+      timing: "Dormant season only",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering is suitable for Betula nigra to propagate or create new bonsai specimens, taking advantage of its vigorous growth and ease of rooting in moist conditions. Perform in late spring to early summer when sap flow is active, using a moss medium to retain moisture and wrapping securely with plastic. Monitor moisture carefully due to the species’ preference for consistent moisture without waterlogging.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Apply a balanced, slow-release fertilizer with a slightly acidic profile every 4-6 weeks during the active growing season (spring through early fall). Use organic or low-nitrogen fertilizers to support healthy growth without excessive vigor that could increase branch drop. Reduce fertilization in late summer to prepare for dormancy and avoid stimulating late-season growth susceptible to winter damage.",
+      timing: "Spring to early fall, every 4-6 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common pests such as aphids, leaf miners, and birch leafrollers, which can damage foliage and weaken the tree. Maintain good airflow and avoid waterlogged soil to reduce fungal infections like leaf spot and powdery mildew. Use targeted organic insecticides or horticultural oils during early infestation stages and prune out heavily affected branches to maintain tree vigor.",
+      timing: "Spring through summer, regular inspection",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'black-locust',
+    scientificName: "Robinia pseudoacacia",
+    commonName: "Black Locust",
+    group: "Various",
+    temperatureMin: -10,
+    temperatureMax: 0,
+    sunExposure: "Full sun exposure, thriving in well-lit areas with at least 5 hours of direct sunlight daily. Needs shelter from very strong winds.",
+    position: "Outdoor. It is fully hardy and requires a location with full sun. It must be kept outdoors during the growing season and only requires protection from frost when temperatures drop below -10°C during dormancy. It is sensitive to early frosts in Autumn.",
+    leafType: "Deciduous",
+    climate: "Fully hardy. Requires frost protection only when temperatures drop below -10°C during dormancy. It is sensitive to early frosts in Autumn and needs protection from them.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern and central United States (North America).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Compound leaves (pinnate) up to 30cm long, divided into 7 to 19 (or 20+) lance-shaped, blunt leaflets. Produces very fragrant white flowers, 2cm long, in pendant racemes up to 20cm long in May-June. It is a member of the pea family (Leguminosae) and is a nitrogen-fixer, which means it does not require high nitrogen feed early in the season. The tree has spiny shoots and relatively brittle branches. Hard pruning is required after leaf-fall to avoid excessive sap bleeding.",
+      soilType: "Basic soil mix. The species is a pioneer and can cope with adverse growing conditions. Repotting is recommended every second year in Spring.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water when the top of the soil feels dry. It prefers slightly moist soil but can tolerate short dry periods. Ensure the water drains freely to prevent waterlogging."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform hard structural pruning immediately after leaf-fall in late autumn or early winter to minimize sap bleeding, which is pronounced in Black Locust. Remove unwanted branches, especially brittle or crossing ones, and cut back vigorous shoots to maintain the desired upright, columnar habit. Focus on removing spiny shoots and thinning dense areas to improve light penetration and airflow within the canopy.",
+      timing: "Late autumn to early winter, post leaf-fall",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "During the growing season, regularly pinch or prune new shoots to control aggressive growth and reduce leaf size. Remove suckers emerging from the base and roots promptly to prevent energy diversion. Maintenance pruning also helps prevent overly large compound leaves by encouraging finer ramification and smaller leaflet development.",
+      timing: "Spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Caution",
+      description: "Use thin, flexible aluminum or copper wire to shape branches but apply very gently due to the brittle nature of Black Locust branches. Wiring should be done when branches are semi-hardwood, typically late spring or early summer, and monitored closely to prevent breakage. Avoid wiring during late autumn or winter when branches are most brittle and prone to snap.",
+      timing: "Late spring to early summer, with frequent checks",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Spring Repotting with Basic Soil Mix",
+      description: "Repot every two years in early spring just before bud break to minimize stress. Use a well-draining, basic soil mix (e.g., akadama, pumice, and lava rock) as Black Locust tolerates poor conditions and benefits from good drainage to avoid root rot. Repotting stimulates root growth and allows inspection for root suckers and disease.",
+      timing: "Early spring, every 2 years",
+      maturityStage: "From first year",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning During Repotting",
+      description: "When repotting, prune roots moderately by removing long, thick roots and cutting back to healthy, fibrous roots. Remove any root suckers or overly vigorous root growth aggressively to keep energy balanced between roots and shoots. Avoid excessive root pruning to prevent shock, as Black Locust recovers well but prefers moderate root disturbance.",
+      timing: "Early spring, every 2 years",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation is recommended to reduce leaf size and increase ramification, but full defoliation is not advised due to the species’ large compound leaves and brittle branches. Remove only older leaves or selectively thin areas with excessive leaf mass in mid-summer to improve light penetration and encourage second flush of smaller leaves.",
+      timing: "Mid-summer, after strong growth flush",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new soft growth regularly to control size and encourage branching. Use clean fingers or small scissors to nip the shoot tips just after 3-4 leaflets have opened, which helps reduce leaf size and promotes back-budding. This technique is essential due to the aggressive growth habit and large leaflets of Black Locust.",
+      timing: "Spring through early autumn, every 1-2 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Development",
+      description: "Grafting can be used to introduce finer branches or spines onto the main trunk or branches to improve ramification or style. It is especially useful for creating thorny features typical of Black Locust bonsai. Perform grafting in spring when sap flow begins, ensuring scion and rootstock compatibility and proper aftercare to prevent sap bleeding.",
+      timing: "Early spring, during active sap flow",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Creating Jin is suitable for Black Locust due to its fast growth and durable wood. Deadwood features should be made cautiously on thicker branches or trunk sections to add age and character without compromising structural integrity. Apply lime sulfur after Jin creation to protect wood and enhance visual contrast.",
+      timing: "Late winter or early spring during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood) Application",
+      description: "Shari is suitable on older Black Locust bonsai with thick trunks to emphasize aged, weathered appearance. Because of the species’ brittle branches but strong trunk wood, creating Shari requires careful removal of bark patches in late winter and treatment with lime sulfur. Avoid excessive bark removal to prevent weakening the tree.",
+      timing: "Late winter, during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development by Root Pruning and Suckering Control",
+      description: "Develop a wide, stable nebari by regularly pruning roots during repotting and removing basal suckers as they emerge. Encourage radial root growth by slightly exposing roots gradually over several seasons and trimming excessive vertical roots. Black Locust’s natural tendency to sucker can be managed to enhance nebari aesthetics.",
+      timing: "Every 2 years at repotting, with sucker removal throughout growing season",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving for Texture Enhancement",
+      description: "Carving can be applied cautiously to enhance bark texture or create deadwood effects on thick trunks or branches. Due to brittle branches, carving on small branches is not recommended, but trunk carving can add character. Always follow carving with lime sulfur treatment and monitor for fungal infections.",
+      timing: "Late winter during dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is effective for Black Locust propagation and can be used to create new bonsai material with desirable trunk thickness. Perform air layering in late spring to early summer when sap flow is active, using sphagnum moss and plastic wrap to maintain moisture. Monitor regularly due to fast healing and rapid root development characteristic of this species.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing with Low Nitrogen Early",
+      description: "Due to nitrogen fixation, fertilize Black Locust with low-nitrogen or balanced fertilizer in early spring to avoid excessive leafy growth. Increase nitrogen slightly in mid to late summer to support flowering and overall vigor. Use organic or slow-release fertilizers every 4-6 weeks during the growing season and reduce feeding in autumn.",
+      timing: "Early spring to late summer, every 4-6 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Vigilance",
+      description: "Regularly inspect for common pests such as aphids, scale insects, and spider mites, which can affect Black Locust, especially during warm seasons. Treat infestations promptly with insecticidal soap or horticultural oil. Prevent fungal diseases by ensuring good airflow, avoiding waterlogging, and protecting from early autumn frosts which can stress the tree.",
+      timing: "Spring through autumn, weekly inspection",
+      maturityStage: "From first year",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'tamarisk',
+    scientificName: "Tamarix ramosissima",
+    commonName: "Tamarisk",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Full sun is required for optimum growth, but the tree should be shaded from the strong midday sun during the peak of Summer to prevent stress.",
+    position: "Outdoor. Requires full sun and frost protection when temperatures drop below -5°C. It is not suitable for year-round indoor cultivation.",
+    leafType: "Deciduous",
+    climate: "Provide frost protection when temperatures drop below -5°C (23°F) in Winter. It is a very hardy species and thrives in hot, dry conditions during the growing season.",
+    flowering: "Seasonal",
+    nativeRegion: "Native to a vast area from Ukraine and Iraq east through Central Asia, China, and Tibet to Korea. It thrives in coastal sites and dry or marshy, often salt-rich areas inland.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Distinguished by its feathery, scale-like foliage and reddish stems, which give it a unique, soft texture. It is highly valued for its tolerance to drought and salinity, and its ability to be easily propagated from thick cuttings. It is often styled in weeping forms due to its flexible branches, and it produces plume-like, often leafy racemes of small pink flowers. Its aggressive vigor allows for rapid trunk development, but also necessitates regular, intensive maintenance.",
+      soilType: "Prefers a normal, well-drained soil mix. It is highly tolerant of saline soils (up to 15,000 ppm sodium) and can grow in heavy clay, but for bonsai, a standard, slightly acidic mix (pH 5-7) that drains quickly is recommended to prevent root rot. Repotting should be done in mid-Spring as buds extend.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires normal watering, but is extremely drought tolerant. The soil should be allowed to dry slightly between waterings. Care must be taken to ensure the soil is free-draining to prevent root rot, especially in cooler conditions. It can tolerate seasonally saturated soils in its native habitat."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform heavy structural pruning in early spring just before bud break to control Tamarisk's aggressive, fast growth and to establish the main branch framework. Remove thick, crossing, or inward-growing branches to maintain an open, airy canopy reflecting the species' natural wispy form. Retain flexible, slender branches that lend themselves to weeping or cascading styles. Structural pruning encourages strong primary branches and prevents overly dense foliage, which can stress the tree.",
+      timing: "Early spring (just before bud break)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Frequently prune back new shoots during the growing season (late spring through summer) to maintain the desired compact shape and prevent overly dense foliage. Pinch or cut back soft shoots to 2-3 leaf nodes to encourage finer ramification and preserve the delicate, feathery foliage characteristic of Tamarisk. Remove any dead or weak growth promptly to maintain vigor and airflow.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Flexible Branches",
+      description: "Wire Tamarisk branches when they are semi-hardwood in late spring or early summer to take advantage of their flexibility, allowing the creation of graceful weeping or cascading forms. Use aluminum wire to avoid damage and apply it carefully to avoid snapping the thin, reddish stems. Wiring duration should be limited to 1-2 months due to rapid growth and branch sensitivity. Frequent checks are necessary to avoid wire cutting into bark.",
+      timing: "Late spring to early summer (semi-hardwood stage)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting with Root Pruning",
+      description: "Repot in mid-spring precisely as buds start to swell, taking care to prune aggressive roots moderately (20-30%) to balance vigorous root growth with the limited bonsai container space. Use a well-draining, slightly acidic soil mix (pH 5-7) with inorganic components to prevent root rot. Avoid heavy root pruning in cool or wet conditions to prevent stress and rot. Repotting at this time supports rapid recovery and vigorous spring growth.",
+      timing: "Mid-spring at bud swell",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Technique",
+      description: "When repotting, prune back thick, aggressive roots and remove any blackened or mushy roots to prevent rot. Retain fine feeder roots to maintain water and nutrient uptake. Because of Tamarisk's fast root growth, root pruning should be moderate and balanced with above-ground pruning to avoid excessive stress. Root pruning encourages a compact, fibrous root system that suits bonsai containers and promotes nebari development.",
+      timing: "Mid-spring during repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Full defoliation is generally not recommended for Tamarisk bonsai because its small, scale-like foliage does not regenerate rapidly and defoliation can stress the tree. However, partial leaf thinning by selectively removing older or overgrown foliage in early summer can improve light penetration and air circulation, promoting back budding and finer ramification.",
+      timing: "Early summer for partial leaf thinning only",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back soft new shoots regularly during the growing season by removing the top 2-3 leaf pairs to promote lateral branching and denser, finer foliage. This technique maintains the delicate, feathery appearance while controlling vigorous growth. Pinching also encourages flowering by redirecting energy from shoot elongation to flower raceme development.",
+      timing: "Late spring through summer, every 2-3 weeks",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting on Tamarisk is rarely necessary due to its ease of propagation from thick hardwood cuttings and naturally vigorous growth. However, grafting may be used to introduce specific branch placements or create multi-trunk styles, especially for collectors aiming for unique design. Use late winter or early spring timing when the rootstock is dormant but receptive.",
+      timing: "Late winter to early spring (dormant period)",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Creating Jin on Tamarisk is generally not recommended because its thin, flexible branches and soft bark do not hold deadwood features well and tend to decay quickly. The species' natural style emphasizes delicate, wispy living branches rather than deadwood accents. Attempting Jin may lead to unsightly rot or damage.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is also not recommended for Tamarisk due to its thin trunk diameter and fast growth, which make maintaining deadwood areas difficult. The soft bark and flexible wood do not lend themselves well to carving or preserving exposed deadwood sections. Focus should remain on developing graceful living forms rather than deadwood features.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Develop nebari by spreading surface roots evenly around the trunk during repotting, carefully pruning to encourage radial root growth and prevent one-sided dominance. Tamarisk's aggressive root system facilitates nebari formation, but roots should be kept fibrous and fine rather than thick and coarse. Avoid deep planting to keep roots visible and stable. Regular root pruning and repotting support nebari refinement over years.",
+      timing: "Mid-spring during repotting, annually or biennially",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for Tamarisk bonsai because of the species' soft, thin bark and wood, which can be easily damaged and prone to rot. Attempts to carve trunks or branches often lead to poor healing and aesthetic deterioration. Instead, focus on natural trunk movement and branch placement through pruning and wiring.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be successfully used to propagate Tamarisk, especially for creating new bonsai specimens with desirable trunk thickness and branch placement. Perform air layering in late spring or early summer when sap flow is strong. Use moss and plastic wrap to maintain moisture and check regularly to prevent drying out. Root formation typically occurs within 6-8 weeks, allowing for quick separation and potting.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Fertilize Tamarisk bonsai monthly from early spring through late summer using a balanced, slow-release fertilizer with micronutrients to support vigorous growth and flowering. Reduce or stop fertilization in autumn to prepare for dormancy. Avoid high nitrogen fertilizers late in the season to prevent tender growth susceptible to frost damage. Organic fertilizers mixed with mineral components work well to maintain soil health.",
+      timing: "Monthly from March to September",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor Tamarisk frequently for aphids, spider mites, and scale insects, which can infest the delicate foliage and stems. Use insecticidal soap or horticultural oil sprays during active growth periods to control outbreaks. Root rot can occur if soil is poorly drained or kept too wet, especially in cool conditions, so ensure well-draining soil and avoid overwatering. Regular airflow and sun exposure reduce fungal disease risk.",
+      timing: "Inspect monthly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'enkianthus',
+    scientificName: "Enkianthus campanulatus",
+    commonName: "Enkianthus",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Full sun in Spring and Autumn to promote flowering and vibrant fall color, with slight or partial shade required during the intense heat of summer to prevent leaf scorch.",
+    position: "Outdoor. It is a deciduous, frost-hardy species that requires a cold dormancy period.",
+    leafType: "Deciduous",
+    climate: "Frost hardy to at least -5°C (23°F), but can survive much colder temperatures (USDA Zone 4: -34.4°C to -28.9°C) when established. It requires a cold winter dormancy.",
+    flowering: "Seasonal",
+    nativeRegion: "Primarily Japan, and also native to open woodlands in East Asia (Himalayas to Japan).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Highly valued for its spectacular, vivid orange-yellow to red fall foliage and its delicate, bell-shaped, nodding flowers (5-15 per raceme) that are creamy-yellow with pink or red veins, appearing in late spring/early summer. The flowers resemble those of a lily-of-the-valley (Campanula). It is a lime-hating species.",
+      soilType: "Requires a highly acidic (pH below 6.0), well-drained, and organically rich soil mix. A suitable bonsai mix is a lime-free blend, such as Akadama, Pumice, and Lava rock, with an added component of peat moss or similar acidic organic material. It is intolerant of lime/alkaline soils.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water generously during the warm growing season (summer) to keep the soil consistently moist but not waterlogged. Reduce watering significantly in autumn and winter. It is sensitive to drought. Use rainwater or de-ionized water if tap water is hard (alkaline)."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in late winter or early spring before bud break to define the informal upright or multi-trunk style characteristic of Enkianthus campanulatus. Remove crossing, weak, or overly vigorous branches to maintain the natural layered branching habit and encourage balanced growth. Because large scars heal slowly on this species, prune cleanly and selectively to avoid excessive damage.",
+      timing: "Late winter to early spring, before bud break",
+      maturityStage: "After 3-4 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "During the growing season, perform light maintenance pruning by trimming back new shoots after 3-5 leaves to maintain branch ramification and compact silhouette. Remove any dead, damaged, or crossing shoots to preserve health and aesthetics. Avoid heavy pruning in late summer or autumn to prevent delayed wound closure and reduce risk of dieback.",
+      timing: "Late spring through mid-summer, as growth occurs",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Species-Specific Wiring Technique",
+      description: "Use softer aluminum or annealed copper wire to gently shape branches, taking care not to damage the thin bark which can bruise easily. Wire in early spring when branches are still flexible but before vigorous growth begins. Avoid wiring thick branches aggressively due to slow healing and risk of scarring; instead, gradually bend over multiple seasons.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting Timing and Soil Considerations",
+      description: "Repot Enkianthus campanulatus every 2-3 years in early spring just before bud swell, using a lime-free, acidic bonsai soil mix that includes Akadama, Pumice, Lava rock, and peat moss. Ensure excellent drainage while maintaining soil acidity (pH below 6.0) to prevent root damage. Avoid repotting in autumn or winter to prevent stress during dormancy.",
+      timing: "Early spring, before bud swell, every 2-3 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning Specifics",
+      description: "When repotting, prune back approximately one-third of the root mass carefully to balance root and shoot growth, using sharp, clean tools to minimize damage. Because Enkianthus heals slowly and is sensitive to root disturbance, avoid aggressive root pruning and allow ample recovery time. Discard any thick, woody roots and focus on retaining fine feeder roots.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation (Not Recommended)",
+      description: "Defoliation is generally not recommended for Enkianthus campanulatus due to its slow healing and risk of stressing the tree. Leaf removal can reduce energy reserves and delay recovery. Instead, focus on selective pruning and pinching to control foliage density and encourage ramification.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back soft, new growth tips during the active growing season once shoots have developed 3-5 leaves to encourage secondary branching and denser foliage pads. Use finger pinching rather than cutting to reduce stress and maintain the delicate growth habit of Enkianthus. Repeat pinching every 2-3 weeks during growth flushes for optimal ramification.",
+      timing: "Late spring through mid-summer, every 2-3 weeks as needed",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Grafting (Rarely Used)",
+      description: "Grafting is rarely used on Enkianthus campanulatus because it naturally develops an attractive branching structure and propagation by cuttings or seed is preferred. However, grafting can be employed to repair damaged branches or introduce desired cultivars. Use wedge or side grafting techniques in late winter when sap flow begins.",
+      timing: "Late winter, before bud break",
+      maturityStage: "Mature trees only or vigorous stock",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Technique",
+      description: "Creating jin on Enkianthus campanulatus is generally not recommended due to the species’ slow wound healing and delicate bark, which increases risk of infection and decay. Instead, focus on maintaining healthy live wood and use jin sparingly only on older, thick branches if essential for design.",
+      timing: "If used, late summer to early fall to allow drying before winter",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Technique",
+      description: "Shari is not advised for Enkianthus campanulatus because large trunk wounds heal slowly and the species is sensitive to bark damage. Preserving the natural bark and trunk integrity supports the tree’s health and longevity. If used, it should be minimal and performed only on well-established, mature bonsai with expert care.",
+      timing: "N/A",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Encourage a fine, radial nebari by carefully pruning roots during repotting and removing dominant tap roots to promote surface roots. Gradually spread and position surface roots outward in early growth stages. Maintain slightly acidic soil conditions to support healthy root flare development. Avoid disturbing nebari once established, as the species heals slowly.",
+      timing: "During repotting in early spring, annually for young trees",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Techniques",
+      description: "Carving is generally discouraged on Enkianthus campanulatus because the species is prone to slow healing and large scars may remain visible for extended periods. If carving is desired for artistic effect, it should be very conservative and limited to small areas on mature specimens during the growing season to promote faster healing.",
+      timing: "Growing season on mature trees, if necessary",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate Enkianthus campanulatus, preferably in late spring or early summer when growth is active. Use sphagnum moss and plastic wrap to maintain moisture around the girdled branch, and ensure acidic conditions by avoiding lime-based materials. This method supports creation of new bonsai stock or repair of damaged branches.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule and Type",
+      description: "Use a balanced, acidic fertilizer low in lime during the growing season, applying monthly from early spring through mid-summer. Organic fertilizers such as fish emulsion or acid-loving plant formulas are preferred to maintain soil pH below 6.0. Reduce feeding in late summer and cease entirely in autumn to prepare for dormancy.",
+      timing: "Monthly from early spring to mid-summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor Enkianthus campanulatus regularly for common pests such as aphids, scale, and spider mites, especially during warm months. Use insecticidal soaps or horticultural oils to control infestations, applied in the morning to avoid leaf scorch. Maintain good air circulation and avoid waterlogging to prevent fungal diseases like powdery mildew.",
+      timing: "Regular checks during growing season, treatment as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'lantana',
+    scientificName: "Lantana camara",
+    commonName: "Lantana",
+    group: "Various",
+    temperatureMin: 24,
+    temperatureMax: 32,
+    sunExposure: "Requires full sun (minimum of 4 to 6 hours of direct sunlight per day) to thrive, flower profusely, and maintain compact growth. It tolerates hot, direct sun well. Insufficient light will lead to sparse growth and poor flowering.",
+    position: "Outdoor in warm climates (USDA Zones 9-11) but must be brought indoors when night temperatures consistently drop below 7°C (45°F) or when frost is a risk. The ideal indoor location is a south-facing window, or an east/west window with supplemental grow lights, to ensure 4-6 hours of direct sunlight daily.",
+    leafType: "Deciduous",
+    climate: "Optimal temperature range is between 24°C and 32°C (75°F and 90°F). It is highly frost-tender. It must be protected when night temperatures drop below 7°C (45°F) and cannot tolerate temperatures below -1°C (30°F) for any sustained period.",
+    flowering: "Seasonal",
+    nativeRegion: "Central and South America, including the Caribbean region. It has become naturalized and invasive in over 60 tropical and subtropical countries.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Profuse, long-lasting flowering with clusters of small, tubular flowers (umbels) that change color as they mature, often resulting in two- or three-colored flower heads (e.g., yellow to orange to red) on the same plant. It is one of the most reliable flowering bonsai species. The fruit is a small, clustered, drupe-like berry that turns black when ripe. Note: All parts of the plant, especially the berries, are toxic if ingested.",
+      soilType: "A fast-draining, inorganic bonsai soil mix is essential to manage its aggressive root growth and prevent root rot. A common recommendation is a mix of 1/3 Akadama, 1/3 Pumice, and 1/3 Lava rock, or a similar mix of inorganic components like calcined clay (Kyoto/Turface) and grit. Some organic material (e.g., coco coir or fine pine bark) can be added (up to 10-20%) to aid water retention, but the mix must remain highly porous and well-aerated.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires regular and moderate watering. The soil should be allowed to become slightly dry between waterings, but never completely dry out, especially during the hot, active growing season. In dry or hot conditions, it may require watering once or twice daily. Water thoroughly until it drains from the bottom of the pot. It benefits from high humidity, which can be provided by a humidity tray."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in early spring before active growth begins to establish the main branches and overall shape. Remove any crossing, weak, or overly vigorous branches to maintain balance and airflow. Since Lantana branches are brittle, use sharp, precise cuts to avoid damaging adjacent shoots. This encourages strong branching and a compact canopy that promotes flowering.",
+      timing: "Early spring (before new growth, around late winter to early spring)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly prune spent flowers and long shoots throughout the growing season to maintain compact growth and encourage continual flowering. Pinch back new growth tips monthly during active growth to prevent legginess. Avoid heavy pruning late in the season to prevent cold stress and allow wood to harden before winter.",
+      timing: "Monthly during spring and summer; avoid late autumn",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Guy-Wires and Double-Wiring",
+      description: "Due to brittle branches, wiring must be done carefully using guy-wires or double wiring (wrapping the branch with soft tie then wrapping wire over it) to prevent breakage. Use soft aluminum or annealed copper wire with moderate tension, and do not bend branches aggressively. Wire only young, flexible shoots and remove wiring within 4-6 weeks to avoid scarring.",
+      timing: "Early spring during new shoot elongation",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting and Soil Refresh",
+      description: "Repot yearly or every 18 months in early spring before new growth starts to manage aggressive root growth and maintain soil aeration. Use a fast-draining inorganic bonsai mix (1/3 Akadama, 1/3 Pumice, 1/3 Lava rock) with minimal organic content. Remove old soil carefully and trim roots moderately (about 20-30%) to prevent root-bound conditions and root rot.",
+      timing: "Early spring (late winter to early spring)",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning with Aggressive Root Management",
+      description: "During repotting, prune roots aggressively but carefully to control the vigorous and invasive root system. Trim long, thick roots back by one-third to half while preserving fine feeder roots for nutrient uptake. This encourages a dense fibrous root ball and prevents the tree from becoming root-bound, which is common in Lantana due to its rapid growth.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation can be performed in mid-summer to reduce leaf size and increase ramification, but full defoliation is not recommended due to the plant's sensitivity and fast growth. Remove about 30-50% of mature leaves selectively to avoid stressing the tree and to maintain energy for flowering. This helps improve light penetration and encourages denser branching.",
+      timing: "Mid to late summer, during active growth",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching of New Shoots",
+      description: "Pinch back new shoots regularly during the growing season, especially in spring and summer, to promote bushier growth and more flower production. Use fingernails or sharp scissors to remove soft shoot tips just after 3-4 leaf pairs have developed. This technique helps maintain the bonsai’s compact size and encourages multiple flowering points.",
+      timing: "Monthly during spring and summer",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Development",
+      description: "Grafting is occasionally used to add thicker, well-placed branches or improve ramification on young bonsais. Use approach grafting or side grafting in early spring when the tree is actively growing. Due to fast growth and good back-budding, grafting is not often necessary but can be effective for specific branch placement or to replace damaged limbs.",
+      timing: "Early spring during active growth",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Jin is generally not recommended on Lantana due to the brittleness of branches and the species’ natural shrubby habit which does not lend itself well to deadwood features. Attempting jin risks breaking living branches and stresses the tree unnecessarily. Focus on healthy, living branch structures instead.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not suitable for Lantana bonsai as its bark is thin and the trunk does not develop thick, aged wood characteristic of species that tolerate shari. The species’ fast growth and brittle branches make trunk carving and deadwood creation counterproductive, increasing the risk of infections and dieback.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development via Surface Root Pruning",
+      description: "Promote a strong, attractive nebari by exposing and pruning surface roots during repotting. After trimming roots, position the tree so that multiple thick roots radiate evenly around the base. Gradually remove soil covering larger roots over successive repottings to enhance nebari visibility and stability, which is critical due to Lantana’s vigorous root growth.",
+      timing: "During repotting in early spring, annually or bi-annually",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended on Lantana bonsai because of the species’ brittle wood and fast growth, which tends to heal wounds quickly but is prone to cracking and damage during carving. It is better to focus on refining live branch structure and foliage rather than attempting aesthetic wood carvings.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering is an effective propagation method for Lantana and can be done in late spring or early summer when the plant is actively growing. Use a clean cut to remove a ring of bark about 1-2 cm wide and apply rooting hormone before wrapping with moist sphagnum moss and plastic wrap. This technique allows propagation of desired branch styles or cultivars and produces well-established young plants.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 1 year or on vigorous branches",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule and Type",
+      description: "Use a balanced, slow-release fertilizer with an NPK ratio around 10-10-10 during spring and summer active growth to support vigorous development and abundant flowering. Supplement with liquid fertilizer every 2-3 weeks for best results. Reduce or stop fertilizing in late autumn and winter to avoid encouraging tender growth that may be damaged by cold.",
+      timing: "Spring through summer, reduce in autumn, stop in winter",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for common pests such as aphids, whiteflies, spider mites, and scale insects, which can infest Lantana bonsai due to its dense foliage. Use insecticidal soaps or neem oil as needed, applied in early morning or late afternoon to avoid leaf burn. Also watch for fungal diseases in high humidity; ensure good airflow and fast-draining soil to prevent root rot and leaf spot.",
+      timing: "Regularly during growing season, especially spring and summer",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'osage-orange',
+    scientificName: "Maclura pomifera",
+    commonName: "Osage Orange",
+    group: "Various",
+    temperatureMin: 4,
+    temperatureMax: 9,
+    sunExposure: "Full sun is essential for best growth and to encourage the reduction of leaf size and tighter internodes, which are desirable for bonsai.",
+    position: "Outdoor. This is a deciduous species that is highly cold-hardy (to -20°C) and requires a distinct winter dormancy period.",
+    leafType: "Deciduous",
+    climate: "Highly tolerant, hardy in USDA Zones 4–9. Dormant mature plants can withstand temperatures down to approximately -20°C. Thrives in a moderate to hot temperature range of 5°C to 35°C during the growing season.",
+    flowering: "Seasonal",
+    nativeRegion: "South-central United States, primarily the Red River drainage of Oklahoma, Texas, and Arkansas.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Notable for its long, sharp thorns (up to 2.5 cm) on younger growth, which must be managed during styling. It produces large, grapefruit-sized, lumpy, inedible fruit (\"hedge apples\") and secretes a sticky white latex when cut. The wood is exceptionally hard and decay-resistant.",
+      soilType: "Highly adaptable, tolerating a wide range of soil types including alkaline soils, loam, clay, and sand. Prefers a moist, well-drained bonsai soil mix. Good drainage is crucial to prevent fungal issues like cotton root rot.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Requires consistent, thorough watering, especially when young or during the hottest months. Can tolerate drought once established, but for bonsai, it should be watered when the top layer of soil begins to dry out. Heavy watering on occasion is beneficial during long dry seasons."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in late winter or early spring before bud break to remove unwanted branches and shape the tree's framework. Osage Orange grows aggressively, so early removal of crossing, weak, or inward-growing branches is essential to maintain design integrity. Special care must be taken to avoid damaging the sharp thorns on young shoots, which can be trimmed back or removed carefully with gloves. This pruning encourages a strong branch structure and manageable growth.",
+      timing: "Late winter to early spring, annually",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Trim new shoots regularly during the growing season to maintain shape and reduce leaf size by encouraging shorter internodes. Pinch or prune back vigorously growing shoots once they reach 3-5 leaves, which helps control size and promotes ramification. Remove thorns cautiously during maintenance pruning to prevent injury and improve aesthetics. Regular maintenance pruning is critical due to the species' fast growth rate.",
+      timing: "Spring through summer, every 2-4 weeks",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Technique",
+      description: "Use thick, anodized aluminum wire to accommodate the extremely hard and dense wood of Osage Orange. Wire in late winter or early spring when branches are still semi-dormant but pliable enough to shape. Avoid wiring young, thorny shoots as thorns can puncture the wiring and cause damage. Wire should be left on for no longer than 3-4 months due to rapid growth and risk of wire bite in this fast-growing species.",
+      timing: "Late winter to early spring, remove after 3-4 months",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Osage Orange bonsai every 2-3 years in early spring before bud break to refresh soil and prune roots. Use a well-draining bonsai soil mix with good moisture retention but avoid heavy clay to prevent root rot. Due to the tree's tolerance for alkaline soils, slightly alkaline bonsai substrates are acceptable. Ensure thorough watering after repotting to help recovery and avoid fungal issues like cotton root rot.",
+      timing: "Early spring, every 2-3 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune roughly 20-30% of the roots, focusing on long, circling roots to encourage fine root development and better nutrient uptake. The species' dense, hard wood corresponds to a similarly robust root system that can tolerate moderate root reduction. Root pruning should be balanced with the tree’s fast growth to avoid stress. Avoid root pruning in late summer or fall to prevent delayed recovery before dormancy.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Full defoliation is generally not recommended due to the species’ large natural leaf size and potential stress. Instead, partial defoliation can be used selectively in early summer to encourage smaller leaf growth on specific branches. Because Osage Orange leaf size reduces naturally under full sun, defoliation is less critical than with other species. Excessive defoliation risks weakening the tree due to its latex sap and hard wood that responds slowly to stress.",
+      timing: "Partial defoliation in early summer, if needed",
+      maturityStage: "After 5 years, mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Pinching",
+      description: "Pinch back new shoots when they develop 3-5 leaves to encourage shorter internodes and denser branching. Due to rapid growth, this procedure should be done frequently during the active growing season. Pinching also helps control thorn development by removing the freshest, thorny growth tips. Always wear protective gloves to avoid injury from thorns and latex exposure.",
+      timing: "Spring through summer, every 2-3 weeks",
+      maturityStage: "After first year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely necessary with Osage Orange due to its vigorous rootstock and rapid growth. However, it can be used to add fine branchlets or repair damaged branches, especially if a preferred cultivar or branch characteristic is desired. Use wedge grafting in early spring when sap flow begins. Latex sap can hinder graft union success, so clean cuts and quick binding are essential.",
+      timing: "Early spring, before bud break",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating Jin is suitable on older, mature branches removed during pruning to simulate natural weathering. The dense, decay-resistant wood of Osage Orange holds Jin features well, and the bark texture adds visual interest. Avoid making Jin on young or thin branches as healing is slow and the hard wood is difficult to carve smoothly.",
+      timing: "After branch removal, generally late summer or early fall",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari can be applied but should be approached cautiously due to the extremely hard wood and thick, fissured bark. Use power tools for carving to avoid excessive effort and stress. The decay-resistant nature of the wood preserves Shari well, but excessive removal of living tissue can slow healing and sap flow. Best applied on mature trees with well-established trunks for dramatic effect.",
+      timing: "Late summer to early fall",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development",
+      description: "Encourage wide, stable nebari by spreading roots outward during early repotting and root pruning. Osage Orange roots are strong and woody, responding well to surface root exposure and gradual soil reduction around the base. Use root pruning to remove deep taproots and promote fine lateral roots for a broad, balanced nebari. Exposed roots should be hardened gradually to prevent sunscald.",
+      timing: "During repotting in early spring, annually check root development",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally challenging due to the extremely hard, dense wood and latex sap. It is not recommended for beginners and should be limited to experienced bonsai artists using appropriate power tools. Carving wounds should be sealed immediately to prevent sap leakage and avoid fungal infection. For best results, carve only on mature wood during the dormant season to minimize stress.",
+      timing: "Winter dormancy, mature trees only",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be successfully used to propagate Osage Orange by selecting healthy, semi-hardwood branches in late spring or early summer. Due to the dense wood and latex sap, wounds must be clean and wrapped tightly with sphagnum moss and plastic to retain moisture. Rooting hormone application improves success rates. Monitor moisture levels closely to prevent drying, since thick bark can slow root emergence visibility.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Feed Osage Orange bonsai with a balanced, slow-release fertilizer high in nitrogen during the growing season (spring through summer) to support vigorous growth. Supplement with liquid fertilizer every 2-3 weeks during active growth. Reduce feeding frequency in late summer and suspend in winter dormancy. Avoid excessive fertilization to prevent overly vigorous shoots and thorn proliferation.",
+      timing: "Spring to late summer, every 2-3 weeks liquid feed, slow-release fertilizer at start of season",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Monitor regularly for pests common to Osage Orange, such as scale insects and spider mites, especially during hot, dry periods. The species is susceptible to fungal root rot (cotton root rot) if overwatered or poorly drained, so maintain excellent soil drainage. Remove fallen leaves and fruit promptly to reduce fungal spore buildup. Use horticultural oils and fungicides as preventive measures during growing season if needed.",
+      timing: "Inspect monthly during growing season, treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'thyme-common-thyme-garden-thyme-german-thyme',
+    scientificName: "Thymus vulgaris L.",
+    commonName: "Thyme (Common Thyme, Garden Thyme, German Thyme)",
+    group: "Various",
+    temperatureMin: -5,
+    temperatureMax: 23,
+    sunExposure: "Full sun, requiring a minimum of 6 or more hours of direct sunlight per day. It can tolerate some afternoon shade in extremely hot climates, but full sun is preferred for compact growth.",
+    position: "Outdoor. Thymes are fully hardy, but require protection from frost below -5°C (23°F) if planted in small bonsai pots. It can be overwintered in a cool greenhouse or insulated area.",
+    leafType: "Evergreen",
+    climate: "Hardy, but requires frost protection for temperatures below -5°C (23°F) when kept in a bonsai pot. The optimal growing temperature is between 18°C and 27°C (65°F and 80°F). It is heat and drought tolerant once established.",
+    flowering: "Seasonal",
+    nativeRegion: "Southern Europe, specifically from the western Mediterranean to southern Italy, growing naturally in dry grassland and rocky hillsides.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "Aromatic foliage that is often used for culinary purposes, allowing for 'prune-and-use' maintenance. The small leaf size (rarely over 10mm) is naturally in scale for miniature bonsai (Shohin and Mame). It produces small, terminal flowers in summer, which should be pruned hard after blooming to maintain shape. It is highly susceptible to root rot from overwatering.",
+      soilType: "Well-drained, porous, and alkaline soil mix. It strongly dislikes acidic soil. The addition of a small amount of lime or a pH between 7.0 and 8.0 is beneficial. A basic bonsai soil mix with good drainage is essential to prevent root rot.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water moderately, allowing the soil to dry slightly between waterings. Thyme strongly dislikes permanently wet or waterlogged soil, which can lead to rapid root rot. In very hot weather, it may need more frequent watering, but care must be taken not to overwater. It is drought-tolerant once established."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in early spring before new growth begins, removing weak, crossing, or overly long stems to encourage a compact, multi-trunk or shrub-style bonsai. Because Thyme naturally grows with multiple thin trunks, focus on balancing trunk spacing and removing any overly vigorous shoots that disrupt the silhouette. Use sharp scissors to avoid damaging the delicate stems and retain a natural, spreading habit.",
+      timing: "Early spring (before active growth)",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly shear new growth during the growing season to maintain a dense, compact canopy and encourage leaf refinement. Pinch or trim back shoots once they have developed 4-6 pairs of leaves to prevent legginess. After flowering in summer, perform hard pruning of flowered shoots to maintain shape and prevent woody, sparse branches.",
+      timing: "Every 3-4 weeks during growing season (spring through summer), hard prune after flowering in late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Flexible Wire",
+      description: "Use thin, flexible aluminum or annealed copper wire (0.5-1.0 mm) to gently shape young, pliable stems without risk of snapping. Because Thyme stems are thin and brittle, wiring should be light and temporary, left on no longer than 4-6 weeks to avoid wire marks. Wiring is mainly used to position primary branches or refine trunk bends in younger specimens.",
+      timing: "Early spring or early summer when stems are flexible",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Repotting",
+      description: "Repot Thyme bonsai every 2 years in early spring before new growth starts to refresh soil and prevent root rot. Use a well-draining alkaline bonsai mix with added lime to maintain pH 7.0-8.0. Avoid repotting during hot summer months or winter dormancy to reduce stress.",
+      timing: "Early spring, every 2 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "During repotting, prune back about one-third of the root mass, focusing on removing soft, black, or rotten roots to maintain health. Avoid excessive root pruning, as Thyme has a relatively shallow root system and over-pruning may cause stress. Use clean, sharp tools and treat cuts with fungicide if possible to avoid infection.",
+      timing: "During repotting (early spring every 2 years)",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation Not Recommended",
+      description: "Complete defoliation is not recommended for Thyme bonsai because its tiny evergreen leaves are essential for photosynthesis and recovery can be slow. Removing all leaves risks weakening the plant and reducing vigor. Instead, maintain foliage density through regular pruning and pinching.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Growth",
+      description: "Pinch out the growing tips when new shoots develop 4-6 pairs of leaves to encourage bushier growth and prevent legginess. This technique helps maintain the natural compact, low-spreading habit of Thyme by promoting lateral branching. Use fingertips or small scissors for precise pinching.",
+      timing: "Throughout growing season, every 2-3 weeks as new shoots appear",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting Generally Unused",
+      description: "Grafting is rarely used for Thyme bonsai because the species naturally produces multiple trunks and is easy to propagate by cuttings. Additionally, its slow to moderate growth and woody base reduce the need for grafting to improve trunk thickness or branch placement.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Jin (Deadwood) Not Suitable",
+      description: "Creating Jin on Thyme is generally not recommended because the thin, flexible stems do not develop sufficient thickness or hardness to sustain deadwood features. Moreover, the aesthetic of Thyme bonsai emphasizes lush, aromatic foliage rather than aged or weathered wood.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Not Suitable",
+      description: "Shari is not appropriate for Thyme bonsai due to the species’ naturally thin trunks and delicate bark, which cannot support or display trunk deadwood effectively. Its value lies more in foliage density and form rather than trunk texture.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development by Surface Root Encouragement",
+      description: "To develop a pleasing nebari, prune roots carefully during repotting to encourage fine surface roots spreading evenly around the base. Use a shallow bonsai pot to restrict deep root growth and promote lateral root expansion. Lightly scrape the root base bark during early growth years to stimulate root flare development.",
+      timing: "During early repotting (years 2-5), annually monitor root flare development",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving Not Recommended",
+      description: "Carving techniques are not suitable for Thyme bonsai due to the small size and softness of its stems and trunks. Carving would damage the plant and is unlikely to create satisfactory deadwood effects. Focus instead on shaping by pruning and wiring.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering with Careful Timing",
+      description: "Air layering can be used to propagate Thyme from mature stems by wounding the branch and wrapping with moist sphagnum moss, but should only be performed in late spring to early summer when growth is active. Ensure high humidity and partial shade during rooting to prevent drying out.",
+      timing: "Late spring to early summer",
+      maturityStage: "Mature plants (3+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing with Balanced, Low-Nitrogen Feed",
+      description: "Apply a balanced, slow-release fertilizer with slightly lower nitrogen (e.g., NPK 10-10-10 or 5-10-10) every 4-6 weeks during the growing season to avoid excessive vegetative growth that could reduce compactness. Supplement with liquid fertilizer diluted to half strength during peak growth months (spring and summer). Avoid fertilizing in winter.",
+      timing: "Every 4-6 weeks from early spring through late summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management Focused on Root Rot Prevention",
+      description: "The primary concern for Thyme bonsai is root rot caused by overwatering and poor drainage. Prevent root rot by using well-draining soil, moderate watering, and ensuring pots have adequate drainage holes. Occasionally inspect for fungal infections and treat with appropriate fungicides if necessary. Thyme is otherwise pest-resistant but watch for occasional aphids or spider mites.",
+      timing: "Year-round vigilance, especially during warm, humid conditions",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'bamboo-golden-bamboo-or-fish-pole-bamboo',
+    scientificName: "Phyllostachys aurea",
+    commonName: "Bamboo (Golden Bamboo or Fish Pole Bamboo)",
+    group: "Various",
+    temperatureMin: -20,
+    temperatureMax: 5,
+    sunExposure: "Requires ample light. Best placed in full sun or partial shade. Full sun encourages the culms to turn a golden yellow color and promotes denser growth. When grown indoors, it requires the brightest possible window.",
+    position: "Outdoor, year-round. It is a very strong plant that can survive in most places. While it can be grown indoors in a bright window, it is not ideal and often needs to be rotated outside to maintain health. It is hardy to USDA Zones 6-10.",
+    leafType: "Deciduous",
+    climate: "Hardy to approximately -20.5°C (-5°F). For optimal growth, temperatures around 19°C (66°F) are ideal. It should be protected from prolonged exposure to temperatures below 7°C (45°F), especially when in a shallow bonsai pot.",
+    flowering: "Seasonal",
+    nativeRegion: "China, specifically temperate regions with moderate rainfall.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The most distinguishing feature is the compressed, \"knotted\" appearance of the lower internodes near the base of the culms (canes), which is often referred to as \"Fish Pole Bamboo.\" The culms are naturally a light green but turn a striking golden-yellow when exposed to sufficient sunlight. It is a running bamboo, which is a unique challenge in bonsai, requiring diligent root pruning and containment.",
+      soilType: "A well-draining, moisture-retentive mix is essential. A recommended composition is equal parts Pumice, Lava rock, and Akadama to ensure water flows through easily and prevents waterlogging and root rot.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Very high water requirement. The soil must be kept moist at all times. Daily watering is often necessary, especially in warm weather, due to its fast growth and high water consumption. Ensure excellent drainage to prevent root rot."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Golden Bamboo bonsai, structural pruning involves selectively cutting back entire culms at the base to control height and encourage new shoots. Remove older culms that have lost vigor to maintain a balanced silhouette and promote air circulation. Focus on maintaining the distinctive knotted lower internodes by leaving well-developed culms intact. This pruning controls the running habit and prevents overcrowding within the pot.",
+      timing: "Early spring, before new growth begins, or late autumn after active growth has ceased.",
+      maturityStage: "After 2-3 years or once the culms reach desired height.",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regularly remove yellowed or damaged leaves and thin out dense leaf clusters to improve light penetration and airflow. Pinch back new shoots to encourage denser branching and culm thickening. Remove any weak or spindly shoots promptly to focus energy on strong growth. This keeps the bonsai tidy and healthy between major structural prunings.",
+      timing: "Throughout the growing season, especially late spring through summer, every 2-4 weeks.",
+      maturityStage: "From first year of pot cultivation.",
+      notRecommended: false
+    },
+    {
+      name: "Wiring Culms",
+      description: "Wiring Golden Bamboo requires caution due to the hollow, segmented culms which can crack easily. Use soft, flexible wire such as aluminum or raffia wraps to protect the culms. Wire only younger, more flexible culms in early spring before lignification hardens the culm. Avoid wiring mature, thick culms to prevent damage. Wiring is primarily used to slightly adjust culm angles rather than tight bends.",
+      timing: "Early spring, when new culms are still green and flexible.",
+      maturityStage: "After 1-2 years when culms are thick enough to hold form but still pliable.",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot Golden Bamboo bonsai every 2-3 years to refresh soil and control root spread. Carefully lift the clump and trim excess rhizomes and roots to prevent pot-bound conditions. Use a fast-draining mix of pumice, lava rock, and akadama to maintain moisture without waterlogging. Repotting during early spring before active growth ensures rapid recovery.",
+      timing: "Early spring, before new shoot emergence.",
+      maturityStage: "After first year in bonsai pot and periodically thereafter.",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "Root pruning is critical to control the aggressive running rhizomes and maintain bonsai size. During repotting, prune back thick rhizomes to encourage dense fibrous roots near the base. Remove long, horizontal rhizomes to prevent spread and stimulate compact root systems. Avoid excessive pruning that may shock the plant; maintain at least 60% of the root mass intact.",
+      timing: "Alongside repotting in early spring every 2-3 years.",
+      maturityStage: "After 2 years when the root system is established.",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Defoliation is generally not recommended for Golden Bamboo bonsai due to its small, slender leaves and fast growth habit. Removing all leaves can stress the plant and reduce photosynthesis capacity drastically. Instead, focus on regular leaf thinning and maintenance pruning to manage leaf density without complete defoliation.",
+      timing: "Not recommended.",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoots by removing the top 1-2 leaf sheaths once they reach 10-15 cm to encourage branching and denser foliage. This technique helps maintain compact growth and promotes a fuller appearance. Pinching also delays elongation of culms, keeping the bonsai proportionate.",
+      timing: "Late spring through summer, repeat every 2-3 weeks during active growth.",
+      maturityStage: "From first year of pot culture.",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely used or necessary for Golden Bamboo bonsai because of its fast growth and easy propagation via rhizome division. Its natural vigor and running habit make grafting superfluous and complex. Instead, propagation by division or rhizome cuttings is preferred.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating Jin (deadwood) is generally unsuitable for Golden Bamboo because the culms are hollow and thin-walled, making deadwood formation unnatural and structurally weak. The natural beauty of the bamboo lies in its knotted internodes and golden culms, which are better preserved without deadwood techniques.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not recommended for Golden Bamboo bonsai because the culms are hollow and have thin walls that do not lend themselves to deadwood carving. Attempting shari risks damaging the structural integrity of the culms, compromising plant health and aesthetics.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Developing nebari focuses on encouraging a dense cluster of culms with visible rhizome bases just above the soil. During repotting, root pruning should preserve and encourage thick, fibrous roots near the surface to create a natural-looking base. Position culms to display the compressed knotted lower internodes, enhancing the bonsai’s fish-pole character.",
+      timing: "During repotting every 2-3 years, beginning after 2 years of growth.",
+      maturityStage: "After 2-3 years when multiple culms have developed.",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving techniques are not recommended on Golden Bamboo culms as they are hollow and fragile. Any attempts at carving risk structural damage and infection. Instead, focus on natural form and the unique golden coloration by optimizing cultural care.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering can be used to propagate Golden Bamboo by inducing root formation on a selected culm segment. Select a healthy culm in early spring, remove a ring of the outer layer, apply rooting hormone, and wrap with moist sphagnum moss and plastic. Once roots develop in 4-6 weeks, the culm can be cut and potted separately. This is useful for creating new bonsai specimens.",
+      timing: "Early spring during active growth but before full lignification.",
+      maturityStage: "Mature culms, at least 1 year old.",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Fertilize Golden Bamboo bonsai monthly during the growing season (spring through early autumn) with a balanced, slow-release fertilizer high in nitrogen to support rapid growth and dense foliage. Supplement with liquid fertilizer diluted to half strength every 2 weeks during peak growth. Reduce or cease fertilization in late autumn to allow dormancy preparation.",
+      timing: "Monthly slow-release fertilizing March to October; liquid fertilizer biweekly during active growth.",
+      maturityStage: "From first year in bonsai pot.",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Golden Bamboo is susceptible to spider mites, aphids, and fungal leaf spots, especially in hot, dry conditions. Regularly inspect foliage and treat infestations promptly with insecticidal soap or neem oil. Maintain high humidity and avoid waterlogging to prevent root rot and fungal diseases. Good airflow and proper watering reduce pest and disease risks.",
+      timing: "Inspect weekly during growing season; treat pests immediately upon detection.",
+      maturityStage: "All stages.",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'montpelier-maple',
+    scientificName: "Acer monspessulanum",
+    commonName: "Montpelier Maple",
+    group: "Various",
+    temperatureMin: 5,
+    temperatureMax: -28,
+    sunExposure: "Full sun is tolerated and even enjoyed, unlike many other maples. Partial shade is recommended only in the hottest climates or during the peak of midsummer to prevent scorching. Full sun encourages better leaf reduction.",
+    position: "Outdoor. It is a deciduous species that requires a cold dormancy period. It is well-suited for outdoor cultivation and can withstand climates too hot or dry for most other maples.",
+    leafType: "Deciduous",
+    climate: "Hardy to USDA Zone 5, which corresponds to an average annual minimum temperature range of -28.9°C to -23.3°C (-20°F to -10°F). It tolerates heat and some drought, making it suitable for warmer climates where other maples struggle. Optimal growing temperature is 18°C to 27°C (65°F to 80°F), and it can tolerate up to 35°C (95°F) during its primary growing phase.",
+    flowering: "Seasonal",
+    nativeRegion: "Native to the Mediterranean region, including Southern Europe (e.g., France, Germany, Spain) and Northwest Africa. It is found in dry, rocky, and calcareous (limestone) soils.",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "A key distinguishing feature is its high tolerance for heat and dry conditions, which is unusual for a maple. Its small, leathery, three-lobed leaves (up to 3 inches across) are naturally small and reduce easily for bonsai. The leaves are semi-evergreen in warm winter locations. The samaras (to 1 inch long) have reddish wings that are connivent or overlapping. It is similar to the Field Maple (_Acer campestre_) but has smaller, darker, hairless leaves, and non-milky sap.",
+      soilType: "A standard bonsai soil mix is suitable, but it should be slightly rich in organic material and well-draining. It naturally grows in calcareous (limestone) and stony soils, indicating a preference for a soil that is not overly acidic and has good drainage. Repotting is recommended every 2-3 years in the spring before bud burst.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "It is more drought-tolerant than most other maple species, but as a bonsai, it still requires regular watering. Water thoroughly when the topsoil begins to dry out, ensuring good drainage. Avoid letting the soil completely dry out for extended periods, but it is less sensitive to brief dry spells than Japanese Maples."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "Perform structural pruning in early spring just before bud break to define the primary branch framework. Focus on removing overly vigorous or crossing branches to maintain the naturally narrow, dense branching habit of Montpelier Maple. Since the species tolerates hard pruning well, cut back strong shoots to encourage ramification but avoid pruning in late summer to prevent slow healing issues.",
+      timing: "Early spring, before bud burst",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Conduct maintenance pruning throughout the growing season, particularly in late spring and early summer, to control new shoot growth and maintain compact foliage pads. Pinch or cut back new shoots once they have produced 5-6 leaves to encourage back-budding and denser ramification. Avoid heavy pruning in late summer or fall due to the species’ slow wound healing.",
+      timing: "Late spring to early summer, as needed",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Caution",
+      description: "Use thin, flexible wiring in late winter or early spring before bud swell to shape branches, taking care due to the relatively slow healing and brittle nature of Montpelier Maple branches. Avoid wiring thick branches aggressively; instead, apply gentle bends and gradually adjust over multiple seasons. Remove wiring promptly once the branch holds shape to prevent scarring.",
+      timing: "Late winter to early spring, before bud swell",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Spring Repotting",
+      description: "Repot every 2-3 years in early spring just before bud burst to minimize stress and optimize root recovery. Use a well-draining soil mix with slight organic content and a neutral to slightly alkaline pH to mimic natural calcareous soils. Avoid repotting in summer or fall due to slower healing and potential root damage.",
+      timing: "Early spring, before bud burst, every 2-3 years",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Conservative Root Pruning",
+      description: "During repotting, prune roots conservatively to avoid excessive stress, removing about one-third of the root mass focusing on thick, woody roots to promote fine feeder roots. Because Montpelier Maple heals slowly, avoid aggressive root cuts and ensure rapid replanting in well-draining soil to prevent root rot. Root pruning supports healthy growth while accommodating the tree’s slow recovery.",
+      timing: "Early spring at repotting",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Selective Defoliation",
+      description: "Partial defoliation can be performed in early summer to reduce leaf size further and increase ramification but should be limited to avoid excessive stress due to the species’ slow healing. Remove only some fully matured leaves rather than complete defoliation to maintain energy reserves. This technique enhances the naturally small leaf size and improves sunlight penetration within the canopy.",
+      timing: "Early summer, after full leaf expansion",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new shoots when they develop 5-6 leaves during the active growing season to encourage back budding and denser branching. Use finger pinching rather than cutting to reduce wound size and promote faster healing. This helps maintain the compact growth habit and enhances natural leaf reduction in Montpelier Maple.",
+      timing: "Late spring through mid-summer, regularly",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Appropriate Grafting",
+      description: "Grafting is occasionally used to repair damaged branches or to change branch positions on Montpelier Maple due to its slow healing and moderate graft compatibility. Approach grafting in early spring, using scion wood from healthy, vigorous shoots. Avoid grafting in late summer or fall as healing and callusing are slower in this species.",
+      timing: "Early spring, before bud break",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Creating jin is suitable but should be done cautiously due to the slow healing and smooth bark of Montpelier Maple. Remove dead branches or create deadwood features in late winter or early spring to allow wounds to heal during active growth. Use sharp tools and disinfect them to prevent infections; seal jin areas with lime sulfur to preserve aesthetics and prevent decay.",
+      timing: "Late winter to early spring",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Shari (Trunk Deadwood) Development",
+      description: "Shari can be applied to older specimens to add character but should be limited and carefully executed to prevent excessive stress. Perform shari work in late winter, avoiding large or deep trunk wounds since Montpelier Maple’s slow healing increases risk of decay. After carving, treat exposed wood with lime sulfur to protect and highlight the feature.",
+      timing: "Late winter",
+      maturityStage: "Mature trees only",
+      notRecommended: false
+    },
+    {
+      name: "Nebari Development by Root Flare Exposure",
+      description: "Develop a wide, visually appealing nebari by carefully exposing and positioning surface roots during repotting. Avoid aggressive root pruning near the nebari to maintain stability. Encourage radial root growth by positioning the tree slightly angled in the pot and removing obstructive roots gradually over several repotting cycles to preserve health and enhance the natural limestone habitat effect.",
+      timing: "At repotting every 2-3 years",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving with Restraint",
+      description: "Carving techniques are not generally recommended for Montpelier Maple due to its slow healing and smooth, thin bark that scars easily. If carving is desired for deadwood effects, limit the work to small areas and perform during active growth periods to promote healing. Use sharp, sterile tools and apply wound sealants cautiously to prevent infection and decay.",
+      timing: "Late winter to early spring, during active growth",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering for Propagation",
+      description: "Air layering can be successfully performed in late spring to early summer when the tree is actively growing. Select healthy branches and wound the bark carefully to encourage root formation, ensuring high humidity and warmth to support root development. Avoid air layering in late fall or winter due to reduced sap flow and slower healing.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Seasonal Fertilizing",
+      description: "Use a balanced bonsai fertilizer with moderate nitrogen from early spring through late summer to support steady but controlled growth. Incorporate a fertilizer with slightly higher potassium in late summer to promote root development and cold hardiness. Avoid fertilizing during dormancy in winter to prevent weak bud break and reduce stress on the tree.",
+      timing: "Early spring to late summer, monthly applications",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Watering and Humidity Management",
+      description: "Water Montpelier Maple thoroughly when the topsoil begins to dry, ensuring excellent drainage to prevent root rot. Due to its drought tolerance, brief dry spells can be tolerated but prolonged dryness should be avoided to maintain vitality. In hot climates, provide partial shade during peak summer and mist occasionally to increase humidity without waterlogging the soil.",
+      timing: "Growing season: water when topsoil dries; adjust frequency by climate",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'ivy-english-ivy',
+    scientificName: "Hedera helix L.",
+    commonName: "Ivy (English Ivy)",
+    group: "Various",
+    temperatureMin: 10,
+    temperatureMax: 24,
+    sunExposure: "Prefers partial shade, especially during the hottest part of the day, but can tolerate full sun in temperate climates. Bright, indirect light is recommended for indoor placement. Must be protected from intense winter sun to prevent leaf damage.",
+    position: "Outdoor, but requires protection from hard frost. Can be kept indoors as a houseplant, but needs a cool, bright location and high humidity to prevent pests.",
+    leafType: "Evergreen",
+    climate: "Thrives best in a moderate climate between 10°C and 24°C. Established plants can tolerate brief drops down to -23°C to -25°C, but bonsai should be protected from freezing temperatures (below 0°C) to prevent root damage, especially when kept in shallow containers. Ideal indoor temperature is 10°C to 21°C.",
+    flowering: "Seasonal",
+    nativeRegion: "Europe, Western Asia, and Northern Africa (Eurasia).",
+    difficultyLevel: 'Intermediate',
+    category: 'Intermediate',
+    careTips: {
+      general: "The main distinguishing feature is its two distinct growth stages: a juvenile, lobed-leaf, climbing stage, and an adult, entire-leaf, bushy stage. Bonsai techniques are used to force the plant to remain in the juvenile stage, which is more aesthetically pleasing for miniature trees. It is also one of the few vines commonly used for bonsai.",
+      soilType: "A standard, well-draining bonsai soil mix is suitable. A common composition includes a blend of inorganic materials like Akadama, Pumice, and Lava rock, or a mix of 50% inorganic material (e.g., coarse sand, crushed granite) and 50% organic material (e.g., potting compost, peat moss, or coco coir). A pH range of 6.0 to 7.5 is preferred.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water thoroughly when the top layer of soil begins to feel slightly dry. The soil should be kept consistently moist but never soggy to prevent root rot. Watering frequency will increase significantly in warmer months (potentially daily) and decrease in winter. Good drainage is essential."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For English Ivy bonsai, structural pruning involves selectively removing long, leggy vines and thick stems to encourage a compact, bushy form that mimics juvenile growth. Focus on cutting back adult-stage mature stems with entire leaves to promote juvenile lobed leaves. Remove any crossing or inward-growing branches to maintain clean ramification. This also helps control the climbing habit and encourages back-budding from old wood.",
+      timing: "Late winter to early spring before active growth begins",
+      maturityStage: "After 1-2 years of growth",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Regular maintenance pruning is essential to keep the plant in its juvenile stage and maintain the desired leaf size and shape. Pinch or prune new growth tips once they have 4-6 leaves to encourage branching and prevent elongation. Remove any shoots that show signs of adult leaf formation. This keeps the bonsai dense and prevents it from becoming vine-like again.",
+      timing: "Throughout the growing season (spring through early autumn), every 2-4 weeks",
+      maturityStage: "After initial shaping, ongoing throughout life",
+      notRecommended: false
+    },
+    {
+      name: "Wiring",
+      description: "Due to the flexible and woody vine nature of English Ivy, wiring should be done carefully with soft aluminum or annealed copper wire. Wrap wires loosely to avoid constriction, as the stems are prone to damage. Wiring is primarily used to guide younger stems and create gentle curves rather than sharp bends. Avoid wiring thick, older stems as they are brittle and can snap easily.",
+      timing: "Early spring when stems are actively growing and flexible",
+      maturityStage: "After 1 year when stems are sufficiently woody but still pliable",
+      notRecommended: false
+    },
+    {
+      name: "Repotting",
+      description: "Repot English Ivy bonsai every 1-2 years to refresh soil and prevent root binding. Use a well-draining bonsai soil mix with 50% inorganic components to avoid waterlogging. Repotting is best done in early spring just before new growth starts to reduce stress. Avoid repotting during hot summer months or winter dormancy to prevent root damage and shock.",
+      timing: "Early spring (March-April) before active growth",
+      maturityStage: "After 1 year of growth in container",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune approximately one-third of the root mass to stimulate new feeder root growth and maintain a compact root system. Remove any thick, woody roots and damaged roots to improve absorption. This technique helps keep the bonsai healthy and prevents root rot, which is critical due to the shallow soil depth of bonsai pots.",
+      timing: "At repotting in early spring",
+      maturityStage: "After 1 year in pot",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation",
+      description: "Complete defoliation is generally not recommended for English Ivy bonsai, as this species relies on leaves for continuous photosynthesis and can be stressed by leaf removal. Instead, selective leaf pruning or pinching is preferred to maintain juvenile leaves and control size. Defoliation can weaken the plant and increase susceptibility to pests and diseases.",
+      timing: "Not recommended; avoid unless absolutely necessary",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Pinching",
+      description: "Pinching is the preferred method to maintain juvenile lobed leaves and control growth. Use fingernails or sharp scissors to pinch back new growth tips once 4-6 leaves have formed. This encourages branching and prevents elongation that leads to adult leaf development. Consistent pinching helps maintain the desired miniature, dense appearance.",
+      timing: "Throughout the growing season, every 1-3 weeks as new shoots develop",
+      maturityStage: "After initial shaping, ongoing",
+      notRecommended: false
+    },
+    {
+      name: "Grafting",
+      description: "Grafting is rarely used in English Ivy bonsai due to its vigorous natural growth and ease of propagation by cuttings. However, grafting can be employed to add thicker branches or desired traits if a particular cultivar is used. Careful alignment and secure binding are necessary due to the delicate vine stems.",
+      timing: "Early spring during active growth",
+      maturityStage: "Mature plants with well-established woody stems",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood)",
+      description: "Creating Jin is generally not suitable for English Ivy bonsai because its thin, vine-like woody stems lack the thickness and durability to maintain deadwood without rapid decay. Attempts at Jin often result in rot and weaken the overall structure. Focus should be on healthy, living growth rather than deadwood features.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood)",
+      description: "Shari is not recommended for English Ivy bonsai as the species' thin, flexible trunks do not support exposed deadwood well and it tends to rot quickly in moist conditions. The aesthetic of English Ivy bonsai is better maintained through vigorous juvenile foliage and clean trunk lines rather than deadwood techniques.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development",
+      description: "Nebari development in English Ivy bonsai is challenging due to its vining habit but can be encouraged by training multiple stems near the base and root pruning to stimulate feeder root growth around the base. Using shallow containers and periodically exposing roots during repotting helps create a visually appealing root flare. Anchoring young vines to the container surface encourages radial root expansion.",
+      timing: "Begin after 1-2 years of growth; ongoing during repotting",
+      maturityStage: "After initial establishment in bonsai pot",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is not recommended for English Ivy bonsai due to the thin, flexible stems that are easily damaged and do not produce durable scar tissue. The species' natural form and juvenile foliage are the primary aesthetic features, so carving would detract from the plant's health and appearance.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering is an effective propagation method for English Ivy bonsai to create new plants or thicken trunks more quickly. Select healthy, semi-woody stems in spring or early summer, remove a ring of bark, apply rooting hormone, and wrap with moist sphagnum moss and plastic. Monitor moisture regularly to ensure root development before detachment.",
+      timing: "Spring to early summer during active growth",
+      maturityStage: "After 1 year of growth with woody stems",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing",
+      description: "Fertilize English Ivy bonsai with a balanced, water-soluble fertilizer (e.g., 10-10-10 NPK) every 2-3 weeks during the growing season to support vigorous growth and maintain juvenile foliage. Reduce feeding frequency during autumn and suspend during winter dormancy. Organic fertilizers or slow-release pellets can also be used to maintain soil health.",
+      timing: "Spring through early autumn, every 2-3 weeks",
+      maturityStage: "After establishment in bonsai pot (1 year+)",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "English Ivy bonsai is susceptible to spider mites, aphids, and scale insects, especially indoors with low humidity. Regularly inspect foliage and stems; treat infestations early with insecticidal soap or neem oil. Root rot can occur if soil remains soggy, so ensure excellent drainage and avoid overwatering. Maintain high humidity and good air circulation to reduce pest pressure.",
+      timing: "Inspect weekly during growing season; treat as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  },
+  {
+    id: 'port-jackson-fig-rusty-fig',
+    scientificName: "Ficus rubiginosa",
+    commonName: "Port Jackson Fig (Rusty Fig)",
+    group: "Various",
+    temperatureMin: 16,
+    temperatureMax: 22,
+    sunExposure: "Requires a lot of light, preferably full sunlight when outdoors. Indoors, it should be placed in the brightest possible location, such as a sunny windowsill. Tolerant of low to medium light levels, but growth is best in bright conditions.",
+    position: "Primarily Indoor. Can be kept Outdoors during summer when temperatures are consistently above 15°C (60°F). Requires careful indoor placement during winter.",
+    leafType: "Evergreen",
+    climate: "Ideal summer temperature is 16°C to 22°C. Ideal winter temperature is around 15°C. The temperature should not fall below 13°C for extended periods, as it is not frost-hardy. It can tolerate lower temperatures for a short time, but this is not recommended.",
+    flowering: "Seasonal",
+    nativeRegion: "Eastern Australia (New South Wales and Queensland), also found in New Zealand, Hawaii, and California as an ornamental tree.",
+    difficultyLevel: 'Beginner',
+    category: 'Beginner',
+    careTips: {
+      general: "A strong and robust Ficus species. Its most distinguishing feature is the rusty-red, hairy underside of its leaves, which gives it the common name \"Rusty Fig.\" It is highly valued for its ability to readily produce aerial roots, making it ideal for banyan and root-over-rock styles. It tolerates defoliation well for leaf size reduction.",
+      soilType: "Standard, well-drained bonsai mix is suitable. The article suggests a mixture of coarse sand, compost, and garden substrate with a lower layer of expanded clay and sand for drainage. Repotting is recommended every 2-4 years due to its vigorous rooting.",
+      feeding: "Fertilize regularly during growing season",
+      watering: "Water regularly, allowing the soil to dry out well before the next irrigation. In summer, water 1-2 times per week. During the hottest months, 'immersion' watering (submerging the pot until bubbles stop) can be done daily. In winter, reduce watering to once every 7-10 days. Avoid over-moistening."
+    },
+    bonsaiStyles: ['Informal Upright', 'Formal Upright', 'Slanting'],
+    techniques: [
+    {
+      name: "Structural Pruning",
+      description: "For Port Jackson Fig, structural pruning is best done in early spring before active growth starts. Remove any crossing, dead, or weak branches to develop a strong framework, focusing on encouraging a balanced canopy that highlights the rugged trunk and aerial root potential. This species responds vigorously, so make clean cuts close to the trunk to prevent dieback. Avoid heavy pruning in late autumn or winter to prevent stress.",
+      timing: "Early spring (before active growth starts)",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Maintenance Pruning",
+      description: "Maintenance pruning for this species involves regular trimming of new shoots throughout the growing season to maintain compactness and encourage smaller leaves. Pinch or cut back long shoots once they have 4-6 leaves to stimulate branching. Due to its vigorous growth, monthly pruning in spring and summer is beneficial. Avoid heavy pruning in winter as the tree slows down.",
+      timing: "Monthly during spring and summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Wiring with Flexible Aluminum Wire",
+      description: "Use soft, flexible aluminum wire to shape branches and trunks, as Port Jackson Fig branches are flexible but can snap if bent too harshly. Wire during late winter or early spring before vigorous growth begins, and monitor wiring closely, removing or adjusting within 4-6 weeks to avoid wire cutting into bark. Wiring helps emphasize the natural aerial root structures and trunk movement.",
+      timing: "Late winter to early spring",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Repotting and Root Disturbance",
+      description: "Repot every 2-3 years in early spring just before growth accelerates, using a well-draining bonsai soil mix with coarse sand and expanded clay. Due to its vigorous root growth, this species tolerates significant root pruning and disturbance, which helps prevent root binding and promotes a healthy nebari. Refresh soil to maintain aeration and nutrient availability.",
+      timing: "Early spring every 2-3 years",
+      maturityStage: "After 1-2 years",
+      notRecommended: false
+    },
+    {
+      name: "Root Pruning",
+      description: "During repotting, prune approximately one-third of the roots, focusing on removing thick, old roots to encourage fine root development. Because Port Jackson Fig tolerates heavy root pruning well, this promotes a denser root ball and improves nutrient uptake. Avoid root pruning in late autumn or winter to prevent cold damage to fresh cuts.",
+      timing: "During repotting in early spring",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Defoliation for Leaf Size Reduction",
+      description: "Partial defoliation is recommended in mid to late summer to reduce leaf size and improve ramification. Remove about 50% of the mature leaves, focusing on older, larger leaves. This species tolerates defoliation well due to its vigorous growth and evergreen nature, allowing it to quickly replace foliage with smaller leaves, enhancing aesthetic appeal.",
+      timing: "Mid to late summer",
+      maturityStage: "After 3 years",
+      notRecommended: false
+    },
+    {
+      name: "Pinching New Shoots",
+      description: "Pinch back new growth shoots once they develop 4-6 leaves rather than cutting, to maintain finer branch structure and promote back-budding. This technique is effective in Port Jackson Fig because it responds vigorously to stimulus, resulting in denser foliage and smaller leaves. Pinching should be combined with pruning for optimal canopy control.",
+      timing: "Throughout growing season, especially spring and summer",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Grafting for Branch Development",
+      description: "Grafting is occasionally used to add finer branches or aerial roots from selected donor Port Jackson Fig plants. Approach with side grafts in early spring when sap flow begins, ensuring scion and rootstock compatibility. This method is useful to enhance nebari or create root-over-rock styles where natural branch development is insufficient.",
+      timing: "Early spring",
+      maturityStage: "Mature trees only (3+ years)",
+      notRecommended: false
+    },
+    {
+      name: "Jin (Deadwood) Creation",
+      description: "Creating jin is generally not recommended for Port Jackson Fig because its natural bark is smooth and the species emphasizes lush, living aerial roots and vibrant foliage rather than deadwood. However, if desired, jin can be created on older branches during dormancy using precise carving and lime sulfur application to prevent decay.",
+      timing: "Winter dormancy",
+      maturityStage: "Mature trees only",
+      notRecommended: true
+    },
+    {
+      name: "Shari (Trunk Deadwood) Formation",
+      description: "Shari is not typically suitable for this species due to its vigorous growth and tendency to heal wounds quickly. Attempting trunk deadwood removal may cause excessive sap flow and stress. Instead, focus on highlighting the natural textured bark and aerial roots for character.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Nebari Development through Root Pruning and Exposure",
+      description: "Encourage a wide and visually balanced nebari by root pruning during repotting and carefully removing soil around the base to expose surface roots. Port Jackson Fig’s vigorous rooting habit allows for nebari shaping by slight pruning and encouraging lateral roots to thicken. Regular repotting and root flare exposure improves nebari aesthetics over time.",
+      timing: "During repotting in early spring, annually exposing nebari",
+      maturityStage: "After 2-3 years",
+      notRecommended: false
+    },
+    {
+      name: "Carving",
+      description: "Carving is generally not recommended for Port Jackson Fig because the species has relatively soft wood and vigorous growth that quickly covers wounds. Carving can invite infection and may not retain detail. Instead, use natural aerial roots and pruning to create character.",
+      timing: "N/A",
+      maturityStage: "N/A",
+      notRecommended: true
+    },
+    {
+      name: "Air Layering",
+      description: "Air layering is an effective propagation method for Port Jackson Fig, best performed in late spring to early summer when sap flow is active. Select a healthy branch, remove a ring of bark, apply rooting hormone, and wrap with moist sphagnum moss covered in plastic to maintain humidity. The species readily produces aerial roots, making air layering highly successful for bonsai creation or branch propagation.",
+      timing: "Late spring to early summer",
+      maturityStage: "After 2 years",
+      notRecommended: false
+    },
+    {
+      name: "Fertilizing Schedule",
+      description: "Fertilize monthly during the active growing season (spring through early autumn) with a balanced, water-soluble fertilizer (e.g., 10-10-10 NPK) diluted to half strength. Reduce feeding frequency during winter to once every 6-8 weeks. High phosphorus content supports root and aerial root development, while balanced nutrients encourage strong leaf growth and overall vigor.",
+      timing: "Monthly spring to early autumn; every 6-8 weeks in winter",
+      maturityStage: "After 1 year",
+      notRecommended: false
+    },
+    {
+      name: "Pest and Disease Management",
+      description: "Port Jackson Fig is susceptible to common Ficus pests such as scale insects, spider mites, and mealybugs. Regularly inspect leaves and aerial roots, especially in indoor settings. Treat infestations early with insecticidal soap or neem oil. Maintain good airflow and avoid overwatering to prevent fungal infections like root rot. High humidity encourages aerial roots but can also promote pests, so balance humidity carefully.",
+      timing: "Year-round monitoring; treatment as needed",
+      maturityStage: "All stages",
+      notRecommended: false
+    }
+    ],
+    images: {
+      developmentStages: {
+        early: "",
+        middle: "",
+        mature: ""
+      },
+      seasons: {
+        spring: "",
+        summer: "",
+        autumn: "",
+        winter: ""
+      },
+      styles: {},
+      nature: {}
+    },
+    imageCredits: {}
+  }
 ];
 
 export const getDifficultyBadgeClass = (level: string) => {
