@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Breadcrumb from './Breadcrumb';
 import { ArrowLeft, BookOpen, Image, Search, TreeDeciduous, TreePine } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
     <div className="min-h-screen" style={{ background: 'var(--warm-stone)' }}>
       <div className="max-w-4xl mx-auto px-6 py-12">
+        <Breadcrumb items={[{ label: "About" }]} />
         {/* Back Button */}
         <Link 
           to="/" 
