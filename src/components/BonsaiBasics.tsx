@@ -1,165 +1,392 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import Breadcrumb from './Breadcrumb';
+import { ArrowLeft, Droplets, Sun, Sprout, Package, Scissors, Wrench } from 'lucide-react';
 
 const BonsaiBasics: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
-      <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="min-h-screen" style={{ background: 'var(--warm-stone)' }}>
+      <div className="max-w-4xl mx-auto px-6 py-12">
+        <Breadcrumb items={[{ label: "Getting Started" }]} />
         {/* Back Button */}
         <Link 
           to="/" 
-          className="inline-flex items-center gap-2 text-green-700 hover:text-green-900 mb-6 transition-colors"
+          className="inline-flex items-center gap-2 mb-8 transition-colors"
+          style={{ 
+            color: 'var(--forest-green)',
+            fontWeight: 500,
+            fontSize: '0.9375rem'
+          }}
         >
           <ArrowLeft size={20} />
           <span>Back to Collection</span>
         </Link>
 
         {/* Header */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Bonsai Basics & Getting Started</h1>
-          <p className="text-lg text-gray-700">
+        <div className="bg-white rounded-lg p-10 mb-8" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <h1 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2.5rem',
+            fontWeight: 600,
+            color: 'var(--forest-green)',
+            marginBottom: '1rem',
+            lineHeight: 1.2
+          }}>
+            Bonsai Basics & Getting Started
+          </h1>
+          <p style={{
+            fontSize: '1.125rem',
+            color: 'var(--charcoal-gray)',
+            lineHeight: 1.7,
+            opacity: 0.9
+          }}>
             Bonsai is a centuries-old living art form, but getting started doesn't require mystical abilities or decades of experience. 
             With proper guidance and understanding of fundamental principles, anyone can successfully grow and care for bonsai trees.
           </p>
         </div>
 
         {/* Choosing Your First Bonsai */}
-        <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Choosing Your First Bonsai</h2>
+        <section className="bg-white rounded-lg p-10 mb-8" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <h2 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2rem',
+            fontWeight: 600,
+            color: 'var(--earth-brown)',
+            marginBottom: '1.5rem'
+          }}>
+            Choosing Your First Bonsai
+          </h2>
           
-          <div className="mb-6">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Indoor vs. Outdoor</h3>
-            <p className="text-gray-700 mb-4">
+          <div style={{ marginBottom: '1.5rem' }}>
+            <h3 style={{
+              fontSize: '1.5rem',
+              fontWeight: 500,
+              color: 'var(--charcoal-gray)',
+              marginBottom: '1rem'
+            }}>
+              Indoor vs. Outdoor
+            </h3>
+            <p style={{
+              color: 'var(--charcoal-gray)',
+              lineHeight: 1.7,
+              marginBottom: '1rem',
+              opacity: 0.9
+            }}>
               The first critical decision is whether you want an indoor or outdoor bonsai. Indoor bonsai are limited to subtropical 
               species that can survive indoors, such as Ficus, Jade, Fukien Tea, and Dwarf Schefflera. Outdoor bonsai offer more 
               options, but you should choose species native to your climate for best results.
             </p>
           </div>
 
-          <div className="mb-6">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Beginner-Friendly Species</h3>
-            <p className="text-gray-700 mb-4">Start with forgiving species that tolerate mistakes:</p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li><strong>Ficus retusa</strong> - Indoor/Outdoor in warm climates, very forgiving</li>
-              <li><strong>Chinese Elm</strong> - Indoor/Outdoor adaptable, excellent for beginners</li>
-              <li><strong>Jade Tree</strong> - Extremely forgiving succulent, perfect for absolute beginners</li>
-              <li><strong>Juniper</strong> - Outdoor only, very popular and widely available</li>
+          <div>
+            <h3 style={{
+              fontSize: '1.5rem',
+              fontWeight: 500,
+              color: 'var(--charcoal-gray)',
+              marginBottom: '1rem'
+            }}>
+              Beginner-Friendly Species
+            </h3>
+            <p style={{
+              color: 'var(--charcoal-gray)',
+              lineHeight: 1.7,
+              marginBottom: '1rem',
+              opacity: 0.9
+            }}>
+              Start with forgiving species that tolerate mistakes:
+            </p>
+            <ul style={{
+              listStyle: 'none',
+              padding: 0,
+              marginLeft: '1.5rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.75rem'
+            }}>
+              {[
+                { name: 'Ficus retusa', desc: 'Indoor/Outdoor in warm climates, very forgiving' },
+                { name: 'Chinese Elm', desc: 'Indoor/Outdoor adaptable, excellent for beginners' },
+                { name: 'Jade Tree', desc: 'Extremely forgiving succulent, perfect for absolute beginners' },
+                { name: 'Juniper', desc: 'Outdoor only, very popular and widely available' }
+              ].map((item, idx) => (
+                <li key={idx} style={{ 
+                  display: 'flex', 
+                  alignItems: 'flex-start',
+                  gap: '0.75rem'
+                }}>
+                  <span style={{ color: 'var(--bamboo-green)', fontSize: '1.25rem', lineHeight: 1 }}>•</span>
+                  <span style={{ color: 'var(--charcoal-gray)', lineHeight: 1.6 }}>
+                    <strong style={{ color: 'var(--earth-brown)' }}>{item.name}</strong> - {item.desc}
+                  </span>
+                </li>
+              ))}
             </ul>
           </div>
         </section>
 
         {/* Essential Care Principles */}
-        <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Essential Care Principles</h2>
+        <section className="bg-white rounded-lg p-10 mb-8" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <h2 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2rem',
+            fontWeight: 600,
+            color: 'var(--earth-brown)',
+            marginBottom: '1.5rem'
+          }}>
+            Essential Care Principles
+          </h2>
           
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-3">💧 Watering</h3>
-              <p className="text-gray-700 mb-3">
-                Proper watering is the most critical skill for bonsai success. Water when the soil begins to dry, not on a fixed schedule. 
-                Water thoroughly until water drains from the bottom, ensuring the entire root mass is wetted. Never let the soil completely 
-                dry out, but avoid overwatering which causes root rot. Check your tree daily, as small pots dry quickly.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-3">☀️ Placement</h3>
-              <p className="text-gray-700 mb-3">
-                Indoor trees need bright, indirect light and relatively high humidity. Outdoor trees need protection from extreme weather. 
-                Never move an outdoor tree indoors or vice versa, as this is a sure way to kill your bonsai. Protect trees from intense 
-                afternoon sun and freezing temperatures.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-3">🌱 Fertilizing</h3>
-              <p className="text-gray-700 mb-3">
-                Fertilize regularly during the growing season (spring through fall) using diluted fertilizer at half strength. Reduce or 
-                stop fertilizing in winter. Both liquid and solid fertilizers work well. Small pots with little space limit water and 
-                nutrient retention, making regular fertilization essential.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-3">🪴 Repotting</h3>
-              <p className="text-gray-700 mb-3">
-                Repot every 2-3 years to prevent becoming pot-bound. Best done in early spring before growth begins. Use proper bonsai 
-                soil (well-draining mix) and prune roots during repotting. This ensures your tree can properly absorb water and nutrients.
-              </p>
-            </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+            {[
+              {
+                icon: Droplets,
+                title: 'Watering',
+                content: 'Proper watering is the most critical skill for bonsai success. Water when the soil begins to dry, not on a fixed schedule. Water thoroughly until water drains from the bottom, ensuring the entire root mass is wetted. Never let the soil completely dry out, but avoid overwatering which causes root rot. Check your tree daily, as small pots dry quickly.'
+              },
+              {
+                icon: Sun,
+                title: 'Placement',
+                content: 'Indoor trees need bright, indirect light and relatively high humidity. Outdoor trees need protection from extreme weather. Never move an outdoor tree indoors or vice versa, as this is a sure way to kill your bonsai. Protect trees from intense afternoon sun and freezing temperatures.'
+              },
+              {
+                icon: Sprout,
+                title: 'Fertilizing',
+                content: 'Fertilize regularly during the growing season (spring through fall) using diluted fertilizer at half strength. Reduce or stop fertilizing in winter. Both liquid and solid fertilizers work well. Small pots with little space limit water and nutrient retention, making regular fertilization essential.'
+              },
+              {
+                icon: Package,
+                title: 'Repotting',
+                content: 'Repot every 2-3 years to prevent becoming pot-bound. Best done in early spring before growth begins. Use proper bonsai soil (well-draining mix) and prune roots during repotting. This ensures your tree can properly absorb water and nutrients.'
+              }
+            ].map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <div key={idx}>
+                  <h3 style={{
+                    fontSize: '1.5rem',
+                    fontWeight: 500,
+                    color: 'var(--charcoal-gray)',
+                    marginBottom: '1rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.75rem'
+                  }}>
+                    <Icon style={{ color: 'var(--bamboo-green)' }} size={28} />
+                    {item.title}
+                  </h3>
+                  <p style={{
+                    color: 'var(--charcoal-gray)',
+                    lineHeight: 1.7,
+                    opacity: 0.9
+                  }}>
+                    {item.content}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </section>
 
         {/* Basic Techniques */}
-        <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Basic Techniques</h2>
+        <section className="bg-white rounded-lg p-10 mb-8" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <h2 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2rem',
+            fontWeight: 600,
+            color: 'var(--earth-brown)',
+            marginBottom: '1.5rem'
+          }}>
+            Basic Techniques
+          </h2>
           
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-3">✂️ Pruning</h3>
-              <p className="text-gray-700 mb-3">
-                Pruning is the single most important technique in bonsai. Structural pruning involves major shaping and removing branches, 
-                while maintenance pruning is regular trimming to maintain shape. The best time to prune is spring for most species. 
-                Remove branches that cross, grow inward, or are disproportionate to the tree's design.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-3">🔧 Wiring</h3>
-              <p className="text-gray-700 mb-3">
-                Aluminum or copper wire is wrapped around branches to allow bending and shaping over time. Wiring can be applied year-round, 
-                but must be removed before the wire cuts into the bark (typically 2-6 months). This technique allows you to create the 
-                elegant curves and shapes characteristic of bonsai.
-              </p>
-            </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+            {[
+              {
+                icon: Scissors,
+                title: 'Pruning',
+                content: 'Pruning is the single most important technique in bonsai. Structural pruning involves major shaping and removing branches, while maintenance pruning is regular trimming to maintain shape. The best time to prune is spring for most species. Remove branches that cross, grow inward, or are disproportionate to the tree\'s design.'
+              },
+              {
+                icon: Wrench,
+                title: 'Wiring',
+                content: 'Aluminum or copper wire is wrapped around branches to allow bending and shaping over time. Wiring can be applied year-round, but must be removed before the wire cuts into the bark (typically 2-6 months). This technique allows you to create the elegant curves and shapes characteristic of bonsai.'
+              }
+            ].map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <div key={idx}>
+                  <h3 style={{
+                    fontSize: '1.5rem',
+                    fontWeight: 500,
+                    color: 'var(--charcoal-gray)',
+                    marginBottom: '1rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.75rem'
+                  }}>
+                    <Icon style={{ color: 'var(--bamboo-green)' }} size={28} />
+                    {item.title}
+                  </h3>
+                  <p style={{
+                    color: 'var(--charcoal-gray)',
+                    lineHeight: 1.7,
+                    opacity: 0.9
+                  }}>
+                    {item.content}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </section>
 
         {/* Essential Tools */}
-        <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Essential Tools</h2>
-          <p className="text-gray-700 mb-4">Must-have tools for beginners:</p>
-          <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-            <li><strong>Concave cutters</strong> - For clean branch removal that heals well</li>
-            <li><strong>Wire cutters</strong> - For cutting wire without damaging branches</li>
-            <li><strong>Pruning shears</strong> - For trimming foliage and small branches</li>
-            <li><strong>Watering can with fine rose</strong> - For gentle, thorough watering</li>
-            <li><strong>Root rake</strong> - For working with roots during repotting</li>
-            <li><strong>Chopstick</strong> - For working soil around roots</li>
+        <section className="bg-white rounded-lg p-10 mb-8" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <h2 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2rem',
+            fontWeight: 600,
+            color: 'var(--earth-brown)',
+            marginBottom: '1.5rem'
+          }}>
+            Essential Tools
+          </h2>
+          <p style={{
+            color: 'var(--charcoal-gray)',
+            lineHeight: 1.7,
+            marginBottom: '1rem',
+            opacity: 0.9
+          }}>
+            Must-have tools for beginners:
+          </p>
+          <ul style={{
+            listStyle: 'none',
+            padding: 0,
+            marginLeft: '1.5rem',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '0.75rem'
+          }}>
+            {[
+              { name: 'Concave cutters', desc: 'For clean branch removal that heals well' },
+              { name: 'Wire cutters', desc: 'For cutting wire without damaging branches' },
+              { name: 'Pruning shears', desc: 'For trimming foliage and small branches' },
+              { name: 'Watering can with fine rose', desc: 'For gentle, thorough watering' },
+              { name: 'Root rake', desc: 'For working with roots during repotting' },
+              { name: 'Chopstick', desc: 'For working soil around roots' }
+            ].map((item, idx) => (
+              <li key={idx} style={{ 
+                display: 'flex', 
+                alignItems: 'flex-start',
+                gap: '0.75rem'
+              }}>
+                <span style={{ color: 'var(--bamboo-green)', fontSize: '1.25rem', lineHeight: 1 }}>•</span>
+                <span style={{ color: 'var(--charcoal-gray)', lineHeight: 1.6 }}>
+                  <strong style={{ color: 'var(--earth-brown)' }}>{item.name}</strong> - {item.desc}
+                </span>
+              </li>
+            ))}
           </ul>
         </section>
 
         {/* Common Mistakes */}
-        <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Common Beginner Mistakes</h2>
-          <div className="space-y-3 text-gray-700">
-            <p><strong>1. Overwatering or underwatering</strong> - Check soil daily and water when needed, not on a schedule</p>
-            <p><strong>2. Wrong placement</strong> - Never move indoor trees outdoors or vice versa</p>
-            <p><strong>3. Poor soil</strong> - Use proper bonsai soil mix, not garden soil</p>
-            <p><strong>4. Neglecting repotting</strong> - Repot every 2-3 years to maintain health</p>
-            <p><strong>5. Impatience</strong> - Bonsai is a journey, not a destination</p>
-            <p><strong>6. Wrong species for climate</strong> - Choose species appropriate for your environment</p>
+        <section className="bg-white rounded-lg p-10 mb-8" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <h2 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2rem',
+            fontWeight: 600,
+            color: 'var(--earth-brown)',
+            marginBottom: '1.5rem'
+          }}>
+            Common Beginner Mistakes
+          </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {[
+              { num: 1, title: 'Overwatering or underwatering', desc: 'Check soil daily and water when needed, not on a schedule' },
+              { num: 2, title: 'Wrong placement', desc: 'Never move indoor trees outdoors or vice versa' },
+              { num: 3, title: 'Poor soil', desc: 'Use proper bonsai soil mix, not garden soil' },
+              { num: 4, title: 'Neglecting repotting', desc: 'Repot every 2-3 years to maintain health' },
+              { num: 5, title: 'Impatience', desc: 'Bonsai is a journey, not a destination' },
+              { num: 6, title: 'Wrong species for climate', desc: 'Choose species appropriate for your environment' }
+            ].map((item, idx) => (
+              <p key={idx} style={{
+                color: 'var(--charcoal-gray)',
+                lineHeight: 1.7
+              }}>
+                <strong style={{ color: 'var(--forest-green)' }}>{item.num}. {item.title}</strong> - {item.desc}
+              </p>
+            ))}
           </div>
         </section>
 
         {/* Getting Started Checklist */}
-        <section className="bg-gradient-to-r from-green-100 to-emerald-100 rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Getting Started Checklist</h2>
-          <div className="space-y-2 text-gray-800">
-            <p>✓ Choose appropriate species for your environment</p>
-            <p>✓ Obtain basic tools</p>
-            <p>✓ Learn proper watering technique</p>
-            <p>✓ Find the right placement</p>
-            <p>✓ Understand your tree's specific needs</p>
-            <p>✓ Join a local bonsai club or online community</p>
-            <p>✓ Be patient and enjoy the process</p>
+        <section className="rounded-lg p-10 mb-8" style={{ 
+          background: 'linear-gradient(135deg, var(--bamboo-green) 0%, var(--forest-green) 100%)',
+          boxShadow: '0 4px 12px rgba(45, 80, 22, 0.15)'
+        }}>
+          <h2 style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '2rem',
+            fontWeight: 600,
+            color: 'white',
+            marginBottom: '1.5rem'
+          }}>
+            Getting Started Checklist
+          </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+            {[
+              'Choose appropriate species for your environment',
+              'Obtain basic tools',
+              'Learn proper watering technique',
+              'Find the right placement',
+              'Understand your tree\'s specific needs',
+              'Join a local bonsai club or online community',
+              'Be patient and enjoy the process'
+            ].map((item, idx) => (
+              <p key={idx} style={{
+                color: 'white',
+                lineHeight: 1.6,
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: '0.75rem'
+              }}>
+                <span style={{ fontSize: '1.25rem', lineHeight: 1 }}>✓</span>
+                <span>{item}</span>
+              </p>
+            ))}
           </div>
         </section>
 
         {/* Quote */}
-        <div className="bg-white rounded-lg shadow-lg p-8 text-center">
-          <blockquote className="text-2xl font-serif italic text-gray-700">
+        <div className="bg-white rounded-lg p-10 text-center" style={{ 
+          boxShadow: '0 2px 8px rgba(45, 80, 22, 0.08)',
+          border: '1px solid var(--border)'
+        }}>
+          <blockquote style={{
+            fontFamily: "'Noto Serif', serif",
+            fontSize: '1.5rem',
+            fontStyle: 'italic',
+            color: 'var(--charcoal-gray)',
+            lineHeight: 1.5
+          }}>
             "Bonsai is not a race, nor is it a destination. It is a never-ending journey."
           </blockquote>
         </div>
@@ -169,4 +396,3 @@ const BonsaiBasics: React.FC = () => {
 };
 
 export default BonsaiBasics;
-
