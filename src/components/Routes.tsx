@@ -3,6 +3,9 @@ import { Routes, Route, useParams } from 'react-router-dom';
 import { bonsaiSpecies } from '../data/bonsaiData';
 import BonsaiCollectionApp from '../App';
 import BonsaiSpeciesDetail from './BonsaiDetail';
+import BonsaiBasics from './BonsaiBasics';
+import BonsaiHistory from './BonsaiHistory';
+import About from './About';
 import { useSEO } from '../hooks/useSEO';
 import SEOHead from './SEOHead';
 
@@ -51,6 +54,9 @@ const AppRoutes: React.FC = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/species/:speciesId" element={<SpeciesDetailPage />} />
+      <Route path="/basics" element={<BonsaiBasics />} />
+      <Route path="/history" element={<BonsaiHistory />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 };

@@ -7,6 +7,7 @@ import SkeletonCard from './components/SkeletonCard';
 import ErrorBoundary from './components/ErrorBoundary';
 import { bonsaiSpecies } from './data/bonsaiData';
 import { useSearch, useLoadingState } from './hooks';
+import FilterPanel, { FilterOptions } from './components/FilterPanel';
 import type { BonsaiSpecies } from './types/bonsai';
 import './App.css';
 
@@ -14,6 +15,71 @@ function BonsaiCollectionApp() {
   const navigate = useNavigate();
   const { searchQuery, filteredSpecies, updateSearch, clearSearch } = useSearch(bonsaiSpecies);
   const { isLoading } = useLoadingState(1000);
+
+  const [filters, setFilters] = React.useState<FilterOptions>({
+    difficulty: [],
+    category: [],
+    climate: []
+  });
+  const [sortBy, setSortBy] = React.useState('name-asc');
+  
+  // Apply filters and sorting
+  const applyFiltersAndSort = (species: BonsaiSpecies[]) => {
+    let result = [...species];
+    
+    // Apply difficulty filter
+    if (filters.difficulty.length > 0) {
+      result = result.filter(s => filters.difficulty.includes(s.difficultyLevel));
+    }
+    
+    // Apply category filter
+    if (filters.category.length > 0) {
+      result = result.filter(s => filters.category.includes(s.category));
+    }
+    
+    // Apply climate filter
+    if (filters.climate.length > 0) {
+      result = result.filter(s => {
+        const climate = s.climate.toLowerCase();
+        return filters.climate.some(f => climate.includes(f.toLowerCase()));
+      });
+    }
+    
+    // Apply sorting
+    switch (sortBy) {
+      case 'name-asc':
+        result.sort((a, b) => a.commonName.localeCompare(b.commonName));
+        break;
+      case 'name-desc':
+        result.sort((a, b) => b.commonName.localeCompare(a.commonName));
+        break;
+      case 'difficulty-asc':
+        const diffOrder = { 'Beginner': 1, 'Intermediate': 2, 'Expert': 3 };
+        result.sort((a, b) => diffOrder[a.difficultyLevel] - diffOrder[b.difficultyLevel]);
+        break;
+      case 'difficulty-desc':
+        const diffOrderDesc = { 'Beginner': 3, 'Intermediate': 2, 'Expert': 1 };
+        result.sort((a, b) => diffOrderDesc[a.difficultyLevel] - diffOrderDesc[b.difficultyLevel]);
+        break;
+      case 'recent':
+        result.reverse(); // Assuming last entries are most recent
+        break;
+    }
+    
+    return result;
+  };
+  
+  const processedSpecies = applyFiltersAndSort(filteredSpecies);
+  
+  const handleClearFilters = () => {
+    setFilters({
+      difficulty: [],
+      category: [],
+      climate: []
+    });
+  };
+
+
 
   const handleSpeciesSelection = (species: BonsaiSpecies) => {
     navigate(`/species/${species.id}`);
@@ -32,10 +98,15 @@ function BonsaiCollectionApp() {
       <header className="app-header">
         <div className="header-content">
           <div className="header-navigation">
-            <div className="header-brand">
+            <div className="header-brand" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
               <TreePine className="brand-icon" />
               <h1 className="brand-title">Bonsai Collection</h1>
             </div>
+            <nav className="header-nav">
+              <button onClick={() => navigate('/basics')} className="nav-link">Getting Started</button>
+              <button onClick={() => navigate('/history')} className="nav-link">History</button>
+              <button onClick={() => navigate('/about')} className="nav-link">About</button>
+            </nav>
             <div className="header-stats">
               <span className="stats-indicator">
                 <div className="stats-dot"></div>
@@ -57,6 +128,20 @@ function BonsaiCollectionApp() {
             development stages, and seasonal photography.
           </p>
         </div>
+      </section>
+
+
+      {/* Filter Panel */}
+      <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
+        <FilterPanel
+          filters={filters}
+          sortBy={sortBy}
+          onFilterChange={setFilters}
+          onSortChange={setSortBy}
+          onClearFilters={handleClearFilters}
+          totalResults={bonsaiSpecies.length}
+          filteredResults={processedSpecies.length}
+        />
       </section>
 
       <section className="search-section">
@@ -83,7 +168,7 @@ function BonsaiCollectionApp() {
           </div>
           {searchQuery && (
             <p className="search-results-count">
-              {filteredSpecies.length} result{filteredSpecies.length !== 1 ? 's' : ''} found
+              {processedSpecies.length} result{filteredSpecies.length !== 1 ? 's' : ''} found
             </p>
           )}
         </div>
@@ -96,7 +181,7 @@ function BonsaiCollectionApp() {
               <SkeletonCard key={index} />
             ))}
           </div>
-        ) : filteredSpecies.length === 0 ? (
+        ) : processedSpecies.length === 0 ? (
           <div className="empty-state">
             <TreePine className="empty-state-icon" />
             <h3 className="empty-state-title">No species found</h3>
@@ -104,7 +189,7 @@ function BonsaiCollectionApp() {
           </div>
         ) : (
           <div className="species-grid">
-            {filteredSpecies.map((species) => (
+            {processedSpecies.map((species) => (
               <ErrorBoundary key={species.id} fallbackMessage="Error loading species card.">
                 <BonsaiSpeciesCard
                   species={species}
