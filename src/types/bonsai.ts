@@ -48,6 +48,7 @@ export interface BonsaiSpecies {
   flowering: string;
   nativeRegion: string;
   difficultyLevel: 'Beginner' | 'Intermediate' | 'Expert';
+  category?: 'Beginner' | 'Intermediate' | 'Advanced' | 'Rare/Specialty';
   careTips: BonsaiCareTips;
   bonsaiStyles: string[];
   techniques: BonsaiTechnique[];
