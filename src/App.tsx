@@ -1,3 +1,4 @@
+import React from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Search, TreePine, Leaf, Camera } from 'lucide-react';
@@ -32,9 +33,9 @@ function BonsaiCollectionApp() {
       result = result.filter(s => filters.difficulty.includes(s.difficultyLevel));
     }
     
-    // Apply category filter
+    // Apply category filter (species without a category never match)
     if (filters.category.length > 0) {
-      result = result.filter(s => filters.category.includes(s.category));
+      result = result.filter(s => !!s.category && filters.category.includes(s.category));
     }
     
     // Apply climate filter
@@ -53,14 +54,16 @@ function BonsaiCollectionApp() {
       case 'name-desc':
         result.sort((a, b) => b.commonName.localeCompare(a.commonName));
         break;
-      case 'difficulty-asc':
+      case 'difficulty-asc': {
         const diffOrder = { 'Beginner': 1, 'Intermediate': 2, 'Expert': 3 };
         result.sort((a, b) => diffOrder[a.difficultyLevel] - diffOrder[b.difficultyLevel]);
         break;
-      case 'difficulty-desc':
+      }
+      case 'difficulty-desc': {
         const diffOrderDesc = { 'Beginner': 3, 'Intermediate': 2, 'Expert': 1 };
         result.sort((a, b) => diffOrderDesc[a.difficultyLevel] - diffOrderDesc[b.difficultyLevel]);
         break;
+      }
       case 'recent':
         result.reverse(); // Assuming last entries are most recent
         break;
