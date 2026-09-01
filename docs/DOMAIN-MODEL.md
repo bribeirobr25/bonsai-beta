@@ -203,10 +203,16 @@ across climates.
 mentions: spring 987, summer 518, winter 255, autumn 181, dormancy 108,
 year-round 60.
 
-**Do not model timing as months.** Every incumbent calendar — Bonsai Empire's,
-Mirai's, the regional societies' — assumes northern-hemisphere temperate
-conditions, which is wrong by roughly six months for a southern-hemisphere
-grower and largely meaningless in the tropics. Model the *phenological* trigger
+**Do not model timing as months.** Calendars are conventionally written for
+northern-hemisphere temperate conditions, which is wrong by roughly six months
+for a southern-hemisphere grower and largely meaningless in the tropics.
+
+> **Correction.** An earlier version said *every* incumbent assumes northern
+> temperate. That is no longer true: Bonsai Tracker advertises hemisphere- and
+> climate-aware tasks, Bonsai Empire uses local climate and hardiness zones,
+> and Bonsaiku and Nebari ship season × climate calendars. The design guidance
+> below still holds — model the trigger, not the month — but it is no longer a
+> competitive gap. Model the *phenological* trigger
 and resolve it to a date per user:
 
 ```

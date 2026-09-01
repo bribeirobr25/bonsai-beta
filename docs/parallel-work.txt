@@ -1,2734 +1,1612 @@
-Prossigo. Executei o **Gate 0 · Zero-Participant Evidence Program** até onde dados públicos permitem sem fingir que busca na internet virou magically randomized controlled trial.
+Sim. A ordem que você propõe faz sentido, mas eu faria uma adaptação importante por causa do workshop daqui a um mês.
 
-A conclusão já é suficientemente clara para **mudar a tese do venture**, embora ainda não autorize construir produto.
+**Eu não entraria em Product/UIUX agora como se estivéssemos desenhando “o produto”.** Antes, passaria por Monetization & Economics, Brand Identity & Marketing e Growth Strategy. Só que essas três frentes deveriam trabalhar em modo **pré-MVP**, não tentando fechar uma estratégia definitiva. O workshop nos deu algo muito melhor que uma discussão teórica: um laboratório real com exatamente o tipo de pessoa que o projeto diz querer entender, alguém começando seu primeiro bonsai.
 
-## Resultado executivo
+Hoje o `PROJECT-BRIEF` continua classificando o venture como validação, não construção, e reconhece como desconhecidos willingness to pay, tamanho de mercado, unit economics e resposta dos incumbentes.  Isso é um ótimo argumento para fazer essas três frentes agora, mas como mecanismos para **formular o experimento certo**, não para produzir um plano de negócios de 2027 baseado em pessoas imaginárias.
 
-O mercado valida uma coisa importante e destrói outra.
+## Eu mudaria a sequência para isto
 
-**Valida:** bonsai realmente produz comportamento longitudinal. Pessoas acompanham a mesma árvore por anos, registram intervenções, retornam às progressões, aprendem com progressões alheias, organizam study groups em torno das mesmas árvores e enfrentam decisões do tipo “posso fazer isso agora?”. Há ainda comportamento real de provenance, transferência e preservação de história. ([bonsainut.com][1])
+1. **Canonical Strategic Reconciliation**
 
-**Destrói:** `tracker + reminders + photos + calendar + transfer + social feed` não é oportunidade vazia. Em setembro de 2026 vários produtos já oferecem combinações disso. Bonsai Empire, Yoi, Appy Bonsai, Jooni, Tiny Tree Club, ScandinavianBonsai e outros já ocupam terreno significativo. ([Google Play][2])
+   Antes das três frentes, fazemos aquela reconciliação documental que acabamos de identificar. Não precisa virar um projeto gigante. Precisamos simplesmente sair com uma base canônica dizendo:
 
-Portanto, **eu já descartaria a ideia de simplesmente construir “um app melhor para acompanhar bonsai”.**
+   **What we know**
+   **What evidence suggests**
+   **What is contradicted**
+   **What remains hypothesis**
+   **What cannot currently be tested**
 
----
+   Isso é especialmente importante porque hoje sabemos que tracking, transferable history, Portuguese-first e climate adaptation já têm concorrência real. 
 
-# Gate 0 · Matriz de evidências
+2. **Monetization & Economics · Pre-MVP**
 
-| Hipótese                                    | Resultado agora                | Leitura                                                                                                    |
-| ------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| **H1A · Public longitudinal documentation** | **SUPPORTED SIGNAL**           | comportamento claramente existe; prevalência ainda não medida                                              |
-| **H1B · Private record keeping**            | **SUPPORTED, BUT UNVALIDATED** | reviews mostram planilhas, cadernos, fotos e apps sendo substituídos por trackers; frequência desconhecida |
-| **H1C · Record continuity pain**            | **MODERATE SIGNAL**            | recuperação de datas/histórico aparece como valor, mas dor populacional não foi medida                     |
-| **H2A · Reactive diagnosis**                | **SUPPORTED SIGNAL**           | doença/morte/recuperação aparecem repetidamente                                                            |
-| **H2B · Prospective go/no-go**              | **STRONG SIGNAL**              | “repot now?”, “prune now?”, “defoliate?” aparece de forma recorrente                                       |
-| **H3A · Diagnostic contradiction**          | **SUPPORTED SIGNAL**           | respostas conflitantes existem; taxa desconhecida                                                          |
-| **H3B · Action/timing contradiction**       | **STRONG SIGNAL**              | encontramos conflitos materiais de ação na mesma pergunta                                                  |
-| **H4 · Brazil/tropical gap**                | **MIXED**                      | necessidade regional existe; “hemisfério sul ignorado” já não é tese defensável                            |
-| **H5 · Living Provenance**                  | **STRONG STRATEGIC SIGNAL**    | provenance é culturalmente real e comercialmente relevante; solução universal continua aberta              |
-| **H6 · Tree-Led Community**                 | **STRONG BEHAVIOURAL SIGNAL**  | comportamento existe; generic social feed já está ocupado                                                  |
-| **Failure/outcome contribution**            | **SUPPORTED SIGNAL**           | failures são documentados e alguns trazem dados ricos                                                      |
-| **H7 · Outcome-derived authority**          | **UNVALIDATED**                | nada encontrado prova que dados substituem reputação de expert                                             |
+   Não perguntar ainda:
 
-Repare na terminologia: não estou usando `PASS` onde não conseguimos medir denominator. Isso seria colocar uma gravata estatística em uma opinião.
+   > “Quanto deve custar nosso produto?”
 
----
+   Perguntar:
 
-# 1. H1A ficou mais forte
+   > **Que comportamento pode economicamente sustentar um produto e qual seria a menor prova disso?**
 
-Há progressions de duração substancial e documentação deliberada da mesma árvore.
+   A análise precisa considerar um dado desconfortável: temos muitos trackers e pouca tração observável nas storefronts analisadas. O Market Scan encontrou aproximadamente 330 ratings nas quatro storefronts estudadas, mas também reconhece grandes limitações, especialmente Android.  
 
-O famoso thread `5 to 10+ Year Progression` foi criado justamente para growers experientes mostrarem a beginners o que starter material pode se tornar ao longo de anos. ([bonsainut.com][1])
+   Portanto eu estudaria pelo menos:
 
-Mas encontrei exemplos ainda mais interessantes.
+   **consumer subscription?**
 
-Um grower mantém uma progression de pines cultivados no solo e publica um **2025 Update**, discutindo explicitamente como suas decisões mudaram de ano para ano. ([bonsainut.com][3])
+   **one-time purchase?**
 
-Outro documenta um Ficus desde fevereiro de 2022, incluindo repottings, erros cometidos, intervenções e decisões posteriores. Isso é praticamente um Tree Record artesanal. ([bonsainut.com][4])
+   **freemium?**
 
-Outro thread mostra atualizações em 2024, 2025 e 2026 sobre a mesma spruce. ([bonsainut.com][5])
+   **teacher/workshop SaaS?**
 
-E outro usuário declara literalmente que criou a thread porque vinha mantendo documentação e pretendia atualizá-la uma ou duas vezes por ano enquanto as árvores evoluíssem. ([bonsainut.com][6])
+   **nursery/club B2B2C?**
 
-Portanto:
+   **free utility → later monetization?**
 
-> **Longitudinal tree documentation is real behavior.**
+   E, principalmente:
 
-O que ainda não sabemos é **qual porcentagem dos growers faz isso**.
+   **quem recebe valor suficiente para potencialmente pagar?**
 
-Isso mantém H1A vivo fortemente.
+   Beginner e experienced grower claramente não têm o mesmo job. O próprio Project Brief já distingue beginner como `safety + memory` e experienced grower como `history + provenance + experiments`. 
 
----
+3. **Brand Identity & Marketing · Pre-PMF**
 
-# 2. Descobri algo ainda melhor para Tree-Led Community
+   Aqui eu não criaria logo, campaign system ou brand book ainda.
 
-Progression threads não são apenas showcase.
+   Precisamos descobrir **qual território emocional e funcional faz sentido**.
 
-Elas funcionam como **learning infrastructure**.
+   Hoje existem pelo menos quatro possíveis narrativas:
 
-Em uma discussão sobre como beginners deveriam organizar progressions, um membro conta que há anos compila progressions úteis. Outro diz que sua primeira parada ao adquirir um novo tipo de árvore é justamente essa coleção de progression threads. ([bonsainut.com][7])
+   **“Don’t kill your first bonsai.”**
 
-Isso muda bastante a leitura.
+   **“Remember the life of your tree.”**
 
-A árvore não está funcionando apenas como:
+   **“Every tree has a story.”**
 
-**content object**
+   **“Learn from trees like yours.”**
 
-mas como:
+   Elas levam a produtos completamente diferentes.
 
-**persistent knowledge object**.
+   O trabalho de Brand agora é descobrir qual proposta:
 
-Exatamente a direção que estávamos imaginando.
+   * é imediatamente compreendida por beginners;
+   * não soa intimidante;
+   * não entra na linguagem elitista/status do bonsai;
+   * consegue acomodar no futuro provenance e community;
+   * não promete expertise que ainda não temos.
 
----
+   Eu prestaria atenção especial à ideia já encontrada na documentação:
 
-# 3. E as pessoas querem acompanhar árvores dos outros
+   > **Story, not price, is the social currency.** 
 
-Em um post mostrando uma Cryptomeria recém-adquirida, diferentes usuários espontaneamente pedem que o owner continue publicando fotos porque querem acompanhar a transformação. ([Reddit][8])
+   Isso pode ser muito maior que uma regra de community. Pode ser princípio de marca.
 
-Outro caso recebe explicitamente:
+4. **Growth Strategy · Validation-first**
 
-> “please keep us updated”
+   Essa frente deveria responder:
 
-sobre o desenvolvimento futuro da árvore. ([Reddit][9])
+   > **Como encontramos o próximo usuário de uma forma que também gera aprendizado?**
 
-Não estou interessado no número de likes.
+   Não:
 
-O interessante é o comportamento:
+   > “Como vamos adquirir 100 mil usuários?”
 
-**“quero voltar para saber o que aconteceu com esta árvore.”**
+   Ainda nem sabemos se queremos 100 mil desses pobres cidadãos.
 
-Isso é precisamente um precursor de:
+   Growth deveria mapear canais de aquisição que também funcionem como **research loops**:
 
-**Tree → Follow Journey**
+   workshop
+   nursery
+   club
+   teacher
+   beginner course
+   plant store
+   bonsai event
+   SEO/search moment
+   QR attached to first tree
 
-em vez de:
-
-**Person → Follow Influencer.**
-
----
-
-# 4. Study groups são uma evidência ainda mais forte para H6
-
-Existem grupos em que pessoas se encontram repetidamente para **trabalhar nas próprias árvores ao longo do tempo**.
-
-Em um discussion thread, participantes descrevem study groups pequenos, profissionais convidados, sessões sazonais e acompanhamento continuado. Um practitioner recomenda inclusive trazer as mesmas árvores a múltiplos encontros no ano para realizar intervenções no momento apropriado. ([bonsainut.com][10])
-
-Outro usuário relata ter pertencido a um study group durante **sete anos**. ([Reddit][11])
-
-Há também exemplos recentes de pessoas criando clubes porque sentem falta de comunidade local; uma resposta recomenda exatamente começar como study group mensal com alguém experiente. ([Reddit][12])
-
-Isso é importante.
-
-H6 não precisa criar um comportamento humano novo.
-
-O comportamento já é:
-
-**small group + recurring interaction + trees + context + mentorship.**
-
-O produto poderia digitalizar/expandir algo existente.
+   E aqui seu workshop ganha uma importância enorme.
 
 ---
 
-# 5. Há também evidência para a preocupação com belonging
+# O workshop muda a estratégia inteira
 
-Achei um exemplo muito direto.
+Isso não é só “legal ter alguma coisa pronta”.
 
-Um beginner no Mirai diz que hesitava em publicar as próprias árvores porque considerava sua técnica ruim e tinha receio da avaliação dos outros. ([Mirai Forum][13])
+**Eu transformaria o workshop no primeiro Product Validation Event do venture.**
 
-Outro grower relata que demorou para entrar no Bonsai Nut porque os membros pareciam intimidadores. ([mail.bonsainut.com][14])
+Porque o target definido no Project Brief é:
 
-E o próprio Bonsai Empire reconhece em sua orientação de forum etiquette que certas starter plants são vistas com desdém por alguns participantes e que membros podem deixar isso explicitamente claro. ([Bonsai Empire][15])
+> first- or second-tree owner. 
 
-Isso não prova que “bonsai community é elitista”.
+E o seu workshop literalmente termina com pessoas criando:
 
-Prova algo mais útil:
+> **their first bonsai.**
 
-> **há beginners para os quais exposição pública e julgamento de qualidade representam friction.**
+É difícil encomendar um grupo experimental mais perfeitamente alinhado.
 
-Portanto sua preocupação com uma comunidade sem status competition não nasceu de uma fantasia nossa.
+Portanto eu não levaria apenas uma landing page.
 
-Há um problema plausível ali.
-
----
-
-# 6. Mas generic community está definitivamente ocupada
-
-Bonsai Empire já possui Social Feed, comentários, likes e favorites. ([Google Play][2])
-
-Jooni se apresenta simultaneamente como arquivo da história das árvores e community platform. ([Google Play][16])
-
-Tiny Tree Club combina coleção, feed, mensagens e marketplace dentro de clubes verificados. ([App Store][17])
-
-Bonsme tentou exatamente:
-
-**progress photos + community + follow + likes/comments**.
-
-E há um detalhe estratégico fascinante: o produto acabou sendo encerrado porque os founders não tinham capacidade para continuar mantendo-o. ([Reddit][18])
-
-Isso é um pequeno aviso luminoso.
-
-**Community não é só uma feature. É uma operação.**
-
-Moderation, cold start, content, retention, safety e network density entram na conta.
+Eu levaria um **Minimum Valuable Experiment**.
 
 ---
 
-# 7. Portanto H6 precisa ficar mais específico
+# O MVP do workshop não deveria tentar provar o produto inteiro
 
-Eu não construiria:
+A pergunta não deve ser:
 
-> Bonsai Community.
+> “Vocês gostam do nosso app de bonsai?”
 
-Eu investigaria:
+Esse tipo de pergunta produz um cemitério muito elegante de falsos positivos.
 
-### Tree-Led Community
+Eu testaria um único loop:
 
-onde descoberta social acontece por:
+## **Create tree → capture first event → return later**
 
-**species × climate × stage × intervention × journey**
+No workshop:
 
-Por exemplo:
-
-`Ficus · tropical · first tree`
-
-`Juniper · recovery after repot`
-
-`JBP · trunk development · year 3`
-
-`Jabuticaba · Brazil Southeast · pre-flowering`
-
-A pessoa chega porque **aquela jornada é relevante para a árvore dela**.
-
-Não porque fulano tem 18.000 followers.
-
-Esse conceito ainda não encontrei implementado de forma convincente pelos concorrentes pesquisados.
-
----
-
-# 8. H2B ficou muito forte qualitativamente
-
-Há inúmeros exemplos de:
-
-**“Should I repot now or wait?”**
-
-**“Should I prune now?”**
-
-**“Can I defoliate this species?”**
-
-([Bonsai Empire][19])
-
-E um usuário experiente no fórum Bonsai Empire chama `repot now?` de uma das perguntas mais frequentes do fórum, especialmente entre beginners. Isso é uma afirmação anedótica de um membro, não uma estatística oficial, mas é consistente com a quantidade de ocorrências encontradas. ([Bonsai Empire][20])
-
-Portanto o job:
-
-> **“É seguro fazer X nesta árvore agora?”**
-
-continua muito interessante.
-
----
-
-# 9. H3B também sobrevive
-
-E encontrei literalmente o caso que havíamos usado hipoteticamente.
-
-Em uma thread no Bonsai Nut, o beginner pergunta se deve repotar dois pines imediatamente ou esperar.
-
-Alguns respondem:
-
-**espere.**
-
-Outro grower experiente responde:
-
-**você pode repotar agora.**
-
-Na mesma árvore, mesma pergunta e mesmo momento. ([bonsainut.com][21])
-
-Isso é `material action conflict`.
-
-E outro thread mostra justamente a necessidade de location context antes de responder: um usuário pergunta sobre repotting e o primeiro conselho é preencher a localização porque a decisão depende dela. ([bonsainut.com][22])
-
-Então a tese:
-
-**missing context → conflicting advice**
-
-é plausível.
-
-Ainda não sabemos sua frequência.
-
----
-
-# 10. Brasil/tropical: encontramos problema, mas também encontramos concorrência
-
-Esse pedaço ficou mais sofisticado.
-
-Há uma antiga discussão brasileira pedindo um calendário de poda especificamente adequado ao Brasil porque calendários disponíveis pareciam contraditórios. ([atelierdobonsai.com.br][23])
-
-Existe também material específico explicando como cultivo no Nordeste difere do modelo sazonal clássico. ([atelierdobonsai.com.br][24])
-
-Em discussão internacional sobre repotting tropical, um grower brasileiro explica que até dentro do Brasil a resposta muda entre clima subtropical e tropical/quase equatorial. ([Bonsai Empire][25])
-
-Esse último ponto é importante:
-
-**hemisphere ≠ climate.**
-
-Mas novos concorrentes já perceberam isso.
-
-Nebari, lançado em português em 2026, afirma considerar hemisfério **e zona climática**. ([App Store][26])
-
-Bonsaiku também promove calendário `species × climate × season`. ([App Store][27])
-
-Bonsai Empire adicionou local climate e plant-hardiness zones ao seu sistema. ([Google Play][2])
-
-Portanto eu mataria esta tese antiga:
-
-> “Os concorrentes só funcionam para Northern Hemisphere.”
-
-Não é mais verdade em setembro de 2026.
-
-A nova hipótese seria:
-
-> **Os concorrentes conseguem calibrar adequadamente microclima/região × espécie × estágio × condição real da árvore?**
-
-Essa é muito mais difícil e muito mais interessante.
-
----
-
-# 11. Living Provenance ficou ainda mais convincente
-
-Aqui o comportamento não é invenção nossa.
-
-O sistema japonês `Kicho Bonsai` existe desde 1980. A Nippon Bonsai Association documenta mais de mil árvores registradas, preservando inclusive a história de exemplares que posteriormente morreram ou desapareceram. ([bonsai-kyokai.or.jp][28])
-
-O Omiya Bonsai Art Museum descreve essas árvores como bens culturais cuja forma, espécie, história, raízes e tradição justificam registro e preservação para gerações futuras. ([bonsai-art-museum.jp][29])
-
-O Pacific Bonsai Museum publica accession number, training history, doador, origem e provenance individual de árvores de sua coleção. ([pacificbonsaimuseum.org][30])
-
-E a Bonsai Society of Brevard descreve explicitamente como provenance pode incluir:
-
-ownership history, practitioner association, exhibition history, photographic records e documentação, ligando provenance inclusive a valor cultural e de mercado. ([bonsaisocietyofbrevard.com][31])
-
-Então H5 está conceitualmente muito mais forte.
-
----
-
-# 12. Só que “Tree ID + transfer” já não é novidade
-
-Yoi transfere ownership levando o histórico completo da árvore junto. ([App Store][32])
-
-Appy Bonsai preserva o histórico durante transferências. ([Google Play][33])
-
-MyBonsaiTag foi muito mais longe e chegou a associar identidade, ownership transfer e história a NFT/blockchain. ([App Store][34])
-
-ScandinavianBonsai oferece RFID para identificação e acesso ao histórico. ([Google Play][35])
-
-Logo:
-
-> **Permanent Tree ID não é moat.**
-
-> **Transferable history não é moat.**
-
-Blockchain tampouco derramou pó de fada sobre o problema, para surpresa de absolutamente ninguém.
-
----
-
-# 13. O espaço potencial de H5 é “verifiable provenance”
-
-Não encontrei um sistema dominante que estruture de forma forte:
-
-**claim**
+**Tree created**
 
 ↓
 
-**evidence**
+**Tree gets an identity**
 
 ↓
 
-**attestation**
+**first photo**
 
 ↓
 
-**confidence**
+**species / approximate identification**
 
-Por exemplo:
-
-`Acquired · owner-recorded`
-
-`Repotted · photo evidence`
-
-`Structural styling · practitioner-confirmed`
-
-`Exhibited · institution-verified`
-
-`Transferred · both parties confirmed`
-
-Esse modelo é diferente de simplesmente escrever:
-
-> Previous owner: John.
-
-E pode aproximar o digital do significado cultural que provenance já possui no bonsai.
-
-**Essa é uma hipótese que eu manteria fortemente.**
-
----
-
-# 14. Failure/death data também apresentou algo interessante
-
-Pessoas realmente publicam os fracassos.
-
-E alguns são bastante detalhados.
-
-Uma progression de Japanese Black Pine descreve aquisição, yellowing/dieback, anos específicos, hipóteses sobre água, transplante, recuperação e intervenções posteriores. ([bonsainut.com][36])
-
-Um grower documenta uma Manzanita que morreu após repotting e compara o resultado a outra árvore trabalhada por membro do clube. ([bonsainut.com][37])
-
-Em outro thread, o owner volta para registrar explicitamente que a árvore morreu após repotting pesado; outro participante agradece porque documentar o desfecho negativo permite que os demais aprendam. ([bonsainut.com][38])
-
-E existe até um experimento comunitário sobre timing de repotting motivado pela morte anterior de uma árvore e pelas diferenças climáticas. ([bonsainut.com][39])
-
-Isso é excelente para nossa tese.
-
-Porque mostra que:
-
-**negative outcome can be a socially valuable contribution.**
-
----
-
-# 15. Mas outcome data ainda é bagunçado
-
-Os relatos variam brutalmente.
-
-Alguns trazem:
-
-species
-location
-zone
-date
-intervention
-substrate
-symptoms
-eventual outcome
-
-Outros são simplesmente:
-
-> minha primeira morreu porque não reguei direito.
-
-Ou alguém diz `overwatering`, outro imediatamente responde que `overwatering` também mata. ([Reddit][40])
-
-Ou uma pessoa atribui a morte a falta de repotting e outra questiona o diagnóstico causal. ([Reddit][41])
-
-Portanto:
-
-> **Death records exist. Reliable causal outcome data does not magically emerge from them.**
-
-O produto teria que estruturar os inputs e separar:
-
-`observed outcome`
-
-de
-
-`owner-attributed cause`.
-
-Essa distinção é fundamental.
-
----
-
-# 16. Isso enfraquece uma frase importante do PROJECT-BRIEF
-
-A tese original dizia, essencialmente:
-
-> “11% das pessoas que fizeram isso perderam a árvore” poderia substituir reputação.
-
-Hoje eu não aceitaria essa conclusão ainda.
-
-Antes precisaríamos saber:
-
-**11% de quê?**
-
-Quantas árvores eram comparáveis?
-
-Mesma espécie?
-
-Mesmo estágio?
-
-Mesmo clima?
-
-Mesmo health state?
-
-Mesmo root work?
-
-Quem decidiu que a intervenção causou a morte?
-
-H7 continua portanto:
-
-### **UNVALIDATED**
-
-Outcome data pode acabar sendo:
-
-**complement to expertise**
-
-e não:
-
-**replacement for expertise.**
-
-Eu considero inclusive essa segunda possibilidade mais plausível neste momento.
-
----
-
-# 17. Competitive reality ficou mais dura
-
-O maior concorrente continua sendo Bonsai Empire.
-
-Em agosto de 2026 seu Android app aparecia com **10.000+ downloads e cerca de 270 reviews**, oferecendo tracking, seasonal photos, reminders, species information, local-climate guidance e social feed. ([Google Play][2])
-
-Jooni também aparecia com 10K+ downloads no Google Play. ([Google Play][16])
-
-Appy Bonsai tinha 89 Google Play reviews em uma listagem recente e já oferece inventory, records, transfer e traceability. ([Google Play][42])
-
-Yoi é muito mais recente. Em agosto de 2026 aparecia com apenas `10+` downloads no Google Play, então sua abrangência funcional não significa ainda adoção relevante. ([Google Play][43])
-
-Isso é importante.
-
-**Feature competition está intensa. Market dominance ainda não está decidida.**
-
----
-
-# 18. Reviews dão suporte indireto a H1B
-
-Uma review do Bonsai Empire diz que o usuário pretendia criar uma planilha para acompanhar a coleção, mas preferiu o app e suas photo progressions. ([App Store][44])
-
-Outra review elogia especificamente acompanhamento de padrões de crescimento, pruning, feeding e fertilizing. ([App Store][45])
-
-E o próprio developer descreve usuários substituindo spreadsheets/paper notebooks e usando históricos para recuperar experimentos feitos anos antes. Isso é vendor testimony, portanto evidência mais fraca, mas consistente com os sinais de comportamento encontrados. ([App Store][45])
-
-Então H1B não está provado, porém **não parece uma hipótese absurda**.
-
----
-
-# 19. Também apareceu uma pista sobre o target correto
-
-Uma review de um grower com 30 anos de experiência e 80 árvores diz que reminders têm pouco valor para ele, enquanto o histórico e as fotos ainda são úteis. O mesmo review sugere que o app é particularmente adequado para beginners. ([App Store][45])
-
-Isso combina com o `PROJECT-BRIEF`.
-
-E reforça uma arquitetura:
-
-**Beginner gets safety + memory**
-
-enquanto
-
-**Experienced grower gets history + provenance + experiments**
-
-Não necessariamente o mesmo value proposition para todos.
-
----
-
-# 20. O que eu considero falsificado agora
-
-Já podemos matar algumas coisas sem cerimônia.
-
-| Tese                                               | Decisão             |
-| -------------------------------------------------- | ------------------- |
-| “Tracking de bonsai é espaço vazio”                | **FALSIFIED**       |
-| “Tree transfer/history é novidade”                 | **FALSIFIED**       |
-| “Community feed é oportunidade diferenciada”       | **FALSIFIED**       |
-| “Southern hemisphere support não existe”           | **FALSIFIED**       |
-| “Uma enciclopédia melhor pode ser wedge”           | **Continua CLOSED** |
-| “Blockchain cria trust/provenance automaticamente” | **Não sustentado**  |
-| “Outcome data substituirá expertise”               | **UNVALIDATED**     |
-
-Isso é progresso de verdade. Matar ideias cedo é bem mais barato do que dar nome, logo e assinatura mensal a elas.
-
----
-
-# 21. O que ficou mais forte
-
-Três coisas.
-
-### A. Persistent Tree Journey
-
-Existe comportamento genuíno de acompanhar e documentar a mesma árvore durante anos.
-
-### B. Verifiable Living Provenance
-
-O significado cultural e econômico de provenance existe, mas o digital atual parece concentrado em **preservar history**, não necessariamente em estruturar **credibility of history**.
-
-### C. Contextual Tree-Led Relationships
-
-Pessoas aprendem e criam vínculos trabalhando nas mesmas árvores, progressions, species e seasonal contexts. Generic feed não resolve necessariamente isso.
-
-Esses três elementos conversam muito bem.
-
----
-
-# 22. A tese que eu manteria após o Gate 0
-
-Eu não manteria mais:
-
-> **System of Record → Outcome Advisor**
-
-como tese principal.
-
-Eu mudaria para:
-
-> **Persistent Tree Identity
-> → Longitudinal Journey
-> → Evidence-backed Provenance
-> → Contextual Tree Relationships
-> → Structured Outcomes
-> → Decision Support, if authority can eventually be earned**
-
-Perceba que `Decision Support` foi para o final.
-
-Isso é proposital.
-
-A primeira razão para manter o record não precisa ser “um dia nossa IA vai me aconselhar”.
-
-Ela pode ser:
-
-**remember**
-
-*
-
-**understand progression**
-
-*
-
-**preserve history**
-
-*
-
-**connect to relevant people**
-
-e somente depois:
-
-**learn from aggregated outcomes**.
-
-Essa arquitetura é muito mais robusta.
-
----
-
-# 23. Minha recomendação de produto agora
-
-Ainda **não construiria o produto**.
-
-Mas já temos informação suficiente para avançar sem usuários para uma nova etapa:
-
-### **Phase 1 · Concept & Strategic Architecture**
-
-O objetivo não seria validar demanda. Seria transformar o que sobreviveu em um modelo coerente e tentar quebrá-lo novamente.
-
-Eu trabalharia quatro conceitos:
-
-| Conceito               | Pergunta                                                                           |
-| ---------------------- | ---------------------------------------------------------------------------------- |
-| **Tree Identity**      | o que pertence permanentemente à árvore?                                           |
-| **Tree Journey**       | qual é a unidade mínima de registro para continuar útil sem virar obrigação?       |
-| **Living Provenance**  | como claims, evidence, ownership e attestations funcionam sem fingir certificação? |
-| **Tree-Led Community** | como árvores conectam pessoas por contexto sem popularity economy?                 |
-
-E manteria `Outcome Intelligence` como **future layer**, não como promessa central.
-
----
-
-## A decisão mais importante do Gate 0
-
-**O venture continua vivo.**
-
-Mas **o “bonsai tracker” morreu como tese de produto**.
-
-O espaço que merece investigação agora é mais específico:
-
-> **uma infraestrutura de identidade e memória para cada árvore, capaz de preservar uma história confiável, transformar essa história em objeto de aprendizado e conexão e, eventualmente, acumular outcomes estruturados.**
-
-Isso é suficientemente diferente dos trackers atuais para merecer continuar sendo atacado.
-
-E eu faria a próxima etapa exatamente nessa direção, antes de qualquer decisão de stack, backend ou MVP.
-
-[1]: https://www.bonsainut.com/threads/the-5-to-10-year-progression-thread.35597/?utm_source=chatgpt.com "The 5 to 10+ Year Progression Thread | Bonsai Nut"
-[2]: https://play.google.com/store/apps/details?hl=de&id=app.bonsaicare&utm_source=chatgpt.com "Bonsai Care App – Apps bei Google Play"
-[3]: https://www.bonsainut.com/threads/sidesummys-jbp-jrp-ground-growing-progression.56409/?utm_source=chatgpt.com "Sidesummy's JBP & JRP Ground Growing Progression | Bonsai Nut"
-[4]: https://www.bonsainut.com/threads/ficus-benjamina-32-progression.69322/?utm_source=chatgpt.com "Ficus Benjamina #32 Progression | Bonsai Nut"
-[5]: https://www.bonsainut.com/threads/picea-glauca-conica-1-progression-thread.63947/?utm_source=chatgpt.com "Picea Glauca Conica #1 - Progression Thread | Bonsai Nut"
-[6]: https://www.bonsainut.com/threads/sidesummys-field-maple-s-acer-campestre-progression.69234/?utm_source=chatgpt.com "Sidesummy's Field Maple(s) (Acer Campestre) - Progression | Bonsai Nut"
-[7]: https://www.bonsainut.com/threads/beginner-progression-post-tips-a-single-consolidated-thread-vs-individual-tree-threads-and-more.62314/?utm_source=chatgpt.com "Beginner progression post tips - a single consolidated thread vs individual tree threads (and more?) | Bonsai Nut"
-[8]: https://www.reddit.com/r/Bonsai/comments/f49vni?utm_source=chatgpt.com "Bought this Cryptomeria from a local nursery yesterday. Lots of potential hidden under all those needles. Will be interesting to transform over the next few years"
-[9]: https://www.reddit.com/r/Bonsai/comments/vz5o6p?utm_source=chatgpt.com "My mom has had this maple for several years now and it has been in the same spot!"
-[10]: https://www.bonsainut.com/threads/study-groups-what-to-consider.25364/?utm_source=chatgpt.com "Study Groups-what to consider? | Bonsai Nut"
-[11]: https://www.reddit.com/r/bonsaicommunity/comments/1nl21co?utm_source=chatgpt.com "Do you ever pay a bonsai artist or master to help you maintain your bonsai collection and teach you? Is it a common practice at the West?"
-[12]: https://www.reddit.com/r/Bonsai/comments/1t8ob4o/making_a_club/?utm_source=chatgpt.com "Making a club"
-[13]: https://forum.bonsaimirai.com/t/beginner-needing-some-critique/7958?utm_source=chatgpt.com "Beginner needing some critique - Beginners - Mirai Forum"
-[14]: https://mail.bonsainut.com/threads/beginner-with-too-many-questions-probably.56648/?utm_source=chatgpt.com "Beginner with too many questions? Probably.. | Bonsai Nut"
-[15]: https://www.bonsaiempire.com/kunena/help-me/10768-forum-etiquette?utm_source=chatgpt.com "Forum Etiquette - Bonsai forum - Bonsai Empire"
-[16]: https://play.google.com/store/apps/details?hl=en_US&id=com.jooni.app&utm_source=chatgpt.com "Jooni – Bonsai Care Tracker - Apps on Google Play"
-[17]: https://apps.apple.com/us/app/tiny-tree-club/id6758886683?utm_source=chatgpt.com "‎Tiny Tree Club App - App Store"
-[18]: https://www.reddit.com/r/Bonsai/comments/18igfl3?utm_source=chatgpt.com "Track, share and connect: Bonsme - a bonsai app for the community"
-[19]: https://www.bonsaiempire.com/forum/repotting-and-soil/22276-should-i-repot-now-or-wait-until-spring?utm_source=chatgpt.com "Should I Repot Now or Wait Until Spring? - Bonsai forum - Bonsai Empire"
-[20]: https://www.bonsaiempire.com/kunena/repotting-and-soil/22276-should-i-repot-now-or-wait-until-spring?utm_source=chatgpt.com "Should I Repot Now or Wait Until Spring? - Bonsai forum - Bonsai Empire"
-[21]: https://www.bonsainut.com/threads/should-i-repot-now-or-wait.16071/post-214904?utm_source=chatgpt.com "Should I repot now or wait? | Bonsai Nut"
-[22]: https://www.bonsainut.com/threads/twin-trunk-hinoki-should-i-repot-now.50425/?utm_source=chatgpt.com "Twin Trunk Hinoki. Should I repot NOW? | Bonsai Nut"
-[23]: https://www.atelierdobonsai.com.br/forum/viewtopic.php?t=24547&view=next&utm_source=chatgpt.com "FÓRUM do Atelier do Bonsai - Mário A G Leal :: Exibir tópico - Calendário de podas do PN"
-[24]: https://www.atelierdobonsai.com.br/forum/viewtopic.php?sid=6aa42fddf8d99ca6ede596b942ab9695&t=22660&utm_source=chatgpt.com "FÓRUM do Atelier do Bonsai - Mário A G Leal :: Exibir tópico - Cultivando Bonsai no Clima do Nordeste"
-[25]: https://www.bonsaiempire.com/kunena/repotting-and-soil/19544-repotting-advice-in-the-tropics?utm_source=chatgpt.com "Repotting advice in the tropics - Bonsai forum - Bonsai Empire"
-[26]: https://apps.apple.com/br/app/diario-bonsai-nebari/id6760012296?utm_source=chatgpt.com "‎App Diario Bonsai - Nebari – App Store"
-[27]: https://apps.apple.com/br/app/bonsaiku-cuidado-de-bonsai/id6779159073?platform=vision&utm_source=chatgpt.com "‎App Bonsaiku: Cuidado de bonsai – App Store"
-[28]: https://bonsai-kyokai.or.jp/company.html?utm_source=chatgpt.com "協会案内 | 〖公式〗一般社団法人 日本盆栽協会"
-[29]: https://www.bonsai-art-museum.jp/en/exhibition/exhibition-11361/?utm_source=chatgpt.com "The Omiya Bonsai Art Museum, Saitama"
-[30]: https://pacificbonsaimuseum.org/press/?utm_source=chatgpt.com "Press | Pacific Bonsai Museum"
-[31]: https://bonsaisocietyofbrevard.com/bonsai-provenance/?utm_source=chatgpt.com "Bonsai Provenance | Bonsai Society of Brevard"
-[32]: https://apps.apple.com/de/app/yoi-bonsai/id6769192304?utm_source=chatgpt.com "‎Yoi Bonsai‑App – App Store"
-[33]: https://play.google.com/store/apps/details?id=com.appybonsai.AppyBonsai&utm_source=chatgpt.com "Appy Bonsai - Bonsai Care - Apps on Google Play"
-[34]: https://apps.apple.com/de/app/mybonsaitag/id6566183957?utm_source=chatgpt.com "‎MyBonsaiTag‑App – App Store"
-[35]: https://play.google.com/store/apps/details?hl=en_US&id=se.vilhelmineberg.planttracker&utm_source=chatgpt.com "Bonsai Care & RFID Tree Log - Apps on Google Play"
-[36]: https://www.bonsainut.com/threads/japanese-black-pine-recovery-progression.65286/?utm_source=chatgpt.com "Japanese Black Pine Recovery/Progression | Bonsai Nut"
-[37]: https://www.bonsainut.com/threads/salsa-dish-manzanita.66143/?utm_source=chatgpt.com "Salsa dish manzanita | Bonsai Nut"
-[38]: https://www.bonsainut.com/threads/my-battle-to-repot-with-a-giant-sequoia-nursery-stock.42872/page-2?utm_source=chatgpt.com "My Battle to repot with a Giant Sequoia Nursery Stock | Page 2 | Bonsai Nut"
-[39]: https://www.bonsainut.com/threads/mugo-pine-repotting-test.17817/?utm_source=chatgpt.com "Mugo pine repotting test | Bonsai Nut"
-[40]: https://www.reddit.com/r/bonsaicommunity/comments/1t94w42/first_bonsai_would_love_advice/?utm_source=chatgpt.com "first bonsai! would love advice!"
-[41]: https://www.reddit.com/r/Bonsai/comments/1sy835q/no_shaming_here_but_did_you_kill_your_first/?utm_source=chatgpt.com "No shaming here, but did you kill your first bonsai because you thought it could be kept inside?"
-[42]: https://play.google.com/store/apps/details?hl=en_CA&id=com.appybonsai.AppyBonsai&utm_source=chatgpt.com "Appy Bonsai - Bonsai Care - Apps on Google Play"
-[43]: https://play.google.com/store/apps/details?hl=en&id=com.yoibonsai&utm_source=chatgpt.com "Yoi Bonsai - Apps on Google Play"
-[44]: https://apps.apple.com/us/app/6463043424?platform=iphone&see-all=reviews&utm_source=chatgpt.com "‎Bonsai Care App - Ratings & Reviews - App Store"
-[45]: https://apps.apple.com/au/app/bonsai-care-app/id6463043424?utm_source=chatgpt.com "‎Bonsai Care App App - App Store"
-
-
-
-
-Prossigo com a **Phase 1 · Concept & Strategic Architecture v0.1**. O resultado já permite tomar algumas decisões conceituais importantes sem fingir que decidimos um produto.
-
-## 1. A tese muda oficialmente
-
-O `PROJECT-BRIEF` original acertou ao colocar `Record` como sweet spot e ao perceber que outcome data poderia surgir posteriormente sobre esse substrato.  Mas, depois do Gate 0, eu reformularia a sequência.
-
-### Tese anterior
-
-**System of Record → Outcome Dataset → Advisor**
-
-### Tese que merece continuar
-
-**Tree Identity
 ↓
-Tree Journey
+
+**event: created / repotted / initial styling**
+
 ↓
-Living Provenance
+
+**simple intent**
+
+> “What are you trying to achieve with this tree?”
+
 ↓
-Contextual Tree Relationships
-↓
-Structured Outcomes
-↓
-Decision Support**
 
-Os quatro primeiros elementos podem produzir valor **antes** de qualquer advisor existir.
+**Journey begins**
 
-Isso é crucial.
+Isso usa justamente o modelo que sobreviveu ao Shadow Product Validation:
 
----
+`Living Subject → Journey → Events → Intent → Evidence → Outcome`. 
 
-# 2. O objeto central não é o usuário
+Mas a interface não mostra nada dessa complexidade.
 
-Essa seria minha primeira decisão canônica.
-
-Em praticamente toda rede social:
-
-**User → Content**
-
-Aqui deveria ser:
-
-## **Tree → Journey → Events → People**
-
-O usuário continua existindo, obviamente. Ainda não conseguimos cultivar bonsai sem humanos, apesar dos esforços da espécie em automatizar tudo.
-
-Mas o objeto persistente do sistema é **a árvore**.
-
-Uma pessoa pode:
-
-adquirir a árvore
-cuidar dela
-vendê-la
-presenteá-la
-herdá-la
-trabalhar nela profissionalmente
-exibi-la
-transferi-la
-
-e eventualmente sair completamente da história.
-
-A árvore continua.
-
-Isso diferencia estruturalmente o conceito de um tracker pessoal.
+Para o usuário seria talvez três passos.
 
 ---
 
-# 3. Arquitetura conceitual
+# Eu não faria o primeiro MVP sobre Provenance
 
-Eu dividiria o sistema em seis layers.
+Provenance é fascinante e o modelo está forte, mas um first-tree owner acabou de criar a árvore.
 
-| Layer                           | Função                                       | Status               |
-| ------------------------------- | -------------------------------------------- | -------------------- |
-| **L1 · Tree Identity**          | identidade persistente da árvore             | CORE                 |
-| **L2 · Tree Journey**           | história longitudinal estruturada            | CORE                 |
-| **L3 · Living Provenance**      | origem, stewardship, evidence e attestations | CORE HYPOTHESIS      |
-| **L4 · Tree-Led Relationships** | conexão por contexto e jornada               | CORE HYPOTHESIS      |
-| **L5 · Outcome Evidence**       | agregação estruturada de resultados          | FUTURE               |
-| **L6 · Decision Intelligence**  | suporte a decisões                           | FUTURE / UNVALIDATED |
+Ele não tem ainda:
 
-Essa separação evita que inventemos um superapp antes de provar o primeiro comportamento.
+previous owner
+practitioner lineage
+exhibition history
+transfer history
 
----
+Portanto não precisamos forçar H5 no primeiro momento.
 
-# 4. L1 · Tree Identity
+A história começa ali.
 
-Cada árvore possui uma identidade persistente independente do owner atual.
+**O workshop é literalmente a data de nascimento digital da árvore.**
 
-Conceitualmente:
-
-**Tree ID**
-
-`TREE-8F72C91`
-
-Esse identificador não significa:
-
-> árvore certificada.
-
-Significa apenas:
-
-> este registro representa esta árvore.
-
-Bonsai Tracker já oferece Tree ID permanente e transferência, portanto **Tree ID não é diferencial por si só**. ([Bonsai Tracker][1])
-
-A oportunidade estaria no que construímos **sobre essa identidade**.
-
-### Tree Identity deveria poder conter
-
-| Campo             | Natureza             |
-| ----------------- | -------------------- |
-| Species           | claim                |
-| Cultivar          | claim                |
-| Estimated age     | claim                |
-| Acquisition date  | event                |
-| Origin            | claim                |
-| Current steward   | relationship         |
-| Previous steward  | relationship/history |
-| Alive/deceased    | status               |
-| Current location  | contextual/private   |
-| Public visibility | privacy control      |
-
-Eu deliberadamente usei a palavra **claim**.
-
-Porque:
-
-`Species = Juniperus chinensis`
-
-pode ser informação declarada pelo owner.
-
-Não necessariamente verdade verificada.
-
-Essa distinção vai ser fundamental para provenance.
+Isso é perfeito.
 
 ---
 
-# 5. L2 · Tree Journey
+# Também não faria Community como o MVP inicial
 
-Aqui provavelmente está o verdadeiro coração do produto.
+Poderíamos testar uma camada mínima.
 
-O mercado já demonstra que pessoas valorizam progressions de 5, 10, 15+ anos e retornam a elas como artefatos de aprendizado. ([bonsainut.com][2])
+Não um feed.
 
-Mas fóruns representam isso como:
+Depois de todos criarem suas árvores, poderíamos ter algo como:
 
-**thread → post → reply → post → reply**
+### Trees started today
 
-Nós representaríamos como:
+E cada participante vê algumas outras jornadas.
 
-**Tree → Event → Event → Event → Outcome**
+Talvez:
 
-Por exemplo:
+**same species**
 
-| Data     | Evento                |
-| -------- | --------------------- |
-| Mar 2027 | Acquired              |
-| Apr 2027 | First photo           |
-| Mar 2028 | Repotted              |
-| Apr 2028 | Recovery observation  |
-| Jun 2028 | New growth            |
-| Feb 2029 | Structural pruning    |
-| Apr 2029 | Photo                 |
-| 2030     | Styling workshop      |
-| 2031     | Exhibition            |
-| 2034     | Ownership transferred |
+**similar starting material**
 
-O resultado é muito mais poderoso do que uma simples galeria.
+**similar goal**
 
----
+Mas sem:
 
-# 6. A unidade fundamental deveria ser o **Tree Event**
+likes
+followers
+leaderboards
+“best bonsai”
 
-Não “post”.
+Isso testa uma parte de H6 sem precisar construir “uma comunidade”.
 
-Isso também seria uma decisão conceitual importante.
-
-Um `Tree Event` pode ser:
-
-| Event type     | Exemplo                    |
-| -------------- | -------------------------- |
-| `OBSERVATION`  | new growth                 |
-| `PHOTO`        | seasonal photo             |
-| `CARE`         | fertilization              |
-| `TECHNIQUE`    | repotting                  |
-| `HEALTH`       | yellowing                  |
-| `ENVIRONMENT`  | frost exposure             |
-| `OUTCOME`      | recovery / decline / death |
-| `ACQUISITION`  | acquired                   |
-| `TRANSFER`     | new steward                |
-| `PRACTITIONER` | professional styling       |
-| `EXHIBITION`   | exhibition participation   |
-| `PROPAGATION`  | cutting / air layer        |
-| `MILESTONE`    | first ramification etc.    |
-
-Isso cria futuramente um dataset muito mais útil.
+O Research Brief já reformulou H6 corretamente como a árvore funcionando como **persistent knowledge object**, não como generic social feed. 
 
 ---
 
-# 7. Mas logging precisa ser absurdamente leve
+# O mais valioso acontece depois do workshop
 
-Aqui está provavelmente o maior risco de todo o venture.
+O workshop nos dá activation.
 
-Se registrar um repot exigir:
+Mas a tese central precisa de **return**.
 
-12 campos
-3 dropdowns
-species confirmation
-temperature
-substrate percentages
-fertilizer
-humidity
-moon phase
-nome da avó
+Então eu desenharia o experimento para 30 dias.
 
-ninguém registra nada.
+### Day 0
 
-Portanto o evento mínimo deveria conceitualmente aceitar:
+Create first Tree Journey.
 
-**Tree + Event + approximate date**
+### Day 3–7
 
-e permitir enriquecimento opcional.
+Algo aconteceu?
 
-Por exemplo:
+Foto.
 
-> Repotted
-> 18 March 2028
->
-> * photo
+Observation.
 
-Pronto.
+Watering adjustment.
 
-Depois podemos perguntar ou inferir contexto adicional.
+New growth.
 
-Isso leva a um princípio importante:
+Question.
 
-### **Capture first. Structure progressively.**
+### Day 14
 
-Não exigir estrutura perfeita para aceitar memória.
+Update your tree.
 
----
+### Day 30
 
-# 8. Também precisamos aceitar incerteza
+How is your tree now?
 
-Isso é particularmente importante em provenance.
+Não precisamos sequer forçar reminders complexos.
 
-Não:
+Queremos descobrir:
 
-`Age: 42 years`
+**voltam espontaneamente?**
 
-se ninguém sabe.
+**o que registram?**
 
-Mas:
+**o que ignoram?**
 
-**Estimated age · 35–50 years**
-Source · previous owner
+**foto basta?**
 
-Ou:
+**eles lembram por que fizeram algo?**
 
-**Origin · Unknown**
+**querem comparar com outra árvore?**
 
-Ou:
+**perguntam “posso fazer X agora?”**
 
-**Species · probable**
-
-Um bom historical record não inventa precisão.
-
-Ele preserva incerteza.
+Agora estamos produzindo sinais reais.
 
 ---
 
-# 9. L3 · Living Provenance
+# Poderíamos até testar `Comparable Journey`
 
-Aqui acredito que temos a hipótese mais interessante surgida depois do brief original.
+Esse talvez seja o experimento mais interessante.
 
-Provenance já possui significado real no bonsai: ownership, artistas envolvidos, exhibition history, registros fotográficos e documentação podem fazer parte da história da árvore e contribuir para seu valor cultural e comercial. ([bonsaisocietyofbrevard.com][3])
+Depois de algumas pessoas registrarem:
 
-Portanto a pergunta não é:
+> Juniper · recently created · beginner
 
-> “Podemos inventar certificado para bonsai?”
-
-Não.
-
-A pergunta é:
-
-> **Podemos criar uma infraestrutura confiável para preservar provenance que hoje fica fragmentada?**
-
----
-
-# 10. O modelo fundamental seria Claim → Evidence → Attestation
-
-Imagine:
-
-### Claim
-
-`This tree was styled by Maria Silva in 2029.`
-
-### Evidence
-
-foto
-workshop record
-invoice
-public post
-
-### Attestation
-
-Maria confirma:
-
-`Yes, I worked on this tree.`
-
-Agora temos algo qualitativamente diferente de:
-
-> Owner escreveu isso no campo Notes.
-
----
-
-# 11. Eu criaria estados de evidência, não “selos de qualidade”
-
-Por exemplo:
-
-| Estado                     | Significado                           |
-| -------------------------- | ------------------------------------- |
-| **Recorded**               | declarado por alguém                  |
-| **Evidence attached**      | existe material associado             |
-| **Counterparty confirmed** | outra parte envolvida confirmou       |
-| **Practitioner attested**  | practitioner confirmou                |
-| **Institution attested**   | club/exhibition/institution confirmou |
-
-Importante:
-
-**Institution attested ≠ better tree.**
-
-Só significa:
-
-> esta afirmação possui determinada fonte.
-
-Isso protege nossa filosofia contra status creep.
-
----
-
-# 12. Transferência torna-se um evento crítico
-
-Quando Maria vende a árvore para João:
-
-**Maria → transfer initiated**
-
-**João → transfer accepted**
-
-O Tree ID permanece.
-
-Tree Journey permanece.
-
-Public history permanece conforme as regras de privacidade.
-
-Ownership relationship muda.
-
-E o registro ganha:
-
-`Transfer · 17 Jun 2032 · confirmed by both parties`
-
-Agora começa a surgir verdadeira provenance digital.
-
----
-
-# 13. Histórico nunca deveria ser silenciosamente reescrito
-
-Suponha que alguém registrou:
-
-`Species = Pinus thunbergii`
-
-e anos depois um practitioner identifica:
-
-`Pinus densiflora`.
-
-Não deletar a história anterior.
-
-Representar algo como:
-
-**2027 · Species recorded as Pinus thunbergii**
-**2030 · Identification revised to Pinus densiflora · practitioner attestation**
-
-História é exatamente isso.
-
-Conhecimento muda.
-
----
-
-# 14. Blockchain não é necessário
-
-Nada do problema identificado exige blockchain.
-
-Precisamos de:
-
-identity
-audit trail
-evidence
-permissions
-attestations
-history
-
-Tudo isso pode ser feito com tecnologias convencionais.
-
-O problema difícil não é:
-
-> impedir alguém de alterar um byte.
-
-É:
-
-> **quem devemos acreditar e por quê?**
-
-Isso é governança, não criptografia.
-
----
-
-# 15. L4 · Tree-Led Relationships
-
-Aqui eu mudaria bastante a arquitetura social típica.
-
-Bonsai Empire já tem feed, sharing e favoritos. ([App Store][4])
-
-Bonsai Tracker já tem community e direct messages. ([Bonsai Tracker][1])
-
-Portanto:
-
-## não construir outro feed.
-
-A unidade social deveria ser o **contexto da árvore**.
-
----
-
-# 16. Imagine a descoberta social
-
-Tenho:
-
-**Ficus microcarpa**
-Berlin
-First tree
-3 years in training
-Recently repotted
-
-O sistema poderia encontrar:
+poderíamos mostrar:
 
 ### Similar journeys
 
-Ficus microcarpa
-similar climate
-similar stage
-recently repotted
+ou simplesmente:
 
-Agora a conversa começa porque:
+### Others starting with juniper
 
-> estamos enfrentando algo parecido.
+E observar:
 
-Não porque:
+* abrem?
+* leem?
+* voltam?
+* aprendem?
+* deixam comentário?
+* querem seguir a árvore?
 
-> essa pessoa é famosa.
+O Project Brief já identificou `Comparable Journey` como uma mecânica potencialmente importante porque consegue gerar valor **sem o produto precisar aconselhar diretamente**. 
 
-Isso é muito mais próximo da filosofia de comunidade que queremos.
-
----
-
-# 17. Eu evitaria follower economy
-
-Não colocaria como elementos centrais:
-
-`4,829 followers`
-
-`12,000 likes`
-
-`Top grower`
-
-`Best collection`
-
-`Most valuable`
-
-`Trending collector`
-
-Porque isso inevitavelmente transforma comunidade em performance.
-
-O produto deveria incentivar:
-
-**continuity**
-
-**helpfulness**
-
-**learning**
-
-**shared context**
-
-**documented experience**
+O workshop nos dá a primeira possibilidade real de testar isso.
 
 ---
 
-# 18. O que poderia existir socialmente
+# O legacy system também pode ajudar, mas de forma muito controlada
 
-Não estou fechando features ainda, mas conceitualmente vejo quatro relações diferentes.
+Temos um ativo relevante:
 
-| Relação              | Exemplo                         |
-| -------------------- | ------------------------------- |
-| **Follow Journey**   | quero acompanhar esta árvore    |
-| **Similar Journey**  | minha árvore vive algo parecido |
-| **Ask Around Event** | quero discutir este repotting   |
-| **Tree Circle**      | grupo contextual recorrente     |
+**1.637 technique entries / 112 species**, incluindo timing, maturity e contraindications.
 
-`Tree Circle` é apenas nome conceitual por enquanto.
+Mas o próprio Domain Model é corretamente brutal sobre isso:
 
-Exemplos:
+**AI-generated, unreviewed, demonstrable errors, must not ship to users unverified.** 
 
-**First Juniper · Germany**
+Portanto:
 
-**Ficus · Tropical Brazil**
+### Podemos reutilizar
 
-**JBP · trunk development**
+taxonomy
+data shape
+16 canonical techniques
+contraindication structure
+maturity concept
+phenological timing concept
+species identity structure
 
-**Post-repot recovery**
+### Não podemos reutilizar como verdade
 
-**Inherited trees**
+care recommendations
+timing recommendations
+contraindications ainda não verificadas
+AI-generated descriptions
 
-**Trees from seed · Year 3**
+O maior valor do legacy não é:
 
-Isso produz pertencimento por jornada, não por patrimônio.
-
----
-
-# 19. E aqui aparece algo muito bonito
-
-Uma árvore de €20 pode produzir:
-
-10 anos de documentação
-erros
-aprendizados
-recuperações
-pessoas ajudadas
-mudanças de owner
-
-Uma árvore de €20.000 comprada pronta pode ter um perfil muito menos interessante.
-
-Isso ajuda estruturalmente a impedir:
-
-**wealth → social status.**
-
-O valor social passa a vir da **história compartilhada**, não do preço da árvore.
-
----
-
-# 20. Failure deveria ser first-class
-
-Eu tomaria uma decisão conceitual bastante forte:
-
-### morte não encerra nem apaga o Tree Record.
-
-A árvore passa:
-
-`Alive → Deceased`
-
-Mas a Journey continua existindo.
-
-Isso é coerente até com sistemas históricos do bonsai, nos quais a história de árvores perdidas continua podendo ser preservada.
-
-E é fundamental para nosso possível dataset.
-
-Uma árvore morta pode ser mais informativa do que cinquenta progressions perfeitas.
-
----
-
-# 21. Mas precisamos separar Outcome de Cause
-
-Nunca:
-
-**Cause of death · Overwatering**
-
-como fato só porque o owner acha isso.
-
-Seria:
-
-**Outcome · Tree died**
-
-e separadamente:
-
-**Attributed cause · Overwatering**
-Source · owner
-
-Talvez posteriormente:
-
-**Alternative interpretation · root damage**
-Source · practitioner
-
-Isso resolve um dos maiores problemas encontrados no Gate 0.
-
-Não transformar opinião pós-mortem em ground truth.
-
----
-
-# 22. L5 · Outcome Evidence
-
-Eu tiraria isso do core inicial.
-
-O `PROJECT-BRIEF` colocava outcome aggregation bastante perto do centro de P1. 
-
-Agora eu trataria como consequência possível.
-
-Primeiro precisamos acumular:
-
-**enough records**
-
-*
-
-**enough context**
-
-*
-
-**enough outcomes**
-
-*
-
-**enough quality**
-
-Só então podemos estudar agregação.
-
----
-
-# 23. O verdadeiro possível moat não seria “data”
-
-Essa frase precisa ficar mais precisa.
-
-Todo aplicativo gera data.
-
-O ativo potencial seria:
-
-## **Context-rich longitudinal outcome graph**
-
-Ou seja:
-
-Tree
-× species
-× climate
-× stage
-× interventions
-× health state
-× timing
-× observations
-× outcome
-× evidence quality
-
-Isso é muito mais difícil de copiar do que uma tabela de cuidados.
-
-Mas ainda não sabemos se conseguiremos coletá-lo.
-
----
-
-# 24. L6 · Decision Intelligence
-
-Eu deliberadamente não chamaria de `AI Advisor` nesta arquitetura.
-
-Primeiro porque provavelmente começaremos a imaginar um chatbot simpático e pronto, lá se foi novamente a disciplina estratégica.
-
-Segundo porque existem vários níveis possíveis.
-
-### Level 0
-
-Record only.
-
-### Level 1
-
-Retrieve own history.
-
-> You repotted this tree March 2028.
-
-### Level 2
-
-Retrieve similar historical cases.
-
-> 34 similar records exist.
-
-### Level 3
-
-Descriptive outcomes.
-
-> Trees under comparable conditions showed X/Y/Z outcomes.
-
-### Level 4
-
-Decision support.
-
-> Evidence suggests waiting.
-
-### Level 5
-
-Recommendation.
-
-> Do X.
-
-A autoridade necessária aumenta brutalmente a cada nível.
-
-Eu não autorizaria Level 4–5 sem H7.
-
----
-
-# 25. P1, P2 e P3 também mudam
-
-O documento original agrupava o portfolio em três produtos. 
-
-Depois do Gate 0 eu os reinterpretaria assim:
-
-| Produto | Nova leitura                                                                          |
-| ------- | ------------------------------------------------------------------------------------- |
-| **P1**  | **Tree Identity + Journey + Provenance substrate**                                    |
-| **P2**  | Acquisition entry point que pode criar a primeira identidade da árvore                |
-| **P3**  | Practitioner/teacher layer que também pode fornecer attestations e structured context |
-
-Isso torna P3 mais interessante.
-
-Professor/practitioner não seria apenas alguém ensinando.
-
-Pode tornar-se uma fonte legítima de:
-
-**attestation**
-
-**structured intervention records**
-
-**expert context**
-
-Isso conecta authority ao sistema sem o produto fingir possuí-la.
-
----
-
-# 26. A aquisição pode alimentar provenance naturalmente
-
-Imagine garden centre.
-
-Usuário fotografa uma planta.
-
-Decide comprá-la.
-
-Em vez de terminar:
-
-> Nice! Here is your care guide.
-
-P2 poderia produzir:
-
-### Start this tree's journey
-
-`Acquired · September 2027`
-`Nursery · X`
-`Initial photos · 3`
-`Species · probable`
-`Purchase context · nursery stock`
-
-Esse seria o nascimento digital da Tree Identity.
-
-P2 vira funnel para P1 de forma muito mais natural.
-
----
-
-# 27. Retention thesis
-
-Agora temos uma tese de retenção muito melhor para testar.
-
-| Motivação               | Valor                         |
-| ----------------------- | ----------------------------- |
-| **Utility**             | lembrar o que fiz             |
-| **Progress**            | enxergar evolução             |
-| **Identity**            | preservar história            |
-| **Legacy**              | transmitir junto com a árvore |
-| **Belonging**           | encontrar jornadas relevantes |
-| **Learning**            | aprender com outras árvores   |
-| **Future intelligence** | melhorar decisões             |
-
-O grande teste futuro será descobrir **quais dessas realmente causam retorno**.
-
-Não assumir que todas causam.
-
----
-
-# 28. O maior risco continua sendo logging friction
-
-Para mim esse virou o **Risk #1**.
-
-Não competição.
-
-Não AI.
-
-Não monetização.
-
-Se ninguém registrar continuamente:
-
-Tree Journey enfraquece
-Provenance empobrece
-Community perde contexto
-Outcome data não nasce
-Decision Intelligence nunca chega
-
-O projeto inteiro continua dependente desse comportamento, exatamente como o brief original alertava. 
-
----
-
-# 29. Outros riscos que agora ficam explícitos
-
-| Risco                    | Consequência                               |
-| ------------------------ | ------------------------------------------ |
-| **Logging burden**       | sistema inteiro morre                      |
-| **Fake provenance**      | confiança desaparece                       |
-| **Status creep**         | community contradiz proposta               |
-| **Cold start**           | Tree-Led Community parece vazia            |
-| **Privacy**              | histórico/ownership expõe pessoas          |
-| **Bad causal inference** | outcomes geram guidance perigoso           |
-| **Incumbent copying**    | features rapidamente replicadas            |
-| **Authority gap**        | advisor nunca se torna confiável           |
-| **Over-complexity**      | produto vira database para nerds de bonsai |
-
-Esse último merece atenção especial.
-
-É muito fácil essa arquitetura ficar intelectualmente maravilhosa e praticamente insuportável.
-
----
-
-# 30. Portanto temos um princípio de produto
-
-Eu colocaria isto no futuro brief:
-
-> **The system may be complex. Using it must not feel complex.**
-
-A complexidade fica no modelo.
-
-Não no grower.
-
----
-
-# 31. Agora consigo definir claramente o que NÃO é o produto
-
-Não é:
-
-**bonsai encyclopedia**
-
-**care-calendar app**
-
-**generic tracker**
-
-**Instagram for bonsai**
-
-**AI bonsai chatbot**
-
-**blockchain certificate**
-
-**marketplace**
-
-**expert replacement**
-
-Cada um desses pode eventualmente existir como feature ou extensão.
-
-Nenhum deveria definir o venture hoje.
-
----
-
-# 32. O conceito que sobrevive à Phase 1
-
-Minha formulação provisória seria:
-
-> **A persistent record for the life of a bonsai tree, preserving its journey and provenance across years and stewards, and connecting that history to relevant people and knowledge.**
-
-Ainda não é tagline.
-
-É a definição funcional.
-
-E em português:
-
-> **Um registro persistente da vida de cada bonsai, preservando sua jornada e procedência ao longo dos anos e entre diferentes cuidadores, e conectando essa história às pessoas e ao conhecimento relevantes.**
-
-Essa formulação é muito mais precisa do que “bonsai tracker”.
-
----
-
-# 33. Agora podemos avançar sem usuários de novo
-
-O próximo passo não precisa esperar entrevistas.
-
-Eu faria uma **Phase 1B · Shadow Product Validation**.
-
-Sem construir app.
-
-Usaríamos árvores e histórias públicas reais para simular o sistema.
-
-A ideia é pegar, por exemplo, **20–30 progression threads reais** e tentar convertê-las para:
-
-**Tree Identity → Events → Claims → Evidence → Outcomes → Relationships**
-
-Inclusive progressions como as documentadas no Bonsai Nut, que chegam a 5, 10 e 16 anos. ([bonsainut.com][2])
-
-A pergunta seria:
-
-> **Nosso modelo consegue representar naturalmente uma vida real de bonsai ou estamos impondo uma estrutura artificial?**
-
-Depois faríamos o mesmo para:
-
-**5–10 árvores com provenance relevante**
-
-e:
-
-**5–10 failure/recovery journeys.**
-
-E, finalmente, reconstruiríamos as conversas existentes ao redor delas para descobrir se o modelo:
-
-**Tree → Journey → Event → Conversation**
-
-realmente representa melhor o comportamento do que:
-
-**User → Post.**
-
-### Esse é o próximo gate que eu recomendo executar.
-
-Se o modelo falhar em representar histórias reais sem dezenas de exceções, **mudamos a arquitetura antes de construir qualquer coisa**.
-
-Se funcionar, teremos algo extremamente valioso: não somente uma ideia, mas um **domain model derivado do comportamento real do bonsai**, pronto para posteriormente virar concept prototype e só muito mais tarde MVP.
-
-Essa é agora a sequência natural do trabalho.
-
-[1]: https://app.bonsaitracker.com/?utm_source=chatgpt.com "Bonsai Tracker — care, log, and grow your trees"
-[2]: https://www.bonsainut.com/threads/the-5-to-10-year-progression-thread.35597/?utm_source=chatgpt.com "The 5 to 10+ Year Progression Thread | Bonsai Nut"
-[3]: https://bonsaisocietyofbrevard.com/bonsai-provenance/?utm_source=chatgpt.com "Bonsai Provenance | Bonsai Society of Brevard"
-[4]: https://apps.apple.com/de/app/bonsai-care-app/id6463043424?utm_source=chatgpt.com "‎Bonsai Care App‑App – App Store"
-
-
-Prossegui com a **Phase 1B · Shadow Product Validation** usando histórias públicas reais de bonsai como se fossem dados entrando no produto. O objetivo não era provar demanda, e sim descobrir se nossa arquitetura representa naturalmente a vida de uma árvore ou se estávamos inventando um banco de dados muito elegante para satisfazer a nós mesmos.
-
-O resultado foi melhor do que eu esperava, mas também revelou mudanças importantes.
-
-## Resultado geral
-
-Usei uma amostra qualitativa deliberadamente diversa de **mais de 20 casos**, cobrindo:
-
-* progressions de vários anos;
-* árvores recém-adquiridas;
-* nursery stock;
-* árvores recuperadas de problemas sérios;
-* árvores que morreram;
-* mudança de proprietário;
-* histórico de practitioners;
-* exposições;
-* árvores de museu;
-* árvores vendidas;
-* propagação/air-layer;
-* florestas com múltiplas árvores;
-* registros incompletos ou contraditórios.
-
-Isso **não é uma amostra populacional** e portanto não produz prevalência. É um stress test do domain model.
-
-### Veredicto
-
-**A arquitetura básica sobreviveu.**
-
-Mas não exatamente na forma que desenhamos.
-
-O modelo:
-
-> `Tree → Events → Claims → Evidence → Outcomes → Relationships`
-
-representa surpreendentemente bem histórias reais.
-
-Só que encontramos quatro conceitos que estavam faltando:
-
-> **State**
-> **Intent**
-> **Lineage**
-> **Composition**
-
-Eles são importantes o suficiente para alterar o domain model.
-
----
-
-# 1. Tree Event funciona muito bem
-
-Esse foi o componente que melhor sobreviveu.
-
-Veja um caso real de Ficus benjamina. O grower consegue reconstruir:
-
-* fevereiro de 2022;
-* outubro de 2022;
-* repotting em fevereiro de 2023;
-* outro repotting em dezembro;
-* trunk chop em julho de 2024;
-* intervenções posteriores;
-* fotografias correspondentes.
-
-Ele inclusive registra retrospectivamente que algumas decisões foram erros de iniciante. ([bonsainut.com][1])
-
-Isso praticamente já é:
-
-```text
-TREE
-  ↓
-2022-02 Acquisition / Observation
-2023-02 Repot
-2023-12 Repot
-2024-07 Major pruning
-...
-```
-
-O mesmo aparece numa progressão de Japanese larch, com datas exatas para top chop, wiring, pruning, removal of wire e futuras intenções de desenvolvimento. ([bonsainut.com][2])
-
-### Decisão
-
-**`Tree Event` permanece como unidade fundamental.**
-
-Não `Post`.
-
-Não `Photo`.
-
-Não `Journal Entry`.
-
-Esses podem existir associados ao evento.
-
----
-
-# 2. Mas descobrimos que Event sozinho não basta
-
-Veja esta árvore.
-
-O owner registra em 2025:
-
-> crescimento forte, poda duas vezes e determinadas áreas deliberadamente deixadas sem poda para engrossar.
-
-Em 2026 volta e avalia o resultado daquela estratégia. ([bonsainut.com][2])
-
-Existem três coisas diferentes:
-
-### O que aconteceu
-
-`Pruning`
-
-### Por que ele fez
-
-`Increase ramification`
-
-### O que aconteceu depois
-
-`Ramification improved`
-
-Portanto o modelo precisa distinguir:
-
-**Event**
-
-**Intent**
-
-**Outcome**
-
-Isso é extremamente importante para outcome intelligence futura.
-
-Sem `Intent`, podemos observar:
-
-> árvore foi podada.
-
-Mas não sabemos:
-
-> o que o grower estava tentando conseguir?
-
----
-
-# 3. Novo conceito obrigatório: Intent
-
-Eu acrescentaria:
-
-## `TREE EVENT`
-
-**Action**
-o que foi feito.
-
-**Intent**
-qual era o objetivo.
-
-**Observation / Outcome**
-o que aconteceu depois.
-
-Exemplo:
-
-```text
-Event
-Repotting · March 2025
-
-Intent
-Improve drainage and root development
-
-Context
-Old compacted soil
-
-Outcome
-Strong growth through 2025
-
-Confidence
-Observed by owner
-```
-
-Isso transforma simples logging em aprendizado longitudinal.
-
----
-
-# 4. Intent também aparece em praticamente todas as progressions boas
-
-Chinese Elm:
-
-> repot para vaso maior com a intenção de engrossar trunk e deixar crescer. ([bonsainut.com][3])
-
-Siberian Elm:
-
-> plano explícito de cavar no próximo ano, trabalhar roots, fazer trunk chop e desenvolver determinada linha de tronco. ([bonsainut.com][4])
-
-Japanese Red Pine:
-
-> discussão explícita sobre desenvolver pads versus trunk thickness e como continuar a próxima seção do trunk. ([bonsainut.com][5])
-
-Portanto `Intent` não é detalhe nerd.
-
-É parte natural de como growers pensam.
-
----
-
-# 5. Segundo conceito novo: State
-
-Também percebemos que a árvore possui condições persistentes entre eventos.
-
-Exemplo real:
-
-Uma Austrian Black Pine é registrada como aparentemente morta durante cerca de um mês, depois desperta muito tarde, possivelmente em função de um inverno anômalo em Utah. ([bonsainut.com][6])
-
-Isso não é apenas um `Event`.
-
-Existe um período:
-
-**State: Dormant / uncertain health**
-
-Outro exemplo, uma Premna passa aproximadamente seis meses sem foliage depois de um repotting, antes de recuperar crescimento. ([bonsainut.com][7])
-
-Portanto precisamos distinguir:
-
-### Event
-
-algo acontece em um ponto.
-
-### State
-
-uma condição persiste por um período.
-
----
-
-# 6. O modelo passa a ser
-
-```text
-TREE
- │
- ├── Identity
- │
- ├── States
- │
- ├── Events
- │     ├── Intent
- │     ├── Evidence
- │     └── Attributed Cause
- │
- ├── Outcomes
- │
- ├── Provenance
- │
- └── Relationships
-```
-
-Isso já representa histórias reais consideravelmente melhor.
-
----
-
-# 7. A diferença entre Outcome e Cause ficou absolutamente confirmada
-
-O caso da Japanese Black Pine Recovery é excelente.
-
-A árvore tinha yellowing e dieback. Depois de consulta com club members, o owner **inferiu** que a causa poderia ser deficiência na absorção de água devido ao substrato e situação de cultivo. Ele alterou substrato e manejo; posteriormente a árvore recuperou vigor. ([bonsainut.com][8])
-
-Nossa representação correta é:
-
-**Observed**
-
-Yellowing
-Dieback
-
-**Intervention**
-
-Repot / substrate change
-watering management
-
-**Observed outcome**
-
-Recovery
-
-**Attributed cause**
-
-Insufficient water uptake
-
-Não:
-
-> `Cause = insufficient water uptake`
-
-como verdade absoluta.
-
-Essa distinção precisa ficar canônica.
-
----
-
-# 8. O caso Amur Maple mostra exatamente por quê
-
-O grower fez root work agressivo.
-
-Depois perdeu o leader.
-
-Ele próprio diz que **acha** que deveria ter esperado mais um ano.
-
-Outros discutem se a causa foi root work ou dieback relacionado aos cortes.
-
-Em 2026 outro usuário pergunta como a árvore está.
-
-Resposta:
-
-**ela morreu.** ([bonsainut.com][9])
-
-Perfeito para nosso sistema:
-
-```text
-EVENT
-Aggressive root work
-
-OUTCOME
-Leader died
-
-ATTRIBUTED CAUSE
-Possibly excessive root work
-
-CONFIDENCE
-Uncertain
-
-FINAL OUTCOME
-Tree deceased · confirmed 2026
-```
-
-Isso é muito mais cientificamente útil que:
-
-`Death cause = bad repotting`.
-
----
-
-# 9. E descobrimos uma necessidade social delicada
-
-Existe uma discussão explicitamente pedindo uma maneira de marcar progression threads de árvores mortas.
-
-O usuário relata que atualizou a thread apenas para registrar que sua árvore tinha morrido, mas acabou recebendo uma avalanche de postmortem advice que **não havia pedido**. ([bonsainut.com][10])
-
-Isso é ouro para Tree-Led Community.
-
-Uma morte pode ter modos sociais diferentes:
-
-### Record only
-
-> Estou documentando o resultado.
-
-### Help wanted
-
-> Quero entender o que aconteceu.
-
-### Discuss outcome
-
-> Podemos analisar juntos.
-
-Não deveríamos assumir que todo evento convida conselho.
-
-Isso sugere um princípio muito importante:
-
-## **Contribution ≠ invitation for critique**
-
-Excelente para a filosofia de comunidade que estamos tentando construir.
-
----
-
-# 10. Third missing concept: Lineage
-
-Esse foi talvez o achado estrutural mais interessante.
-
-Uma árvore pode gerar outras árvores.
-
-Air layering.
-
-Cutting.
-
-Grafting.
-
-Seed lineage.
-
-Root division.
-
-No caso do Amur Maple morto, o owner informa que **a árvore original morreu, mas o air layer retirado dela continua vivo**. ([bonsainut.com][9])
-
-Então:
-
-```text
-TREE A
-  └── Air layer
-        ↓
-      TREE B
-```
-
-Tree A morreu.
-
-Tree B continua.
-
-Isso significa que nossa identidade não pode ser apenas uma coleção de registros independentes.
-
-Precisamos de:
-
-## **Biological / Propagation Lineage**
-
----
-
-# 11. O Ficus também mostra isso
-
-O Ficus #32 é explicitamente descrito como vindo da **mesma mother plant** de outras árvores do grower. ([bonsainut.com][1])
-
-Isso permite futuramente algo fascinante:
-
-### Related Trees
-
-same mother
-same seed batch
-same cutting source
-same collected material
-air-layer child
-
-Não significa pedigree elitista.
-
-É lineage botânica/documental.
-
-E pode ser cientificamente extremamente útil para outcomes.
-
----
-
-# 12. Isso muda Living Provenance
-
-Agora existem pelo menos **três tipos diferentes de lineage**:
-
-### Biological lineage
-
-Mother plant → cutting / seed / air layer.
-
-### Stewardship lineage
-
-Owner A → Owner B → Owner C.
-
-### Practitioner lineage
-
-Collected by A → developed by B → styled by C → refined by D.
-
-Essas três coisas precisam permanecer separadas.
-
----
-
-# 13. Practitioner lineage é muito real
-
-Uma discussão sobre exposições cita uma árvore:
-
-**collected by Randy Knight**
-**first styled by Boon**
-**later styled by Ryan Neil**
-
-enquanto outra pessoa era o owner. ([bonsainut.com][11])
-
-Outro caso documenta uma Colorado Blue Spruce:
-
-**collected by Randy Knight**
-**styled por Walter Pall e Jennifer Price**, posteriormente trabalhada por uma equipe. ([bonsainut.com][12])
-
-Essa estrutura existe culturalmente.
-
-Então `Person → Tree` não pode ser simplesmente:
-
-`owner`.
-
-Precisamos de roles.
-
----
-
-# 14. Relationship roles
-
-Eu adotaria algo semelhante a:
-
-```text
-PERSON ↔ TREE
-
-role:
-- Steward / Owner
-- Collector
-- Propagator
-- Grower
-- Stylist
-- Teacher
-- Student
-- Practitioner
-- Donor
-- Nursery
-- Institution
-- Photographer
-```
-
-Uma pessoa pode ter múltiplos roles ao longo do tempo.
-
-E cada relationship possui:
-
-**start date**
-**end date**
-**source/evidence**
-
----
-
-# 15. Isso ficou ainda mais claro em museus
-
-O Pacific Bonsai Museum já registra árvores aproximadamente assim.
-
-Um Ficus microcarpa possui:
-
-**Accession number 304**
-training since 1965
-donated by Amy Liang
-provenance descrevendo desenvolvimento e doação ao museu.
-
-Outro registra original artist unknown e história de nursery/importação. ([pacificbonsaimuseum.org][13])
-
-É basicamente um antecedente institucional do nosso modelo.
-
-Mas para árvores excepcionais.
-
-Nossa hipótese seria democratizar uma versão leve disso.
-
----
-
-# 16. O caso Zelkova mostrou por que Claims precisam ser versionáveis
-
-Esse caso foi particularmente valioso.
-
-O owner acreditava conhecer a história da árvore baseado no proprietário anterior.
-
-Depois, numa exposição, encontrou Bill Valavanis, que conhecia a árvore e revelou que **algumas informações anteriores estavam incorretas**. ([bonsainut.com][14])
-
-Isso confirma exatamente a arquitetura que propusemos:
-
-Não apagar:
-
-> Previous origin claim.
-
-Registrar:
-
-```text
-CLAIM v1
-Source: Previous owner
-Origin: X
-
-CLAIM v2
-Source: Bill Valavanis
-Origin: Y
-
-Status:
-v1 disputed / superseded
-```
-
-Esse é um argumento muito forte para Living Provenance como **history of knowledge**, não apenas profile fields.
-
----
-
-# 17. Isso também derruba qualquer ideia simplória de “Verified”
-
-Não existe:
-
-✅ VERIFIED TREE
-
-e pronto.
-
-Podemos ter:
-
-**Acquisition verified**
-
-mas:
-
-**Age estimated**
-
-e:
-
-**Original nursery unknown**
-
-e:
-
-**Styling practitioner confirmed**
-
-e:
-
-**Species probable**
-
-Tudo simultaneamente.
-
-Então confidence pertence ao **claim**, não à árvore inteira.
-
-Muito importante.
-
----
-
-# 18. Quarto conceito novo: Composition
-
-Este apareceu com forest bonsai.
-
-Um grower mantém uma Lacebark Elm Forest formada originalmente por sete seedlings. Um morreu e foi substituído por um cutting. O conjunto continua sendo tratado socialmente como **a mesma forest**. ([bonsainut.com][15])
-
-Então nosso objeto principal nem sempre é uma única entidade biológica.
-
-Existe:
-
-**Composition**
-
-contendo múltiplas Trees.
-
-Exemplos:
-
-forest
-raft
-group planting
-
-Essa é uma distinção importante.
-
----
-
-# 19. Portanto não deveríamos chamar todo objeto simplesmente `Tree`
-
-Internamente eu criaria:
-
-### `Living Subject`
-
-e dois subtipos:
-
-**Tree**
-
-**Composition**
-
-Mas externamente continuamos falando “tree” porque ninguém deveria precisar estudar nosso ER diagram para regar um bonsai.
-
-Por baixo:
-
-```text
-SUBJECT
- ├── TREE
- └── COMPOSITION
-       ├── TREE A
-       ├── TREE B
-       └── TREE C
-```
-
-Isso evita problemas futuros.
-
----
-
-# 20. Root-over-rock também mostra outra nuance
-
-Uma progressão registra repetidos trabalhos numa árvore sobre pedra, inclusive root work, raffia, parafilm, container changes e fotografias históricas. ([bonsainut.com][16])
-
-A pedra faz parte da composição artística.
-
-Então futuramente podem existir related objects:
-
-Tree
-Pot
-Stone
-Stand
-
-Mas **eu não colocaria isso no core agora**.
-
-Senão em três semanas teremos um ERP para vasos.
-
-A arquitetura apenas deve permitir extensão.
-
----
-
-# 21. Tree Journey também resolve um problema que forums têm
-
-Um grower de Japanese Red Pine diz explicitamente que tinha **várias threads diferentes sobre a mesma árvore** e resolveu consolidar tudo numa progression porque havia documentado mal seu histórico. ([bonsainut.com][5])
-
-Isso é praticamente validação espontânea de um problema estrutural:
-
-**conversation-centric systems fragment tree history.**
-
-Nosso modelo resolveria precisamente isso:
-
-> conversa pertence ao Tree Event.
-
-Não:
-
-> história da árvore precisa ser reconstruída procurando conversas.
-
-Essa diferença é forte.
-
----
-
-# 22. Outro grower teve exatamente o problema de memória
-
-Na Lacebark Forest:
-
-> mudou de telefone e perdeu muitas fotos antigas, portanto o registro mais antigo restante é de 2023, embora o projeto tenha começado em 2021. ([bonsainut.com][15])
-
-Outro owner admite:
-
-> não documentei e fotografei bem tudo que fiz desde que adquiri a árvore. ([bonsainut.com][5])
-
-Isso é evidência qualitativa particularmente boa para **H1C · Record continuity pain**.
-
-Não prova prevalência.
-
-Mas a dor existe espontaneamente.
-
----
-
-# 23. A árvore como objeto social também sobreviveu ao shadow test
-
-Itoigawa progression:
-
-um usuário na África do Sul diz que quer acompanhar a progression.
-
-Outro, em São Paulo, explica que possui um Itoigawa enfrentando problema semelhante e que a progression o ajudou a decidir **esperar e deixar a árvore recuperar força**. ([bonsainut.com][17])
-
-Isso é quase exatamente:
-
-```text
-TREE A
-↓
-Journey
-
-similar context
-
-TREE B
-↓
-Owner learns from Tree A
-```
-
-Não há necessidade de influencer.
-
-O conhecimento viaja **tree-to-tree**.
-
-Isso é importante.
-
----
-
-# 24. Tree-Led Relationships passou no teste conceitual
-
-Os casos mostram três comportamentos sociais distintos.
-
-### Follow
-
-> quero ver como essa árvore evolui.
-
-### Compare
-
-> tenho uma árvore semelhante.
-
-### Learn / Ask
-
-> seu caso muda o que devo fazer na minha.
-
-Portanto eu refinaria nossas relações sociais para:
-
-```text
-Follow this Journey
-Similar to my Tree
-Discuss this Event
-Learn from this Journey
-```
-
-Não precisamos começar com todas como features.
-
-Mas conceitualmente são relações reais observadas.
-
----
-
-# 25. Descobrimos inclusive uma possível nova unidade de conhecimento
-
-## **Comparable Journey**
-
-Isso pode ser mais importante no futuro do que “community”.
-
-Imagine:
-
-> Minha JBP está amarelada depois de repotting.
-
-O sistema não precisa responder:
-
-> Pergunte à comunidade inteira.
-
-Pode mostrar:
-
-### Similar documented journeys
-
-JBP
-similar climate
-recent repot
-yellowing
-recovered
-
-Agora a comunidade acontece em torno de **casos relevantes**.
-
-Isso é muito mais interessante do que feed.
-
----
-
-# 26. Provenance e valor também sobreviveram
-
-Em discussão sobre venda de árvores Mirai, growers explicitamente associam preço ao conjunto:
-
-**material + collector + stylist + pot maker**.
-
-Um comentário descreve que o comprador está pagando, entre outras coisas, por árvore coletada por Randy Knight, styling de Ryan Neil e determinados potters reconhecidos. ([bonsainut.com][18])
-
-Isso não significa que devamos alimentar uma economia de status.
-
-Significa apenas que:
-
-**practitioner history already affects perceived market value.**
-
-H5 permanece forte.
-
----
-
-# 27. Mas descobrimos um limite saudável para provenance
-
-A própria comunidade debate até onde attribution faz sentido.
-
-Um participante observa que árvores de alto nível frequentemente passam por vários owners e artistas e ironiza o risco de labels acabarem parecendo carros de corrida cheios de sponsors. ([bonsainut.com][11])
-
-Outro debate recente questiona quanto provenance realmente deveria importar em julgamento de exposições. ([bonsainut.com][19])
-
-Excelente.
-
-Isso confirma que devemos preservar:
-
-**history**
-
-sem transformar automaticamente em:
-
-**ranking**.
-
----
-
-# 28. Shadow validation score
-
-Minha avaliação dos componentes ficou assim:
-
-| Componente                 |                Fit com casos reais |
-| -------------------------- | ---------------------------------: |
-| Persistent Identity        |                    **Muito forte** |
-| Tree Event                 |                    **Muito forte** |
-| Photos/evidence            |                    **Muito forte** |
-| Intent                     |   **Necessário, descoberto agora** |
-| State                      |   **Necessário, descoberto agora** |
-| Outcome                    |                    **Muito forte** |
-| Attributed Cause           | **Necessário separado de Outcome** |
-| Claims                     |                    **Muito forte** |
-| Claim-level confidence     |                    **Muito forte** |
-| Attestations               |          **Forte para provenance** |
-| Stewardship history        |                    **Muito forte** |
-| Practitioner relationships |                    **Muito forte** |
-| Biological lineage         |   **Necessário, descoberto agora** |
-| Composition                |   **Necessário para forest/group** |
-| Tree-led conversation      |                    **Muito forte** |
-| Comparable journeys        |                      **Promissor** |
-| Popularity feed            |                  **Desnecessário** |
-| Advisor                    |             **Ainda não validado** |
-
-Não encontrei nenhum caso que exigisse abandonar o núcleo do modelo.
-
-Isso é um resultado importante.
-
----
-
-# 29. Domain model v0.2
-
-A arquitetura agora passa a ser:
-
-```text
-LIVING SUBJECT
-│
-├── Identity
-│
-├── Current State
-│
-├── Claims
-│   ├── Source
-│   ├── Evidence
-│   ├── Confidence
-│   └── Attestation
-│
-├── Journey
-│   └── Events
-│       ├── Action
-│       ├── Intent
-│       ├── Context
-│       ├── Evidence
-│       ├── Observation
-│       ├── Outcome
-│       └── Attributed Cause
-│
-├── Lineage
-│   ├── Biological
-│   ├── Stewardship
-│   └── Practitioner
-│
-├── Relationships
-│
-├── Conversations
-│
-└── Status
-    ├── Alive
-    ├── Deceased
-    └── Unknown
-```
-
-Para compositions:
-
-```text
-COMPOSITION
-│
-├── Identity
-├── Journey
-└── Members
-     ├── Tree A
-     ├── Tree B
-     └── Tree C
-```
-
-Essa é uma arquitetura bem mais madura que a anterior.
-
----
-
-# 30. O que eu não colocaria no modelo core
-
-Depois deste teste, eu excluiria conscientemente do core inicial:
-
-* pot inventory;
-* tool inventory;
-* fertilizer inventory;
-* marketplace;
-* awards ranking;
-* followers;
-* likes;
-* AI diagnosis;
-* detailed weather history;
-* financial value;
-* NFT/blockchain;
-* comprehensive care encyclopedia.
-
-Podem eventualmente se relacionar.
-
-Mas não pertencem ao coração.
-
----
-
-# 31. A tese de comunidade também melhora
-
-Eu deixaria de chamar o conceito simplesmente de:
-
-**Tree-Led Community**
-
-e passaria a pensar em:
-
-## **Tree-Led Knowledge Network**
-
-porque o que vimos não é apenas belonging.
+> “Já temos conteúdo.”
 
 É:
 
-**history + people + comparison + conversation + learning.**
+> **Já temos um vocabulary/domain scaffold.**
 
-Community emerge da rede.
-
-Não precisa ser artificialmente fabricada através de um tab escrito `COMMUNITY`.
-
-Essa diferença é importante.
+Isso reduz brutalmente o trabalho conceitual do MVP.
 
 ---
 
-# 32. Isso também resolve parcialmente cold start
+# E eu usaria outra coisa do legacy imediatamente
 
-Uma comunidade vazia é inútil.
+O conceito:
 
-Mas um Tree Journey **não é inútil sozinho**.
+**technique + timing + maturity + contraindication**
 
-Usuário 1 já recebe:
+pode informar o que registramos no `Tree Event`.
 
-memory
+Por exemplo, alguém fez:
+
+`REPOTTING`
+
+Agora temos uma técnica canônica.
+
+Não precisamos inventar free text.
+
+Outro fez:
+
+`STRUCTURAL_PRUNING`
+
+Outro:
+
+`WIRING`.
+
+Isso melhora desde o primeiro dia a qualidade futura dos registros sem expor uma única recomendação não validada.
+
+Aqui o legacy realmente produz vantagem.
+
+---
+
+# Então qual MVP eu imagino para daqui a um mês?
+
+Não consigo decidir UI ainda sem passar pelas três frentes, mas consigo definir o **shape do experimento**.
+
+Seria algo aproximadamente assim:
+
+### Before workshop
+
+Uma landing page simples:
+
+**Bring your first bonsai to life.
+Keep its story from day one.**
+
+Explica minimamente a proposta.
+
+Talvez cadastro antecipado.
+
+### During workshop
+
+QR code.
+
+Create account / lightweight access.
+
+**Create your tree**
+
+Photo.
+
+Species if known.
+
+Name optional.
+
+Start date = workshop.
+
+Starting material.
+
+First Event.
+
+Optional intent.
+
+Pronto.
+
+### End of workshop
+
+Tela:
+
+**Your tree's journey started today.**
+
+E a primeira progression já existe.
+
+### Following 30 days
+
+Return.
+
+Add photo/event.
+
+Observe progress.
+
+Potentially see comparable journeys.
+
+Isso já é produto suficiente para aprender.
+
+---
+
+# E quais métricas eu observaria?
+
+Não tentaria medir cinquenta coisas.
+
+As primeiras seriam:
+
+**Activation**
+
+% workshop participants who create the tree.
+
+**Capture completion**
+
+% who create at least one Event.
+
+**Return**
+
+% returning independently within 7 / 14 / 30 days.
+
+**Second event**
+
+% creating another event.
+
+**Record shape**
+
+photo only vs action vs observation vs intent.
+
+**Retrieval**
+
+do they later use their own history?
+
+**Comparable Journey interaction**
+
+if exposed, do they engage?
+
+**Decision anxiety**
+
+do they naturally ask “should/can I…?”
+
+E uma qualitativa absurdamente importante:
+
+> **What did people try to do that the experiment didn't let them do?**
+
+MVPs bons frequentemente revelam o produto pelas tentativas frustradas.
+
+---
+
+# Monetization também pode ser testada no workshop sem cobrar
+
+Não perguntaria simplesmente:
+
+> “Você pagaria €3.99?”
+
+Podemos testar economic signals.
+
+Por exemplo, ao final dos 30 dias:
+
+**Free**
+
+1 tree + basic journey.
+
+E mostrar hipoteticamente:
+
+**Extended History**
+
+Unlimited photos
+Exportable tree record
+Multiple trees
+Advanced comparison
+
+Sem cobrar ainda.
+
+Medir:
+
+**upgrade click / interest**
+
+Isso ainda é stated/intent behavior, então não é willingness-to-pay real.
+
+Mas é melhor do que perguntar numa roda de conversa:
+
+> “Quem compraria?”
+
+onde quinze pessoas levantam a mão para serem educadas e zero abre a carteira depois.
+
+---
+
+# Brand pode ser testada da mesma forma
+
+O workshop nos permite observar qual framing realmente funciona.
+
+Talvez:
+
+### A
+
+**Don't lose your bonsai's story.**
+
+### B
+
+**See how your bonsai grows with you.**
+
+### C
+
+**Every bonsai has a journey.**
+
+### D
+
+**Know what happened. Learn what comes next.**
+
+Não precisamos decidir hoje.
+
+Brand Strategy deveria produzir os hypotheses e o workshop nos dá comportamento para escolher.
+
+---
+
+# Growth também começa ali
+
+Cada árvore criada pode potencialmente gerar um shareable object:
+
+**My first bonsai · started 04 Oct 2026**
+
+Mas compartilhamento não precisa ser viral cringe.
+
+Pode ser simplesmente:
+
+**Share my first tree**
+
+E medir se acontece naturalmente.
+
+Se participantes compartilharem a árvore com outras pessoas, temos um possível growth loop baseado no **Tree**, não no usuário.
+
+Isso é bem alinhado à arquitetura:
+
+**Tree → Journey → Events → People.** 
+
+---
+
+# Portanto eu mudaria ligeiramente a sequência que você propôs
+
+Você disse:
+
+**Monetization
+→ Brand
+→ Growth
+→ Product UIUX**
+
+Eu faria:
+
+**Canonical Evidence Reconciliation**
+
+↓
+
+**Monetization + Brand + Growth em paralelo, em modo hypothesis**
+
+↓
+
+### **Workshop MVP Experiment Definition**
+
+↓
+
+**Product/UIUX mínimo exclusivamente para esse experimento**
+
+↓
+
+### **Workshop**
+
+↓
+
+**30-day behavioral observation**
+
+↓
+
+**Evidence reconciliation**
+
+↓
+
+**Monetization + Brand + Growth v1 informed by evidence**
+
+↓
+
+### **Só então Product/UIUX do verdadeiro MVP**
+
+Essa diferença é gigantesca.
+
+Não estamos usando Monetization/Brand/Growth para **decidir o produto antes do workshop**.
+
+Estamos usando essas frentes para decidir:
+
+> **o que precisamos aprender no workshop.**
+
+E usamos Product/UIUX apenas para construir **o menor instrumento capaz de gerar essa evidência**.
+
+## Minha conclusão
+
+Sua intuição está certa: **não devemos correr para UIUX agora**.
+
+Mas o workshop daqui a um mês cria um deadline extremamente útil.
+
+Eu transformaria o objetivo do próximo mês em:
+
+> **By the workshop, we do not need a product. We need the smallest real experience capable of creating a Tree Journey and allowing us to observe whether first-time bonsai owners voluntarily continue it.**
+
+Se conseguirmos isso, sairemos do workshop com algo que nenhuma pesquisa documental consegue nos dar:
+
+**primeiros usuários reais, primeiras árvores reais, primeiros events reais e o começo de uma curva real de retention.**
+
+E, pela primeira vez, poderemos começar a substituir algumas das palavras mais repetidas dessa documentação:
+
+**assumption**
+
+por
+
+**evidence**.
+
+
+
+
+
+Sobre o workshop acredito que uma coisa precisa ser ressaltada. As pessoas que vao atender serao muito provavelmente pessoas ou que nunca mexeram em bonsai e tem 0 conhecimento ou pessoas que sabem algo mas ainda estao iniciando, entao vale ressaltar isso na expectativa sobre validacao. Outro ponto, nao acredito que amarrar o que estamos construindo ao workshop seja correto, precisamos pensar no workshop como uma boa oportunidade, mas nao como essencial para o nosso projeto aqui
+
+
+Concordo com as duas correções. Elas são importantes porque evitam transformar uma oportunidade conveniente em “estratégia”, aquela coisa que acontece quando um calendário começa a mandar no produto.
+
+### 1. O workshop é uma amostra extremamente específica
+
+Pelo perfil que você descreveu, os participantes estarão concentrados em:
+
+**zero conhecimento → primeiro contato com bonsai**
+
+ou
+
+**beginner muito inicial**.
+
+Isso é bastante compatível com o segmento primário atual, que o Project Brief define como first/second-tree owner, buscando principalmente **safety + memory**. 
+
+Mas não é representativo do mercado inteiro.
+
+Portanto o workshop pode nos ensinar bastante sobre:
+
+* onboarding para alguém que não entende bonsai;
+* linguagem e terminologia;
+* first-tree anxiety;
+* criação do primeiro Tree Journey;
+* quanto logging inicial parece fácil ou pesado;
+* que informação a pessoa entende ou não;
+* que tipo de guidance espera logo após adquirir/criar a árvore;
+* se registrar foto/evento parece natural;
+* early return nas semanas seguintes.
+
+Mas **não deveria ser usado para validar**:
+
+* comportamento de hobbyists com 10–20 árvores;
+* provenance de longo prazo;
+* transferências entre owners;
+* willingness to pay do mercado;
+* practitioner workflows;
+* teacher tooling;
+* advanced tracking;
+* long-term retention;
+* network effects;
+* outcome-derived authority.
+
+Ou seja, o workshop produz evidência de **beginner activation**, não “validação do produto”.
+
+Essa distinção precisa ficar explícita.
+
+---
+
+## 2. E concordo ainda mais com o segundo ponto
+
+**O projeto não deve ser amarrado ao workshop.**
+
+Eu fui longe demais ao transformar o workshop no eixo temporal da estratégia.
+
+A formulação correta é:
+
+> **O venture possui sua própria sequência estratégica e de validação. O workshop é uma oportunidade paralela de coletar evidência real sobre um subconjunto muito específico das hipóteses.**
+
+Se o workshop fosse cancelado amanhã, **nossa direção de trabalho deveria continuar essencialmente igual**.
+
+Isso é o teste simples para saber se estamos dependentes demais dele.
+
+---
+
+# Eu separaria formalmente em dois tracks
+
+## TRACK A · Venture Development
+
+Este é o caminho principal e independe do workshop:
+
+**1. Canonical Evidence Reconciliation**
+
+↓
+
+**2. Monetization & Economics**
+
+↓
+
+**3. Brand Identity & Marketing**
+
+↓
+
+**4. Growth Strategy**
+
+↓
+
+**5. Opportunity / Product Thesis Reconciliation**
+
+↓
+
+**6. MVP Validation Strategy**
+
+↓
+
+**7. Product/UIUX**
+
+↓
+
+**8. MVP / experiments**
+
+↓
+
+**9. Evidence → iteration / kill / continue**
+
+Esse é o projeto.
+
+---
+
+## TRACK B · Workshop Opportunity
+
+O workshop simplesmente corre ao lado:
+
+**Workshop participant profile**
+
+zero/low bonsai experience
+
+↓
+
+**choose only hypotheses appropriate to that cohort**
+
+↓
+
+**small optional experiment**
+
+↓
+
+**collect observations**
+
+↓
+
+**feed relevant evidence back into Track A**
+
+Ele é um **evidence input**, não um gate.
+
+---
+
+# Isso também muda o que deveríamos levar ao workshop
+
+Eu não acho mais necessário dizer:
+
+> “Precisamos ter nosso MVP pronto para o workshop.”
+
+Não.
+
+A pergunta passa a ser:
+
+> **Existe algum pequeno artefato ou experiência que já faça sentido segundo a estratégia do venture e que, coincidentemente, possamos testar no workshop sem distorcer o projeto?**
+
+Se sim, excelente.
+
+Se não, não inventamos um produto às pressas só porque haverá humanos reunidos numa sala.
+
+---
+
+# Pode até ser algo muito menor que um app
+
+Por exemplo, dependendo do que Monetization/Brand/Growth nos mostrarem, poderíamos levar apenas:
+
+### Opção A · Tree Journey prototype
+
+QR → photo → tree → first event.
+
+### Opção B · Digital first-tree card
+
+Uma pequena identidade digital da árvore criada naquele dia.
+
+### Opção C · Beginner companion
+
+Uma experiência simples pós-workshop com:
+
+* “what I created”;
+* photo;
+* species;
+* basics learned;
+* next observation.
+
+### Opção D · Nada de produto
+
+Apenas observar perguntas, confusões, linguagem e comportamento durante o workshop e usar isso como research.
+
+Essa quarta opção precisa continuar sendo legítima.
+
+---
+
+# Há uma coisa especialmente valiosa no perfil beginner
+
+O fato de eles terem pouco ou nenhum conhecimento **reduz a utilidade deles para algumas hipóteses, mas aumenta muito para outras**.
+
+Eles são particularmente bons para testar:
+
+### Information architecture
+
+Eles não conhecem o vocabulário.
+
+Se entenderem, ótimo.
+
+### Mental model
+
+Como alguém pensa sobre a árvore antes de aprender o jargão?
+
+### Anxiety
+
+Quais são as primeiras dúvidas espontâneas?
+
+### First-value proposition
+
+Depois de criar a árvore, o que parece imediatamente útil?
+
+### Logging friction
+
+Registrar algo logo no primeiro dia parece natural ou burocrático?
+
+### Guidance expectations
+
+Eles querem:
+
+* lembrar?
+* saber o que fazer?
+* saber o que não fazer?
+* acompanhar crescimento?
+* conversar com alguém?
+* simplesmente não matar a árvore?
+
+Esses sinais são muito valiosos para o segmento beginner.
+
+---
+
+# Mas há também um viés importante
+
+Eles estarão fazendo bonsai em um **ambiente de workshop**.
+
+Isso significa:
+
+instrutor presente
+atividade guiada
+motivação social
+momento especial
+árvore recém-criada
+novidade
+
+Portanto activation provavelmente será artificialmente alta.
+
+Se 90% criarem um Tree Record durante a aula, isso significa quase nada sobre adoção espontânea.
+
+O sinal interessante começa depois:
+
+**Day 7**
+
+**Day 14**
+
+**Day 30**
+
+e principalmente:
+
+> voltaram porque aquilo lhes trouxe valor ou porque alguém pediu?
+
+Esse detalhe precisa estar no desenho de qualquer experimento.
+
+---
+
+# E há outra coisa que eu mudaria na nossa sequência
+
+Eu tinha colocado:
+
+**Monetization → Brand → Growth → workshop MVP**
+
+Acho melhor formular:
+
+### Strategic Foundation
+
+**Monetization & Economics**
+
+**Brand Identity & Marketing**
+
+**Growth Strategy**
+
+Essas três frentes devem analisar **todo o venture**, usando:
+
+* Project Brief;
+* Market Scan;
+* Research Brief;
+* Zero-participant evidence;
+* Shadow Product Validation;
+* Domain Model;
+* legacy assets;
+* competitive evidence;
+* hypotheses ainda abertas.
+
+O workshop entra apenas como:
+
+> **Known upcoming validation opportunity: beginner-heavy cohort, ~1 month.**
+
+Ou seja, cada frente pode dizer:
+
+> “Há algo que vale testar lá?”
+
+Mas não é obrigada a produzir algo para lá.
+
+---
+
+# A consequência prática é importante
+
+Eu não definiria agora:
+
+> “Workshop MVP = Tree Journey.”
+
+Eu manteria isso como uma hipótese candidata.
+
+Depois das três frentes talvez descubramos que a coisa mais valiosa para testar seja:
+
+**first-tree safety**
+
+e não logging.
+
+Ou:
+
+**tree identity**
+
+Ou:
+
+**post-workshop retention**
+
+Ou:
+
+**beginner language**
+
+Ou nada.
+
+Essa liberdade é importante.
+
+---
+
+# Minha sequência recomendada agora
+
+Eu faria:
+
+### 0. Reconcile current documentation
+
+Pequenos patches que identificamos.
+
+### 1. Monetization & Economics
+
+Pergunta central:
+
+> **Existe um negócio economicamente plausível aqui e onde estaria o valor capturável?**
+
+### 2. Brand Identity & Marketing
+
+Pergunta:
+
+> **Qual território de valor e significado pode nos diferenciar sem prometer expertise que ainda não possuímos?**
+
+### 3. Growth Strategy
+
+Pergunta:
+
+> **Quais acquisition/distribution loops podem levar pessoas ao produto de forma sustentável e quais também geram evidence?**
+
+### 4. Cross-front reconciliation
+
+Agora cruzamos as três.
+
+### 5. Define MVP validation objective
+
+Só então:
+
+> **Qual é a menor coisa que precisamos colocar no mundo para resolver a próxima maior incerteza?**
+
+Pode ser:
+
+landing page
+fake door
+concierge service
+interactive prototype
+tiny web app
+QR flow
+manual Tree Record
+WhatsApp experiment
+ou um produto mínimo funcional.
+
+“MVP” não precisa significar software.
+
+### 6. Product/UIUX
+
+UIUX entra quando sabemos:
+
+**o que estamos tentando provar.**
+
+### Parallel: workshop
+
+Se houver uma experiência útil e apropriada ao cohort beginner:
+
+**usamos.**
+
+Se não houver:
+
+**não forçamos.**
+
+---
+
+## Eu colocaria inclusive uma regra oficial no projeto
+
+> **The workshop is an opportunistic validation channel, not a product deadline, target-market proxy, or dependency of the venture.**
+
+E outra:
+
+> **Evidence collected there applies primarily to zero-to-beginner first-tree users and must not be generalized to experienced growers, practitioners, collectors or the overall market without additional evidence.**
+
+Essas duas frases resolveriam exatamente os dois riscos que você apontou.
+
+### E isso deixa o projeto numa posição melhor
+
+O workshop deixa de ser uma pressão artificial e passa a ser o que realmente é:
+
+**uma chance rara, barata e interessante de observar beginners reais em um momento de alta relevância.**
+
+Excelente oportunidade.
+
+Mas o venture continua sendo guiado pela tese, pelas evidências e pelos gates, não pela data de um evento no calendário.
+
+
+
+Sim. **O próximo passo ainda deve ser a revisão/reconciliação dos documentos**, mas eu ajustaria o escopo daquela revisão depois das duas correções sobre o workshop.
+
+A revisão original estava correta em quase tudo. O que muda agora é que precisamos deixar a documentação preparada para **duas coisas distintas**:
+
+1. o desenvolvimento estratégico normal do venture;
+2. oportunidades de validação que podem aparecer, como o workshop, sem transformá-las em dependência do projeto.
+
+A ordem que eu adotaria agora é esta:
+
+### 1. Reconciliar e congelar o Strategic Foundation Pack
+
+Eu faria primeiro uma revisão relativamente pequena, mas importante, dos documentos atuais. **Não reescreveria tudo.**
+
+| Documento                        | O que faria agora                                          |
+| -------------------------------- | ---------------------------------------------------------- |
+| `PROJECT-BRIEF(1).md`            | Patch estratégico e de sequencing                          |
+| `DOMAIN-MODEL.md`                | Pequenos patches factuais/conceituais                      |
+| `RESEARCH-BRIEF...(1).md`        | Reestruturar em Zero-Participant vs Participant Validation |
+| `APP-MARKET-SCAN.md`             | Corrigir inconsistências e claims fortes demais            |
+| `bonsai-deep-research-report.md` | Manter como reference dossier                              |
+| `parallel-work.txt`              | Arquivar como research log                                 |
+
+A maior parte das correções que identifiquei anteriormente continua válida.
+
+No `APP-MARKET-SCAN`, por exemplo, ainda precisamos reconciliar a inconsistência entre 9, 14 e aparentemente mais produtos, retirar a conversão frágil de ratings para número de usuários e parar de afirmar que “14 tentativas não produziram um business” quando não temos dados de receita ou sustentabilidade. O arquivo suporta um **sinal negativo de traction observável**, não uma conclusão sobre viabilidade econômica. 
+
+No `DOMAIN-MODEL`, manteria praticamente tudo. Outcome vs attributed cause, Intent, State, Claims, Evidence, Attestation, versioning, Lineage e Composition ficaram muito sólidos no stress test.   Apenas corrigiria a afirmação antiga de que incumbentes assumem sempre clima temperado do hemisfério norte, porque o próprio Project Brief atualizado já mostra que vários oferecem algum nível de climate adaptation. 
+
+No `PROJECT-BRIEF`, eu ainda faria os patches que mencionei: trocar `P1 · core — build first` por algo como **Foundational Product Candidate · validate first**, remover a antiga implicação de que outcomes “não precisam de reputação” e consolidar a interpretação mais recente de que outcome evidence pode vir a **complementar** expertise, não necessariamente substituí-la. O documento já reconhece essa mudança posteriormente. 
+
+### 2. Acrescentaria agora duas mudanças que não estavam suficientemente explícitas antes
+
+A primeira seria uma regra formal sobre **validation channels**.
+
+Eu colocaria no Project/Research canon algo equivalente a:
+
+> **Validation opportunities are inputs to the venture, not dependencies of it. No workshop, event, cohort, platform or research source defines the product roadmap by itself.**
+
+Isso não precisa mencionar especificamente seu workshop no princípio canônico. Deve valer para qualquer oportunidade futura.
+
+Depois, numa seção de current opportunities, podemos registrar o workshop como:
+
+> **Upcoming optional validation opportunity: beginner-heavy first-tree cohort. Evidence should be interpreted only for the relevant segment and context.**
+
+Assim o workshop aparece na documentação sem assumir o volante.
+
+A segunda mudança seria separar formalmente:
+
+### `Evidence status`
+
+**OBSERVED**
+comportamento encontrado.
+
+**SUPPORTED SIGNAL**
+há evidência consistente, mas não prevalence suficiente.
+
+**CONTRADICTED**
+evidência encontrada contra a tese.
+
+**UNVALIDATED**
+teste necessário ainda não executável.
+
+**DEFERRED**
+deliberadamente não estamos testando agora.
+
+Isso ajudará muito nas próximas frentes. Hoje vários arquivos misturam “não sabemos”, “não conseguimos testar” e “sinal fraco”. São coisas diferentes.
+
+---
+
+# 3. Eu alteraria também o Research Brief mais do que havia sugerido anteriormente
+
+A divisão em dois tracks ficou agora essencial.
+
+## Track A · Zero-Participant Research
+
+É o programa executável agora.
+
+Inclui:
+
+market scan
+competitor review mining
+public behavioural evidence
+provenance research
+progression analysis
+failure/recovery analysis
+competitive teardowns
+Brazil/tropical public evidence
+shadow/domain validation
+
+Boa parte já foi iniciada.
+
+## Track B · Participant Validation
+
+Fica preservado para quando houver acesso adequado a pessoas.
+
+Inclui:
+
+artifact interviews
+private H1B validation
+H1C incidents
+logging retention
+attestation test
+H7
+willingness-to-pay
+community participation
+
+E uma regra:
+
+> **An unavailable participant test receives `UNVALIDATED`, never `FAIL`.**
+
+Isso é agora ainda mais importante.
+
+O Research Brief atual ainda contém thresholds e ações que dependem diretamente de artifact interviews e participants.  Eles continuam úteis, mas precisam ficar claramente no Track B, não parecer parte da execução atual.
+
+---
+
+# 4. Eu criaria um documento novo, mas apenas um
+
+A documentação já está começando a procriar sozinha, então evitaria aumentar a fauna.
+
+Criaria:
+
+## `CURRENT-EVIDENCE-AND-DECISIONS.md`
+
+Não outro relatório enorme.
+
+Seria um documento curto, talvez 10–15 páginas no máximo, que funcionaria como **reconciliation layer**.
+
+Estrutura:
+
+**Current thesis**
+
+**What has been falsified**
+
+**What is supported**
+
+**What remains unvalidated**
+
+**Competitive reality**
+
+**Current domain model conclusions**
+
+**Current product candidates**
+
+**Current strategic risks**
+
+**Validation tracks**
+
+**Next decisions**
+
+**Workshop and other validation opportunities**
+
+E referências aos documentos especializados.
+
+Isso resolve um problema muito importante: Monetization, Brand e Growth não deveriam precisar ler 3.000 linhas de `parallel-work.txt` para descobrir em que planeta estamos.
+
+---
+
+# 5. Depois da reconciliação, eu NÃO iria imediatamente para Review Mining
+
+Aqui muda minha recomendação anterior.
+
+Review Mining continua sendo importante e deve acontecer.
+
+Mas agora temos três frentes estratégicas que você corretamente quer compreender **antes de definir produto**.
+
+Eu faria essas quatro frentes em paralelo ou quase paralelo:
+
+| Frente                         | Pergunta que deve responder                                                            |
+| ------------------------------ | -------------------------------------------------------------------------------------- |
+| **Competitor Review Mining**   | Por que trackers atuais agradam, frustram ou são abandonados?                          |
+| **Monetization & Economics**   | Existe uma estrutura econômica plausível e onde está o valor capturável?               |
+| **Brand Identity & Marketing** | Qual território pode significar algo distintivo e crível?                              |
+| **Growth Strategy**            | Como esse produto poderia encontrar usuários sem depender de paid acquisition absurda? |
+
+O Review Mining é evidence.
+
+Os outros três são strategic interpretation.
+
+Eles devem conversar.
+
+---
+
+# 6. Monetization & Economics deveria vir antes de “qual produto vamos fazer”
+
+Essa frente agora tem uma pergunta especialmente séria porque o Market Scan trouxe um possível problema:
+
+> talvez exista comportamento de logging, mas não um mercado suficientemente grande disposto a pagar por logging.
+
+O próprio Project Brief atualizado reconhece essa tensão: willingness to pay, addressable segment e unit economics continuam desconhecidos. 
+
+Então Monetization deveria analisar pelo menos três níveis:
+
+### Value creation
+
+Quem recebe valor?
+
+Beginner?
+Hobbyist?
+Teacher?
+Club?
+Nursery?
+
+### Value capture
+
+Quem poderia pagar?
+
+Consumer?
+Practitioner?
+Organization?
+Commerce partner?
+
+### Economic ceiling
+
+Se nosso melhor resultado for 5.000 usuários pagando €3/mês, isso seria sucesso para este venture ou fracasso?
+
+Essa última pergunta é importante porque muda tudo.
+
+Um pequeno profitable product e um venture-scale company exigem mercados muito diferentes.
+
+---
+
+# 7. Brand & Marketing deveria trabalhar sobre o problema, não sobre o nome
+
+Ainda não faria naming, logo ou identidade visual final.
+
+Essa frente precisa responder:
+
+> **What are we really helping a person do, and why should they care emotionally?**
+
+Hoje temos territórios concorrentes:
+
+**Safety**
+
+“Help me not kill this tree.”
+
+**Memory**
+
+“Remember what happened.”
+
+**Progress**
+
+“See what this tree becomes.”
+
+**Story**
+
+“Preserve its journey.”
+
+**Learning**
+
+“Learn from trees like yours.”
+
+**Legacy**
+
+“Let its history travel with it.”
+
+Talvez um deles seja entry proposition e outro seja long-term brand territory.
+
+Precisamos saber.
+
+---
+
+# 8. Growth deveria procurar loops, não canais
+
+Eu evitaria começar com:
+
+Instagram
+SEO
+TikTok
+ads
+
+Isso é channel planning cedo demais.
+
+Growth deveria procurar:
+
+### Acquisition moments
+
+first tree purchase
+gift
+workshop
+nursery visit
+first problem
+first repot
+first technique
+new species
+
+### Natural objects that travel
+
+tree identity
+journey
 progression
-history
+before/after
+transfer
+comparable journey
 
-Usuário 100 começa a receber:
+### Actors with existing distribution
 
-similar journeys
+nurseries
+teachers
+clubs
+workshops
+events
+creators
 
-Usuário 1.000 talvez receba:
-
-meaningful network
-
-Usuário 10.000 pode começar a receber:
-
-outcome patterns.
-
-Essa propriedade é excelente.
-
-### Value does not require network density on day one.
-
-Isso reduz bastante o risco de cold start que o Tier 4 original possuía. O brief original identificava exatamente esse problema para Network products. 
+O workshop entra aqui como **um exemplo de channel/opportunity**, não como Growth Strategy.
 
 ---
 
-# 33. Temos agora um possível flywheel melhor
+# 9. Depois dessas quatro frentes, faria uma Cross-Front Reconciliation
 
-Antes:
+Esse é o ponto realmente importante.
 
-**log → data → advice**
+Teríamos:
 
-Agora:
+**Evidence**
 
-**Capture a moment**
-↓
-**build Journey**
-↓
-**preserve history**
-↓
-**understand progress**
-↓
-**discover comparable journeys**
-↓
-**learn / contribute**
-↓
-**continue documenting**
-↓
-**richer provenance + outcomes**
-↓
-**better future knowledge**
+*
 
-Isso não depende de prometermos AI magic no início.
+**Economics**
 
-Muito mais saudável.
+*
 
----
+**Brand**
 
-# 34. A conclusão da Phase 1B
+*
 
-## **PASS conceitual.**
+**Growth**
 
-Não significa:
+E então fazemos a pergunta que ainda não devemos responder hoje:
 
-> construir.
+> **What product thesis survives all four lenses?**
 
-Significa:
+Pode ser:
 
-> a arquitetura merece avançar para representação de produto.
+### Candidate A
 
-O shadow test não revelou uma incompatibilidade estrutural entre nosso modelo e histórias reais.
+Tree Journey / Memory first.
 
-Pelo contrário, ele revelou **problemas reais que o modelo resolve melhor que forum threads**:
+### Candidate B
 
-* histórico fragmentado;
-* fotos perdidas;
-* intervenções sem contexto;
-* intentions não preservadas;
-* outcome confundido com causa;
-* provenance contraditória;
-* múltiplos practitioners;
-* transferências;
-* árvore morta desaparecendo da conversa;
-* lineage;
-* aprendizado entre árvores semelhantes.
+Beginner Safety first.
 
-Isso é substância.
+### Candidate C
+
+Comparable Journeys first.
+
+### Candidate D
+
+Living Provenance first.
+
+### Candidate E
+
+Teacher/club infrastructure first.
+
+### Candidate F
+
+alguma combinação específica.
+
+E também pode ser:
+
+> nenhum deles justifica continuar.
+
+Essa opção precisa continuar disponível.
 
 ---
 
-# Próximo gate
+# 10. Só depois definimos a MVP Validation Strategy
 
-Eu considero que agora podemos avançar para a **Phase 2 · Product Concept Architecture**.
+Não:
 
-Mas ainda não UI final nem MVP.
+> “Qual feature entra no MVP?”
 
-O próximo trabalho é transformar esse domain model em **Jobs + user journeys + product boundaries**, principalmente:
+Primeiro:
 
-### Journey 1 · My first tree
+> **Qual maior incerteza precisamos resolver agora?**
 
-Aquisição → identidade → primeiro registro.
+Então escolhemos o instrumento.
 
-### Journey 2 · Something changed
+Por exemplo:
 
-Observation → event → history → contextual learning.
+Se o maior risco for **message/value proposition**:
 
-### Journey 3 · I did something
+→ landing page.
 
-Technique → intent → documentation → later outcome.
+Se for **logging retention**:
 
-### Journey 4 · Follow its progress
+→ tiny web app / manual journal.
 
-Longitudinal progression.
+Se for **Comparable Journey value**:
 
-### Journey 5 · This tree has a history
+→ curated prototype/manual matching.
 
-Living Provenance.
+Se for **provenance**:
 
-### Journey 6 · This tree changed hands
+→ mock handoff record.
 
-Transfer without losing history.
+Se for **teacher economics**:
 
-### Journey 7 · This tree died
+→ concierge/workbench prototype.
 
-Close biological life, preserve knowledge.
+Se for **first-tree safety**:
 
-### Journey 8 · Someone else has a similar tree
+→ lightweight guided decision experience.
 
-Comparable Journey → contextual connection.
+MVP é **um experimento**, não necessariamente uma versão reduzida da arquitetura final.
 
-Isso será o momento de descobrir **qual é realmente o produto mínimo coerente** e quais dessas jornadas são core, later ou simplesmente coisas interessantes que devemos deixar quietas por enquanto.
+---
 
-Só depois disso deveríamos discutir telas. A espécie humana sobrevive mais um estágio sem dashboard.
+# 11. E Product/UIUX entra só então
 
-[1]: https://www.bonsainut.com/threads/ficus-benjamina-32-progression.69322/?utm_source=chatgpt.com "Ficus Benjamina #32 Progression | Bonsai Nut"
-[2]: https://www.bonsainut.com/threads/progression-thread-for-my-moyogi-style-japanese-larch-larix-kaempferi.64224/?utm_source=chatgpt.com "Progression Thread for my Moyogi style Japanese Larch (Larix kaempferi) | Bonsai Nut"
-[3]: https://www.bonsainut.com/threads/progression-of-my-chinese-elm.63897/?utm_source=chatgpt.com "Progression of my Chinese Elm | Bonsai Nut"
-[4]: https://www.bonsainut.com/threads/siberian-elm-1-progression.70217/?utm_source=chatgpt.com "Siberian Elm #1 Progression | Bonsai Nut"
-[5]: https://www.bonsainut.com/threads/evans-jrp-1.66066/?utm_source=chatgpt.com "Evan's JRP #1 | Bonsai Nut"
-[6]: https://www.bonsainut.com/threads/austrian-black-pine-progression.61680/?utm_source=chatgpt.com "Austrian Black Pine Progression | Bonsai Nut"
-[7]: https://www.bonsainut.com/threads/premna-microphylla-progression.62369/?utm_source=chatgpt.com "Premna Microphylla progression | Bonsai Nut"
-[8]: https://www.bonsainut.com/threads/japanese-black-pine-recovery-progression.65286/?utm_source=chatgpt.com "Japanese Black Pine Recovery/Progression | Bonsai Nut"
-[9]: https://www.bonsainut.com/threads/amur-maple-aaron-progression-thread.59698/?utm_source=chatgpt.com "Amur Maple (Aaron), Progression Thread | Bonsai Nut"
-[10]: https://www.bonsainut.com/goto/post?id=1043333&utm_source=chatgpt.com "Option To Mark Tree-Specific Threads (DEAD). | Bonsai Nut"
-[11]: https://www.bonsainut.com/threads/rules-for-bonsai-exhibits.20635/?utm_source=chatgpt.com "Rules for bonsai exhibits... | Bonsai Nut"
-[12]: https://www.bonsainut.com/threads/spring-opening-at-hidden-gardens-march-27.37458/?utm_source=chatgpt.com "SPRING OPENING AT HIDDEN GARDENS, March 27 | Bonsai Nut"
-[13]: https://pacificbonsaimuseum.org/press/?utm_source=chatgpt.com "Press | Pacific Bonsai Museum"
-[14]: https://www.bonsainut.com/threads/the-zelkova.53128/?utm_source=chatgpt.com "THE Zelkova | Bonsai Nut"
-[15]: https://www.bonsainut.com/threads/lacebark-elm-forest-progression.67932/?utm_source=chatgpt.com "Lacebark Elm Forest Progression | Bonsai Nut"
-[16]: https://www.bonsainut.com/threads/stone-selection-for-my-trident-maple-ror-root-over-rock.66166/page-2?utm_source=chatgpt.com "Stone Selection for my trident maple ROR | Root over Rock | Page 2 | Bonsai Nut"
-[17]: https://www.bonsainut.com/threads/ittoigawa-juniper.45784/?utm_source=chatgpt.com "Ittoigawa juniper | Bonsai Nut"
-[18]: https://www.bonsainut.com/threads/mirai-tree-sale.51427/page-2?utm_source=chatgpt.com "Mirai tree sale | Page 2 | Bonsai Nut"
-[19]: https://www.bonsainut.com/threads/who-gets-credit-for-a-bonsai-tree.70809/?utm_source=chatgpt.com "Who gets credit for a bonsai tree? | Bonsai Nut"
+Product/UIUX deveria receber algo muito mais útil do que:
+
+> “Faça um app de bonsai.”
+
+Deveria receber:
+
+**Target user**
+
+**Job**
+
+**Value proposition**
+
+**Hypothesis**
+
+**Why this wedge**
+
+**What evidence supports it**
+
+**What evidence contradicts it**
+
+**Economic logic**
+
+**Acquisition logic**
+
+**Brand principles**
+
+**What this MVP must prove**
+
+**What this MVP explicitly must not attempt**
+
+Aí UIUX pode fazer um trabalho sério.
+
+---
+
+# 12. E onde fica o workshop nesse roadmap?
+
+Paralelo.
+
+Algo assim:
+
+```text
+VENTURE CORE
+
+Documentation reconciliation
+        ↓
+Review Mining + Monetization + Brand + Growth
+        ↓
+Cross-front reconciliation
+        ↓
+MVP Validation Strategy
+        ↓
+Product/UIUX
+        ↓
+Experiment / MVP
+
+
+PARALLEL OPPORTUNITY
+
+Workshop
+        ↓
+Beginner-specific observations / experiment
+        ↓
+Evidence
+        ↘
+      feeds Venture Core
+```
+
+O workshop **pode influenciar** o projeto.
+
+Não **determina** o projeto.
+
+Se quando chegar a data tivermos algo apropriado, testamos.
+
+Se não, usamos apenas como observational research.
+
+Se ele desaparecer, o venture continua.
+
+---
+
+# Minha recomendação concreta agora
+
+**Sim, começaria pela revisão documental.**
+
+Mas a revisão seria agora ligeiramente mais abrangente que a que propus antes:
+
+1. aplicar os patches factuais e estratégicos já identificados;
+2. formalizar `Observed / Supported / Contradicted / Unvalidated / Deferred`;
+3. separar `Zero-Participant` e `Participant Validation`;
+4. registrar explicitamente que eventos/workshops são opportunistic validation channels, não roadmap dependencies;
+5. criar um único `CURRENT-EVIDENCE-AND-DECISIONS.md`;
+6. definir claramente a autoridade documental;
+7. arquivar `parallel-work.txt`;
+8. manter o deep research como reference dossier.
+
+**Depois disso, eu abriria quatro workstreams:**
+
+**Competitor Review Mining + Monetization & Economics + Brand Identity & Marketing + Growth Strategy.**
+
+E somente após reconciliar os quatro eu abriria **MVP Strategy → Product/UIUX**.
+
+Essa sequência me parece agora mais robusta do que a anterior porque não deixa nem o entusiasmo pelo modelo de domínio, nem o workshop, nem a existência de um prazo nos empurrar prematuramente para “construir alguma coisa”. Primeiro precisamos descobrir **qual negócio, qual significado e qual mecanismo de crescimento poderiam justificar construir alguma coisa**.

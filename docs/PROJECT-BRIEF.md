@@ -12,6 +12,46 @@ on its own terms.
 
 ---
 
+## Canonical conventions
+
+Two rules that apply across every document in this set. They exist because
+earlier drafts blurred distinctions that matter.
+
+### Evidence status
+
+Several documents previously mixed *"we don't know"*, *"we can't test that"*
+and *"the signal is weak"*. Those are different states with different
+consequences. Every claim should carry one of:
+
+| Status | Meaning |
+|---|---|
+| `OBSERVED` | The behaviour was directly found in real data |
+| `SUPPORTED SIGNAL` | Consistent evidence exists, but prevalence is unmeasured |
+| `CONTRADICTED` | Evidence was found against the claim |
+| `UNVALIDATED` | A test is needed and has not been run — or cannot currently be run |
+| `DEFERRED` | Deliberately not being tested now |
+
+> **A test that cannot currently be run is `UNVALIDATED`, never `FAIL`.**
+> Absence of access is not evidence of absence. This matters immediately:
+> several thresholds in the research brief depend on participant access that
+> does not yet exist, and must not be read as failures.
+
+### Validation channels
+
+> **Validation opportunities are inputs to the venture, not dependencies of
+> it. No workshop, event, cohort, platform or research source defines the
+> product roadmap by itself.**
+
+The test for whether this is being honoured: *if the opportunity disappeared
+tomorrow, would the direction of work change?* If yes, it has taken the wheel.
+
+> **Evidence from any single channel applies only to the segment and context
+> it came from**, and must not be generalised to other segments without
+> further evidence.
+
+---
+
+
 ## 1. What is being considered
 
 A software product for people who grow bonsai trees.
@@ -173,11 +213,18 @@ candidates fall into four tiers:
 | **3 — Record** | You keep the ledger; users bring the facts | **No** | Authority-free, but **no longer unclaimed** — fourteen tracking apps ship today and three already transfer a tree's history to a new owner. Value still compounds over time; the question is now whether anyone wants it enough. See `APP-MARKET-SCAN.md`. |
 | **4 — Network** | Borrows authority from teachers | **No** | Highest ceiling, hardest cold start — the audience already has homes. |
 
-**Tier 3 was assessed as the sweet spot**, and Tier 2 becomes viable when built on top of it —
-because an advisor whose authority derives from *outcomes at scale* needs no
-reputation. "Eleven percent of people who repotted this species in this month
-lost the tree" is a claim no incumbent can make and no credential is required
-to make.
+**Tier 3 was assessed as the sweet spot**, and Tier 2 was argued to become
+viable when built on top of it — on the reasoning that an advisor deriving
+authority from *outcomes at scale* would need less reputation of its own.
+
+> **That reasoning is now downgraded; see §12.** The original formulation —
+> *"eleven percent of people who repotted this species this month lost the
+> tree"* — does not survive the question **eleven percent of what?** Comparable
+> species, stage, climate, health, root work? And who attributed causation?
+> Aggregate outcomes may **complement** expertise rather than replace it, which
+> is a materially weaker claim than this section originally made. The advice
+> ladder in §8 is how this is handled in practice: levels 0–3 require no
+> authority at all, and only levels 4–5 depend on the unresolved question.
 
 ---
 
@@ -242,7 +289,7 @@ Tier 3 cannot advise anyone. Together, each solves the other's problem.
 > scheme. Research Idea A maps to P1; research Idea B maps to the advisor
 > component inside P1, not to P2.
 
-**P1 · The system of record** *(core — build first)*
+**P1 · The system of record** *(foundational product candidate — validate first)*
 Ideas 8 + 5, with 9 and 4 deliberately **out of the initial core**. Users log
 their trees; outcomes, including deaths, accumulate.
 
@@ -271,14 +318,14 @@ authority the advisor lacks**, which partly dissolves the §12 problem rather
 than waiting on it. It is also a different mechanic from both a feed and an
 advisor, and nothing in the market does it.
 
-**P2 · The acquisition companion** *(funnel — feeds the core)*
+**P2 · The acquisition companion** *(candidate funnel — feeds P1 if P1 survives)*
 Ideas 7 + 6 + 3. Meets people at the moment of purchase — and rather than
 ending with *"here is your care guide,"* it ends with **"start this tree's
 journey"**: acquired date, nursery, first photographs, species *probable*,
 purchase context *nursery stock*. That is the digital birth of a Tree Identity,
 which makes P2 a far more natural funnel into P1 than a content guide would be.
 
-**P3 · The teaching layer** *(ceiling — needs the core first)*
+**P3 · The teaching layer** *(candidate ceiling — depends on P1's substrate)*
 Ideas 10 + 11. Best economics of the three, and it borrows authority rather
 than claiming it. Requires P1's substrate to exist.
 
@@ -548,6 +595,24 @@ those, and choosing them first is how you build the wrong thing efficiently.
 4. **Teacher interviews** — five conversations. If WhatsApp and a spreadsheet are genuinely adequate, there is no P3.
 5. **Logging pilot** — only if step 2 passes. Twenty growers, a shared spreadsheet, 4–6 weeks. The long pole; everything else takes days.
 6. **Then** choose a direction, resolve the competitive-response question in §10, and only then choose technology.
+
+
+### Current validation opportunities
+
+| Opportunity | Timing | Cohort | What it can and cannot tell us |
+|---|---|---|---|
+| **Beginner workshop** (90–120 min; attendees leave with their first tree) | ~1 month | **Zero-to-low bonsai experience**, first tree | **Can** inform: onboarding for someone without the vocabulary, first-tree anxiety, whether initial logging feels natural or bureaucratic, what guidance a beginner expects immediately after creating a tree, and early return at 7 / 14 / 30 days. **Cannot** inform: hobbyists with 10–20 trees, long-term provenance, transfers, willingness to pay, practitioner workflows, long-term retention, network effects, or outcome-derived authority. |
+
+**Two cautions on interpreting it.** Activation will be **artificially high** —
+an instructor is present, the activity is guided, the moment is novel and
+social. If 90% create a record during the session that says almost nothing
+about spontaneous adoption. The signal begins afterwards, and the question that
+matters is whether anyone returned **because it gave them value, or because
+they were asked to**.
+
+Per the canonical rule above, this is an input. If it were cancelled tomorrow
+the sequence in this section would not change.
+
 
 **Guard:** set a date on step 5. If the evidence has not resolved by then, the
 answer is no. A negative result reached quickly is the most valuable outcome

@@ -26,6 +26,42 @@ not expected to have any prior context.**
 
 ---
 
+## 0. Two tracks — read before using any threshold below
+
+This brief was written as a single programme. It must be split, because half of
+it cannot currently be executed.
+
+### Track A · Zero-participant research — **runnable now**
+
+Market scan · competitor review mining · public behavioural evidence ·
+provenance research · progression analysis · failure and recovery analysis ·
+competitive teardowns · Brazil and tropical public evidence · shadow validation
+of the domain model.
+
+No platform approval, no recruitment, no budget beyond time. Several of these
+have already produced results — see `APP-MARKET-SCAN.md` and
+`CURRENT-EVIDENCE-AND-DECISIONS.md`.
+
+### Track B · Participant validation — **blocked on access**
+
+Artifact interviews · private record validation (H1B) · lost-history incidents
+(H1C) · logging retention · attestation feasibility · H7 · willingness to pay ·
+community participation.
+
+> **Every threshold in §7 belongs to Track B.** Until participant access
+> exists, each of those hypotheses is `UNVALIDATED` — **not** `FAIL`. A test
+> that cannot be run has produced no result. This is not a technicality: H1B
+> carries a *"the record thesis is dead"* verdict, and reading that as a
+> conclusion when the test has never run would kill the venture on an absence
+> of data rather than on evidence.
+
+Track A cannot substitute for Track B. Public forum behaviour shows what people
+do **in public**; H1B is specifically about what they do privately, and no
+amount of Track A work reaches it.
+
+---
+
+
 ## 1. Why this research exists
 
 A team is deciding whether to build a bonsai product. They have already ruled
@@ -246,6 +282,9 @@ n=400 without an interval is not a finding.
 ---
 
 ## 7. Decision thresholds — agreed in advance
+
+> **These are Track B thresholds** (see §0). They apply only once participant
+> access exists. Until then every verdict below reads `UNVALIDATED`.
 
 **Do not adjust these after seeing the data.** They exist specifically to
 prevent a marginal result being narrated into a green light.

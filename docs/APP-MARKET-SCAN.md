@@ -65,9 +65,13 @@ largest app markets.
 
 ## 4. What this means
 
-**The category leader has 136 US ratings after six years.** At a typical
-1–2% rating conversion that implies on the order of 7,000–14,000 users — for
-the most successful product in the category.
+**The category leader has 136 US ratings after six years.**
+
+> **Do not convert ratings into a user estimate.** An earlier version of this
+> document inferred "7,000–14,000 users" from an assumed 1–2% rating
+> conversion. That rate was invented, not measured, and rating behaviour varies
+> enormously by category, prompt design and platform. **Ratings are a
+> comparative signal between these apps and nothing more.**
 
 **Bonsai Empire's app has 64 US ratings.** They hold the largest audience in
 bonsai — 110+ species guides and two decades of brand — and their app has
@@ -89,9 +93,18 @@ record-keeping software is very small.** The presence of many products with no
 winner, plus a well-resourced incumbent failing to convert its own audience,
 points more strongly at the second.
 
-This does not prove growers will not log. It does show that **fourteen attempts to
-monetise that behaviour have not produced a business**, which is the
-practically relevant question.
+This does not prove growers will not log.
+
+> **Nor does it show that fourteen attempts "have not produced a business" —
+> an earlier version of this document asserted exactly that, and it is not
+> supported.** We have no revenue, subscription, retention or sustainability
+> data for any of these products. Several are free; several are side projects;
+> at least one shut down for stated capacity reasons rather than demand.
+>
+> What the data supports is narrower and should be stated as such:
+> **low observable traction on iOS across four storefronts, with no visible
+> winner.** That is a real negative signal about category momentum. It is not a
+> conclusion about economic viability, and it must not be quoted as one.
 
 ---
 
@@ -126,5 +139,5 @@ programme was designed to test.
 for friction and abandonment → ~18 artifact interviews → *then* decide whether
 the full observational programme is warranted.
 
-Spending R$45k to establish that people will log, when fourteen shipped products
-suggest the behaviour does not sustain a business, is the wrong order.
+Spending R$45k to establish that people will log, when fourteen shipped
+products show low observable traction, is the wrong order.
