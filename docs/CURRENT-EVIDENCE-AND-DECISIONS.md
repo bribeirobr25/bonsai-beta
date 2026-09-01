@@ -193,7 +193,52 @@ gave them value* rather than because they were asked.
 
 ---
 
-## 12. Document authority
+## 12. Choosing an MVP instrument
+
+Not *"which features go in the MVP?"* but **"what is the largest uncertainty
+right now, and what is the smallest instrument that resolves it?"**
+
+**An MVP need not be software.** The instrument follows the risk:
+
+| If the biggest uncertainty is… | The instrument is… |
+|---|---|
+| Message / value proposition | Landing page |
+| Whether demand exists at all | Fake door |
+| Logging retention | Tiny web app, or a manual journal |
+| Whether Comparable Journey is valuable | Curated prototype — match cases by hand |
+| Provenance | A mock handoff record |
+| Teacher economics | Concierge service or workbench prototype |
+| First-tree safety | Lightweight guided decision experience |
+
+Concierge and manual approaches are legitimate MVPs and often better ones:
+they answer the question without building the thing.
+
+### What product design must receive before it starts
+
+Design should not be handed *"make a bonsai app."* It should receive:
+
+target user · the job · value proposition · the hypothesis under test · why
+this wedge · evidence supporting it · evidence contradicting it · economic
+logic · acquisition logic · brand principles · **what this MVP must prove** ·
+**what this MVP must explicitly not attempt.**
+
+If those cannot be filled in, the preceding workstreams are not finished.
+
+### Growth: look for loops, not channels
+
+Channel planning (Instagram, SEO, ads) is premature. The prior questions:
+
+- **Acquisition moments** — first tree purchase · gift · workshop · nursery visit · first problem · first repot · first technique · new species
+- **Objects that travel naturally** — tree identity · journey · progression · before/after · transfer · comparable journey
+- **Actors with existing distribution** — nurseries · teachers · clubs · workshops · events · creators
+
+A loop that also produces evidence is worth more than one that only produces
+users.
+
+---
+
+
+## 13. Document authority
 
 | Document | Role |
 |---|---|

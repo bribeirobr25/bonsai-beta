@@ -65,6 +65,11 @@ largest app markets.
 
 ## 4. What this means
 
+> **Evidence status of this scan:** the rating counts are `OBSERVED`. The
+> inference that the category has low momentum is a `SUPPORTED SIGNAL`.
+> Anything about revenue, retention or viability is `UNVALIDATED` — we have no
+> such data. Android figures are `UNVALIDATED` (contested, see §5).
+
 **The category leader has 136 US ratings after six years.**
 
 > **Do not convert ratings into a user estimate.** An earlier version of this

@@ -231,6 +231,11 @@ than match them, and it costs nothing to design in from the start.
 
 ## 7. Recording model and object structure
 
+> **Evidence status:** the structural conclusions below are `OBSERVED` — each
+> is derived from a specific documented tree history. That the model is the
+> *right* one to build on remains `UNVALIDATED`; a stress test against real
+> histories shows it can represent them, not that anyone wants it.
+
 Fifteen subsections, derived from stress-testing the model against 20+ real
 public tree histories — multi-year progressions, deaths, recoveries, ownership
 changes, museum records, forests and contradictory histories. Each corrects a

@@ -1,3 +1,10 @@
+[SUPERSEDED RESEARCH LOG — not authoritative]
+Conclusions extracted into docs/CURRENT-EVIDENCE-AND-DECISIONS.md and the
+documents it references. Where this file and those disagree, they win.
+NOTE: this file was overwritten on 1 Sep 2026. The earlier Gate 0 and
+domain-model research survives only in git history at commit 0030e009.
+----------------------------------------------------------------------
+
 Sim. A ordem que você propõe faz sentido, mas eu faria uma adaptação importante por causa do workshop daqui a um mês.
 
 **Eu não entraria em Product/UIUX agora como se estivéssemos desenhando “o produto”.** Antes, passaria por Monetization & Economics, Brand Identity & Marketing e Growth Strategy. Só que essas três frentes deveriam trabalhar em modo **pré-MVP**, não tentando fechar uma estratégia definitiva. O workshop nos deu algo muito melhor que uma discussão teórica: um laboratório real com exatamente o tipo de pessoa que o projeto diz querer entender, alguém começando seu primeiro bonsai.
