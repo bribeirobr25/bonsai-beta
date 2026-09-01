@@ -25,7 +25,8 @@ at commit `8ff4d97d` (112 species, 1,637 technique entries).
 | The canonical technique taxonomy (§2) | 16 techniques, verified to cover 100% of entries. |
 | The contraindication model (§3) | 264 "do not do this to this species" flags. The single most differentiated idea here — every competitor writes affirmatively. |
 | Maturity-gating (§5) | "at what tree age is this appropriate" on every entry. Bonsai Empire's Ficus guide carries roughly one such note in the whole page. |
-| The 1,637 entries | **As a seed corpus for practitioner review — not as truth.** See §7. |
+| The 1,637 entries | **As a seed corpus for practitioner review — not as truth.** See §8. |
+| The recording principles (§7) | Outcome-vs-cause, intent, uncertainty and progressive structure. Derived from how growers actually document, and each corrects a defect in this corpus. |
 
 **Do not carry forward:** the React application; the reference/library product
 shape; the SEO-only acquisition thesis; the dual `difficultyLevel` /
@@ -221,7 +222,82 @@ than match them, and it costs nothing to design in from the start.
 
 ---
 
-## 7. Provenance — read before using any of this
+## 7. Recording model — four principles the legacy data violates
+
+These emerged from analysing how growers actually document trees in public
+progression threads. Each corrects a specific defect in the corpus described
+above, and each should be designed in from the start rather than retrofitted.
+
+### 7.1 Separate observed outcome from attributed cause
+
+**The single most important distinction in the model.** A documented case: a
+Japanese Black Pine showed yellowing and dieback; after consulting club
+members the owner *inferred* insufficient water uptake due to substrate,
+changed the substrate and watering, and the tree recovered.
+
+The correct record is **not** `cause = insufficient water uptake`. It is:
+
+```
+observed        yellowing, dieback
+intervention    repot, substrate change, watering adjustment
+observed_outcome  recovery
+attributed_cause  insufficient water uptake   (owner-attributed, unverified)
+```
+
+Community death reports show why this must be canonical: one grower attributes
+a loss to overwatering and another immediately notes that underwatering
+presents identically; a third attributes death to skipped repotting and is
+challenged on the diagnosis.
+
+**Death records exist. Reliable causal data does not emerge from them
+automatically.** Collapsing observation into causation would produce confident,
+wrong guidance — the most dangerous possible failure for this product.
+
+### 7.2 Record intent, not only action
+
+Every technique entry in the legacy corpus records *what* was done and *when*.
+None records *why*. Good progression threads always carry intent, and without
+it an outcome cannot be interpreted — pruning for ramification and pruning for
+vigour reduction are the same action with different success criteria.
+
+```
+event
+  action     repotting
+  intent     reduce root mass to slow vigour
+  outcome    observed later, linked back to this event
+```
+
+`intent` should be a first-class field alongside `action` and `outcome`.
+
+### 7.3 Preserve uncertainty; never invent precision
+
+The legacy corpus fails this badly — 486 free-text maturity strings, prose in
+enum fields, 20 invalid temperature ranges, and precise-looking values with no
+basis.
+
+A record must be able to say it does not know:
+
+| Instead of | Record |
+|---|---|
+| `Age: 42 years` | `Estimated age: 35–50` · source: previous owner |
+| `Origin: Japan` | `Origin: unknown` |
+| `Species: Ficus retusa` | `Species: Ficus retusa (probable)` |
+
+**A good historical record does not invent precision. It preserves
+uncertainty.** This also makes practitioner review tractable: a reviewer can
+correct a confidence level far more cheaply than an unmarked assertion.
+
+### 7.4 Capture first, structure progressively
+
+The corollary, and the mitigation for the venture's largest risk — logging
+friction. The minimum viable record is **tree + event + approximate date**.
+Everything else is optional enrichment, requested or inferred later. Demanding
+a structured form before accepting a memory guarantees no memory is captured.
+
+---
+
+
+## 8. Provenance — read before using any of this
 
 **The 1,637 entries are AI-generated and have never been reviewed by a
 practitioner.** The repository history shows roughly half of all commits
@@ -244,7 +320,7 @@ fields rather than writing from scratch. It must not ship to users unverified.
 
 ---
 
-## 8. Open questions for practitioner review
+## 9. Open questions for practitioner review
 
 1. Is 16 the right technique set, or does it merge things a practitioner would
    separate (structural vs maintenance pruning) and split things they would merge?

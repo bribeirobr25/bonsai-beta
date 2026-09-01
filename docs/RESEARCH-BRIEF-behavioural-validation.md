@@ -12,7 +12,7 @@ not expected to have any prior context.**
 > **Sequencing — read before commissioning this study.**
 > Two cheaper steps come first and may make this study unnecessary.
 > **(0)** An app-market scan is already done — see `APP-MARKET-SCAN.md`.
-> **(1)** Mine the reviews of the nine competing apps for friction and
+> **(1)** Mine the reviews of the fourteen competing apps for friction and
 > abandonment: days of work, no platform approval required. Only then
 > commission what follows. Also note that this brief cost far less than the
 > multi-cohort programme in `bonsai-deep-research-report.md`; run the cheap
@@ -105,11 +105,19 @@ five years of dated photos and never post once; the reverse also happens.
 > `climate` · `season` · `tree stage` · `genuine expert disagreement` ·
 > `not actually contradictory`.
 
-**H4 — Climate mismatch.** Reframed. The original assumed incumbents ignore the
-southern hemisphere. They no longer do — Bonsai Tracker, Bonsai Empire and
-Bonsaiku all claim climate or hemisphere adaptation. So measure **residual
-mismatch actually experienced**, and require triangulation from ≥2 independent
-methods before declaring a wedge.
+**H4 — Climate mismatch.** Reframed twice. The original assumed incumbents
+ignore the southern hemisphere; they no longer do — Bonsai Tracker, Bonsai
+Empire, Bonsaiku and the Portuguese-language Nebari all claim climate or
+hemisphere adaptation.
+
+> **The sharper distinction is `hemisphere ≠ climate`.** Brazilian growers
+> report the correct answer changes *within* Brazil, between subtropical and
+> near-equatorial. So the testable question is not whether competitors support
+> the southern hemisphere — they claim to — but **whether anyone calibrates to
+> microclimate × species × stage × the tree's actual condition.**
+
+Measure residual mismatch actually experienced, and require triangulation from
+≥2 independent methods before declaring a wedge.
 
 **H5 — Provenance beyond a private diary.** Does a tree's history carry value
 when it changes hands, and is a verifiable evidence chain trusted more than a
@@ -117,12 +125,20 @@ self-entered one? Note three competitors already transfer tree history, so
 plain transferability is not a wedge — **the testable question is whether
 attestation and evidence tiers add trust.**
 
-**H6 — Tree-led community.** Not "do people like communities" (near-tautology;
-several apps already ship feeds). The differential claim: growers form
-*recurring* relationships around a specific tree's journey — same species,
-climate, stage or problem — and this produces belonging without popularity
-metrics. Measure repeat non-owner interaction, spontaneous update requests,
-help offered, and response to failure — **not likes.**
+**H6 — The tree as a persistent knowledge object.** Not "do people like
+communities" (near-tautology; several apps already ship feeds). Sharpened from
+observed behaviour: growers report that their *first stop* when acquiring a new
+species is the collection of progression threads for it. The tree's documented
+journey functions as **learning infrastructure**, not showcase — which is a
+stronger and more specific claim than "community."
+
+Supporting behaviour already observed: spontaneous *"please keep us updated"*
+requests directed at a **tree** rather than a person, and study groups where
+members bring the same trees to recurring seasonal sessions — one reporting
+seven years of membership.
+
+Measure repeat non-owner interaction, spontaneous update requests, help
+offered, and response to failure — **not likes.**
 
 **H7 — Outcome-derived authority.** *The most important hypothesis, and the
 least tested.* The entire strategy rests on the claim that aggregate outcome
@@ -285,7 +301,7 @@ fail — **weighted below the behavioural findings**, per §3.
 
 ### A prior that must be weighed against all of the above
 
-`APP-MARKET-SCAN.md` found nine shipping competitors holding roughly 330 App
+`APP-MARKET-SCAN.md` found at least fourteen shipping competitors holding roughly 330 App
 Store ratings across four major markets, with no winner and a well-resourced
 incumbent converting its own large audience into 64 ratings. **Even a strong
 H1B result must be reconciled with that.** If growers do keep records but nine
