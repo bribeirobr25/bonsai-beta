@@ -336,6 +336,28 @@ COMPOSITION
 └── Members → Tree A, Tree B, Tree C
 ```
 
+
+**Confidence attaches to the claim, not to the subject.** There is no such
+thing as a "verified tree." One subject can simultaneously hold: acquisition
+*verified*, age *estimated*, original nursery *unknown*, styling practitioner
+*confirmed*, species *probable*. A single trust badge would erase exactly the
+uncertainty §7.3 exists to preserve.
+
+Evidence states, rather than quality seals:
+
+| State | Meaning |
+|---|---|
+| `recorded` | someone asserted it |
+| `evidence_attached` | supporting material exists |
+| `counterparty_confirmed` | the other party to the event confirmed it |
+| `practitioner_attested` | a practitioner confirmed it |
+| `institution_attested` | a club, exhibition or institution confirmed it |
+
+**`institution_attested` does not mean a better tree.** It means the claim has
+a particular source. Keeping that distinction explicit is what stops an
+evidence model from decaying into a status ranking.
+
+
 Note the `Event` carries seven fields, not the three a care log would use.
 `Context` and `Evidence` are what make an outcome interpretable later;
 without them the record is anecdote.
