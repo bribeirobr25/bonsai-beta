@@ -222,7 +222,7 @@ than match them, and it costs nothing to design in from the start.
 
 ---
 
-## 7. Recording model — four principles the legacy data violates
+## 7. Recording model and object structure
 
 These emerged from analysing how growers actually document trees in public
 progression threads. Each corrects a specific defect in the corpus described
@@ -296,6 +296,65 @@ a structured form before accepting a memory guarantees no memory is captured.
 
 ---
 
+
+### 7.5 The object model this implies
+
+Working the principles above against real documented histories produces a
+structure meaningfully different from the legacy corpus. Three points are
+load-bearing.
+
+**The root object is not a `Tree`.** Forest plantings and root-over-rock
+compositions are single subjects made of several trees, so the model needs a
+`LIVING SUBJECT` with an optional `COMPOSITION` holding members.
+
+**Claims are first-class**, because most facts about an old tree are asserted
+rather than known.
+
+**Status includes `Unknown`** — trees are lost track of, not only lost.
+
+```text
+LIVING SUBJECT
+├── Identity
+├── Current State
+├── Claims
+│   ├── Source · Evidence · Confidence · Attestation
+├── Journey
+│   └── Events
+│       └── Action · Intent · Context · Evidence
+│           · Observation · Outcome · Attributed Cause
+├── Lineage
+│   ├── Biological      (propagation — cuttings, air layers)
+│   ├── Stewardship     (successive owners)
+│   └── Practitioner    (who worked on it)
+├── Relationships
+├── Conversations
+└── Status · Alive | Deceased | Unknown
+
+COMPOSITION
+├── Identity
+├── Journey
+└── Members → Tree A, Tree B, Tree C
+```
+
+Note the `Event` carries seven fields, not the three a care log would use.
+`Context` and `Evidence` are what make an outcome interpretable later;
+without them the record is anecdote.
+
+### 7.6 What does not belong in the core
+
+Deliberately excluded, and worth stating so the model does not accrete:
+
+pot, tool and fertilizer inventory · marketplace · awards and rankings ·
+followers · likes · AI diagnosis · detailed weather history · financial value ·
+NFT or blockchain · a comprehensive care encyclopedia.
+
+Several of these may eventually attach at the edges. None belongs at the
+centre, and most would actively distort it — rankings and followers convert a
+record into a status economy, which is the failure mode §3 of `PROJECT-BRIEF`
+is designed to avoid.
+
+
+---
 
 ## 8. Provenance — read before using any of this
 

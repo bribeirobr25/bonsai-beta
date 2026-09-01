@@ -200,7 +200,7 @@ recommended.
 
 ### Tier 3 — Record *(authority-free, but contested — see §4)*
 
-8. **Tree biography / provenance** — a longitudinal record per tree: species, acquisition, work performed, photographs over time. A documented tree is worth more than an undocumented one when sold or inherited — the same logic as service history for a car. Logging is self-interested, which is the retention mechanism.
+8. **Tree biography / provenance** — a longitudinal record per tree: species, acquisition, work performed, photographs over time. A documented tree is worth more than an undocumented one when sold or inherited — the same logic as service history for a car. Logging is self-interested, which is the retention mechanism. Practitioner history already moves market value: growers discussing tree sales attribute price to the combination of *material + collector + stylist + pot maker*. **But the community itself polices the limit** — one member jokes that full attribution risks trees looking like race cars covered in sponsor logos, and there is live debate over how much provenance should count in exhibition judging. Preserve history; do not convert it into ranking.
 9. **Death registry** — a structured, anonymised record of what killed trees: species, climate, months owned, attributed cause. The hobby has enormous survivorship bias; every published account is a success story. This is proprietary data no incumbent holds, it addresses beginners' dominant fear, and it improves as it grows.
 
 ### Tier 4 — Network *(highest ceiling, hardest start)*
@@ -229,9 +229,25 @@ Tier 3 cannot advise anyone. Together, each solves the other's problem.
 
 **P1 · The system of record** *(core — build first)*
 Ideas 8 + 9 + 4 + 5. Users log their trees. Outcomes, including deaths,
-accumulate into data nobody else holds, which powers advice calibrated to
-species, age, month and hemisphere. **The flywheel:** users log → outcomes
-accrue → advice improves → logging becomes more valuable.
+accumulate into a corpus nobody else holds.
+
+**The flywheel, revised.** The original — *log → outcomes → advice improves →
+logging becomes more valuable* — makes the whole chain depend on eventually
+delivering trustworthy advice, which §12 now treats as an open question. A
+healthier version does not promise that up front:
+
+> capture a moment → build a journey → preserve history → understand progress
+> → **discover comparable journeys** → learn and contribute → keep documenting
+> → richer provenance and outcomes → better knowledge later
+
+**Comparable Journey may be the most important mechanic here.** When a grower
+reports *"my black pine is yellowing after repotting,"* the system need not
+answer, and need not ask the whole community. It can surface **similar
+documented journeys** — same species, similar climate, recent repot, yellowing,
+recovered. That makes the outcome corpus useful **without requiring the
+authority the advisor lacks**, which partly dissolves the §12 problem rather
+than waiting on it. It is also a different mechanic from both a feed and an
+advisor, and nothing in the market does it.
 
 **P2 · The acquisition companion** *(funnel — feeds the core)*
 Ideas 7 + 6 + 3. Meets people at the moment of purchase and delivers them into
