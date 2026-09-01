@@ -1,0 +1,239 @@
+# Bonsai Domain Model — extraction spec
+
+**Status:** durable artifact. This document, not the codebase, is what carries
+forward into any future product.
+
+The application in this repository is frozen. It is a reference reader, and the
+reference-library product shape is closed — Bonsai Empire holds an equivalent
+110+ species catalogue plus editorial authority plus a care app, and no schema
+work overcomes that. What follows is the part of this project worth keeping:
+the domain model, the taxonomy derived from it, and an honest account of the
+data's provenance.
+
+Every figure below was derived programmatically from `src/data/bonsaiData.ts`
+at commit `8ff4d97d` (112 species, 1,637 technique entries).
+
+---
+
+## 1. What survives, and what does not
+
+**Absorb into the new product:**
+
+| Asset | Why it survives |
+|---|---|
+| The entity shape (§4) | species × technique × timing × maturity × contraindication. No incumbent publishes this structure. |
+| The canonical technique taxonomy (§2) | 16 techniques, verified to cover 100% of entries. |
+| The contraindication model (§3) | 264 "do not do this to this species" flags. The single most differentiated idea here — every competitor writes affirmatively. |
+| Maturity-gating (§5) | "at what tree age is this appropriate" on every entry. Bonsai Empire's Ficus guide carries roughly one such note in the whole page. |
+| The 1,637 entries | **As a seed corpus for practitioner review — not as truth.** See §7. |
+
+**Do not carry forward:** the React application; the reference/library product
+shape; the SEO-only acquisition thesis; the dual `difficultyLevel` /
+`category` taxonomy (two names for one concept, disagreeing on 15 species);
+the gallery structure (104 of 112 species have empty `styles` and `nature`
+objects).
+
+---
+
+## 2. Canonical technique taxonomy
+
+The source data carries **287 distinct technique name strings**. These are not
+287 techniques — they are 16 techniques with free-text qualifiers appended
+(`Jin (Deadwood Technique)`, `Jin (Deadwood) Technique`, `Jin (Deadwood)`,
+`Jin (Deadwood) Creation`, `Jin (Deadwood) Not Recommended` are all one thing).
+
+Normalising on the stem yields **16 canonical techniques covering 1,637 of
+1,637 entries — 100%, with nothing unmapped**:
+
+| Key | Technique | Entries |
+|---|---|---|
+| `NEBARI` | Nebari development (surface roots) | 114 |
+| `JIN` | Jin — branch deadwood | 113 |
+| `DEFOLIATION` | Defoliation (total / partial) | 112 |
+| `PINCHING` | Pinching new growth | 112 |
+| `SHARI` | Shari — trunk deadwood | 112 |
+| `CARVING` | Carving | 112 |
+| `FERTILIZING` | Fertilizing | 112 |
+| `GRAFTING` | Grafting (scion / thread / approach) | 111 |
+| `AIR_LAYERING` | Air layering | 111 |
+| `ROOT_PRUNING` | Root pruning | 108 |
+| `PEST_DISEASE` | Pest and disease management | 103 |
+| `REPOTTING` | Repotting | 100 |
+| `STRUCTURAL_PRUNING` | Structural pruning | 99 |
+| `WIRING` | Wiring | 97 |
+| `MAINTENANCE_PRUNING` | Maintenance pruning | 66 |
+| `WATERING` | Watering and humidity control | 55 |
+
+Eleven of the sixteen appear on essentially every species (~112), which means
+a canonical set was intended all along — it was simply never enforced by the
+schema. Treat this list as the intended vocabulary made explicit.
+
+**Known defects to resolve during migration:**
+
+- 5 species contain two entries mapping to the same canonical technique
+  (`NEBARI` totals 114 and `JIN` 113 against 112 species). Deduplicate.
+- `STRUCTURAL_PRUNING` (99) and `MAINTENANCE_PRUNING` (66) are inconsistently
+  split; 33 entries merge them as `Pruning (Structural & Maintenance)`.
+  Decide on two techniques or one and apply it uniformly.
+- Coverage is uneven — `WATERING` appears on 55 species and `NEBARI` on 114.
+  A canonical model implies every technique has a defined position for every
+  species, including "not applicable".
+
+---
+
+## 3. Contraindication model
+
+**This is the most valuable and most defensible content in the project.**
+
+264 entries carry `notRecommended: true`. Critically, the flags are not evenly
+spread — they concentrate on the four techniques that genuinely fail on
+broadleaf and tropical species:
+
+| Technique | Flagged | Share |
+|---|---|---|
+| `SHARI` | 73 / 112 | 65% |
+| `CARVING` | 65 / 112 | 58% |
+| `JIN` | 57 / 113 | 50% |
+| `DEFOLIATION` | 50 / 112 | 45% |
+| `GRAFTING` | 11 / 111 | 10% |
+| `PINCHING`, `AIR_LAYERING`, `WIRING` | 3, 3, 2 | ≤3% |
+| all others | 0 | 0% |
+
+That distribution is botanically coherent — deadwood techniques suit conifers
+and fail on species that rot rather than harden. The data is not random noise,
+which is mild evidence it is worth verifying rather than discarding.
+
+**Product significance.** For a beginner, whose dominant failure mode is
+confidently doing something irreversible, the prohibition is the more valuable
+half of the advice. Research across Bonsai Empire, Bonsai4me, Bonsai Mirai,
+Virginia Bonsai Society and Bonsai Nut found nobody systematically publishing
+contraindications by species. This is the clearest unclaimed position found.
+
+The model should be richer than a boolean. Recommended shape:
+
+```
+contraindication: {
+  verdict: 'recommended' | 'with_caution' | 'not_recommended' | 'not_applicable'
+  reason: string          // why, in botanical terms
+  confidence: 'verified' | 'unverified'
+}
+```
+
+The source data collapses "with caution" and "not recommended" into one flag —
+`Wiring with Caution` and `Carving Not Recommended` both become `true`. That
+distinction matters to a user and should be recovered.
+
+---
+
+## 4. Entity shape
+
+One entity with four nested groups. Coverage across 112 species:
+
+| Group | Fields | Coverage |
+|---|---|---|
+| Identity | id, scientificName, commonName, family | 112 / 112 |
+| Environment | temperatureMin/Max, sunExposure, position, climate, nativeRegion | 112 / 112 |
+| Botany | leafType, flowering | 112 / 112 |
+| Classification | difficultyLevel, category | 112 / 108 |
+| Care | general, soilType, feeding, watering | 112 / 112 |
+| Techniques | 16 canonical × {timing, maturity, contraindication, description} | 1,637 entries |
+
+**Schema constraints the original lacked** — each maps to a defect found in
+production data:
+
+- `climate` must be a closed enum. 41 species hold prose here, one of 390
+  characters, which broke the climate filter and the icon mapping.
+- `temperatureMin < temperatureMax`, both in Celsius. 20 species violate this
+  (`40°C – 5°C`), 5 more have min equal to max, and several appear to hold
+  Fahrenheit values in a Celsius field.
+- `position` and `commonName` need length bounds. One `commonName` runs to 163
+  characters and generates a 150-character URL slug; 39 `position` values
+  exceed 60 characters.
+- One difficulty scale, not two.
+- Uniqueness on `scientificName`. Two species are duplicated
+  (*Schefflera arboricola*, *Jacaranda mimosifolia*), so 112 is really 110.
+
+---
+
+## 5. Maturity model
+
+`maturityStage` is free text: **486 distinct values across 1,637 entries**,
+averaging 36 characters. It is, however, semi-structured and machine-extractable:
+
+- 829 entries (51%) contain an explicit numeric year value
+- 464 reference an establishment state (established / mature / well-developed)
+- 183 permit the technique at any age
+- 83 gate on trunk caliper rather than age
+
+Proposed enum, which the above supports:
+
+```
+maturity: 'any_age' | 'established_2_3y' | 'developed_5y_plus'
+        | 'mature_10y_plus' | 'trunk_caliper_gated'
+maturityNote: string   // the original prose, retained
+```
+
+Gate on **development state, not calendar age** wherever possible. A five-year
+tropical grown in Brazil and a five-year larch grown in Scotland are not
+comparable, and calendar age is the axis most likely to give wrong advice
+across climates.
+
+---
+
+## 6. Timing model
+
+`timing` is free text: 931 distinct values, averaging 54 characters. Season
+mentions: spring 987, summer 518, winter 255, autumn 181, dormancy 108,
+year-round 60.
+
+**Do not model timing as months.** Every incumbent calendar — Bonsai Empire's,
+Mirai's, the regional societies' — assumes northern-hemisphere temperate
+conditions, which is wrong by roughly six months for a southern-hemisphere
+grower and largely meaningless in the tropics. Model the *phenological* trigger
+and resolve it to a date per user:
+
+```
+timing: {
+  trigger: 'pre_bud_break' | 'active_growth' | 'post_hardening'
+         | 'dormancy' | 'year_round'
+  hemisphere_agnostic: true
+}
+```
+
+This is the one place where the project's data can beat the incumbents rather
+than match them, and it costs nothing to design in from the start.
+
+---
+
+## 7. Provenance — read before using any of this
+
+**The 1,637 entries are AI-generated and have never been reviewed by a
+practitioner.** The repository history shows roughly half of all commits
+authored by automated agents, with the catalogue expanding from 15 to 112
+species in four days.
+
+Demonstrable errors in the current data: 20 invalid temperature ranges, 41
+climate fields holding prose instead of a value, 2 duplicated species, 287
+name variants for 16 techniques, and 185 of 830 image references pointing at
+files that do not exist (24 after the current fix).
+
+Care advice is trust-critical: a reader follows it and their tree lives or
+dies. Against practitioners with decades of standing, unverified generated
+content is a liability rather than an asset, and no amount of schema work
+changes that.
+
+**Therefore:** treat this corpus as a *structured hypothesis* — a well-shaped
+draft that makes a practitioner's review cheap, because they are correcting
+fields rather than writing from scratch. It must not ship to users unverified.
+
+---
+
+## 8. Open questions for practitioner review
+
+1. Is 16 the right technique set, or does it merge things a practitioner would
+   separate (structural vs maintenance pruning) and split things they would merge?
+2. Are the 264 contraindications correct? They are the most valuable content
+   here and also the most dangerous if wrong.
+3. Does phenological-trigger timing (§6) actually work across climates, or do
+   growers need something more local?
+4. Is maturity better expressed as trunk caliper than as age?
