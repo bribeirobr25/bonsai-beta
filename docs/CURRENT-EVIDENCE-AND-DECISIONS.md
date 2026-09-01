@@ -6,11 +6,16 @@ not have to reconstruct the state of the project from several thousand lines of
 research log.
 
 **Status:** pre-validation. No product chosen, nothing built, no users.
-**Last reconciled:** 1 September 2026.
+**Last reconciled:** 2 September 2026.
 
 Every claim carries an evidence status per the canonical taxonomy in
 `PROJECT-BRIEF.md`: `OBSERVED` · `SUPPORTED SIGNAL` · `CONTRADICTED` ·
 `UNVALIDATED` · `DEFERRED`.
+
+
+> **Strategic Foundation / Pre-MVP Canon v1.0** — frozen 2 September 2026.
+> Changes from here should be recorded as amendments rather than silent edits,
+> so the four workstreams do not diverge from different snapshots.
 
 ---
 

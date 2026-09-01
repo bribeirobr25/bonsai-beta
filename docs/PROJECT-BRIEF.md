@@ -10,6 +10,11 @@ previous codebase exists and contributes some raw inputs (§15), but it does not
 shape the problem statement, the strategy, or any idea below. Read this document
 on its own terms.
 
+
+> **Strategic Foundation / Pre-MVP Canon v1.0** — frozen 2 September 2026.
+> Changes from here should be recorded as amendments rather than silent edits,
+> so the four workstreams do not diverge from different snapshots.
+
 ---
 
 ## Canonical conventions

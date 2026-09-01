@@ -10,6 +10,11 @@ list, and every other document takes its number from there.
 **Purpose:** the cheapest available test of the venture's central assumption —
 that growers will maintain a longitudinal record of their trees.
 
+
+> **Strategic Foundation / Pre-MVP Canon v1.0** — frozen 2 September 2026.
+> Changes from here should be recorded as amendments rather than silent edits,
+> so the four workstreams do not diverge from different snapshots.
+
 ---
 
 ## 0. Master competitor list
@@ -42,7 +47,7 @@ narrative count and disagreed with themselves.
 
 - **18** known distinct products
 - **17** believed currently active
-- **10** measured in the iTunes sample below
+- **10** measured in the iTunes sample below (the 10th, *Bonsai Care: Plant Tracker*, was added 2 Sep and verified at 0 ratings in all four storefronts, so it does not change the totals)
 
 *Excluded by criterion:* Mirai Mobile ships inside a subscription, so its
 numbers would reflect that subscription rather than standalone demand.
@@ -65,6 +70,7 @@ numbers would reflect that subscription rather than standalone demand.
 | Bonsaiku: Bonsai Care & Log | PRIOMAT LLC | 2026-06-17 | 2026-06-17 | — | 0 |
 | Bonsai - Tree Care | Mitaanshu Agarwal | 2026-06-23 | 2026-06-23 | — | 0 |
 | Tiny Tree Club | Jonathan Baran | 2026-05-19 | 2026-08-17 | — | 0 |
+| Bonsai Care: Plant Tracker | MEHMET CANKER (TR) | 2026-07-21 | 2026-07-21 | — | 0 |
 | **Total** | | | | | **239** |
 
 ## 2. Competitors outside this table
@@ -79,9 +85,8 @@ queryable through the iTunes lookup API or are web-first:
 | **Wabi Sabi Bonsai** | QR code per pot; auto-timeline; Google Drive sync |
 | **Diario Bonsai – Nebari** | **Portuguese-language**, launched 2026. Claims hemisphere *and* climate zone |
 | **Bonsai App** (`br.com.bonsaiapp`) | **Brazilian**, Google Play |
-| **ScandinavianBonsai** | Regional |
-| **MyBonsaiTag** | Physical tagging |
-| **Bonsai Care & RFID Tree Log** | RFID physical-to-digital tree identity |
+| **ScandinavianBonsai** | Android. RFID tags for physical-to-digital tree identity. Listed on Google Play as *Bonsai Care & RFID Tree Log* (`se.vilhelmineberg.planttracker`) — **one product, two names**; earlier drafts counted it twice |
+| **MyBonsaiTag** | Physical tagging; identity and transfer via NFT |
 | **Bonsme** | Community-oriented |
 
 Two consequences. **The Portuguese-language position is doubly occupied** —

@@ -10,6 +10,11 @@ an earlier version of this brief specified "one to two days", which was a
 slogan rather than a design constraint.
 **Output:** a written report answering §7, with the raw classified dataset attached.
 
+
+> **Strategic Foundation / Pre-MVP Canon v1.0** — frozen 2 September 2026.
+> Changes from here should be recorded as amendments rather than silent edits,
+> so the four workstreams do not diverge from different snapshots.
+
 ---
 
 > **Sequencing — read before commissioning this study.**
@@ -193,7 +198,7 @@ self-entered one? Note three competitors already transfer tree history, so
 plain transferability is not a wedge — **the testable question is whether
 attestation and evidence tiers add trust.**
 
-**H6 — The tree as a persistent knowledge object.** Not "do people like
+**H6A — The tree as a persistent knowledge object.** Not "do people like
 communities" (near-tautology; several apps already ship feeds). Sharpened from
 observed behaviour: growers report that their *first stop* when acquiring a new
 species is the collection of progression threads for it. The tree's documented
@@ -405,8 +410,9 @@ in that climate. One signal is not enough.
 
 H5 passes if ≥2 of: existing provenance behaviour in a transfer cohort;
 voluntary export or sharing of a record by pilot participants; practitioners
-completing a real attestation with low friction. H6 requires repeat non-owner
-interaction and voluntary participation. H7 reports substitute, complement, or
+completing a real attestation with low friction. H6A requires repeat non-owner
+interaction and voluntary participation. **H6B** requires that a comparable
+case is reported as useful when it carries no recommendation. H7 reports substitute, complement, or
 fail — **weighted below the behavioural findings**, per §3.
 
 ### Combined outcome

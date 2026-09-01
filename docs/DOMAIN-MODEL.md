@@ -13,6 +13,11 @@ data's provenance.
 Every figure below was derived programmatically from `src/data/bonsaiData.ts`
 at commit `8ff4d97d` (112 species, 1,637 technique entries).
 
+
+> **Strategic Foundation / Pre-MVP Canon v1.0** — frozen 2 September 2026.
+> Changes from here should be recorded as amendments rather than silent edits,
+> so the four workstreams do not diverge from different snapshots.
+
 ---
 
 ## 1. What survives, and what does not
