@@ -9,6 +9,17 @@ not expected to have any prior context.**
 
 ---
 
+> **Sequencing — read before commissioning this study.**
+> Two cheaper steps come first and may make this study unnecessary.
+> **(0)** An app-market scan is already done — see `APP-MARKET-SCAN.md`.
+> **(1)** Mine the reviews of the nine competing apps for friction and
+> abandonment: days of work, no platform approval required. Only then
+> commission what follows. Also note that this brief cost far less than the
+> multi-cohort programme in `bonsai-deep-research-report.md`; run the cheap
+> evidence first and let it decide whether that scale is warranted.
+
+---
+
 ## 1. Why this research exists
 
 A team is deciding whether to build a bonsai product. They have already ruled
@@ -55,30 +66,78 @@ advice is inconsistent enough that adjudication has value. **H2 and H3 test this
 
 ## 3. Hypotheses — each must be falsifiable
 
-**H1 — Growers already keep longitudinal records of individual trees, unaided.**
+**H1 — Longitudinal record-keeping.** Split into three, because they are
+different behaviours and a single measure conflates them. A grower may keep
+five years of dated photos and never post once; the reverse also happens.
 
-The weak version (people post before/after photos) is almost certainly true and
-proves little — it may be performance rather than record-keeping. The strong
-version is what matters:
+> **H1A · Public documentation.** Growers publicly return to the *same tree*
+> over time. Measured on observable forum behaviour.
+>
+> **H1B · Private record.** Growers maintain a private record even without
+> publishing. **Measured by artifact, never by survey answer** — the person
+> must show something preexisting: an organised camera roll, spreadsheet,
+> notebook, labels, calendar, app. Count as a strong longitudinal record only
+> if it covers the same tree, has ≥3 dated entries, and spans ≥183 days.
+> Distinguish *historical evidence* (photos that happen to exist) from
+> *intentional record*.
+>
+> **H1C · Pain from lost history.** Losing dates or history caused a concrete
+> past problem — "I don't know when I repotted it", "I lost the early photos",
+> "I never wrote down the species". **A specific past incident counts; stated
+> interest does not.** Must be elicited before the participant sees any concept.
 
-> **H1-strong:** a meaningful share of growers return to the *same tree*
-> repeatedly over 6+ months, in a way that constitutes an ongoing record
-> rather than a one-off showcase.
+**H2 — Decision anxiety.** Split, because these imply different products.
 
-**H2 — Diagnostic anxiety is high-volume.**
+> **H2A · Reactive diagnosis.** "What's wrong with my tree / is it dead?"
+>
+> **H2B · Prospective go/no-go.** "Is it safe to do X now?" — **this is the
+> load-bearing one for the advisor**, and the original brief conflated it into
+> H2A.
 
-> A substantial share of community activity is growers asking what is wrong
-> with a specific tree, or whether it is dead.
+**H3 — Advice inconsistency.** Also split.
 
-**H3 — Existing free advice is materially inconsistent.**
+> **H3A · Diagnostic contradiction.** "Fungus" versus "overwatering."
+>
+> **H3B · Action and timing contradiction.** "Repot now" versus "don't touch it
+> until spring."
+>
+> For each conflict, also code the likely cause: `missing context` · `species` ·
+> `climate` · `season` · `tree stage` · `genuine expert disagreement` ·
+> `not actually contradictory`.
 
-> Diagnostic threads frequently contain conflicting answers, and advice is
-> often generic rather than calibrated to the asker's species and climate.
+**H4 — Climate mismatch.** Reframed. The original assumed incumbents ignore the
+southern hemisphere. They no longer do — Bonsai Tracker, Bonsai Empire and
+Bonsaiku all claim climate or hemisphere adaptation. So measure **residual
+mismatch actually experienced**, and require triangulation from ≥2 independent
+methods before declaring a wedge.
 
-**H4 (secondary) — Climate mismatch is a felt problem.**
+**H5 — Provenance beyond a private diary.** Does a tree's history carry value
+when it changes hands, and is a verifiable evidence chain trusted more than a
+self-entered one? Note three competitors already transfer tree history, so
+plain transferability is not a wedge — **the testable question is whether
+attestation and evidence tiers add trust.**
 
-> Growers outside northern-hemisphere temperate zones report that standard
-> timing advice does not fit their conditions.
+**H6 — Tree-led community.** Not "do people like communities" (near-tautology;
+several apps already ship feeds). The differential claim: growers form
+*recurring* relationships around a specific tree's journey — same species,
+climate, stage or problem — and this produces belonging without popularity
+metrics. Measure repeat non-owner interaction, spontaneous update requests,
+help offered, and response to failure — **not likes.**
+
+**H7 — Outcome-derived authority.** *The most important hypothesis, and the
+least tested.* The entire strategy rests on the claim that aggregate outcome
+data can substitute for personal reputation. Test with a randomised comparison
+of the same recommendation attributed to: **(A)** a recognised practitioner,
+**(B)** aggregate outcomes from N comparable trees, **(C)** both, **(D)** generic
+community consensus. Primary endpoint: confidence to act. Freeze a
+non-inferiority margin before collecting. Conclusion must distinguish
+*substitute* (B ≈ A), *complement* (C > both), and *fail*.
+
+> **Weight H7 lower than the behavioural findings.** Any outcome data shown in
+> the experiment is necessarily simulated, and must be labelled as such to avoid
+> fabricating horticultural evidence. That makes H7 a measure of *stated* trust
+> in a hypothetical — the very standard H1B rejects. Run it, but do not let it
+> outrank observed behaviour.
 
 ---
 
@@ -163,43 +222,75 @@ n=400 without an interval is not a finding.
 **Do not adjust these after seeing the data.** They exist specifically to
 prevent a marginal result being narrated into a green light.
 
-### H1 — the record-keeping thesis (Q2 is decisive)
+### H1A — public documentation
 
-| Result on Q2 | Verdict | Action |
+| Share of progression posters returning to the same tree after 6+ months | Verdict |
+|---|---|
+| **≥ 25%** | Strong |
+| **10–24%** | Mixed |
+| **< 10%** | Fail |
+
+### H1B — private record *(measured by artifact, not survey)*
+
+| Share of eligible growers who **show** a record spanning ≥183 days | Verdict | Action |
 |---|---|---|
-| **≥ 25%** of progression posters return to the same tree after 6+ months | **Strong** | The behaviour exists unaided. Proceed to a build. |
-| **10–24%** | **Mixed** | Behaviour exists but is a minority. Proceed only to a 4–6 week logging pilot, not a build. |
-| **< 10%** | **Fail** | Posting is performance, not record-keeping. **Idea A is dead.** Do not run the pilot. |
+| **≥ 25%** | **Strong** | The behaviour exists unaided. Proceed. |
+| **10–24%** | **Mixed** | Minority behaviour. Pilot only; do not build. |
+| **< 10%** | **Fail** | **The record thesis is dead.** Do not run the pilot. |
 
-Q4 (expressed regret at lacking records) can upgrade a *Mixed* to a *Strong* if
-frequent and unprompted — that is latent demand for exactly this product. It
-cannot rescue a *Fail*.
+**H1B outranks H1A.** Public posting may be performance; a private artifact is
+the behaviour the product actually depends on. If they disagree, believe H1B.
 
-### H2 — the diagnostic volume thesis
+### H1C — pain from lost history
 
-| Share of activity that is diagnostic | Verdict |
-|---|---|
-| **≥ 25%** | Strong — a large, recurring, high-anxiety need |
-| **15–24%** | Moderate — real but not dominant |
-| **< 15%** | Weak — reconsider whether diagnosis is the wedge |
+≥30% of interviews reporting a specific past incident is strong, 15–29%
+moderate, below 15% weak. **Can upgrade a Mixed H1B to Strong** if frequent and
+unprompted. Cannot rescue a Fail.
 
-### H3 — the adjudication thesis
+### H2A / H2B — demand volume
 
-| Share of diagnostic threads with materially conflicting advice | Verdict |
-|---|---|
-| **≥ 30%** | Strong — adjudication has clear value |
-| **15–29%** | Moderate |
-| **< 15%** | Fail — the community already answers consistently, and a paid adjudicator has no room |
+| | Strong | Moderate | Weak |
+|---|---|---|---|
+| **H2A** reactive diagnosis | ≥25% | 15–24% | <15% |
+| **H2B** prospective go/no-go | ≥10% | 5–9% | <5% |
 
-### H4 — climate calibration
+H2B thresholds are lower because the behaviour is rarer but higher-value — and
+it is the one the advisor depends on.
 
-Directional only, no threshold. Report the proportion and any representative quotes.
+### H3A / H3B — contradiction
+
+≥30% of eligible threads containing materially conflicting advice is strong for
+either; 15–29% moderate; below 15% a fail for the adjudication thesis.
+
+### H4 — climate mismatch
+
+**Requires triangulation.** Declare a wedge only if ≥2 independent methods
+agree: content evidence of concrete mismatch, interview incidents among
+tropical growers, and a blind audit of current apps' outputs by a practitioner
+in that climate. One signal is not enough.
+
+### H5 / H6 / H7
+
+H5 passes if ≥2 of: existing provenance behaviour in a transfer cohort;
+voluntary export or sharing of a record by pilot participants; practitioners
+completing a real attestation with low friction. H6 requires repeat non-owner
+interaction and voluntary participation. H7 reports substitute, complement, or
+fail — **weighted below the behavioural findings**, per §3.
 
 ### Combined outcome
 
-- **H1 strong** → build the system of record; it is the foundation.
-- **H1 fail but H2 and H3 strong** → the diagnostic advisor may stand alone, but it loses the outcome-data flywheel and therefore its route past the credibility problem. Flag this explicitly.
-- **H1 fail and H2 weak** → neither idea has a behavioural foundation. Report that plainly.
+- **H1B strong** → the record thesis holds; proceed to the pilot.
+- **H1B fail, H2B and H3B strong** → the advisor may stand alone, but loses the outcome flywheel and therefore its route past the credibility problem. Flag explicitly.
+- **H1B fail and H2 weak** → neither idea has a behavioural foundation. Report that plainly.
+
+### A prior that must be weighed against all of the above
+
+`APP-MARKET-SCAN.md` found nine shipping competitors holding roughly 330 App
+Store ratings across four major markets, with no winner and a well-resourced
+incumbent converting its own large audience into 64 ratings. **Even a strong
+H1B result must be reconciled with that.** If growers do keep records but nine
+products cannot build a business on it, the binding constraint is market size,
+not behaviour — and the study should say so rather than reporting a green light.
 
 ---
 
