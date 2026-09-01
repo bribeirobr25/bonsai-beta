@@ -112,7 +112,7 @@ version is what matters:
 
 | Source | Scale | Access notes |
 |---|---|---|
-| **r/Bonsai** | ~362k members, high activity | **Primary source.** Use the official Reddit API (free tier is sufficient). Naive HTTP fetching is blocked — `old.reddit.com` refuses and there is no usable HTML path. PRAW or equivalent required. |
+| **r/Bonsai** | ~362k members, high activity | **Access is no longer straightforward and this method may be unavailable.** Since June 2026 Reddit requires explicit approval for API access and a written agreement for commercial use; Reddit for Researchers is restricted to non-commercial academic work with university affiliation and ethics review. A commercial venture study should assume neither applies. Naive HTTP fetching is blocked — `old.reddit.com` refuses. **Confirm access before designing around this source, and cost a fallback.** |
 | **r/bonsaicommunity** | ~47k members | Secondary; check whether it skews differently. |
 | **Bonsai Nut** | Largest dedicated forum | **Returns HTTP 403 to naive fetchers** — needs a browser-driving tool. Has an explicit "5 to 10+ Year Progression Thread", directly relevant to H1. |
 | Instagram / YouTube | — | Progression content is common. Useful for H1 context; hard to sample rigorously. Optional. |

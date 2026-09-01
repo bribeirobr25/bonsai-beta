@@ -103,6 +103,20 @@ Verified against live sources, August 2026.
 | **r/Bonsai, Bonsai Nut** | ~362k members; the free answer to any question |
 | **Hotmart, ABC do Bonsai** | Portuguese-language bonsai courses that already sell — one with 288+ reviews and 81 lessons |
 
+**A second cluster exists that this brief originally missed: tracking apps.**
+At least nine ship today — BonsaiDo, Bonsai Empire's Care App, Appy Bonsai,
+Bonsaiku, Wabi Sabi Bonsai, Bonsai Tracker, Yoi Bonsai, Jooni, Tiny Tree Club —
+plus a Brazilian one on Google Play. Several already do things this brief
+treated as novel: Bonsai Tracker and Appy Bonsai transfer a tree's history to a
+new owner; **Yoi Bonsai explicitly offers "lineage that travels with the tree"**
+and was built by someone with 20+ years in bonsai *and* an engineering
+background; Bonsaiku ships a season-by-climate calendar; Wabi Sabi assigns a QR
+code per pot.
+
+**But none has meaningful traction.** Across four major storefronts the entire
+category holds roughly 330 App Store ratings; the six-year-old leader has 136.
+Full data and limitations in `APP-MARKET-SCAN.md`.
+
 **What this closes:** the reference/content play. Breadth is not a
 differentiator, structured species data is already published by at least one
 society, and the incumbents pair their content with the credibility that makes
@@ -112,7 +126,8 @@ people act on it.
 
 - **Contraindications by species.** No incumbent systematically publishes what *not* to do to a given species. Every guide is written affirmatively. For a beginner whose failure mode is confidently doing something irreversible, the prohibition is the more valuable half.
 - **Maturity-gating.** "At what tree age does this technique become appropriate" is barely addressed anywhere.
-- **Climate calibration.** Every incumbent calendar assumes northern-hemisphere temperate conditions. For a southern-hemisphere grower the timing is wrong by roughly six months; in the tropics it is largely meaningless.
+- **Climate calibration.** *Weakened — see §11.* The original claim was that every incumbent assumes northern-hemisphere temperate conditions. Bonsai Tracker, Bonsai Empire and Bonsaiku all now claim climate or hemisphere adaptation, so what remains testable is *residual* mismatch, not absence.
+- **Aggregate outcome data.** Of the nine tracking apps, **none aggregates outcomes across users into guidance.** Each records your trees for you. This is the one position still genuinely unoccupied — and notably the one that needs scale rather than credibility.
 
 ---
 
@@ -142,10 +157,10 @@ candidates fall into four tiers:
 |---|---|---|---|
 | **1 — Library** | Content someone reads | Yes | Commoditised. Closed. |
 | **2 — Decision** | Tells you what to do to a living tree | Yes | Genuinely unserved, and genuinely blocked — instructions that can kill something raise the credibility bar rather than lowering it. |
-| **3 — Record** | You keep the ledger; users bring the facts | **No** | Unclaimed *and* authority-free. Value compounds over time, which is also the retention mechanism content can never have. |
+| **3 — Record** | You keep the ledger; users bring the facts | **No** | Authority-free, but **no longer unclaimed** — nine tracking apps ship today and three already transfer a tree's history to a new owner. Value still compounds over time; the question is now whether anyone wants it enough. See `APP-MARKET-SCAN.md`. |
 | **4 — Network** | Borrows authority from teachers | **No** | Highest ceiling, hardest cold start — the audience already has homes. |
 
-**Tier 3 is the sweet spot**, and Tier 2 becomes viable when built on top of it —
+**Tier 3 was assessed as the sweet spot**, and Tier 2 becomes viable when built on top of it —
 because an advisor whose authority derives from *outcomes at scale* needs no
 reputation. "Eleven percent of people who repotted this species in this month
 lost the tree" is a claim no incumbent can make and no credential is required
@@ -249,11 +264,17 @@ Every feature in §7 is copyable. Structured schemas, timing fields, maturity
 gates and contraindication flags can be replicated in weeks by anyone who
 already holds the content and the audience.
 
-**The specific threat:** Bonsai Empire already ships an app that tracks trees
-and sends species-and-climate-aware reminders. Adding outcome aggregation — the
-core of P1 — is a modest increment for them, and they would start with more
-users, an established brand, and the editorial authority that makes people
-trust the output. If P1 works, they can follow.
+**The threat is no longer hypothetical — it has already happened.** Nine
+tracking apps ship today, and three transfer a tree's history between owners.
+Yoi Bonsai, launched May 2026, offers provenance and lineage that move with the
+tree, built by someone holding both the engineering skill and the 20+ years of
+practice that §5 identifies as unbuyable. P1 was not a vacant position.
+
+**The countervailing fact:** none of them has traction. The category totals
+roughly 330 ratings across four major storefronts, and Bonsai Empire — the
+largest audience in bonsai — converted it into 64. That reframes the risk.
+The danger is less that an incumbent copies you, and more that **the market is
+too small to reward whoever wins it.**
 
 **The only durable defence is the data, not the feature.** Outcome records
 compound: whoever accumulates a large corpus of what-actually-happened first
@@ -272,28 +293,38 @@ unanswered, it becomes the next thing to resolve.**
 
 ## 11. Market entry — geography and language
 
-The strongest available wedge is **not a species or a feature. It is a climate
-and a language.**
+The wedge originally proposed here was **a climate and a language** rather than
+a species or a feature. That argument has weakened and is retained with its
+corrections rather than deleted.
 
-Every incumbent calendar and care guide assumes northern-hemisphere temperate
-conditions. A grower in Brazil, Australia, South Africa or Southeast Asia
-receives repotting timing that is wrong by roughly six months and dormancy
-advice for a winter they do not have. This is a structural weakness in the
-incumbents' content, not an oversight they can cheaply patch — their entire
-corpus is calibrated that way.
+The original reasoning: every incumbent calendar assumes northern-hemisphere
+temperate conditions, so a grower in Brazil, Australia, South Africa or
+Southeast Asia receives repotting timing wrong by roughly six months and
+dormancy advice for a winter they do not have.
+
+**Two findings undercut this.** Bonsai Tracker advertises tasks adapted to
+hemisphere, species and climate; Bonsai Empire states its app optimises care
+using species and local climate; and Bonsaiku ships a season-by-climate
+calendar with frost alerts. The gap is no longer unattended, so the hypothesis
+must become *measurable residual mismatch experienced by tropical growers* —
+not an assumed absence.
 
 Portuguese-language demand is demonstrated rather than assumed: bonsai courses
 sell on Hotmart with hundreds of reviews, and ABC do Bonsai runs a paid course
 with a community attached. The market exists and already pays.
 
-**What this implies:** entering as a southern-hemisphere-and-tropical,
-Portuguese-first product is more defensible than entering as a global
-English-language competitor. It attacks where incumbents are structurally
-weak, serves an audience they serve badly, and is a segment large enough to
-matter but small enough to be uninteresting to them early on.
+There is also already a Brazilian tracking app on the Play Store
+(`br.com.bonsaiapp`), so the language position is not empty either.
 
-**Caveat:** this is a hypothesis, not a finding. It should be tested as part of
-the research in §14 (question 13–14 of the research brief), not assumed.
+**What this implies now:** a southern-hemisphere, Portuguese-first product may
+still be more defensible than a global English-language one, but the claim is
+weaker than originally written and must be tested rather than assumed.
+
+**Counter-evidence to weigh:** across the Brazilian App Store, all bonsai apps
+combined hold 15 ratings. That number is a severe undercount — Brazil is
+roughly 80% Android and Google Play data was not retrievable — so it must not
+be read as an empty market. But nothing yet suggests a large unserved
+Portuguese-speaking audience for this category. See `APP-MARKET-SCAN.md`.
 
 ---
 
@@ -305,6 +336,18 @@ August 2026.
 **Reasoned but untested:** the tier taxonomy (§6), the composite structure (§8),
 the business models (§9), the entry wedge (§11), and the claim that outcome data
 substitutes for reputation. These are arguments, not findings.
+
+**Contradicted by evidence gathered since this brief was written:** that Tier 3
+is unclaimed (nine tracking apps ship, three transfer tree history); that
+climate calibration is unattended (three competitors claim it); and that a
+Portuguese-language position is empty (a Brazilian app exists). See
+ and §4.
+
+**A new and uncomfortable finding:** nine products compete for roughly 330 App
+Store ratings across four major markets. The load-bearing assumption below may
+be answerable not as *"will growers log?"* but as *"is the population that will
+pay to log large enough to matter?"* — and the early signal is not encouraging.
+The Android gap must be closed before treating this as settled.
 
 **Assumed and load-bearing — the whole thesis rests here:**
 
@@ -339,13 +382,15 @@ The phase is **validation, not construction.** No architecture, stack, backend,
 database, or analytics decision should be made yet: product shape determines
 those, and choosing them first is how you build the wrong thing efficiently.
 
-1. **Behavioural research** — does the record-keeping behaviour already exist unaided, and how large is diagnostic demand? Fully specified in `RESEARCH-BRIEF-behavioural-validation.md`, with pass/fail thresholds fixed in advance. *Decisive for P1.*
-2. **Material-assessment vision test** — 50 garden-centre photographs scored by hand against a practitioner's judgement. *Decisive for idea 7.* A weekend.
-3. **Teacher interviews** — five conversations. If WhatsApp and a spreadsheet are genuinely adequate, there is no P3.
-4. **Logging pilot** — only if step 1 passes. Twenty growers, a shared spreadsheet, 4–6 weeks. The long pole; everything else takes days.
-5. **Then** choose a direction, resolve the competitive-response question in §10, and only then choose technology.
+0. **App market scan** — ✅ *done, see `APP-MARKET-SCAN.md`.* Nine competing apps, ~330 ratings across four storefronts, no winner. **Next hour of work: close the Android gap**, since Brazil is ~80% Android and the iOS figure of 15 is a severe undercount.
+1. **Competitor review mining** — read the reviews of those nine apps for friction, abandonment and unmet wants. Days, no platform approval needed. Should precede any commissioned study.
+2. **Behavioural research** — does the record-keeping behaviour exist unaided, and how large is diagnostic demand? Specified in `RESEARCH-BRIEF-behavioural-validation.md`. **Note its primary source is now in doubt** — Reddit API access changed in June 2026. *Decisive for P1.*
+3. **Material-assessment vision test** — 50 garden-centre photographs scored by hand against a practitioner's judgement. *Decisive for idea 7.* A weekend.
+4. **Teacher interviews** — five conversations. If WhatsApp and a spreadsheet are genuinely adequate, there is no P3.
+5. **Logging pilot** — only if step 2 passes. Twenty growers, a shared spreadsheet, 4–6 weeks. The long pole; everything else takes days.
+6. **Then** choose a direction, resolve the competitive-response question in §10, and only then choose technology.
 
-**Guard:** set a date on step 4. If the evidence has not resolved by then, the
+**Guard:** set a date on step 5. If the evidence has not resolved by then, the
 answer is no. A negative result reached quickly is the most valuable outcome
 available, and abandoning the venture is a legitimate ending.
 
