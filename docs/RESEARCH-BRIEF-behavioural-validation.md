@@ -304,7 +304,7 @@ fail — **weighted below the behavioural findings**, per §3.
 `APP-MARKET-SCAN.md` found at least fourteen shipping competitors holding roughly 330 App
 Store ratings across four major markets, with no winner and a well-resourced
 incumbent converting its own large audience into 64 ratings. **Even a strong
-H1B result must be reconciled with that.** If growers do keep records but nine
+H1B result must be reconciled with that.** If growers do keep records but fourteen
 products cannot build a business on it, the binding constraint is market size,
 not behaviour — and the study should say so rather than reporting a green light.
 

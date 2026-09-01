@@ -378,7 +378,7 @@ climate calibration is unattended (three competitors claim it); and that a
 Portuguese-language position is empty (a Brazilian app exists). See
 `APP-MARKET-SCAN.md` and §4.
 
-**A new and uncomfortable finding:** nine products compete for roughly 330 App
+**A new and uncomfortable finding:** fourteen products compete for roughly 330 measured App
 Store ratings across four major markets. The load-bearing assumption below may
 be answerable not as *"will growers log?"* but as *"is the population that will
 pay to log large enough to matter?"* — and the early signal is not encouraging.

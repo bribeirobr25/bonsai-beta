@@ -89,7 +89,7 @@ record-keeping software is very small.** The presence of many products with no
 winner, plus a well-resourced incumbent failing to convert its own audience,
 points more strongly at the second.
 
-This does not prove growers will not log. It does show that **nine attempts to
+This does not prove growers will not log. It does show that **fourteen attempts to
 monetise that behaviour have not produced a business**, which is the
 practically relevant question.
 
@@ -126,5 +126,5 @@ programme was designed to test.
 for friction and abandonment → ~18 artifact interviews → *then* decide whether
 the full observational programme is warranted.
 
-Spending R$45k to establish that people will log, when nine shipped products
+Spending R$45k to establish that people will log, when fourteen shipped products
 suggest the behaviour does not sustain a business, is the wrong order.
