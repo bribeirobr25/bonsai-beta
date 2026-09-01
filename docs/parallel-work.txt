@@ -1,0 +1,1619 @@
+[SUPERSEDED RESEARCH LOG — not authoritative]
+Conclusions extracted into docs/CURRENT-EVIDENCE-AND-DECISIONS.md and the
+documents it references. Where this file and those disagree, they win.
+NOTE: this file was overwritten on 1 Sep 2026. The earlier Gate 0 and
+domain-model research survives only in git history at commit 0030e009.
+----------------------------------------------------------------------
+
+Sim. A ordem que você propõe faz sentido, mas eu faria uma adaptação importante por causa do workshop daqui a um mês.
+
+**Eu não entraria em Product/UIUX agora como se estivéssemos desenhando “o produto”.** Antes, passaria por Monetization & Economics, Brand Identity & Marketing e Growth Strategy. Só que essas três frentes deveriam trabalhar em modo **pré-MVP**, não tentando fechar uma estratégia definitiva. O workshop nos deu algo muito melhor que uma discussão teórica: um laboratório real com exatamente o tipo de pessoa que o projeto diz querer entender, alguém começando seu primeiro bonsai.
+
+Hoje o `PROJECT-BRIEF` continua classificando o venture como validação, não construção, e reconhece como desconhecidos willingness to pay, tamanho de mercado, unit economics e resposta dos incumbentes.  Isso é um ótimo argumento para fazer essas três frentes agora, mas como mecanismos para **formular o experimento certo**, não para produzir um plano de negócios de 2027 baseado em pessoas imaginárias.
+
+## Eu mudaria a sequência para isto
+
+1. **Canonical Strategic Reconciliation**
+
+   Antes das três frentes, fazemos aquela reconciliação documental que acabamos de identificar. Não precisa virar um projeto gigante. Precisamos simplesmente sair com uma base canônica dizendo:
+
+   **What we know**
+   **What evidence suggests**
+   **What is contradicted**
+   **What remains hypothesis**
+   **What cannot currently be tested**
+
+   Isso é especialmente importante porque hoje sabemos que tracking, transferable history, Portuguese-first e climate adaptation já têm concorrência real. 
+
+2. **Monetization & Economics · Pre-MVP**
+
+   Não perguntar ainda:
+
+   > “Quanto deve custar nosso produto?”
+
+   Perguntar:
+
+   > **Que comportamento pode economicamente sustentar um produto e qual seria a menor prova disso?**
+
+   A análise precisa considerar um dado desconfortável: temos muitos trackers e pouca tração observável nas storefronts analisadas. O Market Scan encontrou aproximadamente 330 ratings nas quatro storefronts estudadas, mas também reconhece grandes limitações, especialmente Android.  
+
+   Portanto eu estudaria pelo menos:
+
+   **consumer subscription?**
+
+   **one-time purchase?**
+
+   **freemium?**
+
+   **teacher/workshop SaaS?**
+
+   **nursery/club B2B2C?**
+
+   **free utility → later monetization?**
+
+   E, principalmente:
+
+   **quem recebe valor suficiente para potencialmente pagar?**
+
+   Beginner e experienced grower claramente não têm o mesmo job. O próprio Project Brief já distingue beginner como `safety + memory` e experienced grower como `history + provenance + experiments`. 
+
+3. **Brand Identity & Marketing · Pre-PMF**
+
+   Aqui eu não criaria logo, campaign system ou brand book ainda.
+
+   Precisamos descobrir **qual território emocional e funcional faz sentido**.
+
+   Hoje existem pelo menos quatro possíveis narrativas:
+
+   **“Don’t kill your first bonsai.”**
+
+   **“Remember the life of your tree.”**
+
+   **“Every tree has a story.”**
+
+   **“Learn from trees like yours.”**
+
+   Elas levam a produtos completamente diferentes.
+
+   O trabalho de Brand agora é descobrir qual proposta:
+
+   * é imediatamente compreendida por beginners;
+   * não soa intimidante;
+   * não entra na linguagem elitista/status do bonsai;
+   * consegue acomodar no futuro provenance e community;
+   * não promete expertise que ainda não temos.
+
+   Eu prestaria atenção especial à ideia já encontrada na documentação:
+
+   > **Story, not price, is the social currency.** 
+
+   Isso pode ser muito maior que uma regra de community. Pode ser princípio de marca.
+
+4. **Growth Strategy · Validation-first**
+
+   Essa frente deveria responder:
+
+   > **Como encontramos o próximo usuário de uma forma que também gera aprendizado?**
+
+   Não:
+
+   > “Como vamos adquirir 100 mil usuários?”
+
+   Ainda nem sabemos se queremos 100 mil desses pobres cidadãos.
+
+   Growth deveria mapear canais de aquisição que também funcionem como **research loops**:
+
+   workshop
+   nursery
+   club
+   teacher
+   beginner course
+   plant store
+   bonsai event
+   SEO/search moment
+   QR attached to first tree
+
+   E aqui seu workshop ganha uma importância enorme.
+
+---
+
+# O workshop muda a estratégia inteira
+
+Isso não é só “legal ter alguma coisa pronta”.
+
+**Eu transformaria o workshop no primeiro Product Validation Event do venture.**
+
+Porque o target definido no Project Brief é:
+
+> first- or second-tree owner. 
+
+E o seu workshop literalmente termina com pessoas criando:
+
+> **their first bonsai.**
+
+É difícil encomendar um grupo experimental mais perfeitamente alinhado.
+
+Portanto eu não levaria apenas uma landing page.
+
+Eu levaria um **Minimum Valuable Experiment**.
+
+---
+
+# O MVP do workshop não deveria tentar provar o produto inteiro
+
+A pergunta não deve ser:
+
+> “Vocês gostam do nosso app de bonsai?”
+
+Esse tipo de pergunta produz um cemitério muito elegante de falsos positivos.
+
+Eu testaria um único loop:
+
+## **Create tree → capture first event → return later**
+
+No workshop:
+
+**Tree created**
+
+↓
+
+**Tree gets an identity**
+
+↓
+
+**first photo**
+
+↓
+
+**species / approximate identification**
+
+↓
+
+**event: created / repotted / initial styling**
+
+↓
+
+**simple intent**
+
+> “What are you trying to achieve with this tree?”
+
+↓
+
+**Journey begins**
+
+Isso usa justamente o modelo que sobreviveu ao Shadow Product Validation:
+
+`Living Subject → Journey → Events → Intent → Evidence → Outcome`. 
+
+Mas a interface não mostra nada dessa complexidade.
+
+Para o usuário seria talvez três passos.
+
+---
+
+# Eu não faria o primeiro MVP sobre Provenance
+
+Provenance é fascinante e o modelo está forte, mas um first-tree owner acabou de criar a árvore.
+
+Ele não tem ainda:
+
+previous owner
+practitioner lineage
+exhibition history
+transfer history
+
+Portanto não precisamos forçar H5 no primeiro momento.
+
+A história começa ali.
+
+**O workshop é literalmente a data de nascimento digital da árvore.**
+
+Isso é perfeito.
+
+---
+
+# Também não faria Community como o MVP inicial
+
+Poderíamos testar uma camada mínima.
+
+Não um feed.
+
+Depois de todos criarem suas árvores, poderíamos ter algo como:
+
+### Trees started today
+
+E cada participante vê algumas outras jornadas.
+
+Talvez:
+
+**same species**
+
+**similar starting material**
+
+**similar goal**
+
+Mas sem:
+
+likes
+followers
+leaderboards
+“best bonsai”
+
+Isso testa uma parte de H6 sem precisar construir “uma comunidade”.
+
+O Research Brief já reformulou H6 corretamente como a árvore funcionando como **persistent knowledge object**, não como generic social feed. 
+
+---
+
+# O mais valioso acontece depois do workshop
+
+O workshop nos dá activation.
+
+Mas a tese central precisa de **return**.
+
+Então eu desenharia o experimento para 30 dias.
+
+### Day 0
+
+Create first Tree Journey.
+
+### Day 3–7
+
+Algo aconteceu?
+
+Foto.
+
+Observation.
+
+Watering adjustment.
+
+New growth.
+
+Question.
+
+### Day 14
+
+Update your tree.
+
+### Day 30
+
+How is your tree now?
+
+Não precisamos sequer forçar reminders complexos.
+
+Queremos descobrir:
+
+**voltam espontaneamente?**
+
+**o que registram?**
+
+**o que ignoram?**
+
+**foto basta?**
+
+**eles lembram por que fizeram algo?**
+
+**querem comparar com outra árvore?**
+
+**perguntam “posso fazer X agora?”**
+
+Agora estamos produzindo sinais reais.
+
+---
+
+# Poderíamos até testar `Comparable Journey`
+
+Esse talvez seja o experimento mais interessante.
+
+Depois de algumas pessoas registrarem:
+
+> Juniper · recently created · beginner
+
+poderíamos mostrar:
+
+### Similar journeys
+
+ou simplesmente:
+
+### Others starting with juniper
+
+E observar:
+
+* abrem?
+* leem?
+* voltam?
+* aprendem?
+* deixam comentário?
+* querem seguir a árvore?
+
+O Project Brief já identificou `Comparable Journey` como uma mecânica potencialmente importante porque consegue gerar valor **sem o produto precisar aconselhar diretamente**. 
+
+O workshop nos dá a primeira possibilidade real de testar isso.
+
+---
+
+# O legacy system também pode ajudar, mas de forma muito controlada
+
+Temos um ativo relevante:
+
+**1.637 technique entries / 112 species**, incluindo timing, maturity e contraindications.
+
+Mas o próprio Domain Model é corretamente brutal sobre isso:
+
+**AI-generated, unreviewed, demonstrable errors, must not ship to users unverified.** 
+
+Portanto:
+
+### Podemos reutilizar
+
+taxonomy
+data shape
+16 canonical techniques
+contraindication structure
+maturity concept
+phenological timing concept
+species identity structure
+
+### Não podemos reutilizar como verdade
+
+care recommendations
+timing recommendations
+contraindications ainda não verificadas
+AI-generated descriptions
+
+O maior valor do legacy não é:
+
+> “Já temos conteúdo.”
+
+É:
+
+> **Já temos um vocabulary/domain scaffold.**
+
+Isso reduz brutalmente o trabalho conceitual do MVP.
+
+---
+
+# E eu usaria outra coisa do legacy imediatamente
+
+O conceito:
+
+**technique + timing + maturity + contraindication**
+
+pode informar o que registramos no `Tree Event`.
+
+Por exemplo, alguém fez:
+
+`REPOTTING`
+
+Agora temos uma técnica canônica.
+
+Não precisamos inventar free text.
+
+Outro fez:
+
+`STRUCTURAL_PRUNING`
+
+Outro:
+
+`WIRING`.
+
+Isso melhora desde o primeiro dia a qualidade futura dos registros sem expor uma única recomendação não validada.
+
+Aqui o legacy realmente produz vantagem.
+
+---
+
+# Então qual MVP eu imagino para daqui a um mês?
+
+Não consigo decidir UI ainda sem passar pelas três frentes, mas consigo definir o **shape do experimento**.
+
+Seria algo aproximadamente assim:
+
+### Before workshop
+
+Uma landing page simples:
+
+**Bring your first bonsai to life.
+Keep its story from day one.**
+
+Explica minimamente a proposta.
+
+Talvez cadastro antecipado.
+
+### During workshop
+
+QR code.
+
+Create account / lightweight access.
+
+**Create your tree**
+
+Photo.
+
+Species if known.
+
+Name optional.
+
+Start date = workshop.
+
+Starting material.
+
+First Event.
+
+Optional intent.
+
+Pronto.
+
+### End of workshop
+
+Tela:
+
+**Your tree's journey started today.**
+
+E a primeira progression já existe.
+
+### Following 30 days
+
+Return.
+
+Add photo/event.
+
+Observe progress.
+
+Potentially see comparable journeys.
+
+Isso já é produto suficiente para aprender.
+
+---
+
+# E quais métricas eu observaria?
+
+Não tentaria medir cinquenta coisas.
+
+As primeiras seriam:
+
+**Activation**
+
+% workshop participants who create the tree.
+
+**Capture completion**
+
+% who create at least one Event.
+
+**Return**
+
+% returning independently within 7 / 14 / 30 days.
+
+**Second event**
+
+% creating another event.
+
+**Record shape**
+
+photo only vs action vs observation vs intent.
+
+**Retrieval**
+
+do they later use their own history?
+
+**Comparable Journey interaction**
+
+if exposed, do they engage?
+
+**Decision anxiety**
+
+do they naturally ask “should/can I…?”
+
+E uma qualitativa absurdamente importante:
+
+> **What did people try to do that the experiment didn't let them do?**
+
+MVPs bons frequentemente revelam o produto pelas tentativas frustradas.
+
+---
+
+# Monetization também pode ser testada no workshop sem cobrar
+
+Não perguntaria simplesmente:
+
+> “Você pagaria €3.99?”
+
+Podemos testar economic signals.
+
+Por exemplo, ao final dos 30 dias:
+
+**Free**
+
+1 tree + basic journey.
+
+E mostrar hipoteticamente:
+
+**Extended History**
+
+Unlimited photos
+Exportable tree record
+Multiple trees
+Advanced comparison
+
+Sem cobrar ainda.
+
+Medir:
+
+**upgrade click / interest**
+
+Isso ainda é stated/intent behavior, então não é willingness-to-pay real.
+
+Mas é melhor do que perguntar numa roda de conversa:
+
+> “Quem compraria?”
+
+onde quinze pessoas levantam a mão para serem educadas e zero abre a carteira depois.
+
+---
+
+# Brand pode ser testada da mesma forma
+
+O workshop nos permite observar qual framing realmente funciona.
+
+Talvez:
+
+### A
+
+**Don't lose your bonsai's story.**
+
+### B
+
+**See how your bonsai grows with you.**
+
+### C
+
+**Every bonsai has a journey.**
+
+### D
+
+**Know what happened. Learn what comes next.**
+
+Não precisamos decidir hoje.
+
+Brand Strategy deveria produzir os hypotheses e o workshop nos dá comportamento para escolher.
+
+---
+
+# Growth também começa ali
+
+Cada árvore criada pode potencialmente gerar um shareable object:
+
+**My first bonsai · started 04 Oct 2026**
+
+Mas compartilhamento não precisa ser viral cringe.
+
+Pode ser simplesmente:
+
+**Share my first tree**
+
+E medir se acontece naturalmente.
+
+Se participantes compartilharem a árvore com outras pessoas, temos um possível growth loop baseado no **Tree**, não no usuário.
+
+Isso é bem alinhado à arquitetura:
+
+**Tree → Journey → Events → People.** 
+
+---
+
+# Portanto eu mudaria ligeiramente a sequência que você propôs
+
+Você disse:
+
+**Monetization
+→ Brand
+→ Growth
+→ Product UIUX**
+
+Eu faria:
+
+**Canonical Evidence Reconciliation**
+
+↓
+
+**Monetization + Brand + Growth em paralelo, em modo hypothesis**
+
+↓
+
+### **Workshop MVP Experiment Definition**
+
+↓
+
+**Product/UIUX mínimo exclusivamente para esse experimento**
+
+↓
+
+### **Workshop**
+
+↓
+
+**30-day behavioral observation**
+
+↓
+
+**Evidence reconciliation**
+
+↓
+
+**Monetization + Brand + Growth v1 informed by evidence**
+
+↓
+
+### **Só então Product/UIUX do verdadeiro MVP**
+
+Essa diferença é gigantesca.
+
+Não estamos usando Monetization/Brand/Growth para **decidir o produto antes do workshop**.
+
+Estamos usando essas frentes para decidir:
+
+> **o que precisamos aprender no workshop.**
+
+E usamos Product/UIUX apenas para construir **o menor instrumento capaz de gerar essa evidência**.
+
+## Minha conclusão
+
+Sua intuição está certa: **não devemos correr para UIUX agora**.
+
+Mas o workshop daqui a um mês cria um deadline extremamente útil.
+
+Eu transformaria o objetivo do próximo mês em:
+
+> **By the workshop, we do not need a product. We need the smallest real experience capable of creating a Tree Journey and allowing us to observe whether first-time bonsai owners voluntarily continue it.**
+
+Se conseguirmos isso, sairemos do workshop com algo que nenhuma pesquisa documental consegue nos dar:
+
+**primeiros usuários reais, primeiras árvores reais, primeiros events reais e o começo de uma curva real de retention.**
+
+E, pela primeira vez, poderemos começar a substituir algumas das palavras mais repetidas dessa documentação:
+
+**assumption**
+
+por
+
+**evidence**.
+
+
+
+
+
+Sobre o workshop acredito que uma coisa precisa ser ressaltada. As pessoas que vao atender serao muito provavelmente pessoas ou que nunca mexeram em bonsai e tem 0 conhecimento ou pessoas que sabem algo mas ainda estao iniciando, entao vale ressaltar isso na expectativa sobre validacao. Outro ponto, nao acredito que amarrar o que estamos construindo ao workshop seja correto, precisamos pensar no workshop como uma boa oportunidade, mas nao como essencial para o nosso projeto aqui
+
+
+Concordo com as duas correções. Elas são importantes porque evitam transformar uma oportunidade conveniente em “estratégia”, aquela coisa que acontece quando um calendário começa a mandar no produto.
+
+### 1. O workshop é uma amostra extremamente específica
+
+Pelo perfil que você descreveu, os participantes estarão concentrados em:
+
+**zero conhecimento → primeiro contato com bonsai**
+
+ou
+
+**beginner muito inicial**.
+
+Isso é bastante compatível com o segmento primário atual, que o Project Brief define como first/second-tree owner, buscando principalmente **safety + memory**. 
+
+Mas não é representativo do mercado inteiro.
+
+Portanto o workshop pode nos ensinar bastante sobre:
+
+* onboarding para alguém que não entende bonsai;
+* linguagem e terminologia;
+* first-tree anxiety;
+* criação do primeiro Tree Journey;
+* quanto logging inicial parece fácil ou pesado;
+* que informação a pessoa entende ou não;
+* que tipo de guidance espera logo após adquirir/criar a árvore;
+* se registrar foto/evento parece natural;
+* early return nas semanas seguintes.
+
+Mas **não deveria ser usado para validar**:
+
+* comportamento de hobbyists com 10–20 árvores;
+* provenance de longo prazo;
+* transferências entre owners;
+* willingness to pay do mercado;
+* practitioner workflows;
+* teacher tooling;
+* advanced tracking;
+* long-term retention;
+* network effects;
+* outcome-derived authority.
+
+Ou seja, o workshop produz evidência de **beginner activation**, não “validação do produto”.
+
+Essa distinção precisa ficar explícita.
+
+---
+
+## 2. E concordo ainda mais com o segundo ponto
+
+**O projeto não deve ser amarrado ao workshop.**
+
+Eu fui longe demais ao transformar o workshop no eixo temporal da estratégia.
+
+A formulação correta é:
+
+> **O venture possui sua própria sequência estratégica e de validação. O workshop é uma oportunidade paralela de coletar evidência real sobre um subconjunto muito específico das hipóteses.**
+
+Se o workshop fosse cancelado amanhã, **nossa direção de trabalho deveria continuar essencialmente igual**.
+
+Isso é o teste simples para saber se estamos dependentes demais dele.
+
+---
+
+# Eu separaria formalmente em dois tracks
+
+## TRACK A · Venture Development
+
+Este é o caminho principal e independe do workshop:
+
+**1. Canonical Evidence Reconciliation**
+
+↓
+
+**2. Monetization & Economics**
+
+↓
+
+**3. Brand Identity & Marketing**
+
+↓
+
+**4. Growth Strategy**
+
+↓
+
+**5. Opportunity / Product Thesis Reconciliation**
+
+↓
+
+**6. MVP Validation Strategy**
+
+↓
+
+**7. Product/UIUX**
+
+↓
+
+**8. MVP / experiments**
+
+↓
+
+**9. Evidence → iteration / kill / continue**
+
+Esse é o projeto.
+
+---
+
+## TRACK B · Workshop Opportunity
+
+O workshop simplesmente corre ao lado:
+
+**Workshop participant profile**
+
+zero/low bonsai experience
+
+↓
+
+**choose only hypotheses appropriate to that cohort**
+
+↓
+
+**small optional experiment**
+
+↓
+
+**collect observations**
+
+↓
+
+**feed relevant evidence back into Track A**
+
+Ele é um **evidence input**, não um gate.
+
+---
+
+# Isso também muda o que deveríamos levar ao workshop
+
+Eu não acho mais necessário dizer:
+
+> “Precisamos ter nosso MVP pronto para o workshop.”
+
+Não.
+
+A pergunta passa a ser:
+
+> **Existe algum pequeno artefato ou experiência que já faça sentido segundo a estratégia do venture e que, coincidentemente, possamos testar no workshop sem distorcer o projeto?**
+
+Se sim, excelente.
+
+Se não, não inventamos um produto às pressas só porque haverá humanos reunidos numa sala.
+
+---
+
+# Pode até ser algo muito menor que um app
+
+Por exemplo, dependendo do que Monetization/Brand/Growth nos mostrarem, poderíamos levar apenas:
+
+### Opção A · Tree Journey prototype
+
+QR → photo → tree → first event.
+
+### Opção B · Digital first-tree card
+
+Uma pequena identidade digital da árvore criada naquele dia.
+
+### Opção C · Beginner companion
+
+Uma experiência simples pós-workshop com:
+
+* “what I created”;
+* photo;
+* species;
+* basics learned;
+* next observation.
+
+### Opção D · Nada de produto
+
+Apenas observar perguntas, confusões, linguagem e comportamento durante o workshop e usar isso como research.
+
+Essa quarta opção precisa continuar sendo legítima.
+
+---
+
+# Há uma coisa especialmente valiosa no perfil beginner
+
+O fato de eles terem pouco ou nenhum conhecimento **reduz a utilidade deles para algumas hipóteses, mas aumenta muito para outras**.
+
+Eles são particularmente bons para testar:
+
+### Information architecture
+
+Eles não conhecem o vocabulário.
+
+Se entenderem, ótimo.
+
+### Mental model
+
+Como alguém pensa sobre a árvore antes de aprender o jargão?
+
+### Anxiety
+
+Quais são as primeiras dúvidas espontâneas?
+
+### First-value proposition
+
+Depois de criar a árvore, o que parece imediatamente útil?
+
+### Logging friction
+
+Registrar algo logo no primeiro dia parece natural ou burocrático?
+
+### Guidance expectations
+
+Eles querem:
+
+* lembrar?
+* saber o que fazer?
+* saber o que não fazer?
+* acompanhar crescimento?
+* conversar com alguém?
+* simplesmente não matar a árvore?
+
+Esses sinais são muito valiosos para o segmento beginner.
+
+---
+
+# Mas há também um viés importante
+
+Eles estarão fazendo bonsai em um **ambiente de workshop**.
+
+Isso significa:
+
+instrutor presente
+atividade guiada
+motivação social
+momento especial
+árvore recém-criada
+novidade
+
+Portanto activation provavelmente será artificialmente alta.
+
+Se 90% criarem um Tree Record durante a aula, isso significa quase nada sobre adoção espontânea.
+
+O sinal interessante começa depois:
+
+**Day 7**
+
+**Day 14**
+
+**Day 30**
+
+e principalmente:
+
+> voltaram porque aquilo lhes trouxe valor ou porque alguém pediu?
+
+Esse detalhe precisa estar no desenho de qualquer experimento.
+
+---
+
+# E há outra coisa que eu mudaria na nossa sequência
+
+Eu tinha colocado:
+
+**Monetization → Brand → Growth → workshop MVP**
+
+Acho melhor formular:
+
+### Strategic Foundation
+
+**Monetization & Economics**
+
+**Brand Identity & Marketing**
+
+**Growth Strategy**
+
+Essas três frentes devem analisar **todo o venture**, usando:
+
+* Project Brief;
+* Market Scan;
+* Research Brief;
+* Zero-participant evidence;
+* Shadow Product Validation;
+* Domain Model;
+* legacy assets;
+* competitive evidence;
+* hypotheses ainda abertas.
+
+O workshop entra apenas como:
+
+> **Known upcoming validation opportunity: beginner-heavy cohort, ~1 month.**
+
+Ou seja, cada frente pode dizer:
+
+> “Há algo que vale testar lá?”
+
+Mas não é obrigada a produzir algo para lá.
+
+---
+
+# A consequência prática é importante
+
+Eu não definiria agora:
+
+> “Workshop MVP = Tree Journey.”
+
+Eu manteria isso como uma hipótese candidata.
+
+Depois das três frentes talvez descubramos que a coisa mais valiosa para testar seja:
+
+**first-tree safety**
+
+e não logging.
+
+Ou:
+
+**tree identity**
+
+Ou:
+
+**post-workshop retention**
+
+Ou:
+
+**beginner language**
+
+Ou nada.
+
+Essa liberdade é importante.
+
+---
+
+# Minha sequência recomendada agora
+
+Eu faria:
+
+### 0. Reconcile current documentation
+
+Pequenos patches que identificamos.
+
+### 1. Monetization & Economics
+
+Pergunta central:
+
+> **Existe um negócio economicamente plausível aqui e onde estaria o valor capturável?**
+
+### 2. Brand Identity & Marketing
+
+Pergunta:
+
+> **Qual território de valor e significado pode nos diferenciar sem prometer expertise que ainda não possuímos?**
+
+### 3. Growth Strategy
+
+Pergunta:
+
+> **Quais acquisition/distribution loops podem levar pessoas ao produto de forma sustentável e quais também geram evidence?**
+
+### 4. Cross-front reconciliation
+
+Agora cruzamos as três.
+
+### 5. Define MVP validation objective
+
+Só então:
+
+> **Qual é a menor coisa que precisamos colocar no mundo para resolver a próxima maior incerteza?**
+
+Pode ser:
+
+landing page
+fake door
+concierge service
+interactive prototype
+tiny web app
+QR flow
+manual Tree Record
+WhatsApp experiment
+ou um produto mínimo funcional.
+
+“MVP” não precisa significar software.
+
+### 6. Product/UIUX
+
+UIUX entra quando sabemos:
+
+**o que estamos tentando provar.**
+
+### Parallel: workshop
+
+Se houver uma experiência útil e apropriada ao cohort beginner:
+
+**usamos.**
+
+Se não houver:
+
+**não forçamos.**
+
+---
+
+## Eu colocaria inclusive uma regra oficial no projeto
+
+> **The workshop is an opportunistic validation channel, not a product deadline, target-market proxy, or dependency of the venture.**
+
+E outra:
+
+> **Evidence collected there applies primarily to zero-to-beginner first-tree users and must not be generalized to experienced growers, practitioners, collectors or the overall market without additional evidence.**
+
+Essas duas frases resolveriam exatamente os dois riscos que você apontou.
+
+### E isso deixa o projeto numa posição melhor
+
+O workshop deixa de ser uma pressão artificial e passa a ser o que realmente é:
+
+**uma chance rara, barata e interessante de observar beginners reais em um momento de alta relevância.**
+
+Excelente oportunidade.
+
+Mas o venture continua sendo guiado pela tese, pelas evidências e pelos gates, não pela data de um evento no calendário.
+
+
+
+Sim. **O próximo passo ainda deve ser a revisão/reconciliação dos documentos**, mas eu ajustaria o escopo daquela revisão depois das duas correções sobre o workshop.
+
+A revisão original estava correta em quase tudo. O que muda agora é que precisamos deixar a documentação preparada para **duas coisas distintas**:
+
+1. o desenvolvimento estratégico normal do venture;
+2. oportunidades de validação que podem aparecer, como o workshop, sem transformá-las em dependência do projeto.
+
+A ordem que eu adotaria agora é esta:
+
+### 1. Reconciliar e congelar o Strategic Foundation Pack
+
+Eu faria primeiro uma revisão relativamente pequena, mas importante, dos documentos atuais. **Não reescreveria tudo.**
+
+| Documento                        | O que faria agora                                          |
+| -------------------------------- | ---------------------------------------------------------- |
+| `PROJECT-BRIEF(1).md`            | Patch estratégico e de sequencing                          |
+| `DOMAIN-MODEL.md`                | Pequenos patches factuais/conceituais                      |
+| `RESEARCH-BRIEF...(1).md`        | Reestruturar em Zero-Participant vs Participant Validation |
+| `APP-MARKET-SCAN.md`             | Corrigir inconsistências e claims fortes demais            |
+| `bonsai-deep-research-report.md` | Manter como reference dossier                              |
+| `parallel-work.txt`              | Arquivar como research log                                 |
+
+A maior parte das correções que identifiquei anteriormente continua válida.
+
+No `APP-MARKET-SCAN`, por exemplo, ainda precisamos reconciliar a inconsistência entre 9, 14 e aparentemente mais produtos, retirar a conversão frágil de ratings para número de usuários e parar de afirmar que “14 tentativas não produziram um business” quando não temos dados de receita ou sustentabilidade. O arquivo suporta um **sinal negativo de traction observável**, não uma conclusão sobre viabilidade econômica. 
+
+No `DOMAIN-MODEL`, manteria praticamente tudo. Outcome vs attributed cause, Intent, State, Claims, Evidence, Attestation, versioning, Lineage e Composition ficaram muito sólidos no stress test.   Apenas corrigiria a afirmação antiga de que incumbentes assumem sempre clima temperado do hemisfério norte, porque o próprio Project Brief atualizado já mostra que vários oferecem algum nível de climate adaptation. 
+
+No `PROJECT-BRIEF`, eu ainda faria os patches que mencionei: trocar `P1 · core — build first` por algo como **Foundational Product Candidate · validate first**, remover a antiga implicação de que outcomes “não precisam de reputação” e consolidar a interpretação mais recente de que outcome evidence pode vir a **complementar** expertise, não necessariamente substituí-la. O documento já reconhece essa mudança posteriormente. 
+
+### 2. Acrescentaria agora duas mudanças que não estavam suficientemente explícitas antes
+
+A primeira seria uma regra formal sobre **validation channels**.
+
+Eu colocaria no Project/Research canon algo equivalente a:
+
+> **Validation opportunities are inputs to the venture, not dependencies of it. No workshop, event, cohort, platform or research source defines the product roadmap by itself.**
+
+Isso não precisa mencionar especificamente seu workshop no princípio canônico. Deve valer para qualquer oportunidade futura.
+
+Depois, numa seção de current opportunities, podemos registrar o workshop como:
+
+> **Upcoming optional validation opportunity: beginner-heavy first-tree cohort. Evidence should be interpreted only for the relevant segment and context.**
+
+Assim o workshop aparece na documentação sem assumir o volante.
+
+A segunda mudança seria separar formalmente:
+
+### `Evidence status`
+
+**OBSERVED**
+comportamento encontrado.
+
+**SUPPORTED SIGNAL**
+há evidência consistente, mas não prevalence suficiente.
+
+**CONTRADICTED**
+evidência encontrada contra a tese.
+
+**UNVALIDATED**
+teste necessário ainda não executável.
+
+**DEFERRED**
+deliberadamente não estamos testando agora.
+
+Isso ajudará muito nas próximas frentes. Hoje vários arquivos misturam “não sabemos”, “não conseguimos testar” e “sinal fraco”. São coisas diferentes.
+
+---
+
+# 3. Eu alteraria também o Research Brief mais do que havia sugerido anteriormente
+
+A divisão em dois tracks ficou agora essencial.
+
+## Track A · Zero-Participant Research
+
+É o programa executável agora.
+
+Inclui:
+
+market scan
+competitor review mining
+public behavioural evidence
+provenance research
+progression analysis
+failure/recovery analysis
+competitive teardowns
+Brazil/tropical public evidence
+shadow/domain validation
+
+Boa parte já foi iniciada.
+
+## Track B · Participant Validation
+
+Fica preservado para quando houver acesso adequado a pessoas.
+
+Inclui:
+
+artifact interviews
+private H1B validation
+H1C incidents
+logging retention
+attestation test
+H7
+willingness-to-pay
+community participation
+
+E uma regra:
+
+> **An unavailable participant test receives `UNVALIDATED`, never `FAIL`.**
+
+Isso é agora ainda mais importante.
+
+O Research Brief atual ainda contém thresholds e ações que dependem diretamente de artifact interviews e participants.  Eles continuam úteis, mas precisam ficar claramente no Track B, não parecer parte da execução atual.
+
+---
+
+# 4. Eu criaria um documento novo, mas apenas um
+
+A documentação já está começando a procriar sozinha, então evitaria aumentar a fauna.
+
+Criaria:
+
+## `CURRENT-EVIDENCE-AND-DECISIONS.md`
+
+Não outro relatório enorme.
+
+Seria um documento curto, talvez 10–15 páginas no máximo, que funcionaria como **reconciliation layer**.
+
+Estrutura:
+
+**Current thesis**
+
+**What has been falsified**
+
+**What is supported**
+
+**What remains unvalidated**
+
+**Competitive reality**
+
+**Current domain model conclusions**
+
+**Current product candidates**
+
+**Current strategic risks**
+
+**Validation tracks**
+
+**Next decisions**
+
+**Workshop and other validation opportunities**
+
+E referências aos documentos especializados.
+
+Isso resolve um problema muito importante: Monetization, Brand e Growth não deveriam precisar ler 3.000 linhas de `parallel-work.txt` para descobrir em que planeta estamos.
+
+---
+
+# 5. Depois da reconciliação, eu NÃO iria imediatamente para Review Mining
+
+Aqui muda minha recomendação anterior.
+
+Review Mining continua sendo importante e deve acontecer.
+
+Mas agora temos três frentes estratégicas que você corretamente quer compreender **antes de definir produto**.
+
+Eu faria essas quatro frentes em paralelo ou quase paralelo:
+
+| Frente                         | Pergunta que deve responder                                                            |
+| ------------------------------ | -------------------------------------------------------------------------------------- |
+| **Competitor Review Mining**   | Por que trackers atuais agradam, frustram ou são abandonados?                          |
+| **Monetization & Economics**   | Existe uma estrutura econômica plausível e onde está o valor capturável?               |
+| **Brand Identity & Marketing** | Qual território pode significar algo distintivo e crível?                              |
+| **Growth Strategy**            | Como esse produto poderia encontrar usuários sem depender de paid acquisition absurda? |
+
+O Review Mining é evidence.
+
+Os outros três são strategic interpretation.
+
+Eles devem conversar.
+
+---
+
+# 6. Monetization & Economics deveria vir antes de “qual produto vamos fazer”
+
+Essa frente agora tem uma pergunta especialmente séria porque o Market Scan trouxe um possível problema:
+
+> talvez exista comportamento de logging, mas não um mercado suficientemente grande disposto a pagar por logging.
+
+O próprio Project Brief atualizado reconhece essa tensão: willingness to pay, addressable segment e unit economics continuam desconhecidos. 
+
+Então Monetization deveria analisar pelo menos três níveis:
+
+### Value creation
+
+Quem recebe valor?
+
+Beginner?
+Hobbyist?
+Teacher?
+Club?
+Nursery?
+
+### Value capture
+
+Quem poderia pagar?
+
+Consumer?
+Practitioner?
+Organization?
+Commerce partner?
+
+### Economic ceiling
+
+Se nosso melhor resultado for 5.000 usuários pagando €3/mês, isso seria sucesso para este venture ou fracasso?
+
+Essa última pergunta é importante porque muda tudo.
+
+Um pequeno profitable product e um venture-scale company exigem mercados muito diferentes.
+
+---
+
+# 7. Brand & Marketing deveria trabalhar sobre o problema, não sobre o nome
+
+Ainda não faria naming, logo ou identidade visual final.
+
+Essa frente precisa responder:
+
+> **What are we really helping a person do, and why should they care emotionally?**
+
+Hoje temos territórios concorrentes:
+
+**Safety**
+
+“Help me not kill this tree.”
+
+**Memory**
+
+“Remember what happened.”
+
+**Progress**
+
+“See what this tree becomes.”
+
+**Story**
+
+“Preserve its journey.”
+
+**Learning**
+
+“Learn from trees like yours.”
+
+**Legacy**
+
+“Let its history travel with it.”
+
+Talvez um deles seja entry proposition e outro seja long-term brand territory.
+
+Precisamos saber.
+
+---
+
+# 8. Growth deveria procurar loops, não canais
+
+Eu evitaria começar com:
+
+Instagram
+SEO
+TikTok
+ads
+
+Isso é channel planning cedo demais.
+
+Growth deveria procurar:
+
+### Acquisition moments
+
+first tree purchase
+gift
+workshop
+nursery visit
+first problem
+first repot
+first technique
+new species
+
+### Natural objects that travel
+
+tree identity
+journey
+progression
+before/after
+transfer
+comparable journey
+
+### Actors with existing distribution
+
+nurseries
+teachers
+clubs
+workshops
+events
+creators
+
+O workshop entra aqui como **um exemplo de channel/opportunity**, não como Growth Strategy.
+
+---
+
+# 9. Depois dessas quatro frentes, faria uma Cross-Front Reconciliation
+
+Esse é o ponto realmente importante.
+
+Teríamos:
+
+**Evidence**
+
+*
+
+**Economics**
+
+*
+
+**Brand**
+
+*
+
+**Growth**
+
+E então fazemos a pergunta que ainda não devemos responder hoje:
+
+> **What product thesis survives all four lenses?**
+
+Pode ser:
+
+### Candidate A
+
+Tree Journey / Memory first.
+
+### Candidate B
+
+Beginner Safety first.
+
+### Candidate C
+
+Comparable Journeys first.
+
+### Candidate D
+
+Living Provenance first.
+
+### Candidate E
+
+Teacher/club infrastructure first.
+
+### Candidate F
+
+alguma combinação específica.
+
+E também pode ser:
+
+> nenhum deles justifica continuar.
+
+Essa opção precisa continuar disponível.
+
+---
+
+# 10. Só depois definimos a MVP Validation Strategy
+
+Não:
+
+> “Qual feature entra no MVP?”
+
+Primeiro:
+
+> **Qual maior incerteza precisamos resolver agora?**
+
+Então escolhemos o instrumento.
+
+Por exemplo:
+
+Se o maior risco for **message/value proposition**:
+
+→ landing page.
+
+Se for **logging retention**:
+
+→ tiny web app / manual journal.
+
+Se for **Comparable Journey value**:
+
+→ curated prototype/manual matching.
+
+Se for **provenance**:
+
+→ mock handoff record.
+
+Se for **teacher economics**:
+
+→ concierge/workbench prototype.
+
+Se for **first-tree safety**:
+
+→ lightweight guided decision experience.
+
+MVP é **um experimento**, não necessariamente uma versão reduzida da arquitetura final.
+
+---
+
+# 11. E Product/UIUX entra só então
+
+Product/UIUX deveria receber algo muito mais útil do que:
+
+> “Faça um app de bonsai.”
+
+Deveria receber:
+
+**Target user**
+
+**Job**
+
+**Value proposition**
+
+**Hypothesis**
+
+**Why this wedge**
+
+**What evidence supports it**
+
+**What evidence contradicts it**
+
+**Economic logic**
+
+**Acquisition logic**
+
+**Brand principles**
+
+**What this MVP must prove**
+
+**What this MVP explicitly must not attempt**
+
+Aí UIUX pode fazer um trabalho sério.
+
+---
+
+# 12. E onde fica o workshop nesse roadmap?
+
+Paralelo.
+
+Algo assim:
+
+```text
+VENTURE CORE
+
+Documentation reconciliation
+        ↓
+Review Mining + Monetization + Brand + Growth
+        ↓
+Cross-front reconciliation
+        ↓
+MVP Validation Strategy
+        ↓
+Product/UIUX
+        ↓
+Experiment / MVP
+
+
+PARALLEL OPPORTUNITY
+
+Workshop
+        ↓
+Beginner-specific observations / experiment
+        ↓
+Evidence
+        ↘
+      feeds Venture Core
+```
+
+O workshop **pode influenciar** o projeto.
+
+Não **determina** o projeto.
+
+Se quando chegar a data tivermos algo apropriado, testamos.
+
+Se não, usamos apenas como observational research.
+
+Se ele desaparecer, o venture continua.
+
+---
+
+# Minha recomendação concreta agora
+
+**Sim, começaria pela revisão documental.**
+
+Mas a revisão seria agora ligeiramente mais abrangente que a que propus antes:
+
+1. aplicar os patches factuais e estratégicos já identificados;
+2. formalizar `Observed / Supported / Contradicted / Unvalidated / Deferred`;
+3. separar `Zero-Participant` e `Participant Validation`;
+4. registrar explicitamente que eventos/workshops são opportunistic validation channels, não roadmap dependencies;
+5. criar um único `CURRENT-EVIDENCE-AND-DECISIONS.md`;
+6. definir claramente a autoridade documental;
+7. arquivar `parallel-work.txt`;
+8. manter o deep research como reference dossier.
+
+**Depois disso, eu abriria quatro workstreams:**
+
+**Competitor Review Mining + Monetization & Economics + Brand Identity & Marketing + Growth Strategy.**
+
+E somente após reconciliar os quatro eu abriria **MVP Strategy → Product/UIUX**.
+
+Essa sequência me parece agora mais robusta do que a anterior porque não deixa nem o entusiasmo pelo modelo de domínio, nem o workshop, nem a existência de um prazo nos empurrar prematuramente para “construir alguma coisa”. Primeiro precisamos descobrir **qual negócio, qual significado e qual mecanismo de crescimento poderiam justificar construir alguma coisa**.
