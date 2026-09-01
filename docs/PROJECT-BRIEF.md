@@ -186,7 +186,7 @@ recommended.
 6. **Contradiction adjudicator** — the beginner's real problem is not missing advice but *conflicting* advice; five confident answers calibrated for five different climates. Adjudication, not information.
 7. **Nursery-stock scout** — photograph a plant in a garden centre, get an assessment of its bonsai potential and a suggested first cut. Purchase-moment, high intent, naturally monetisable.
 
-### Tier 3 — Record *(unclaimed and authority-free)*
+### Tier 3 — Record *(authority-free, but contested — see §4)*
 
 8. **Tree biography / provenance** — a longitudinal record per tree: species, acquisition, work performed, photographs over time. A documented tree is worth more than an undocumented one when sold or inherited — the same logic as service history for a car. Logging is self-interested, which is the retention mechanism.
 9. **Death registry** — a structured, anonymised record of what killed trees: species, climate, months owned, attributed cause. The hobby has enormous survivorship bias; every published account is a success story. This is proprietary data no incumbent holds, it addresses beginners' dominant fear, and it improves as it grows.
