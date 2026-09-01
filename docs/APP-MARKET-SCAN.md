@@ -113,7 +113,8 @@ largest app markets.
 > **Evidence status of this scan:** the rating counts are `OBSERVED`. The
 > inference that the category has low momentum is a `SUPPORTED SIGNAL`.
 > Anything about revenue, retention or viability is `UNVALIDATED` — we have no
-> such data. Android figures are `UNVALIDATED` (contested, see §5).
+> such data. Android install figures are now `OBSERVED` (see §7); Android
+> *usage* remains `UNVALIDATED`.
 
 **The category leader has 136 US ratings after six years.**
 
@@ -163,14 +164,14 @@ This does not prove growers will not log.
 
 ## 5. Limitations — read before acting
 
-- **iOS only, and the Android picture is now actively contested.** Google Play pages truncate under automated fetching, so neither figure below could be verified directly:
+- **iOS only. The Android picture was contested and is now resolved — see §7.** Android adoption for the category leader is materially higher than this iOS sample suggests, so **these numbers understate the category.** The contested figures were:
 
   | Source | Bonsai Empire on Google Play |
   |---|---|
   | `parallel-work.txt` | **10,000+ downloads, ~270 reviews** |
   | Independent search (this session) | **2K+ downloads** (APKPure: 1K+), rated 4.4 |
 
-  A fivefold discrepancy on the most consequential number in the competitive picture — the difference between *small but real* and *very small*. **Treat as unresolved.** Ten minutes on an Android phone would settle it. This matters most for Brazil, which is roughly 80% Android, so the Brazilian figure of 15 remains a substantial undercount and must not be read as an empty market.
+  **Resolved 2 Sep 2026 — see §7.** The 2K+ figure is superseded. This still matters most for Brazil, which is roughly 80% Android, so the Brazilian iOS figure of 15 remains a severe undercount and must not be read as an empty market.
 - **Ratings are not users.** They are a proxy for relative scale, not an absolute measure.
 - **Four storefronts.** Not global coverage.
 - **Web-first products excluded.** Bonsai Tracker and Yoi Bonsai are primarily web products with companion apps; their usage is not captured here.
@@ -188,9 +189,60 @@ This changes sequencing rather than conclusions. It was obtained in under an
 hour and bears directly on H1, the hypothesis that a 12–14 week, R$45k–90k
 programme was designed to test.
 
-**Recommended order:** resolve the contested Android numbers → mine reviews of these 18 known products
+**Recommended order:** ~~resolve the contested Android numbers~~ ✅ done (§7) → mine reviews of these 18 known products
 for friction and abandonment → ~18 artifact interviews → *then* decide whether
 the full observational programme is warranted.
 
 Spending R$45k to establish that people will log, when 18 known shipped
 products show low observable traction, is the wrong order.
+
+---
+
+## 7. Amendment · 2 September 2026 · Android signal resolved
+
+The Android discrepancy recorded in §5 is closed. Bonsai Empire's
+`app.bonsaicare` is confirmed on Google Play at the **10K+ install bracket**,
+and independent Android trackers estimate cumulative downloads in the **low
+forties of thousands**.
+
+| Metric | Value | Status |
+|---|---|---|
+| Google Play install bracket | **10K+** | `OBSERVED` — confirmed |
+| Cumulative downloads | **~42–44K** | `SUPPORTED SIGNAL` — third-party estimate; AppBrain and Chrome-Stats differ |
+| Google Play reviews | **~192–270** | **Inconsistent across sources and dates** — an order of magnitude, not a figure |
+| Previous "2K+" | — | **REJECTED / superseded** |
+| Active users, retention, paid conversion, revenue | — | `UNVALIDATED` |
+
+> **The sub-figures did not reconcile.** An independent check found 192 reviews
+> and ~42K estimated downloads where the reporting source gave ~268 and ~44K.
+> The **magnitude** is corroborated; the precise numbers are not. Record the
+> bracket, not the decimals.
+
+### What this changes
+
+The iOS-only reading understated the category. Bonsai Empire shows **64 US iOS
+ratings** against **10K+ Android installs and hundreds of Android reviews** — so
+"low observable traction" was partly an artefact of sampling one platform.
+
+The correct formulation, superseding the wording in §4:
+
+> **iOS observable traction is low, while Android evidence for the category
+> leader is materially stronger: Google Play confirms 10K+ installs and
+> independent trackers estimate roughly 42–44K cumulative downloads. Market
+> adoption is therefore larger than the iOS-only scan suggested, while active
+> usage, retention, paid conversion and economic viability remain
+> `UNVALIDATED`.**
+
+**Do not make the downloads → users → customers leap.** Cumulative downloads are
+not active users and are certainly not paying ones.
+
+### Consequence
+
+The question for Monetization improves. It is no longer *"is this market too
+small?"* but:
+
+> **Bonsai Empire converted substantial distribution into tens of thousands of
+> downloads. How many became recurring users, how many paid, and why?**
+
+That is the gap between acquisition and retained economic value — a better
+question than this scan was previously pointing at.

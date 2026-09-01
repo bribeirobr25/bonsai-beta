@@ -91,15 +91,23 @@ advisor* formulation.
 **18 known distinct products**, 17 believed active. Master list and derivation
 in `APP-MARKET-SCAN.md` §0 — take the number from there, not from prose.
 
-**Observable traction is low.** Across four major storefronts the category holds
-roughly 330 iOS ratings; the six-year-old leader has 136; Bonsai Empire — the
-largest audience in bonsai — has 64.
+**iOS observable traction is low; Android is materially stronger.** Across four
+storefronts the category holds roughly 330 iOS ratings and the six-year-old
+iOS leader has 136 — but Bonsai Empire, with only 64 US iOS ratings, is
+confirmed at **10K+ Google Play installs**.
 
-> **Read this precisely.** It is a negative signal about **observable
-> traction**, `OBSERVED`. It is **not** evidence about revenue, sustainability
-> or economic viability, for which we have no data at all. Android figures are
-> **contested** — one source reports Bonsai Empire at 10,000+ downloads, an
-> independent check found 2K+. Unresolved.
+> **Amended 2 Sep 2026 — the Android gap is closed, and it changes the
+> reading.** Google Play confirms the category leader at the **10K+ install
+> bracket**, with third-party trackers estimating **~42–44K cumulative
+> downloads**. The earlier 2K+ observation is superseded.
+>
+> So the low iOS figure was partly a **platform-sampling artefact**: 64 US iOS
+> ratings against 10K+ Android installs. **Adoption is larger than the
+> iOS-only scan suggested.**
+>
+> What remains `UNVALIDATED`: active usage, retention, paid conversion,
+> revenue and category economics. Downloads are not users and are not
+> customers. See `APP-MARKET-SCAN.md` §7.
 
 **Still unoccupied**, as far as the scan reached:
 
@@ -191,7 +199,7 @@ gave them value* rather than because they were asked.
 ## 11. Next decisions
 
 1. **Competitor review mining** — why current trackers please, frustrate or get abandoned. Track A, no approval needed.
-2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Including the ceiling question: would 5,000 users at €3/month be success or failure here?
+2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Two sharpened questions now that Android is resolved: **the category leader converted substantial distribution into tens of thousands of downloads — how many became recurring or paying users, and why?** And the ceiling question: would 5,000 users at €3/month be success or failure here?
 3. **Brand** — which territory is credible without promising expertise we lack? Safety / memory / progress / story / learning / legacy.
 4. **Growth** — which loops, not which channels.
 5. **Cross-front reconciliation** — what product thesis survives all four lenses? *Including the option that none does.*

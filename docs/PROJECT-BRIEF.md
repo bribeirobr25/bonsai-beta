@@ -170,10 +170,12 @@ and was built by someone with 20+ years in bonsai *and* an engineering
 background; Bonsaiku ships a season-by-climate calendar; Wabi Sabi assigns a QR
 code per pot.
 
-**Observable traction is low.** Across four major storefronts the category holds
-roughly 330 iOS ratings, and the six-year-old leader has 136. That is a signal
-about *visible* traction only — Android is contested and web-first products are
-unmeasured, so it is **not** a conclusion about adoption, revenue or viability.
+**iOS traction is low; Android is materially stronger.** Across four storefronts
+the category holds roughly 330 iOS ratings. But Bonsai Empire — 64 US iOS
+ratings — is confirmed at **10K+ Google Play installs** with an estimated
+~42–44K cumulative downloads, so the iOS reading understated the category.
+Web-first products remain unmeasured. None of this establishes retention,
+conversion, revenue or viability, all still `UNVALIDATED`.
 Full data, the master competitor list and the limitations are in
 `APP-MARKET-SCAN.md`.
 
@@ -603,7 +605,7 @@ those, and choosing them first is how you build the wrong thing efficiently.
 
 ### Now — executable without participant access
 
-0. **App market scan** — ✅ done. See `APP-MARKET-SCAN.md` §0 for the master list (18 known products) and the contested Android figures.
+0. **App market scan** — ✅ done, and the **Android gap is now closed** (`APP-MARKET-SCAN.md` §7): the category leader is confirmed at 10K+ Google Play installs, so adoption is larger than the iOS-only scan suggested. Master list of 18 known products in §0.
 1. **Competitor review mining** — why current trackers please, frustrate, or get abandoned.
 2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Including the ceiling question: would 5,000 users at €3/month be success or failure here?
 3. **Brand identity & marketing** — which territory is credible without promising expertise we lack?
