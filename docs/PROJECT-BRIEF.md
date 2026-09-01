@@ -341,7 +341,7 @@ substitutes for reputation. These are arguments, not findings.
 is unclaimed (nine tracking apps ship, three transfer tree history); that
 climate calibration is unattended (three competitors claim it); and that a
 Portuguese-language position is empty (a Brazilian app exists). See
- and §4.
+`APP-MARKET-SCAN.md` and §4.
 
 **A new and uncomfortable finding:** nine products compete for roughly 330 App
 Store ratings across four major markets. The load-bearing assumption below may
