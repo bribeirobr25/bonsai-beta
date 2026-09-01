@@ -378,6 +378,77 @@ is designed to avoid.
 
 ---
 
+### 7.7 Relationships carry roles, and roles change
+
+A person↔subject relationship is not "owner." It is a **role with a start, an
+end, and its own evidence** — and one person may hold several over time.
+
+`steward` · `collector` · `propagator` · `grower` · `stylist` · `teacher` ·
+`student` · `practitioner` · `donor` · `nursery` · `institution` · `photographer`
+
+This matters because the tree outlives its people. Someone can acquire a tree,
+work on it, exhibit it, sell it and leave the record entirely while the subject
+persists — which is precisely what separates this from a personal tracker.
+
+**Institutional precedent exists.** The Pacific Bonsai Museum records trees
+approximately this way: a *Ficus microcarpa* with accession number 304, in
+training since 1965, donated by Amy Liang, with provenance describing its
+development and donation — and elsewhere, "original artist unknown" recorded
+honestly rather than omitted. The hypothesis here is to **democratise a light
+version of that**, which today exists only for exceptional trees.
+
+### 7.8 Lineage: a subject can outlive its parent
+
+Air layering, cuttings, grafting, seed and root division mean one subject
+produces others. A documented case: an Amur Maple died, but the air layer taken
+from it is still alive.
+
+```text
+SUBJECT A  (deceased)
+   └── air layer, 2029
+         ↓
+      SUBJECT B  (alive)
+```
+
+Records therefore cannot be independent of one another. Propagation lineage is
+structural, not metadata — and it is what allows a dead tree's line to continue
+in the record.
+
+### 7.9 History is versioned, never silently rewritten
+
+Suppose a species was recorded as *Pinus thunbergii* and a practitioner later
+identifies *Pinus densiflora*. **Do not overwrite.**
+
+```text
+2027 · species recorded as Pinus thunbergii      (owner-recorded)
+2030 · identification revised to P. densiflora   (practitioner_attested)
+```
+
+Both entries stand. That is what history *is* — knowledge changes, and a record
+that hides its own revisions cannot be trusted about anything else.
+
+### 7.10 Death does not close the record
+
+Status moves `alive → deceased`; the Journey persists and stays discoverable.
+This matches how bonsai institutions already behave — Japan's Kicho Bonsai
+registry has documented over a thousand trees since 1980 and preserves the
+history of specimens that later died or disappeared.
+
+It also matters for the dataset: **a dead tree can be more informative than
+fifty flawless progressions.**
+
+### 7.11 Blockchain is not required
+
+Everything above needs identity, an audit trail, evidence, permissions,
+attestations and history. All are ordinary engineering.
+
+The hard problem is not *preventing someone from altering a byte*. It is
+**deciding whom to believe and why** — which is governance, not cryptography.
+Note that a competitor, MyBonsaiTag, already attached identity, ownership
+transfer and history to NFT/blockchain, which did not resolve the trust
+question for them either.
+
+
 ## 8. Provenance — read before using any of this
 
 **The 1,637 entries are AI-generated and have never been reviewed by a

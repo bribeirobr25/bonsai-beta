@@ -14,7 +14,13 @@ not expected to have any prior context.**
 > **(0)** An app-market scan is already done — see `APP-MARKET-SCAN.md`.
 > **(1)** Mine the reviews of the fourteen competing apps for friction and
 > abandonment: days of work, no platform approval required. Only then
-> commission what follows. Also note that this brief cost far less than the
+> commission what follows.
+> **(2)** Consider a **shadow test** before any recruitment: take 20–30 real
+> public progression threads and try to represent them in the domain model.
+> It answers *"does our model fit real bonsai lives or are we imposing
+> structure?"* for zero participants and zero budget. It yields no prevalence
+> data — that limit must be stated — but it has already surfaced four missing
+> concepts (State, Intent, Lineage, Composition). Also note that this brief cost far less than the
 > multi-cohort programme in `bonsai-deep-research-report.md`; run the cheap
 > evidence first and let it decide whether that scale is warranted.
 
@@ -94,7 +100,13 @@ five years of dated photos and never post once; the reverse also happens.
 > load-bearing one for the advisor**, and the original brief conflated it into
 > H2A.
 
-**H3 — Advice inconsistency.** Also split.
+**H3 — Advice inconsistency.** Also split. *A confirming case already exists:*
+on Bonsai Nut a beginner asked whether to repot two pines immediately or wait;
+some answered **wait**, an experienced grower answered **you can repot now** —
+same tree, same question, same moment. In another thread the first response to
+a repotting question was to fill in the poster's location, because the answer
+depends on it. **`missing context → conflicting advice` is plausible; its
+frequency is unknown**, which is what H3 measures.
 
 > **H3A · Diagnostic contradiction.** "Fungus" versus "overwatering."
 >

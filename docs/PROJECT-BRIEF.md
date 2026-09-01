@@ -139,6 +139,7 @@ people act on it.
 - **Contraindications by species.** No incumbent systematically publishes what *not* to do to a given species. Every guide is written affirmatively. For a beginner whose failure mode is confidently doing something irreversible, the prohibition is the more valuable half.
 - **Maturity-gating.** "At what tree age does this technique become appropriate" is barely addressed anywhere.
 - **Climate calibration.** *Weakened — see §11.* The original claim was that every incumbent assumes northern-hemisphere temperate conditions. Bonsai Tracker, Bonsai Empire and Bonsaiku all now claim climate or hemisphere adaptation, so what remains testable is *residual* mismatch, not absence.
+- **Verifiable provenance.** Permanent tree IDs and transferable history are **not** open — Bonsai Tracker, Yoi, Appy Bonsai, MyBonsaiTag (via NFT) and ScandinavianBonsai (via RFID) all do some version. What no one structures is `claim → evidence → attestation → confidence`: *acquired · owner-recorded*, *repotted · photo evidence*, *styling · practitioner-confirmed*, *exhibited · institution-verified*, *transferred · both parties confirmed*.
 - **Aggregate outcome data.** Of the fourteen tracking apps, **none aggregates outcomes across users into guidance.** Each records your trees for you. This is the one position still genuinely unoccupied — and notably the one that needs scale rather than credibility. Note the hard part is not collection but **inference**: community death reports routinely disagree on cause, so the model must separate observed outcome from owner-attributed cause (see `DOMAIN-MODEL.md` §7.1) or it will produce confident, wrong guidance.
 
 ---
@@ -208,6 +209,20 @@ recommended.
 10. **Teacher's workbench** — tooling for instructors: assign a tree, track students across seasons, review photographs, correct mistakes before they become irreversible. A multi-season relationship that no forum and no course marketplace serves. Monetise the teacher, not the learner. Community forms around the tool, which is how cold-start problems are usually solved.
 11. **Master-led communities** — platform for practitioners to run and monetise their own communities. Demand is proven; the obstacle is that the audience already has homes, and community platforms are winner-take-all.
 
+**Three findings sharpen the community ideas considerably:**
+
+*The belonging problem is documented, not imagined.* A beginner on the Mirai forum says he hesitated to post his trees because he judged his own technique poor and feared others' assessment. Another grower reports delaying joining Bonsai Nut because members seemed intimidating. And Bonsai Empire's own forum etiquette guidance acknowledges that certain starter plants are looked down on and that members may say so explicitly. **For some beginners, public exposure and quality judgement are themselves the friction.**
+
+*Community is an operation, not a feature.* Bonsme shipped exactly progress photos + community + follow + likes/comments — and shut down because the founders lacked capacity to keep maintaining it. Moderation, cold start, content, retention, safety and network density are all recurring costs. A dead competitor is the most informative kind.
+
+*Discovery should run on context, not popularity.* The workable axes are `species × climate × stage × intervention × journey` — `Ficus · tropical · first tree`, `Juniper · recovery after repot`, `Jabuticaba · Brazil Southeast · pre-flowering`. Four relation types follow: **Follow Journey**, **Similar Journey**, **Ask Around Event**, and **Tree Circle** (a recurring contextual group). None of the fourteen competitors implements this convincingly.
+
+**Two design principles fall out of the evidence.**
+
+> **Contribution ≠ invitation for critique.** A grower updated a progression thread solely to record that his tree had died, and received an avalanche of postmortem advice he had not asked for. Death events need explicit social modes: *record only* · *help wanted* · *discuss outcome*. Not every event invites counsel.
+
+> **Story, not price, is the social currency.** A €20 tree with ten years of documentation — mistakes, recoveries, people helped, an owner change — produces a richer profile than a €20,000 tree bought finished. That property structurally blocks *wealth → status*, which is the failure mode a bonsai social product most obviously risks.
+
 ### Parked
 
 12. **Pre-bonsai material marketplace** — trading raw material between hobbyists. Facebook groups own this, and shipping live plants needs high trust.
@@ -250,12 +265,71 @@ than waiting on it. It is also a different mechanic from both a feed and an
 advisor, and nothing in the market does it.
 
 **P2 · The acquisition companion** *(funnel — feeds the core)*
-Ideas 7 + 6 + 3. Meets people at the moment of purchase and delivers them into
-the core product with a first tree already identified.
+Ideas 7 + 6 + 3. Meets people at the moment of purchase — and rather than
+ending with *"here is your care guide,"* it ends with **"start this tree's
+journey"**: acquired date, nursery, first photographs, species *probable*,
+purchase context *nursery stock*. That is the digital birth of a Tree Identity,
+which makes P2 a far more natural funnel into P1 than a content guide would be.
 
 **P3 · The teaching layer** *(ceiling — needs the core first)*
 Ideas 10 + 11. Best economics of the three, and it borrows authority rather
 than claiming it. Requires P1's substrate to exist.
+
+**P3 is more strategically interesting than it first appeared.** A teacher or
+practitioner is not only someone instructing — they are a legitimate source of
+**attestations**, structured intervention records, and expert context. That
+*connects authority to the system without the product pretending to hold it*,
+which is the cleanest answer yet to the constraint in §5.
+
+---
+
+
+### The central object is not the user
+
+In almost every social product the spine is `User → Content`. Here it should be:
+
+> **Tree → Journey → Events → People**
+
+A person may acquire a tree, care for it, style it professionally, exhibit it,
+sell it, gift it, or die — and leave the record completely. **The tree
+persists.** That single inversion is what structurally separates this from the
+fourteen personal trackers already shipping.
+
+### Six layers, staged by how much authority each needs
+
+| Layer | Function | Status |
+|---|---|---|
+| **L1 · Tree Identity** | persistent identity independent of current owner | **CORE** |
+| **L2 · Tree Journey** | structured longitudinal history | **CORE** |
+| **L3 · Living Provenance** | origin, stewardship, evidence, attestations | CORE *hypothesis* |
+| **L4 · Tree-Led Relationships** | connection by context and journey | CORE *hypothesis* |
+| **L5 · Outcome Evidence** | structured aggregation of results | FUTURE |
+| **L6 · Decision Intelligence** | decision support | FUTURE — **blocked on H7** |
+
+The staging prevents inventing a superapp before the first behaviour is proven.
+L1 and L2 deliver value with no authority whatsoever.
+
+### The advice ladder — how the credibility problem actually resolves
+
+This is the most useful reframing to come out of the research. "Advisor" is not
+one thing; it is six levels, and **the authority required rises sharply with
+each**:
+
+| Level | Output | Authority needed |
+|---|---|---|
+| **0** | Record only | none |
+| **1** | *"You repotted this tree in March 2028."* | none |
+| **2** | *"34 similar records exist."* | none |
+| **3** | *"Trees in comparable conditions showed outcomes X / Y / Z."* | low — descriptive |
+| **4** | *"Evidence suggests waiting."* | **high** |
+| **5** | *"Do X."* | **very high** |
+
+**Levels 0–3 are shippable without solving the reputation problem at all** —
+they retrieve and describe rather than advise. Levels 4–5 must not ship without
+H7 passing. That converts §12's open question from a blocker into a gate on one
+specific feature tier, which is a far healthier position than the original
+brief's all-or-nothing framing.
+
 
 ---
 
