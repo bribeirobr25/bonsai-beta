@@ -68,6 +68,22 @@ Eleven of the sixteen appear on essentially every species (~112), which means
 a canonical set was intended all along — it was simply never enforced by the
 schema. Treat this list as the intended vocabulary made explicit.
 
+**Confidence in this mapping.** Coverage is 100% only in the sense that every
+entry matched a rule. **26 entries (1.6%) match two canonical patterns** and were
+assigned by rule precedence rather than by judgement:
+
+| Pattern collision | Entries | Assigned | Assessment |
+|---|---|---|---|
+| Nebari + root pruning | 16 | `NEBARI` | Defensible — nebari is the goal, root pruning the method |
+| Repotting + root pruning | 7 | `REPOTTING` | Debatable — arguably two techniques in one entry |
+| Grafting + jin | 1 | `JIN` | **Wrong** — this is a grafting technique |
+| Air layering + nebari / humidity | 2 | `AIR_LAYERING` | Defensible |
+
+The mapping is a strong starting point, not a finished migration. These 26 need
+human assignment. The collisions are themselves informative: the source data
+sometimes encodes *two* techniques in one entry, which the new schema should
+not permit.
+
 **Known defects to resolve during migration:**
 
 - 5 species contain two entries mapping to the same canonical technique
