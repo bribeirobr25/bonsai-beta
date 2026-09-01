@@ -212,8 +212,9 @@ for a southern-hemisphere grower and largely meaningless in the tropics.
 > climate-aware tasks, Bonsai Empire uses local climate and hardiness zones,
 > and Bonsaiku and Nebari ship season × climate calendars. The design guidance
 > below still holds — model the trigger, not the month — but it is no longer a
-> competitive gap. Model the *phenological* trigger
-and resolve it to a date per user:
+> competitive gap.
+
+Model the *phenological* trigger and resolve it to a date per user:
 
 ```
 timing: {
