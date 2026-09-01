@@ -6,7 +6,7 @@ an AI agent — a complete and honest picture of what is being considered and wh
 with no prior context required.
 
 This describes a **new venture**, not a revision of any existing product. A
-previous codebase exists and contributes some raw inputs (§10), but it does not
+previous codebase exists and contributes some raw inputs (§15), but it does not
 shape the problem statement, the strategy, or any idea below. Read this document
 on its own terms.
 
@@ -18,14 +18,21 @@ A software product for people who grow bonsai trees.
 
 The category is real and growing — bonsai has been pulled into the
 houseplant-and-mindfulness wave among urban millennials and Gen Z, sold through
-e-commerce and amplified on social platforms. It has an active online population:
-r/Bonsai alone has roughly 362,000 members, alongside a large dedicated forum
-(Bonsai Nut) and a substantial paid-education market.
+e-commerce and amplified on social platforms. It has an active online
+population: r/Bonsai alone has roughly 362,000 members, alongside a large
+dedicated forum (Bonsai Nut) and a substantial paid-education market.
 
 We are **not** considering a care encyclopedia, a species reference, or a
-content site. Those are settled (§3). We are considering products that help a
+content site. Those are settled (§4). We are considering products that help a
 grower make a **decision** about a specific tree, or that maintain a **record**
 of one over time.
+
+**Why this might be the moment.** Two things changed recently. The audience
+grew and skewed younger and more urban, which is the demographic most willing
+to adopt software for a hobby. And machine vision plus language models made it
+newly cheap to deliver species-and-context-specific guidance at scale — the
+thing the category has always lacked. Neither is a strong "why now" on its own;
+together they are a reasonable one.
 
 Nothing has been decided. The purpose of the current phase is to test the
 behavioural assumptions underneath the candidates before building anything.
@@ -58,7 +65,32 @@ that people will tolerate a bad product.
 
 ---
 
-## 3. Market reality
+## 3. Who this is for — and who it is not
+
+**Primary: the first- or second-tree owner.** Has just acquired a tree or is
+about to. Needs species-specific answers now, and is afraid of killing it.
+Motivated, uninformed, and the largest population in the hobby.
+
+**Secondary: the expanding hobbyist.** Two to twenty trees. Choosing what to
+add, comparing species before buying, and beginning to accumulate a collection
+worth keeping track of.
+
+**Tertiary: the inheritor.** Given a tree, or has kept one alive by guesswork
+and wants to know what they actually have.
+
+**Explicitly not for: professionals and competition growers.** The depth is not
+there, there is no community or marketplace, and no progression tracking at the
+standard they work to. Designing for them would compromise the primary audience
+and still lose to Bonsai Mirai. If a product decision would serve experts at
+beginners' expense, take the beginner.
+
+**Also not for: people who want a houseplant.** Bonsai demands seasonal
+attention. Someone looking for a low-maintenance green object is better served
+elsewhere, and acquiring them produces churn.
+
+---
+
+## 4. Market reality
 
 Verified against live sources, August 2026.
 
@@ -84,7 +116,7 @@ people act on it.
 
 ---
 
-## 4. The constraint that shapes everything
+## 5. The constraint that shapes everything
 
 **The moat in this category is reputation, and it cannot be manufactured.**
 
@@ -101,7 +133,7 @@ product supplies the system.
 
 ---
 
-## 5. The organising insight
+## 6. The organising insight
 
 Sorted by whether an idea requires the operator to hold authority, the
 candidates fall into four tiers:
@@ -121,7 +153,7 @@ to make.
 
 ---
 
-## 6. The idea portfolio
+## 7. The idea portfolio
 
 Fourteen candidates. Tier 1 is recorded for completeness and explicitly not
 recommended.
@@ -157,62 +189,161 @@ recommended.
 
 ---
 
-## 7. Three products, not fourteen
+## 8. Three products, not fourteen
 
 Most of the surviving ideas are components of one system, and the connections
 are what make them work. Tier 2 cannot stand alone because it needs authority;
 Tier 3 cannot advise anyone. Together, each solves the other's problem.
 
-**A · The system of record** *(core — build first)*
+> **Naming note.** These are *products*, labelled P1–P3. The companion research
+> brief labels *hypotheses* "Idea A" and "Idea B" — those are not the same
+> scheme. Research Idea A maps to P1; research Idea B maps to the advisor
+> component inside P1, not to P2.
+
+**P1 · The system of record** *(core — build first)*
 Ideas 8 + 9 + 4 + 5. Users log their trees. Outcomes, including deaths,
 accumulate into data nobody else holds, which powers advice calibrated to
 species, age, month and hemisphere. **The flywheel:** users log → outcomes
 accrue → advice improves → logging becomes more valuable.
 
-**B · The acquisition companion** *(funnel — feeds the core)*
+**P2 · The acquisition companion** *(funnel — feeds the core)*
 Ideas 7 + 6 + 3. Meets people at the moment of purchase and delivers them into
 the core product with a first tree already identified.
 
-**C · The teaching layer** *(ceiling — needs the core first)*
+**P3 · The teaching layer** *(ceiling — needs the core first)*
 Ideas 10 + 11. Best economics of the three, and it borrows authority rather
-than claiming it. Requires A's substrate to exist.
+than claiming it. Requires P1's substrate to exist.
 
 ---
 
-## 8. What we believe versus what we know
+## 9. Business model
 
-**Verified:** the competitive landscape in §3, checked against live sources in
+**None of this is validated.** Willingness to pay is untested, and the hobby
+spends on physical goods — trees, pots, tools — while expecting information to
+be free. That is the central commercial risk.
+
+What the category does establish is **price anchoring**: Bonsai Empire's app is
+about $2.99/month with a five-tree free tier, and Bonsai Mirai runs €9.99–29.99
+depending on tier. So a consumer subscription in the $3–10 range is a proven
+shape here, if the value clears the bar.
+
+| Product | Plausible model | Precedent | Risk |
+|---|---|---|---|
+| **P1** Record | Freemium — free for a few trees, paid for unlimited trees, full photo history, export | Bonsai Empire's 5-tree free tier at $2.99/mo | Competing directly with an incumbent's existing paid feature |
+| **P2** Companion | Affiliate on trees, tools and pots; or lead generation to nurseries | Standard for hobby commerce | Thin margins, and incumbents also sell the goods |
+| **P3** Teaching | Per-seat SaaS to the teacher, or revenue share on cohorts | Hotmart bonsai courses sell in Brazil; Mirai monetises instruction | Small number of teachers; long sales cycle |
+
+**The honest read:** P3 has the best unit economics and the hardest start; P1
+has the clearest path to volume and competes head-on with a cheaper incumbent
+feature; P2 monetises best at the moment of purchase but retains nobody on its
+own. This ordering is an argument, not a finding.
+
+---
+
+## 10. Defensibility and competitive response
+
+**This is the biggest unresolved strategic risk, and it deserves to be stated
+plainly rather than buried.**
+
+Every feature in §7 is copyable. Structured schemas, timing fields, maturity
+gates and contraindication flags can be replicated in weeks by anyone who
+already holds the content and the audience.
+
+**The specific threat:** Bonsai Empire already ships an app that tracks trees
+and sends species-and-climate-aware reminders. Adding outcome aggregation — the
+core of P1 — is a modest increment for them, and they would start with more
+users, an established brand, and the editorial authority that makes people
+trust the output. If P1 works, they can follow.
+
+**The only durable defence is the data, not the feature.** Outcome records
+compound: whoever accumulates a large corpus of what-actually-happened first
+holds an asset that cannot be copied, only out-collected. That argues for
+moving fast on collection and treating the logging experience — not the advice
+— as the product.
+
+**But be clear-eyed:** that is a race started from behind, against an incumbent
+with distribution. Two things could change the odds — being materially better
+at the logging experience than an incumbent that treats tracking as a
+side-feature, and winning a segment the incumbent serves badly (§11). Neither
+is proven. **If the research in §14 succeeds and this question remains
+unanswered, it becomes the next thing to resolve.**
+
+---
+
+## 11. Market entry — geography and language
+
+The strongest available wedge is **not a species or a feature. It is a climate
+and a language.**
+
+Every incumbent calendar and care guide assumes northern-hemisphere temperate
+conditions. A grower in Brazil, Australia, South Africa or Southeast Asia
+receives repotting timing that is wrong by roughly six months and dormancy
+advice for a winter they do not have. This is a structural weakness in the
+incumbents' content, not an oversight they can cheaply patch — their entire
+corpus is calibrated that way.
+
+Portuguese-language demand is demonstrated rather than assumed: bonsai courses
+sell on Hotmart with hundreds of reviews, and ABC do Bonsai runs a paid course
+with a community attached. The market exists and already pays.
+
+**What this implies:** entering as a southern-hemisphere-and-tropical,
+Portuguese-first product is more defensible than entering as a global
+English-language competitor. It attacks where incumbents are structurally
+weak, serves an audience they serve badly, and is a segment large enough to
+matter but small enough to be uninteresting to them early on.
+
+**Caveat:** this is a hypothesis, not a finding. It should be tested as part of
+the research in §14 (question 13–14 of the research brief), not assumed.
+
+---
+
+## 12. What we believe versus what we know
+
+**Verified:** the competitive landscape in §4, checked against live sources in
 August 2026.
 
-**Reasoned but untested:** the tier taxonomy (§5), the composite structure (§7),
-and the claim that outcome data substitutes for reputation. These are arguments,
-not findings.
+**Reasoned but untested:** the tier taxonomy (§6), the composite structure (§8),
+the business models (§9), the entry wedge (§11), and the claim that outcome data
+substitutes for reputation. These are arguments, not findings.
 
 **Assumed and load-bearing — the whole thesis rests here:**
 
-- **That growers will maintain a record over years.** If false, product A collapses and B and C lose their substrate.
+- **That growers will maintain a record over years.** If false, P1 collapses and P2 and P3 lose their substrate.
 - **That diagnostic anxiety is high-volume.**
 - **That existing free advice is inconsistent enough for adjudication to be worth paying for.**
-- **That machine vision can assess bark and trunk well enough for idea 7.** Known risk: general-purpose plant identification drops to roughly 52% accuracy on bark, and bark is precisely what matters.
+- **That machine vision can assess bonsai material from a photograph** — trunk taper, movement, root flare, branch placement. Note this is a *different and harder task* than plant identification, and it has no published benchmark. As a weak proxy for the difficulty: general-purpose plant ID tools drop to roughly 52% species accuracy on bark images versus 84% on leaves. That does not measure material assessment, and should not be cited as if it did — the honest position is that this capability is **unmeasured**, which is a larger unknown than a low score would be.
 
 **Not known at all:** willingness to pay; the size of the addressable segment;
-whether practitioners will collaborate; unit economics. Note that hobby spending
-in this category concentrates on physical goods — trees, pots, tools — and
-information is broadly expected to be free.
+whether practitioners will collaborate; unit economics; and how an incumbent
+would respond (§10).
 
 ---
 
-## 9. Current phase and next steps
+## 13. Open questions only the founder can answer
+
+This brief cannot be completed without these, and they materially change which
+ideas are viable.
+
+1. **What does success look like?** A sustainable side income, a full-time business, an acquisition, or a well-made thing that a few thousand people use? P3 is a business; P1 could be either; the answer changes the sequencing.
+2. **Solo or a team?** Idea 11 — a community platform — is not a solo undertaking. Several others are.
+3. **How much time per week, and for how long before it must show something?**
+4. **Is there capital, or must it be self-funding from early on?** A freemium record product needs runway before revenue; the acquisition companion could earn sooner.
+5. **Is there access to a credible practitioner?** Content verification is a hard dependency for anything in Tier 2, and a practitioner partner would also supply the authority the operator lacks (§5).
+6. **Which markets and languages are in scope?** See §11.
+
+---
+
+## 14. Current phase and next steps
 
 The phase is **validation, not construction.** No architecture, stack, backend,
 database, or analytics decision should be made yet: product shape determines
 those, and choosing them first is how you build the wrong thing efficiently.
 
-1. **Behavioural research** — does the record-keeping behaviour already exist unaided, and how large is diagnostic demand? Fully specified in `RESEARCH-BRIEF-behavioural-validation.md`, with pass/fail thresholds fixed in advance. *Decisive for product A.*
-2. **Bark and trunk vision test** — 50 garden-centre photographs scored by hand against a practitioner's judgement. *Decisive for idea 7.* A weekend.
-3. **Teacher interviews** — five conversations. If WhatsApp and a spreadsheet are genuinely adequate, there is no product C.
+1. **Behavioural research** — does the record-keeping behaviour already exist unaided, and how large is diagnostic demand? Fully specified in `RESEARCH-BRIEF-behavioural-validation.md`, with pass/fail thresholds fixed in advance. *Decisive for P1.*
+2. **Material-assessment vision test** — 50 garden-centre photographs scored by hand against a practitioner's judgement. *Decisive for idea 7.* A weekend.
+3. **Teacher interviews** — five conversations. If WhatsApp and a spreadsheet are genuinely adequate, there is no P3.
 4. **Logging pilot** — only if step 1 passes. Twenty growers, a shared spreadsheet, 4–6 weeks. The long pole; everything else takes days.
-5. **Then** choose a direction, and only then choose technology.
+5. **Then** choose a direction, resolve the competitive-response question in §10, and only then choose technology.
 
 **Guard:** set a date on step 4. If the evidence has not resolved by then, the
 answer is no. A negative result reached quickly is the most valuable outcome
@@ -220,7 +351,7 @@ available, and abandoning the venture is a legitimate ending.
 
 ---
 
-## 10. Available inputs
+## 15. Available inputs
 
 One prior asset exists and is worth stating precisely, because it is easy to
 over-value.
@@ -241,7 +372,7 @@ unverified. The prior application itself contributes nothing and is frozen.
 
 ---
 
-## 11. Glossary
+## 16. Glossary
 
 For readers without domain background.
 
