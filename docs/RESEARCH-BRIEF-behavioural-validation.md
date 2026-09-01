@@ -4,7 +4,10 @@
 browser-driving tool, or equivalent. **This brief is self-contained — you are
 not expected to have any prior context.**
 
-**Effort:** roughly one to two days of automated collection and analysis.
+**Effort:** proportional to the selected Track A module and the accessible
+sampling frame. **Do not trade methodological validity for a fixed duration** —
+an earlier version of this brief specified "one to two days", which was a
+slogan rather than a design constraint.
 **Output:** a written report answering §7, with the raw classified dataset attached.
 
 ---
@@ -12,7 +15,7 @@ not expected to have any prior context.**
 > **Sequencing — read before commissioning this study.**
 > Two cheaper steps come first and may make this study unnecessary.
 > **(0)** An app-market scan is already done — see `APP-MARKET-SCAN.md`.
-> **(1)** Mine the reviews of the fourteen competing apps for friction and
+> **(1)** Mine the reviews of the 18 known competing products for friction and
 > abandonment: days of work, no platform approval required. Only then
 > commission what follows.
 > **(2)** Consider a **shadow test** before any recruitment: take 20–30 real
@@ -38,7 +41,9 @@ provenance research · progression analysis · failure and recovery analysis ·
 competitive teardowns · Brazil and tropical public evidence · shadow validation
 of the domain model.
 
-No platform approval, no recruitment, no budget beyond time. Several of these
+**No participant recruitment is required.** Source access, however, remains
+subject to each platform's terms, technical access and approvals — public
+storefront review mining is straightforward; Reddit is not (see §5). Several of these
 have already produced results — see `APP-MARKET-SCAN.md` and
 `CURRENT-EVIDENCE-AND-DECISIONS.md`.
 
@@ -48,12 +53,22 @@ Artifact interviews · private record validation (H1B) · lost-history incidents
 (H1C) · logging retention · attestation feasibility · H7 · willingness to pay ·
 community participation.
 
-> **Every threshold in §7 belongs to Track B.** Until participant access
-> exists, each of those hypotheses is `UNVALIDATED` — **not** `FAIL`. A test
-> that cannot be run has produced no result. This is not a technicality: H1B
-> carries a *"the record thesis is dead"* verdict, and reading that as a
-> conclusion when the test has never run would kill the venture on an absence
-> of data rather than on evidence.
+> **Thresholds are split, not wholesale Track B.** An earlier version of this
+> section claimed every threshold belonged to Track B. That was wrong — several
+> are measured on public content and are runnable now.
+>
+> **Track A thresholds:** H1A, H2A, H2B, H3A, H3B, and the observational
+> components of H4, H5 and H6.
+> **Track B thresholds:** H1B, H1C, the participant components of H4/H5/H6, H7,
+> retention and willingness to pay.
+>
+> Where Track A produces evidence but Track B has not run, the correct status is
+> **`PARTIALLY SUPPORTED / REMAINDER UNVALIDATED`**.
+>
+> A Track B test that cannot be run is `UNVALIDATED` — **never** `FAIL`. This is
+> not a technicality: H1B carries a *"the record thesis is dead"* verdict, and
+> reading that as a conclusion when the test has never run would kill the
+> venture on an absence of data rather than on evidence.
 
 Track A cannot substitute for Track B. Public forum behaviour shows what people
 do **in public**; H1B is specifically about what they do privately, and no
@@ -92,7 +107,12 @@ predict themselves.
 species, acquisition, work performed, photos over time. The record accrues
 value — a documented tree is worth more than an undocumented one when sold or
 inherited, comparable to service history for a car or papers for a watch.
-Outcome data accumulated across users then powers advice.
+
+> **Superseded framing.** This brief originally continued *"…outcome data then
+> powers advice,"* making the record instrumental to an advisor. The current
+> thesis does not: **Tree Identity → Journey → Provenance → Relationships can
+> produce value before any advisor exists.** Outcome aggregation is explicitly
+> outside the initial core. See `CURRENT-EVIDENCE-AND-DECISIONS.md` §1.
 
 *Requires:* that growers will maintain a record over years. **H1 tests this.**
 
@@ -188,9 +208,29 @@ seven years of membership.
 Measure repeat non-owner interaction, spontaneous update requests, help
 offered, and response to failure — **not likes.**
 
-**H7 — Outcome-derived authority.** *The most important hypothesis, and the
-least tested.* The entire strategy rests on the claim that aggregate outcome
-data can substitute for personal reputation. Test with a randomised comparison
+**H6B — Comparable Journey utility.** Added because `PROJECT-BRIEF` §8 now
+treats this as possibly the most important mechanic, and it was absent here.
+
+> Growers derive useful learning value from structurally similar documented
+> journeys — same species, climate, stage, intervention — **even without
+> receiving a direct recommendation.**
+
+Strategically this is the difference between two very different products:
+`record → retrieval → comparison → learning`, which needs no authority, and
+`record → the system tells you what to do`, which needs a great deal. If H6B
+holds and H7 fails, the first path still works.
+
+**H7 — Evidence-derived authority.** *Reformulated.* An earlier version stated
+that "the entire strategy rests" on outcome data substituting for reputation.
+It no longer does: the current architecture lets Tree Identity, Journey,
+Provenance and Relationships produce value before any advisor exists, and H7
+now gates **only levels 4–5 of the advice ladder**, not the venture.
+
+> **What level of decision confidence, if any, can structured comparable
+> outcome evidence earn — and does it act as a substitute for, a complement to,
+> or an insufficient alternative to practitioner authority?**
+
+Test it by comparing the same recommendation attributed to different sources. Test with a randomised comparison
 of the same recommendation attributed to: **(A)** a recognised practitioner,
 **(B)** aggregate outcomes from N comparable trees, **(C)** both, **(D)** generic
 community consensus. Primary endpoint: confidence to act. Freeze a
@@ -228,6 +268,31 @@ non-inferiority margin before collecting. Conclusion must distinguish
 ### For H4
 13. What share of posters identify as southern hemisphere, tropical, or subtropical?
 14. Among those, how often is timing mismatch raised as a problem?
+
+---
+
+
+### For H5 — provenance
+15. What proportion of transfer or sale posts include provenance elements beyond species and a photo?
+16. Which evidence types appear in practice — receipts, dated photos, prior-owner confirmation, workshop records, exhibition catalogues?
+17. Do growers distinguish between self-asserted and third-party-confirmed history when judging a tree?
+18. Would a practitioner complete an attestation for work they actually did, and at what friction? *(Track B)*
+
+### For H6A — tree-led relationships
+19. Do non-owners return repeatedly to the same tree's thread over months?
+20. How often are update requests spontaneous rather than solicited?
+21. What share of responses to a failure or death are help, versus commentary, versus unrequested critique?
+
+### For H6B — comparable journeys
+22. When growers seek precedent for a decision, do they look for *similar cases* or *authoritative answers*?
+23. On what dimensions do they judge another journey comparable — species, climate, stage, material, intervention?
+24. Is a comparable case reported as useful when it carries no recommendation? *(partly Track B)*
+
+### For H7 — evidence-derived authority *(Track B)*
+25. Randomised: same recommendation attributed to a practitioner / to aggregate outcomes / to both / to community consensus. Primary endpoint: confidence to act.
+26. Does confidence change when aggregate evidence contradicts the named expert?
+27. At which level of the advice ladder does authority become necessary?
+
 
 ---
 
@@ -352,10 +417,10 @@ fail — **weighted below the behavioural findings**, per §3.
 
 ### A prior that must be weighed against all of the above
 
-`APP-MARKET-SCAN.md` found at least fourteen shipping competitors holding roughly 330 App
+`APP-MARKET-SCAN.md` found 18 known shipping competitors holding roughly 330 App
 Store ratings across four major markets, with no winner and a well-resourced
 incumbent converting its own large audience into 64 ratings. **Even a strong
-H1B result must be reconciled with that.** If growers do keep records but fourteen
+H1B result must be reconciled with that.** If growers do keep records but 18
 products cannot build a business on it, the binding constraint is market size,
 not behaviour — and the study should say so rather than reporting a green light.
 
@@ -374,14 +439,15 @@ not behaviour — and the study should say so rather than reporting a green ligh
 
 ## 9. Deliverable
 
-1. **Answers to all 14 questions in §4**, each with n, proportion, and confidence interval.
+1. **Answers to every question in §4** (27 at time of writing; the count changes as hypotheses are added), each with n, proportion, and confidence interval.
 2. **A verdict against each threshold in §7**, stated plainly, including "fail" if that is the result.
 3. **The classified dataset** — post ID, date, category, species, location, and for Q2 the same-tree matching decision.
 4. **Method notes** — actual sample size, how "same tree" was matched, how "materially conflicting" was judged, and any source that could not be accessed.
 5. **Representative verbatim quotes** for Q4, Q10 and Q14 — useful for product framing, but supporting the numbers rather than substituting for them.
 
 A negative result is a successful study. The purpose is to avoid building the
-wrong thing, and "no" delivered in two days is the most valuable outcome available.
+wrong thing, and a well-supported "no" is the most valuable outcome available —
+however long it takes to reach honestly.
 
 ---
 

@@ -83,7 +83,8 @@ advisor* formulation.
 
 ## 5. Competitive reality
 
-At least **14 shipping products**. Full detail in `APP-MARKET-SCAN.md`.
+**18 known distinct products**, 17 believed active. Master list and derivation
+in `APP-MARKET-SCAN.md` §0 — take the number from there, not from prose.
 
 **Observable traction is low.** Across four major storefronts the category holds
 roughly 330 iOS ratings; the six-year-old leader has 136; Bonsai Empire — the

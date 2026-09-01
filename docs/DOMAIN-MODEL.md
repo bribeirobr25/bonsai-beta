@@ -100,7 +100,10 @@ not permit.
 
 ## 3. Contraindication model
 
-**This is the most valuable and most defensible content in the project.**
+**This is the most strategically differentiated structured hypothesis in the
+legacy corpus.** It is not yet an asset: like everything else here it is
+AI-generated and unreviewed, and it becomes valuable only after practitioner
+verification.
 
 264 entries carry `notRecommended: true`. Critically, the flags are not evenly
 spread — they concentrate on the four techniques that genuinely fail on
@@ -224,8 +227,9 @@ timing: {
 }
 ```
 
-This is the one place where the project's data can beat the incumbents rather
-than match them, and it costs nothing to design in from the start.
+This modelling approach may offer greater portability across climates than a
+month-based calendar, and it costs nothing to design in from the start. Whether
+it produces a real advantage is `UNVALIDATED`.
 
 ---
 

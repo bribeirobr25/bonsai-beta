@@ -156,7 +156,7 @@ Verified against live sources, August 2026.
 | **Hotmart, ABC do Bonsai** | Portuguese-language bonsai courses that already sell — one with 288+ reviews and 81 lessons |
 
 **A second cluster exists that this brief originally missed: tracking apps.**
-**At least fourteen ship today** — BonsaiDo, Bonsai Empire's Care App, Appy Bonsai,
+**At least 18 are known to ship or have shipped** — BonsaiDo, Bonsai Empire's Care App, Appy Bonsai,
 Bonsaiku, Wabi Sabi Bonsai, Bonsai Tracker, Yoi Bonsai, Jooni, Tiny Tree Club —
 plus a Brazilian one on Google Play. Several already do things this brief
 treated as novel: Bonsai Tracker and Appy Bonsai transfer a tree's history to a
@@ -165,9 +165,12 @@ and was built by someone with 20+ years in bonsai *and* an engineering
 background; Bonsaiku ships a season-by-climate calendar; Wabi Sabi assigns a QR
 code per pot.
 
-**But none has meaningful traction.** Across four major storefronts the entire
-category holds roughly 330 App Store ratings; the six-year-old leader has 136.
-Full data and limitations in `APP-MARKET-SCAN.md`.
+**Observable traction is low.** Across four major storefronts the category holds
+roughly 330 iOS ratings, and the six-year-old leader has 136. That is a signal
+about *visible* traction only — Android is contested and web-first products are
+unmeasured, so it is **not** a conclusion about adoption, revenue or viability.
+Full data, the master competitor list and the limitations are in
+`APP-MARKET-SCAN.md`.
 
 **What this closes:** the reference/content play. Breadth is not a
 differentiator, structured species data is already published by at least one
@@ -180,7 +183,7 @@ people act on it.
 - **Maturity-gating.** "At what tree age does this technique become appropriate" is barely addressed anywhere.
 - **Climate calibration.** *Weakened — see §11.* The original claim was that every incumbent assumes northern-hemisphere temperate conditions. Bonsai Tracker, Bonsai Empire and Bonsaiku all now claim climate or hemisphere adaptation, so what remains testable is *residual* mismatch, not absence.
 - **Verifiable provenance.** Permanent tree IDs and transferable history are **not** open — Bonsai Tracker, Yoi, Appy Bonsai, MyBonsaiTag (via NFT) and ScandinavianBonsai (via RFID) all do some version. What no one structures is `claim → evidence → attestation → confidence`: *acquired · owner-recorded*, *repotted · photo evidence*, *styling · practitioner-confirmed*, *exhibited · institution-verified*, *transferred · both parties confirmed*.
-- **Aggregate outcome data.** Of the fourteen tracking apps, **none aggregates outcomes across users into guidance.** Each records your trees for you. This is the one position still genuinely unoccupied — and notably the one that needs scale rather than credibility. Note the hard part is not collection but **inference**: community death reports routinely disagree on cause, so the model must separate observed outcome from owner-attributed cause (see `DOMAIN-MODEL.md` §7.1) or it will produce confident, wrong guidance.
+- **Aggregate outcome data.** Of the 18 known tracking products, **none aggregates outcomes across users into guidance.** Each records your trees for you. This is the one position still genuinely unoccupied — and notably the one that needs scale rather than credibility. Note the hard part is not collection but **inference**: community death reports routinely disagree on cause, so the model must separate observed outcome from owner-attributed cause (see `DOMAIN-MODEL.md` §7.1) or it will produce confident, wrong guidance.
 
 ---
 
@@ -210,7 +213,7 @@ candidates fall into four tiers:
 |---|---|---|---|
 | **1 — Library** | Content someone reads | Yes | Commoditised. Closed. |
 | **2 — Decision** | Tells you what to do to a living tree | Yes | Genuinely unserved, and genuinely blocked — instructions that can kill something raise the credibility bar rather than lowering it. |
-| **3 — Record** | You keep the ledger; users bring the facts | **No** | Authority-free, but **no longer unclaimed** — fourteen tracking apps ship today and three already transfer a tree's history to a new owner. Value still compounds over time; the question is now whether anyone wants it enough. See `APP-MARKET-SCAN.md`. |
+| **3 — Record** | You keep the ledger; users bring the facts | **No** | Authority-free, but **no longer unclaimed** — 18 tracking products are known and three already transfer a tree's history to a new owner. Value still compounds over time; the question is now whether anyone wants it enough. See `APP-MARKET-SCAN.md`. |
 | **4 — Network** | Borrows authority from teachers | **No** | Highest ceiling, hardest cold start — the audience already has homes. |
 
 **Tier 3 was assessed as the sweet spot**, and Tier 2 was argued to become
@@ -262,7 +265,7 @@ recommended.
 
 *Community is an operation, not a feature.* Bonsme shipped exactly progress photos + community + follow + likes/comments — and shut down because the founders lacked capacity to keep maintaining it. Moderation, cold start, content, retention, safety and network density are all recurring costs. A dead competitor is the most informative kind.
 
-*Discovery should run on context, not popularity.* The workable axes are `species × climate × stage × intervention × journey` — `Ficus · tropical · first tree`, `Juniper · recovery after repot`, `Jabuticaba · Brazil Southeast · pre-flowering`. Four relation types follow: **Follow Journey**, **Similar Journey**, **Ask Around Event**, and **Tree Circle** (a recurring contextual group). None of the fourteen competitors implements this convincingly.
+*Discovery should run on context, not popularity.* The workable axes are `species × climate × stage × intervention × journey` — `Ficus · tropical · first tree`, `Juniper · recovery after repot`, `Jabuticaba · Brazil Southeast · pre-flowering`. Four relation types follow: **Follow Journey**, **Similar Journey**, **Ask Around Event**, and **Tree Circle** (a recurring contextual group). None of the 18 known competitors implements this convincingly.
 
 **Two design principles fall out of the evidence.**
 
@@ -347,7 +350,7 @@ In almost every social product the spine is `User → Content`. Here it should b
 A person may acquire a tree, care for it, style it professionally, exhibit it,
 sell it, gift it, or die — and leave the record completely. **The tree
 persists.** That single inversion is what structurally separates this from the
-fourteen personal trackers already shipping.
+18 personal trackers already known to ship.
 
 **Growers have already articulated the problem this solves.** One documented a
 Japanese Red Pine across *several separate forum threads* before consolidating
@@ -544,12 +547,12 @@ death? **Complement to expertise is now the more plausible reading than
 replacement for it**, which weakens §10's route past the moat.
 
 **Contradicted by evidence gathered since this brief was written:** that Tier 3
-is unclaimed (fourteen tracking apps ship, three transfer tree history); that
+is unclaimed (18 tracking products known, three transfer tree history); that
 climate calibration is unattended (three competitors claim it); and that a
 Portuguese-language position is empty (a Brazilian app exists). See
 `APP-MARKET-SCAN.md` and §4.
 
-**A new and uncomfortable finding:** fourteen products compete for roughly 330 measured App
+**A new and uncomfortable finding:** 18 known products compete in a category showing roughly 330 measured App
 Store ratings across four major markets. The load-bearing assumption below may
 be answerable not as *"will growers log?"* but as *"is the population that will
 pay to log large enough to matter?"* — and the early signal is not encouraging.
@@ -588,13 +591,36 @@ The phase is **validation, not construction.** No architecture, stack, backend,
 database, or analytics decision should be made yet: product shape determines
 those, and choosing them first is how you build the wrong thing efficiently.
 
-0. **App market scan** — ✅ *done, see `APP-MARKET-SCAN.md`.* At least fourteen competing apps; ~330 iOS ratings across four storefronts; no winner. **Still open: the Android picture is contested** — one source reports Bonsai Empire at 10,000+ downloads, an independent check found 2K+. That fivefold gap is the difference between a small-but-real market and a very small one, and ten minutes on an Android phone would settle it.
-1. **Competitor review mining** — read the reviews of those fourteen apps for friction, abandonment and unmet wants. Days, no platform approval needed. Should precede any commissioned study.
-2. **Behavioural research** — does the record-keeping behaviour exist unaided, and how large is diagnostic demand? Specified in `RESEARCH-BRIEF-behavioural-validation.md`. **Note its primary source is now in doubt** — Reddit API access changed in June 2026. *Decisive for P1.*
-3. **Material-assessment vision test** — 50 garden-centre photographs scored by hand against a practitioner's judgement. *Decisive for idea 7.* A weekend.
-4. **Teacher interviews** — five conversations. If WhatsApp and a spreadsheet are genuinely adequate, there is no P3.
-5. **Logging pilot** — only if step 2 passes. Twenty growers, a shared spreadsheet, 4–6 weeks. The long pole; everything else takes days.
-6. **Then** choose a direction, resolve the competitive-response question in §10, and only then choose technology.
+> **This sequence is canonical and must match §11 of
+> `CURRENT-EVIDENCE-AND-DECISIONS.md`.** An earlier version of this section
+> listed a different order, which mattered because both documents hold
+> precedence — two canonical sources disagreeing is worse than one being wrong.
+
+### Now — executable without participant access
+
+0. **App market scan** — ✅ done. See `APP-MARKET-SCAN.md` §0 for the master list (18 known products) and the contested Android figures.
+1. **Competitor review mining** — why current trackers please, frustrate, or get abandoned.
+2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Including the ceiling question: would 5,000 users at €3/month be success or failure here?
+3. **Brand identity & marketing** — which territory is credible without promising expertise we lack?
+4. **Growth strategy** — which loops, not which channels.
+5. **Cross-front reconciliation** — what product thesis survives all four lenses? **Including the option that none does.**
+6. **MVP validation strategy** — see `CURRENT-EVIDENCE-AND-DECISIONS.md` §12: pick the instrument from the largest uncertainty, and remember an MVP need not be software.
+7. **Product / UIUX** — only after the above, and only with the handoff inputs listed in §12 of that document.
+
+Steps 2–4 can run in parallel. All four take `CURRENT-EVIDENCE-AND-DECISIONS.md`
+as their entry point.
+
+### Deferred — blocked on access, `UNVALIDATED` until then
+
+- Participant behavioural validation (H1B, H1C)
+- Practitioner validation and attestation feasibility (H5)
+- Logging retention pilot
+- H7 evidence-derived authority experiment
+- Material-assessment vision test, if P2 still survives cross-front reconciliation
+
+**Guard:** set a date on the deferred cluster. If access has not materialised by
+then, the venture proceeds on Track A evidence alone or stops — but it must not
+wait indefinitely on tests it cannot run.
 
 
 ### Current validation opportunities

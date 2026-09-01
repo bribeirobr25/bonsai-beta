@@ -3,12 +3,52 @@
 **Method:** Apple App Store public lookup API, 1 September 2026. Queried in four
 storefronts.
 
-**Revised 1 September 2026** after `parallel-work.txt` surfaced five further
-competitors. **The category holds at least 14 products, not nine** — the
-original figure counted only those measurable through the iTunes API.
+**Revised 2 September 2026.** Earlier versions said nine products, then
+"at least 14". Both were wrong. §0 now derives a single count from a master
+list, and every other document takes its number from there.
 **Cost:** under an hour.
 **Purpose:** the cheapest available test of the venture's central assumption —
 that growers will maintain a longitudinal record of their trees.
+
+---
+
+## 0. Master competitor list
+
+One list, one derived number. Prior drafts mixed a measured sample with a
+narrative count and disagreed with themselves.
+
+| # | Product | In iTunes sample? | Note |
+|---:|---|---|---|
+| 1 | BonsaiDo | yes | |
+| 2 | Bonsai Care App (Bonsai Empire) | yes | |
+| 3 | BonsAI Identifier: Tree Care | yes | |
+| 4 | Jooni – Bonsai Tracking | yes | |
+| 5 | Bonsai Care – Journaling | yes | |
+| 6 | Appy Bonsai | yes | |
+| 7 | Bonsaiku | yes | season × climate calendar |
+| 8 | Bonsai – Tree Care | yes | |
+| 9 | Tiny Tree Club | yes | |
+| 10 | Bonsai Care: Plant Tracker | yes | **added 2 Sep**; 0 ratings, released Jul 2026 |
+| 11 | Bonsai Tracker | no — web-first | permanent Tree ID; ownership transfer |
+| 12 | Yoi Bonsai | no — web-first | "lineage that travels with the tree" |
+| 13 | Wabi Sabi Bonsai | no — Android | QR code per pot |
+| 14 | Diario Bonsai – Nebari | no — not queried | **Portuguese**; hemisphere + climate zone |
+| 15 | Bonsai App (`br.com.bonsaiapp`) | no — Android | **Brazilian** |
+| 16 | ScandinavianBonsai | no — Android | RFID tags. **Same product as "Bonsai Care & RFID Tree Log"** (`se.vilhelmineberg.planttracker`) — earlier drafts double-counted these |
+| 17 | MyBonsaiTag | no — not queried | identity/transfer via NFT |
+| 18 | Bonsme | **defunct** | shut down; founders cited capacity |
+
+**Derived counts — use these everywhere:**
+
+- **18** known distinct products
+- **17** believed currently active
+- **10** measured in the iTunes sample below
+
+*Excluded by criterion:* Mirai Mobile ships inside a subscription, so its
+numbers would reflect that subscription rather than standalone demand.
+
+> This list is **not** claimed to be exhaustive. Two products were found only
+> after two prior scans called the list complete, so assume more exist.
 
 ---
 
@@ -92,15 +132,18 @@ Identifier October 2025. The category leader has not shipped in a year.
 
 ### The interpretation
 
-Nine products compete for what appears to be a few thousand users. Either
-nobody has cracked the logging experience, **or the market for bonsai
-record-keeping software is very small.** The presence of many products with no
-winner, plus a well-resourced incumbent failing to convert its own audience,
-points more strongly at the second.
+Multiple products compete in a category showing **low observable iOS rating
+traction** across the sampled storefronts, with no visible winner.
+
+> **What this does not tell us.** Whether that reflects low adoption, low
+> rating propensity, usage concentrated on Android or web, or genuinely small
+> addressable demand **remains unresolved**. An earlier draft here asserted
+> "a few thousand users" and a probably-very-small market. Both reintroduced
+> the user inference removed two sections above, and neither is supported.
 
 This does not prove growers will not log.
 
-> **Nor does it show that fourteen attempts "have not produced a business" —
+> **Nor does it show that these attempts "have not produced a business" —
 > an earlier version of this document asserted exactly that, and it is not
 > supported.** We have no revenue, subscription, retention or sustainability
 > data for any of these products. Several are free; several are side projects;
@@ -140,9 +183,9 @@ This changes sequencing rather than conclusions. It was obtained in under an
 hour and bears directly on H1, the hypothesis that a 12–14 week, R$45k–90k
 programme was designed to test.
 
-**Recommended order:** resolve the contested Android numbers → mine reviews of these fourteen apps
+**Recommended order:** resolve the contested Android numbers → mine reviews of these 18 known products
 for friction and abandonment → ~18 artifact interviews → *then* decide whether
 the full observational programme is warranted.
 
-Spending R$45k to establish that people will log, when fourteen shipped
+Spending R$45k to establish that people will log, when 18 known shipped
 products show low observable traction, is the wrong order.
