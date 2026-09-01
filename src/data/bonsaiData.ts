@@ -3668,15 +3668,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -3814,15 +3814,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -3960,15 +3960,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4106,15 +4106,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4252,15 +4252,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4398,15 +4398,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4544,15 +4544,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4690,15 +4690,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4836,15 +4836,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -4982,15 +4982,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -5128,15 +5128,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -5274,15 +5274,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -5420,15 +5420,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -5566,15 +5566,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -5712,15 +5712,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -5858,15 +5858,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6004,15 +6004,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6150,15 +6150,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6296,15 +6296,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6442,15 +6442,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6588,15 +6588,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6734,15 +6734,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
@@ -6880,15 +6880,15 @@ export const bonsaiSpecies: BonsaiSpecies[] = [
     ],
     images: {
       developmentStages: {
-        early: '/bonsai_photos/placeholder/early.jpg',
-        middle: '/bonsai_photos/placeholder/middle.jpg',
-        mature: '/bonsai_photos/placeholder/mature.jpg'
+        early: '/bonsai_photos/placeholder/placeholder_early.jpg',
+        middle: '/bonsai_photos/placeholder/placeholder_middle.jpg',
+        mature: '/bonsai_photos/placeholder/placeholder_mature.jpg'
       },
       seasons: {
-        spring: '/bonsai_photos/placeholder/spring.jpg',
-        summer: '/bonsai_photos/placeholder/summer.jpg',
-        autumn: '/bonsai_photos/placeholder/autumn.jpg',
-        winter: '/bonsai_photos/placeholder/winter.jpg'
+        spring: '/bonsai_photos/placeholder/placeholder_spring.jpg',
+        summer: '/bonsai_photos/placeholder/placeholder_summer.jpg',
+        autumn: '/bonsai_photos/placeholder/placeholder_autumn.jpg',
+        winter: '/bonsai_photos/placeholder/placeholder_winter.jpg'
       },
       styles: {},
       nature: {}
