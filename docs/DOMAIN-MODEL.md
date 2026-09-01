@@ -224,6 +224,11 @@ than match them, and it costs nothing to design in from the start.
 
 ## 7. Recording model and object structure
 
+Fifteen subsections, derived from stress-testing the model against 20+ real
+public tree histories — multi-year progressions, deaths, recoveries, ownership
+changes, museum records, forests and contradictory histories. Each corrects a
+defect in the legacy corpus or a gap the real cases exposed.
+
 These emerged from analysing how growers actually document trees in public
 progression threads. Each corrects a specific defect in the corpus described
 above, and each should be designed in from the start rather than retrofitted.
@@ -447,6 +452,64 @@ The hard problem is not *preventing someone from altering a byte*. It is
 Note that a competitor, MyBonsaiTag, already attached identity, ownership
 transfer and history to NFT/blockchain, which did not resolve the trust
 question for them either.
+
+
+### 7.12 State is not Event
+
+An `Event` happens at a point. A `State` persists across a period, and real
+histories are full of them: an Austrian Black Pine recorded as apparently dead
+for about a month before waking very late after an anomalous winter; a Premna
+spending roughly six months without foliage after repotting before resuming
+growth.
+
+Neither is a moment. Modelling them as events loses the duration — which is
+exactly the information a later reader needs.
+
+### 7.13 Not every subject is a tree
+
+A Lacebark Elm forest was planted from seven seedlings; one died and was
+replaced by a cutting; the group is still treated by everyone, including its
+owner, as **the same forest**. So the model needs:
+
+```text
+LIVING SUBJECT
+ ├── TREE
+ └── COMPOSITION → Tree A, Tree B, Tree C
+```
+
+Forest, raft and group plantings are compositions. **Externally the product
+should still say "tree"** — nobody should have to study an entity-relationship
+diagram in order to water a bonsai.
+
+Related objects — pot, stone, stand — matter artistically (root-over-rock
+progressions track the stone as part of the composition), but they belong
+*outside* the core. The architecture should permit the extension and not ship
+it, or this becomes an inventory system for pots.
+
+### 7.14 Related subjects, not pedigree
+
+Propagation lineage supports a genuinely useful grouping: *same mother plant*,
+*same seed batch*, *same cutting source*, *same collected material*,
+*air-layer child*. One documented grower notes his Ficus #32 came from the same
+mother plant as several of his other trees.
+
+This is botanical and documentary, **not an elitist pedigree** — and it may be
+the most scientifically useful relation in the model, since sibling subjects
+under different conditions are a natural comparison set.
+
+### 7.15 Why claims must be versioned — a worked case
+
+An owner believed he knew his tree's history from the previous owner. At an
+exhibition he met Bill Valavanis, who knew the tree and revealed that some of
+that history was **wrong**.
+
+```text
+CLAIM v1 · origin X · source: previous owner
+CLAIM v2 · origin Y · source: Bill Valavanis, in person
+```
+
+Both persist. Overwriting v1 would destroy the evidence that the record's
+confidence changed and why — which is the part a future reader most needs.
 
 
 ## 8. Provenance — read before using any of this

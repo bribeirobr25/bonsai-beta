@@ -243,8 +243,15 @@ Tier 3 cannot advise anyone. Together, each solves the other's problem.
 > component inside P1, not to P2.
 
 **P1 · The system of record** *(core — build first)*
-Ideas 8 + 9 + 4 + 5. Users log their trees. Outcomes, including deaths,
-accumulate into a corpus nobody else holds.
+Ideas 8 + 5, with 9 and 4 deliberately **out of the initial core**. Users log
+their trees; outcomes, including deaths, accumulate.
+
+> **Correction to the original composition.** This brief placed outcome
+> aggregation near the centre of P1. It should not be there. Aggregation
+> requires enough records, enough context, enough outcomes *and* enough quality
+> before it can be studied at all — so it is a possible consequence of the core,
+> not a component of it. Shipping it early would mean inferring from a corpus
+> too thin to support inference, which is the failure mode §12 warns about.
 
 **The flywheel, revised.** The original — *log → outcomes → advice improves →
 logging becomes more valuable* — makes the whole chain depend on eventually
@@ -295,6 +302,14 @@ sell it, gift it, or die — and leave the record completely. **The tree
 persists.** That single inversion is what structurally separates this from the
 fourteen personal trackers already shipping.
 
+**Growers have already articulated the problem this solves.** One documented a
+Japanese Red Pine across *several separate forum threads* before consolidating
+them into a single progression, because he judged that he had recorded his own
+tree's history badly. That is spontaneous validation of a structural defect:
+**conversation-centric systems fragment tree history.** In this model the
+conversation belongs to the event, rather than the tree's history having to be
+reconstructed by searching through conversations.
+
 ### Six layers, staged by how much authority each needs
 
 | Layer | Function | Status |
@@ -308,6 +323,25 @@ fourteen personal trackers already shipping.
 
 The staging prevents inventing a superapp before the first behaviour is proven.
 L1 and L2 deliver value with no authority whatsoever.
+
+### This also defuses the cold-start problem
+
+§6 rates Tier 4 as having the hardest start, and network products generally do.
+But this architecture has an unusual property: **value does not require network
+density on day one.**
+
+| At | The user gets |
+|---|---|
+| user 1 | memory, progression, history — useful alone |
+| user 100 | similar journeys begin to appear |
+| user 1,000 | a meaningful network |
+| user 10,000 | outcome patterns become possible |
+
+A Tree Journey is not useless by itself, which is exactly what an empty
+community is. That materially reduces the cold-start risk the original
+assessment assigned to the network tier — and it means community can **emerge
+from the network** rather than being fabricated behind a tab labelled
+*Community*.
 
 ### The advice ladder — how the credibility problem actually resolves
 
