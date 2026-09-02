@@ -157,7 +157,8 @@ require none. Levels 4–5 (decision support, recommendation) depend on H7.
 | Risk | Consequence |
 |---|---|
 | **Logging friction** | **Risk #1.** If nobody records continuously, everything downstream fails |
-| **Durability of the record** | **New, from W1.** A paying user of two years reported total data loss. For a system of record, durability *is* the value proposition — export, backup and guarantees are core, not later polish |
+| **Durability of the record** | **From W1.** A paying user of two years reported total data loss (reportedly restored later; unverified). For a system of record durability *is* the value proposition — export, backup and guarantees are core, not later polish |
+| **Review-evidence authenticity** | **From W1.** One app’s entire review corpus matched a launch-window promotional pattern. Future review-based evidence must be screened; the flagged set is quarantined, not deleted |
 | Market too small | 14 products, low observable traction, no winner |
 | Authority gap | The advisor may never become trustworthy |
 | Bad causal inference | Outcome data producing confident, wrong guidance |
@@ -203,7 +204,7 @@ gave them value* rather than because they were asked.
 
 ## 11. Next decisions
 
-1. **Competitor review mining** — ✅ **done**, see `W1-COMPETITOR-REVIEW-MINING.md` (n=97). Headline: negative reviews reject *execution*, not the concept — bugs, localisation, login and data loss, with nobody questioning why they would track trees.
+1. **Competitor review mining** — ✅ **done**, see `W1-FINAL.md` (n=196 across iOS and Android, reconciled against an independent external calibration). Headline: **zero reviews code as rejecting the underlying job** — all negative material is implementation friction. Separately, distribution data shows three products at 10,000+ installs and everything else at or near zero, including the products closest to our own thesis.
 2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Two sharpened questions now that Android is resolved: **the category leader converted substantial distribution into tens of thousands of downloads — how many became recurring or paying users, and why?** And the ceiling question: would 5,000 users at €3/month be success or failure here?
 3. **Brand** — which territory is credible without promising expertise we lack? Safety / memory / progress / story / learning / legacy.
 4. **Growth** — which loops, not which channels.
