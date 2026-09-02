@@ -1,0 +1,18 @@
+product,storefront,ratings,listing,status_note
+Bonsai Album,US,192.0,Full app,Observed first-party App Store
+Bonsai Album,UK,52.0,Full app,Observed first-party App Store
+Bonsai Album,DE,73.0,Full app,Observed first-party App Store
+Bonsai Album,BR,,Full app,Not retrieved in current pass; Lite listing has 15 but excluded
+BonsaiDo,US,134.0,Full app,Observed current surfaced App Store page
+BonsaiDo,UK,24.0,Full app,Observed first-party App Store
+BonsaiDo,DE,,Full app,Not re-retrieved in current pass
+BonsaiDo,BR,10.0,Full app,Observed first-party App Store
+Bonsai Care App,US,64.0,Full app,Observed first-party App Store
+Bonsai Care App,UK,20.0,Full app,Observed first-party App Store
+Bonsai Care App,DE,16.0,Full app,Observed first-party App Store
+Bonsai Care App,BR,3.0,Full app,Observed first-party App Store
+Kodama - Bonsai Tree Care,US,2.0,Full app,Observed first-party App Store
+Bonsai: Care & Growth Journal,US,7.0,Full app,Observed first-party App Store
+BonsaiTrack: Care Journal,US,,Full app,Not enough ratings to display overview
+BonsaiLog (Makoto Nakagawa),US,,Full app,Not enough ratings to display overview
+BonsaiNikki,US,,Full app,No rating overview surfaced

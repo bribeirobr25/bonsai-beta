@@ -1,0 +1,19 @@
+theme,evidence_status,independent_support,literal_evidence,limitation
+Record/history value,OBSERVED across multiple products/sources,Bonsai Album; Bonsai Care App; Appy Bonsai; BonsaiDo; public grower workflows,"Users explicitly preserve work dates, history, photos and progression.",Does not establish population prevalence or venture demand.
+Photo progression value,OBSERVED across multiple products/sources,Bonsai Album; Jooni; Bonsai Care App; general photo workflows,Users repeatedly describe seeing development over time as useful.,Photos alone may satisfy the job for some users.
+Memory pain,OBSERVED,Public grower threads; spreadsheet/photo workflows,Growers report forgetting repotting/work history or losing information over time.,Frequency unmeasured.
+Logging friction,OBSERVED,Generic app abandonment; Bonsai Album; Bonsai Care App; Appy; BonsaiPilot feedback,"Data input, forced fields/photos, per-tree repetition and photo handling create friction.",Cannot infer which friction dominates retention.
+Collection-scale pressure,OBSERVED,Bonsai Album; Bonsai Care; Appy; forum workflows,"As collections grow, retrieval, batching and organization become more important.",No validated collection-size threshold.
+Reminder value,OBSERVED,Bonsai Album; Bonsai Care; BonsaiDo; public workflows,"Reminders help users remember wire, repotting, fertilizer and planned work.",Generic/date-driven reminders can become noise or false precision.
+Generic-tool substitution,OBSERVED,Excel; Google Photos; OneNote; Evernote; Lightroom; notebooks; phone notes,Growers frequently solve the job outside bonsai-specific software.,Incremental advantage required to win is unmeasured.
+Explicit app abandonment,OBSERVED cases,Bonsai Care; generic tracker; structured tracking workflows,Users have uninstalled or stopped using dedicated/structured systems.,"Purposive sample, no churn rate."
+Switching between apps,OBSERVED cases,Appy → YAMA; Bonsai Droid → desktop tool,The tracking job may survive while implementation loses.,Switching frequency unmeasured.
+Durable app use,OBSERVED cases,Bonsai Album daily/multi-month; Bonsai Care since launch; BonsaiDo 2+ years paid,Dedicated tracking can persist for months/years for some growers.,No retention distribution.
+Paid use,OBSERVED cases,Bonsai Care; Appy; BonsaiDo,"Some users pay, renew or compare multiple paid products.",WTP and economics remain unvalidated.
+Subscription resistance,OBSERVED cases,Bonsai Nut public feedback,Some users reject SaaS or demand clear advantage over a free spreadsheet.,Prevalence unmeasured.
+Data durability / portability,OBSERVED,BonsaiDo data incident; Bonsai Care export concern; Bonsai Album backup/sync,"Long-lived records create fear of loss, lock-in and service mortality.",Does not validate provenance.
+Advice/authority risk,SUPPORTED SIGNAL from observed cases,AI identification failure; experienced grower feedback; editable-rule demand,Users tolerate less generic or incorrect advice than neutral recordkeeping.,H7 remains unvalidated.
+Beginner vs experienced jobs,SUPPORTED SIGNAL,Store reviews + forum feedback,"Beginners lean to guidance/reassurance; experienced users lean to history, flexibility and custom rules.",Segmentation prevalence not measured.
+Community/feed value,SUPPORTED SIGNAL,Jooni; Bonsai Care; public progression interest,Some users enjoy seeing other trees/progression.,Retention effect and H6 remain unvalidated.
+Transfer/provenance demand,UNVALIDATED / weak review evidence,"Competitors offer transfer, but reviews rarely cite it as adoption/retention value",Feature presence is observed; user value signal remains weak.,Do not promote to requirement.
+Comparable Journey demand,"SUPPORTED SIGNAL from broader public behavior, weak in app reviews",Growers use progression threads and similar cases as learning material,"The job exists, but review corpus does not validate product utility.",H6B still requires dedicated test.

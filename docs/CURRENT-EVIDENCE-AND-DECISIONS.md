@@ -88,12 +88,17 @@ advisor* formulation.
 
 ## 5. Competitive reality
 
-**Roughly 30 products, and the count is not reliably knowable** — it has been
+**At least 35 products that ship or have shipped**, and the count is not reliably knowable — it has been
 wrong at 9, 14 and 18. Do not build an argument on the total.
 
-What is established: **three products hold 10,000+ Android installs** (Bonsai
-Empire 270 ratings, Appy Bonsai 94, Jooni 53). Everything else — around fifteen
-tracking apps — sits at or near zero. See `W1-COMPETITOR-REVIEW-MINING.md` §8.
+What is established: **four products hold 10,000+ Android installs** — Bonsai
+Empire (270 ratings), Appy Bonsai (94), Jooni (53) and My Bonsai Book (0). On
+iOS the ratings leader is **Bonsai Album at 193 US ratings** — a $7.99 one-time
+purchase from 2011, last updated May 2023. Everything else sits at or near zero.
+
+> **Two exclusions that trap rescans:** `Bonsai by Zoom` is Hello Bonsai’s
+> freelancer invoicing tool despite outranking every real product, and
+> `Bonsai Design Ideas` is an image gallery. See `W1-FINAL.md` §3.3.
 
 **iOS observable traction is low; Android is materially stronger.** Across four
 storefronts the category holds roughly 330 iOS ratings and the six-year-old
@@ -115,6 +120,7 @@ confirmed at **10K+ Google Play installs**.
 
 **Still unoccupied**, as far as the scan reached:
 
+- **General-purpose tools are the real competitive set.** Spreadsheets, Photos, notes and notebooks — not only other bonsai apps. Users are `OBSERVED` reverting to them. Any product must beat a spreadsheet, not just beat Bonsai Empire.
 - **Verifiable provenance** — `claim → evidence → attestation → confidence`. Transferable history is taken; *graded evidence* is not. **Note:** Yoi Bonsai ships the closest model to ours and has **10+ installs, 0 ratings** — the position is claimed and failing, which is different from both unclaimed and won.
 - **Aggregate outcome data** — no product turns cross-user outcomes into guidance.
 - **Comparable Journey** — surfacing similar documented cases rather than answering.
@@ -156,6 +162,7 @@ require none. Levels 4–5 (decision support, recommendation) depend on H7.
 
 | Risk | Consequence |
 |---|---|
+| **Product mortality — the “decades problem”** | **From W1.** Bonsai are kept for decades, so the more successfully the product becomes the system of record, the more consequential its own death becomes. One grower would refuse such an app *even if free*. Links retention, export, trust and monetisation. Bonsai Album is this observed: 2011, one-time purchase, dormant since 2023, still the ratings leader |
 | **Logging friction** | **Risk #1.** If nobody records continuously, everything downstream fails |
 | **Durability of the record** | **From W1.** A paying user of two years reported total data loss (reportedly restored later; unverified). For a system of record durability *is* the value proposition — export, backup and guarantees are core, not later polish |
 | **Review-evidence authenticity** | **From W1.** One app’s entire review corpus matched a launch-window promotional pattern. Future review-based evidence must be screened; the flagged set is quarantined, not deleted |

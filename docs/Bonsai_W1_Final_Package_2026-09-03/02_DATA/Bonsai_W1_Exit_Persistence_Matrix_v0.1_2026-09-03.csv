@@ -1,0 +1,16 @@
+system,behavior,trigger_or_reason,destination_or_state,evidence_type
+Bonsai Care App,Uninstall + workaround return,Unskippable reminders; limited useful guidance; paywall,Google + text doc + phone alarms,Direct user behavior
+Appy Bonsai,Switch competitor,Photo selection friction,YAMA BONSAI,Direct user behavior
+Appy Bonsai,Stopped use acknowledged,Bugs / stability,Developer asks lapsed users to return,"Developer admission; aggregate, not individual denominator"
+Generic app + spreadsheet,Abandon structured systems,User preferred photo metadata workflow,Lightroom photos + metadata + keywords,Direct user behavior
+Mirai My Trees,Low use / displaced,Excel + folders easier,Excel + cloud/desktop photo folders,Direct user behavior
+Bonsai Droid,Switch tool,PC updating easier,OT2 desktop bonsai software,Direct user behavior
+Dedicated bonsai apps,No switch,No incremental value vs existing phone apps,Preloaded/general phone apps,Direct user behavior
+Dedicated bonsai apps,Refuse adoption,Subscription aversion,Free spreadsheet / one-time purchase preference,Direct user behavior
+Dedicated bonsai apps,Refuse adoption,Screen-time aversion / authority preference,Notebook + pencil,Direct user behavior
+Dedicated bonsai apps,Refuse adoption even if free,Longevity/data-loss concern,Free image/note tools,Direct user behavior
+Bonsai Album,Daily continued use,History/collection utility outweighs dated UI,Continues app,Direct user behavior
+Bonsai Care App,Continued paid use,Progress + maintenance + species info,Subscription since launch,Direct user behavior
+BonsaiDo,2+ year paid use threatened,Apparent data-loss incident,Data restored; churn risk unknown,Direct user behavior + developer response
+Bonsai Care App,Continued use with platform anxiety,Does not want to rebuild tracking system,Advocates app / fears upkeep failure,Direct user behavior
+Hybrid Excel + paper,Persistent workaround,Simple journals failed organization needs,Printed per-tree calendar + Excel,Direct user behavior

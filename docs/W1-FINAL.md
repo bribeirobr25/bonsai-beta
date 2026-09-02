@@ -223,3 +223,121 @@ whether transfer is used · whether Comparable Journey helps · whether any of
 these products is economically sustainable · whether paid users are common.
 
 All Track B. **W1's purpose was to make W2–W4 smarter, not to choose a product.**
+
+---
+
+# Part 3 · Audit of the W1 Final Package (3 September 2026)
+
+Package: `docs/Bonsai_W1_Final_Package_2026-09-03/`. **All 21 SHA-256 checksums
+verify; file count matches the manifest.** Versioning, supersession and evidence
+statuses are handled correctly throughout.
+
+## 3.1 Its corrections to my work — all verified accurate
+
+**Bonsai Album is the iOS ratings leader, not BonsaiDo.** Verified at source:
+**193 US ratings** (Andrew Nicolle, id `465021382`, released 2011) against
+BonsaiDo's 136. Plus **Bonsai Album Lite at 44**, also missed.
+
+> **Root cause of my miss — a systematic method flaw worth recording.** My
+> search terms were `care`, `tracker`, `journal`, `log`. The product is called
+> *Album*. My iTunes lookups then used a fixed ID list derived from those
+> searches, so the omission propagated into every subsequent count. **Keyword
+> search over product names cannot enumerate a category.**
+
+**My "~330 iOS ratings across four storefronts" is understated.** A 14-term
+rescan finds genuine record/care apps totalling roughly **485 US ratings alone**.
+
+**My "three products at 10,000+ Android installs" is wrong — there are four.**
+`My Bonsai Book` (`com.mybonsaibook`, ZanyGoose) verified at **10,000+ installs,
+0 ratings**, summary *"Record keeping app for Bonsai enthusiasts."*
+
+**The count of 18 is superseded.** Their lower bound of **≥35 products that ship
+or have shipped** is well-evidenced, with a sound identity rule (localised titles
+merge; lite/full merge; defunct retained). My own rescan finds 24 distinct
+Android record/care apps and 56 iOS listings containing "bonsai".
+
+## 3.2 Their strongest contributions, which my work lacked entirely
+
+**Exit and persistence evidence.** My corpus could not reach abandonment. Theirs
+does: same-day uninstall with explicit reversion to *Google, a text document and
+phone alarms*; a direct switch to a competitor over photo-selection limits; a
+developer publicly inviting back users who left over stability.
+
+**General-purpose tools are first-class competitors.** Spreadsheets, Photos,
+notes and notebooks. My scan compared bonsai apps to each other and **missed the
+actual competitive set.** This is the most consequential reframing in the package.
+
+**The three-outcome model**, which my binary coding could not express:
+
+| | Outcome |
+|---|---|
+| 1 | Job value **+** app value → keeps using |
+| 2 | Job value **+** app failure → still records, switches tool |
+| 3 | Low job value → photos occasionally, relies on memory |
+
+Reviews are good at 1 and 2 and **poor at estimating 3** — which is precisely
+where H1B lives.
+
+**The "decades problem."** Bonsai are kept for decades, so the more successfully
+a product becomes the system of record, the more consequential its own mortality
+becomes. One grower would refuse such an app *even if free*. Not a blockchain
+argument — a continuity argument, linking retention, export, trust and
+monetisation.
+
+**Subscription resistance is behavioural, not hypothetical** — with genuine
+counter-evidence on both sides, correctly concluding that W2 must not model
+willingness to pay as a single average.
+
+## 3.3 What I would add or correct in their package
+
+**Bonsai Album *is* the decades problem, observed.** They cite the tension
+abstractly while their own strongest product finding demonstrates it: a **$7.99
+one-time purchase**, released 2011, **last updated May 2023**, still the ratings
+leader. Buyers hold a fifteen-year record inside a dormant app. It is also a
+direct W2 datapoint — **the category's most-rated product is not a subscription.**
+
+**Two exclusions that will trap any rescan:**
+
+- **`Bonsai by Zoom` / `com.hellobonsai.bonsai`** — 310 iOS ratings, 10,000+ Android installs. It is Hello Bonsai's **freelancer invoicing tool**. The single largest false positive in the space, and it outranks every real product.
+- **`Bonsai Design Ideas`** — 10,000+ Android installs, but an **image gallery**, not a record app. My own filter caught it as a false positive on the word "collection".
+
+**One unverified entry.** `Bonsai Care App: Bonsai Buddy` (id `6751142898`)
+appears in their reconciliation as `FIRST_PARTY_VERIFIED`, but a direct iTunes
+lookup returns nothing. It surfaced in an earlier search, so it may be delisted
+or regional — **it should not enter the master list until re-confirmed.**
+
+**Measurement drift is real and should be expected.** Their snapshot records
+Bonsai Album US 192 and BonsaiDo US 134; mine, taken a day later, gives 193 and
+136. Harmless, but it means these figures need dates attached, not just values.
+
+## 3.4 Combined position
+
+| | Internal | External package |
+|---|---|---|
+| Verbatim reviews | **196** (97 iOS + 99 Android) | 88 derived units, paraphrased |
+| Exit/abandonment evidence | none | **yes — the key addition** |
+| General-tool competition | missed | **identified** |
+| Distribution data | Android installs | Apple ratings snapshot |
+| Product universe | 18 → 30 (wrong) | **≥35, better method** |
+| Ratings leader | BonsaiDo (wrong) | **Bonsai Album (right)** |
+
+**Neither effort alone was adequate, and the package is the stronger of the two
+on method.** Its identity rule, evidence tiering and supersession discipline
+should be adopted as the standard for anything W2–W4 produces.
+
+## 3.5 The revised W1 conclusion
+
+Their formulation supersedes mine and I would adopt it verbatim:
+
+> **Bonsai growers demonstrably maintain longitudinal records in multiple forms,
+> and some sustain dedicated-app use for years. But dedicated bonsai software
+> competes against highly flexible, cheap and durable general-purpose tools.
+> Churn can result not only from bugs, but from failure to create enough
+> incremental value to justify repeated capture, subscription and long-term
+> trust.**
+
+The open question for P1 is no longer whether the behaviour exists. It is:
+
+> **Is there a segment large enough for whom a dedicated per-tree record creates
+> recurring value that a spreadsheet and a photo album cannot deliver at lower
+> friction?**
