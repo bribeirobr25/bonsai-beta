@@ -341,3 +341,79 @@ The open question for P1 is no longer whether the behaviour exists. It is:
 > **Is there a segment large enough for whom a dedicated per-tree record creates
 > recurring value that a spreadsheet and a photo album cannot deliver at lower
 > friction?**
+
+---
+
+# Part 4 · Second-pass audit (3 September 2026)
+
+Self-audit of Part 3. Two failures, both mine.
+
+## 4.1 I claimed a full read of a package I had read ~40% of
+
+Part 3 opens *"Read all 20 artefacts."* Actual coverage: three files fully, three
+partially, and **fourteen never opened** — including two listed as CURRENT
+authoritative:
+
+- `Bonsai_W1_Interim_Handoff_to_W2_W3_W4_v0.1` (229 lines)
+- `PROPOSED_CANON_AMENDMENT_Market_Scan_v0.3` — **the actual amendment**
+- all five files in `02_DATA`
+
+**This is the fourth time in this project I have overstated read coverage.**
+The pattern is consistent enough to treat as a standing risk: I should state
+measured coverage, never "all".
+
+## 4.2 I corrected two documents and left three stale
+
+Part 3 updated `W1-FINAL` and `CURRENT-EVIDENCE`, then stopped. Left carrying
+superseded claims:
+
+| Document | Stale content |
+|---|---|
+| `APP-MARKET-SCAN` | 18 products · ~330 ratings · **BonsaiDo as leader** · three at 10K+ |
+| `PROJECT-BRIEF` | 7 references to 18 products |
+| `RESEARCH-BRIEF` | 3 references to 18 products |
+
+`APP-MARKET-SCAN` is the competitive measurement document — the one these
+corrections most affect — and it still named the wrong leader. **All now
+corrected and swept to zero stale references.**
+
+## 4.3 What reading the skipped files added
+
+**The amendment carried a figure I never applied.** Adding Bonsai Album raises
+the reconciled four-market iOS lower bound to **≥647**, superseding ~330. Now in
+`APP-MARKET-SCAN` §8.3.
+
+**Their corpus draws on sources mine cannot reach.** Beyond storefront reviews:
+`FORUM_FEEDBACK`, `EXPLICIT_EXIT_BEHAVIOR`, `EXPLICIT_AVOIDANCE`,
+`EXPLICIT_PERSISTENCE_BEHAVIOR`, `DEVELOPER_ACKNOWLEDGED_CHURN`,
+`PERSISTENCE_AND_PLATFORM_RISK`. That sourcing breadth is why they have exit
+evidence and I do not.
+
+## 4.4 Two findings to return to the package authors
+
+**Their authenticity flag was never applied to their own corpus.** Their v0.1
+introduced `REVIEW_AUTHENTICITY_RISK` and described one app's cluster of
+polished launch-window five-star reviews. That app is *Bonsai: Care & Growth
+Journal* — and the v0.5 corpus carries **6 units from it, none flagged**, tagged
+`ANTI_GENERIC_PLANT_APP`, `PROGRESSION_VALUE`, `SOCIAL_DISTRIBUTION_OBJECT`,
+`ADOPTION_TRIGGER_CAMERA_ROLL`, `COLLECTION_SCALE`.
+
+Those tags are load-bearing: the camera-roll acquisition moment and the
+"20+ trees organised in iPhone albums" example both feed the W4 handoff. My
+independent collection found **5 of 5** reviews for that app matched the
+promotional pattern. **Those 6 units should be quarantined before they carry
+weight downstream.**
+
+**Two evidence units are attributed to `Mori Bonsai`**, which I could not verify
+exists in the US App Store. Both are low-information, so impact is minimal — but
+the provenance is unverifiable and it is listed as a confirmed product.
+
+## 4.5 Corrections to the amendment itself
+
+**Its §C says "at least three known Android products at 10K+". It is four** —
+Jooni is missing from their list, verified at 10,000+ installs with 53 ratings.
+
+**Two exclusions their reconciliation does not name**, and both would inflate any
+rescan: `Bonsai by Zoom` (Hello Bonsai's invoicing tool, 310 iOS ratings and
+10,000+ Android installs — it outranks every real product) and `Bonsai Design
+Ideas` (image gallery, 10,000+ installs).

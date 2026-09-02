@@ -20,7 +20,7 @@ slogan rather than a design constraint.
 > **Sequencing — read before commissioning this study.**
 > Two cheaper steps come first and may make this study unnecessary.
 > **(0)** An app-market scan is already done — see `APP-MARKET-SCAN.md`.
-> **(1)** Mine the reviews of the 18 known competing products for friction and
+> **(1)** Mine the reviews of the 35+ known competing products for friction and
 > abandonment: days of work, no platform approval required. Only then
 > commission what follows.
 > **(2)** Consider a **shadow test** before any recruitment: take 20–30 real
@@ -423,10 +423,10 @@ fail — **weighted below the behavioural findings**, per §3.
 
 ### A prior that must be weighed against all of the above
 
-`APP-MARKET-SCAN.md` found 18 known shipping competitors holding roughly 330 App
+`APP-MARKET-SCAN.md` found 35+ known shipping competitors holding roughly 330 App
 Store ratings across four major markets, with no winner and a well-resourced
 incumbent converting its own large audience into 64 ratings. **Even a strong
-H1B result must be reconciled with that.** If growers do keep records but 18
+H1B result must be reconciled with that.** If growers do keep records but 35+
 products cannot build a business on it, the binding constraint is market size,
 not behaviour — and the study should say so rather than reporting a green light.
 

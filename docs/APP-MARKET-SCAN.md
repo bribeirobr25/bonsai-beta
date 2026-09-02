@@ -52,8 +52,8 @@ With iOS-only products the true figure is nearer 30.
 > **The count has now been wrong at 9, 14 and 18. Stop maintaining a total** —
 > it is not knowable by this method and no argument should depend on it.
 >
-> What is knowable and decision-relevant: **three products hold 10,000+ Android
-> installs; everything else sits at or near zero.**
+> What is knowable and decision-relevant: **four products hold 10,000+ Android
+> installs (§8.4); everything else sits at or near zero.**
 
 The list below remains useful as a record of *which* products exist and what
 they do. It is a floor, not a census.
@@ -127,7 +127,7 @@ largest app markets.
 > such data. Android install figures are now `OBSERVED` (see §7); Android
 > *usage* remains `UNVALIDATED`.
 
-**The category leader has 136 US ratings after six years.**
+**Superseded — see §8.2. The US iOS leader is Bonsai Album at 193 ratings, not BonsaiDo at 136.**
 
 > **Do not convert ratings into a user estimate.** An earlier version of this
 > document inferred "7,000–14,000 users" from an assumed 1–2% rating
@@ -200,11 +200,11 @@ This changes sequencing rather than conclusions. It was obtained in under an
 hour and bears directly on H1, the hypothesis that a 12–14 week, R$45k–90k
 programme was designed to test.
 
-**Recommended order:** ~~resolve the contested Android numbers~~ ✅ done (§7) → mine reviews of these 18 known products
+**Recommended order:** ~~resolve the contested Android numbers~~ ✅ done (§7) → mine reviews of these 35+ known products
 for friction and abandonment → ~18 artifact interviews → *then* decide whether
 the full observational programme is warranted.
 
-Spending R$45k to establish that people will log, when 18 known shipped
+Spending R$45k to establish that people will log, when 35+ known shipped
 products show low observable traction, is the wrong order.
 
 ---
@@ -257,3 +257,65 @@ small?"* but:
 
 That is the gap between acquisition and retained economic value — a better
 question than this scan was previously pointing at.
+
+---
+
+## 8. Amendment · 3 September 2026 · Market scan reconciliation
+
+Adopts `Bonsai_W1_Final_Package_2026-09-03/03_AMENDMENTS/…Market_Scan_v0.3`,
+verified at source. **Supersedes §0, §4 and §7 wherever they conflict.**
+
+### 8.1 Competitor count
+
+> **At least 35 distinct bonsai-specific care/tracking/journal products are
+> known to ship or have shipped.** Non-exhaustive. Active status must be
+> tracked separately from the historical universe.
+
+`OBSERVED` as a lower bound · exact universe `UNVALIDATED`.
+
+### 8.2 The US iOS leader was wrong
+
+**Bonsai Album, not BonsaiDo, leads US App Store ratings** — 193 vs 136
+(verified 3 Sep; their snapshot recorded 192/134 a day earlier — measurement
+drifts, so attach dates to these figures).
+
+| Bonsai Album | US 193 · UK 52 · DE 73 | id `465021382`, Andrew Nicolle |
+|---|---|---|
+| Bonsai Album Lite | US 44 | separate listing, same product family |
+
+**Root cause of the omission — a method flaw, not an oversight.** The earlier
+scan searched `care`, `tracker`, `journal`, `log`. The product is called
+*Album*. Lookups then used a fixed ID list built from those searches, so one
+blind spot propagated into every downstream count. **Keyword search over product
+names cannot enumerate a category.**
+
+### 8.3 The ~330 figure is superseded
+
+Adding Bonsai Album raises the reconciled four-market lower bound to
+**≥647**, before a fresh census. `OBSERVED-DERIVED LOWER BOUND` — not a census.
+
+### 8.4 Android — four products at 10K+, not three
+
+The external amendment states "at least three". Verified directly, it is **four**:
+
+| Product | Play installs | Ratings |
+|---|---|---|
+| Bonsai Care App | 10,000+ | 270 |
+| Appy Bonsai | 10,000+ | 94 |
+| **Jooni** | **10,000+** | **53** |
+| My Bonsai Book | 10,000+ | 0 |
+
+Jooni is missing from their list. **The 10K+ bracket is a category signal, not
+an incumbent anecdote.**
+
+### 8.5 Exclusions that trap every rescan
+
+- **`Bonsai by Zoom` / `com.hellobonsai.bonsai`** — 310 iOS ratings, 10,000+ Android installs. **Hello Bonsai's freelancer invoicing tool.** It outranks every genuine product in the category.
+- **`Bonsai Design Ideas`** — 10,000+ Android installs. An **image gallery**.
+- **`Bonsai Focus` (EN/ES/IT/FR/NL/DE)** — the magazine.
+- Plus games, habit trackers, AI image tools and restaurants using the word.
+
+### 8.6 What none of this establishes
+
+More attempts and more Android adoption. **Not** market size, retention,
+revenue or viability — all still `UNVALIDATED`.
