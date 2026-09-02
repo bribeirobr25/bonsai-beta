@@ -202,3 +202,125 @@ Prevalence. Retention. Whether people who stop logging would say why. Android
 users entirely. And the central question — whether growers maintain records over
 years — because **the people who abandoned these apps mostly did not write a
 review explaining it.** That remains Track B.
+
+---
+
+# Part 2 · Android · added 2 September 2026
+
+**Method:** `google-play-scraper` against the known Google Play packages, 11
+storefronts, deduplicated. **n = 99 unique written reviews.** Install brackets
+and rating counts read directly from Play listings. Dataset:
+`w1-android-reviews-dataset.json`.
+
+## 8. The install brackets are the real finding
+
+Reviews were the goal; the listing metadata turned out to matter more.
+
+| Product | Installs | Ratings | Play reviews |
+|---|---:|---:|---:|
+| **Bonsai Care App** (Empire) | **10,000+** | 270 | 26 |
+| **Appy Bonsai** | **10,000+** | 94 | 2 |
+| **Jooni** | **10,000+** | 53 | 2 |
+| My Bonsai – Bonsai Care | 1,000+ | 0 | 0 |
+| Wabi Sabi Bonsai: Tracker | 1,000+ | 0 | 0 |
+| Mokusai: Bonsai Design & Care | 1,000+ | 0 | 0 |
+| TreeMax AI Plant Care & Bonsai | 500+ | 0 | 0 |
+| BonsaiLog: Bonsai Care Journal | 100+ | 0 | 0 |
+| Bonsai Club | 100+ | 0 | 0 |
+| **Bonsai App** (`br.com.bonsaiapp`, Brazilian) | **100+** | **0** | 0 |
+| ScandinavianBonsai / RFID Tree Log | 50+ | 0 | 0 |
+| Komorebi: Bonsai Tree Care | 50+ | 0 | 0 |
+| Bonsai Care: Plant Tracker | 10+ | 0 | 0 |
+| BonsaiLog: Bonsai Care Log | 10+ | 0 | 0 |
+| BonsaiNikki – Bonsai Journal | 10+ | 0 | 0 |
+| BonsaiDiary | 10+ | 0 | 0 |
+| Bonsai Seasons | 10+ | 0 | 0 |
+| **Yoi Bonsai** | **10+** | **0** | 0 |
+| BonsaiLog | 1+ | 0 | 0 |
+
+### Three things this establishes
+
+**Three products at 10,000+ installs, then a cliff to zero.** The category is
+not one leader and a long tail — it is a small cluster with real distribution
+and a graveyard of roughly fifteen products nobody uses.
+
+**The strongest product has the weakest distribution.** Yoi Bonsai — the only
+product shipping the provenance and lineage model closest to ours, built by
+someone with 20+ years in bonsai — sits at **10+ installs, 0 ratings**.
+
+**Our supposed wedges are occupied by failures, not by winners.** The Brazilian
+app has 100+ installs and 0 ratings. And `BonsaiDiary`'s own store summary reads:
+
+> *"The story of your bonsai — documented, shared, preserved."*
+
+That is close to our working thesis statement, already shipped — at **10+
+installs**.
+
+> **This reframes §5 of `APP-MARKET-SCAN`.** The positions are not *unclaimed*
+> and they are not *won*. They are **claimed and failing**. Those are three
+> different competitive situations and we had been conflating the last two.
+> `OBSERVED`.
+
+## 9. The count was wrong a fourth time
+
+The master list held 18 known products. Play search surfaced roughly **19
+genuine bonsai care/tracking apps on Android alone**, most previously unknown —
+including one at 10,000+ installs. Adding iOS-only products puts the true figure
+somewhere near 30.
+
+> **Recommendation: stop maintaining a total.** The count has been wrong at 9,
+> 14, 18 and now again. It is not knowable by this method and no argument should
+> depend on it. What *is* knowable and decision-relevant: **three products have
+> meaningful distribution; everything else is at or near zero.**
+
+## 10. Android review themes
+
+Distribution: 72×5★, 10×4★, 4×3★, 3×2★, 10×1★ — **17% negative**, versus 27% on
+iOS. The themes repeat, with three additions.
+
+**Scheduling is non-deterministic in the leading product.**
+
+> *"I added all my trees last week and, for interest, added one of my
+> Bougainvilleas again today to see if the app is consistent, but it wasn't at
+> all. The dates were completely different for the exact same plant."*
+
+The incumbent's core function — telling you when to act — produces different
+answers for identical input. Reinforces §4.6: guidance without a defensible
+basis is the category's weak point.
+
+**Notifications fail in both directions.** Weeks of silence then five at once;
+one user uninstalled on day one over unswipeable notifications.
+
+**The paywall calculation is explicit, and it is a retention finding.**
+
+> *"I saw the very limited library and the paywall and knew I would only ever
+> truly benefit from the reminders and having a list of my trees, both things
+> that can be easily done [elsewhere]."*
+
+This user **priced the value themselves and concluded it was replicable for
+free.** That is the sharpest monetisation input in either corpus, and it goes
+straight to W2.
+
+**A Brazilian user records daily care in Portuguese.**
+
+> *"Utilizo o app pra registrar minha rotina de cuidados e informações
+> importantes dos meus [bonsais]."*
+
+Active record-keeping behaviour, in Brazil, in Portuguese — frustrated by
+subscription bugs rather than by the act of logging. Small, self-selected, but
+the first Brazilian instance of the H1B behaviour we have seen anywhere.
+`SUPPORTED SIGNAL`.
+
+## 11. What Part 2 changes
+
+| Prior position | After Android |
+|---|---|
+| "None has meaningful traction" | **Wrong.** Three products hold 10,000+ installs |
+| Positions are "occupied" | Occupied **and failing** — a different and more useful fact |
+| Portuguese wedge occupied | Occupied by a product with 0 ratings |
+| Provenance position taken by Yoi | Taken by a product with 10+ installs |
+| 18 known products | Nearer 30; **stop counting** |
+| iOS negativity 27% | Android 17% — iOS corpus over-weights complaints |
+
+The unresolved question is unchanged and now sharper: **three products acquired
+tens of thousands of installs. Nothing here tells us how many still open them.**

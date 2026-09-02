@@ -88,8 +88,12 @@ advisor* formulation.
 
 ## 5. Competitive reality
 
-**18 known distinct products**, 17 believed active. Master list and derivation
-in `APP-MARKET-SCAN.md` §0 — take the number from there, not from prose.
+**Roughly 30 products, and the count is not reliably knowable** — it has been
+wrong at 9, 14 and 18. Do not build an argument on the total.
+
+What is established: **three products hold 10,000+ Android installs** (Bonsai
+Empire 270 ratings, Appy Bonsai 94, Jooni 53). Everything else — around fifteen
+tracking apps — sits at or near zero. See `W1-COMPETITOR-REVIEW-MINING.md` §8.
 
 **iOS observable traction is low; Android is materially stronger.** Across four
 storefronts the category holds roughly 330 iOS ratings and the six-year-old
@@ -111,7 +115,7 @@ confirmed at **10K+ Google Play installs**.
 
 **Still unoccupied**, as far as the scan reached:
 
-- **Verifiable provenance** — `claim → evidence → attestation → confidence`. Transferable history is taken; *graded evidence* is not.
+- **Verifiable provenance** — `claim → evidence → attestation → confidence`. Transferable history is taken; *graded evidence* is not. **Note:** Yoi Bonsai ships the closest model to ours and has **10+ installs, 0 ratings** — the position is claimed and failing, which is different from both unclaimed and won.
 - **Aggregate outcome data** — no product turns cross-user outcomes into guidance.
 - **Comparable Journey** — surfacing similar documented cases rather than answering.
 

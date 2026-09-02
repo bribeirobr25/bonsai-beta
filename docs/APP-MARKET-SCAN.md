@@ -43,10 +43,21 @@ narrative count and disagreed with themselves.
 | 17 | MyBonsaiTag | no — not queried | identity/transfer via NFT |
 | 18 | Bonsme | **defunct** | shut down; founders cited capacity |
 
-**Derived counts — use these everywhere:**
+**Derived counts — superseded 2 Sep 2026. See `W1-COMPETITOR-REVIEW-MINING.md` §9.**
 
-- **18** known distinct products
-- **17** believed currently active
+Google Play search surfaced roughly 19 genuine bonsai care/tracking apps on
+Android alone, most absent from this list, including one at 10,000+ installs.
+With iOS-only products the true figure is nearer 30.
+
+> **The count has now been wrong at 9, 14 and 18. Stop maintaining a total** —
+> it is not knowable by this method and no argument should depend on it.
+>
+> What is knowable and decision-relevant: **three products hold 10,000+ Android
+> installs; everything else sits at or near zero.**
+
+The list below remains useful as a record of *which* products exist and what
+they do. It is a floor, not a census.
+
 - **10** measured in the iTunes sample below (the 10th, *Bonsai Care: Plant Tracker*, was added 2 Sep and verified at 0 ratings in all four storefronts, so it does not change the totals)
 
 *Excluded by criterion:* Mirai Mobile ships inside a subscription, so its
