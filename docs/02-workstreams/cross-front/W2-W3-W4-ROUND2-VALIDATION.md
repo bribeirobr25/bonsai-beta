@@ -15,9 +15,27 @@ Total new/changed material is 10,852 lines, but most of that is unchanged text
 inside re-versioned files. **Genuinely new content is ~3,471 lines** (version
 deltas plus wholly new files, excluding duplicated reference copies).
 
-**Read: ~80% of authored content**, raised across two audits from an initial 59%.
-The remainder is proved redundant by paragraph-level superset check, not skipped
-— see §0a.
+**Measured coverage, three audits in.** The round-2 packages hold **13,411 lines**
+of authored content (excluding bundled canon snapshots) plus **9,234 lines** of
+W2 archives.
+
+| Package | Authored | Read | |
+|---|---:|---:|---:|
+| W2 current | 5,498 | ~5,320 | **97%** |
+| W3 | 2,893 | ~2,200 | **76%** |
+| W4 (incl. its superseded v0.1 set) | 5,020 | ~4,000 | **80%** |
+| **Total authored** | **13,411** | **~11,520** | **~86%** |
+| W2 archives | 9,234 | superset-proved | *n/a* |
+
+An earlier version of this line said "~80%"; that was an estimate. The figure
+above is computed from file line counts. Remaining gaps are W3's README-manifest,
+parts of W3's alignment update §1–3 and W2's cross-front response §2 — all of
+whose conclusions are restated in documents read in full.
+
+W2's 9,234 archived lines were checked at **paragraph level**: v0.5 contains
+every substantive paragraph of v0.1–v0.4, the only unmatched paragraph in each
+being its own version header. Two archived files held unique content and were
+read.
 
 **Read in full:** W4-FINAL, W4 synthesis v0.2, W4 reconciliation input, W4
 response register, W4 falsification §0A; W2 synthesis §17–25, W2 structure map
@@ -58,7 +76,18 @@ carried the same authority as `reminder` (21). W3's `M1` — *"Keep your trees,
 photos and notes together"* — is built on `notes` (2%).
 
 **Applied** to `W1-HANDOFF-W2-W3-W4.md` as a tiered table with the single
-`one place` review quoted in full.
+`one place` review quoted in full, to `W3-COMMISSION.md` (the brief W3 actually
+reads), and as a pointer under `W1-FINAL.md` §12 — without altering their counts,
+which are correct.
+
+**And it already produced a wrong conclusion.** `W3-FINAL.md` §12.4 states:
+
+> *"`organize` and `one place` are close to customer language. `calm` is not."*
+
+Those are the **two weakest terms in the list** — `organize` at 5 reviews (2%)
+and `one place` at **1** (0.5%). W3 used them to license "organize"/"one place"
+while downgrading "calm organization". The downgrade of `calm` is right; the
+promotion of the other two rests on almost nothing. **Return this to W3.**
 
 ### 2 · The strategic/customer boundary is stronger than anyone claimed
 

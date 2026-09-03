@@ -78,9 +78,22 @@ simplesmente não citá-los.
 
 ## Um ponto importante vindo de W1
 
-A linguagem literal observada entre usuários inclui principalmente:
+A linguagem literal observada entre usuários **não é homogênea**. Recontagem
+contra o corpus de 196 reviews (3 set 2026) — os oito números declarados em
+`W1-FINAL.md` §12 conferem exatamente:
 
-- keep track; progress; reminders; my trees; collection; photos; notes; organize; record; one place.
+| Camada | Termo | Reviews |
+|---|---|---:|
+| **1 · bem atestado** | reminder · progress · my trees · collection · photo · keep track | **15–21** (7–10%) |
+| **2 · marginal** | record · notes · organize | **5–6** (2–3%) |
+| **3 · instância única** | **one place** | **1** (0,5%) |
+
+> **Atenção.** `one place` entrou na lista canônica de customer language com
+> **um único review** e carregava o mesmo peso que `reminder` (21). Hipóteses de
+> mensagem construídas sobre a Camada 2–3 **não** repousam sobre linguagem
+> observada da mesma forma que a Camada 1. Teste-as como hipóteses; não as
+> reporte como linguagem que usuários já usam. A tabela completa está em
+> `W1-HANDOFF-W2-W3-W4.md`.
 
 Já estes são **sínteses estratégicas**, não customer language literal:
 

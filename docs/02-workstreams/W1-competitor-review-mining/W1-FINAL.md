@@ -1,12 +1,20 @@
 # Bonsai · W1 · Competitor Review Mining · FINAL v1.1
 
-> **Received document, locally amended.** Adopted from the external
-> `Bonsai_W1_FINAL_CLOSED_2026-09-03` package. Two changes: the headline lower
-> bound reads 45 rather than 40 (five further competitors were verified at source
-> on 3 Sep 2026 — see the internal addendum at the end), and an internal addendum
-> is appended. The external front's own addendum is preserved verbatim, including
-> its "35 to 40" statement, which is a correct record of what they did.
-> The unmodified original is in `99-archive/external-packages/`.
+> **Received document, locally amended. Four changes.**
+> 1. The headline lower bound reads **45** rather than 40 — five further
+>    competitors verified at source on 3 Sep 2026; see the internal addendum.
+> 2. An **internal addendum** is appended (§A–§F).
+> 3. A **superseded-status pointer** added at §3's "Verified closure items",
+>    because that section still reports Mori Bonsai and Bonsai Buddy as verified
+>    while the registry now holds both `VERIFICATION_CONTESTED`.
+> 4. A **tiering note** added under §12's customer-language list, because that
+>    list gives equal standing to a term with 21 reviews and one with 1. §12's
+>    stated counts are unchanged and recount exactly; only their presentation is
+>    annotated.
+>
+> The external front's own addendum is preserved verbatim, including its
+> "35 to 40" statement, which is a correct record of what they did. The
+> unmodified original is in `99-archive/external-packages/`.
 
 **Closed:** 3 September 2026  
 **Status:** **CLOSED FOR BROAD REVIEW MINING**  
@@ -438,6 +446,12 @@ Therefore W3 must distinguish:
 - organize,
 - record,
 - one place.
+
+> **Tiered downstream, 3 Sep 2026 — this list is not homogeneous.** The counts
+> stated immediately above recount **exactly** against the corpus, but this list
+> flattens them: `reminder` has 21 reviews while **`one place` has 1**, and
+> `notes` and `organize` have 5. See `W1-HANDOFF-W2-W3-W4.md` for the tiered
+> table. The counts here are correct; only their equal presentation is not.
 
 ### Strategic synthesis
 - continuity,
