@@ -158,6 +158,23 @@ require none. Levels 4–5 (decision support, recommendation) depend on H7.
 
 ---
 
+## 7b. How users exit — four mechanisms `OBSERVED`
+
+1. **Implementation failure** — bugs, photo handling, sync, notifications, cumbersome input
+2. **No incremental value** — notes, alarms, Photos and Excel already do enough
+3. **Business-model rejection** — subscription refused regardless of utility
+4. **Durability / trust failure** — a decades-long hobby against software that may vanish, lose data or trap records
+
+**Only the first is fixable by building better software.** The other three are structural, and a product thesis must answer all four.
+
+Two design implications from the same evidence:
+
+> **Trust may be earned partly by making it easy to leave with your data** — export reduces adoption resistance rather than enabling churn.
+
+> **If activation requires importing 30 trees before value becomes visible, the switching cost kills the loop before it starts.** Value must arrive before the collection is entered.
+
+---
+
 ## 8. Strategic risks
 
 | Risk | Consequence |
@@ -206,6 +223,14 @@ retention or network effects.
 Activation there will be **artificially inflated** — instructor present, guided,
 novel, social. The meaningful question is whether anyone returns *because it
 gave them value* rather than because they were asked.
+
+---
+
+## 10b. The organizing question for W2–W4
+
+> **Why do dozens of tracking, care and journal products coexist while growers still resort to notebooks, spreadsheets, OneNote, photo folders and custom tools?**
+
+A better lens than *is the market too small* — it accepts that the attempts exist and asks why they have not displaced the workarounds.
 
 ---
 

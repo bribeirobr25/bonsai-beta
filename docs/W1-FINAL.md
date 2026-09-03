@@ -417,3 +417,96 @@ Jooni is missing from their list, verified at 10,000+ installs with 53 ratings.
 rescan: `Bonsai by Zoom` (Hello Bonsai's invoicing tool, 310 iOS ratings and
 10,000+ Android installs — it outranks every real product) and `Bonsai Design
 Ideas` (image gallery, 10,000+ installs).
+
+---
+
+# Part 5 · Third-pass audit — the exit matrix and what it adds
+
+Reading the ~60% of the package I had still not opened (`02_DATA` CSVs, the
+unread halves of the Exit & Persistence review and the Reconciliation) surfaced
+substantial material absent from every one of my documents.
+
+## 5.1 The competitive set is far wider than "bonsai apps"
+
+Documented destinations users actually moved **to**:
+
+| From | To | Reason |
+|---|---|---|
+| Bonsai Care App | Google + text document + phone alarms | Unskippable reminders, paywall |
+| **Mirai My Trees** | Excel + cloud/desktop photo folders | "Easier" |
+| Structured app + spreadsheet | **Adobe Lightroom** photos, metadata, keywords | Preferred metadata workflow |
+| **Bonsai Droid** | **OT2 desktop bonsai software** | Updating on PC easier |
+| Appy Bonsai | **YAMA BONSAI** | Photo-selection friction |
+| Dedicated apps (refused) | Preloaded/general phone apps | No incremental value |
+| Dedicated apps (refused) | Free spreadsheet / one-time purchase | Subscription aversion |
+| Dedicated apps (refused) | **Notebook + pencil** | Screen-time aversion |
+| Dedicated apps (refused **even if free**) | Free image/note tools | Longevity and data-loss concern |
+| Simple journals | **Printed per-tree calendar + Excel** | Organisation needs |
+
+**Lightroom, OT2 desktop software, OneNote, Evernote and paper are in the
+competitive set.** My scan compared bonsai apps to bonsai apps and measured the
+wrong universe.
+
+Also new: **Mirai My Trees** — Bonsai Mirai's own tracker — is `OBSERVED` being
+displaced by Excel and folders. The best-resourced brand in bonsai shipped a
+tracker and lost a user to a spreadsheet.
+
+## 5.2 Four exit mechanisms — a taxonomy I lacked
+
+1. **Implementation failure** — bugs, photos, sync, notifications, cumbersome input
+2. **No incremental value** — notes, alarms, Photos, Excel already do enough
+3. **Business-model rejection** — subscription refused regardless of utility
+4. **Durability / trust failure** — decades-long hobby against software that may vanish
+
+Only #1 is fixable by building better. **#2–#4 are structural.**
+
+## 5.3 A fourth segment my brief does not have
+
+**Non-software / low-screen-time** — notebook, pencil, albums, photo metadata,
+memory. Now `OBSERVED` as a real segment, not noise. Their own conclusion:
+**"a dedicated app may never be the right product for them."**
+
+## 5.4 Persistence evidence, recorded fairly
+
+- Bonsai Album — **daily use**, despite a dated interface, on a **buy-once** model
+- Bonsai Care App — **paid since launch**
+- BonsaiDo — **2+ years paid**; the data-loss incident ended with **data restored** (confirms the claim I could not verify)
+- A user who **advocates for the app while fearing its upkeep may fail** — the decades problem voiced from the user's side
+
+## 5.5 Two design implications
+
+**"Trust may be earned partly by making it easy to leave with your data."**
+Counterintuitive and sharp: export reduces adoption resistance rather than
+enabling churn.
+
+**The activation warning.** *If activation requires importing 30 trees before
+value becomes visible, switching cost kills the loop before it starts.* This
+directly constrains any MVP: value must arrive before the collection is entered.
+
+## 5.6 Their organizing question, which I would adopt
+
+> **Why do dozens of tracking/care/journal products coexist while users still
+> resort to notebooks, spreadsheets, OneNote, photo folders and custom tools?**
+
+That is a better framing than "is the market too small", and it is the right
+lens for W2–W4.
+
+## 5.7 Ten sharper open questions
+
+Replacing my generic "prevalence": what share of intentional recorders use an
+app versus spreadsheet/photos/notebook · what share sustain 6+ months · at what
+collection size does structured tracking become worth its cost · which fields
+are recorded repeatedly versus filled once · does batch logging improve
+persistence · are reminders a retention engine or a compliance illusion · does
+export increase willingness to commit a full collection · what makes users stop
+recording entirely rather than switch tools · how much paid use survives first
+renewal · which segment is large enough.
+
+## 5.8 Coverage statement
+
+I have now read: all of `01_CURRENT`, all of `03_AMENDMENTS`, all of `02_DATA`,
+the manifest and checksums. **Not read: the nine superseded files in
+`04_HISTORY_SUPERSEDED`** — these are earlier versions of documents whose
+current versions I have read, and the manifest marks them non-authoritative. A
+spot-check of the superseded count amendment surfaced no unique product not
+already captured.

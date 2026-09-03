@@ -141,6 +141,8 @@ standard they work to. Designing for them would compromise the primary audience
 and still lose to Bonsai Mirai. If a product decision would serve experts at
 beginners' expense, take the beginner.
 
+**A fourth segment, `OBSERVED` in W1: non-software / low-screen-time growers.** Notebook, pencil, albums, photo metadata, memory. They are not a failure to reach — they have chosen. W1's own conclusion: *a dedicated app may never be the right product for them.* Any market sizing must subtract them.
+
 **Also not for: people who want a houseplant.** Bonsai demands seasonal
 attention. Someone looking for a low-maintenance green object is better served
 elsewhere, and acquiring them produces churn.
@@ -159,6 +161,8 @@ Verified against live sources, August 2026.
 | **Virginia Bonsai Society** | 110+ species in a filterable table (difficulty, indoor/outdoor, USDA zone) |
 | **r/Bonsai, Bonsai Nut** | ~362k members; the free answer to any question |
 | **Hotmart, ABC do Bonsai** | Portuguese-language bonsai courses that already sell — one with 288+ reviews and 81 lessons |
+
+**The competitive set is not bonsai apps.** W1 `OBSERVED` users moving to Google plus a text document plus phone alarms; Excel and photo folders; Adobe Lightroom with metadata and keywords; OT2 desktop software; notebook and pencil; and a printed per-tree calendar alongside Excel. **Any product must beat a spreadsheet and a photo album, not merely beat Bonsai Empire.** Note too that Bonsai Mirai shipped its own tracker, *Mirai My Trees*, and a user is observed displacing it with Excel and folders.
 
 **A second cluster exists that this brief originally missed: tracking apps.**
 **At least 35 are known to ship or have shipped** (see `APP-MARKET-SCAN.md` §8) — BonsaiDo, Bonsai Empire's Care App, Appy Bonsai,

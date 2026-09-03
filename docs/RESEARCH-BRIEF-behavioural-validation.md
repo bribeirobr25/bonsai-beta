@@ -432,6 +432,28 @@ not behaviour — and the study should say so rather than reporting a green ligh
 
 ---
 
+## 7b. Ten questions W1 sharpened
+
+W1 replaced the generic prevalence framing with these. They are the concrete
+targets for Track B.
+
+1. Among growers who intentionally record trees, what share use an app versus spreadsheet, photos or notebook?
+2. What share sustain the behaviour for 6+ months?
+3. At what collection size does structured tracking become worth its cost?
+4. Which fields are recorded repeatedly versus filled once and ignored?
+5. Does batch logging materially improve persistence?
+6. Are reminders a retention engine or a notification-compliance illusion?
+7. Does export increase willingness to commit a full collection?
+8. What causes users to stop recording **entirely**, rather than switch tools?
+9. How much observed paid use survives beyond the **first renewal**?
+10. Which segment is large enough to support the venture?
+
+Question 8 is the one no review corpus can reach — people who stop recording
+leave no artefact behind to mine.
+
+---
+
+
 ## 8. What would make this research useless
 
 - **Anecdotes instead of counts.** "Many users post progressions" is not a finding. Every claim needs a numerator, a denominator, and an interval.
