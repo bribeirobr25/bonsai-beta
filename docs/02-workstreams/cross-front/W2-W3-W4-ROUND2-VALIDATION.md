@@ -15,9 +15,9 @@ Total new/changed material is 10,852 lines, but most of that is unchanged text
 inside re-versioned files. **Genuinely new content is ~3,471 lines** (version
 deltas plus wholly new files, excluding duplicated reference copies).
 
-**Read: ~2,460 lines, about 71%** (raised from 59% during the self-audit, which
-read W2's validation-matrix §26 and G10-A/B, W2's ranking §15–16, and W2's
-handoff remainder).
+**Read: ~80% of authored content**, raised across two audits from an initial 59%.
+The remainder is proved redundant by paragraph-level superset check, not skipped
+— see §0a.
 
 **Read in full:** W4-FINAL, W4 synthesis v0.2, W4 reconciliation input, W4
 response register, W4 falsification §0A; W2 synthesis §17–25, W2 structure map
@@ -31,6 +31,88 @@ conclusions are restated in W3-FINAL §26 and the W3 alignment §4–6, both rea
 full), W4 qualification §0A (~44 lines, whose content is restated in W4-FINAL §10–11).
 
 **Nothing unread contradicts anything below**, but this is 59%, not "in full".
+
+---
+
+## 0a. Full read — what only complete reading surfaced
+
+Coverage raised again to **~80% of authored content**, with the remainder proved
+redundant rather than skipped (below). Six findings came only from material read
+in this pass.
+
+### 1 · The customer-language list has a tiering defect — **fixed**
+
+`W1-FINAL.md` §12 gives review counts for **eight** terms, but its
+"Customer language" list contains **ten**. I recounted all of them against the
+196-review corpus. **All eight stated counts recount exactly** — the arithmetic
+is sound. The list is not:
+
+| Tier | Terms | Reviews |
+|---|---|---|
+| Well attested | reminder, progress, my trees, collection, photo, keep track | 15–21 (7–10%) |
+| Marginal | record, notes, organize | 5–6 (2–3%) |
+| **Single instance** | **`one place`** | **1 (0.5%)** |
+
+`one place` entered the canonical customer-language list on **one review**, and
+carried the same authority as `reminder` (21). W3's `M1` — *"Keep your trees,
+photos and notes together"* — is built on `notes` (2%).
+
+**Applied** to `W1-HANDOFF-W2-W3-W4.md` as a tiered table with the single
+`one place` review quoted in full.
+
+### 2 · The strategic/customer boundary is stronger than anyone claimed
+
+W3 says `history`, `continuity` and `ownership` *"do not appear as recurring
+vocabulary"*. Measured across 196 reviews they appear **zero times** — as do
+`journey`, `stewardship`, `legacy` and `provenance`. `memory` appears once.
+
+**Not one of the eight strategic terms occurs in any review.** W3's
+customer-language discipline is empirically vindicated, not merely prudent.
+
+### 3 · Store commission is 15%, not the 30% I assumed
+
+W2 §25.6 documents Apple's Small Business Program and Google Play at **15%**.
+My round-1 ceiling arithmetic assumed ~30%. Recomputed: €3/month × 12 = €36
+gross → ~€30.60 after 15% → roughly €22–26 net. **The verdict is unchanged** —
+5,000 payers still passes S1 and fails S2 at both 15% and 30%. The conclusion is
+robust to the error; the input was wrong.
+
+### 4 · W2 corrected itself, and it changes a round-1 line
+
+**Correction C-001**: W2's earlier reading of the Bonsai Tracker nursery program
+as *"nursery-subsidized acquisition"* was too strong. First-party material shows
+joining is **no contract and no cost to the nursery** — so it is **vendor-funded
+partner acquisition with a discounted B2B upsell**, not partner subsidy. Nursery
+payment stays `UNVALIDATED`. My round-1 note cited that program without this.
+
+### 5 · Storage is not the long-horizon killer
+
+W2's ten-year scenarios at a $0.015/GB-month benchmark: light user **$0.79**,
+very heavy **$71.28** cumulative. So the Long-Horizon Paradox is refined —
+the risk is **duration mismatch between revenue and service obligation**, not
+storage cost. Their cost-order puts photo storage **last** of five concerns,
+behind churn replacement, maintenance, store take and continuity obligation.
+
+### 6 · Real budget-context data I had not seen
+
+Badger Bonsai Society 2026 dues **$30 / $40 / $20**; a German Bonsai-Lehrer
+course at **€290 for three days**. W2's inference is the right one: *club value
+can be real while club software budget stays small*, and education WTP does not
+transfer to software WTP.
+
+### Why the unread remainder is redundant, not skipped
+
+W2's archives are 4,797 lines. I checked them at **paragraph level**, not
+headings: v0.5 contains **every substantive paragraph** of v0.1, v0.2, v0.3 and
+v0.4 — the only unmatched paragraph in each is its own version header. Reading
+them line by line would add nothing.
+
+Two archived files did hold unique content and were read: the 835-line
+cross-front response (99% not in current docs) and the round-1 handoff.
+
+Also verified: all seven of W2's §23.1 W1 boundary cases exist in our corpus
+(20–30-tree retrieval limit, 45 trees, 80 trees/30 years, 100% migration
+condition, "dozens of trees" exit, Lightroom, spreadsheet).
 
 ---
 

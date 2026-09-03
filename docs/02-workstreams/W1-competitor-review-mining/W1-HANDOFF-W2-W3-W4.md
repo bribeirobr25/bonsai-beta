@@ -1,6 +1,6 @@
 # Bonsai · W1 · Final Handoff to W2 / W3 / W4 v0.2
 
-> **Received document, locally amended. Four changes.**
+> **Received document, locally amended. Five changes.**
 > 1. One filename reference corrected to local casing (`W1-authenticity-quarantine.json`).
 > 2. Each front's **operative question** added beneath its sharpened question when
 >    W2/W3/W4 were commissioned on 3 Sep 2026. The sharpened questions are
@@ -12,6 +12,9 @@
 > 4. **`W4-A` applied** to the acquisition-moment list: `data/export concern` is
 >    reclassified as a commitment gate, resolving a contradiction with
 >    `CURRENT-EVIDENCE-AND-DECISIONS.md` §7b.
+> 5. **The customer-language list is tiered by review count.** `W1-FINAL.md` §12
+>    gives counts for eight of the ten terms; the list flattened them, and
+>    `one place` carried equal weight on a single review.
 >
 > The unmodified original is in `99-archive/external-packages/`.
 > *(This banner first said "two changes" while three had been made — corrected
@@ -82,16 +85,33 @@ question above is the crux inside it:
 ## W3 · Brand Identity & Marketing
 
 ### Literal customer language
-- keep track,
-- progress,
-- reminders,
-- my trees,
-- collection,
-- photos,
-- notes,
-- organize,
-- record,
-- one place.
+
+> **Tiered 3 Sep 2026 by recount against the 196-review corpus.** The flat list
+> below gave equal standing to terms attested in 21 reviews and terms attested in
+> **one**. All counts re-derived from `04-evidence/raw/`; the eight figures stated
+> in `W1-FINAL.md` §12 recount exactly.
+
+| Tier | Term | Reviews | Use |
+|---|---|---:|---|
+| **1 · well attested** | reminder | 21 (10%) | safe as message-hypothesis vocabulary |
+| | progress | 19 (9%) | |
+| | my trees | 18 (9%) | |
+| | collection | 17 (8%) | |
+| | photo | 17 (8%) | |
+| | keep track | 15 (7%) | |
+| **2 · marginal** | record | 6 (3%) | usable, but do not present as strongly attested |
+| | notes | 5 (2%) | |
+| | organize | 5 (2%) | |
+| **3 · single instance** | **one place** | **1 (0.5%)** | **do not treat as customer language** — one review, quoted below |
+
+The sole `one place` occurrence: *"finally one place to look up info and keep
+track of trees."*
+
+**Downstream consequence.** Message hypotheses built on Tier 2–3 vocabulary are
+not resting on observed customer language in the way Tier 1 hypotheses are. W3's
+`M1` — *"Keep your trees, photos and notes together"* — uses `notes` (2%);
+`keep a record` uses `record` (3%). Neither is wrong, but both should be tested
+as hypotheses rather than reported as language users already use.
 
 ### Strategic synthesis, not verbatim customer language
 - continuity,
