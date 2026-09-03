@@ -20,6 +20,18 @@
 8. False positives are stored in `COMPETITOR-EXCLUSION-REGISTRY.csv`.
 9. Narrative documents may cite the discovered lower bound but must not maintain a parallel master list.
 
+### Discovery rules (adopted from external front, round 2)
+
+10. Search-result **names generate candidates only**.
+11. Inclusion or exclusion requires **reading the first-party description** or
+    equivalent product evidence.
+12. Identity is then reconciled by **platform ID + developer + product role**.
+13. False positives go to `COMPETITOR-EXCLUSION-REGISTRY.csv` rather than
+    disappearing silently.
+
+These exist because a name-matching filter discarded `Bonsai Club` — a real
+competitor since 2023 — before its description was read.
+
 ## Final reconciliation corrections
 
 Added after the received cross-front feedback:
@@ -62,13 +74,83 @@ is materially larger than 45 and the exact count remains `UNVALIDATED`.
 **Measurement-flag correction.** `Bonsai Tracker` (`W1-011`) and `Yoi Bonsai`
 (`W1-012`) were flagged `included_in_standalone_distribution_measurement=true`
 while `APP-MARKET-SCAN.md` explicitly excludes them as web-first. Both are now
-`false`. Four other `web_or_other` rows remain `true` pending external
-confirmation — they are not named in the scan and were not changed unilaterally.
+`false`. Five other `web_or_other` rows were left `true` pending external
+confirmation. **Resolved in round 2** — see the derived rule below.
 
 **Verification-column coverage.** `last_verified`, `verification_method`,
 and `source_url` are populated for **12 of 45** rows (`verification_note` for 14,
 the two extra being the corrected measurement flags). The remaining 33 have no
 recorded verification date or method: a known gap, not a completed practice.
+
+## Distribution-measurement rule · adopted from external front, round 2
+
+`included_in_standalone_distribution_measurement` answers one question only:
+
+> *Can this row sit in the same App Store / Google Play standalone-demand
+> denominator as the others?*
+
+It is **not** a judgement about whether something is a real competitor. It is now
+**derived**, not hand-set. Set `true` only when all hold:
+
+1. `surface_type = standalone_app`
+2. `lifecycle_status = current`
+3. a comparable current Apple App Store or Google Play surface exists
+4. distribution is not structurally confounded by a broader subscription or
+   required hardware
+
+Otherwise `false`. So `bundled_tracker`, `desktop_software`,
+`hardware_companion`, `web_or_other`, and historical/withdrawn/defunct rows are
+all `false` for *current* standalone measurement. Historical or channel-specific
+distribution may still be measured — in a separate dataset, never mixed into this
+denominator.
+
+Applied mechanically on 3 Sep 2026. Final state: **31 `true`, 14 `false`**, with
+**0 rows violating the rule**.
+
+**Applying it exposed a defect in its own input.** The rule keys on
+`lifecycle_status`, and five rows carried the value `known` — neither `current`
+nor `historical`, and undefined in the taxonomy. Read mechanically, `known`
+silently dropped verifiably-current products out of the denominator, including
+**BonsaiDo**, the second-ranked US iOS product by ratings and a product canon
+explicitly compares against. Checked at source on 3 Sep 2026:
+
+| Row | Was | Verified | Now |
+|---|---|---|---|
+| `W1-001` BonsaiDo | `known` | 136 ratings, updated 2025-09-05 | `current` |
+| `W1-003` BonsAI Identifier: Tree Care | `known` | 32 ratings, updated 2025-10-27 | `current` |
+| `W1-015` Bonsai App | `known` | Play HTTP 200, 100+ bracket | `current` |
+| `W1-016` ScandinavianBonsai | `known` | Play HTTP **404** | `defunct` |
+| `W1-017` MyBonsaiTag | `known` | not resolved | `known` — `web_or_other`, so `false` regardless |
+
+Apple IDs for `W1-001` and `W1-003` were recorded at the same time; the registry
+previously held none for either.
+
+**The general point: a derived rule inherits the reliability of the field it
+derives from.** `lifecycle_status` is now load-bearing for measurement and should
+be treated as such.
+
+One data correction fell out of applying it. `Yoi Bonsai` (`W1-012`) was
+`surface_type = standalone_app`, which made the rule return `true` and contradict
+both `APP-MARKET-SCAN.md` and the external front's own instruction that Yoi is
+web-first. Its surface type is now `web_or_other`. An iOS listing does exist
+(`Apple:6769192304`, Diemus Inc.), so this records a *primary-surface* judgement,
+not an absence.
+
+## Verification policy · adopted from external front, round 2
+
+**Verification on dependency, not bulk backfill.** Populate `last_verified`,
+`verification_method`, `source_url` and `verification_actor` when a row is newly
+added, contested, used in a quantitative or distribution claim, used as primary
+support for a strategic conclusion, materially changed in lifecycle, or
+rechecked in normal downstream work.
+
+Older stable rows that nothing currently depends on keep their status and are
+marked `verification_actor = LEGACY_NOT_BACKFILLED`, to be filled
+opportunistically. A full 45-row rescan would consume post-closure effort, imply
+a permanence the store landscape does not have, and go stale immediately.
+
+Current actors: **33** `LEGACY_NOT_BACKFILLED`, **5** `W1_EXTERNAL_FRONT`,
+**5** `CANON_INTERNAL_FRONT`, **2** `DISPUTED_EXTERNAL_VS_INTERNAL`.
 
 ## Distribution boundary
 

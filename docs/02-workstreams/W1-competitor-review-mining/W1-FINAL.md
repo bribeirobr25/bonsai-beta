@@ -714,10 +714,13 @@ and names Bonsai Tracker and Yoi Bonsai. The received registry flagged both
 `included_in_standalone_distribution_measurement=true` — the exact confounding
 that column exists to prevent. Both are now `false`.
 
-Four other `web_or_other` rows (MyBonsaiTag, Bonsme, BonsaiPilot, my-bonsai,
-Yama Bonsai) remain `true`. They are **not** changed here because the scan does
-not name them; this is returned to the external front as a question rather than
-altered unilaterally.
+Five other `web_or_other` rows (MyBonsaiTag, Bonsme, BonsaiPilot, my-bonsai,
+Yama Bonsai) were left `true` and returned as a question rather than altered
+unilaterally. *(This sentence originally said "four" while listing five names —
+the external front caught the arithmetic error in its round-2 response.)*
+
+**Resolved in round 2.** The external front supplied a derived rule, now applied
+mechanically to all 45 rows — see §F.
 
 ## D. Governance columns are partly populated
 
@@ -733,3 +736,63 @@ The record/history finding, the general-tool substitution finding, the
 exit/persistence model and every W2/W3/W4 constraint are unaffected.
 P1 / P2 / P3 remain `UNVALIDATED`. W1 remains **CLOSED FOR BROAD REVIEW MINING**;
 registry maintenance is governance, not review mining, and does not reopen it.
+
+---
+
+## F. Round 2 response from the external front (3 September 2026)
+
+`W1-RESPONSE-TO-HANDOFF-ROUND2-2026-09-03.md`. Four returned items; three
+resolved and adopted, one still open.
+
+**Adopted in full:**
+
+- **Derived measurement rule.** `included_in_standalone_distribution_measurement`
+  answers only "can this row sit in the same store denominator?", not "is this a
+  real competitor?". Applied mechanically to all 45 rows. Final split
+  **31 `true` / 14 `false`**, 0 violations.
+
+  Applying it surfaced **two defects in its inputs**. `Yoi Bonsai` was typed
+  `standalone_app`, which made the rule contradict both the scan and their own
+  instruction — now `web_or_other`. More seriously, five rows carried
+  `lifecycle_status = known`, a value in neither the current nor historical
+  branch, which silently dropped verifiably-current products from the
+  denominator — including **BonsaiDo**, the #2 US iOS product by ratings and one
+  canon explicitly compares against. Checked at source: BonsaiDo (136 ratings,
+  updated 2025-09-05), BonsAI Identifier (32, 2025-10-27) and Bonsai App (Play
+  200, 100+) are `current`; ScandinavianBonsai's sole recorded identity 404s and
+  is now `defunct`; MyBonsaiTag is unresolved but `web_or_other`, so `false`
+  either way. **A derived rule is only as reliable as the field it derives
+  from** — `lifecycle_status` is now load-bearing.
+- **Verification on dependency, not bulk backfill.** The 33 rows nothing depends
+  on are marked `LEGACY_NOT_BACKFILLED`. Their reasoning is right: a full rescan
+  would imply a permanence the store landscape does not have.
+- **`verification_actor` column**, which makes method disagreements auditable
+  without forcing them into binary existence disputes.
+- **All five additions and `hardware_companion` accepted.** They independently
+  confirmed Bonsai Pal, Bonsai Studio - AI Care and Noble Bonsai; they could not
+  retrieve Bonsai Club or Bonsai VN - FC and accepted them on our source
+  verification.
+- **The description-read discovery rule**, now registry rules 10–13.
+
+**They caught an arithmetic error of ours.** Our round-2 handoff said "four
+other `web_or_other` rows" while listing five names. Corrected here, in the
+registry and in the handoff.
+
+**Still contested: the two Apple identities.** They ask that both be restored to
+`FIRST_PARTY_VERIFIED` and supplied exact URLs. Both return **HTTP 404** — via
+two independent HTTP clients — while control `6758486631` returns **200** on the
+identical URL pattern in the same session. Five further store searches spanning
+the US and ZA storefronts they name returned **192 distinct apps** containing
+neither product nor either stated developer.
+
+Their governance principle — *do not collapse temporary non-reproduction into
+product non-existence* — is correct, and `VERIFICATION_CONTESTED` is the field
+that implements it. Restoring `FIRST_PARTY_VERIFIED` on evidence that does not
+reproduce would collapse the disagreement in the other direction. Both rows stay
+contested, marked `DISPUTED_EXTERNAL_VS_INTERNAL`, and neither is load-bearing
+for any W1 conclusion.
+
+This is now three rounds on an item affecting two non-load-bearing rows. It
+should not consume a fourth: it settles on a timestamped capture, or on
+`lifecycle_status = withdrawn`, and otherwise stays contested indefinitely
+without cost to W2/W3/W4.
