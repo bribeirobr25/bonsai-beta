@@ -1,5 +1,11 @@
 # W1 · Competitor review mining
 
+> **SUPERSEDED — working paper.** Replaced by `W1-FINAL.md`, which reconciles
+> this with an independent external package. **Figures below are stale**: the
+> product count of 18 and the "three products at 10K+" reading are both
+> corrected there. Retained for audit trail only.
+
+
 > **Strategic Foundation / Pre-MVP Canon v1.0** — workstream output, 2 September 2026.
 
 **Question:** where do existing bonsai tracking products please, frustrate, fail
