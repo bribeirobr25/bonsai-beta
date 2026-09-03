@@ -342,8 +342,15 @@ purchase context *nursery stock*. That is the digital birth of a Tree Identity,
 which makes P2 a far more natural funnel into P1 than a content guide would be.
 
 **P3 · The teaching layer** *(candidate ceiling — depends on P1's substrate)*
-Ideas 10 + 11. Best economics of the three, and it borrows authority rather
-than claiming it. Requires P1's substrate to exist.
+Ideas 10 + 11. Potentially a higher-value professional payer, and it borrows
+authority rather than claiming it. Requires P1's substrate to exist.
+**Economics remain `UNVALIDATED`.**
+
+> **`W2-001` adopted 4 Sep 2026.** This paragraph previously read *"Best
+> economics of the three"* — the same claim corrected in
+> `CURRENT-EVIDENCE-AND-DECISIONS.md` §7. Under `S1`, P3 is not needed for
+> viability; it is the **only identified route to the `S3` aspiration**, which is
+> why it stays second validation priority.
 
 **P3 is more strategically interesting than it first appeared.** A teacher or
 practitioner is not only someone instructing — they are a legitimate source of

@@ -49,8 +49,14 @@ All four fronts have returned. W1 is **CLOSED**; W2, W3 and W4 are
 rounds and the **11-row mapping table** that aligns every W2 gate to its W3
 territory and W4 loop — start reconciliation there.
 
-Canon §11a records the aligned state, §11b the adopted frameworks, and §11c the
-one decision the fronts escalated to the founder.
+**Cross-Front Reconciliation ran on 4 September 2026** —
+`cross-front/CROSS-FRONT-RECONCILIATION.md`. Both amendments adopted, the
+validation sequence confirmed, all six growth mechanisms still eligible, no
+contradiction found that kills a loop.
+
+Canon §11a records the aligned state, §11b the adopted frameworks, §11c the
+founder decision (**`S1` authoritative**). **Next: `Step 0`, the corpus-density
+shadow test — the only step that runs without participants.**
 ### `03-registry/` — competitor identity authority
 `COMPETITOR-REGISTRY.csv` owns competitor identity. **Narrative documents may
 cite the discovered lower bound but must not maintain parallel lists** — that

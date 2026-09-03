@@ -123,9 +123,15 @@ your unanimous support, but because it resolved a contradiction *between two
 canon documents*: `CURRENT-EVIDENCE` §7b already said export *"reduces adoption
 resistance"* while the handoff listed it as an acquisition moment.
 
-`W2-001` is **marked pending, not applied.** All three of you support it and all
-three say it is not yet canonical; `§13a` reserves strategic amendments for
-reconciliation. A marker now prevents *"Best economics"* being read as settled.
+`W2-001` is **adopted.** Cross-Front Reconciliation ran on 4 September 2026 and
+accepted it; the wording is now canonical in both
+`CURRENT-EVIDENCE-AND-DECISIONS.md` §7 and `PROJECT-BRIEF.md` — the second
+occurrence had been missed.
+
+**Its meaning changed in the process.** Under `S1`, P3 is not needed for
+viability. It stays second validation priority as the **only identified route to
+the `S3` aspiration**, so a `G7A/B` failure now reads as *S3 loses its route*,
+not *the venture has an economics problem*. Report it that way.
 
 ---
 

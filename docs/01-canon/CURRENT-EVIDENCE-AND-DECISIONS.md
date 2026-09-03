@@ -160,19 +160,17 @@ Nothing is chosen. Three composites remain live, all `UNVALIDATED`:
 |---|---|---|
 | **P1** Tree identity + journey (+ provenance substrate) | Foundational candidate | Outcome aggregation explicitly **out** of the initial core |
 | **P2** Acquisition companion | Candidate funnel | Ends with "start this tree's journey", not a care guide |
-| **P3** Teacher / practitioner layer | Candidate ceiling | ~~Best economics~~ — **see pending amendment below**; also a source of **attestations**, which connects authority without claiming it |
+| **P3** Teacher / practitioner layer | Candidate ceiling | Potentially higher-value professional payer and a possible source of **attestations**. **Economics remain `UNVALIDATED`.** |
 
-> **`PROPOSED CANON AMENDMENT W2-001` — cross-front supported, not yet adopted.**
-> W2 found that *"Best economics"* asserts a conclusion inside a table headed
-> *"all `UNVALIDATED`"*. **W2, W3 and W4 all recommend `ACCEPT`.** Proposed
-> replacement: *"Candidate ceiling; potentially higher-value professional payer
-> and a possible source of attestations. Economics remain `UNVALIDATED`."*
+> **`W2-001` ADOPTED at Cross-Front Reconciliation, 4 September 2026.** The prior
+> wording — *"Best economics"* — asserted a conclusion inside a table headed
+> *"all `UNVALIDATED`"*. All three fronts recommended `ACCEPT` and none produced
+> evidence for the stronger phrase.
 >
-> **The wording is not changed here.** Under §13a a strategic amendment is
-> adjudicated at Cross-Front Reconciliation, and all three fronts state it is not
-> yet canonical. This marker exists so the phrase is not read as settled while the
-> amendment is pending. W2 ranks P3 **second-highest validation priority** — the
-> amendment restores evidence discipline, it does not downgrade P3.
+> **This does not downgrade P3.** It remains **second validation priority** — but
+> under `S1` its role changed: it is no longer a viability hedge, it is the
+> **only identified route to the `S3` aspiration**. See
+> `02-workstreams/cross-front/CROSS-FRONT-RECONCILIATION.md`.
 
 **The advice ladder** determines what can ship without authority: levels 0–3
 (record, retrieve own history, retrieve similar cases, describe outcomes)
@@ -340,7 +338,7 @@ or Story.*
 | Amendment | Support | State |
 |---|---|---|
 | `W4-A` export/data = commitment gate, not acquisition moment | W4 proposed · W2 + W3 support | **APPLIED** 3 Sep 2026 under §13a — it resolved a contradiction between two canon documents |
-| `W2-001` P3 "Best economics" → `UNVALIDATED` | W2 + W3 + W4 all `ACCEPT` | **PENDING** formal reconciliation — see §7 |
+| `W2-001` P3 "Best economics" → `UNVALIDATED` | W2 + W3 + W4 all `ACCEPT` | **ADOPTED** 4 Sep 2026 at reconciliation — see §7 |
 
 ### The decision the fronts escalated — **now made**
 
