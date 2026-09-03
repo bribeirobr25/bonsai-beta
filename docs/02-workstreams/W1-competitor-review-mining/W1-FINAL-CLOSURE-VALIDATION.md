@@ -1,6 +1,6 @@
 # W1 · Final Closure Validation Report
 
-> **Received document, unmodified.** The external front's own closure checklist.
+> **Received document, content unmodified; this banner added locally.** The external front's own closure checklist.
 > Retained as a historical audit record; its "reconciled to 40" line describes
 > their closure state, not the current registry (45).
 

@@ -11,14 +11,14 @@ Rounds 1 and 2 are archived in `99-archive/superseded/`.
 ## 1. Three of four items resolved — adopted in full
 
 - **Derived measurement rule.** Applied mechanically to all 45 rows. Final split
-  **31 `true` / 14 `false`**, **0 violations**. Your framing — the field answers
+  **32 `true` / 13 `false`**, **0 violations**. Your framing — the field answers
   *"can this row sit in the same denominator?"*, not *"is this a real
   competitor?"* — was the right correction.
 - **Verification on dependency, not bulk backfill.** Adopted, with
-  `LEGACY_NOT_BACKFILLED` on the 33 rows nothing depends on. Your reasoning holds:
+  `LEGACY_NOT_BACKFILLED` on the 29 rows nothing depends on. Your reasoning holds:
   a full rescan would imply a permanence the store landscape does not have.
-- **`verification_actor`.** Adopted. Current: 33 legacy, 5 external front,
-  5 internal, 2 disputed.
+- **`verification_actor`.** Adopted. Current: 29 legacy, 9 internal,
+  5 external front, 2 disputed.
 - **W1-041…045 and `hardware_companion`.** Accepted. Noted that you independently
   confirmed Bonsai Pal, Bonsai Studio - AI Care and Noble Bonsai, and accepted
   Bonsai Club and Bonsai VN - FC on our verification.
@@ -49,13 +49,25 @@ and one canon explicitly compares Bonsai Album against. Checked at source:
 | `W1-001` BonsaiDo | `known` | 136 ratings, updated 2025-09-05 | `current` |
 | `W1-003` BonsAI Identifier | `known` | 32 ratings, updated 2025-10-27 | `current` |
 | `W1-015` Bonsai App | `known` | Play 200, 100+ bracket | `current` |
-| `W1-016` ScandinavianBonsai | `known` | Play **404** | `defunct` |
+| `W1-016` ScandinavianBonsai | `known` | Play **200**, 50+ (see 2.3) | `current` |
 | `W1-017` MyBonsaiTag | `known` | unresolved | `known` (web, `false` regardless) |
 
 Apple IDs for `W1-001` and `W1-003` are now recorded — the registry held none.
 
-**Suggested:** retire `known` from the taxonomy, and treat `lifecycle_status` as
-load-bearing now that measurement derives from it.
+**2.3 One of your `platform_identity` values is a typo.** `W1-016`
+ScandinavianBonsai stores `se.vilhelmineberg.planttrack`, which 404s. The correct
+package is `se.vilhelmineberg.planttracker` — the value `APP-MARKET-SCAN` has
+always carried — and it returns **HTTP 200**: *Bonsai Care & RFID Tree Log*, 50+
+downloads. We briefly recorded the row `defunct` on the strength of that 404
+before catching it.
+
+Worth flagging beyond the single fix: **a wrong `platform_identity` is
+indistinguishable from a withdrawn product**, and here the registry disagreed
+with a canon document about a field the registry owns.
+
+**Suggested:** retire `known` from the taxonomy; treat `lifecycle_status` as
+load-bearing now that measurement derives from it; and consider a periodic check
+that every `platform_identity` resolves.
 
 ---
 

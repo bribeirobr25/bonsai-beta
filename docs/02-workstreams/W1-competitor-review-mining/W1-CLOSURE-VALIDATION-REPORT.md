@@ -1,5 +1,10 @@
 # W1 · Closure Validation Report
 
+> **Received document, content unmodified; this banner added locally. Historical audit record — not current state.**
+> Records validation at an earlier closure point. Counts and verification
+> statuses here predate the current registry (45 rows; two identities
+> `VERIFICATION_CONTESTED`).
+
 **Date:** 3 September 2026
 
 ## Structural checks

@@ -90,6 +90,12 @@ Current active count:
 `UNVALIDATED`
 
 ### Verified closure items
+
+> **Superseded for the first two items.** Mori Bonsai (`W1-020`) and Bonsai Care
+> App: Bonsai Buddy (`W1-029`) are now `VERIFICATION_CONTESTED` in
+> `COMPETITOR-REGISTRY.csv`, which is the identity authority. See internal
+> addendum §A and §F. The lines below record the state at external closure.
+
 - Mori Bonsai remains verified.
 - Bonsai Care App: Bonsai Buddy remains verified with regional availability.
 - Jooni is the fourth observed Google Play 10K+ product.
@@ -724,11 +730,15 @@ mechanically to all 45 rows — see §F.
 
 ## D. Governance columns are partly populated
 
-`last_verified`, `verification_method` and `source_url` are populated for 12 of
-45 rows — the 5 package additions, the 5 added here, and the 2 contested;
-`verification_note` for 14, the two extra being the corrected measurement flags.
-The remaining 33 carry no verification date or method. This is a known gap, not a
-completed practice.
+`last_verified`, `verification_method` and `source_url` are populated for **16 of
+45** rows — the 5 package additions, the 5 added here, the 2 contested, and the 4
+lifecycle corrections in §F; `verification_note` for 18, the extras being rows
+that carry a correction note but no fresh retrieval. The remaining 29 carry no
+verification date or method. This is a known gap, not a completed practice.
+
+*(Counts in this section were 12/14/33 when first written and were corrected
+after the §F lifecycle work changed them — the numbers were published before
+being re-derived.)*
 
 ## E. No strategic conclusion changes
 
@@ -749,7 +759,7 @@ resolved and adopted, one still open.
 - **Derived measurement rule.** `included_in_standalone_distribution_measurement`
   answers only "can this row sit in the same store denominator?", not "is this a
   real competitor?". Applied mechanically to all 45 rows. Final split
-  **31 `true` / 14 `false`**, 0 violations.
+  **32 `true` / 13 `false`**, 0 violations.
 
   Applying it surfaced **two defects in its inputs**. `Yoi Bonsai` was typed
   `standalone_app`, which made the rule contradict both the scan and their own
@@ -759,11 +769,15 @@ resolved and adopted, one still open.
   denominator — including **BonsaiDo**, the #2 US iOS product by ratings and one
   canon explicitly compares against. Checked at source: BonsaiDo (136 ratings,
   updated 2025-09-05), BonsAI Identifier (32, 2025-10-27) and Bonsai App (Play
-  200, 100+) are `current`; ScandinavianBonsai's sole recorded identity 404s and
-  is now `defunct`; MyBonsaiTag is unresolved but `web_or_other`, so `false`
-  either way. **A derived rule is only as reliable as the field it derives
+  200, 100+) are `current`; MyBonsaiTag is unresolved but `web_or_other`, so
+  `false` either way. **ScandinavianBonsai was briefly recorded `defunct` in
+  error** — the 404 came from the registry's stored `platform_identity`,
+  `se.vilhelmineberg.planttrack`, which is a typo for
+  `se.vilhelmineberg.planttracker`. The correct package returns HTTP 200
+  (*Bonsai Care & RFID Tree Log*, 50+); the row is `current` and the identity is
+  fixed. A wrong `platform_identity` reads exactly like a withdrawn product. **A derived rule is only as reliable as the field it derives
   from** — `lifecycle_status` is now load-bearing.
-- **Verification on dependency, not bulk backfill.** The 33 rows nothing depends
+- **Verification on dependency, not bulk backfill.** The 29 rows nothing depends
   on are marked `LEGACY_NOT_BACKFILLED`. Their reasoning is right: a full rescan
   would imply a permanence the store landscape does not have.
 - **`verification_actor` column**, which makes method disagreements auditable

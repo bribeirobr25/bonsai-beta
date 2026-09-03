@@ -92,7 +92,9 @@ advisor* formulation.
 
 `COMPETITOR-REGISTRY.csv` is the single source of truth for W1 competitor identity. Narrative documents should not maintain independent product totals.
 
-**Two caveats on the count.** First, 45 came from adding five products found in a *single* US App Store query on 3 Sep 2026 — one storefront, one search term. That a single query added five means the true universe is materially larger, and `UNVALIDATED` is the honest status. Second, two Apple identities (`W1-020` Mori Bonsai, `W1-029` Bonsai Care App: Bonsai Buddy) are `VERIFICATION_CONTESTED`: the external front reports first-party reproduction, our independent re-check found 0 of 52 storefronts and HTTP 404 while a control resolved 52/52. Neither is load-bearing. See `W1-FINAL.md`, internal addendum.
+**Two caveats on the count.** First, 45 came from adding five products found in a *single* US App Store query on 3 Sep 2026 — one storefront, one search term. That a single query added five means the true universe is materially larger, and `UNVALIDATED` is the honest status. Second, two Apple identities (`W1-020` Mori Bonsai, `W1-029` Bonsai Care App: Bonsai Buddy) are `VERIFICATION_CONTESTED` after three rounds: the external front reports first-party reproduction and supplied exact URLs; those URLs return HTTP 404 under two independent clients, the IDs return 0 of 52 storefronts, and five searches across the storefronts they name returned 192 distinct apps containing neither product — while a control passes every method. Held as contested, not refuted. Neither is load-bearing. See `W1-FINAL.md`, internal addendum §A and §F.
+
+**Competitor identity is registry-owned, and the registry has been wrong.** Applying the derived measurement rule on 3 Sep 2026 exposed two data defects: `Yoi Bonsai` was mis-typed as `standalone_app`, and `ScandinavianBonsai` carried a **typo'd `platform_identity`** that 404s, which briefly caused a live product to be recorded `defunct`. Both fixed. Treat registry fields as evidence to check, not as settled fact.
 
 ### Distribution observations
 

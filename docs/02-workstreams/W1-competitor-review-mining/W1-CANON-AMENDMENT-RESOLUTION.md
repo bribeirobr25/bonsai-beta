@@ -1,5 +1,11 @@
 # W1 · Canon Amendment Resolution · 2026-09-03
 
+> **Received document, content unmodified; this banner added locally. Historical audit record — not current state.**
+> Records how an earlier round of amendments was resolved. Superseded in part:
+> §A7 states Mori Bonsai and Bonsai Buddy remain verified; both are now
+> `VERIFICATION_CONTESTED` in `COMPETITOR-REGISTRY.csv`, which is the identity
+> authority. Product counts here predate the current registry (45).
+
 **Status:** ACCEPTED FOR THE PRE-MVP CANON  
 **Scope:** W1 · Competitor Review Mining  
 **Effective date:** 3 September 2026  

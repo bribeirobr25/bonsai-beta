@@ -198,6 +198,16 @@ The Android gap referenced in the original scan is now **closed for W1 purposes*
 (§7 and the current registry). The Brazilian iOS count still must not be read as
 an empty-market signal because Android distribution is materially larger.
 
+> **Which rows may enter a store denominator is no longer decided here.** As of
+> 3 September 2026 it is a **derived** field in `COMPETITOR-REGISTRY.csv`,
+> `included_in_standalone_distribution_measurement`, set `true` only for rows
+> that are `standalone_app` **and** `current` **and** have a comparable store
+> surface **and** are not confounded by a subscription or required hardware.
+> Current state: **32 of 45 rows** are in measurement. The exclusions listed
+> above are consistent with it. See `COMPETITOR-REGISTRY.md` for the full rule —
+> and note that applying it exposed two data defects, so the rule is only as
+> reliable as `surface_type` and `lifecycle_status`.
+
 ---
 
 ## 6. Consequence for the research programme

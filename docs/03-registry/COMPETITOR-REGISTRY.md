@@ -78,8 +78,8 @@ while `APP-MARKET-SCAN.md` explicitly excludes them as web-first. Both are now
 confirmation. **Resolved in round 2** — see the derived rule below.
 
 **Verification-column coverage.** `last_verified`, `verification_method`,
-and `source_url` are populated for **12 of 45** rows (`verification_note` for 14,
-the two extra being the corrected measurement flags). The remaining 33 have no
+and `source_url` are populated for **16 of 45** rows (`verification_note` for 18;
+the extras are rows carrying a correction note but no fresh retrieval). The remaining 33 have no
 recorded verification date or method: a known gap, not a completed practice.
 
 ## Distribution-measurement rule · adopted from external front, round 2
@@ -104,7 +104,7 @@ all `false` for *current* standalone measurement. Historical or channel-specific
 distribution may still be measured — in a separate dataset, never mixed into this
 denominator.
 
-Applied mechanically on 3 Sep 2026. Final state: **31 `true`, 14 `false`**, with
+Applied mechanically on 3 Sep 2026. Final state: **32 `true`, 13 `false`**, with
 **0 rows violating the rule**.
 
 **Applying it exposed a defect in its own input.** The rule keys on
@@ -119,11 +119,22 @@ explicitly compares against. Checked at source on 3 Sep 2026:
 | `W1-001` BonsaiDo | `known` | 136 ratings, updated 2025-09-05 | `current` |
 | `W1-003` BonsAI Identifier: Tree Care | `known` | 32 ratings, updated 2025-10-27 | `current` |
 | `W1-015` Bonsai App | `known` | Play HTTP 200, 100+ bracket | `current` |
-| `W1-016` ScandinavianBonsai | `known` | Play HTTP **404** | `defunct` |
+| `W1-016` ScandinavianBonsai | `known` | Play HTTP **200**, 50+ bracket | `current` |
 | `W1-017` MyBonsaiTag | `known` | not resolved | `known` — `web_or_other`, so `false` regardless |
 
 Apple IDs for `W1-001` and `W1-003` were recorded at the same time; the registry
 previously held none for either.
+
+**A registry data error surfaced during this check.** `W1-016` was first recorded
+`defunct` on an HTTP 404 — but that check used the registry's stored
+`platform_identity`, `se.vilhelmineberg.planttrack`, which is a **typo**. The
+correct package, `se.vilhelmineberg.planttracker`, is the one `APP-MARKET-SCAN`
+has always carried, and it returns **HTTP 200** — *Bonsai Care & RFID Tree Log*,
+50+ downloads. The row is `current` and the identity is corrected.
+
+Two lessons: a wrong `platform_identity` reads exactly like a withdrawn product,
+and the registry disagreed with a canon document on a field the registry is
+supposed to own.
 
 **The general point: a derived rule inherits the reliability of the field it
 derives from.** `lifecycle_status` is now load-bearing for measurement and should
@@ -149,8 +160,8 @@ marked `verification_actor = LEGACY_NOT_BACKFILLED`, to be filled
 opportunistically. A full 45-row rescan would consume post-closure effort, imply
 a permanence the store landscape does not have, and go stale immediately.
 
-Current actors: **33** `LEGACY_NOT_BACKFILLED`, **5** `W1_EXTERNAL_FRONT`,
-**5** `CANON_INTERNAL_FRONT`, **2** `DISPUTED_EXTERNAL_VS_INTERNAL`.
+Current actors: **29** `LEGACY_NOT_BACKFILLED`, **9** `CANON_INTERNAL_FRONT`,
+**5** `W1_EXTERNAL_FRONT`, **2** `DISPUTED_EXTERNAL_VS_INTERNAL`.
 
 ## Distribution boundary
 

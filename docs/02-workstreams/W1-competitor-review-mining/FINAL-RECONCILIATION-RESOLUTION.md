@@ -1,6 +1,6 @@
 # W1 · Final Reconciliation Resolution
 
-> **Received document, unmodified.** The external front's record of how it
+> **Received document, content unmodified; this banner added locally.** The external front's record of how it
 > resolved the items we returned. Retained as a historical audit record: its
 > counts describe the state at their closure (40), not the current registry (45).
 > Two of its claims did not reproduce in our independent re-check — see
