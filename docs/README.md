@@ -56,6 +56,8 @@ practice caused the count to diverge four times.
 | `W1-derived-evidence-clean.jsonl` | 82 usable derived units after quarantine |
 | `W1-authenticity-quarantine.json` | 6 units retained for audit, excluded from inference |
 | `raw/` | 97 Apple + 99 Android structured reviews |
+| `W2-PRICING-TEARDOWN.md` | Track A pricing/packaging teardown, Apple US, 3 Sep 2026 |
+| `W2-pricing-teardown-apple.csv` | 27 products: price, ratings, dates, heuristic model |
 
 ### `05-outbound/` — sent to the external work front
 `HANDOFF-TO-EXTERNAL-FRONT.md` — what was adopted, how it was verified, and

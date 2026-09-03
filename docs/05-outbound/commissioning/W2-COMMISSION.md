@@ -124,8 +124,38 @@ Prossiga a partir deste novo baseline, revise qualquer trabalho anterior de W2 f
 
 Não comece escolhendo preço, subscription ou produto. Comece pela estrutura econômica do problema e pelos segmentos/comportamentos que poderiam sustentar valor econômico.
 
-## Uma observação sobre evidência disponível agora
+## Evidência Track A já produzida para W2 (3 de setembro de 2026)
 
-W1 tinha uma fonte de dados; W2 não tem equivalente óbvio, e tudo que é load-bearing (H1B, WTP, retenção) está `UNVALIDATED` e bloqueado em acesso a participantes. Existe, porém, evidência observável hoje sem participantes: **pricing e packaging são públicos** em App Store e Google Play para as linhas do registry.
+Antes de W2 abrir, um teardown de pricing/packaging foi executado sem
+participantes — `04-evidence/W2-PRICING-TEARDOWN.md` e o dataset
+`W2-pricing-teardown-apple.csv`. Cobertura: `platform_identity` do registry subiu
+de 31 para **41 de 45**; das 29 identidades Apple, **27 resolveram**.
 
-Uma amostra de 18 produtos do registry presentes numa única busca US mostrou **17 de 18 gratuitos no download**, com um único produto pago à frente — **Bonsai Album, US$ 7,99** — que é também o líder em número de avaliações (**193**). Isto não estabelece causalidade e não deve ser tratado como tal, mas indica que um teardown de pricing/packaging por todo o registry é um módulo Track A executável agora e produziria evidência real, não apenas raciocínio. Considere-o como primeiro passo, com o backfill dos 14 `platform_identity` ausentes como pré-requisito.
+`OBSERVED`, storefront US, uma data, ratings não são usuários:
+
+| Medida | Valor |
+|---|---|
+| Grátis no download | **26 de 27** |
+| Pago no download | **1** — Bonsai Album, **US$ 7,99** |
+| Mediana de ratings | **0** |
+| Produtos com zero ratings | **19 de 27 (70%)** |
+| Top 3 concentram | **93%** de 755 |
+| Lançados em 2026 | **18 de 27** |
+| Atualizados em 2026 | **22 de 27** |
+
+Três leituras que W2 deve carregar:
+
+1. **Free-by-default é convenção, não requisito demonstrado.** O único produto
+   pago no download é também o segundo em ratings — mas lançou em 2011, então
+   idade sozinha pode explicar. Não trate como causalidade.
+2. **Construir não é a parte difícil; ser encontrado é.** A mediana tem zero
+   ratings enquanto permanece ativamente mantida.
+3. **Mirai Mobile lidera com 379 ratings**, o dobro do Bonsai Album — e está
+   excluído da medição standalone porque sua distribuição vem da membership. O
+   produto mais avaliado da categoria **não venceu por ser um tracker melhor**.
+
+O modelo de monetização por linha é **heurístico** (keyword matching sobre
+descrições) e está rotulado como tal no dataset. Confirmar as tiers reais de IAP
+exige ler as 27 listagens — é o próximo incremento óbvio e é limitado.
+
+Isto **não** responde a ceiling question. Se algo, a torna mais aguda.

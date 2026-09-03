@@ -2,3 +2,4 @@ exclusion_id,name,developer,surface,action,reason
 EX-001,Bonsai by Zoom,Hello Bonsai,iOS + Android,exclude,"Freelancer invoicing/business management tool; bonsai is the brand name, not the tree domain."
 EX-002,Bonsai Design Ideas,,Google Play,exclude,Image gallery/design-inspiration app; no bonsai care/tracking/journal behavior.
 EX-003,Bonsai Focus,,Magazine / digital publication,exclude,Bonsai magazine/content publication; not a longitudinal tree record/care product for this registry.
+EX-004,MyBons.ai,Joey Chitla,Apple (6758892243),exclude,"AI journaling/reflection app - ""holds what you wrote against centuries of philosophy, psychology, poetry"". Not bonsai software; the name is a false positive. Surfaced 3 Sep 2026 as a fuzzy-name candidate for W1-033 MyBonsai (CRESPI BONSAI) and rejected on reading the description."
