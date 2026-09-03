@@ -443,9 +443,23 @@ annual contribution — **not targets**. See §11c.
 **Rejected as master territories:** tracking · organization · easy logging ·
 reminders · AI · expert care · generic community · **horticultural** safety.
 
-**Never promise:** *forever* · *permanent* · *never lose your history* ·
-*never kill another bonsai* · *expert care* · *the bonsai community* ·
-*verified tree history* as a blanket claim.
+**Three further dispositions**, which are neither kept nor rejected:
+`Story` → **absorbed** into Journey/Living History · `Legacy` → **parked**, too
+distal from current consumer evidence · `Calm organization` → **downgraded**,
+because *organize* is supported and *calm* is inference.
+
+**Never promise — W3's list, verbatim.** These are the exact strings not to use:
+
+> *Never kill another bonsai* · *Know exactly what your tree needs* ·
+> *We'll tell you the right thing to do* · *Expert care for every bonsai* ·
+> *AI you can trust with your tree* · *Verified tree history* as a blanket claim ·
+> *Learn from thousands of comparable trees* ·
+> *The permanent home for your bonsai history* · *Your bonsai forever* ·
+> *The bonsai community* · *Everything you need for bonsai*
+
+Added in v1.1, on Continuity's truth ceiling: no unconditional permanence
+language — *forever* · *permanent* · *always available* · *never lose your
+history* — until the obligation can be operationally supported.
 
 **Language:** concrete verbs early (`see` `remember` `keep` `follow` `record`);
 abstract nouns are strategy-only; avoid database/inventory/data-entry vocabulary;

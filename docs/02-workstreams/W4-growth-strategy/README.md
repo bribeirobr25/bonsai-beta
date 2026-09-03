@@ -9,7 +9,7 @@
 2. `W4-PRE-RECONCILIATION-SYNTHESIS-v0.2.md` — cross-front convergence map
 3. `W4-GROWTH-LOOP-QUALIFICATION-v0.2.md` — moments, actors, loops, gates
 4. `W4-LOOP-FALSIFICATION-DESIGN-v0.2.md` — the test designs
-5. `W4-DECISION-REGISTER-v0.2.md` — 25 decisions and their status
+5. `W4-DECISION-REGISTER-v0.2.md` — 28 decisions and their status
 6. `W4-CROSS-FRONT-RECONCILIATION-INPUT.md` — what W4 asks reconciliation to decide
 
 ## Candidate mechanisms

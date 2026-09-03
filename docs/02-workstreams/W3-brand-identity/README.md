@@ -11,7 +11,7 @@
 4. `W3-BRAND-TERRITORY-EVALUATION.md` — scorecard and kill list
 5. `W3-MESSAGING-AND-LANGUAGE.md` — hypotheses and prohibited promises
 6. `W3-AUDIENCE-MEANING-MAP.md`
-7. `MESSAGE-TO-W1/W2/W4.md` — communication history
+7. `MESSAGE-TO-W1.md`, `MESSAGE-TO-W2.md`, `MESSAGE-TO-W4.md` — communication history
 
 ## Architecture
 
