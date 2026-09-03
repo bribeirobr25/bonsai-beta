@@ -18,6 +18,49 @@ Antes de prosseguir, leia nesta ordem:
 6. `RESEARCH-BRIEF-behavioural-validation.md`
 7. `COMPETITOR-REGISTRY.md` apenas quando necessário para questões competitivas/econômicas
 
+## A pilha de perguntas — leia antes de responder qualquer uma
+
+Existem **quatro camadas** de pergunta neste projeto e elas não competem entre si.
+Nenhuma frente deve responder só uma. A ordem é do geral para o específico:
+
+| Camada | Onde vive | Escopo |
+|---|---|---|
+| **1 · Organizing question** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §10b | compartilhada por W2, W3 e W4 |
+| **2 · Diagnóstico corrente** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §7a | explicação #3, marcada em canon como *a melhor disponível* |
+| **3 · Perguntas de canon por frente** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §11 | específicas, concretas, **frequentemente esquecidas** |
+| **4 · Sharpened + operative question** | `W1-HANDOFF-W2-W3-W4.md` e este brief | o crux e o enquadramento desta frente |
+
+**Camada 1 — organizing question (compartilhada):**
+
+> **Why do dozens of tracking, care and journal products coexist while growers
+> still resort to notebooks, spreadsheets, OneNote, photo folders and custom
+> tools?**
+
+Canon nota que esta é uma lente melhor do que *o mercado é pequeno demais*: ela
+aceita que as tentativas existem e pergunta por que não deslocaram os workarounds.
+
+**Camada 2 — o diagnóstico que canon considera o mais útil (§7a, explicação #3):**
+
+> **o usuário paga o custo de logging toda vez que toca numa árvore, enquanto
+> parte do benefício chega meses ou anos depois.**
+
+Canon é explícito: isto reenquadra o problema de *logging friction* para um
+**descompasso temporal entre custo e benefício**, e aponta para remédios
+diferentes — batch capture, deferred structuring, e fazer valor inicial chegar
+antes de a coleção estar inteira no sistema. Não trate como hipótese nova; trate
+como o estado atual do diagnóstico, a ser confirmado ou contradito.
+
+**Camada 3 — perguntas de canon específicas de W2 (§11.2), que este brief não substitui:**
+
+> **the category leader converted substantial distribution into tens of thousands
+> of downloads — how many became recurring or paying users, and why?**
+
+> **would 5,000 users at €3/month be success or failure here?**
+
+A segunda é a *ceiling question* e é concreta o bastante para ser respondida com
+aritmética e premissas explícitas. Ela não aparece no handoff de W1 e é fácil de
+perder. **Responda-a.**
+
 ## Contexto de governança
 
 - W1 está formalmente **CLOSED FOR BROAD REVIEW MINING**.
@@ -48,6 +91,25 @@ Campos do registry já estiveram errados — um `surface_type` incorreto e um `p
 Dentro dela permanece o crux registrado no handoff de W1, que continua vinculante:
 
 > **What value is strong and immediate enough to justify payment when a grower can solve much of the job with tools already owned, while the historical payoff may arrive months or years later?**
+
+## Riscos de canon que pertencem a W2 (§8)
+
+Não são opcionais; são restrições sobre qualquer estrutura econômica proposta.
+
+- **Product mortality — o "decades problem".** Bonsai são mantidos por décadas.
+  Quanto mais o produto se torna o system of record, mais consequente fica a
+  morte do produto. Canon registra um grower que **recusaria tal app mesmo de
+  graça**. Um modelo econômico que aumente o risco de descontinuidade ataca a
+  própria proposta de valor.
+- **Durability of the record.** Um usuário pagante de dois anos relatou perda
+  total de dados. Para um system of record, durabilidade **é** a proposta de
+  valor — export, backup e garantias são core, não polimento posterior. Isso tem
+  custo, e o custo é econômico.
+- **Market ceiling.** `UNVALIDATED`. É exatamente o que a ceiling question de
+  §11.2 existe para atacar.
+
+Uma tensão que W2 deve carregar explicitamente: o modelo que melhor captura
+valor pode ser o que mais aumenta o risco de continuidade percebido.
 
 ## O que quero de você
 

@@ -1,12 +1,18 @@
 # Bonsai · W1 · Final Handoff to W2 / W3 / W4 v0.2
 
-> **Received document, locally amended.** Two changes. One filename reference was
-> corrected to match local casing (`W1-authenticity-quarantine.json`). Each
-> front's **operative question** was added beneath its sharpened question when
-> W2/W3/W4 were commissioned on 3 Sep 2026 — the sharpened questions are
-> preserved verbatim, because the operative questions are broader and the two
-> must not be confused at Cross-Front Reconciliation. The unmodified original is
-> in `99-archive/external-packages/`.
+> **Received document, locally amended. Three changes.**
+> 1. One filename reference corrected to local casing (`W1-authenticity-quarantine.json`).
+> 2. Each front's **operative question** added beneath its sharpened question when
+>    W2/W3/W4 were commissioned on 3 Sep 2026. The sharpened questions are
+>    preserved verbatim — the operative questions are broader and the two must not
+>    be confused at Cross-Front Reconciliation.
+> 3. A **registry-usage guard** added under *Competitive governance correction*:
+>    the distribution-measurement filter, the two contested identities, and a
+>    warning that registry fields have been wrong.
+>
+> The unmodified original is in `99-archive/external-packages/`.
+> *(This banner first said "two changes" while three had been made — corrected
+> in the same session's self-audit.)*
 
 **Date:** 3 September 2026  
 **W1 status:** CLOSED FOR BROAD REVIEW MINING  

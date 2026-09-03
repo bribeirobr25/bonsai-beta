@@ -24,6 +24,48 @@ Antes de prosseguir, leia nesta ordem:
 > desta lista. `DOMAIN-MODEL.md` é uma *extraction spec* (taxonomia de técnicas,
 > contraindicações, entity shape, recording model) e é onde `attestation` aparece.
 
+## A pilha de perguntas — leia antes de responder qualquer uma
+
+Existem **quatro camadas** de pergunta neste projeto e elas não competem entre si.
+Nenhuma frente deve responder só uma. A ordem é do geral para o específico:
+
+| Camada | Onde vive | Escopo |
+|---|---|---|
+| **1 · Organizing question** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §10b | compartilhada por W2, W3 e W4 |
+| **2 · Diagnóstico corrente** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §7a | explicação #3, marcada em canon como *a melhor disponível* |
+| **3 · Perguntas de canon por frente** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §11 | específicas, concretas, **frequentemente esquecidas** |
+| **4 · Sharpened + operative question** | `W1-HANDOFF-W2-W3-W4.md` e este brief | o crux e o enquadramento desta frente |
+
+**Camada 1 — organizing question (compartilhada):**
+
+> **Why do dozens of tracking, care and journal products coexist while growers
+> still resort to notebooks, spreadsheets, OneNote, photo folders and custom
+> tools?**
+
+Canon nota que esta é uma lente melhor do que *o mercado é pequeno demais*: ela
+aceita que as tentativas existem e pergunta por que não deslocaram os workarounds.
+
+**Camada 2 — o diagnóstico que canon considera o mais útil (§7a, explicação #3):**
+
+> **o usuário paga o custo de logging toda vez que toca numa árvore, enquanto
+> parte do benefício chega meses ou anos depois.**
+
+Canon é explícito: isto reenquadra o problema de *logging friction* para um
+**descompasso temporal entre custo e benefício**, e aponta para remédios
+diferentes — batch capture, deferred structuring, e fazer valor inicial chegar
+antes de a coleção estar inteira no sistema. Não trate como hipótese nova; trate
+como o estado atual do diagnóstico, a ser confirmado ou contradito.
+
+**Camada 3 — território de canon específico de W3 (§11.3), que este brief não substitui:**
+
+> **which territory is credible without promising expertise we lack?**
+> Safety / memory / progress / story / learning / legacy.
+
+Esses seis territórios são o ponto de partida registrado em canon. Não são uma
+lista fechada e não foram validados — mas se W3 propuser um território fora
+deles, diga explicitamente por que os seis são insuficientes, em vez de
+simplesmente não citá-los.
+
 ## Contexto de governança
 
 - W1 está formalmente **CLOSED FOR BROAD REVIEW MINING**.
@@ -57,6 +99,20 @@ Dentro dela permanecem as duas restrições registradas no handoff de W1, que co
 > **What meaning can make longitudinal recordkeeping feel valuable rather than bureaucratic without claiming expertise the venture has not earned?**
 
 Ou seja: *valioso em vez de burocrático*, e *sem reivindicar expertise que a venture não conquistou*.
+
+## Riscos de canon que pertencem a W3 (§8)
+
+- **Status creep — um registro degenerando em ranking, contradizendo a intenção
+  declarada.** Este é o risco de marca mais direto do projeto e deve ser tratado
+  como restrição de projeto, não como algo a evitar por bom gosto. Conecta-se à
+  tensão de beginners já descrita abaixo: uma comunidade que vira placar
+  reintroduz exatamente o desdém por starter plants que canon registra como
+  `OBSERVED`.
+- **Authority gap.** O advisor pode nunca se tornar confiável. Território de
+  marca que prometa autoridade herda esse risco.
+- **Durability of the record.** Canon registra perda total de dados por um
+  usuário pagante de dois anos. Promessas de memória de longo prazo são
+  verificáveis pelo usuário e punidas quando falham.
 
 ## O que quero de você
 

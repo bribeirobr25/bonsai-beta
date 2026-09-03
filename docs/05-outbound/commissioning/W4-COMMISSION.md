@@ -18,6 +18,45 @@ Antes de prosseguir, leia nesta ordem:
 6. `RESEARCH-BRIEF-behavioural-validation.md`
 7. `COMPETITOR-REGISTRY.md` apenas quando necessário para análise de distribution actors ou competitive acquisition
 
+## A pilha de perguntas — leia antes de responder qualquer uma
+
+Existem **quatro camadas** de pergunta neste projeto e elas não competem entre si.
+Nenhuma frente deve responder só uma. A ordem é do geral para o específico:
+
+| Camada | Onde vive | Escopo |
+|---|---|---|
+| **1 · Organizing question** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §10b | compartilhada por W2, W3 e W4 |
+| **2 · Diagnóstico corrente** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §7a | explicação #3, marcada em canon como *a melhor disponível* |
+| **3 · Perguntas de canon por frente** | `CURRENT-EVIDENCE-AND-DECISIONS.md` §11 | específicas, concretas, **frequentemente esquecidas** |
+| **4 · Sharpened + operative question** | `W1-HANDOFF-W2-W3-W4.md` e este brief | o crux e o enquadramento desta frente |
+
+**Camada 1 — organizing question (compartilhada):**
+
+> **Why do dozens of tracking, care and journal products coexist while growers
+> still resort to notebooks, spreadsheets, OneNote, photo folders and custom
+> tools?**
+
+Canon nota que esta é uma lente melhor do que *o mercado é pequeno demais*: ela
+aceita que as tentativas existem e pergunta por que não deslocaram os workarounds.
+
+**Camada 2 — o diagnóstico que canon considera o mais útil (§7a, explicação #3):**
+
+> **o usuário paga o custo de logging toda vez que toca numa árvore, enquanto
+> parte do benefício chega meses ou anos depois.**
+
+Canon é explícito: isto reenquadra o problema de *logging friction* para um
+**descompasso temporal entre custo e benefício**, e aponta para remédios
+diferentes — batch capture, deferred structuring, e fazer valor inicial chegar
+antes de a coleção estar inteira no sistema. Não trate como hipótese nova; trate
+como o estado atual do diagnóstico, a ser confirmado ou contradito.
+
+**Camada 3 — instrução de canon específica de W4 (§11.4), que este brief não substitui:**
+
+> **which loops, not which channels.**
+
+Curta, e já refletida na instrução principal deste brief. Registrada aqui para
+que a pilha de perguntas fique completa nas três frentes.
+
 ## Contexto de governança
 
 - W1 está formalmente **CLOSED FOR BROAD REVIEW MINING**.
@@ -65,6 +104,36 @@ Dentro dela permanece o crux registrado no handoff de W1:
 > **Which acquisition moment produces differentiated value before migration and repeated logging costs dominate the experience?**
 
 **A cláusula final da pergunta central é deliberada e importa além de W4.** Todas as hipóteses load-bearing do projeto estão `UNVALIDATED` e bloqueadas em acesso a participantes — H1B prevalence, retention, WTP. Um mecanismo de growth que também gera evidência vale mais do que um que apenas gera usuários. W4 é a única frente formalmente encarregada de procurar isso; não trate a cláusula como retórica.
+
+## Riscos de canon que pertencem a W4 (§8)
+
+- **Cold start — parcialmente mitigado.** Canon registra que o valor **não exige
+  densidade de rede no dia um**. Isso amplia o espaço de loops viáveis, e deve
+  ser usado em vez de assumido como problema.
+- **Product mortality e durability.** Loops que dependem de o usuário migrar a
+  coleção inteira aumentam o custo de saída *e* a exposição ao risco de
+  descontinuidade que canon registra.
+
+## Uma oportunidade de validação existente, e seus limites (§10)
+
+Canon registra um **workshop para iniciantes em cerca de um mês** (90–120 min,
+participantes saem com a primeira árvore), coorte zero-a-baixa experiência.
+
+Isto é relevante para a cláusula final da pergunta central — mecanismos que
+também produzem evidência — mas os limites são de canon e vinculantes:
+
+- **Útil para:** onboarding de iniciante, vocabulário, first-tree anxiety,
+  logging friction inicial, retorno em 7/14/30 dias.
+- **Não útil para:** growers experientes, provenance, transfers, willingness to
+  pay, workflows de praticante, retenção de longo prazo, efeitos de rede.
+- **A ativação ali será artificialmente inflada** — instrutor presente, guiado,
+  novo, social. A pergunta que importa é se alguém retorna *porque teve valor*,
+  não porque foi solicitado.
+
+> **Regra canônica, e ela é dura:** oportunidades de validação são **inputs da
+> venture, não dependências dela**. Se essa oportunidade desaparecesse amanhã, a
+> direção do trabalho não deveria mudar. Não proponha um growth loop que dependa
+> dela.
 
 ## O que quero de você
 
