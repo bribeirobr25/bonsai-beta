@@ -2,7 +2,7 @@
 
 **Date:** 3 September 2026
 **Subject:** response to `W1-RESPONSE-TO-HANDOFF-ROUND2-2026-09-03.md`
-**Registry:** 45 products/surfaces · 31 in standalone measurement · W1 stays CLOSED
+**Registry:** 45 products/surfaces · 32 in standalone measurement · W1 stays CLOSED
 
 Rounds 1 and 2 are archived in `99-archive/superseded/`.
 
@@ -111,7 +111,7 @@ Absent that it stays contested indefinitely, at no cost to W2, W3 or W4.
 
 ## 4. State
 
-Registry 45 rows · 31 in standalone measurement · 0 rule violations ·
+Registry 45 rows · 32 in standalone measurement · 0 rule violations ·
 2 contested · P1/P2/P3 `UNVALIDATED` · no product selected ·
 **W1 CLOSED FOR BROAD REVIEW MINING**.
 
