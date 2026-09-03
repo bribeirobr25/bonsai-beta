@@ -4,6 +4,36 @@
 **Scope:** `Bonsai_W2_PRE_RECONCILIATION`, `Bonsai_W3_FINAL`, `Bonsai_W4_Growth_Strategy_Current_Package`
 **Integrity:** 45 of 45 files verify against the senders' own `SHA256SUMS.txt` (11 / 19 / 15)
 
+## 0. Measured read coverage — stated, not claimed
+
+An earlier version of this document said the packages were "read in full". That
+was wrong. Measured against line counts:
+
+| Package | Current material | Read | Coverage |
+|---|---:|---:|---:|
+| W2 | 4,442 lines | 3,338 | **75%** |
+| W3 | 1,613 lines | 800 | **50%** |
+| W4 | 2,507 lines | 1,134 | **45%** |
+| **Total** | **8,562** | **5,272** | **62%** |
+
+W2's 3,931 lines of superseded working versions were **not** read; they were
+verified as a strict superset by section-set diff (0 sections lost across
+v0.1→v0.4), which is the check that matters for supersession.
+
+**Read in full:** every synthesis, handoff, amendment, manifest, decision
+register, cross-front message, closure checklist and CSV; W2's validation matrix;
+W2's opportunity ranking; W4's current state.
+
+**Read in part:** W2's structure map (23% — §6–9, §10–15), W3-FINAL (25% — §1,
+§8, §10, §13–14, §20–23), W4's loop qualification (32% — §10–15) and W4's
+falsification design (19% — §8A in full, §16–20, headings throughout).
+
+**What that means for confidence.** The per-loop test procedures for L1/L2/L3/L5
+were read by structure, not line by line: I read L4-A in full and confirmed the
+same hypothesis → eligibility → instrument → decision-rule → non-generalization
+pattern repeats via headings. That is enough to adopt the framework, not enough
+to vouch for every threshold inside each test.
+
 ---
 
 ## 1. Headline
@@ -119,6 +149,46 @@ that may be fixed immediately rather than waiting for reconciliation.
 | 19 | **Cold-start read** | Favours mechanisms creating value at ~zero network density; L2 testable with one user |
 | 20 | **Migration/logging kill rule** | *No candidate may depend on substantial work now for value months later* |
 
+### Found only by reading the gaps — added after the coverage audit
+
+These eight were missed in the first pass and are material.
+
+| # | Item | Source | Why |
+|---|---|---|---|
+| 21 | **Cost-structure map** (15 capability rows, directional intensity) | W2 §9 | Its conclusion is the important part: *"gross margin cannot be evaluated from hosting alone — human/governance/commercial operations may dominate several high-ceiling models."* Practitioner attestation, community moderation and marketplace ops are flagged as potentially dominant. |
+| 22 | **Hypothesis register E1–E14** with an evidence-needed column per row | W2 §10 | Pairs each gate with what would actually settle it |
+| 23 | **Kill structures K1–K9** | W2 §12 | **Distinct from `VK1–VK6`.** `K7 · TAM inflation` (venture story only survives by generalising bonsai → gardening) and `K9 · continuity contradiction` (the model maximising short-term revenue undermines the trust the long-term value needs) have no equivalent elsewhere. |
+| 24 | **Track A list — 5 items** | W2 §14 | Item 1 specifies a **7-dimension coding scheme** for the census: free/paid/freemium/lifetime/subscription/transaction/bundle/B2B2C · payer · free limits · paid value unit · portability/export · service-custody obligations · professional/partner surface |
+| 25 | **Measurement ledger — 18 fields** | W4 §16 | Separates `guided_actions` from `spontaneous_actions`; records `current_workaround`, `reason_for_nonuse`, `confounds`. Ends: *"Do not overwrite contradictory outcomes. Durable use and abandonment can both be true."* |
+| 26 | **Pre-registration sheet — 12 items** | W4 §17 | **"No threshold changes after outcomes are visible."** Plus: instrument break or eligibility violation is `INVALID`, not `FAIL` |
+| 27 | **What the Brand must never become — 8 items** | W3 §13 | Includes *a status economy where price, awards, prestige or followers define value*, *a beginner-shaming culture*, and *a data prison whose value rises while user control falls* |
+| 28 | **Entry vs long-term territory table** | W3 §10 | Working model: **concrete entry → accumulated meaning**, not *abstract promise → hope the user understands* |
+
+Two smaller corrections to the first pass:
+
+- **W2's amendment does carry its `TARGET`.** Structure map §13 states
+  *"Location: `CURRENT-EVIDENCE-AND-DECISIONS.md` §7, P3 note"* — the standalone
+  amendment file omits it, which is why the first pass reported the field as
+  missing. Between the two documents, 5 of `§13a`'s 6 fields are present;
+  only an explicit `STATUS` line is absent.
+- **W4's brand architecture sentence** is
+  `KEEP TRACK → SEE PROGRESS → BUILD MEMORY → CREATE CONTINUITY` (W3 §1), which
+  is the four-stage form of the three-stage `Progress → Memory → Continuity`
+  reported earlier.
+
+### The anti-status convergence is with canon, not just among the fronts
+
+The first pass reported three fronts independently rejecting status mechanics.
+Reading `PROJECT-BRIEF` shows **canon already held that position**, and the
+fronts converged *on canon* rather than merely on each other:
+
+- `PROJECT-BRIEF:287` — *"**Story, not price, is the social currency.** … That property structurally blocks wealth → status, **which is the failure mode a bonsai social product most obviously risks**."*
+- `PROJECT-BRIEF:285` — *"**Contribution ≠ invitation for critique.**"* A grower recorded that his tree had died and received unsolicited postmortem advice.
+- `PROJECT-BRIEF:267` — *"Preserve history; **do not convert it into ranking**."*
+
+W3 §13 cites the first two by name. This is a four-way agreement — canon plus
+three fronts — and it is the most robust position in the entire body of work.
+
 ### Converged independently across all three — adopt as a shared constraint
 
 All three fronts, without coordinating, ruled out status mechanics:
@@ -161,9 +231,9 @@ Nothing substantive should be discarded. Four narrower cautions:
    themselves — scenario anchors to expose payer-count sensitivity, nothing more.
 3. **Neither price census is complete.** W2 covers 10 products; our teardown
    covers 23 of 45. Merge, and label the union as partial.
-4. **W2's amendment is not in `§13a` format.** It contains the substance
-   (`TARGET`/`CURRENT`/`PROPOSED`/`EVIDENCE` + consequences as blast radius) but
-   not the six named fields. Reformat on adoption rather than rejecting.
+4. **W2's amendment is *nearly* in `§13a` format** — see the correction in §4.
+   Its `TARGET` is in the structure map, not the standalone file. Consolidate the
+   two into one six-field block on adoption rather than rejecting.
 
 One wording drift worth fixing on merge: W3 §8.2 says *"45 known
 **bonsai-specific** software products/surfaces"*. Current canon says
@@ -218,14 +288,18 @@ seen it without the other's work.
 
 ## 8. Recommendation
 
-**Adopt all twenty items in §4. Accept both amendments** — `W2-001` at
+**Adopt all twenty-eight items in §4. Accept both amendments** — `W2-001` at
 reconciliation, `W4-A` immediately under `§13a`'s internal-contradiction
 exception, since it resolves a disagreement between two canon documents.
 
-**Merge the two price datasets** into one monetization table: W2 has tiers and
-architectures for 10 products; we have price, ratings, dates and concentration
-for 23. Neither alone is enough; together they cover most of what W2's `G14`
-price-sensitivity gate and `G11` ceiling gate need before participant access.
+**Merge the two price datasets under W2's own coding scheme.** Their §14 Track A
+item 1 specifies seven dimensions — model type, payer, free limits, paid value
+unit, portability/export, service-custody obligations, professional/partner
+surface. W2 has tiers and architectures for 10 products; we have price, ratings,
+dates and concentration for 23; neither carries all seven dimensions for any row.
+Recoding the union of 23 against those seven fields is the single most valuable
+next Track A step, and it is what `G14` price-sensitivity and `G11` ceiling both
+need before participant access.
 
 Then run **Cross-Front Reconciliation**, which is what all three fronts are
 asking for.
