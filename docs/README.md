@@ -59,6 +59,7 @@ founder decision (**`S1` authoritative**). **`Step 0` ran on 4 September 2026** 
 matching works; Tier 1 was untestable because the only reachable corpus has one
 climate value. See `04-evidence/W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md`. Unblocking
 needs one multi-author, multi-climate source — still Track A.
+
 ### `03-registry/` — competitor identity authority
 `COMPETITOR-REGISTRY.csv` owns competitor identity. **Narrative documents may
 cite the discovered lower bound but must not maintain parallel lists** — that
@@ -73,6 +74,8 @@ practice caused the count to diverge four times.
 | `W1-EXIT-AND-PERSISTENCE-REVIEW.md` | Narrative behind the exit matrix |
 | `W1-derived-evidence-clean.jsonl` | 82 usable derived units after quarantine |
 | `W1-authenticity-quarantine.json` | 6 units retained for audit, excluded from inference |
+| `W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md` | **Step 0 result** — `MIXED · DENSITY RISK HIGH`, 4 Sep 2026 |
+| `W4-L4A-corpus-density-coded.csv` | 12 progression cases coded on 9 domain-model fields |
 | `raw/` | 97 Apple + 99 Android structured reviews |
 | `W2-PRICING-TEARDOWN.md` | Track A pricing/packaging teardown, Apple US, 3 Sep 2026 |
 | `W2-pricing-teardown-apple.csv` | 27 products: price, ratings, dates, heuristic model |
