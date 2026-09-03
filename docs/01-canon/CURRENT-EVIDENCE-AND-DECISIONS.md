@@ -278,9 +278,9 @@ A better lens than *is the market too small* — it accepts that the attempts ex
 ## 11. Next decisions
 
 1. **Competitor review mining** — ✅ **closed for broad review mining**. See `W1-FINAL.md`. The structured storefront corpus contains **zero explicit `JOB_REJECTION_SIGNAL` reviews**, but this scope must not be generalized: broader W1 evidence includes explicit app uninstall, structured-record abandonment, no-incremental-value judgments and refusal to adopt dedicated software. Four known Android products are in the 10K+ bracket; the lower tail remains non-zero. W1 now continues only through targeted follow-up when another workstream identifies a specific unresolved question.
-2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Two sharpened questions now that Android is resolved: **the category leader converted substantial distribution into tens of thousands of downloads — how many became recurring or paying users, and why?** And the ceiling question: would 5,000 users at €3/month be success or failure here?
-3. **Brand** — which territory is credible without promising expertise we lack? Safety / memory / progress / story / learning / legacy.
-4. **Growth** — which loops, not which channels.
+2. **Monetization & economics** — ✅ **returned, `READY FOR RECONCILIATION`** (see §11a). W2 carries three frontiers: dedicated workflow value, professional payer, Comparable Journey. **The ceiling question — would 5,000 users at €3/month be success or failure? — was not answered by W2** and remains open; the round-1 working answer (≈€100k at ~€20 net contribution: passes S1, fails S2) depends entirely on the unmade ambition decision. The category-leader conversion question also remains open.
+3. **Brand** — ✅ **returned, `READY FOR RECONCILIATION`.** Leading architecture `Progress → Memory → Continuity`; `Journey → Learning` as future differentiation. Of the six territories listed here, W3 kept memory, progress and learning, absorbed story, parked legacy, and split safety into *psychological* (kept as principle) and *horticultural* (rejected as unearned authority).
+4. **Growth** — ✅ **returned, `READY FOR RECONCILIATION`.** Six mechanisms `L1–L6`, gates `G0–G8`, no channel or geography selected.
 5. **Cross-front reconciliation** — what product thesis survives all four lenses? *Including the option that none does.*
 6. **Then** MVP validation strategy, and only then product design.
 

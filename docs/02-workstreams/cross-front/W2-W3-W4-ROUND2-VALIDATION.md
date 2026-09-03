@@ -15,7 +15,9 @@ Total new/changed material is 10,852 lines, but most of that is unchanged text
 inside re-versioned files. **Genuinely new content is ~3,471 lines** (version
 deltas plus wholly new files, excluding duplicated reference copies).
 
-**Read: ~2,040 lines, about 59%.**
+**Read: ~2,460 lines, about 71%** (raised from 59% during the self-audit, which
+read W2's validation-matrix §26 and G10-A/B, W2's ranking §15–16, and W2's
+handoff remainder).
 
 **Read in full:** W4-FINAL, W4 synthesis v0.2, W4 reconciliation input, W4
 response register, W4 falsification §0A; W2 synthesis §17–25, W2 structure map
@@ -23,10 +25,10 @@ response register, W4 falsification §0A; W2 synthesis §17–25, W2 structure m
 v0.2 delta, W2 handoff §1–5; W3-FINAL §26, W3 alignment update §4–6, W3
 no-further-requests, W4→W3 response, and every W3 file-level diff.
 
-**Not read:** W2's archived superseded cross-front response (835 lines, marked
-superseded), W2 validation-matrix and ranking delta bodies (~215 lines, covered
-at heading level), W3 alignment update §1–3 (~160 lines, whose conclusions are
-restated in W3-FINAL §26 which was read in full), W4 qualification §0A (~44).
+**Still not read:** W2's archived superseded cross-front response (835 lines,
+explicitly marked superseded), W3 alignment update §1–3 (~160 lines, whose
+conclusions are restated in W3-FINAL §26 and the W3 alignment §4–6, both read in
+full), W4 qualification §0A (~44 lines, whose content is restated in W4-FINAL §10–11).
 
 **Nothing unread contradicts anything below**, but this is 59%, not "in full".
 
@@ -63,6 +65,44 @@ question.** That convergence is the most valuable output of this round.
 
 A brand workstream pre-committing to not rescuing a failed value proposition with
 narrative is unusual and worth preserving explicitly.
+
+---
+
+## 1a. Two gaps that persist into round 2
+
+Verified, not assumed.
+
+### The pricing teardown still has not reached any front
+
+Searched all 74 files for the teardown's figures — `median`, `96%`, `376`,
+`22 of 23`, `17 of 23`, `free at download`. **Zero substantive hits.** The two
+apparent matches are false positives: *"competitive teardowns"* is the Research
+Brief's own Track A phrase, and `376` matched inside a checksum.
+
+File mtimes explain it. Our teardown committed at **20:33**; W2's newest file is
+**19:29** and W4's is **19:33**. Only W3's (21:31) postdates it, and W3 has least
+use for pricing data.
+
+So W2's §14 Track A item — *"monetization census expansion across the registry"* —
+is still open, and **W2 has now twice specified work we have partly done without
+either side knowing.**
+
+### W3 and W4 still bundle the same stale canon snapshot
+
+Both packages' `CURRENT-EVIDENCE-AND-DECISIONS.md` hashes to `31fb1d16…` — commit
+`45011a0f`, **15:04**. Identical to round 1; **not refreshed.** W4's bundled
+registry carries **31 of 45** `platform_identity` values against the live 41.
+
+Their snapshots therefore predate the `§13a` amendment mechanism (17:50), the
+teardown (20:33) and the ID backfill.
+
+**W2 bundles no canon at all** and its notice says reconciliation *"must begin
+from the latest project copies"*. That policy is the correct one and round 2 is
+the second demonstration of why.
+
+**Neither gap invalidates any conclusion** — the fronts' reasoning does not depend
+on the missing material. But reconciliation should open by giving all three the
+current canon and the teardown.
 
 ---
 
