@@ -1,5 +1,3 @@
-> **RETIRED — Answered — see W1-CANON-AMENDMENT-RESOLUTION in the closed package. Retained for audit trail only.**
-
 # Review request to the external work front
 
 **Date:** 3 September 2026 · **From:** internal W1 · **Re:** W1 reconciliation and W2–W4 readiness

@@ -1,0 +1,20 @@
+theme,status,evidence_read,limitation
+Longitudinal record behavior,OBSERVED,"Growers record trees in dedicated apps, spreadsheets, photo systems, notes, notebooks and hybrid workflows.",Prevalence remains unmeasured.
+Durable dedicated-app use,OBSERVED cases,"Daily, multi-month, since-launch and 2+ year paid-use cases exist.",No retention distribution.
+Dedicated-app abandonment,OBSERVED cases,"Uninstall, structured-record abandonment and developer-acknowledged bug/stability churn exist.","Purposive evidence, not churn rate."
+Switching between tools,OBSERVED cases,"App→app, app→desktop, app→general tools and structured system→photo metadata are observed.",Switching frequency unmeasured.
+General-purpose substitution,OBSERVED,"Excel, Photos, OneNote, Evernote, Lightroom, phone notes/alarms and paper can satisfy enough of the job for some users.",Incremental advantage required to beat them is unmeasured.
+Logging/data-entry friction,OBSERVED,"Per-tree repetition, too many fields, photo handling and high collection size can make capture tedious.",No validated sustainable time/field threshold.
+Collection-scale pressure,OBSERVED,"Search, filters, batching, organization and retrieval become salient as collections grow.",No validated collection-size threshold.
+Photo/progression value,OBSERVED,Users repeatedly value photos and seeing development over time.,Does not imply dedicated software is required.
+Reminder value,OBSERVED,Users value reminders for planned work and memory.,Generic/date-driven reminders can create noise or false precision.
+Data durability / portability concern,OBSERVED,"Data-loss incidents, export questions and software-longevity concern affect trust.",Does not validate provenance.
+Paid use,OBSERVED cases,"Subscription conversion, paid multi-year use and simultaneous paid-product comparison are observed.",WTP distribution and economics remain unvalidated.
+Subscription rejection,OBSERVED cases,Some users explicitly reject SaaS/subscriptions or require clear value over free tools.,Prevalence unmeasured.
+Beginner vs experienced job differences,SUPPORTED SIGNAL,"Beginners lean toward guidance/reassurance; experienced growers lean toward history, flexibility, custom rules and continuity.",Segment prevalence not measured.
+Cumulative value vs repeated maintenance cost,SUPPORTED SIGNAL,History/progression value can accumulate while capture cost recurs on every interaction.,"Mechanism plausible, not causally estimated."
+Advice authority tax,SUPPORTED SIGNAL,Incorrect/generic advice carries higher trust cost than neutral recordkeeping.,H7 remains unvalidated.
+Community/feed retention,UNVALIDATED,Some users value seeing other trees/progression.,Retention effect not established.
+Verifiable provenance demand,UNVALIDATED,Competitors ship transfer/history; reviews rarely identify evidence/attestation as adoption or retention value.,H5 remains untested.
+Comparable Journey product value,UNVALIDATED,Progression/comparable cases have public learning value.,No product-level behavioral validation yet.
+P1/P2/P3 selection,UNVALIDATED,W1 constrains the opportunity but does not select a product.,Requires W2–W4 and cross-front reconciliation.

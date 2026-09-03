@@ -1,0 +1,36 @@
+stable_id,product_name,aliases,platform,developer,platform_identity,lifecycle_status,verification_status,registry_action,notes
+W1-001,BonsaiDo,,Apple,Marco Rinaldi,,known,VERIFIED_PRIOR_CANON,include,Existing canonical competitor
+W1-002,Bonsai Care App,Bonsai Empire,Apple + Google Play,Bonsai Empire,app.bonsaicare,current,FIRST_PARTY_VERIFIED,include,Google Play 10K+ bracket
+W1-003,BonsAI Identifier: Tree Care,,Apple,,,known,VERIFIED_PRIOR_CANON,include,Existing canonical competitor
+W1-004,Jooni – Bonsai Tracking,,Apple + Google Play,EDUARDO FERREIRA,,current,FIRST_PARTY_VERIFIED,include,Google Play 10K+ bracket
+W1-005,Bonsai Care - Journaling,,Apple,Abdelkarime Achtaou,Apple:6739073820,current,FIRST_PARTY_VERIFIED,include,
+W1-006,Appy Bonsai - Bonsai Care,Appy Bonsai,Apple + Google Play,Appy Bonsai,com.appybonsai.AppyBonsai,current,FIRST_PARTY_VERIFIED,include,Google Play 10K+ bracket
+W1-007,Bonsaiku: Bonsai Care & Log,Bonsaiku,Apple,PRIOMAT LLC,,current,FIRST_PARTY_VERIFIED,include,
+W1-008,Bonsai - Tree Care,,Apple,Mitaanshu Agarwal,,current,FIRST_PARTY_VERIFIED,include,
+W1-009,Tiny Tree Club,,Apple,Jonathan Baran,,current,FIRST_PARTY_VERIFIED,include,
+W1-010,Bonsai Care: Plant Tracker,,Apple + Google Play,,,current,VERIFIED_PRIOR_CANON,include,
+W1-011,Bonsai Tracker,,Web,,bonsaitracker.com,current,FIRST_PARTY_VERIFIED,include,Web-first
+W1-012,Yoi Bonsai,,Web + Google Play,,,current,FIRST_PARTY_VERIFIED,include,Transferable lineage; low observable Play distribution does not imply failure
+W1-013,Wabi Sabi Bonsai,,Google Play,,,current,FIRST_PARTY_VERIFIED,include,
+W1-014,Diario Bonsai - Nebari,Bonsai Care Journal - Nebari,Apple,Karol Jaworski,Apple:6760012296,current,FIRST_PARTY_VERIFIED,include,Localized titles are same product
+W1-015,Bonsai App,br.com.bonsaiapp,Google Play,,br.com.bonsaiapp,known,VERIFIED_PRIOR_CANON,include,Brazilian
+W1-016,ScandinavianBonsai,Bonsai Care & RFID Tree Log,Google Play,,se.vilhelmineberg.planttracker,known,VERIFIED_PRIOR_CANON,include,Same product/alias
+W1-017,MyBonsaiTag,,Web / other,,,known,VERIFIED_PRIOR_CANON,include,NFT identity/transfer
+W1-018,Bonsme,,Historical,,,defunct,HISTORICAL_VERIFIED,include,Defunct; retained because registry covers products that shipped
+W1-019,Kodama - Bonsai Tree Care,,Apple,BigBalli Consulting LLC,Apple:6761913585,current,FIRST_PARTY_VERIFIED,include,
+W1-020,Mori Bonsai,,Apple,Sima Technologies LLC,Apple:6763155691,current,FIRST_PARTY_VERIFIED,include,Verified during W1 closure
+W1-021,Komorebi: Bonsai Tree Care,,Apple,Emanuele Pina,Apple:6761901054,current,FIRST_PARTY_VERIFIED,include,
+W1-022,BonsaiTrack: Care Journal,,Apple,Filip Rusin,Apple:6774980293,current,FIRST_PARTY_VERIFIED,include,
+W1-023,Bonsai: Care & Growth Journal,,Apple,ElevenApril / 帅 陈,Apple:6772092929,current,FIRST_PARTY_VERIFIED,include,Product verified; six US reviews quarantined for authenticity risk
+W1-024,BonsaiLog: Bonsai Care Log,,Apple,TOBY M BERGER,Apple:6789196023,current,FIRST_PARTY_VERIFIED,include,Distinct from W1-027
+W1-025,BonsaiNikki – Bonsai Journal,,Apple,David Assany,Apple:6761331285,current,FIRST_PARTY_VERIFIED,include,
+W1-026,kinoki - bonsai journal & care,,Google Play,ODA TECNOLOGIA LTDA,,current,FIRST_PARTY_VERIFIED,include,Brazilian
+W1-027,BonsaiLog,,Apple,MAKOTO NAKAGAWA,Apple:6763495229,current,FIRST_PARTY_VERIFIED,include,Distinct from W1-024
+W1-028,Bonsai Album,Bonsai Album Lite,Apple / desktop family,Andrew Nicolle,Apple:465021382,current,FIRST_PARTY_VERIFIED,include,Lite/full treated as one product family for competitor count; US ratings leader in W1 snapshot
+W1-029,Bonsai Care App: Bonsai Buddy,Bonsai Buddy,Apple,Carlos Domingues,Apple:6751142898,current_regional,FIRST_PARTY_VERIFIED,include,Regional storefront availability; US availability not required for identity
+W1-030,BonsaiPilot,,Web,,bonsaipilot.app,current,FIRST_PARTY_VERIFIED,include,Distinct from unrelated robotics app of similar name
+W1-031,my-bonsai,,Web,,my-bonsai.app,current,FIRST_PARTY_VERIFIED,include,German web subscription tracker
+W1-032,Bonsai Droid,,Google Play / historical,,,historical,THIRD_PARTY_ARCHIVE,include,Last known updates around 2020
+W1-033,MyBonsai,,Google Play / historical,CRESPI BONSAI,,historical,THIRD_PARTY_ARCHIVE,include,Removed from Google Play in 2024
+W1-034,My Bonsai Book,,Google Play,ZanyGoose,com.mybonsaibook,current,FIRST_PARTY_VERIFIED,include,Google Play 10K+ bracket
+W1-035,Yama Bonsai (J)INSPIRE,YAMA BONSAI,iOS / Android historical,Yannick Kiggen / Yama Bonsai,,historical,ARCHIVE_PLUS_PRACTITIONER_EVIDENCE,include,Previously shipped; later unpublished

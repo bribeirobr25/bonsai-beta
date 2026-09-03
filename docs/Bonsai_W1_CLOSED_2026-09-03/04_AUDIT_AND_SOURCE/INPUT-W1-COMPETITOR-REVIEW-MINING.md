@@ -1,5 +1,3 @@
-> **RETIRED — Superseded by W1-FINAL.md (v1.1, reconciled at W1 closure). Retained for audit trail only.**
-
 # W1 · Competitor review mining
 
 > **SUPERSEDED — working paper.** Replaced by `W1-FINAL.md`, which reconciles
