@@ -55,8 +55,10 @@ validation sequence confirmed, all six growth mechanisms still eligible, no
 contradiction found that kills a loop.
 
 Canon §11a records the aligned state, §11b the adopted frameworks, §11c the
-founder decision (**`S1` authoritative**). **Next: `Step 0`, the corpus-density
-shadow test — the only step that runs without participants.**
+founder decision (**`S1` authoritative**). **`Step 0` ran on 4 September 2026** — `MIXED · DENSITY RISK HIGH`. Tier 2
+matching works; Tier 1 was untestable because the only reachable corpus has one
+climate value. See `04-evidence/W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md`. Unblocking
+needs one multi-author, multi-climate source — still Track A.
 ### `03-registry/` — competitor identity authority
 `COMPETITOR-REGISTRY.csv` owns competitor identity. **Narrative documents may
 cite the discovered lower bound but must not maintain parallel lists** — that

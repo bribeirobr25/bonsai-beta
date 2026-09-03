@@ -324,7 +324,7 @@ or Story.*
 
 | Step | Test | Access |
 |---|---|---|
-| **0** | `L4-A / G10-A` Comparable Journey corpus-density shadow | **Track A — runnable now** |
+| **0** | `L4-A / G10-A` Comparable Journey corpus-density shadow | ✅ **RUN 4 Sep 2026 — `MIXED · DENSITY RISK HIGH`** |
 | 1 | `L2 + G1/G2` One-Tree Dedicated Value | participants |
 | 2 | `L1` First-Tree Inception | participants |
 | 3 | `G7A/B` professional workflow + budget discovery — **not** L5 Growth | participants |
@@ -332,6 +332,29 @@ or Story.*
 | 5 | `L4-B / G10-B` Comparable Journey utility | participants |
 | 6 | `L5` Teacher/Club Continuity — gated by prior evidence | participants |
 | 7 | `L6 / G9` Transfer / Provenance — secondary, long-cycle | participants |
+
+### Step 0 result — `L4-A` corpus density
+
+**`MIXED · DENSITY RISK HIGH`, and the binding constraint is source access.**
+See `04-evidence/W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md`.
+
+Tier 2 matching works — 11 of 21 query shapes had ≥2 comparable cases. **Tier 1
+could not be tested**: the only reachable corpus is single-author, 75% ficus,
+75% Florida, so climate has **one value** and contributes zero discriminating
+power. A realistic Tier 1 query returns **0** cases.
+
+> **Single-source density is illusory** — it looks adequate because everything
+> shares an author, a garden and a climate.
+
+Two positives worth keeping: real progression writing **does** carry the domain
+model's fields (intervention and photo evidence 12/12, species and stage 10/12),
+so the model is not imposing structure the material lacks — but `state`,
+`outcome` and `intent` sit at **58%**, and those are what make a comparison
+useful rather than merely similar.
+
+`L4-B` remains gated. `L4` is **not** parked — the failure is in the sample, not
+demonstrably in the concept. Unblocking needs one multi-author multi-climate
+source; **still Track A, still no participants.**
 
 ### Amendment status
 
