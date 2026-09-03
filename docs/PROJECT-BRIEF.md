@@ -419,6 +419,10 @@ each**:
 | **4** | *"Evidence suggests waiting."* | **high** |
 | **5** | *"Do X."* | **very high** |
 
+> **Why the ladder exists, in one line:** *a record can be wrong in usability;
+> advice can be wrong in a way that harms a tree.* That asymmetry — not caution
+> — is the argument.
+
 **Levels 0–3 are shippable without solving the reputation problem at all** —
 they retrieve and describe rather than advise. Levels 4–5 must not ship without
 H7 passing. That converts §12's open question from a blocker into a gate on one

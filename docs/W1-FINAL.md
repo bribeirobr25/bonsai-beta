@@ -510,3 +510,79 @@ the manifest and checksums. **Not read: the nine superseded files in
 current versions I have read, and the manifest marks them non-authoritative. A
 spot-check of the superseded count amendment surfaced no unique product not
 already captured.
+
+---
+
+# Part 6 · Fourth-pass audit — the superseded history
+
+Read all nine files in `04_HISTORY_SUPERSEDED`. **The package's evidence corpus
+is clean**: v0.5 is a strict superset of v0.1→v0.4 by unit id, so no evidence
+was silently dropped across five revisions. That is unusually good discipline.
+
+But the **narrative** documents did lose material in condensation. Four items
+appear in superseded versions and not in the current synthesis.
+
+## 6.1 Seven working explanations for why dozens of products coexist
+
+From v0.3 §10. The current synthesis carries the *question* but not the
+candidate answers, which are the more useful half.
+
+1. **Heterogeneous jobs** — beginner guidance, collection management, historical journaling and expert experimentation are materially different jobs.
+2. **Good-enough substitutes** — Photos, OneNote, notebooks and spreadsheets already solve enough.
+3. **Repeated-maintenance economics** — **the user pays the logging cost every time they touch a tree, while some of the benefit arrives months or years later.**
+4. **Structure-friction tradeoff** — a schema rich enough to be useful later becomes tedious during capture.
+5. **Reminder paradox** — reminders create immediate utility but become noise or false precision when generic.
+6. **Trust / durability** — a multi-year record makes app death, sync failure and data loss more consequential.
+7. **Authority mismatch** — AI/care guidance attracts beginners while creating trust risk and expert rejection.
+
+> **Explanation 3 is the sharpest sentence in the entire package.** It states the
+> core tension as a *timing mismatch between cost and benefit*, which is a more
+> precise diagnosis than "logging friction" and points at different remedies —
+> batch capture, deferred structuring, and making early value arrive sooner.
+
+## 6.2 "Advice adds an authority tax"
+
+With the asymmetry that justifies the advice ladder:
+
+> **A record can be wrong in usability. Advice can be wrong in a way that harms
+> a tree.**
+
+That is a better one-line defence of stopping at ladder level 3 than anything
+currently in our canon.
+
+## 6.3 "Easier logging" is not an available wedge
+
+`OBSERVED` competitor positioning among 2026 entrants: one-tap logging, "no
+forms", offline and no-account use, no cloud, no nagging, direct notification
+actions, and ZIP/PDF/CSV export.
+
+> **The market is already explicitly solving logging friction. "We will make
+> logging easier" cannot be a differentiated thesis without behavioural evidence
+> that a specific friction remains unresolved.**
+
+This matters because low-friction capture was drifting toward becoming our
+implicit answer. It is table stakes, not a wedge.
+
+## 6.4 Community value is narrower than "social feed"
+
+- Progression and social *discovery* value: `SUPPORTED SIGNAL`
+- Generic community feed as a *retention engine*: `UNVALIDATED`
+
+Explicitly: **nothing in W1 upgrades Tree-Led Relationships (H6A) or Comparable
+Journey (H6B).** Both remain where they were.
+
+## 6.5 Two collection standards worth adopting
+
+**Dedupe rule found:** `Diario Bonsai – Nebari` and `Bonsai Care Journal – Nebari`
+are the same product and count once.
+
+**Required metadata for any future review collection** — my own corpus lacks
+several of these: platform · storefront · **retrieval date** · review date ·
+product · **whether the developer responded** · historical-versus-current status
+· **authenticity-risk flag**.
+
+## 6.6 Coverage statement — complete
+
+All 20 artefacts plus manifest and checksums read: `01_CURRENT` (6),
+`02_DATA` (5), `03_AMENDMENTS` (1), `04_HISTORY_SUPERSEDED` (9). Checksums
+verified 21/21. Corpus versions diffed for dropped evidence: none.

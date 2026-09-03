@@ -213,6 +213,10 @@ seven years of membership.
 Measure repeat non-owner interaction, spontaneous update requests, help
 offered, and response to failure — **not likes.**
 
+> **W1 status check (3 Sep 2026):** progression and social *discovery* value is
+> `SUPPORTED SIGNAL`; a generic community feed as a *retention engine* is
+> `UNVALIDATED`. **Nothing in W1 upgrades H6A or H6B.** Both remain as written.
+
 **H6B — Comparable Journey utility.** Added because `PROJECT-BRIEF` §8 now
 treats this as possibly the most important mechanic, and it was absent here.
 

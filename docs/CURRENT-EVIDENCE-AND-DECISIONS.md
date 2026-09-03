@@ -121,6 +121,8 @@ confirmed at **10K+ Google Play installs**.
 **Still unoccupied**, as far as the scan reached:
 
 - **General-purpose tools are the real competitive set.** Spreadsheets, Photos, notes and notebooks — not only other bonsai apps. Users are `OBSERVED` reverting to them. Any product must beat a spreadsheet, not just beat Bonsai Empire.
+> **"Easier logging" is not an available wedge.** `OBSERVED` positioning among 2026 entrants already includes one-tap logging, no forms, offline and no-account use, no cloud, no nagging, and ZIP/PDF/CSV export. The market is explicitly solving logging friction. It is table stakes, not differentiation.
+
 - **Verifiable provenance** — `claim → evidence → attestation → confidence`. Transferable history is taken; *graded evidence* is not. **Note:** Yoi Bonsai ships the closest model to ours and has **10+ installs, 0 ratings** — the position is claimed and failing, which is different from both unclaimed and won.
 - **Aggregate outcome data** — no product turns cross-user outcomes into guidance.
 - **Comparable Journey** — surfacing similar documented cases rather than answering.
@@ -155,6 +157,25 @@ Nothing is chosen. Three composites remain live, all `UNVALIDATED`:
 **The advice ladder** determines what can ship without authority: levels 0–3
 (record, retrieve own history, retrieve similar cases, describe outcomes)
 require none. Levels 4–5 (decision support, recommendation) depend on H7.
+
+---
+
+## 7a. Why dozens of products coexist without a winner — seven working explanations
+
+Not findings of causality; the best available explanatory set.
+
+1. **Heterogeneous jobs** — beginner guidance, collection management, journaling and expert experimentation are different jobs
+2. **Good-enough substitutes** — Photos, OneNote, notebooks, spreadsheets already solve enough
+3. **Repeated-maintenance economics** — **the user pays the logging cost every time they touch a tree, while some benefit arrives months or years later**
+4. **Structure-friction tradeoff** — a schema rich enough to be useful later is tedious during capture
+5. **Reminder paradox** — immediate utility, but noise or false precision when generic
+6. **Trust / durability** — a multi-year record makes app death and data loss more consequential
+7. **Authority mismatch** — AI guidance attracts beginners while creating trust risk and expert rejection
+
+> **#3 is the most useful diagnosis available.** It reframes the problem from
+> *logging friction* to a **timing mismatch between cost and benefit** — which
+> points at different remedies: batch capture, deferred structuring, and making
+> early value arrive before the collection is entered.
 
 ---
 
