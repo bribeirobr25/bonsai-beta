@@ -42,3 +42,18 @@ what success ultimately means"*. **It was made on 4 September 2026: `S1` (€75k
 annual contribution) is authoritative; `S3` is an aspiration with no identified
 path.** `G11` is assessed against S1. See canon §11c. Nothing else in these
 documents is affected.
+
+## Reconciled — 4 September 2026
+
+Cross-Front Reconciliation adopted **`W2-001`**; *"Best economics"* is gone from
+canon in both places it appeared. **`A2` keeps second priority but its meaning
+changed:** under `S1`, consumer-only economics can reach €75k without a
+professional payer, so `A2` is now the **only identified route to the `S3`
+aspiration** rather than a viability hedge. A `G7A/B` failure means *S3 loses its
+route*, not *the venture has an economics problem*.
+
+**`G11` now has a number.** At €22 net, S1 needs ~3,400 payers, so a STRONG
+result needs **~6,800 eligible** — a market-ceiling estimate is falsifiable for
+the first time.
+
+See `../cross-front/CROSS-FRONT-RECONCILIATION.md`.

@@ -43,3 +43,12 @@ The customer-language list is **tiered**, not flat — `reminder` rests on 21
 reviews, `one place` on **1**. See `W1-HANDOFF-W2-W3-W4.md`. `W3-FINAL.md`
 §12.4's claim that *"organize and one place are close to customer language"*
 rests on the two weakest terms in the list.
+
+## Reconciled — 4 September 2026
+
+No W3 amendment was proposed and none was needed. Both external amendments W3
+supported were adopted. The two tensions W3 raised are recorded as **productive
+and to be preserved, not resolved**: Continuity against its own service cost, and
+Progress acquiring while organization may be what pays.
+
+See `../cross-front/CROSS-FRONT-RECONCILIATION.md`.

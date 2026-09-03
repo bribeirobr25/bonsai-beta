@@ -48,3 +48,19 @@ W4 v0.1 working artifacts are in `99-archive/external-packages/`.
 success ambition as an open founder dependency. **It was resolved on 4 September
 2026: `S1` is authoritative.** F1 thresholds should therefore be tied to S1
 economics. See canon §11c.
+
+## Reconciled — 4 September 2026
+
+**`W4-A` ratified.** Gate taxonomy `G0–G8` confirmed as authoritative. All six
+mechanisms remain eligible; `L5` is **not required for `S1`** and stays gated.
+
+**`Step 0` has run.** `L4-A` corpus density returned
+`MIXED · DENSITY RISK HIGH` — Tier 2 matching works, **Tier 1 was untestable**
+because the only reachable corpus is single-author with one climate value. `L4`
+is **not parked**; `L4-B` stays gated. See
+`../../04-evidence/W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md`.
+
+Step 3 was relabelled: professional workflow/budget discovery is an **S3-route
+probe**, not a viability probe.
+
+See `../cross-front/CROSS-FRONT-RECONCILIATION.md`.

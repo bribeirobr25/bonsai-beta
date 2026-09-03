@@ -2,7 +2,16 @@
 
 Material that belongs to no single front, plus our validation of what they sent.
 
-## Start here for reconciliation
+## Reconciliation has run — 4 September 2026
+
+**`CROSS-FRONT-RECONCILIATION.md`** is the output. Both amendments adopted, gate
+taxonomy and validation sequence confirmed, all six growth mechanisms still
+eligible, no contradiction found that kills a loop.
+
+It also records what the founder's `S1` decision changed — the fronts all closed
+before it was made.
+
+## Start here to understand the alignment
 
 **`CROSS-FRONT-MAPPING.md`** — an **11-row matrix** aligning every W2 gate to its
 W3 territory and W4 loop, each row carrying the joint unresolved question and a
@@ -24,7 +33,12 @@ here 4 Sep 2026.*
 
 ## State
 
-W1 `CLOSED` · W2, W3, W4 all `READY FOR CROSS-FRONT RECONCILIATION`.
+W1 `CLOSED` · W2, W3, W4 all returned and **reconciled** · `S1` authoritative ·
+**`Step 0` run** (`MIXED · DENSITY RISK HIGH` — see
+`04-evidence/W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md`).
+
+Everything after Step 0 needs **participant access**, which is now the binding
+constraint on the project.
 
 The joint gate all three converged on:
 

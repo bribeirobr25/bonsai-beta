@@ -137,8 +137,18 @@ not *the venture has an economics problem*. Report it that way.
 
 ## 5. Not asking for
 
-No front should reopen. No further broad exploration. The next gate is
-Cross-Front Reconciliation, and its agenda is the one you three already wrote.
+No front should reopen. No further broad exploration.
+
+**Cross-Front Reconciliation has run** — 4 September 2026, on the agenda you three
+wrote. `W4-A` ratified, `W2-001` adopted, gate taxonomy and validation sequence
+confirmed, all six mechanisms still eligible, no contradiction found that kills a
+loop. See `02-workstreams/cross-front/CROSS-FRONT-RECONCILIATION.md`.
+
+**`Step 0` has also run** — `L4-A` corpus density returned
+`MIXED · DENSITY RISK HIGH`. Tier 2 matching works; **Tier 1 was untestable**
+because the only reachable corpus has one climate value. `L4` is not parked and
+`L4-B` stays gated; unblocking needs one multi-author, multi-climate source and
+is still Track A.
 
 **The success ambition has been decided.** `S1` — €75k annual contribution — is
 authoritative as of 4 September 2026. `S3` remains an aspiration with **no
