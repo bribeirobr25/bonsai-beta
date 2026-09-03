@@ -1,13 +1,5 @@
 # Bonsai · W1 · Competitor Review Mining · FINAL v1.1
 
-> **Received document, locally amended.** Adopted from the external
-> `Bonsai_W1_FINAL_CLOSED_2026-09-03` package. Two changes: the headline lower
-> bound reads 45 rather than 40 (five further competitors were verified at source
-> on 3 Sep 2026 — see the internal addendum at the end), and an internal addendum
-> is appended. The external front's own addendum is preserved verbatim, including
-> its "35 to 40" statement, which is a correct record of what they did.
-> The unmodified original is in `99-archive/external-packages/`.
-
 **Closed:** 3 September 2026  
 **Status:** **CLOSED FOR BROAD REVIEW MINING**  
 **Project state:** PRE-VALIDATION / PRE-MVP  
@@ -81,7 +73,7 @@ Claims that depended only on those units were removed from handoff evidence, inc
 `COMPETITOR-REGISTRY.csv` is now W1’s single source of truth.
 
 Current discovered lower bound:
-> **at least 45 distinct competitive bonsai software products/surfaces known to ship or have shipped**
+> **at least 40 distinct competitive bonsai software products/surfaces known to ship or have shipped**
 
 Exact universe:
 `UNVALIDATED`
@@ -644,92 +636,3 @@ These identity/governance corrections do not change:
 P1 / P2 / P3 remain `UNVALIDATED`.
 
 **W1 remains CLOSED FOR BROAD REVIEW MINING.**
-
----
-
-# Addendum · internal audit of the FINAL CLOSED package (3 September 2026)
-
-Written locally after auditing `Bonsai_W1_FINAL_CLOSED_2026-09-03`. All 25 files
-verified against their checksums (25/25) and diffed against canon. **All four
-evidence datasets were byte-identical to ours**, and the registry preserved all
-35 prior rows verbatim — no evidence or identity was silently altered.
-
-Verified at source and adopted: the five registry additions, the corpus
-arithmetic (97 + 99 = 196; 82 + 6 = 88), the quarantine set (`BG-US-001`…`006`,
-all one app), and the four-product 10K+ Play bracket.
-
-## A. Two verification claims did not reproduce
-
-The package states both contested Apple identities were "reproduced through
-public first-party App Store pages on 3 September 2026". An independent re-check
-the same day did not reproduce either:
-
-| Identity | iTunes Lookup API | App Store web page |
-|---|---|---|
-| Mori Bonsai `6763155691` (claimed: US) | **0 of 52 storefronts** | **HTTP 404** on the US page |
-| Bonsai Buddy `6751142898` (claimed: FR/AT/ZA) | **0 of 52 storefronts** | **HTTP 404** on the FR page |
-| *control* — BonsaiBuddy `6758486631` | **52 of 52** | full page renders |
-
-The control is what makes this informative: the same method, in the same
-session, resolves a comparable new bonsai app everywhere. That removes
-"API coverage gap" as an explanation, and the registry's "regional availability"
-defence does not survive a check of the named regions.
-
-This remains **contested, not refuted** — delisting between their check and ours,
-or a transcription error, are both possible. Both rows are now
-`VERIFICATION_CONTESTED`. Neither is load-bearing for any W1 conclusion.
-
-The package's fifth addition, **BonsaiBuddy `6758486631` (Dylan Clark)**, is
-fully confirmed — a genuine gap we had missed.
-
-## B. Five further competitors, verified at source
-
-A single US App Store query (`bonsai`, 158 results) surfaced five products in
-neither registry. Each was confirmed by reading its store description, not by
-matching its name:
-
-| Product | Apple ID | Why it counts |
-|---|---|---|
-| **Bonsai Pal** | `6770584295` | Care journal: per-tree logs, **photo timeline and side-by-side compare** — the closest observed analogue to this project's own record/history concept |
-| **Bonsai Club** | `6450961438` | Garden diary since 2023: species, style, placement, pot, age; watering/fertilizing/pruning/repotting/wiring history with photos |
-| **Bonsai Studio - AI Care** | `6778829915` | "Part archive, part expert advisor"; ships in five languages |
-| **Bonsai VN - FC** | `6761886265` | Vietnamese care journal with a technique library for Vietnamese species |
-| **Noble Bonsai** | `6738886708` | Companion app for a smart bonsai unit — a `hardware_companion` surface the registry had no category for |
-
-The lower bound therefore moves to **at least 45**. All five have 0 ratings,
-which reinforces rather than weakens the existing guardrail that ratings are not
-users.
-
-**The methodological point matters more than the number.** These came from *one
-storefront and one search term*. That a single query adds five products means the
-true universe is materially larger than 45, and `UNVALIDATED` is the correct
-status for the exact count. This also repeats a recorded lesson: the first pass
-missed them because the filter matched product *names* — "Bonsai Club" was
-discarded by a keyword rule before its description was read.
-
-## C. One internal inconsistency corrected
-
-`APP-MARKET-SCAN.md` excludes web-first products from distribution measurement
-and names Bonsai Tracker and Yoi Bonsai. The received registry flagged both
-`included_in_standalone_distribution_measurement=true` — the exact confounding
-that column exists to prevent. Both are now `false`.
-
-Four other `web_or_other` rows (MyBonsaiTag, Bonsme, BonsaiPilot, my-bonsai,
-Yama Bonsai) remain `true`. They are **not** changed here because the scan does
-not name them; this is returned to the external front as a question rather than
-altered unilaterally.
-
-## D. Governance columns are partly populated
-
-`last_verified`, `verification_method` and `source_url` are populated for 12 of
-45 rows — the 5 package additions, the 5 added here, and the 2 contested;
-`verification_note` for 14, the two extra being the corrected measurement flags.
-The remaining 33 carry no verification date or method. This is a known gap, not a
-completed practice.
-
-## E. No strategic conclusion changes
-
-The record/history finding, the general-tool substitution finding, the
-exit/persistence model and every W2/W3/W4 constraint are unaffected.
-P1 / P2 / P3 remain `UNVALIDATED`. W1 remains **CLOSED FOR BROAD REVIEW MINING**;
-registry maintenance is governance, not review mining, and does not reopen it.

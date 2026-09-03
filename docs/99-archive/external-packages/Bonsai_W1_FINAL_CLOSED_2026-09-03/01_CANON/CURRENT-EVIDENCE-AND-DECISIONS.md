@@ -40,7 +40,7 @@ advisor* formulation.
 
 | Claim | Status | Evidence |
 |---|---|---|
-| "Bonsai tracking is an empty space" | `CONTRADICTED` | At least 45 distinct competitive bonsai software products/surfaces are known to ship or have shipped; exact universe remains `UNVALIDATED` |
+| "Bonsai tracking is an empty space" | `CONTRADICTED` | At least 40 distinct competitive bonsai software products/surfaces are known to ship or have shipped; exact universe remains `UNVALIDATED` |
 | "Transferable tree history is novel" | `CONTRADICTED` | Bonsai Tracker, Yoi, Appy Bonsai all do it |
 | "Permanent tree ID is a moat" | `CONTRADICTED` | Also RFID (ScandinavianBonsai), QR (Wabi Sabi), NFT (MyBonsaiTag) |
 | "Community feed is a differentiated opportunity" | `CONTRADICTED` | Bonsai Empire, Jooni, Tiny Tree Club, Bonsai Tracker all ship one |
@@ -88,11 +88,9 @@ advisor* formulation.
 
 ## 5. Competitive reality
 
-**Current W1 registry state:** at least **45 distinct competitive bonsai software products/surfaces are known to ship or have shipped**. This is an `OBSERVED` discovered lower bound, not a census. The exact universe and current active count remain `UNVALIDATED`.
+**Current W1 registry state:** at least **40 distinct competitive bonsai software products/surfaces are known to ship or have shipped**. This is an `OBSERVED` discovered lower bound, not a census. The exact universe and current active count remain `UNVALIDATED`.
 
 `COMPETITOR-REGISTRY.csv` is the single source of truth for W1 competitor identity. Narrative documents should not maintain independent product totals.
-
-**Two caveats on the count.** First, 45 came from adding five products found in a *single* US App Store query on 3 Sep 2026 — one storefront, one search term. That a single query added five means the true universe is materially larger, and `UNVALIDATED` is the honest status. Second, two Apple identities (`W1-020` Mori Bonsai, `W1-029` Bonsai Care App: Bonsai Buddy) are `VERIFICATION_CONTESTED`: the external front reports first-party reproduction, our independent re-check found 0 of 52 storefronts and HTTP 404 while a control resolved 52/52. Neither is load-bearing. See `W1-FINAL.md`, internal addendum.
 
 ### Distribution observations
 
@@ -322,7 +320,7 @@ users.
 | `DOMAIN-MODEL.md` | Object and recording model; legacy corpus assessment |
 | `RESEARCH-BRIEF-behavioural-validation.md` | Study design; Track A / Track B |
 | `APP-MARKET-SCAN.md` | Competitive measurement and its limits |
-| `99-archive/superseded/bonsai-deep-research-report.md` | Reference dossier — a research plan, not results; retained only for historical reference |
-| Legacy `parallel-work.txt` | **Superseded legacy research log; not packaged as a current source.** Relevant conclusions were extracted into the canonical documents before W1 closure. Note this file was overwritten on 1 Sep 2026; the earlier Gate 0 and domain-model research survives only in git history at commit `0030e009`. |
+| `05_SUPERSEDED/bonsai-deep-research-report.md` | Reference dossier — a research plan, not results; retained only for historical reference |
+| Legacy `parallel-work.txt` | **Superseded legacy research log; not packaged as a current source.** Relevant conclusions were extracted into the canonical documents before W1 closure. |
 
 Where documents disagree, this file and `PROJECT-BRIEF.md` take precedence.

@@ -24,7 +24,7 @@ It is **not** the current competitor registry and must not be used to derive the
 current known-product count.
 
 The current W1 identity authority is `COMPETITOR-REGISTRY.csv`, which records a
-discovered lower bound of **at least 45 distinct competitive bonsai software products/surfaces known to ship or have
+discovered lower bound of **at least 40 distinct competitive bonsai software products/surfaces known to ship or have
 shipped**. The exact universe and active/current count remain `UNVALIDATED`.
 
 Prior drafts mixed a measured sample with a narrative count and disagreed with
@@ -206,7 +206,7 @@ This changes sequencing rather than conclusions. It was obtained in under an
 hour and bears directly on H1, the hypothesis that a 12–14 week, R$45k–90k
 programme was designed to test.
 
-**Recommended order:** ~~resolve the contested Android numbers~~ ✅ done (§7) → mine reviews of these 45+ known competitive software products/surfaces
+**Recommended order:** ~~resolve the contested Android numbers~~ ✅ done (§7) → mine reviews of these 40+ known competitive software products/surfaces
 for friction and abandonment → ~18 artifact interviews → *then* decide whether
 the full observational programme is warranted.
 
@@ -273,7 +273,7 @@ verified at source. **Supersedes §0, §4 and §7 wherever they conflict.**
 
 ### 8.1 Competitor count
 
-> **At least 45 distinct competitive bonsai software products/surfaces are
+> **At least 40 distinct competitive bonsai software products/surfaces are
 > known to ship or have shipped.** Non-exhaustive. Active status must be
 > tracked separately from the historical universe.
 

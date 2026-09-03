@@ -1,9 +1,5 @@
 # Bonsai · W1 · Final Handoff to W2 / W3 / W4 v0.2
 
-> **Received document, locally amended.** One filename reference was corrected to
-> match local casing (`W1-authenticity-quarantine.json`). No content changed.
-> The unmodified original is in `99-archive/external-packages/`.
-
 **Date:** 3 September 2026  
 **W1 status:** CLOSED FOR BROAD REVIEW MINING  
 **Product decision:** none. P1 / P2 / P3 remain `UNVALIDATED`.
@@ -122,7 +118,7 @@ Do not average these into one fictional user.
 Use:
 - `COMPETITOR-REGISTRY.csv` for identity,
 - `COMPETITOR-EXCLUSION-REGISTRY.csv` for false positives,
-- `W1-authenticity-quarantine.json` for quarantined review evidence.
+- `w1-authenticity-quarantine.json` for quarantined review evidence.
 
 Do not use older 14/18-product counts or the historical `~330` sample subtotal as the current category total.
 

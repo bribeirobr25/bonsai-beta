@@ -35,7 +35,8 @@ to `99-archive/external-packages/`. See `00-inbox/README.md`.
 ### `02-workstreams/` — per-front outputs
 `W1-competitor-review-mining/` — **CLOSED for broad review mining.** Final
 synthesis, downstream handoff, amendment resolution, closure checklist and
-validation report.
+validation reports, plus the external front's final reconciliation record.
+Registry maintenance is governance and does not reopen W1.
 
 W2 (Monetization & Economics), W3 (Brand Identity & Marketing) and W4 (Growth
 Strategy) open next, in parallel, entering through `01-canon`.
@@ -66,8 +67,9 @@ out of date.*
 
 ### `99-archive/` — audit trail, not current
 `external-packages/` holds the counterparty's deliverables intact, with their
-original checksums. `superseded/` holds our earlier drafts. **Several carry
-figures corrected in `01-canon`.** Do not cite from here.
+original checksums (three packages; each re-verifiable via its own
+`SHA256SUMS.txt`). `superseded/` holds our earlier drafts and sent handoffs.
+**Several carry figures corrected in `01-canon`.** Do not cite from here.
 
 ---
 
@@ -84,7 +86,7 @@ figures corrected in `01-canon`.** Do not cite from here.
 
 ## Current state, in brief
 
-- **At least 35** distinct bonsai-specific care/tracking/journal products are known to ship or have shipped. A discovered lower bound, not a census.
+- **At least 45** distinct competitive bonsai software products/surfaces are known to ship or have shipped. A discovered lower bound, not a census — five were added on 3 Sep 2026 from a *single* store query, so the true universe is materially larger and the exact count stays `UNVALIDATED`.
 - **Four** are in the Google Play 10K+ install bracket. The lower tail is non-zero.
 - **Bonsai Album** is the observed US iOS ratings leader (193 vs BonsaiDo 136); counts are date-sensitive.
 - **General-purpose and analog tools are first-class competitors** — spreadsheets, Photos, OneNote, Lightroom, notebooks, paper calendars, phone alarms. A product must beat a spreadsheet, not just other bonsai apps.

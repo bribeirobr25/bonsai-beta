@@ -165,7 +165,7 @@ Verified against live sources, August 2026.
 **The competitive set is not bonsai apps.** W1 `OBSERVED` users moving to Google plus a text document plus phone alarms; Excel and photo folders; Adobe Lightroom with metadata and keywords; OT2 desktop software; notebook and pencil; and a printed per-tree calendar alongside Excel. **Any product must beat a spreadsheet and a photo album, not merely beat Bonsai Empire.** Note too that Bonsai Mirai shipped its own tracker, *Mirai My Trees*, and a user is observed displacing it with Excel and folders.
 
 **A second cluster exists that this brief originally missed: tracking apps.**
-**At least 45 competitive software products/surfaces are known to ship or have shipped** (see `APP-MARKET-SCAN.md` §8) — BonsaiDo, Bonsai Empire's Care App, Appy Bonsai,
+**At least 40 competitive software products/surfaces are known to ship or have shipped** (see `APP-MARKET-SCAN.md` §8) — BonsaiDo, Bonsai Empire's Care App, Appy Bonsai,
 Bonsaiku, Wabi Sabi Bonsai, Bonsai Tracker, Yoi Bonsai, Jooni, Tiny Tree Club —
 plus a Brazilian one on Google Play. Several already do things this brief
 treated as novel: Bonsai Tracker and Appy Bonsai transfer a tree's history to a
@@ -468,7 +468,7 @@ gates and contraindication flags can be replicated in weeks by anyone who
 already holds the content and the audience.
 
 **The threat is no longer hypothetical — the feature space is already crowded.**
-At least **45 distinct competitive bonsai software products/surfaces are known
+At least **40 distinct competitive bonsai software products/surfaces are known
 to ship or have shipped**, and several already transfer or preserve tree history.
 Yoi Bonsai, launched in 2026, explicitly offers lineage that travels with the
 tree. P1 is not a vacant feature position.
@@ -570,7 +570,7 @@ climate calibration is unattended (three competitors claim it); and that a
 Portuguese-language position is empty (a Brazilian app exists). See
 `APP-MARKET-SCAN.md` and §4.
 
-**A new and uncomfortable finding:** at least 45 known competitive software products/surfaces compete in a
+**A new and uncomfortable finding:** at least 40 known competitive software products/surfaces compete in a
 category whose reconciled four-market iOS lower bound is **≥647 ratings**, not the
 historical ~330 measured-sample subtotal. Android now adds at least **four**
 products in the 10K+ install bracket. The load-bearing question therefore cannot
@@ -619,7 +619,7 @@ those, and choosing them first is how you build the wrong thing efficiently.
 
 ### Now — executable without participant access
 
-0. **App market scan** — ✅ done, and the **Android gap is now closed** (`APP-MARKET-SCAN.md` §7): the category leader is confirmed at 10K+ Google Play installs, so adoption is larger than the iOS-only scan suggested. Master list superseded: **at least 45 known competitive software products/surfaces** (§8.1), and **four** hold 10,000+ Android installs (§8.4). The US iOS leader is **Bonsai Album**, not BonsaiDo.
+0. **App market scan** — ✅ done, and the **Android gap is now closed** (`APP-MARKET-SCAN.md` §7): the category leader is confirmed at 10K+ Google Play installs, so adoption is larger than the iOS-only scan suggested. Master list superseded: **at least 40 known competitive software products/surfaces** (§8.1), and **four** hold 10,000+ Android installs (§8.4). The US iOS leader is **Bonsai Album**, not BonsaiDo.
 1. **Competitor review mining** — ✅ **done**. See `W1-FINAL.md`: 196 structured storefront reviews, reconciled with a cleaned 82-unit derived external/public evidence corpus plus a 6-unit authenticity quarantine. Key result: **general-purpose tools — spreadsheets, Photos, notes — are the real competitive set**, and users are `OBSERVED` reverting to them.
 2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Including the ceiling question: would 5,000 users at €3/month be success or failure here?
 3. **Brand identity & marketing** — which territory is credible without promising expertise we lack?

@@ -29,7 +29,7 @@ slogan rather than a design constraint.
 > structure?"* for zero participants and zero budget. It yields no prevalence
 > data — that limit must be stated — but it has already surfaced four missing
 > concepts (State, Intent, Lineage, Composition). Also note that this brief cost far less than the
-> multi-cohort programme in `99-archive/superseded/bonsai-deep-research-report.md`; run the cheap
+> multi-cohort programme in `bonsai-deep-research-report.md`; run the cheap
 > evidence first and let it decide whether that scale is warranted.
 
 ---
@@ -427,8 +427,8 @@ fail — **weighted below the behavioural findings**, per §3.
 
 ### A prior that must be weighed against all of the above
 
-`APP-MARKET-SCAN.md` now records a discovered lower bound of **at least 45**
-competitive bonsai software products/surfaces. The earlier `~330` four-market
+`APP-MARKET-SCAN.md` now records a discovered lower bound of **at least 40**
+bonsai-specific care/tracking/journal products. The earlier `~330` four-market
 iOS figure was a historical measured-sample subtotal and is superseded as a
 category-wide total; the reconciled lower bound is **≥647** before a fresh full
 census. At least four known Android products are in the 10K+ install bracket.
