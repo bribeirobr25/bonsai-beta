@@ -328,3 +328,47 @@ users.
 | Legacy `parallel-work.txt` | **Superseded legacy research log; not packaged as a current source.** Relevant conclusions were extracted into the canonical documents before W1 closure. Note this file was overwritten on 1 Sep 2026; the earlier Gate 0 and domain-model research survives only in git history at commit `0030e009`. |
 
 Where documents disagree, this file and `PROJECT-BRIEF.md` take precedence.
+
+### 13a. `PROPOSED CANON AMENDMENT` — the mechanism
+
+W2, W3 and W4 must not edit canon. Where a front produces evidence that
+contradicts or materially weakens something here, it returns a block labelled
+**`PROPOSED CANON AMENDMENT`**. Defined once, so the label means the same thing
+in all three returns.
+
+**A proposal must contain all six fields.** An incomplete proposal is not
+rejected — it is returned for completion, because an amendment that cannot be
+audited cannot be adopted.
+
+| Field | Content |
+|---|---|
+| `TARGET` | Document, section, and the exact sentence or table row affected |
+| `CURRENT` | What canon says today, quoted verbatim |
+| `PROPOSED` | The replacement wording |
+| `EVIDENCE` | What was observed, how, when, and by whom — a method and a date, not an assertion |
+| `STATUS` | The evidence status being claimed: `OBSERVED`, `SUPPORTED SIGNAL`, `CONTRADICTED`, `UNVALIDATED` or `DEFERRED` |
+| `BLAST RADIUS` | Every other claim, document or workstream that changes if this is adopted |
+
+**Adjudication.** Amendments are adjudicated at Cross-Front Reconciliation, not
+by the proposing front and not unilaterally by canon governance. Three
+exceptions may be applied immediately, because delay would let a known error
+propagate:
+
+1. a **factual error** verifiable at source (a wrong ID, a broken reference, arithmetic);
+2. an **internal contradiction** between two canon documents;
+3. a **provenance gap** — a claim whose stated support does not exist.
+
+Everything strategic waits for reconciliation.
+
+**While pending, a proposal changes nothing.** Canon stands as written, and
+downstream work continues on the current text. A pending amendment is neither
+adopted nor rejected, and must not be cited as though it were settled.
+
+**Conflicts are expected.** If two fronts propose incompatible amendments to the
+same target, both are carried to reconciliation intact. Neither is silently
+merged, and the disagreement is itself evidence about the target's stability —
+`VERIFICATION_CONTESTED` in `COMPETITOR-REGISTRY.csv` exists for exactly this
+reason and is the working precedent.
+
+**A test that cannot be run stays `UNVALIDATED`, never `FAIL`.** An amendment
+may not convert absence of evidence into a negative finding.

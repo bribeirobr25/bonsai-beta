@@ -61,6 +61,9 @@ practice caused the count to diverge four times.
 `HANDOFF-TO-EXTERNAL-FRONT.md` — what was adopted, how it was verified, and
 open items returned.
 
+`commissioning/` holds the briefs that opened W2, W3 and W4 — the operative
+question, governance constraints and registry guards each front was given.
+
 *To send a package: bundle `01-canon`, `02-workstreams`, `03-registry`,
 `04-evidence` and this handoff. No standing copy is kept, so nothing can drift
 out of date.*

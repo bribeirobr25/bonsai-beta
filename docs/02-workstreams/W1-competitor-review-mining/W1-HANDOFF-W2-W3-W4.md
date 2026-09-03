@@ -1,8 +1,12 @@
 # Bonsai · W1 · Final Handoff to W2 / W3 / W4 v0.2
 
-> **Received document, locally amended.** One filename reference was corrected to
-> match local casing (`W1-authenticity-quarantine.json`). No content changed.
-> The unmodified original is in `99-archive/external-packages/`.
+> **Received document, locally amended.** Two changes. One filename reference was
+> corrected to match local casing (`W1-authenticity-quarantine.json`). Each
+> front's **operative question** was added beneath its sharpened question when
+> W2/W3/W4 were commissioned on 3 Sep 2026 — the sharpened questions are
+> preserved verbatim, because the operative questions are broader and the two
+> must not be confused at Cross-Front Reconciliation. The unmodified original is
+> in `99-archive/external-packages/`.
 
 **Date:** 3 September 2026  
 **W1 status:** CLOSED FOR BROAD REVIEW MINING  
@@ -59,6 +63,13 @@ Sharpened W2 question:
 
 > **What value is strong and immediate enough to justify payment when a grower can solve much of the job with tools already owned, while the historical payoff may arrive months or years later?**
 
+**Operative question as commissioned (3 Sep 2026)** — broader; the sharpened
+question above is the crux inside it:
+
+> **Existe uma estrutura econômica plausível por trás de algum dos opportunity
+> areas sobreviventes, considerando que o usuário pode resolver grande parte do
+> job com ferramentas que já possui?**
+
 ## W3 · Brand Identity & Marketing
 
 ### Literal customer language
@@ -86,6 +97,15 @@ Sharpened W3 question:
 
 > **What meaning can make longitudinal recordkeeping feel valuable rather than bureaucratic without claiming expertise the venture has not earned?**
 
+**Operative question as commissioned (3 Sep 2026):**
+
+> **Que território de significado e valor esta venture poderia possuir de forma
+> crível, caso sobreviva à validação?**
+
+The sharpened question's two constraints — *valuable rather than bureaucratic*,
+and *without claiming unearned expertise* — remain binding on any territory
+proposed.
+
 ## W4 · Growth Strategy
 
 Behaviorally supported acquisition moments:
@@ -106,6 +126,17 @@ Sharpened W4 question:
 
 > **Which acquisition moment produces differentiated value before migration and repeated logging costs dominate the experience?**
 
+**Operative question as commissioned (3 Sep 2026)** — this one *adds* a
+requirement the sharpened question does not carry, and it is deliberate:
+
+> **Como esta venture poderia plausivelmente encontrar, ativar e se propagar
+> entre usuários relevantes, e quais mecanismos de growth também produzem
+> evidência útil?**
+
+The final clause matters beyond W4. Every load-bearing hypothesis is
+`UNVALIDATED` and blocked on participant access, so a growth mechanism that
+also generates evidence is worth more than one that only generates users.
+
 ## Shared contradictions to retain
 
 - Durable use exists **and** abandonment exists.
@@ -123,6 +154,23 @@ Use:
 - `COMPETITOR-REGISTRY.csv` for identity,
 - `COMPETITOR-EXCLUSION-REGISTRY.csv` for false positives,
 - `W1-authenticity-quarantine.json` for quarantined review evidence.
+
+**Any distribution denominator must filter on
+`included_in_standalone_distribution_measurement = true`** — currently **32 of
+45** rows. The excluded 13 are a bundled subscription tracker, legacy desktop
+software, a hardware companion, web-first products and historical/withdrawn
+rows. Mixing them into one store denominator is the specific error this column
+exists to prevent.
+
+**Two identities are `VERIFICATION_CONTESTED`** (`W1-020` Mori Bonsai, `W1-029`
+Bonsai Care App: Bonsai Buddy) after three verification rounds. Neither is
+load-bearing; do not build an argument that depends on either.
+
+**Registry fields have been wrong.** Applying the rule above exposed a mis-typed
+`surface_type` and a typo'd `platform_identity` that made a live product look
+withdrawn. Treat registry values as evidence to check, not settled fact. Only
+**31 of 45** rows carry any `platform_identity` at all, which bounds what can be
+measured automatically.
 
 Do not use older 14/18-product counts or the historical `~330` sample subtotal as the current category total.
 
