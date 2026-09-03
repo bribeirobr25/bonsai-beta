@@ -33,18 +33,24 @@ to `99-archive/external-packages/`. See `00-inbox/README.md`.
 | `RESEARCH-BRIEF-behavioural-validation.md` | Study design · Track A / Track B |
 
 ### `02-workstreams/` — per-front outputs
+Each front has its own folder with a README stating status, read order and the
+constraints it hands to the others. **Finished work lives here, not in the
+inbox** — the inbox is a processing tray and gets emptied.
 `W1-competitor-review-mining/` — **CLOSED for broad review mining.** Final
 synthesis, downstream handoff, amendment resolution, closure checklist and
 validation reports, plus the external front's final reconciliation record.
 Registry maintenance is governance and does not reopen W1.
 
-W2 (Monetization & Economics), W3 (Brand Identity & Marketing) and W4 (Growth
-Strategy) have each returned final packages and reconciled with each other. All
-three are **`READY FOR CROSS-FRONT RECONCILIATION`**; `cross-front/` holds both
-validation rounds. Cross-Front Reconciliation is the next gate — see
-`01-canon/CURRENT-EVIDENCE-AND-DECISIONS.md` §11a for the aligned state, the
-shared joint gate and the one decision the fronts escalated to the founder.
+`W1-competitor-review-mining/` · `W2-monetization-economics/` ·
+`W3-brand-identity/` · `W4-growth-strategy/` · `cross-front/`
 
+All four fronts have returned. W1 is **CLOSED**; W2, W3 and W4 are
+**`READY FOR CROSS-FRONT RECONCILIATION`**. `cross-front/` holds both validation
+rounds and the **11-row mapping table** that aligns every W2 gate to its W3
+territory and W4 loop — start reconciliation there.
+
+Canon §11a records the aligned state, §11b the adopted frameworks, and §11c the
+one decision the fronts escalated to the founder.
 ### `03-registry/` — competitor identity authority
 `COMPETITOR-REGISTRY.csv` owns competitor identity. **Narrative documents may
 cite the discovered lower bound but must not maintain parallel lists** — that

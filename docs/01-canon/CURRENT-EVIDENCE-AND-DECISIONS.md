@@ -354,6 +354,214 @@ can run without it — but **no result can be called economically "sufficient" o
 
 ---
 
+## 11b. Adopted frameworks from W2 / W3 / W4
+
+Adopted 4 September 2026 so the frameworks are usable without opening a package.
+Full detail lives in `02-workstreams/W2-…`, `W3-…`, `W4-…`. **Adopting a
+framework does not validate any hypothesis inside it.**
+
+### Evidence hierarchy — governs every economic test
+
+Prefer, descending: **actual payment / renewal / contract** → actual switching
+while the substitute remains available → real workflow behaviour with artifacts
+→ revealed choice under real friction → stated willingness to pay → general
+stated interest.
+
+> **Stated interest alone does not pass a gate.**
+
+### The rule that prevents the most common error
+
+> **Value recipient ≠ payer.** *"Useful to students"* does not establish
+> *"teacher pays"*. *"Good for buyers"* does not establish *"nursery subsidises"*.
+
+And its companion, agreed by all three fronts:
+
+> **message that acquires ≠ value that retains ≠ value that monetizes.**
+
+### W2 · economic gates
+
+| Gate | Tests |
+|---|---|
+| `G1` | dedicated workflow beats existing substitutes for a real segment |
+| `G2` | differentiated value arrives before delayed-history payoff |
+| `G3` | recurring current value supports recurring payment |
+| `G4` | portability/ownership reduces commitment resistance |
+| `G5` | non-subscription/hybrid improves adoption without breaking contribution |
+| `G6` | experienced-grower economics offset switching complexity |
+| `G7A/B/C` | professional workflow value · budget ownership · reachable ceiling |
+| `G8A/B` | partner distribution and partner payment are **distinct** |
+| `G9` | provenance monetises at real handoff moments |
+| `G10-A` | comparable-journey **corpus density** is feasible |
+| `G10-B` | comparable journeys create repeat utility before authority |
+| `G11` | economically eligible segment survives substitute filtering |
+| `G12` | revenue duration funds service-obligation duration |
+| `G13` | higher contribution requires value beyond recordkeeping |
+| `G14` | standalone tracking is materially price-sensitive |
+
+`STRONG` / `MIXED` / `FAIL` are outcomes of a **completed** test. **A test that
+cannot be run is `UNVALIDATED`, never `FAIL`.**
+
+### W2 · three-level kill architecture
+
+A model failing is not the venture failing.
+
+- **Level A · model kill** — e.g. `G3` fail kills recurring subscription, not the record job
+- **Level B · candidate kill** — e.g. `G7A/B/C` fail kills P3 as primary economic thesis
+- **Level C · venture kill** — requires one of `VK1` no incremental value · `VK2` no plausible payer · `VK3` ceiling below S1 · `VK4` unfundable continuity · `VK5` economics require unvalidated authority · `VK6` CAC/support consumes the niche
+
+Structural kill conditions `K1–K9` add: `K7` **TAM inflation** — the venture
+story survives only by generalising bonsai into gardening; and `K9`
+**continuity contradiction** — the model that maximises short-term revenue
+undermines the trust the long-term value needs.
+
+> **A negative outcome on any VK condition is a successful W2 result.** It
+> prevents building on economically impossible assumptions.
+
+### W2 · market sizing
+
+Never `total bonsai population × assumed conversion`. Build through filters:
+
+`participants × job exists × software willingness × substitute inadequacy ×
+dedicated advantage × activation/migration × payment × retained payment`
+
+Reverse ceilings only, against **scenario anchors** S1 €75k / S2 €200k / S3 €3m
+annual contribution — **not targets**. See §11c.
+
+### W3 · territories and their status
+
+| Territory | Disposition |
+|---|---|
+| **Progress** | entry anchor — customer language; not differentiating alone |
+| **Memory** | primary bridge — strategic synthesis on observed behaviour |
+| **Continuity** | leading long-term candidate — **carries a truth cost** |
+| **Journey → Learning** | gated differentiator — needs `G10-A` then `G10-B` |
+| **Psychological Safety** | core principle — *permission to learn* |
+| **Durable Trust** | trust principle — required if Continuity survives |
+| **Stewardship** | gated on H5 |
+| **Belonging** | parked on H6 |
+
+**Rejected as master territories:** tracking · organization · easy logging ·
+reminders · AI · expert care · generic community · **horticultural** safety.
+
+**Never promise:** *forever* · *permanent* · *never lose your history* ·
+*never kill another bonsai* · *expert care* · *the bonsai community* ·
+*verified tree history* as a blanket claim.
+
+**Language:** concrete verbs early (`see` `remember` `keep` `follow` `record`);
+abstract nouns are strategy-only; avoid database/inventory/data-entry vocabulary;
+preserve uncertainty (`probable` `observed` `attributed` `unknown`); do not
+infantilise beginners.
+
+### W4 · growth mechanisms and gates
+
+`L1` first-tree inception · `L2` one-tree land-and-expand · `L3` progression
+artifact · `L4` comparable journey · `L5` teacher/club continuity ·
+`L6` transfer/provenance. All `UNVALIDATED`.
+
+Gates `G0` immediate differentiated value · `G1` repeat behaviour · `G2`
+expansion · `G3` object travel · `G4` recipient activation · `G5` actor
+repetition · `G6` evidence quality · `G7` economic viability · `G8` brand/trust
+permission.
+
+> **W4's `G0–G8` and W2's `G1–G14` are different numbering schemes.** Always
+> qualify which front's gate is meant.
+
+### W4 · test controls that apply to any validation this project runs
+
+- recruitment source is **not** Growth evidence
+- guided activation is **not** spontaneous activation
+- **an invalid execution is `INVALID`, not `FAIL`**
+- **no threshold changes after outcomes are visible** — pre-register
+- founder/concierge/migration labour is a **measured cost**, not free
+- separate `guided_actions` from `spontaneous_actions` in any ledger
+- do not overwrite contradictory outcomes — durable use and abandonment can both be true
+
+> **A failed loop is a useful result. Adding a channel to a failed loop is not.**
+
+### The cross-loop kill rule
+
+> **No mechanism may depend on substantial work now for value months later.**
+
+---
+
+## 11c. The founder decision: which success ambition is authoritative?
+
+All three fronts escalated the same question and none of them can answer it.
+**It is not a research output.** Recorded here with the numbers needed to decide.
+
+### What is being chosen
+
+Not a revenue target — a **threshold for calling a result sufficient**. Without
+it, the same evidence is a success or a failure depending on who reads it.
+
+| | Ambition | Annual **contribution** |
+|---|---|---|
+| **S1** | Sustainable small business — covers direct costs, a modest operating layer, a continuity reserve | **€75k** |
+| **S2** | Founder full-time — adds founder compensation, development, support, churn replacement, reinvestment | **€200k** |
+| **S3** | Venture scale — supports a material team and growth capital | **€3m** |
+
+Contribution is **after** direct service costs, store commission and support —
+not gross revenue. W2 states these are *"not canon and not venture targets"*.
+
+### What each ambition costs in retained payers
+
+| Net contribution / payer / year | S1 €75k | S2 €200k | S3 €3m |
+|---:|---:|---:|---:|
+| **€20** | 3,750 | 10,000 | 150,000 |
+| **€25** | 3,000 | 8,000 | 120,000 |
+| **€40** | 1,875 | 5,000 | 75,000 |
+| **€75** | 1,000 | 2,667 | 40,000 |
+| **€150** | 500 | 1,333 | 20,000 |
+| **€300** | 250 | 667 | 10,000 |
+| **€600** | 125 | 333 | 5,000 |
+
+These are **retained, paying** users — not downloads, not installs, not ratings.
+
+### Worked example: the €3/month question canon has asked since W1
+
+€3/month is €36/year gross. Apple's Small Business Program and Google Play both
+take **15%** for qualifying developers, so ~€30.60; after payment fees, hosting,
+support and churn replacement a **net €20–26** is a reasonable working figure.
+
+At €22 net, **5,000 payers ≈ €110k**:
+
+- **passes S1** with headroom
+- **fails S2** — would need roughly **9,000**
+- **irrelevant to S3** — would need roughly **136,000**
+
+**The same 5,000 users is a good small business or a failed venture.** That is
+precisely what the undecided ambition leaves unresolved.
+
+### The context that should worry you either way
+
+From `04-evidence/W2-PRICING-TEARDOWN.md`, the 23 measurement-eligible US iOS
+products hold **376 ratings between them**. The leader has **193**. Sixteen have
+**zero**. The top three hold **96%**.
+
+**Ratings are not users** and must not be converted into one. But the honest
+reading is: **5,000 retained paying users would make this the clear leader of a
+category where almost nobody has traction** — and the current leader is a **$7.99
+one-time purchase**, not a subscription.
+
+That does not make S1 easy. It makes **S3 an extraordinary claim** that would
+need either a much higher contribution per payer (the professional path, `A2`) or
+a market far larger than anything W1 or the teardown has observed.
+
+### What the choice changes
+
+| If you choose | Then |
+|---|---|
+| **S1** | Low-contribution consumer models stay viable. `G11` is a much lower bar. A niche result counts as success. |
+| **S2** | Consumer-only economics get tight — roughly 9,000 retained payers at €22. The professional payer (`A2`/`G7`) becomes materially more important. |
+| **S3** | Consumer record-keeping alone almost certainly cannot carry it. `K7` **TAM inflation** becomes the live risk: the venture story survives only by generalising bonsai into gardening — which W2 names as a kill condition, not a strategy. |
+
+### What it does **not** block
+
+Step 0 (`L4-A` corpus density) and Step 1 (`L2` one-tree value) both run without
+it. **Decide before interpreting their results, not before running them.**
+
+---
+
 ## 12. Choosing an MVP instrument
 
 Not *"which features go in the MVP?"* but **"what is the largest uncertainty

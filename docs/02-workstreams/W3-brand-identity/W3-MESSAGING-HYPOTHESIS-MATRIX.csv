@@ -1,0 +1,9 @@
+id,hypothesis,primary_audience,evidence_proximity,what_it_tests,main_risk
+M1,"Keep your trees, photos and notes together.","First/second + expanding",High,"Basic consolidation relevance","Commodity/general tools"
+M2,"See how each tree changes over time.","First/second + expanding",High,"Early reward from progress","Easy to copy"
+M3,"Remember what happened with each tree.",Broad,Medium-High,"Memory vs administration","Generic tools also remember"
+M4,"Keep each tree's history together over time.","Expanding + long-horizon",Medium,"Continuity meaning","Abstract for beginners; durability obligation"
+M5,"Learn from how trees actually progressed.",Hobbyists,Medium,"Learning from documented experience","Comparable Journey unvalidated"
+M6,"A way to learn without needing to already be an expert.",Beginner,Medium-High,"Psychological safety","Narrower lifecycle relevance"
+M7,"You are part of this tree's history.",Long-horizon,Low-Medium,"Stewardship meaning","Grandiose/premature early"
+M8,"Your record should stay in your control.","Expanding + experienced",Medium,"Durable trust / portability","Requires operational proof"
