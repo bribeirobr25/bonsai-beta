@@ -589,3 +589,50 @@ identities carry a verification note.
 with the retrieval date and method recorded on each side, rather than either
 removing them or leaving them as plain `FIRST_PARTY_VERIFIED`. This is exactly
 the case the registry's `verification_status` column exists to express.
+
+---
+
+## Audit provenance retained from the pre-reconciliation W1 document
+
+v1.1 is a cleaner synthesis and I adopted it, but two audit findings did not
+survive the rewrite. Both are provenance rather than conclusions, and both
+matter for anyone reconstructing how the closed state was reached.
+
+**How the authenticity quarantine came about.** The `REVIEW_AUTHENTICITY_RISK`
+flag was introduced in the external v0.1 review, which described one app's
+cluster of polished launch-window five-star reviews. **That flag was then not
+applied to their own corpus** — the v0.5 working corpus carried six units from
+*Bonsai: Care & Growth Journal* unflagged, tagged `ANTI_GENERIC_PLANT_APP`,
+`PROGRESSION_VALUE`, `SOCIAL_DISTRIBUTION_OBJECT`, `ADOPTION_TRIGGER_CAMERA_ROLL`
+and `COLLECTION_SCALE`, feeding the W4 acquisition-moment list. Independent
+collection found **5 of 5** reviews for that app matching the pattern. The gap
+was raised, accepted in resolution §A6, and the quarantine is the result.
+
+**Corpus versioning was verified clean.** Derived corpora v0.1 → v0.5 were
+diffed by unit id: **v0.5 is a strict superset**, so no evidence was silently
+dropped across five revisions. Worth recording as a positive finding about the
+external process, not only the corrections.
+
+## Registry gaps found after adoption
+
+Four products named in evidence are absent from `COMPETITOR-REGISTRY.csv` and
+from the exclusion registry, so they are neither included nor consciously
+excluded:
+
+| Product | Where it appears | Note |
+|---|---|---|
+| **Mirai My Trees** | **Their own exit/persistence matrix** — `OBSERVED` displaced by Excel and folders | Bonsai Mirai's own tracker |
+| **OT2 desktop bonsai software** | **Their own exit matrix** — destination after leaving Bonsai Droid | Desktop; may warrant a platform rule |
+| My Bonsai – Bonsai Care | Independently verified, 1,000+ Play installs | `com.vitmonac.plantcareapp` |
+| Mokusai: Bonsai Design & Care | Independently verified, 1,000+ Play installs | — |
+
+The first two matter most: **the registry is now the single source of truth for
+competitor identity, yet the package's own strongest artefact cites products the
+registry does not contain.** Mirai My Trees is also strategically notable — the
+best-resourced brand in bonsai shipped a tracker and is observed losing a user
+to a spreadsheet.
+
+**Suggested action:** add all four, or add explicit exclusion entries with a
+stated platform rule if desktop and vendor-bundled trackers are deliberately out
+of scope. Either is fine; silence is not, because it makes the lower bound
+unauditable.
