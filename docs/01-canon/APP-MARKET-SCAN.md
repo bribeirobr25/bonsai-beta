@@ -52,7 +52,7 @@ parallel identities.
 | 17 | MyBonsaiTag | no — not queried | identity/transfer via NFT |
 | 18 | Bonsme | **defunct** | shut down; founders cited capacity |
 
-**Derived counts — historical and superseded for current identity/count. See `COMPETITOR-REGISTRY.csv` and `W1-FINAL-v1.1.md`.**
+**Derived counts — historical and superseded for current identity/count. See `COMPETITOR-REGISTRY.csv` and `W1-FINAL.md`.**
 
 Google Play search surfaced roughly 19 genuine bonsai care/tracking apps on
 Android alone, most absent from this list, including one at 10,000+ installs.

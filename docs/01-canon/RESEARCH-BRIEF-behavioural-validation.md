@@ -29,7 +29,7 @@ slogan rather than a design constraint.
 > structure?"* for zero participants and zero budget. It yields no prevalence
 > data — that limit must be stated — but it has already surfaced four missing
 > concepts (State, Intent, Lineage, Composition). Also note that this brief cost far less than the
-> multi-cohort programme in `bonsai-deep-research-report.md`; run the cheap
+> multi-cohort programme in `99-archive/superseded/bonsai-deep-research-report.md`; run the cheap
 > evidence first and let it decide whether that scale is warranted.
 
 ---

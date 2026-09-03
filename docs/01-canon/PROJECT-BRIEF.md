@@ -620,7 +620,7 @@ those, and choosing them first is how you build the wrong thing efficiently.
 ### Now — executable without participant access
 
 0. **App market scan** — ✅ done, and the **Android gap is now closed** (`APP-MARKET-SCAN.md` §7): the category leader is confirmed at 10K+ Google Play installs, so adoption is larger than the iOS-only scan suggested. Master list superseded: **at least 35 known products** (§8.1), and **four** hold 10,000+ Android installs (§8.4). The US iOS leader is **Bonsai Album**, not BonsaiDo.
-1. **Competitor review mining** — ✅ **done**. See `W1-FINAL-v1.1.md`: 196 structured storefront reviews, reconciled with a cleaned 82-unit derived external/public evidence corpus plus a 6-unit authenticity quarantine. Key result: **general-purpose tools — spreadsheets, Photos, notes — are the real competitive set**, and users are `OBSERVED` reverting to them.
+1. **Competitor review mining** — ✅ **done**. See `W1-FINAL.md`: 196 structured storefront reviews, reconciled with a cleaned 82-unit derived external/public evidence corpus plus a 6-unit authenticity quarantine. Key result: **general-purpose tools — spreadsheets, Photos, notes — are the real competitive set**, and users are `OBSERVED` reverting to them.
 2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Including the ceiling question: would 5,000 users at €3/month be success or failure here?
 3. **Brand identity & marketing** — which territory is credible without promising expertise we lack?
 4. **Growth strategy** — which loops, not which channels.

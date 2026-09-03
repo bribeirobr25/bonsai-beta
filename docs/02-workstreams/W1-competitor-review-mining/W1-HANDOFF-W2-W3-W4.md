@@ -118,7 +118,7 @@ Do not average these into one fictional user.
 Use:
 - `COMPETITOR-REGISTRY.csv` for identity,
 - `COMPETITOR-EXCLUSION-REGISTRY.csv` for false positives,
-- `W1-REVIEW-AUTHENTICITY-QUARANTINE-v1.0.json` for quarantined review evidence.
+- `W1-authenticity-quarantine.json` for quarantined review evidence.
 
 Do not use older 14/18-product counts or the historical `~330` sample subtotal as the current category total.
 

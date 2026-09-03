@@ -257,7 +257,7 @@ A better lens than *is the market too small* — it accepts that the attempts ex
 
 ## 11. Next decisions
 
-1. **Competitor review mining** — ✅ **closed for broad review mining**. See `W1-FINAL-v1.1.md`. The structured storefront corpus contains **zero explicit `JOB_REJECTION_SIGNAL` reviews**, but this scope must not be generalized: broader W1 evidence includes explicit app uninstall, structured-record abandonment, no-incremental-value judgments and refusal to adopt dedicated software. Four known Android products are in the 10K+ bracket; the lower tail remains non-zero. W1 now continues only through targeted follow-up when another workstream identifies a specific unresolved question.
+1. **Competitor review mining** — ✅ **closed for broad review mining**. See `W1-FINAL.md`. The structured storefront corpus contains **zero explicit `JOB_REJECTION_SIGNAL` reviews**, but this scope must not be generalized: broader W1 evidence includes explicit app uninstall, structured-record abandonment, no-incremental-value judgments and refusal to adopt dedicated software. Four known Android products are in the 10K+ bracket; the lower tail remains non-zero. W1 now continues only through targeted follow-up when another workstream identifies a specific unresolved question.
 2. **Monetization & economics** — is there a plausible structure, and where is value capturable? Two sharpened questions now that Android is resolved: **the category leader converted substantial distribution into tens of thousands of downloads — how many became recurring or paying users, and why?** And the ceiling question: would 5,000 users at €3/month be success or failure here?
 3. **Brand** — which territory is credible without promising expertise we lack? Safety / memory / progress / story / learning / legacy.
 4. **Growth** — which loops, not which channels.
@@ -320,7 +320,7 @@ users.
 | `DOMAIN-MODEL.md` | Object and recording model; legacy corpus assessment |
 | `RESEARCH-BRIEF-behavioural-validation.md` | Study design; Track A / Track B |
 | `APP-MARKET-SCAN.md` | Competitive measurement and its limits |
-| `bonsai-deep-research-report.md` | Reference dossier — a research plan, not results |
+| `99-archive/superseded/bonsai-deep-research-report.md` | Reference dossier — a research plan, not results |
 | `parallel-work.txt` | **Research log. Superseded.** Content extracted into the documents above. Note this file was overwritten on 1 Sep 2026; the earlier Gate 0 and domain-model research survives only in git history at commit `0030e009`. |
 
 Where documents disagree, this file and `PROJECT-BRIEF.md` take precedence.
