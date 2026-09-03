@@ -1,5 +1,10 @@
 # W1 · Closure Checklist
 
+> **Received document, locally amended.** Two filename references were updated to
+> match local naming (`W1-FINAL-v1.1.md` → `W1-FINAL.md`,
+> `W1-HANDOFF-W2-W3-W4-v0.2.md` → `W1-HANDOFF-W2-W3-W4.md`). No content changed.
+> The unmodified original is preserved in `99-archive/external-packages/`.
+
 **Date:** 3 September 2026  
 **Result:** ✅ W1 CLOSED FOR BROAD REVIEW MINING
 

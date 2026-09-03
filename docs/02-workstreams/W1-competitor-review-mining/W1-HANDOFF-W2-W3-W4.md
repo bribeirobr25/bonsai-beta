@@ -1,5 +1,9 @@
 # Bonsai · W1 · Final Handoff to W2 / W3 / W4 v0.2
 
+> **Received document, locally amended.** One filename reference was updated to
+> match local naming (the versioned quarantine filename). No content changed.
+> The unmodified original is preserved in `99-archive/external-packages/`.
+
 **Date:** 3 September 2026  
 **W1 status:** CLOSED FOR BROAD REVIEW MINING  
 **Product decision:** none. P1 / P2 / P3 remain `UNVALIDATED`.

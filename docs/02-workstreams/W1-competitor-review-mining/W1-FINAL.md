@@ -1,5 +1,11 @@
 # Bonsai · W1 · Competitor Review Mining · FINAL v1.1
 
+> **Received document, locally extended.** Adopted from the external W1 closed
+> package as `W1-FINAL-v1.1`. Two internal sections are appended at the end —
+> an audit-provenance record and a verification note — covering findings that did
+> not survive the v1.1 rewrite and one item we could not independently reproduce.
+> The unmodified original is preserved in `99-archive/external-packages/`.
+
 **Closed:** 3 September 2026  
 **Status:** **CLOSED FOR BROAD REVIEW MINING**  
 **Project state:** PRE-VALIDATION / PRE-MVP  
