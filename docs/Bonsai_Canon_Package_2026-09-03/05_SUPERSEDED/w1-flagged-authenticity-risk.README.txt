@@ -1,0 +1,6 @@
+SUPERSEDED collection artefact.
+
+This is the 5-unit set found by internal collection on 2 Sep 2026.
+The authoritative quarantine is w1-authenticity-quarantine.json (6 units),
+adopted from the W1 closed package and accepted in amendment resolution A6.
+Retained because it is the independent corroboration that prompted the quarantine.

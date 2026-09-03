@@ -1,0 +1,4 @@
+exclusion_id,name,developer,surface,action,reason
+EX-001,Bonsai by Zoom,Hello Bonsai,iOS + Android,exclude,"Freelancer invoicing/business management tool; bonsai is the brand name, not the tree domain."
+EX-002,Bonsai Design Ideas,,Google Play,exclude,Image gallery/design-inspiration app; no bonsai care/tracking/journal behavior.
+EX-003,Bonsai Focus,,Magazine / digital publication,exclude,Bonsai magazine/content publication; not a longitudinal tree record/care product for this registry.

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "BG-US-001",
+    "product": "Bonsai: Care & Growth Journal",
+    "app_id": "6772092929",
+    "storefront": "US",
+    "review_date": "2026-05-27",
+    "title": "The most beautiful, zen-like garden journal on iOS.",
+    "derived_summary": "Usuário destaca estética, fluidez, exportação de before/after para redes e privacidade sem conta cloud obrigatória.",
+    "original_tags": [
+      "DESIGN_VALUE",
+      "SHARING_VALUE",
+      "PHOTO_HISTORY",
+      "PRIVACY_VALUE"
+    ],
+    "authenticity_status": "REVIEW_AUTHENTICITY_RISK",
+    "quarantined": true,
+    "use_for_behavioral_inference": false,
+    "reason": "Launch-window cluster of uniformly five-star, unusually polished and marketing-aligned reviews. This is a risk flag, not a claim that the review is fake.",
+    "source": "Public Apple App Store review page; verified during W1 closure."
+  },
+  {
+    "id": "BG-US-002",
+    "product": "Bonsai: Care & Growth Journal",
+    "app_id": "6772092929",
+    "storefront": "US",
+    "review_date": "2026-06-09",
+    "title": "Finally! An app that actually understands bonsai.",
+    "derived_summary": "Usuário contrasta o app com trackers genéricos, valoriza timeline visual e registro de wiring/repotting/ramification sem planilhas tediosas.",
+    "original_tags": [
+      "TRACKING_VALUE",
+      "PROGRESSION_VALUE",
+      "ANTI_GENERIC_PLANT_APP",
+      "LOW_FRICTION_VALUE",
+      "ADOPTION_TRIGGER_SPREADSHEET"
+    ],
+    "authenticity_status": "REVIEW_AUTHENTICITY_RISK",
+    "quarantined": true,
+    "use_for_behavioral_inference": false,
+    "reason": "Launch-window cluster of uniformly five-star, unusually polished and marketing-aligned reviews. This is a risk flag, not a claim that the review is fake.",
+    "source": "Public Apple App Store review page; verified during W1 closure."
+  },
+  {
+    "id": "BG-US-003",
+    "product": "Bonsai: Care & Growth Journal",
+    "app_id": "6772092929",
+    "storefront": "US",
+    "review_date": "2026-06-13",
+    "title": "Love the collage feature! Perfect for sharing progress.",
+    "derived_summary": "Usuário relata demanda social por progression history e valoriza exportar colagens para mostrar a evolução em Reddit/Instagram.",
+    "original_tags": [
+      "SHARING_VALUE",
+      "PROGRESSION_VALUE",
+      "PHOTO_HISTORY",
+      "SOCIAL_DISTRIBUTION_OBJECT"
+    ],
+    "authenticity_status": "REVIEW_AUTHENTICITY_RISK",
+    "quarantined": true,
+    "use_for_behavioral_inference": false,
+    "reason": "Launch-window cluster of uniformly five-star, unusually polished and marketing-aligned reviews. This is a risk flag, not a claim that the review is fake.",
+    "source": "Public Apple App Store review page; verified during W1 closure."
+  },
+  {
+    "id": "BG-US-004",
+    "product": "Bonsai: Care & Growth Journal",
+    "app_id": "6772092929",
+    "storefront": "US",
+    "review_date": "2026-06-03",
+    "title": "A priceless visual history of my trees.",
+    "derived_summary": "Usuário com mais de 20 árvores diz que antes organizava progressão em álbuns do iPhone e agora usa perfis por árvore como diário visual.",
+    "original_tags": [
+      "COLLECTION_SCALE",
+      "ADOPTION_TRIGGER_CAMERA_ROLL",
+      "PROGRESSION_VALUE",
+      "PHOTO_HISTORY",
+      "TRACKING_VALUE"
+    ],
+    "authenticity_status": "REVIEW_AUTHENTICITY_RISK",
+    "quarantined": true,
+    "use_for_behavioral_inference": false,
+    "reason": "Launch-window cluster of uniformly five-star, unusually polished and marketing-aligned reviews. This is a risk flag, not a claim that the review is fake.",
+    "source": "Public Apple App Store review page; verified during W1 closure."
+  },
+  {
+    "id": "BG-US-005",
+    "product": "Bonsai: Care & Growth Journal",
+    "app_id": "6772092929",
+    "storefront": "US",
+    "review_date": "2026-06-09",
+    "title": "Pure Zen. The most beautiful app on my phone.",
+    "derived_summary": "Usuário valoriza design minimalista, dark mode e foco visual nas árvores; a review é predominantemente estética.",
+    "original_tags": [
+      "DESIGN_VALUE",
+      "LOW_INFORMATION_BEHAVIORAL"
+    ],
+    "authenticity_status": "REVIEW_AUTHENTICITY_RISK",
+    "quarantined": true,
+    "use_for_behavioral_inference": false,
+    "reason": "Launch-window cluster of uniformly five-star, unusually polished and marketing-aligned reviews. This is a risk flag, not a claim that the review is fake.",
+    "source": "Public Apple App Store review page; verified during W1 closure."
+  },
+  {
+    "id": "BG-US-006",
+    "product": "Bonsai: Care & Growth Journal",
+    "app_id": "6772092929",
+    "storefront": "US",
+    "review_date": "2026-06-01",
+    "title": "Forget general plant apps. This is the gold standard.",
+    "derived_summary": "Usuário rejeita formulários e coleta de dados e diz que a growth timeline, por si só, justifica o download.",
+    "original_tags": [
+      "LOW_FRICTION_VALUE",
+      "PRIVACY_VALUE",
+      "PROGRESSION_VALUE",
+      "TRACKING_VALUE"
+    ],
+    "authenticity_status": "REVIEW_AUTHENTICITY_RISK",
+    "quarantined": true,
+    "use_for_behavioral_inference": false,
+    "reason": "Launch-window cluster of uniformly five-star, unusually polished and marketing-aligned reviews. This is a risk flag, not a claim that the review is fake.",
+    "source": "Public Apple App Store review page; verified during W1 closure."
+  }
+]
