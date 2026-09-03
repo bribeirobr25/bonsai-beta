@@ -1,0 +1,337 @@
+# App market scan — bonsai tracking and logging apps
+
+**Method:** Apple App Store public lookup API, 1 September 2026. Queried in four
+storefronts.
+
+**Reconciled 3 September 2026.** Earlier versions said nine products, then
+"at least 14". Both were wrong. §0 now derives a single count from a master
+list, and every other document takes its number from there.
+**Cost:** under an hour.
+**Purpose:** the cheapest available test of the venture's central assumption —
+that growers will maintain a longitudinal record of their trees.
+
+
+> **Strategic Foundation / Pre-MVP Canon v1.0** — frozen 2 September 2026.
+> Changes from here should be recorded as amendments rather than silent edits,
+> so the four workstreams do not diverge from different snapshots.
+
+---
+
+## 0. Historical discovery list and current registry authority
+
+The table below is retained as the **1–2 September historical discovery snapshot**.
+It is **not** the current competitor registry and must not be used to derive the
+current known-product count.
+
+The current W1 identity authority is `COMPETITOR-REGISTRY.csv`, which records a
+discovered lower bound of **at least 45 distinct competitive bonsai software products/surfaces known to ship or have
+shipped**. The exact universe and active/current count remain `UNVALIDATED`.
+
+Prior drafts mixed a measured sample with a narrative count and disagreed with
+themselves; the registry now prevents narrative documents from maintaining
+parallel identities.
+
+| # | Product | In iTunes sample? | Note |
+|---:|---|---|---|
+| 1 | BonsaiDo | yes | |
+| 2 | Bonsai Care App (Bonsai Empire) | yes | |
+| 3 | BonsAI Identifier: Tree Care | yes | |
+| 4 | Jooni – Bonsai Tracking | yes | |
+| 5 | Bonsai Care – Journaling | yes | |
+| 6 | Appy Bonsai | yes | |
+| 7 | Bonsaiku | yes | season × climate calendar |
+| 8 | Bonsai – Tree Care | yes | |
+| 9 | Tiny Tree Club | yes | |
+| 10 | Bonsai Care: Plant Tracker | yes | **added 2 Sep**; 0 ratings, released Jul 2026 |
+| 11 | Bonsai Tracker | no — web-first | permanent Tree ID; ownership transfer |
+| 12 | Yoi Bonsai | no — web-first | "lineage that travels with the tree" |
+| 13 | Wabi Sabi Bonsai | no — Android | QR code per pot |
+| 14 | Diario Bonsai – Nebari | no — not queried | **Portuguese**; hemisphere + climate zone |
+| 15 | Bonsai App (`br.com.bonsaiapp`) | no — Android | **Brazilian** |
+| 16 | ScandinavianBonsai | no — Android | RFID tags. **Same product as "Bonsai Care & RFID Tree Log"** (`se.vilhelmineberg.planttracker`) — earlier drafts double-counted these |
+| 17 | MyBonsaiTag | no — not queried | identity/transfer via NFT |
+| 18 | Bonsme | **defunct** | shut down; founders cited capacity |
+
+**Derived counts — historical and superseded for current identity/count. See `COMPETITOR-REGISTRY.csv` and `W1-FINAL.md`.**
+
+Google Play search surfaced roughly 19 genuine bonsai care/tracking apps on
+Android alone, most absent from this list, including one at 10,000+ installs.
+With iOS-only products the true figure is nearer 30.
+
+> **Maintain a versioned registry and a discovered lower bound; do not claim a
+> census or build an argument on the exact total.**
+>
+> What is currently decision-relevant: **at least four products hold 10,000+
+> Android installs (§8.4)**, while a steep lower tail includes 1K+, 500+, 100+
+> and smaller brackets. Distribution is uneven, not literally “10K+ then zero”.
+
+The list below remains useful as a record of *which* products exist and what
+they do. It is a floor, not a census.
+
+- **10** measured in the iTunes sample below (the 10th, *Bonsai Care: Plant Tracker*, was added 2 Sep and verified at 0 ratings in all four storefronts, so it does not change the totals)
+
+*Excluded by criterion:* Mirai Mobile ships inside a subscription, so its
+numbers would reflect that subscription rather than standalone demand.
+
+> This list is **not** claimed to be exhaustive. Two products were found only
+> after two prior scans called the list complete, so assume more exist.
+
+---
+
+## 1. US storefront
+
+| App | Developer | Released | Last update | Rating | US ratings |
+|---|---|---|---|---:|---:|
+| BonsaiDo | Marco Rinaldi | 2020-04-16 | 2025-09-05 | 4.6 | 136 |
+| Bonsai Care App | Bonsai Empire | 2023-12-05 | 2026-08-24 | 4.5 | 64 |
+| BonsAI Identifier: Tree Care | Juanjo Valino | 2024-12-05 | 2025-10-27 | 4.3 | 32 |
+| Jooni – Bonsai Tracking | EDUARDO FERREIRA | 2020-10-29 | 2026-08-11 | 4.0 | 5 |
+| Bonsai Care - Journaling | Abdelkarime Achtaou | 2024-12-12 | 2026-08-15 | 5.0 | 1 |
+| Appy Bonsai - Bonsai Care | Appy Bonsai | 2024-04-10 | 2026-08-31 | 5.0 | 1 |
+| Bonsaiku: Bonsai Care & Log | PRIOMAT LLC | 2026-06-17 | 2026-06-17 | — | 0 |
+| Bonsai - Tree Care | Mitaanshu Agarwal | 2026-06-23 | 2026-06-23 | — | 0 |
+| Tiny Tree Club | Jonathan Baran | 2026-05-19 | 2026-08-17 | — | 0 |
+| Bonsai Care: Plant Tracker | MEHMET CANKER (TR) | 2026-07-21 | 2026-07-21 | — | 0 |
+| **Total** | | | | | **239** |
+
+## 2. Competitors outside this table
+
+Found in later research and **not** measured above, because they are not
+queryable through the iTunes lookup API or are web-first:
+
+| Product | Note |
+|---|---|
+| **Bonsai Tracker** | Web-first. Permanent Tree ID and ownership transfer with care history |
+| **Yoi Bonsai** | "Lineage that travels with the tree"; zero-fee marketplace. Built by a developer with 20+ years in bonsai |
+| **Wabi Sabi Bonsai** | QR code per pot; auto-timeline; Google Drive sync |
+| **Diario Bonsai – Nebari** | **Portuguese-language**, launched 2026. Claims hemisphere *and* climate zone |
+| **Bonsai App** (`br.com.bonsaiapp`) | **Brazilian**, Google Play |
+| **ScandinavianBonsai** | Android. RFID tags for physical-to-digital tree identity. Listed on Google Play as *Bonsai Care & RFID Tree Log* (`se.vilhelmineberg.planttracker`) — **one product, two names**; earlier drafts counted it twice |
+| **MyBonsaiTag** | Physical tagging; identity and transfer via NFT |
+| **Bonsme** | Community-oriented |
+
+Two consequences. **The Portuguese-language position is doubly occupied** —
+Nebari and `br.com.bonsaiapp`. And **physical tree identity is being attacked
+from three directions** — QR codes, RFID tags and permanent IDs — so it is not
+an open idea either.
+
+## 3. Other storefronts
+
+| Storefront | Apps listed | Total ratings, all apps | Leader |
+|---|---:|---:|---|
+| United States | 9 | **239** | BonsaiDo (136) |
+| United Kingdom | 8 | **51** | BonsaiDo (24) |
+| Germany | 7 | **25** | Bonsai Care App (16) |
+| **Brazil** | 8 | **15** | BonsaiDo (10) |
+
+Historical measured-sample subtotal: **~330 ratings** across the four storefronts above. **This is superseded as a category-wide total**; see §8.3.
+
+---
+
+## 4. What this means
+
+> **Evidence status of this scan:** the rating counts are `OBSERVED`. The
+> inference that the category has low momentum is a `SUPPORTED SIGNAL`.
+> Anything about revenue, retention or viability is `UNVALIDATED` — we have no
+> such data. Android install figures are now `OBSERVED` (see §7); Android
+> *usage* remains `UNVALIDATED`.
+
+**Superseded — see §8.2. The US iOS leader is Bonsai Album at 193 ratings, not BonsaiDo at 136.**
+
+> **Do not convert ratings into a user estimate.** An earlier version of this
+> document inferred "7,000–14,000 users" from an assumed 1–2% rating
+> conversion. That rate was invented, not measured, and rating behaviour varies
+> enormously by category, prompt design and platform. **Ratings are a
+> comparative signal between these apps and nothing more.**
+
+**Bonsai Empire's app has 64 US ratings.** They hold the largest audience in
+bonsai — 110+ species guides and two decades of brand — and their app has
+sixty-four ratings. If anyone could convert an existing audience into a
+logging product, it is them.
+
+**Three apps in this historical measured sample launched in 2026 and had zero ratings at the snapshot date**: Bonsaiku (June), Bonsai – Tree Care (June), Tiny Tree Club (May). This is an observation about that snapshot, not evidence that the entrants are economically failing.
+
+**Two apps in the original sample had older last-update dates at the snapshot**: BonsaiDo (September 2025) and BonsAI Identifier (October 2025). Update cadence alone is not a retention or viability measure.
+
+### The interpretation
+
+Multiple products compete in a category showing **low observable iOS rating
+traction** across the sampled storefronts, with no visible winner.
+
+> **What this does not tell us.** Whether that reflects low adoption, low
+> rating propensity, usage concentrated on Android or web, or genuinely small
+> addressable demand **remains unresolved**. An earlier draft here asserted
+> "a few thousand users" and a probably-very-small market. Both reintroduced
+> the user inference removed two sections above, and neither is supported.
+
+This does not prove growers will not log.
+
+> **Nor does it show that these attempts "have not produced a business" —
+> an earlier version of this document asserted exactly that, and it is not
+> supported.** We have no revenue, subscription, retention or sustainability
+> data for any of these products. Several are free; several are side projects;
+> at least one shut down for stated capacity reasons rather than demand.
+>
+> What the data supports is narrower and should be stated as such:
+> **low observable traction on iOS across four storefronts, with no visible
+> winner.** That is a real negative signal about category momentum. It is not a
+> conclusion about economic viability, and it must not be quoted as one.
+
+---
+
+## 5. Limitations — read before acting
+
+- **iOS only. The Android picture was contested and is now resolved — see §7.** Android adoption for the category leader is materially higher than this iOS sample suggests, so **these numbers understate the category.** The contested figures were:
+
+  | Source | Bonsai Empire on Google Play |
+  |---|---|
+  | Legacy research-log report | **10,000+ downloads, ~270 reviews** |
+  | Independent search (this session) | **2K+ downloads** (APKPure: 1K+), rated 4.4 |
+
+  **Resolved 2 Sep 2026 — see §7.** The 2K+ figure is superseded. This still matters most for Brazil, which is roughly 80% Android, so the Brazilian iOS figure of 15 remains a severe undercount and must not be read as an empty market.
+- **Ratings are not users.** They are a proxy for relative scale, not an absolute measure.
+- **Four storefronts.** Not global coverage.
+- **Web-first products excluded.** Bonsai Tracker and Yoi Bonsai are primarily web products with companion apps; their usage is not captured here.
+- **Mirai Mobile / My Trees is excluded from standalone distribution measurement** because it ships inside a broader subscription, so its numbers would reflect the whole membership rather than standalone tracker demand. It is nevertheless included in `COMPETITOR-REGISTRY.csv` as a competitive identity.
+
+The Android gap referenced in the original scan is now **closed for W1 purposes**
+(§7 and the current registry). The Brazilian iOS count still must not be read as
+an empty-market signal because Android distribution is materially larger.
+
+> **Which rows may enter a store denominator is no longer decided here.** As of
+> 3 September 2026 it is a **derived** field in `COMPETITOR-REGISTRY.csv`,
+> `included_in_standalone_distribution_measurement`, set `true` only for rows
+> that are `standalone_app` **and** `current` **and** have a comparable store
+> surface **and** are not confounded by a subscription or required hardware.
+> Current state: **32 of 45 rows** are in measurement. The exclusions listed
+> above are consistent with it. See `COMPETITOR-REGISTRY.md` for the full rule —
+> and note that applying it exposed two data defects, so the rule is only as
+> reliable as `surface_type` and `lifecycle_status`.
+
+---
+
+## 6. Consequence for the research programme
+
+This changes sequencing rather than conclusions. It was obtained in under an
+hour and bears directly on H1, the hypothesis that a 12–14 week, R$45k–90k
+programme was designed to test.
+
+**Recommended order:** ~~resolve the contested Android numbers~~ ✅ done (§7) → mine reviews of these 45+ known competitive software products/surfaces
+for friction and abandonment → ~18 artifact interviews → *then* decide whether
+the full observational programme is warranted.
+
+Spending R$45k to establish that people will log, when 35+ known shipped
+products show low observable traction, is the wrong order.
+
+---
+
+## 7. Amendment · 2 September 2026 · Android signal resolved
+
+The Android discrepancy recorded in §5 is closed. Bonsai Empire's
+`app.bonsaicare` is confirmed on Google Play at the **10K+ install bracket**,
+and independent Android trackers estimate cumulative downloads in the **low
+forties of thousands**.
+
+| Metric | Value | Status |
+|---|---|---|
+| Google Play install bracket | **10K+** | `OBSERVED` — confirmed |
+| Cumulative downloads | **~42–44K** | `SUPPORTED SIGNAL` — third-party estimate; AppBrain and Chrome-Stats differ |
+| Google Play reviews | **~192–270** | **Inconsistent across sources and dates** — an order of magnitude, not a figure |
+| Previous "2K+" | — | **REJECTED / superseded** |
+| Active users, retention, paid conversion, revenue | — | `UNVALIDATED` |
+
+> **The sub-figures did not reconcile.** An independent check found 192 reviews
+> and ~42K estimated downloads where the reporting source gave ~268 and ~44K.
+> The **magnitude** is corroborated; the precise numbers are not. Record the
+> bracket, not the decimals.
+
+### What this changes
+
+The iOS-only reading understated the category. Bonsai Empire shows **64 US iOS
+ratings** against **10K+ Android installs and hundreds of Android reviews** — so
+"low observable traction" was partly an artefact of sampling one platform.
+
+The correct formulation, superseding the wording in §4:
+
+> **iOS observable traction is low, while Android evidence for the category
+> leader is materially stronger: Google Play confirms 10K+ installs and
+> independent trackers estimate roughly 42–44K cumulative downloads. Market
+> adoption is therefore larger than the iOS-only scan suggested, while active
+> usage, retention, paid conversion and economic viability remain
+> `UNVALIDATED`.**
+
+**Do not make the downloads → users → customers leap.** Cumulative downloads are
+not active users and are certainly not paying ones.
+
+### Consequence
+
+The question for Monetization improves. It is no longer *"is this market too
+small?"* but:
+
+> **Bonsai Empire converted substantial distribution into tens of thousands of
+> downloads. How many became recurring users, how many paid, and why?**
+
+That is the gap between acquisition and retained economic value — a better
+question than this scan was previously pointing at.
+
+---
+
+## 8. Amendment · 3 September 2026 · Market scan reconciliation
+
+Adopts `Bonsai_W1_Final_Package_2026-09-03/03_AMENDMENTS/…Market_Scan_v0.3`,
+verified at source. **Supersedes §0, §4 and §7 wherever they conflict.**
+
+### 8.1 Competitor count
+
+> **At least 45 distinct competitive bonsai software products/surfaces are
+> known to ship or have shipped.** Non-exhaustive. Active status must be
+> tracked separately from the historical universe.
+
+`OBSERVED` as a lower bound · exact universe `UNVALIDATED`.
+
+### 8.2 The US iOS leader was wrong
+
+**Bonsai Album, not BonsaiDo, leads US App Store ratings** — 193 vs 136
+(verified 3 Sep; their snapshot recorded 192/134 a day earlier — measurement
+drifts, so attach dates to these figures).
+
+| Bonsai Album | US 193 · UK 52 · DE 73 | id `465021382`, Andrew Nicolle |
+|---|---|---|
+| Bonsai Album Lite | US 44 | separate listing, same product family |
+
+**Root cause of the omission — a method flaw, not an oversight.** The earlier
+scan searched `care`, `tracker`, `journal`, `log`. The product is called
+*Album*. Lookups then used a fixed ID list built from those searches, so one
+blind spot propagated into every downstream count. **Keyword search over product
+names cannot enumerate a category.**
+
+### 8.3 The ~330 figure is superseded
+
+Adding Bonsai Album raises the reconciled four-market lower bound to
+**≥647**, before a fresh census. `OBSERVED-DERIVED LOWER BOUND` — not a census.
+
+### 8.4 Android — four products at 10K+, not three
+
+The external amendment states "at least three". Verified directly, it is **four**:
+
+| Product | Play installs | Ratings |
+|---|---|---|
+| Bonsai Care App | 10,000+ | 270 |
+| Appy Bonsai | 10,000+ | 94 |
+| **Jooni** | **10,000+** | **53** |
+| My Bonsai Book | 10,000+ | 0 |
+
+Jooni is missing from their list. **The 10K+ bracket is a category signal, not
+an incumbent anecdote.**
+
+### 8.5 Exclusions that trap every rescan
+
+- **`Bonsai by Zoom` / `com.hellobonsai.bonsai`** — 310 iOS ratings, 10,000+ Android installs. **Hello Bonsai's freelancer invoicing tool.** It outranks every genuine product in the category.
+- **`Bonsai Design Ideas`** — 10,000+ Android installs. An **image gallery**.
+- **`Bonsai Focus` (EN/ES/IT/FR/NL/DE)** — the magazine.
+- Plus games, habit trackers, AI image tools and restaurants using the word.
+
+### 8.6 What none of this establishes
+
+More attempts and more Android adoption. **Not** market size, retention,
+revenue or viability — all still `UNVALIDATED`.

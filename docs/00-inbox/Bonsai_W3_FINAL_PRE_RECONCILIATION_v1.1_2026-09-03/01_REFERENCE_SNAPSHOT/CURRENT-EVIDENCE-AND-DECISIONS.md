@@ -99,13 +99,9 @@ advisor* formulation.
 ### Distribution observations
 
 - **Android:** at least four known products are in the **10K+ Google Play install bracket** — Bonsai Care App, Appy Bonsai, Jooni and My Bonsai Book. This is `OBSERVED` distribution, not evidence of active usage, retention, paid conversion or revenue.
-- **iOS:** Bonsai Album is the currently observed US ratings leader **among standalone products** at **193 ratings**, ahead of BonsaiDo at **136**. Counts are date-sensitive. The qualifier matters: **Mirai Mobile holds 379**, but is excluded from standalone measurement because its distribution is bundled with the membership.
+- **iOS:** Bonsai Album is the currently observed US ratings leader in the reconciled snapshot at **193 ratings**, ahead of BonsaiDo at **136**. Counts are date-sensitive.
 - The earlier statement that the category held **~330 iOS ratings across four storefronts** is **superseded as a category-wide total**. It remains a historical subtotal for the earlier measured sample. The reconciled lower bound in the same four-market framework is **≥647** before a complete refreshed census.
 - The Android distribution curve is a **steep long tail**, not “10K+ then zero”: lower 1K+, 500+ and 100+ brackets are also observed.
-- **iOS attention is extremely concentrated, and the median product has none.** A Track A teardown (US, 3 Sep 2026 — `04-evidence/W2-PRICING-TEARDOWN.md`) of the **23 measurement-eligible** products with a resolvable Apple identity finds **median ratings 0**, **16 of 23 with zero ratings (69%)**, and the **top three holding 96%** of 376 total. Two products — Bonsai Album (193) and BonsaiDo (136) — hold **87% between them**. `OBSERVED`, one storefront, one date.
-- **This is an active market, not a dying one.** **17 of 23 launched in 2026** and **20 of 23 were updated in 2026**. The zero-rating majority is current, maintained software that nobody has found — a different problem from abandonment.
-- **22 of 23 are free at download.** The sole paid-upfront product, Bonsai Album at **$7.99**, is also the ratings leader — but it launched in 2011, so age alone may explain that. Free-by-default is a **convention, not a demonstrated requirement**.
-- **Mirai Mobile holds 379 ratings, the highest observed** — roughly double Bonsai Album. It is excluded from standalone measurement because its distribution is bundled with the membership. The reading to carry forward: the most-rated tracker in the set **did not win by being a better tracker**; it arrived attached to an existing audience. Canon already records a user displacing Mirai My Trees with Excel and folders.
 
 > **Guardrail:** ratings are not users; installs are not active users; neither establishes retention, paid conversion, revenue or economic viability.
 
@@ -160,19 +156,7 @@ Nothing is chosen. Three composites remain live, all `UNVALIDATED`:
 |---|---|---|
 | **P1** Tree identity + journey (+ provenance substrate) | Foundational candidate | Outcome aggregation explicitly **out** of the initial core |
 | **P2** Acquisition companion | Candidate funnel | Ends with "start this tree's journey", not a care guide |
-| **P3** Teacher / practitioner layer | Candidate ceiling | ~~Best economics~~ — **see pending amendment below**; also a source of **attestations**, which connects authority without claiming it |
-
-> **`PROPOSED CANON AMENDMENT W2-001` — cross-front supported, not yet adopted.**
-> W2 found that *"Best economics"* asserts a conclusion inside a table headed
-> *"all `UNVALIDATED`"*. **W2, W3 and W4 all recommend `ACCEPT`.** Proposed
-> replacement: *"Candidate ceiling; potentially higher-value professional payer
-> and a possible source of attestations. Economics remain `UNVALIDATED`."*
->
-> **The wording is not changed here.** Under §13a a strategic amendment is
-> adjudicated at Cross-Front Reconciliation, and all three fronts state it is not
-> yet canonical. This marker exists so the phrase is not read as settled while the
-> amendment is pending. W2 ranks P3 **second-highest validation priority** — the
-> amendment restores evidence discipline, it does not downgrade P3.
+| **P3** Teacher / practitioner layer | Candidate ceiling | Best economics; also a source of **attestations**, which connects authority without claiming it |
 
 **The advice ladder** determines what can ship without authority: levels 0–3
 (record, retrieve own history, retrieve similar cases, describe outcomes)
@@ -286,74 +270,6 @@ A better lens than *is the market too small* — it accepts that the attempts ex
 
 ---
 
-## 11a. Cross-front alignment state — 3 September 2026
-
-**W1 `CLOSED` · W2, W3, W4 all `READY FOR CROSS-FRONT RECONCILIATION`.** All three
-returned final packages, exchanged formal responses, and **none found a material
-contradiction** requiring another front to reopen.
-
-### The shared value architecture — every arrow is a separate hypothesis
-
-> **Progress** → acquisition / entry
-> **Organization · Retrieval · Memory** → current utility / return
-> **Continuity** → trust / commitment
-> **Comparable Journey** → potential recurring differentiated value
-
-This is **not a validated funnel**. The governing cross-front discipline is:
-
-> **message that acquires ≠ value that retains ≠ value that monetizes.**
-
-### The primary joint gate
-
-All three fronts converged on one question as the load-bearing test:
-
-> **Can a dedicated experience around one real tree create current differentiated
-> value over Photos / Excel / notes, before collection-wide migration or long
-> historical accumulation?**
-
-| Front | Instrument |
-|---|---|
-| W2 | `G1` substitute superiority + `G2` time-to-differentiated-value |
-| W3 | `Progress → Memory` |
-| W4 | `L2 · One-Tree Land-and-Expand` |
-
-**Failure is cross-front informative**, not merely a W4 result: consumer P1
-economics weaken materially, and W3 accepted a formal kill condition that
-*Brand must not rescue a failed dedicated-value thesis with Continuity, Journey
-or Story.*
-
-### Integrated validation sequence — proposed, not a roadmap
-
-| Step | Test | Access |
-|---|---|---|
-| **0** | `L4-A / G10-A` Comparable Journey corpus-density shadow | **Track A — runnable now** |
-| 1 | `L2 + G1/G2` One-Tree Dedicated Value | participants |
-| 2 | `L1` First-Tree Inception | participants |
-| 3 | `G7A/B` professional workflow + budget discovery — **not** L5 Growth | participants |
-| 4 | `L3` Progression Artifact | participants |
-| 5 | `L4-B / G10-B` Comparable Journey utility | participants |
-| 6 | `L5` Teacher/Club Continuity — gated by prior evidence | participants |
-| 7 | `L6 / G9` Transfer / Provenance — secondary, long-cycle | participants |
-
-### Amendment status
-
-| Amendment | Support | State |
-|---|---|---|
-| `W4-A` export/data = commitment gate, not acquisition moment | W4 proposed · W2 + W3 support | **APPLIED** 3 Sep 2026 under §13a — it resolved a contradiction between two canon documents |
-| `W2-001` P3 "Best economics" → `UNVALIDATED` | W2 + W3 + W4 all `ACCEPT` | **PENDING** formal reconciliation — see §7 |
-
-### One decision the fronts escalated, and only the founder can make
-
-> **Which success ambition is authoritative: S1 sustainable small business,
-> S2 founder full-time, or S3 venture scale?**
-
-W2's scenario anchors (€75k / €200k / €3m annual contribution) are **sensitivity
-tools, not targets**. This does **not** block falsification — Step 0 and Step 1
-can run without it — but **no result can be called economically "sufficient" or
-"too small" until an ambition is named.**
-
----
-
 ## 12. Choosing an MVP instrument
 
 Not *"which features go in the MVP?"* but **"what is the largest uncertainty
@@ -412,47 +328,3 @@ users.
 | Legacy `parallel-work.txt` | **Superseded legacy research log; not packaged as a current source.** Relevant conclusions were extracted into the canonical documents before W1 closure. Note this file was overwritten on 1 Sep 2026; the earlier Gate 0 and domain-model research survives only in git history at commit `0030e009`. |
 
 Where documents disagree, this file and `PROJECT-BRIEF.md` take precedence.
-
-### 13a. `PROPOSED CANON AMENDMENT` — the mechanism
-
-W2, W3 and W4 must not edit canon. Where a front produces evidence that
-contradicts or materially weakens something here, it returns a block labelled
-**`PROPOSED CANON AMENDMENT`**. Defined once, so the label means the same thing
-in all three returns.
-
-**A proposal must contain all six fields.** An incomplete proposal is not
-rejected — it is returned for completion, because an amendment that cannot be
-audited cannot be adopted.
-
-| Field | Content |
-|---|---|
-| `TARGET` | Document, section, and the exact sentence or table row affected |
-| `CURRENT` | What canon says today, quoted verbatim |
-| `PROPOSED` | The replacement wording |
-| `EVIDENCE` | What was observed, how, when, and by whom — a method and a date, not an assertion |
-| `STATUS` | The evidence status being claimed: `OBSERVED`, `SUPPORTED SIGNAL`, `CONTRADICTED`, `UNVALIDATED` or `DEFERRED` |
-| `BLAST RADIUS` | Every other claim, document or workstream that changes if this is adopted |
-
-**Adjudication.** Amendments are adjudicated at Cross-Front Reconciliation, not
-by the proposing front and not unilaterally by canon governance. Three
-exceptions may be applied immediately, because delay would let a known error
-propagate:
-
-1. a **factual error** verifiable at source (a wrong ID, a broken reference, arithmetic);
-2. an **internal contradiction** between two canon documents;
-3. a **provenance gap** — a claim whose stated support does not exist.
-
-Everything strategic waits for reconciliation.
-
-**While pending, a proposal changes nothing.** Canon stands as written, and
-downstream work continues on the current text. A pending amendment is neither
-adopted nor rejected, and must not be cited as though it were settled.
-
-**Conflicts are expected.** If two fronts propose incompatible amendments to the
-same target, both are carried to reconciliation intact. Neither is silently
-merged, and the disagreement is itself evidence about the target's stability —
-`VERIFICATION_CONTESTED` in `COMPETITOR-REGISTRY.csv` exists for exactly this
-reason and is the working precedent.
-
-**A test that cannot be run stays `UNVALIDATED`, never `FAIL`.** An amendment
-may not convert absence of evidence into a negative finding.
