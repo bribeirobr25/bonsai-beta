@@ -39,7 +39,8 @@ validation reports, plus the external front's final reconciliation record.
 Registry maintenance is governance and does not reopen W1.
 
 W2 (Monetization & Economics), W3 (Brand Identity & Marketing) and W4 (Growth
-Strategy) open next, in parallel, entering through `01-canon`.
+Strategy) have each returned a package; `cross-front/` holds the validation and
+the adopt/ignore list. Cross-Front Reconciliation is the next gate.
 
 ### `03-registry/` — competitor identity authority
 `COMPETITOR-REGISTRY.csv` owns competitor identity. **Narrative documents may
