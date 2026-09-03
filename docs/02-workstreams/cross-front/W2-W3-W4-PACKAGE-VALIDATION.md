@@ -288,7 +288,8 @@ seen it without the other's work.
 
 ## 8. Recommendation
 
-**Adopt all twenty-eight items in §4. Accept both amendments** — `W2-001` at
+**Adopt all twenty-eight items in §4, plus the cross-front mapping table and the
+W3 read-order fix identified in round 2 (`W2-W3-W4-ROUND2-VALIDATION.md` §1b). Accept both amendments** — `W2-001` at
 reconciliation, `W4-A` immediately under `§13a`'s internal-contradiction
 exception, since it resolves a disagreement between two canon documents.
 

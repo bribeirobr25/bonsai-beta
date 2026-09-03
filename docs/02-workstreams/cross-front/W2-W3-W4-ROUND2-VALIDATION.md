@@ -27,10 +27,16 @@ W2 archives.
 | **Total authored** | **13,411** | **~11,520** | **~86%** |
 | W2 archives | 9,234 | superset-proved | *n/a* |
 
-An earlier version of this line said "~80%"; that was an estimate. The figure
-above is computed from file line counts. Remaining gaps are W3's README-manifest,
-parts of W3's alignment update §1–3 and W2's cross-front response §2 — all of
-whose conclusions are restated in documents read in full.
+**Those gaps are now closed.** A final pass read W2's cross-front response §2
+(all seven W3 answers), W2's handoff §5–9, W2's MANIFEST and README, W3's
+alignment update §1–3, W3's README-MANIFEST, W3-FINAL §12.2–12.7 and §17–19,
+W4's README, and the archived cross-front mapping. W3-FINAL has no §24–25 — it
+runs 23 → 26.
+
+**Authored coverage is now effectively complete**, excluding only W2's archived
+structure-map versions, proved a strict paragraph-level subset of v0.5.
+
+Two findings came from that final pass — §1b.
 
 W2's 9,234 archived lines were checked at **paragraph level**: v0.5 contains
 every substantive paragraph of v0.1–v0.4, the only unmatched paragraph in each
@@ -214,6 +220,35 @@ the second demonstration of why.
 **Neither gap invalidates any conclusion** — the fronts' reasoning does not depend
 on the missing material. But reconciliation should open by giving all three the
 current canon and the teardown.
+
+---
+
+## 1b. Two findings from the final pass
+
+### The best cross-front artefact in any package is sitting in an archive
+
+`W2-CROSS-FRONT-MAPPING-v0.1.md` is an **11-row matrix aligning every W2 gate to
+its W3 territory and W4 loop**, each row carrying the joint unresolved question
+and a disposition — *"Highest joint participant gate"*, *"L4-A Track A first"*,
+*"Never equate partner with payer"*, *"Founder success ambition unresolved"*.
+
+It is filed under `99_ARCHIVE/02_SUPERSEDED_HANDOFFS/` and **referenced by zero
+documents in W2's current set** (verified). Nothing supersedes it; the alignment
+summary that replaced it is prose and carries less. **Promote it** — it is the
+one-page view of the whole cross-front state that reconciliation needs.
+
+### W3's read order sends every reader to its own stale snapshot
+
+W3's `README-MANIFEST.md` states the correct rule — *"if the upstream project
+Canon is later amended, the upstream current Canon takes precedence"* — but items
+**1 through 4** of its read order are all `01_REFERENCE_SNAPSHOT/…`.
+
+So the governance is right and the instruction defeats it. **This is the
+mechanism by which the staleness in §1a propagates**, and it is a one-line fix:
+point items 1–4 at the live canon and keep the snapshot for audit only.
+
+Confirmed in the same pass: W3's README-MANIFEST explicitly retires *"older
+14/18/40 counts"* in favour of 45, so count discipline is holding.
 
 ---
 
