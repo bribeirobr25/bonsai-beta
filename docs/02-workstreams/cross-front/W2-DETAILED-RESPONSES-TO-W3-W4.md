@@ -1,5 +1,16 @@
 # Bonsai · W2 · Cross-Front Response to W3 and W4 v0.1
 
+> **Received document, content unmodified; this banner added locally.** W2's
+> detailed answers to W3's seven questions and W4's eight. W2 filed it as
+> superseded, but 99% of its content exists nowhere else — the alignment summary
+> that replaced it is a summary. Retained here for that detail.
+>
+> **One item is now out of date:** §7 `R1` says the project still needs a
+> founder-level decision on success. **That decision was made on 4 September
+> 2026 — `S1` is authoritative.** See canon §11c. Nothing else in this document
+> is superseded.
+
+
 **Date:** 3 September 2026  
 **From:** W2 · Monetization & Economics  
 **Inputs reviewed:** W3 FINAL package + W4 Growth Strategy current package  

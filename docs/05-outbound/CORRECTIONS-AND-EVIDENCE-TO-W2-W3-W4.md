@@ -134,6 +134,12 @@ reconciliation. A marker now prevents *"Best economics"* being read as settled.
 No front should reopen. No further broad exploration. The next gate is
 Cross-Front Reconciliation, and its agenda is the one you three already wrote.
 
-The one thing reconciliation cannot decide is the **success ambition —
-S1 / S2 / S3**. That has gone to the founder with the payer-count arithmetic and
-the category-traction context attached.
+**The success ambition has been decided.** `S1` — €75k annual contribution — is
+authoritative as of 4 September 2026. `S3` remains an aspiration with **no
+identified path**, and explicitly may not be used to justify a decision `S1`
+would not justify.
+
+For your work this means: **`G11` is assessed against S1**, consumer-only
+economics stay live, and the professional payer (`A2`/`G7`) is **upside rather
+than a requirement** — though it remains the only identified route to S3, which
+is why W2's ranking of it as second priority still holds. See canon §11c.

@@ -288,6 +288,10 @@ All three independently arrived at the same blocked question:
 > **Which success ambition is authoritative — S1 sustainable small business,
 > S2 founder full-time, or S3 venture scale?**
 
+> **RESOLVED 4 September 2026 — `S1` is authoritative; `S3` is an aspiration with
+> no identified path.** See canon §11c for the decision and its guardrails. The
+> section below records why the question mattered and is left as written.
+
 W2's anchors (€75k / €200k / €3m annual contribution) are **sensitivity tools,
 not targets**. This does **not** block falsification: Step 0 and Step 1 both run
 without it. But **no result can be called "sufficient" or "too small" until an

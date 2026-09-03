@@ -34,3 +34,11 @@ Earlier versions (structure map v0.1–v0.4, matrix v0.1, ranking v0.1, synthesi
 v0.1, the round-1 handoff and cross-front response) are in
 `99-archive/external-packages/`. v0.5 was verified a strict paragraph-level
 superset of every prior structure map.
+
+## Superseded by a founder decision
+
+Documents here state that the project *"still needs a founder-level decision on
+what success ultimately means"*. **It was made on 4 September 2026: `S1` (€75k
+annual contribution) is authoritative; `S3` is an aspiration with no identified
+path.** `G11` is assessed against S1. See canon §11c. Nothing else in these
+documents is affected.

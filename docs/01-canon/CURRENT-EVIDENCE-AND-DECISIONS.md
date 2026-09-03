@@ -342,10 +342,13 @@ or Story.*
 | `W4-A` export/data = commitment gate, not acquisition moment | W4 proposed · W2 + W3 support | **APPLIED** 3 Sep 2026 under §13a — it resolved a contradiction between two canon documents |
 | `W2-001` P3 "Best economics" → `UNVALIDATED` | W2 + W3 + W4 all `ACCEPT` | **PENDING** formal reconciliation — see §7 |
 
-### One decision the fronts escalated, and only the founder can make
+### The decision the fronts escalated — **now made**
 
-> **Which success ambition is authoritative: S1 sustainable small business,
-> S2 founder full-time, or S3 venture scale?**
+> **`S1` is authoritative (4 Sep 2026). `S3` is an aspiration with no identified
+> path.** Full decision and its guardrails: §11c.
+
+Results are judged against **€75k annual contribution**. `S3` may not be used to
+justify a decision `S1` would not justify — that is `VK5`/`K7`.
 
 W2's scenario anchors (€75k / €200k / €3m annual contribution) are **sensitivity
 tools, not targets**. This does **not** block falsification — Step 0 and Step 1
@@ -573,6 +576,61 @@ a market far larger than anything W1 or the teardown has observed.
 
 Step 0 (`L4-A` corpus density) and Step 1 (`L2` one-tree value) both run without
 it. **Decide before interpreting their results, not before running them.**
+
+---
+
+## DECISION · 4 September 2026
+
+> **S1 is authoritative. S3 is an aspiration with no identified path.**
+
+Founder decision, recorded to close the question all three fronts escalated.
+
+### What this settles
+
+**`S1` €75k annual contribution is the threshold against which results are
+judged.** A result that clears S1 counts as success. `G11` is assessed against
+S1, not against S2 or S3, unless this decision is revisited.
+
+Practically: consumer-only economics stay live, a low single-digit monthly price
+remains a viable shape, and the professional payer (`A2` / `G7`) becomes
+**optional upside rather than a requirement**.
+
+### What "S3 eventually, path unknown" must and must not mean
+
+This is a legitimate position and a common one. It carries one specific risk,
+and canon already names it.
+
+**It must not mean:** S3 is used to justify a decision S1 would not justify.
+That is `VK5` — *economics require unvalidated future authority* — and `K7`
+— *the venture story survives only by generalising bonsai into gardening*. Both
+are **kill conditions, not strategies**. An S3 story may not be used to rescue
+weak S1 economics.
+
+**It should mean:** avoid choices that make S3 structurally impossible, while
+funding and judging the venture on S1.
+
+### The path to S3 is now a tracked question, not a hope
+
+Nothing in W1, W2 or the pricing teardown currently supports S3. From the
+evidence, only two routes could:
+
+| Route | What would have to be true | Status |
+|---|---|---|
+| **Higher contribution per payer** | A professional/organisational payer with a real budget — `G7A` workflow, `G7B` budget, `G7C` reachable ceiling. At €300/payer, S3 needs 10,000 payers instead of 136,000. | `UNVALIDATED`; W2 ranks it second-highest priority precisely because it is the only thing that changes the shape |
+| **A materially larger eligible market** | `G11` returns a population far beyond anything W1 or the teardown has observed | `UNVALIDATED`; current evidence points the other way — 23 eligible US iOS products hold 376 ratings between them |
+
+**Neither is ruled out. Neither is evidenced.** If a third route appears, it
+should be added here rather than assumed.
+
+### Review trigger
+
+Revisit this decision if any of the following occurs — not on a schedule:
+
+1. `G7A` **and** `G7B` both pass — a professional payer with a real budget exists
+2. `G11` returns an eligible population materially larger than current evidence suggests
+3. The founder's own constraints change
+
+Until then, **S1 is the number that decides whether a result is good enough.**
 
 ---
 

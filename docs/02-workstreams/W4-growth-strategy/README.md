@@ -41,3 +41,10 @@ Gates `G0–G8`. None validated.
 ## Superseded
 
 W4 v0.1 working artifacts are in `99-archive/external-packages/`.
+
+## Superseded by a founder decision
+
+`W4-PRE-RECONCILIATION-SYNTHESIS-v0.2` §7 and the decision register list the
+success ambition as an open founder dependency. **It was resolved on 4 September
+2026: `S1` is authoritative.** F1 thresholds should therefore be tied to S1
+economics. See canon §11c.
