@@ -23,51 +23,62 @@ record and is **not** evidence they never shipped.
 
 ## `OBSERVED` — hard store facts
 
-| Measure | Value |
-|---|---|
-| Free at download | **26 of 27** |
-| Paid upfront | **1** — Bonsai Album, **$7.99** |
-| Median ratings | **0** |
-| Products with zero ratings | **19 of 27 (70%)** |
-| Products under 10 ratings | **23 of 27 (85%)** |
-| Total ratings, all 27 | **755** |
-| Top 1 share | **50%** |
-| Top 3 share | **93%** |
-| Released in 2026 | **18 of 27** |
-| Last updated in 2026 | **22 of 27** |
+**Two populations, and the distinction matters.** 27 identities resolved, but
+only **23 are measurement-eligible** (`included_in_standalone_distribution_
+measurement = true`). The other four — Mirai Mobile (bundled), Yoi Bonsai and
+MyBonsaiTag (web-first), Noble Bonsai (hardware companion) — must not enter a
+store denominator. **The headline figures below are the 23.**
+
+*(An earlier version of this document led with the mixed 27, which put Mirai's
+379 ratings — half the total on its own — inside a denominator the registry
+explicitly excludes it from. That is the confounding the column exists to
+prevent. Corrected in the same session's self-audit.)*
+
+| Measure | 23 eligible | all 27 (mixed) |
+|---|---|---|
+| Free at download | **22 of 23** | 26 of 27 |
+| Paid upfront | **1** — Bonsai Album, **$7.99** | 1 |
+| Median ratings | **0** | 0 |
+| Zero ratings | **16 of 23 (69%)** | 19 of 27 (70%) |
+| Total ratings | **376** | 755 |
+| Top 1 share | **51%** | 50% |
+| Top 3 share | **96%** | 93% |
+| Released in 2026 | **17 of 23** | 18 of 27 |
+| Updated in 2026 | **20 of 23** | 22 of 27 |
+
+**Concentration is worse on the clean set, not better.** Two products —
+**Bonsai Album (193) and BonsaiDo (136) — hold 87% of all 376 ratings between
+them.** The remaining 21 eligible products share 47.
 
 ### Three findings that matter
 
 **1. The category is almost entirely free-to-download, and the one product that
-charges upfront is the second most-rated.** Bonsai Album ($7.99, 193 ratings) is
-the sole paid-upfront product in the set. This is *not* evidence that charging
-upfront causes traction — it is one product, and it launched in **2011**, so age
-alone could explain the rating count. But it does mean the free-by-default
-convention is a convention, not a demonstrated requirement.
+charges upfront is the ratings leader.** Bonsai Album ($7.99, 193) is the sole
+paid-upfront product. This is *not* evidence that charging causes traction — it
+is one product, and it launched in **2011**, so age alone could explain the
+count. But free-by-default is a **convention, not a demonstrated requirement**.
 
-**2. The distribution is brutally concentrated, and the median product has no
-ratings at all.** The top three hold 93%. Excluding Mirai — whose distribution is
-confounded by the membership — the top one still holds 51% and the top three 96%.
-**Building a bonsai app is not the hard part. Being noticed is.**
+**2. The median product has no ratings at all, while being actively maintained.**
+The top three hold 96%. **Building a bonsai app is not the hard part. Being
+noticed is.**
 
-**3. This is not a graveyard. It is an active, freshly-crowded market.** 18 of 27
-launched in 2026 and 22 of 27 were updated in 2026. The zero-rating majority is
-not made up of abandoned software; it is made up of current, maintained products
-that nobody has found. That is a materially different problem from "the category
-is dying".
+**3. This is not a graveyard. It is an active, freshly-crowded market.** 17 of 23
+launched in 2026 and 20 of 23 were updated in 2026. The zero-rating majority is
+current, maintained software that nobody has found — a materially different
+problem from "the category is dying".
 
 ### One product complicates the leader question
 
-**Mirai Mobile holds 379 ratings — the highest observed in the category, roughly
-double Bonsai Album's 193.** It is correctly excluded from standalone
-distribution measurement, because its installs reflect the wider Mirai
-membership rather than standalone tracker demand.
+**Mirai Mobile holds 379 ratings — more than the entire eligible set combined
+(376).** It is correctly excluded from standalone measurement, because its
+installs reflect the wider Mirai membership rather than standalone tracker
+demand.
 
-The strategic reading is uncomfortable and should be carried into W2 and W4: the
-most-rated bonsai tracking app in this set **did not win by being a better
-tracker**. It arrived attached to an audience that already existed. Canon already
-records that a user is `OBSERVED` displacing Mirai My Trees with Excel and
-folders — so distribution advantage did not convert into retention for that user.
+The strategic reading should be carried into W2 and W4: the most-rated bonsai
+tracking app in this set **did not win by being a better tracker**. It arrived
+attached to an audience that already existed. Canon already records a user
+`OBSERVED` displacing Mirai My Trees with Excel and folders — so distribution
+advantage did not convert into retention for that user.
 
 ## `SUPPORTED SIGNAL` — monetisation model
 

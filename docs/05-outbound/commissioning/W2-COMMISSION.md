@@ -131,17 +131,21 @@ participantes — `04-evidence/W2-PRICING-TEARDOWN.md` e o dataset
 `W2-pricing-teardown-apple.csv`. Cobertura: `platform_identity` do registry subiu
 de 31 para **41 de 45**; das 29 identidades Apple, **27 resolveram**.
 
-`OBSERVED`, storefront US, uma data, ratings não são usuários:
+`OBSERVED`, storefront US, uma data, ratings não são usuários. Os números
+abaixo são das **23 linhas elegíveis para medição** (`included_in_standalone_
+distribution_measurement = true`), não das 27 resolvidas — misturar as duas seria
+exatamente o confounding que a coluna existe para evitar:
 
 | Medida | Valor |
 |---|---|
-| Grátis no download | **26 de 27** |
+| Grátis no download | **22 de 23** |
 | Pago no download | **1** — Bonsai Album, **US$ 7,99** |
 | Mediana de ratings | **0** |
-| Produtos com zero ratings | **19 de 27 (70%)** |
-| Top 3 concentram | **93%** de 755 |
-| Lançados em 2026 | **18 de 27** |
-| Atualizados em 2026 | **22 de 27** |
+| Produtos com zero ratings | **16 de 23 (69%)** |
+| Top 3 concentram | **96%** de 376 |
+| Dois produtos concentram | **87%** — Bonsai Album (193) e BonsaiDo (136) |
+| Lançados em 2026 | **17 de 23** |
+| Atualizados em 2026 | **20 de 23** |
 
 Três leituras que W2 deve carregar:
 
