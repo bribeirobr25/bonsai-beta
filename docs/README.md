@@ -18,6 +18,11 @@ decisions. Every claim carries an evidence status.
 
 ## Structure
 
+### `00-inbox/` — received, not yet reviewed
+New external material lands here and is **non-authoritative** until audited.
+Emptied after processing: accepted corrections go into canon, the original goes
+to `99-archive/external-packages/`. See `00-inbox/README.md`.
+
 ### `01-canon/` — authoritative
 | File | Role |
 |---|---|
