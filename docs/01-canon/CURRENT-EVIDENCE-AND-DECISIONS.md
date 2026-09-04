@@ -356,6 +356,33 @@ useful rather than merely similar.
 demonstrably in the concept. Unblocking needs one multi-author multi-climate
 source; **still Track A, still no participants.**
 
+### `W6 · MVP Validation Strategy` — opened 5 September 2026
+
+See `02-workstreams/W6-mvp-validation-strategy/`. Selects no product.
+
+**Instrument decision.** Canon §12 prefers concierge/manual MVPs, but that
+preference was about **cost and speed** — and the founder has removed the cost
+constraint. With cost gone the criteria become time-to-evidence, evidence quality
+and fairness of comparison. **W6 builds a minimal one-tree instrument,
+deliberately incomplete**, because Step 1's load-bearing measurement is the
+participant **adding a second tree unaided** — which a concierge cannot measure.
+
+> Every feature beyond capture, retrieve and see-change makes a pass ambiguous.
+> **The instrument must be able to fail.**
+
+**Step 1 is pre-registered and frozen** before any participant contact.
+
+**A cohort mismatch W6 surfaced:** Step 1 needs **≈5+ trees**; the beginner
+workshop is **zero-to-low experience**. The only participant source identified
+serves **Step 2, not Step 1**. Recruiting expanding hobbyists is a separate
+unsolved problem, and §10's rule holds — validation opportunities are inputs, not
+dependencies.
+
+**The constraint is qualification, not volume: eight qualified people, not a
+mailing list.** If they cannot be reached through any route, that is a
+distribution finding of the first order, consistent with 16 of 23 eligible iOS
+products holding zero ratings — and it arrives before anything is built.
+
 ### Amendment status
 
 | Amendment | Support | State |

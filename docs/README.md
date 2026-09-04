@@ -42,7 +42,8 @@ validation reports, plus the external front's final reconciliation record.
 Registry maintenance is governance and does not reopen W1.
 
 `W1-competitor-review-mining/` · `W2-monetization-economics/` ·
-`W3-brand-identity/` · `W4-growth-strategy/` · `cross-front/`
+`W3-brand-identity/` · `W4-growth-strategy/` · `cross-front/` ·
+**`W6-mvp-validation-strategy/` ← current**
 
 All four fronts have returned. W1 is **CLOSED**; W2, W3 and W4 are
 **`READY FOR CROSS-FRONT RECONCILIATION`**. `cross-front/` holds both validation
