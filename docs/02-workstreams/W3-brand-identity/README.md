@@ -1,54 +1,38 @@
-# W3 · Brand Identity & Marketing
+# W3 · Brand Identity & Marketing — **Canon v1.0**
 
-**Status:** `READY FOR CROSS-FRONT RECONCILIATION` · v1.1, 3 September 2026
-**Naming, visual identity, tagline, campaign, product UI:** deferred by design.
+**Received 4 September 2026 · 22/22 checksums verify · supersedes all earlier W3 packages.**
+Workstream canon, **subordinate to project canon**. Live canon wins on conflict.
 
 ## Read order
 
-1. `W3-FINAL.md` — authoritative synthesis
-2. `W3-CROSS-FRONT-RECONCILIATION-HANDOFF.md`
-3. `W3-CROSS-FRONT-ALIGNMENT-UPDATE-v1.1.md` — what W2 and W4 changed
-4. `W3-BRAND-TERRITORY-EVALUATION.md` — scorecard and kill list
-5. `W3-MESSAGING-AND-LANGUAGE.md` — hypotheses and prohibited promises
-6. `W3-AUDIENCE-MEANING-MAP.md`
-7. `MESSAGE-TO-W1.md`, `MESSAGE-TO-W2.md`, `MESSAGE-TO-W4.md` — communication history
+1. `W3-BRAND-IDENTITY-MARKETING-CANON-v1.0.md` — primary authority
+2. `W3-DECISION-REGISTER-v1.0.md` — `W3-D01`…`W3-D24`
+3. `W3-BRAND-TERRITORY-EVALUATION-v1.3.md` — scorecard, Systems A/B, kill conditions
+4. `W3-MESSAGING-AND-LANGUAGE-v1.3.md` — `M1–M8`, validation ladder, prohibited promises
+5. `W3-AUDIENCE-MEANING-MAP-v1.3.md`
+6. `W3-BRAND-TRUST-AND-BEHAVIOR-PRINCIPLES-v1.0.md`
+7. `W3-VALIDATION-LANDING-PAGE-BRAND-BRIEF-v0.1.md` — message architecture for the landing page
+8. `W3-MVP-VALIDATION-BRAND-GUARDRAILS-v1.1.md`
+9. `W3-HANDOFF-TO-MVP-VALIDATION-STRATEGY-v1.0.md`
+
+Matrices: territory scorecard, messaging hypotheses, **customer-language evidence tiers**.
 
 ## Architecture
 
 > **KEEP TRACK → SEE PROGRESS → BUILD MEMORY → CREATE CONTINUITY**
 
-Gated extensions: `LEARNING` · `STEWARDSHIP` · `BELONGING`.
+Gated: `Journey → Learning`. Principles: Psychological Safety, Durable Trust.
+Parked: Belonging (H6). Gated: Stewardship (H5).
 
-## Two rules that bind other fronts
+## Our tiering correction landed
 
-> **message that acquires ≠ value that retains ≠ value that monetizes**
+`W3-D14` makes tiered customer language a **binding rule**, and
+`W3-CUSTOMER-LANGUAGE-EVIDENCE-v1.0.csv` carries the counts verbatim —
+`reminder` 21 … `one place` **1**, marked *"do not treat as strong customer
+language"*. The `organize`/`one place` claim we flagged in W3-FINAL §12.4 is gone.
 
-> If a dedicated one-tree experience does not beat Photos/Excel/notes under
-> favourable conditions, **Brand must not rescue the thesis with Continuity,
-> Journey or Story.**
+## Binding constraints
 
-W4 formally accepted the second.
-
-## Rejected as master territories
-
-Tracking · Organization · Easy logging · Reminders · AI · Expert care ·
-Generic community · Horticultural safety.
-
-**Psychological** safety is kept as a principle — *permission to learn* — and is
-a different claim from horticultural correctness.
-
-## Caution carried from W1
-
-The customer-language list is **tiered**, not flat — `reminder` rests on 21
-reviews, `one place` on **1**. See `W1-HANDOFF-W2-W3-W4.md`. `W3-FINAL.md`
-§12.4's claim that *"organize and one place are close to customer language"*
-rests on the two weakest terms in the list.
-
-## Reconciled — 4 September 2026
-
-No W3 amendment was proposed and none was needed. Both external amendments W3
-supported were adopted. The two tensions W3 raised are recorded as **productive
-and to be preserved, not resolved**: Continuity against its own service cost, and
-Progress acquiring while organization may be what pays.
-
-See `../cross-front/CROSS-FRONT-RECONCILIATION.md`.
+- **message that acquires ≠ value that activates ≠ value that retains ≠ value that monetizes**
+- If One-Tree Dedicated Value fails, **Brand may not rescue it with Continuity, Journey or Story**
+- No permanence language until operationally supportable

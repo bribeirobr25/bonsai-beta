@@ -1,59 +1,39 @@
-# W2 · Monetization & Economics
+# W2 · Monetization & Economics — **Canon v1.0**
 
-**Status:** `READY FOR CROSS-FRONT RECONCILIATION` · 3 September 2026
-**Product / price / payer:** none selected. `P1/P2/P3` remain `UNVALIDATED`.
+**Received 4 September 2026 · 44/44 checksums verify · supersedes all earlier W2 packages.**
+Workstream canon, **subordinate to project canon** (`01-canon/`). Live canon wins on conflict.
 
 ## Read order
 
-1. `W2-PRE-RECONCILIATION-SYNTHESIS-v0.2.md` — the entry point
-2. `W2-HANDOFF-CROSS-FRONT-RECONCILIATION-v1.0.md`
-3. `W2-CROSS-FRONT-ALIGNMENT-SUMMARY-v1.0.md`
-4. `W2-ECONOMIC-OPPORTUNITY-RANKING-v0.2.md` — validation priority, not product priority
-5. `W2-ECONOMIC-VALIDATION-MATRIX-v0.2.md` — gates `G1–G14`
-6. `W2-ECONOMIC-STRUCTURE-MAP-v0.5.md` — the long one; blocks 1–6
-7. `W2-PROPOSED-CANON-AMENDMENT-001-v0.2.md`
+1. `W2-CANON-v1.0.md` — the entry point
+2. `W2-CURRENT-EVIDENCE-AND-DECISIONS-v1.0.md` — decision register D1–D5
+3. `W2-ECONOMIC-OPPORTUNITY-MAP-v1.0.md` — A1/A2/A3 with S1 interpretation
+4. `W2-ECONOMIC-VALIDATION-FRAMEWORK-v1.0.md` — gates `G1–G14` with thresholds
+5. `W2-ECONOMIC-CEILING-AND-COST-MODEL-v1.0.md` — reverse payer ceiling
+6. `W2-MONETIZATION-CENSUS-v1.1.md` — merged manual census + our teardown
+7. `W2-LANDING-PAGE-ECONOMIC-VALIDATION-BRIEF-v1.0.md`
+8. `W2-NEXT-VALIDATION-SEQUENCE-v1.0.md`
 
-`W2-EXTERNAL-ECONOMIC-RESEARCH-SOURCE-NOTES-v1.0.md` records dated external
-inputs, including the cost benchmarks behind the envelopes.
+## Current state
 
-## The three frontiers
+`S1 = €75k` authoritative · `W2-001` **adopted** · `W4-A` ratified ·
+Step 0 run (`MIXED`) · **Step 1 One-Tree Dedicated Value is the next
+load-bearing participant gate** · `A2` is an **S3-route probe, not an S1
+requirement**.
 
-| | Question | Gates |
-|---|---|---|
-| **A1** Dedicated workflow value | Can organization/retrieval beat tools users already own? | `G1` `G2` `G11` |
-| **A2** Professional payer | Is there a repeated teacher workflow, a real budget, a reachable universe? | `G7A` `G7B` `G7C` |
-| **A3** Comparable Journey | Can preserved journeys create recurring value without authority? | `G10-A` then `G10-B` |
+## Under S1, research attention
 
-## The constraint that governs everything else
+`A1` **40** · `A2` 20 · `A3` 15 · landing/recruitment 10 · payment architecture 5 ·
+partner 4 · provenance 3 · long-horizon cost 3.
 
-> **The venture must earn the right to replace tools users already own.**
+## Two things W2 contributed back
 
-## Superseded
+- **They audited our canon** and found three stale passages — all three real, all fixed. See `W2-CANON-CONSISTENCY-NOTE-v1.1.md`.
+- **They caught an error in our teardown**: the keyword heuristic matched monetisation words *inside negations*. Checking it found **three** misclassified rows, all corrected in `04-evidence/`.
 
-Earlier versions (structure map v0.1–v0.4, matrix v0.1, ranking v0.1, synthesis
-v0.1, the round-1 handoff and cross-front response) are in
-`99-archive/external-packages/`. v0.5 was verified a strict paragraph-level
-superset of every prior structure map.
+## The one unverified premise
 
-## Superseded by a founder decision
-
-Documents here state that the project *"still needs a founder-level decision on
-what success ultimately means"*. **It was made on 4 September 2026: `S1` (€75k
-annual contribution) is authoritative; `S3` is an aspiration with no identified
-path.** `G11` is assessed against S1. See canon §11c. Nothing else in these
-documents is affected.
-
-## Reconciled — 4 September 2026
-
-Cross-Front Reconciliation adopted **`W2-001`**; *"Best economics"* is gone from
-canon in both places it appeared. **`A2` keeps second priority but its meaning
-changed:** under `S1`, consumer-only economics can reach €75k without a
-professional payer, so `A2` is now the **only identified route to the `S3`
-aspiration** rather than a viability hedge. A `G7A/B` failure means *S3 loses its
-route*, not *the venture has an economics problem*.
-
-**`G11` now has a number.** At €22 net, S1 needs ~3,400 payers, so a STRONG
-result needs **~6,800 eligible** — a market-ceiling estimate is falsifiable for
-the first time.
-
-See `../cross-front/CROSS-FRONT-RECONCILIATION.md`.
+W2 records a *"founder direction: web app · mobile-first · desktop/tablet
+friendly"*. **Our documentation contains no record of that decision.** It is
+carefully bounded — "not a technology-stack commitment" — but it entered from
+outside our record and is flagged, not adopted.

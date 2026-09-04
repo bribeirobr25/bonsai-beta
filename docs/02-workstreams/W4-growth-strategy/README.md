@@ -1,66 +1,35 @@
-# W4 · Growth Strategy
+# W4 · Growth Strategy — **Canon v1.0**
 
-**Status:** `READY FOR CROSS-FRONT RECONCILIATION` · 3 September 2026
-**Loop, channel, geography, payer:** none selected.
+**Received 4 September 2026 · 28/28 checksums verify · supersedes all earlier W4 packages.**
+Workstream canon, **subordinate to project canon**. Live canon wins on conflict.
 
 ## Read order
 
-1. `W4-FINAL.md` — authoritative output
-2. `W4-PRE-RECONCILIATION-SYNTHESIS-v0.2.md` — cross-front convergence map
-3. `W4-GROWTH-LOOP-QUALIFICATION-v0.2.md` — moments, actors, loops, gates
-4. `W4-LOOP-FALSIFICATION-DESIGN-v0.2.md` — the test designs
-5. `W4-DECISION-REGISTER-v0.2.md` — 28 decisions and their status
-6. `W4-CROSS-FRONT-RECONCILIATION-INPUT.md` — what W4 asks reconciliation to decide
+1. `W4-GROWTH-STRATEGY-CANON-v1.0.md` — single authoritative entry point
+2. `W4-DECISION-REGISTER-v1.0.md` — 15 standing rules, kill conditions A–G
+3. `W4-ACQUISITION-MOMENT-MAP-v1.0.md` · `W4-DISTRIBUTION-ACTOR-MAP-v1.0.md` · `W4-LOOP-PORTFOLIO-AND-STATUS-v1.0.md`
+4. `W4-VALIDATION-ROADMAP-v1.0.md`
+5. `W4-L4A-RESULT-AND-EXTENSION-v1.0.md` — our Step 0 result plus the extension design
+6. `W4-LANDING-PAGE-VALIDATION-GUARDRAILS-v1.0.md`
+7. `W4-EVIDENCE-REGISTER-v1.0.md`
 
-## Candidate mechanisms
+## State
 
-| | | Disposition |
-|---|---|---|
-| **L2** | One-Tree Land-and-Expand | **primary shared gate** |
-| **L4** | Comparable Journey | high priority — density (`L4-A`) first |
-| **L3** | Progression Artifact | object-led propagation |
-| **L1** | First-Tree Inception | low-migration entry |
-| **L5** | Teacher/Club Continuity | conditional; payer discovery separate |
-| **L6** | Transfer/Provenance | strategic secondary |
+`L2 One-Tree Land-and-Expand` = **primary participant gate**.
+`L4` = `MIXED · DENSITY RISK HIGH`; **`L4-B` gated** pending a multi-source,
+multi-climate corpus. Gates `G0–G8` canonical — always prefix `W4`, since
+**W2's `G7` means something different**.
 
-Gates `G0–G8`. None validated.
+## The Step 0 extension is specified
 
-## The constraint
+≥3 independent authors or a genuine multi-author source · ≥3 climate contexts ·
+no species >50% · never infer missing `state`/`outcome`/`intent`.
+Source priority: browser-driven Bonsai Nut access, else 2–3 independent
+progression sources in materially different climates. **Still Track A.**
 
-> **Differentiated value must appear before migration and repeated logging costs
-> dominate the experience.**
+## Rules worth reusing anywhere
 
-## Controls worth reusing beyond W4
-
-- recruitment is not Growth evidence; guided activation is not spontaneous activation
-- an invalid test execution is `INVALID`, **not** `FAIL`
-- no threshold changes after outcomes are visible
-- founder/concierge labour is a measured cost, not free
-- *"A failed loop is a useful result. Adding Instagram to a failed loop is not."*
-
-## Superseded
-
-W4 v0.1 working artifacts are in `99-archive/external-packages/`.
-
-## Superseded by a founder decision
-
-`W4-PRE-RECONCILIATION-SYNTHESIS-v0.2` §7 and the decision register list the
-success ambition as an open founder dependency. **It was resolved on 4 September
-2026: `S1` is authoritative.** F1 thresholds should therefore be tied to S1
-economics. See canon §11c.
-
-## Reconciled — 4 September 2026
-
-**`W4-A` ratified.** Gate taxonomy `G0–G8` confirmed as authoritative. All six
-mechanisms remain eligible; `L5` is **not required for `S1`** and stays gated.
-
-**`Step 0` has run.** `L4-A` corpus density returned
-`MIXED · DENSITY RISK HIGH` — Tier 2 matching works, **Tier 1 was untestable**
-because the only reachable corpus is single-author with one climate value. `L4`
-is **not parked**; `L4-B` stays gated. See
-`../../04-evidence/W4-L4A-CORPUS-DENSITY-SHADOW-TEST.md`.
-
-Step 3 was relabelled: professional workflow/budget discovery is an **S3-route
-probe**, not a viability probe.
-
-See `../cross-front/CROSS-FRONT-RECONCILIATION.md`.
+Acquisition ≠ activation · sharing ≠ propagation · actor existence ≠ distribution
+willingness ≠ payer willingness · distribution advantage ≠ retained value ·
+manual labour is a cost · **S3 may not rescue a mechanism failing S1** ·
+*"A failed loop is a useful result. Adding Instagram to a failed loop is not."*

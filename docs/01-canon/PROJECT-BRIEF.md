@@ -604,7 +604,7 @@ would respond (§10).
 This brief cannot be completed without these, and they materially change which
 ideas are viable.
 
-1. **What does success look like?** A sustainable side income, a full-time business, an acquisition, or a well-made thing that a few thousand people use? P3 is a business; P1 could be either; the answer changes the sequencing.
+1. ~~**What does success look like?**~~ — ✅ **ANSWERED 4 September 2026.** `S1` · sustainable small business · **€75k annual contribution** is authoritative. `S3` remains an aspiration with no identified path, and may not be used to justify a decision `S1` would not justify. See `CURRENT-EVIDENCE-AND-DECISIONS.md` §11c.
 2. **Solo or a team?** Idea 11 — a community platform — is not a solo undertaking. Several others are.
 3. **How much time per week, and for how long before it must show something?**
 4. **Is there capital, or must it be self-funding from early on?** A freemium record product needs runway before revenue; the acquisition companion could earn sooner.

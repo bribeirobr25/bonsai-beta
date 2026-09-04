@@ -80,6 +80,37 @@ attached to an audience that already existed. Canon already records a user
 `OBSERVED` displacing Mirai My Trees with Excel and folders — so distribution
 advantage did not convert into retention for that user.
 
+## Correction — the heuristic column had a systematic flaw
+
+**W2 caught the first instance; checking it found two more.** The
+`monetisation_model_HEURISTIC` column matched monetisation keywords **inside
+negations**, so products that explicitly say they have *no* subscription were
+labelled as having one.
+
+| Row | Heuristic said | Verified at source, 4 Sep 2026 | Trigger phrase |
+|---|---|---|---|
+| `W1-009` Tiny Tree Club | freemium: subscription | **free · no IAP**; possible future marketplace fees | *"free to join with **no subscription** fees"* |
+| `W1-041` Bonsai Pal | freemium: sub + one-time | **one-time unlock · $9.99** | *"one-time purchase … **no subscription**"* |
+| `W1-024` BonsaiLog | freemium: sub + one-time | **one-time unlock · $6.99** | *"never a monthly fee"; "**not a subscription**"* |
+
+Two other rows contain negated phrases but were **correctly** classified —
+Bonsai Album (*"no extra charge"*, genuinely paid upfront) and Yoi Bonsai
+(*"zero fees"* refers to its marketplace; Premium is genuinely a subscription).
+
+**This strengthens rather than weakens a finding.** All three corrections move
+toward **one-time purchase**, so non-subscription models are *more* common in
+the category than the heuristic suggested — reinforcing that free-at-download
+with a one-time unlock is a real precedent, not just Bonsai Album's outlier.
+
+A `monetisation_model_VERIFIED` column now carries source-verified values;
+**3 of 27 rows are populated**. Where it is empty, the heuristic value stands
+and remains unverified.
+
+**The method lesson:** keyword matching cannot see negation. Any future coding
+pass over descriptions needs either negation handling or manual verification —
+which is exactly the precedence rule W2 applies: *manual first-party
+verification > hard store fact > keyword heuristic*.
+
 ## `SUPPORTED SIGNAL` — monetisation model
 
 The `monetisation_model_HEURISTIC` column is derived by **keyword matching over
