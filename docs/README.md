@@ -93,9 +93,19 @@ question, governance constraints and registry guards each front was given.
 out of date.*
 
 ### `99-archive/` — audit trail, not current
-`external-packages/` holds the counterparty's deliverables intact, with their
-original checksums (three packages; each re-verifiable via its own
-`SHA256SUMS.txt`). `superseded/` holds our earlier drafts and sent handoffs.
+`external-packages/` holds every counterparty deliverable intact with its
+original checksums — **12 packages**, each re-verifiable via its own
+`SHA256SUMS.txt`, currently **12 verifying with zero failures**.
+
+`superseded/` holds our earlier drafts, sent handoffs and four grouped sets:
+
+| | |
+|---|---|
+| `canon-baseline-2026-09-02/` | canon **before** W1 closure — older than live, not newer; verified to contain nothing live canon lacks |
+| `workstream-pre-canon-2026-09-03/` | W2/W3/W4 outputs superseded by their canon v1.0 |
+| `commissioning-briefs-2026-09-03/` | the briefs that opened W2/W3/W4 |
+| loose files | earlier drafts and round-1/2 handoffs |
+
 **Several carry figures corrected in `01-canon`.** Do not cite from here.
 
 ---

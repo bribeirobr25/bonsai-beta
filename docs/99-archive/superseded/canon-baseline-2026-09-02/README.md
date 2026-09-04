@@ -22,6 +22,22 @@ content:
 
 `DOMAIN-MODEL.md` is **byte-identical** to live — it has not needed revision.
 
+## Risk table, checked row by row
+
+Baseline §8 has **8 risks**; live has **11**.
+
+- **7 of 8 carried by name**: logging friction · authority gap · bad causal inference · status creep · over-complexity · cold start · incumbent response
+- **1 renamed**: `Market too small` → **`Market ceiling`**, reworded to
+  *"competitive crowding and modest observable store distribution raise the
+  question; market size, revenue, retention and economic viability remain
+  `UNVALIDATED`"*. Same risk, better framing — §10b now records that *"is the
+  market too small"* is a weaker lens than asking why the attempts have not
+  displaced the workarounds.
+- **4 added from W1**: product mortality (the *decades problem*) · durability of
+  the record · review-evidence authenticity · market ceiling
+
+**Nothing was dropped.**
+
 The one non-numeric paragraph flagged (`verifiable provenance —
 claim → evidence → attestation → confidence`) is present in live canon in
 **expanded** form, naming the five competitors that occupy transferable history.
