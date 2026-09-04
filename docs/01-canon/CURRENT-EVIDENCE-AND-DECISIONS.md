@@ -593,6 +593,27 @@ a market far larger than anything W1 or the teardown has observed.
 | **S2** | Consumer-only economics get tight — roughly 9,000 retained payers at €22. The professional payer (`A2`/`G7`) becomes materially more important. |
 | **S3** | Consumer record-keeping alone almost certainly cannot carry it. `K7` **TAM inflation** becomes the live risk: the venture story survives only by generalising bonsai into gardening — which W2 names as a kill condition, not a strategy. |
 
+### Founder delivery direction — confirmed 5 September 2026
+
+> **The validation-facing concept is presented as a web app: mobile-first,
+> desktop/tablet friendly.**
+
+Confirmed by the founder directly. W2, W3 and W4 all recorded it and it is now in
+canon rather than resting on their word.
+
+**Scope.** This is a **presentation context for validation artifacts**, not a
+product or technology decision. It does **not** select an MVP, a feature set, a
+stack, native-vs-web architecture, or `P1/P2/P3`. Canon §12's rule stands: the
+instrument follows the risk.
+
+**Why it is coherent with the evidence.** Capture happens beside the tree —
+phone; review of collection and history benefits from a larger screen. That is a
+plausible fit, not a validated one.
+
+**Guardrail.** Message tests must not become device tests. If a landing result is
+weak, *"wrong form factor"* is not an available explanation unless the test was
+designed to measure it.
+
 ### What it does **not** block
 
 Step 0 (`L4-A` corpus density) and Step 1 (`L2` one-tree value) both run without

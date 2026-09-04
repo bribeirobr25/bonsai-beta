@@ -632,8 +632,8 @@ those, and choosing them first is how you build the wrong thing efficiently.
 3. **Brand identity & marketing** — ✅ **returned**, `READY FOR CROSS-FRONT RECONCILIATION`. No naming, visual identity, tagline or campaign; deferred by design.
 4. **Growth strategy** — ✅ **returned**, `READY FOR CROSS-FRONT RECONCILIATION`. Loops, not channels — no channel or geography selected.
 5. **Cross-front reconciliation** — what product thesis survives all four lenses? **Including the option that none does.**
-6. **MVP validation strategy** — see `CURRENT-EVIDENCE-AND-DECISIONS.md` §12: pick the instrument from the largest uncertainty, and remember an MVP need not be software.
-7. **Product / UIUX** — only after the above, and only with the handoff inputs listed in §12 of that document.
+6. **MVP validation strategy** — **← the current gate, opening 5 Sep 2026 as `W6`.** See `CURRENT-EVIDENCE-AND-DECISIONS.md` §12: pick the instrument from the largest uncertainty, and remember an MVP need not be software. **Its first problem is not experiment design — it is participant access**, which blocks every step after Step 0.
+7. **Product / UIUX** — **`W7`**, only after a thesis is sufficiently supported by evidence, and only with the handoff inputs listed in §12 of that document.
 
 Steps 2–4 ran in parallel and have all returned. **Step 5, Cross-Front
 Reconciliation, ran on 4 September 2026** — both amendments adopted, sequence
