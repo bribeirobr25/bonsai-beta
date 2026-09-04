@@ -9,9 +9,14 @@
 d1721920b7cff847cef09434011eff99bd6205946a6822559bab37a9bebf8c6d
 ```
 
-**The original zip is no longer on disk.** It was never committed to git, and
-what removed it could not be determined. This is recorded rather than glossed
-over because the zip was the outermost integrity envelope.
+**RECOVERED 5 September 2026.** The zip was re-supplied and its SHA-256 matches
+the hash recorded above **exactly**, and its contents verify **25 of 25** against
+the sender's manifest. The outermost integrity envelope is restored and the
+chain is complete.
+
+*Original note, retained:* the zip had gone missing from disk. It was never
+committed to git and what removed it could not be determined. It was recorded
+rather than glossed over because it was the outermost integrity envelope.
 
 **No content was lost.** The extracted tree is complete (25 files plus the
 sender's `SHA256SUMS.txt`) and all **25 of 25** files verify against the
