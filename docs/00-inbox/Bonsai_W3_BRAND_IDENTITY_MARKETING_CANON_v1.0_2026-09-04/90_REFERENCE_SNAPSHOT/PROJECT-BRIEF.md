@@ -458,7 +458,7 @@ shape here, if the value clears the bar.
 | **P2** Companion | Affiliate on trees, tools and pots; or lead generation to nurseries | Standard for hobby commerce | Thin margins, and incumbents also sell the goods |
 | **P3** Teaching | Per-seat SaaS to the teacher, or revenue share on cohorts | Hotmart bonsai courses sell in Brazil; Mirai monetises instruction | Small number of teachers; long sales cycle |
 
-**The honest read:** P3 may have the highest contribution per payer and the hardest start — **its economics remain `UNVALIDATED` (`W2-001`, adopted 4 Sep 2026)**; P1
+**The honest read:** P3 has the best unit economics and the hardest start; P1
 has the clearest path to volume and competes head-on with a cheaper incumbent
 feature; P2 monetises best at the moment of purchase but retains nobody on its
 own. This ordering is an argument, not a finding.
@@ -636,10 +636,7 @@ those, and choosing them first is how you build the wrong thing efficiently.
 7. **Product / UIUX** — only after the above, and only with the handoff inputs listed in §12 of that document.
 
 Steps 2–4 ran in parallel and have all returned. **Step 5, Cross-Front
-Reconciliation, ran on 4 September 2026** — both amendments adopted, sequence
-confirmed, all six growth mechanisms still eligible. **`Step 0` has also run**
-(`L4-A` corpus density, `MIXED · DENSITY RISK HIGH`). The current gate is
-**Step 1 · One-Tree Dedicated Value**, which is participant-blocked. All four took
+Reconciliation, is the current gate.** All four took
 `CURRENT-EVIDENCE-AND-DECISIONS.md` as their entry point; §11a there records the
 aligned state and the one decision the fronts escalated to the founder.
 

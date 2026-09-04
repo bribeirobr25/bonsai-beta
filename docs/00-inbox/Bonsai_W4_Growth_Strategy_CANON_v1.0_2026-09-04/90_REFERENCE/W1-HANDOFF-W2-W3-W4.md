@@ -1,0 +1,227 @@
+# Bonsai · W1 · Final Handoff to W2 / W3 / W4 v0.2
+
+> **Received document, locally amended. Five changes.**
+> 1. One filename reference corrected to local casing (`W1-authenticity-quarantine.json`).
+> 2. Each front's **operative question** added beneath its sharpened question when
+>    W2/W3/W4 were commissioned on 3 Sep 2026. The sharpened questions are
+>    preserved verbatim — the operative questions are broader and the two must not
+>    be confused at Cross-Front Reconciliation.
+> 3. A **registry-usage guard** added under *Competitive governance correction*:
+>    the distribution-measurement filter, the two contested identities, and a
+>    warning that registry fields have been wrong.
+> 4. **`W4-A` applied** to the acquisition-moment list: `data/export concern` is
+>    reclassified as a commitment gate, resolving a contradiction with
+>    `CURRENT-EVIDENCE-AND-DECISIONS.md` §7b.
+> 5. **The customer-language list is tiered by review count.** `W1-FINAL.md` §12
+>    gives counts for eight of the ten terms; the list flattened them, and
+>    `one place` carried equal weight on a single review.
+>
+> The unmodified original is in `99-archive/external-packages/`.
+> *(This banner first said "two changes" while three had been made — corrected
+> in the same session's self-audit.)*
+
+**Date:** 3 September 2026  
+**W1 status:** CLOSED FOR BROAD REVIEW MINING  
+**Product decision:** none. P1 / P2 / P3 remain `UNVALIDATED`.
+
+## Shared evidence all three fronts must preserve
+
+### OBSERVED
+- Growers maintain longitudinal records in dedicated apps and in general tools.
+- Some dedicated-app users persist for months/years; paid persistence exists.
+- Some users uninstall, abandon or switch.
+- General tools and analog systems are real competitors.
+- Logging/data-entry burden can cause exit.
+- Photo/progression is repeatedly valued.
+- Reminders can create value and friction.
+- Data durability/export/service mortality affect trust.
+- At least four known Android products are in the Google Play 10K+ bracket.
+
+### SUPPORTED SIGNAL
+- Core tension: cumulative history value versus repeated maintenance cost.
+- Beginner, expanding and experienced jobs differ.
+- Data portability may reduce adoption resistance.
+- “Low-friction logging” is table stakes, not differentiation by itself.
+- Higher-authority care/advice carries a larger trust penalty when wrong.
+
+### UNVALIDATED
+- H1B prevalence,
+- retention distribution,
+- WTP,
+- market size,
+- provenance value,
+- Comparable Journey product value,
+- community retention,
+- product selection.
+
+## W2 · Monetization & Economics
+
+Use these inputs:
+- paid users exist,
+- multi-year paid use exists,
+- subscription rejection exists,
+- one-time purchase persistence exists,
+- free/general tools are the economic substitute,
+- full-collection entry is possible,
+- long-horizon data continuity creates a business-model tension.
+
+Do **not** infer:
+- conversion,
+- renewal,
+- ARPU/LTV,
+- viable market ceiling.
+
+Sharpened W2 question:
+
+> **What value is strong and immediate enough to justify payment when a grower can solve much of the job with tools already owned, while the historical payoff may arrive months or years later?**
+
+**Operative question as commissioned (3 Sep 2026)** — broader; the sharpened
+question above is the crux inside it:
+
+> **Existe uma estrutura econômica plausível por trás de algum dos opportunity
+> areas sobreviventes, considerando que o usuário pode resolver grande parte do
+> job com ferramentas que já possui?**
+
+## W3 · Brand Identity & Marketing
+
+### Literal customer language
+
+> **Tiered 3 Sep 2026 by recount against the 196-review corpus.** The flat list
+> below gave equal standing to terms attested in 21 reviews and terms attested in
+> **one**. All counts re-derived from `04-evidence/raw/`; the eight figures stated
+> in `W1-FINAL.md` §12 recount exactly.
+
+| Tier | Term | Reviews | Use |
+|---|---|---:|---|
+| **1 · well attested** | reminder | 21 (10%) | safe as message-hypothesis vocabulary |
+| | progress | 19 (9%) | |
+| | my trees | 18 (9%) | |
+| | collection | 17 (8%) | |
+| | photo | 17 (8%) | |
+| | keep track | 15 (7%) | |
+| **2 · marginal** | record | 6 (3%) | usable, but do not present as strongly attested |
+| | notes | 5 (2%) | |
+| | organize | 5 (2%) | |
+| **3 · single instance** | **one place** | **1 (0.5%)** | **do not treat as customer language** — one review, quoted below |
+
+The sole `one place` occurrence: *"finally one place to look up info and keep
+track of trees."*
+
+**Downstream consequence.** Message hypotheses built on Tier 2–3 vocabulary are
+not resting on observed customer language in the way Tier 1 hypotheses are. W3's
+`M1` — *"Keep your trees, photos and notes together"* — uses `notes` (2%);
+`keep a record` uses `record` (3%). Neither is wrong, but both should be tested
+as hypotheses rather than reported as language users already use.
+
+### Strategic synthesis, not verbatim customer language
+- continuity,
+- ownership of history,
+- calm organization,
+- long-term memory.
+
+Trust warning:
+High-authority AI/care claims carry more downside than record/memory claims.
+
+Sharpened W3 question:
+
+> **What meaning can make longitudinal recordkeeping feel valuable rather than bureaucratic without claiming expertise the venture has not earned?**
+
+**Operative question as commissioned (3 Sep 2026):**
+
+> **Que território de significado e valor esta venture poderia possuir de forma
+> crível, caso sobreviva à validação?**
+
+The sharpened question's two constraints — *valuable rather than bureaucratic*,
+and *without claiming unearned expertise* — remain binding on any territory
+proposed.
+
+## W4 · Growth Strategy
+
+Behaviorally supported acquisition moments:
+- first-tree intimidation,
+- collection outgrows memory,
+- spreadsheet/notes become cumbersome,
+- photo history becomes fragmented,
+- current tracker fails,
+- ~~data/export concern~~ — **reclassified, see below**,
+- desire to see progression.
+
+> **`W4-A` applied 3 Sep 2026.** `data/export concern` is **a commitment / trust
+> gate, not a behaviourally supported acquisition moment.** It was listed here
+> while `CURRENT-EVIDENCE-AND-DECISIONS.md` §7b states export *"reduces adoption
+> resistance rather than enabling churn"* — reducing adoption resistance is a
+> commitment gate. The two canon documents contradicted each other and this line
+> was the incorrect one.
+>
+> Acquisition specifically **caused** by export/continuity concern remains
+> `UNVALIDATED`. Proposed by W4, supported by W2 and W3, applied under
+> `CURRENT-EVIDENCE-AND-DECISIONS.md` §13a as an internal contradiction between
+> two canon documents.
+
+Do not use `camera-roll replacement` as a standalone validated moment after authenticity reconciliation.
+
+Activation constraint:
+Full-collection entry has occurred, so it is not impossible. Its effort and abandonment rate are unvalidated.
+
+Sharpened W4 question:
+
+> **Which acquisition moment produces differentiated value before migration and repeated logging costs dominate the experience?**
+
+**Operative question as commissioned (3 Sep 2026)** — this one *adds* a
+requirement the sharpened question does not carry, and it is deliberate:
+
+> **Como esta venture poderia plausivelmente encontrar, ativar e se propagar
+> entre usuários relevantes, e quais mecanismos de growth também produzem
+> evidência útil?**
+
+The final clause matters beyond W4. Every load-bearing hypothesis is
+`UNVALIDATED` and blocked on participant access, so a growth mechanism that
+also generates evidence is worth more than one that only generates users.
+
+## Shared contradictions to retain
+
+- Durable use exists **and** abandonment exists.
+- Paid use exists **and** subscription rejection exists.
+- Experienced growers value records **and** some prefer generic/analog systems.
+- Reminders help **and** can create noise or false precision.
+- Structure improves retrieval **and** increases capture burden.
+- Dedicated apps can persist **and** can lose to spreadsheets/photos.
+
+Do not average these into one fictional user.
+
+## Competitive governance correction
+
+Use:
+- `COMPETITOR-REGISTRY.csv` for identity,
+- `COMPETITOR-EXCLUSION-REGISTRY.csv` for false positives,
+- `W1-authenticity-quarantine.json` for quarantined review evidence.
+
+**Any distribution denominator must filter on
+`included_in_standalone_distribution_measurement = true`** — currently **32 of
+45** rows. The excluded 13 are a bundled subscription tracker, legacy desktop
+software, a hardware companion, web-first products and historical/withdrawn
+rows. Mixing them into one store denominator is the specific error this column
+exists to prevent.
+
+**Two identities are `VERIFICATION_CONTESTED`** (`W1-020` Mori Bonsai, `W1-029`
+Bonsai Care App: Bonsai Buddy) after three verification rounds. Neither is
+load-bearing; do not build an argument that depends on either.
+
+**Registry fields have been wrong.** Applying the rule above exposed a mis-typed
+`surface_type` and a typo'd `platform_identity` that made a live product look
+withdrawn. Treat registry values as evidence to check, not settled fact. Only
+**31 of 45** rows carry any `platform_identity` at all, which bounds what can be
+measured automatically.
+
+Do not use older 14/18-product counts or the historical `~330` sample subtotal as the current category total.
+
+## What W1 is explicitly not handing off
+
+- a chosen product,
+- an MVP,
+- a feature backlog,
+- a validated price,
+- a validated retention rate,
+- a validated provenance/community/advisor thesis.
+
+Those belong to downstream work and cross-front reconciliation.
