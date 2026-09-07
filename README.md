@@ -1,86 +1,48 @@
-# Bonsai Photo Book
+# Bar-Bonsai · Functional Validation Sandbox
 
-This is a comprehensive online photo book application dedicated to bonsai trees. It provides detailed information about various bonsai species, including their care requirements, common techniques, and extensive photo galleries showcasing different development stages, seasons, styles, and even their natural habitats.
+Zero-budget research instrument for the bonsai venture (W6). One tree's dated
+history, de/en, EU-hosted. The product definition is in
+`docs/02-workstreams/W6-mvp-validation-strategy/sandbox/W6-SANDBOX-PLAN-v0.4.md`;
+`docs/README.md` is the entry point to the canon.
 
-## Features
+## Stack
+Next.js 16 (App Router, `proxy.ts`), TypeScript, Tailwind 4, next-intl 4,
+Drizzle ORM + postgres.js, Supabase (Postgres, Auth magic links, private
+Storage) in Frankfurt, Vercel Hobby `fra1`, Resend for the sign-in sender from
+14 September. No AI calls run inside the deployed app in v0.1.
 
-- **Detailed Species Information:** Scientific and popular names, group classification, temperature ranges, sun exposure, position (indoor/outdoor), leaf retention/type, climate, flowering, native region, difficulty level (beginner, intermediate, expert), care tips (Soil Type, Feeding, Watering), and common bonsai styles.
-- **Extensive Photo Galleries:**
-  - Photos from different development stages (Early, Middle, Mature).
-  - Photos showing seasonal variations (Spring, Summer, Autumn, Winter).
-  - Photos demonstrating various bonsai styles.
-  - "In Nature" tab showcasing photos of the tree in its wild habitat.
-- **Enhanced Search Functionality:** Search by tree name, scientific name, group, and words on badges (e.g., "beginner", "deciduous").
-- **Image Optimization:** Images are optimized for web performance while maintaining high quality.
-- **Minimalist Image Labels:** Clear labels on images in detail views (e.g., "Early Stage", "Spring", "Cascade").
-- **Image Credits:** Full-size image modal includes photo credits with clickable source links.
-- **Comprehensive Techniques Section:** For each species, a dedicated section detailing 15 common bonsai techniques, including when to perform them and at what maturity stage, with species-specific recommendations.
-- **Responsive Design:** The application is fully responsive and works seamlessly across desktop, tablet, and mobile devices.
-
-## Technologies Used
-
-- **Frontend:** React.js
-- **Styling:** Tailwind CSS
-- **Build Tool:** Vite
-
-## How to Run Locally
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-Make sure you have Node.js and pnpm (or npm) installed on your system.
-
-- Node.js (LTS version recommended)
-- pnpm (or npm)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/bribeirobr25/bonsai-beta.git
-    ```
-2.  **Navigate into the cloned repository directory:**
-    ```bash
-    cd bonsai-beta
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pnpm install
-    # or if you prefer npm
-    # npm install
-    ```
-
-### Running the Application
-
-1.  **Start the development server:**
-    ```bash
-    pnpm run dev
-    # or if you prefer npm
-    # npm run dev
-    ```
-2.  **Open in browser:**
-    The application will typically open in your default browser at `http://localhost:5173` (or another port if 5173 is in use).
-
-## Project Structure
-
+## Local setup
+```bash
+pnpm install
+pnpm supabase start            # Docker; prints URL, publishable and secret keys
+cp .env.example .env.local     # paste the two keys
+pnpm db:reset                  # applies supabase/migrations
+pnpm seed:species              # 110 legacy species identities at `normalized`
+pnpm dev                       # http://localhost:3000 → /de
 ```
-bonsai-beta/
-├── public/                 # Static assets (images, favicon)
-│   └── bonsai_photos/      # Optimized bonsai images
-├── src/                    # React source files
-│   ├── components/         # Reusable React components
-│   ├── data/               # Data files (bonsaiData.js)
-│   └── App.jsx             # Main application component
-├── ...                     # Other React project files (package.json, vite.config.js, etc.)
-└── README.md               # This file
-```
+Sign-in emails land in the local inbox at http://127.0.0.1:54324.
 
-## Contributing
+## Scripts
+| script | does |
+|---|---|
+| `pnpm typecheck` | `next typegen` + `tsc` |
+| `pnpm test` | vitest unit tests |
+| `pnpm db:generate` | drizzle-kit → `supabase/migrations/<timestamp>_*.sql` |
+| `pnpm db:generate:custom` | empty migration for hand-written SQL (RLS, storage) |
+| `pnpm db:reset` / `pnpm db:push` | apply migrations locally / to the linked project |
+| `pnpm seed:species` | idempotent seed from `docs/04-evidence/legacy/bonsaiData.ts` |
 
-Contributions are welcome! Please feel free to fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+## Layout
+- `src/db/schema.ts` schema v1 (plan Part 11) with RLS policies
+- `src/lib/auth/dal.ts` verified session + consent gate
+- `src/lib/events.ts` first-party event log (plan Part 7), consent-gated
+- `src/app/[locale]/…` landing, sign-in, consent, my-tree, settings, privacy, impressum
+- `src/app/auth/callback` magic-link exchange · `src/app/api/export` · `src/app/api/keepalive`
+- `src/content/privacy.{de,en}.md` verbatim from `CONTENT-CONSENT-v0.3.md`
+- `messages/{de,en}.json` UI copy
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
+## Consent and events
+Sign-up stores `consent_version`, `terms_ack` (required) and `research_consent`
+(optional, unbundled). Events are written only while research consent is true;
+withdrawal or deletion nulls `events.user_id` and leaves the peppered pseudonym.
+Anonymous page views carry no identifier and an hour-truncated timestamp.

@@ -1,0 +1,92 @@
+{
+  "common": {
+    "appName": "Bar-Bonsai",
+    "tagline": "Ein kleines Forschungsprojekt",
+    "nav": { "myTree": "Mein Baum", "explore": "Entdecken", "settings": "Einstellungen" },
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "footer": { "privacy": "Datenschutz", "impressum": "Impressum", "notice": "Bar-Bonsai (Forschungsprojekt), Berlin · Daten in der EU (Frankfurt)" },
+    "switchLocale": "English",
+    "comingLater": "Kommt mit der nächsten Version."
+  },
+  "landing": {
+    "title": "Ein Bonsai. Seine Geschichte, mit Datum.",
+    "lead": "Bar-Bonsai ist ein kleines Forschungsprojekt. Es hilft dir, einen Bonsai im Blick zu behalten: Fotos, was du an ihm gemacht hast, und wie er sich verändert.",
+    "promiseTitle": "Was du hier tun kannst",
+    "promise1": "Einen Baum anlegen und seine Art nachschlagen oder eintippen.",
+    "promise2": "Vorhandene Fotos mit Datum importieren und Momente ergänzen.",
+    "promise3": "Zwei Momente nebeneinander vergleichen: damals und heute.",
+    "promise4": "Alles exportieren oder jederzeit löschen.",
+    "notTitle": "Was es nicht ist",
+    "not1": "Keine Pflegehinweise, keine Diagnose, keine Empfehlungen.",
+    "not2": "Keine Erinnerungen, keine E-Mails außer dem Anmeldelink.",
+    "not3": "Kein soziales Netzwerk. Dein Eintrag ist privat, solange du ihn nicht selbst freigibst.",
+    "cta": "Einen Baum anlegen",
+    "ctaSecondary": "Datenschutzhinweise lesen",
+    "status": "Stand: Grundlage (Phase 0). Baum anlegen, Fotos importieren und Vergleichen folgen in den nächsten Wochen."
+  },
+  "signIn": {
+    "title": "Anmelden",
+    "lead": "Wir schicken dir einen einmaligen Link per E-Mail. Kein Passwort.",
+    "emailLabel": "E-Mail-Adresse",
+    "submit": "Link schicken",
+    "sentTitle": "Sieh in dein Postfach",
+    "sentBody": "Wenn die Adresse stimmt, ist der Link unterwegs. Er gilt eine Stunde.",
+    "legal": "Zum Versand des Links verarbeiten wir deine E-Mail-Adresse (Art. 6 Abs. 1 lit. b DSGVO). Mehr in den <privacy>Datenschutzhinweisen</privacy>.",
+    "errorInvalid": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "errorLink": "Der Link ist ungültig oder abgelaufen. Bitte fordere einen neuen an.",
+    "errorSend": "Der Link konnte nicht verschickt werden. Bitte versuche es in einer Minute noch einmal."
+  },
+  "consent": {
+    "title": "Bevor es losgeht",
+    "intro1": "<b>Bar-Bonsai ist ein kleines Forschungsprojekt.</b> Es hilft dir, einen Bonsai im Blick zu behalten: Fotos, was du an ihm gemacht hast, und wie er sich verändert. Es gibt keine Pflegehinweise.",
+    "intro2": "Damit die Seite funktioniert, speichern wir deine E-Mail-Adresse und die Fotos, Daten und Notizen, die du zu deinem Baum hinzufügst. Deine Daten liegen in der EU (Frankfurt). Dein Eintrag ist privat, solange du ihn nicht selbst freigibst. Du kannst jederzeit alles exportieren oder dein Konto löschen.",
+    "required": "<b>Erforderlich.</b> Ich bin mindestens 16 Jahre alt und habe die <privacy>Datenschutzhinweise</privacy> gelesen. (Nutzungsverhältnis, Art. 6 Abs. 1 lit. b DSGVO)",
+    "optional": "<b>Freiwillig.</b> Ich bin einverstanden, dass Bar-Bonsai erfasst, wie ich die Seite nutze (welche Seiten ich öffne, wann ich Fotos oder Notizen hinzufüge, wann ich zurückkomme), um zu erforschen, ob ein solcher Baumeintrag nützlich ist. Ergebnisse werden nur zusammengefasst und ohne Namen, E-Mail-Adressen oder Fotos berichtet. Ich kann diese Einwilligung jederzeit unter „Einstellungen“ widerrufen; die Seite funktioniert dann genauso. (Art. 6 Abs. 1 lit. a DSGVO)",
+    "submit": "Registrieren",
+    "errorRequired": "Die erforderliche Bestätigung fehlt.",
+    "version": "Fassung {version} der Hinweise"
+  },
+  "myTree": {
+    "title": "Mein Baum",
+    "emptyTitle": "Noch kein Baum.",
+    "emptyBody": "Das Anlegen eines Baums, der Fotoimport und der Vergleich kommen mit der nächsten Version. Dein Konto und deine Einstellungen sind bereits da.",
+    "signedInAs": "Angemeldet als {email}"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "account": "Konto",
+    "email": "E-Mail-Adresse",
+    "language": "Sprache",
+    "languageHint": "Die Sprache gilt für die Oberfläche und für Anmeldelinks.",
+    "save": "Speichern",
+    "research": "Forschung",
+    "researchOn": "Du hast der Erfassung deiner Nutzung zugestimmt (Fassung {version}, {date}).",
+    "researchOff": "Du hast der Erfassung deiner Nutzung nicht zugestimmt. Die Seite funktioniert genauso.",
+    "researchWithdraw": "Einwilligung widerrufen",
+    "researchGrant": "Einwilligung erteilen",
+    "researchWithdrawnAt": "Widerrufen am {date}. Bereits erfasste Ereignisse wurden pseudonymisiert.",
+    "researchText": "Bar-Bonsai erfasst, wie du die Seite nutzt (welche Seiten du öffnest, wann du Fotos oder Notizen hinzufügst, wann du zurückkommst), um zu erforschen, ob ein solcher Baumeintrag nützlich ist. Ergebnisse werden nur zusammengefasst und ohne Namen, E-Mail-Adressen oder Fotos berichtet.",
+    "data": "Deine Daten",
+    "exportTitle": "Alles exportieren",
+    "exportBody": "Eine JSON-Datei mit deinem Konto, deinen Bäumen, Momenten und Ereignissen. Fotos sind als Links enthalten, die 24 Stunden gültig sind.",
+    "exportButton": "Export herunterladen",
+    "deleteTitle": "Konto löschen",
+    "deleteBody": "Löscht dein Konto, alle Bäume, Momente und Fotos sofort und endgültig. Ereignisse verlieren die Verbindung zu deinem Konto und bleiben nur zusammengefasst erhalten.",
+    "deleteConfirmLabel": "Zur Bestätigung LÖSCHEN eingeben",
+    "deleteWord": "LÖSCHEN",
+    "deleteButton": "Konto endgültig löschen",
+    "deleteError": "Das Bestätigungswort stimmt nicht.",
+    "deleted": "Dein Konto und deine Daten wurden gelöscht.",
+    "saved": "Gespeichert."
+  },
+  "privacy": { "title": "Datenschutzhinweise", "version": "Fassung {version}" },
+  "impressum": {
+    "title": "Impressum",
+    "body1": "Bar-Bonsai (Forschungsprojekt)",
+    "body2": "Berlin",
+    "contact": "Kontakt: [Kontaktadresse]",
+    "note": "Hinweis: Name, Anschrift und die verantwortliche Person nach § 5 DDG sind noch nicht eingetragen. Diese Angaben sind vor der öffentlichen Veröffentlichung nachzutragen (offene Gründerentscheidung, siehe CONTENT-CONSENT-v0.3)."
+  },
+  "notFound": { "title": "Seite nicht gefunden", "body": "Diese Adresse gibt es nicht.", "home": "Zur Startseite" }
+}
