@@ -9,14 +9,14 @@ import { track } from "@/lib/events";
 import { createAdminClient, PHOTOS_BUCKET } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
 
-function localeOf(formData: FormData): "de" | "en" {
-  const v = formData.get("locale");
-  return routing.locales.includes(v as never) ? (v as "de" | "en") : "de";
+function asLocale(value: FormDataEntryValue | null): "de" | "en" {
+  return routing.locales.includes(value as never) ? (value as "de" | "en") : "de";
 }
+const localeOf = (formData: FormData) => asLocale(formData.get("locale"));
 
 export async function updateLocale(formData: FormData) {
   const locale = localeOf(formData);
-  const target = localeOf(new Map([["locale", formData.get("newLocale")]]) as unknown as FormData);
+  const target = asLocale(formData.get("newLocale"));
   const { profile } = await requireUser(locale);
   await db.update(users).set({ locale: target }).where(eq(users.id, profile.id));
   redirect({ href: "/settings?saved=1", locale: target });

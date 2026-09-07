@@ -2,10 +2,18 @@
   "common": {
     "appName": "Bar-Bonsai",
     "tagline": "A small research project",
-    "nav": { "myTree": "My tree", "explore": "Explore", "settings": "Settings" },
+    "nav": {
+      "myTree": "My tree",
+      "explore": "Explore",
+      "settings": "Settings"
+    },
     "signIn": "Sign in",
     "signOut": "Sign out",
-    "footer": { "privacy": "Privacy", "impressum": "Impressum", "notice": "Bar-Bonsai (research project), Berlin · Data kept in the EU (Frankfurt)" },
+    "footer": {
+      "privacy": "Privacy",
+      "impressum": "Impressum",
+      "notice": "Bar-Bonsai (research project), Berlin · Data kept in the EU (Frankfurt)"
+    },
     "switchLocale": "Deutsch",
     "comingLater": "Arrives with the next release."
   },
@@ -58,7 +66,7 @@
     "account": "Account",
     "email": "Email address",
     "language": "Language",
-    "languageHint": "Applies to the interface and to sign-in links.",
+    "languageHint": "Switches the interface and is stored with your account.",
     "save": "Save",
     "research": "Research",
     "researchOn": "You agreed to the recording of your usage (version {version}, {date}).",
@@ -80,7 +88,10 @@
     "deleted": "Your account and data have been deleted.",
     "saved": "Saved."
   },
-  "privacy": { "title": "Privacy notice", "version": "Version {version}" },
+  "privacy": {
+    "title": "Privacy notice",
+    "version": "Version {version}"
+  },
   "impressum": {
     "title": "Impressum",
     "body1": "Bar-Bonsai (research project)",
@@ -88,5 +99,9 @@
     "contact": "Contact: [contact address]",
     "note": "Note: name, postal address and the responsible person required by § 5 DDG are not yet entered. They must be added before public launch (open founder decision, see CONTENT-CONSENT-v0.3)."
   },
-  "notFound": { "title": "Page not found", "body": "This address does not exist.", "home": "Back to the start" }
+  "notFound": {
+    "title": "Page not found",
+    "body": "This address does not exist.",
+    "home": "Back to the start"
+  }
 }

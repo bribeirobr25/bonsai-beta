@@ -4,6 +4,7 @@ import { Link, redirect } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
 import { getCurrentUser } from "@/lib/auth/dal";
 import { CONSENT_VERSION } from "@/lib/env";
+import { sanitizeSource } from "@/lib/source";
 import { submitConsent } from "./actions";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -23,10 +24,10 @@ export default async function ConsentPage({
     redirect({ href: "/my-tree", locale: locale as AppLocale });
 
   const t = await getTranslations("consent");
-  const src = typeof sp.src === "string" ? sp.src : "";
+  const src = sanitizeSource(sp.src) ?? "";
   const error = sp.error === "required";
   const privacy = (chunks: React.ReactNode) => (
-    <Link href="/privacy" className="underline" target="_blank">
+    <Link href="/privacy" className="underline" target="_blank" rel="noopener">
       {chunks}
     </Link>
   );

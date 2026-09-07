@@ -1,5 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { getCurrentUser, getSessionId } from "@/lib/auth/dal";
+import { sanitizeSource } from "@/lib/source";
 import { track } from "@/lib/events";
 
 export default async function LandingPage({
@@ -8,12 +10,21 @@ export default async function LandingPage({
 }: PageProps<"/[locale]">) {
   const { locale } = await params;
   const sp = await searchParams;
-  const src = typeof sp.src === "string" ? sp.src : null;
+  const src = sanitizeSource(sp.src);
   const t = await getTranslations("landing");
-  await track({ name: "landing_view", locale: locale as "de" | "en", source: src });
+  const tSettings = await getTranslations("settings");
+  const current = await getCurrentUser();
+  await track({
+    name: "landing_view",
+    locale: locale as "de" | "en",
+    source: src,
+    user: current?.profile ?? null,
+    sessionId: current ? await getSessionId() : null,
+  });
   const startHref = src ? `/sign-in?src=${encodeURIComponent(src)}` : "/sign-in";
   return (
     <article className="space-y-10">
+      {sp.deleted === "1" && <p className="alert alert-ok">{tSettings("deleted")}</p>}
       <section className="space-y-4">
         <h1 className="text-3xl font-semibold tracking-tight">{t("title")}</h1>
         <p className="text-lg text-muted">{t("lead")}</p>

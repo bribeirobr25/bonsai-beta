@@ -12,7 +12,10 @@ import { createAdminClient } from "@/lib/supabase/admin";
  */
 export async function GET(request: NextRequest) {
   const secret = env().CRON_SECRET;
-  if (secret && request.headers.get("authorization") !== `Bearer ${secret}`) {
+  const authorised = secret
+    ? request.headers.get("authorization") === `Bearer ${secret}`
+    : process.env.NODE_ENV === "development";
+  if (!authorised) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
   const now = new Date();

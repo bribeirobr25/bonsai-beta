@@ -6,6 +6,7 @@ import { safeNextPath } from "@/lib/auth/dal";
 import { env } from "@/lib/env";
 import { createClient } from "@/lib/supabase/server";
 import { track } from "@/lib/events";
+import { sanitizeSource } from "@/lib/source";
 
 const input = z.object({
   email: z.string().trim().email().max(254),
@@ -26,7 +27,8 @@ export async function sendMagicLink(formData: FormData) {
     redirect({ href: "/sign-in?error=invalid", locale });
     return;
   }
-  const { email, src } = parsed.data;
+  const { email } = parsed.data;
+  const src = sanitizeSource(parsed.data.src) ?? "";
   const consentPath = `/${locale}/consent${src ? `?src=${encodeURIComponent(src)}` : ""}`;
   const next = safeNextPath(parsed.data.next || null, consentPath);
   const callback = new URL("/auth/callback", env().NEXT_PUBLIC_SITE_URL);

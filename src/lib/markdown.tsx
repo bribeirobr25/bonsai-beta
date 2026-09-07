@@ -32,6 +32,11 @@ export function splitBlocks(md: string): string[][] {
     if (line.trim() === "") {
       if (current.length) blocks.push(current);
       current = [];
+    } else if (/^#{1,3} /.test(line)) {
+      // A heading is always its own block, even without a blank line after it.
+      if (current.length) blocks.push(current);
+      blocks.push([line]);
+      current = [];
     } else current.push(line);
   }
   if (current.length) blocks.push(current);

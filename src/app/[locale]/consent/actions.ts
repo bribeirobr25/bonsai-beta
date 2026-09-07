@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { getAuthUser, getSessionId } from "@/lib/auth/dal";
 import { CONSENT_VERSION } from "@/lib/env";
 import { track } from "@/lib/events";
+import { sanitizeSource } from "@/lib/source";
 
 const input = z.object({
   locale: z.enum(routing.locales),
@@ -36,7 +37,7 @@ export async function submitConsent(formData: FormData) {
     return;
   }
   const researchConsent = parsed.data.research === "on";
-  const source = parsed.data.src || null;
+  const source = sanitizeSource(parsed.data.src);
   const cohort = source === "workshop" ? "workshop" : "direct";
   const now = new Date();
 

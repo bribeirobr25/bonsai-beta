@@ -1,11 +1,13 @@
 import type { EmailOtpType } from "@supabase/supabase-js";
 import { NextResponse, type NextRequest } from "next/server";
 import { safeNextPath } from "@/lib/auth/dal";
+import { env } from "@/lib/env";
 import { createClient } from "@/lib/supabase/server";
 
 /** Magic-link landing: PKCE `code` or `token_hash` + `type`, then redirect. */
 export async function GET(request: NextRequest) {
-  const { searchParams, origin } = request.nextUrl;
+  const { searchParams } = request.nextUrl;
+  const origin = env().NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
   const next = safeNextPath(searchParams.get("next"), "/de/consent");
   const locale = next.startsWith("/en") ? "en" : "de";
   const supabase = await createClient();

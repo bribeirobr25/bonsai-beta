@@ -2,10 +2,18 @@
   "common": {
     "appName": "Bar-Bonsai",
     "tagline": "Ein kleines Forschungsprojekt",
-    "nav": { "myTree": "Mein Baum", "explore": "Entdecken", "settings": "Einstellungen" },
+    "nav": {
+      "myTree": "Mein Baum",
+      "explore": "Entdecken",
+      "settings": "Einstellungen"
+    },
     "signIn": "Anmelden",
     "signOut": "Abmelden",
-    "footer": { "privacy": "Datenschutz", "impressum": "Impressum", "notice": "Bar-Bonsai (Forschungsprojekt), Berlin · Daten in der EU (Frankfurt)" },
+    "footer": {
+      "privacy": "Datenschutz",
+      "impressum": "Impressum",
+      "notice": "Bar-Bonsai (Forschungsprojekt), Berlin · Daten in der EU (Frankfurt)"
+    },
     "switchLocale": "English",
     "comingLater": "Kommt mit der nächsten Version."
   },
@@ -58,7 +66,7 @@
     "account": "Konto",
     "email": "E-Mail-Adresse",
     "language": "Sprache",
-    "languageHint": "Die Sprache gilt für die Oberfläche und für Anmeldelinks.",
+    "languageHint": "Wechselt die Oberfläche und wird mit deinem Konto gespeichert.",
     "save": "Speichern",
     "research": "Forschung",
     "researchOn": "Du hast der Erfassung deiner Nutzung zugestimmt (Fassung {version}, {date}).",
@@ -80,7 +88,10 @@
     "deleted": "Dein Konto und deine Daten wurden gelöscht.",
     "saved": "Gespeichert."
   },
-  "privacy": { "title": "Datenschutzhinweise", "version": "Fassung {version}" },
+  "privacy": {
+    "title": "Datenschutzhinweise",
+    "version": "Fassung {version}"
+  },
   "impressum": {
     "title": "Impressum",
     "body1": "Bar-Bonsai (Forschungsprojekt)",
@@ -88,5 +99,9 @@
     "contact": "Kontakt: [Kontaktadresse]",
     "note": "Hinweis: Name, Anschrift und die verantwortliche Person nach § 5 DDG sind noch nicht eingetragen. Diese Angaben sind vor der öffentlichen Veröffentlichung nachzutragen (offene Gründerentscheidung, siehe CONTENT-CONSENT-v0.3)."
   },
-  "notFound": { "title": "Seite nicht gefunden", "body": "Diese Adresse gibt es nicht.", "home": "Zur Startseite" }
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Diese Adresse gibt es nicht.",
+    "home": "Zur Startseite"
+  }
 }

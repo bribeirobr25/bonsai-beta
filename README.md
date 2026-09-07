@@ -46,3 +46,10 @@ Sign-up stores `consent_version`, `terms_ack` (required) and `research_consent`
 (optional, unbundled). Events are written only while research consent is true;
 withdrawal or deletion nulls `events.user_id` and leaves the peppered pseudonym.
 Anonymous page views carry no identifier and an hour-truncated timestamp.
+
+## Troubleshooting
+- **Docker Desktop must be running** for the local Supabase stack; if it stops, `pnpm supabase start` again (data volumes persist).
+- **After editing `supabase/config.toml`** run `pnpm supabase stop && pnpm supabase start`; `db reset` does not reload auth settings such as redirect URLs.
+- **Browser inside Docker** (for example the Playwright MCP): run `pnpm dev -p 3100`, set `NEXT_PUBLIC_SITE_URL=http://host.docker.internal:3100`, and open `http://host.docker.internal:3100`; `allowedDevOrigins` and the Supabase redirect allow-list already include that host.
+- **`.next/dev/types/root-params.d.ts` syntax error during `pnpm build`**: a rare race between the dev server's type generation and a concurrent `next typegen`; delete the file, the dev server rewrites it.
+- **Unmatched URLs** render `src/app/global-not-found.tsx` (bilingual, outside the locale layout); `notFound()` inside a locale page renders `src/app/[locale]/not-found.tsx` client-side.

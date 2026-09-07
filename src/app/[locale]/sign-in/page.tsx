@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Link, redirect } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
 import { getAuthUser } from "@/lib/auth/dal";
+import { sanitizeSource } from "@/lib/source";
 import { sendMagicLink } from "./actions";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -21,7 +22,7 @@ export default async function SignInPage({
 
   const sent = sp.sent === "1";
   const error = typeof sp.error === "string" ? sp.error : null;
-  const src = typeof sp.src === "string" ? sp.src : "";
+  const src = sanitizeSource(sp.src) ?? "";
   const next = typeof sp.next === "string" ? sp.next : "";
 
   return (
