@@ -68,6 +68,10 @@ feature never upgrades a hypothesis.
 - **RLS-first.** Three separated paths: public `anon` · owner `authenticated`
   JWT · privileged service role for migrations, seed, cron and admin only. Never
   reach for the service role to make a query work.
+- **Architecture decisions.** [`docs/06-implementation/adr/`](docs/06-implementation/adr/)
+  holds 17 ADRs, each naming what would reopen it. Read the relevant one before
+  changing a load-bearing decision; if you change one, update its record in the
+  same commit. `pnpm check:adrs` enforces the index and the triggers.
 - **Gates.** `docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md`
   §17 holds 38 gate rows, each stating **what it makes impossible**. A gate row
   and its test land in the same commit as the behaviour they guard. Gate ids are

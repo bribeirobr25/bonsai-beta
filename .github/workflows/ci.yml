@@ -96,6 +96,12 @@ jobs:
       - name: testability
         run: pnpm check:testability
 
+      # OI-46: the ADR index and files must agree in both directions, and every
+      # record must name a reconsideration trigger. Without a trigger a
+      # decision is reversible by accident rather than on purpose.
+      - name: architecture decision records (OI-46)
+        run: pnpm check:adrs
+
       # Gate LEG-1: a rendered legal document must not ship with an unfilled
       # placeholder. Blocker B-5 means placeholders legitimately exist during
       # internal build, so this job REPORTS them and fails only on a release
