@@ -94,8 +94,50 @@ const PUBLIC_CSP = [
   "form-action 'self'",
   // Belt and braces with X-Frame-Options; frame-ancestors is the modern one.
   "frame-ancestors 'none'",
-  "upgrade-insecure-requests",
-].join("; ");
+  // `upgrade-insecure-requests` is added conditionally below, NOT here.
+]
+  .concat(upgradeInsecureRequests())
+  .join("; ");
+
+/**
+ * `upgrade-insecure-requests`, but only on an https origin.
+ *
+ * THIS DIRECTIVE BROKE EVERY PAGE ON A PLAIN-HTTP ORIGIN, and it took a real
+ * browser to find it. Sending it unconditionally makes the browser rewrite
+ * every http subresource request to https - so on an http host every
+ * stylesheet, script and font failed with ERR_SSL_PROTOCOL_ERROR and the page
+ * rendered unstyled and non-interactive.
+ *
+ * The failure shape is the dangerous part. Browsers treat `localhost` and
+ * `127.0.0.1` as potentially trustworthy and skip the upgrade, and production
+ * is https where the upgrade is a no-op. So it passes in the two places
+ * anybody checks and breaks every other http origin:
+ *
+ *   - the containerised-browser setup the README documents
+ *     (http://host.docker.internal:3100)
+ *   - testing on a phone over the LAN by IP, which is how responsive layout
+ *     actually gets checked
+ *   - any http preview or staging host
+ *
+ * Derived from NEXT_PUBLIC_SITE_URL rather than from NODE_ENV: what matters is
+ * whether THIS origin is served over TLS, not whether the build is a
+ * production build. A production build served over http - a preview box, a
+ * LAN check - needs the directive off just as much as dev does.
+ *
+ * On https the directive still does its job: any absolute http URL that ever
+ * creeps into the markup is upgraded instead of blocked.
+ */
+function upgradeInsecureRequests(): string[] {
+  const raw = process.env.NEXT_PUBLIC_SITE_URL;
+  if (!raw) return [];
+  try {
+    return new URL(raw).protocol === "https:"
+      ? ["upgrade-insecure-requests"]
+      : [];
+  } catch {
+    return [];
+  }
+}
 
 /**
  * `Permissions-Policy: geolocation=()` is the cheapest possible implementation
@@ -119,6 +161,19 @@ const PERMISSIONS_POLICY = [
   "accelerometer=()",
 ].join(", ");
 
+/**
+ * Overrides every private page carries.
+ *
+ * One alternation pattern would be tidier, but Next rejects it: a source of
+ * `/:locale/(settings|my-tree|consent):path*` fails the build with "Must have
+ * text between two parameters". So the routes are listed separately and the
+ * header list is shared, which keeps the duplication to the source strings.
+ */
+const PRIVATE_PAGE: Array<{ key: string; value: string }> = [
+  { key: "X-Robots-Tag", value: "noindex, nofollow" },
+  { key: "Cache-Control", value: "private, no-store" },
+];
+
 const BASELINE: Array<{ key: string; value: string }> = [
   { key: "Content-Security-Policy", value: PUBLIC_CSP },
   { key: "Permissions-Policy", value: PERMISSIONS_POLICY },
@@ -134,6 +189,9 @@ const BASELINE: Array<{ key: string; value: string }> = [
   // never leak in a Referer to a third party.
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "X-DNS-Prefetch-Control", value: "off" },
+  // Browsers IGNORE this on a non-https origin and log an error saying so.
+  // Kept unconditionally anyway: it is correct in production, and unlike
+  // upgrade-insecure-requests being ignored breaks nothing.
   { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
   // NOTE: X-XSS-Protection is deliberately ABSENT. It is deprecated, its
   // filter introduced its own vulnerabilities, and CSP supersedes it. Adding it
@@ -156,6 +214,37 @@ export const SECURITY_HEADERS: SurfaceHeaders[] = [
       { key: "Referrer-Policy", value: "no-referrer" },
       { key: "X-Robots-Tag", value: "noindex, nofollow" },
     ],
+  },
+  {
+    /**
+     * The private routes AS THEY EXIST TODAY.
+     *
+     * The route map (§14) moves these under `/{locale}/app/**` in Phase 4, and
+     * the `/app/**` surface below is already written for that. But `/app/**`
+     * matches nothing yet, so until the move lands these two pages were getting
+     * the baseline only - no X-Robots-Tag and no private cache directive.
+     *
+     * The page-level NO_INDEX metadata did cover indexing, which is why this
+     * was invisible: the meta tag was right and the header was missing, and a
+     * header travels where a meta tag cannot (a non-HTML response, a crawler
+     * that never parses the body). Found by reading the actual response, not
+     * the config.
+     *
+     * Delete this entry when the routes move, not before.
+     */
+    source: "/:locale/settings",
+    surface: "private pages (pre-P4) · settings",
+    headers: [...BASELINE, ...PRIVATE_PAGE],
+  },
+  {
+    source: "/:locale/my-tree",
+    surface: "private pages (pre-P4) · my-tree",
+    headers: [...BASELINE, ...PRIVATE_PAGE],
+  },
+  {
+    source: "/:locale/consent",
+    surface: "private pages (pre-P4) · consent",
+    headers: [...BASELINE, ...PRIVATE_PAGE],
   },
   {
     source: "/:locale/app/:path*",

@@ -74,6 +74,26 @@ describe("CSP per surface · gate CSP-1", () => {
     }
   });
 
+  it("omits upgrade-insecure-requests on a plain-http origin", () => {
+    /**
+     * Requirement: this directive made the browser rewrite every http
+     * subresource to https, so on an http origin every stylesheet, script and
+     * font failed with ERR_SSL_PROTOCOL_ERROR and the page rendered unstyled.
+     *
+     * It passed on localhost (treated as potentially trustworthy, upgrade
+     * skipped) and in https production (no-op), and broke the containerised
+     * browser, LAN testing by IP, and any http preview host. Found by a real
+     * browser, not by this suite - which is why the test exists now.
+     */
+    const site = process.env.NEXT_PUBLIC_SITE_URL;
+    const isHttps = site ? new URL(site).protocol === "https:" : false;
+    if (isHttps) {
+      expect(CSP).toContain("upgrade-insecure-requests");
+    } else {
+      expect(CSP).not.toContain("upgrade-insecure-requests");
+    }
+  });
+
   it.each(["object-src 'none'", "base-uri 'self'", "frame-ancestors 'none'"])(
     "sets %s",
     (directive) => {
@@ -110,7 +130,14 @@ describe("deprecated headers stay out", () => {
 });
 
 describe("private surfaces · gate IDX-1", () => {
-  it.each(["authenticated app", "admin", "public journey", "api", "auth callback"])(
+  it.each([
+    "authenticated app",
+    "admin",
+    "public journey",
+    "api",
+    "auth callback",
+    "private pages (pre-P4) · settings",
+  ])(
     "marks %s noindex at the header level",
     (name) => {
       // Requirement: robots.txt is a request a crawler may ignore; a header
@@ -126,6 +153,19 @@ describe("private surfaces · gate IDX-1", () => {
       expect(surface(name).get("Cache-Control")).toMatch(/private, no-store/);
     },
   );
+
+  it("covers the private routes that exist TODAY, not only their P4 locations", () => {
+    /**
+     * Requirement: the /app/** surface is written for the Phase 4 route map and
+     * matches nothing yet, so /settings and /my-tree were receiving the
+     * baseline only. The page-level NO_INDEX metadata covered indexing, which
+     * is exactly why the missing header was invisible - a meta tag is right up
+     * until something does not parse the body.
+     */
+    const h = surface("pre-P4) · settings");
+    expect(h.get("X-Robots-Tag")).toBe("noindex, nofollow");
+    expect(h.get("Cache-Control")).toContain("no-store");
+  });
 
   it("never caches or leaks the magic-link exchange", () => {
     // Requirement: a URL under /auth/ carries a ONE-TIME TOKEN. A cached token
