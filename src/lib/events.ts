@@ -1,6 +1,21 @@
 import "server-only";
 import { createHash } from "node:crypto";
 import { and, desc, eq, gte } from "drizzle-orm";
+/**
+ * PRIVILEGED CONNECTION, deliberately - one of four documented exceptions.
+ *
+ * `events` has RLS enabled and ZERO policies, which is not an oversight: there
+ * is no owner path to the telemetry sink by design. Two reasons it cannot have
+ * one. Anonymous page views carry no user at all, so `auth.uid()` would be null
+ * and an owner policy could never match. And an account being able to write its
+ * own event rows would let a participant manufacture the evidence the beta
+ * exists to read.
+ *
+ * So telemetry is server-written, scoped by this module, and the CI
+ * service-role check (scripts/check-service-role.mjs) allows this file by name
+ * rather than by convention. Adding a fifth exception requires editing that
+ * allowlist, which shows up in review.
+ */
 import { db } from "@/db";
 import { events, researcherContacts, type User } from "@/db/schema";
 import { env } from "@/lib/env";
