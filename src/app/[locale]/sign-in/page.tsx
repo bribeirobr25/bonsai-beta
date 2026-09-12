@@ -5,10 +5,12 @@ import type { AppLocale } from "@/i18n/routing";
 import { getAuthUser } from "@/lib/auth/dal";
 import { sanitizeSource } from "@/lib/source";
 import { sendMagicLink } from "./actions";
+import { NO_INDEX } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("signIn");
-  return { title: t("title") };
+  // Private surface: never indexed, never cached, no snippet (gate IDX-1).
+  return { title: t("title"), robots: NO_INDEX };
 }
 
 export default async function SignInPage({

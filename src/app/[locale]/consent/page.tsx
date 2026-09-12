@@ -6,10 +6,12 @@ import { getCurrentUser } from "@/lib/auth/dal";
 import { CONSENT_VERSION } from "@/lib/env";
 import { sanitizeSource } from "@/lib/source";
 import { submitConsent } from "./actions";
+import { NO_INDEX } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("consent");
-  return { title: t("title") };
+  // Private surface: never indexed, never cached, no snippet (gate IDX-1).
+  return { title: t("title"), robots: NO_INDEX };
 }
 
 export default async function ConsentPage({
