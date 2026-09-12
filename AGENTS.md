@@ -8,8 +8,91 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-## Bar-Bonsai project notes
-- Product and canon: start at `docs/README.md`; the build plan is `docs/02-workstreams/W6-mvp-validation-strategy/sandbox/W6-SANDBOX-PLAN-v0.4.md`.
-- Zero budget: only free tiers; no Anthropic API calls in the deployed app (v0.1).
-- Consent copy is verbatim from `CONTENT-CONSENT-v0.3.md`; bump `CONSENT_VERSION` in `src/lib/env.ts` when it changes.
-- Migrations: `pnpm db:generate` writes into `supabase/migrations`; apply with the Supabase CLI, never with drizzle-kit migrate.
+## Bonsai project notes
+
+**Identity is `Bonsai`** for the Functional Beta. `Bar-Bonsai` is retired.
+Long-term naming is `DEFERRED PENDING VALIDATION`.
+
+### Authority — read before writing code
+
+Start at [`docs/01-canon/README.md`](docs/01-canon/README.md), which carries the
+authority order and a 17-step read order. The active stack:
+
+| Rank | Authority | Version |
+|---:|---|---|
+| 1 | Strategy Canon | **v1.1.2** |
+| 2 | W7 Product/UIUX Canon | **v1.1.2** |
+| 3 | W7 Approved Visual Artifacts | v1.0 |
+| 4 | W3 Brand + Gate A Copy & Claims Ruling | v1.1 |
+| 5 | W4 Growth + Gate A Instrumentation Clarification | v1.1 |
+| 6 | W2 Economics + Functional Beta Economics Review | v1.0 |
+| 7 | W1 Competitor Review Mining | FINAL CLOSED · **no reopen** |
+| 8 | Implementation Beta Handoff | **v1.0.1** |
+| 9 | Legacy application code and data | reusable input only, never authority |
+
+The consolidated decision authority is
+`docs/01-canon/01-strategy-canon-v1.1.2/02_DECISIONS/BONSAI_GATE_A_DECISION_REGISTER_2026-09-12.md`
+(OI-01…OI-45). Items marked `LEGAL ACTIVATION PENDING`,
+`OPERATIONAL INPUT PENDING`, `IMPLEMENTATION INPUT PENDING` or `DEFERRED` are
+**not** resolved — do not treat them as such.
+
+**The build plan is
+[`docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md`](docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md)**
+(revision 3, authorized). **W6 is not the build plan** — it is
+`SUPERSEDED AS A STANDALONE WORKSTREAM`, and its former plan lives at
+`docs/99-archive/superseded/w6-sandbox-superseded-2026-09-12/` as history only.
+
+Two rules that are easy to get wrong: **textual W7 authority beats conflicting
+illustrative visuals**, and **`BUILD STATUS ≠ EVIDENCE STATUS`** — shipping a
+feature never upgrades a hypothesis.
+
+### Hard rules the architecture must enforce, not merely honour in the UI
+
+- **Knowledge publication states** — `PUBLIC_APPROVED` · `INTERNAL_DRAFT_UNVERIFIED`
+  · `UNAVAILABLE`, enforced **in the database, per locale**. A frontend error must
+  not be able to leak unreviewed content. An "Unverified" badge is not a
+  publication mechanism, and AI **never** authorizes publication.
+- **Private by default** — Tree, Journey, Moment and Historical Import are
+  private; sharing is explicit, allowlisted, previewed and revocable; future
+  Moments stay private; **no precise location is ever public by default** and GPS
+  or sensitive EXIF is never retained.
+- **Provenance** — a published Knowledge field without provenance is a **bug**,
+  and `reviewed_at` is never refreshed without an actual review event.
+- **No fabricated Community or local density**, and **privacy copy must never
+  exceed the technical guarantee**.
+- **Telemetry stays inert** until legal approval is recorded in the repository
+  (blocker B-12). The architecture is built; collection is not switched on.
+
+### Engineering conventions
+
+- **RLS-first.** Three separated paths: public `anon` · owner `authenticated`
+  JWT · privileged service role for migrations, seed, cron and admin only. Never
+  reach for the service role to make a query work.
+- **Gates.** `docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md`
+  §17 holds 38 gate rows, each stating **what it makes impossible**. A gate row
+  and its test land in the same commit as the behaviour they guard. Gate ids are
+  unique and stable — check uniqueness when adding one.
+- **A test asserts a REQUIREMENT, never observed output.** Every privacy,
+  publication and Community assertion cites its requirement: a gate id, a
+  decision id, or a canon section. A test changed to make a build green must
+  restate its requirement in the diff.
+- **Commits** (ratified policy, plan §27): protected `main`, no direct pushes,
+  short-lived branches per coherent unit within a phase, PR review, conventional
+  commits. **Migrations are their own commit**, and the merge strategy must
+  preserve individual commits — **squash-merge is prohibited**.
+- **Migrations:** `pnpm db:generate` writes into `supabase/migrations`; apply
+  with the Supabase CLI, **never** with `drizzle-kit migrate`.
+- **Environments:** local Supabase for development and CI · separate remote
+  **Staging** · separate remote **Production**. Production data is not the
+  routine QA substrate.
+- **Binaries** go through Git LFS — see `.gitattributes`. `docs/01-canon/**` and
+  `docs/99-archive/**` are `-text`: they are verified against sender SHA-256
+  manifests and must stay byte-exact.
+- **Cost:** the free-tier-only rule is **lifted** (OI-05). Infrastructure should
+  stay cost-conscious and reversible, and **no budget ceiling is set — do not
+  infer an unlimited one** (blocker B-19).
+- Consent copy is verbatim from `CONTENT-CONSENT-v0.3.md`, now at
+  `docs/99-archive/superseded/w6-sandbox-superseded-2026-09-12/W6-mvp-validation-strategy/sandbox/`.
+  Bump `CONSENT_VERSION` in `src/lib/env.ts` when it changes. The privacy notice
+  and imprint both cite it, so it must not be deleted while those citations
+  stand.

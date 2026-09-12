@@ -37,6 +37,21 @@ supabase/**     text eol=lf
 *.yml           text eol=lf
 *.yaml          text eol=lf
 
+# --- Binary app assets: never text, never eol-converted ---
+# The `src/** text eol=lf` rule above matches by path, so it captured
+# src/app/favicon.ico and marked a Windows icon file as text. Renormalizing it
+# LOST A BYTE (25931 -> 25930) - silent binary corruption that would have fired
+# on the next `git add` touching it. Binary extensions must opt out explicitly.
+# png/jpg/jpeg/webp/gif/zip/pdf/woff already carry -text via their LFS lines.
+*.ico   -text
+*.icns  -text
+*.mp3   -text
+*.mp4   -text
+*.wasm  -text
+*.ttf   -text
+*.otf   -text
+*.eot   -text
+
 # --- Canon and archive: byte-exact, never normalized ---
 # These trees are verified against sender SHA-256 manifests. Line-ending
 # normalization would rewrite bytes and permanently break that verification --

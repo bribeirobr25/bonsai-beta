@@ -1,15 +1,32 @@
-# Bar-Bonsai · Functional Validation Sandbox
+# Bonsai · Functional Beta
 
-Zero-budget research instrument for the bonsai venture (W6). One tree's dated
-history, de/en, EU-hosted. The product definition is in
-`docs/02-workstreams/W6-mvp-validation-strategy/sandbox/W6-SANDBOX-PLAN-v0.4.md`;
-`docs/README.md` is the entry point to the canon.
+Implementation-led validation instrument for the bonsai venture. A living
+subject's dated history, EU-hosted, four locales.
+
+**Authority:** [`docs/01-canon/README.md`](docs/01-canon/README.md) — the
+authority order and read order. **Build plan:**
+[`docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md`](docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md).
+**Agent/contributor rules:** [`AGENTS.md`](AGENTS.md).
+
+W6 is `SUPERSEDED AS A STANDALONE WORKSTREAM` and its former sandbox plan is
+**not** the build plan; it is retained as history under
+`docs/99-archive/superseded/w6-sandbox-superseded-2026-09-12/`.
+
+> **BUILD STATUS ≠ EVIDENCE STATUS.** Shipping a feature never upgrades a
+> hypothesis. Journey value, retention, Community, Knowledge acquisition,
+> sharing and economics are all `UNVALIDATED`.
 
 ## Stack
 Next.js 16 (App Router, `proxy.ts`), TypeScript, Tailwind 4, next-intl 4,
 Drizzle ORM + postgres.js, Supabase (Postgres, Auth magic links, private
 Storage) in Frankfurt, Vercel Hobby `fra1`, Resend for the sign-in sender from
-14 September. No AI calls run inside the deployed app in v0.1.
+14 September.
+
+Magic-link authentication is **ratified** for the Functional Beta. No AI calls
+run inside the deployed app; AI may assist Knowledge drafting in the
+internal/admin machinery only, and **never authorizes publication**.
+Free-tier-only is **no longer a binding rule** — infrastructure stays
+cost-conscious and reversible, and no budget ceiling is set.
 
 ## Local setup
 ```bash
@@ -31,13 +48,23 @@ Sign-in emails land in the local inbox at http://127.0.0.1:54324.
 | `pnpm db:reset` / `pnpm db:push` | apply migrations locally / to the linked project |
 
 ## Layout
-- `src/db/schema.ts` schema v1 (plan Part 11) with RLS policies
+- `src/db/schema.ts` schema — migrating to v2 in Phase 1 (plan §13 `M1`, §15); RLS-first
 - `src/lib/auth/dal.ts` verified session + consent gate
-- `src/lib/events.ts` first-party event log (plan Part 7), consent-gated
+- `src/lib/events.ts` first-party event log (plan §22), consent-gated
 - `src/app/[locale]/…` landing, sign-in, consent, my-tree, settings, privacy, impressum
 - `src/app/auth/callback` magic-link exchange · `src/app/api/export` · `src/app/api/keepalive`
-- `src/content/privacy.{de,en}.md` verbatim from `CONTENT-CONSENT-v0.3.md`
-- `messages/{de,en}.json` UI copy
+- `src/content/privacy.{de,en}.md` verbatim from `CONTENT-CONSENT-v0.3.md`, now at
+  `docs/99-archive/superseded/w6-sandbox-superseded-2026-09-12/W6-mvp-validation-strategy/sandbox/`
+  — the consent record **currently in force** (`CONSENT_VERSION = "0.3"`)
+- `messages/{de,en}.json` UI copy — `es` and `pt-BR` arrive in Phase 2
+
+## Contributing
+Protected `main`, no direct pushes. Short-lived branches per coherent unit
+within a phase, pull-request review, conventional commits. **Migrations are
+their own commit** and the merge strategy must preserve individual commits —
+**squash-merge is prohibited.** Binaries go through Git LFS; `docs/01-canon/**`
+and `docs/99-archive/**` are `-text` because they are verified against sender
+SHA-256 manifests and must stay byte-exact. See `AGENTS.md` for the full rules.
 
 ## Consent and events
 Sign-up stores `consent_version`, `terms_ack` (required) and `research_consent`
