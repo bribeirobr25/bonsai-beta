@@ -7,8 +7,37 @@ const schema = z.object({
   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: z.string().min(1),
   /** Supabase secret key (formerly "service_role"). Server only. */
   SUPABASE_SECRET_KEY: z.string().min(1),
-  /** Pepper for event pseudonyms. Rotating it breaks per-user sequences. */
+  /**
+   * Pepper for event pseudonyms.
+   *
+   * Long-lived by design; routine rotation is NOT required and would destroy
+   * longitudinal continuity for no security gain. An emergency rotation
+   * (suspected or confirmed compromise) increments EVENTS_PSEUDONYM_VERSION
+   * alongside it, so both generations coexist and prior rows stay readable -
+   * they are never re-pseudonymized, which would need the old secret anyway.
+   * Plan §24.7.
+   */
   EVENTS_PEPPER: z.string().min(16),
+  /**
+   * Which generation of EVENTS_PEPPER is in use. Stamped onto every event.
+   *
+   * Without this an emergency rotation would silently break continuity:
+   * pseudonyms would change with nothing recording why, and a longitudinal
+   * query spanning the boundary would report a population of strangers as
+   * churn. Bump it in the SAME deploy as the secret.
+   */
+  EVENTS_PSEUDONYM_VERSION: z.coerce.number().int().positive().default(1),
+  /**
+   * Default session classification for this deployment (OI-50, plan §24.8).
+   *
+   * Staging is set to INTERNAL so its traffic can never be mistaken for
+   * evidence. Production leaves this unset and therefore defaults to USER,
+   * because the common case in production IS a real user - and an
+   * unclassified event must count as evidence rather than be silently
+   * excluded, which is the safe direction for a metric that decides whether to
+   * kill a hypothesis.
+   */
+  SESSION_CLASS_DEFAULT: z.enum(["USER", "INTERNAL", "QA"]).default("USER"),
   /** Vercel sends `Authorization: Bearer <CRON_SECRET>` to cron routes. */
   CRON_SECRET: z.string().min(16).optional(),
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
