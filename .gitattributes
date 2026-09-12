@@ -1,0 +1,36 @@
+# Bonsai · Git LFS tracking
+# Founder ruling B-2 · APPROVED 12 September 2026:
+#   "Track the large visual/canonical binary assets through Git LFS before
+#    their first committed introduction."
+#
+# Timing is the whole point. Git does not forget: a binary committed as a plain
+# blob stays in history for every future clone, and moving it to LFS afterwards
+# requires a history rewrite. At the time this file was written only 2.9 MB of
+# binaries existed in history and 79.7 MB were still uncommitted — so every
+# pattern below must be in place BEFORE the canon intake commit lands.
+
+# --- Canonical visual artifacts (W7 approved visual package) ---
+*.png   filter=lfs diff=lfs merge=lfs -text
+*.jpg   filter=lfs diff=lfs merge=lfs -text
+*.jpeg  filter=lfs diff=lfs merge=lfs -text
+*.webp  filter=lfs diff=lfs merge=lfs -text
+*.gif   filter=lfs diff=lfs merge=lfs -text
+
+# --- Sender packages retained for provenance (docs/99-archive/) ---
+*.zip   filter=lfs diff=lfs merge=lfs -text
+*.pdf   filter=lfs diff=lfs merge=lfs -text
+
+# --- Fonts, if any are ever vendored rather than loaded from a CDN ---
+*.woff  filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# --- Line-ending and diff hygiene for text the project does own ---
+*.md    text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.json  text eol=lf
+*.css   text eol=lf
+*.sql   text eol=lf
+*.csv   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
