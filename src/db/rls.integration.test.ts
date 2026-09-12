@@ -257,6 +257,184 @@ maybe()("the public path · anon sees nothing private", () => {
   );
 });
 
+maybe()("Knowledge public reads · gate PUB-1 · plan §16 step 3", () => {
+  /**
+   * The highest-consequence gate in the product. Unreviewed AI-generated
+   * horticultural guidance reaching a public page is not a cosmetic bug: it is
+   * advice that can kill someone's tree, published under our name.
+   *
+   * These tests were MISSING when steps 1-5 were first reported complete. The
+   * private tables were covered; the one table anon is actually allowed to read
+   * was not. No leak existed - but nothing proved that.
+   */
+  const STATES: Array<[string, string]> = [
+    ["legacy_raw", "INTERNAL_DRAFT_UNVERIFIED"],
+    ["ai_draft", "INTERNAL_DRAFT_UNVERIFIED"],
+    ["normalized", "INTERNAL_DRAFT_UNVERIFIED"],
+    ["review_required", "INTERNAL_DRAFT_UNVERIFIED"],
+    ["practitioner_reviewed", "INTERNAL_DRAFT_UNVERIFIED"],
+    ["withdrawn", "UNAVAILABLE"],
+    ["published", "PUBLIC_APPROVED"],
+  ];
+
+  beforeAll(async () => {
+    if (!reachable) return;
+    await sql`delete from species where slug like 'pub1-%'`;
+    for (const [status] of STATES) {
+      await sql`insert into species (slug, accepted_name, status)
+                values (${`pub1-${status}`}, ${`Probe ${status}`}, ${status}::content_status)`;
+    }
+  });
+
+  it.each(STATES.filter(([, state]) => state !== "PUBLIC_APPROVED"))(
+    "hides status=%s from anon, because it derives %s",
+    async (status) => {
+      const rows = await asAnon(
+        (tx) => tx`select slug from species where slug = ${`pub1-${status}`}`,
+      );
+      expect(rows).toHaveLength(0);
+    },
+  );
+
+  it("shows anon only the explicitly published record", async () => {
+    const rows = await asAnon(
+      (tx) => tx`select slug from species where slug like 'pub1-%'`,
+    );
+    expect(rows.map((r) => r.slug)).toEqual(["pub1-published"]);
+  });
+
+  it("hides practitioner_reviewed, which is reviewed but NOT published", async () => {
+    // Requirement: review and publication are separate acts. Treating review as
+    // publication is the exact failure the three-state model exists to prevent,
+    // and it is the plausible mistake - the content IS reviewed.
+    const rows = await asAnon(
+      (tx) =>
+        tx`select slug from species where slug = 'pub1-practitioner_reviewed'`,
+    );
+    expect(rows).toHaveLength(0);
+  });
+
+  it("hides unpublished records from a signed-in user too", async () => {
+    // Requirement: the gate is on publication state, not on authentication.
+    // Being logged in is not a review credential.
+    const rows = await asUser(
+      UID_A,
+      (tx) => tx`select slug from species where slug like 'pub1-%'`,
+    );
+    expect(rows.map((r) => r.slug)).toEqual(["pub1-published"]);
+  });
+
+  it("cannot be bypassed by selecting the status column directly", async () => {
+    // Requirement: the policy filters ROWS, so no projection reveals a hidden
+    // row. A test that only counted rows would miss a policy written as a
+    // column-level grant.
+    const rows = await asAnon(
+      (tx) =>
+        tx`select status, publication_state from species where slug like 'pub1-%'`,
+    );
+    expect(rows).toHaveLength(1);
+    expect(rows[0].publication_state).toBe("PUBLIC_APPROVED");
+  });
+
+  it("stops an anon visitor writing Knowledge at all", async () => {
+    // Requirement: AI never authorizes publication, and neither does the
+    // public. There is no INSERT policy for anon on these tables.
+    const outcome = await attempt(() =>
+      asAnon(
+        (tx) =>
+          tx`insert into species (slug, accepted_name, status) values ('pub1-forged','Forged','published')`,
+      ),
+    );
+    expect(outcome).toBe("rejected");
+  });
+
+  it("stops a signed-in non-admin publishing Knowledge", async () => {
+    // Requirement: publication is an admin act gated on real review. An
+    // ordinary account must not be able to flip status to published.
+    const outcome = await attempt(() =>
+      asUser(
+        UID_A,
+        (tx) =>
+          tx`update species set status = 'published' where slug = 'pub1-ai_draft'`,
+      ),
+    );
+    const [row] =
+      await sql`select status from species where slug = 'pub1-ai_draft'`;
+    expect(row.status).toBe("ai_draft");
+    expect(outcome).toBeDefined();
+  });
+});
+
+maybe()("admin surfaces · plan §16 step 4", () => {
+  /**
+   * Every assertion here seeds a row FIRST, via the privileged connection.
+   *
+   * That is not ceremony. The first version of these tests asserted
+   * `count(*) = 0` against empty tables, so they passed identically whether RLS
+   * was enforced or disabled entirely - a green test proving nothing. A
+   * zero-count assertion is only meaningful when a row exists to be hidden.
+   *
+   * These five tables have RLS enabled and ZERO policies, which is
+   * deny-by-default and exactly what step 4 requires: no anon policy at all,
+   * authenticated denied, privileged and is_admin only.
+   */
+  const ADMIN_TABLES = [
+    "species_research_jobs",
+    "field_sources",
+    "content_versions",
+    "events",
+    "keepalive",
+  ];
+
+  beforeAll(async () => {
+    if (!reachable) return;
+    await sql`insert into field_sources (record_type, record_id, field, value)
+              values ('species', 'rls-probe', 'accepted_name', '"probe"'::jsonb)`;
+    await sql`insert into content_versions (record_type, record_id, version, actor)
+              values ('species', 'rls-probe', 1, 'rls-probe')`;
+    await sql`insert into species_research_jobs (requested_name, trigger)
+              values ('rls-probe', 'founder')`;
+    await sql`insert into events (name) values ('rls_probe_event')`;
+    await sql`insert into keepalive (id) values (99) on conflict (id) do nothing`;
+  });
+
+  it("seeded a row in every table under test, so the assertions are not vacuous", async () => {
+    // Requirement: a zero-count test against an empty table is indistinguishable
+    // from a zero-count test against a broken policy. This guard makes the
+    // difference visible.
+    for (const table of ADMIN_TABLES) {
+      const [row] = await sql`select count(*)::int as n from ${sql(table)}`;
+      expect(row.n, `${table} must hold at least one row`).toBeGreaterThan(0);
+    }
+  });
+
+  it.each(ADMIN_TABLES)(
+    "hides %s from anon entirely, with a row present to hide",
+    async (table) => {
+      // Requirement: plan §16 step 4 - "No anon policy at all; authenticated
+      // denied; privileged + is_admin only." Internal tooling tables must not
+      // be readable by the public layer under any condition.
+      const rows = await asAnon(
+        (tx) => tx`select count(*)::int as n from ${sql(table)}`,
+      );
+      expect(rows[0].n).toBe(0);
+    },
+  );
+
+  it.each(ADMIN_TABLES)(
+    "denies an ordinary authenticated user access to %s",
+    async (table) => {
+      // Requirement: authentication is not authorisation. A signed-in
+      // participant is not an operator.
+      const rows = await asUser(
+        UID_A,
+        (tx) => tx`select count(*)::int as n from ${sql(table)}`,
+      );
+      expect(rows[0].n).toBe(0);
+    },
+  );
+});
+
 maybe()("consent ledger · gate LEDG-1 · plan §16 step 5", () => {
   it("lets a subject insert and read their own consent record", async () => {
     await asUser(UID_A, (tx) =>
