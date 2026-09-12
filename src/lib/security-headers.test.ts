@@ -52,7 +52,26 @@ describe("CSP per surface · gate CSP-1", () => {
     const connect = CSP.split(";")
       .map((d) => d.trim())
       .find((d) => d.startsWith("connect-src"));
-    expect(connect).toBe("connect-src 'self' https://*.supabase.co");
+    expect(connect).toMatch(/^connect-src 'self' \S+$/);
+    // Exactly two sources: self, and Supabase. No third origin.
+    expect(connect?.split(" ")).toHaveLength(3);
+  });
+
+  it("derives the Supabase origin from the environment, not a hard-coded host", () => {
+    // Requirement: local development runs Supabase on a different origin from
+    // `self`. A hard-coded https://*.supabase.co passes in production and
+    // silently blocks local dev the moment the browser client is used - a
+    // failure that would surface in Phase 4 with no obvious cause.
+    const connect =
+      CSP.split(";")
+        .map((d) => d.trim())
+        .find((d) => d.startsWith("connect-src")) ?? "";
+    const configured = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    if (configured) {
+      expect(connect).toContain(new URL(configured).origin);
+    } else {
+      expect(connect).toContain("https://*.supabase.co");
+    }
   });
 
   it.each(["object-src 'none'", "base-uri 'self'", "frame-ancestors 'none'"])(
@@ -91,7 +110,7 @@ describe("deprecated headers stay out", () => {
 });
 
 describe("private surfaces · gate IDX-1", () => {
-  it.each(["authenticated app", "admin", "public journey", "api"])(
+  it.each(["authenticated app", "admin", "public journey", "api", "auth callback"])(
     "marks %s noindex at the header level",
     (name) => {
       // Requirement: robots.txt is a request a crawler may ignore; a header
@@ -100,13 +119,24 @@ describe("private surfaces · gate IDX-1", () => {
     },
   );
 
-  it.each(["authenticated app", "admin", "api"])(
+  it.each(["authenticated app", "admin", "api", "auth callback"])(
     "keeps %s out of shared caches",
     (name) => {
       // Requirement: private data must never be served from a shared cache.
-      expect(surface(name).get("Cache-Control")).toBe("private, no-store");
+      expect(surface(name).get("Cache-Control")).toMatch(/private, no-store/);
     },
   );
+
+  it("never caches or leaks the magic-link exchange", () => {
+    // Requirement: a URL under /auth/ carries a ONE-TIME TOKEN. A cached token
+    // is a replayable session; a referrer-leaked one reaches a third party; an
+    // indexed one gets consumed by a crawler, leaving the real user a dead
+    // link. All three have to be closed, not just indexing.
+    const h = surface("auth callback");
+    expect(h.get("Cache-Control")).toContain("no-store");
+    expect(h.get("Referrer-Policy")).toBe("no-referrer");
+    expect(h.get("X-Robots-Tag")).toBe("noindex, nofollow");
+  });
 
   it("sends no referrer at all from a shared journey", () => {
     // Requirement: a share token in a Referer header would hand a private

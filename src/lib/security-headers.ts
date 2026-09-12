@@ -49,6 +49,33 @@ export type SurfaceHeaders = {
  * Phase 4, when `/{locale}/app/**` first exists; until then no route under it
  * is served, and the stricter static policy below applies.
  */
+/**
+ * The Supabase origin the BROWSER will talk to, taken from the environment.
+ *
+ * Hard-coding `https://*.supabase.co` would be correct in production and wrong
+ * everywhere else: local development runs Supabase at
+ * `http://127.0.0.1:54321`, which is a different origin from `self`
+ * (`localhost:3000`). The browser-side client is unused today, so nothing is
+ * broken right now - but the moment Phase 4 uses it for uploads, CSP would pass
+ * in production and silently block local development, and whoever hit that
+ * would have no reason to suspect a header written months earlier.
+ *
+ * Derived rather than listed, so dev, staging and production are each right
+ * without anyone maintaining a list. Falls back to the wildcard when the
+ * variable is absent (for example during a bare `next build` in CI with no
+ * env), which is the safe direction: a slightly broader connect-src is better
+ * than a build that cannot serve auth.
+ */
+function supabaseConnectOrigin(): string {
+  const raw = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  if (!raw) return "https://*.supabase.co";
+  try {
+    return new URL(raw).origin;
+  } catch {
+    return "https://*.supabase.co";
+  }
+}
+
 const PUBLIC_CSP = [
   "default-src 'self'",
   // See the note above: no nonce is available on a static route.
@@ -58,8 +85,10 @@ const PUBLIC_CSP = [
   // Supabase Storage serves photo derivatives over https.
   "img-src 'self' data: blob: https:",
   "font-src 'self' data:",
-  // Same-origin only: no analytics endpoint, no third-party collector.
-  "connect-src 'self' https://*.supabase.co",
+  // Same origin plus Supabase, and nothing else: no analytics endpoint and no
+  // third-party collector is reachable, which is what makes the privacy
+  // notice's "sent to no analytics provider" enforceable rather than asserted.
+  `connect-src 'self' ${supabaseConnectOrigin()}`,
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
@@ -145,6 +174,27 @@ export const SECURITY_HEADERS: SurfaceHeaders[] = [
       ...BASELINE,
       { key: "X-Robots-Tag", value: "noindex, nofollow" },
       { key: "Cache-Control", value: "private, no-store" },
+    ],
+  },
+  {
+    /**
+     * The magic-link exchange. A URL here carries a ONE-TIME TOKEN in its
+     * query string, so it must never be indexed and never enter any cache -
+     * a cached token is a replayable session, and a crawler following one
+     * consumes it and leaves the real user with a dead link.
+     *
+     * This surface was missing when the headers first landed: robots.txt
+     * disallowed /auth/, but robots.txt is a request a crawler may ignore and
+     * says nothing at all about caching.
+     */
+    source: "/auth/:path*",
+    surface: "auth callback",
+    headers: [
+      ...BASELINE,
+      { key: "X-Robots-Tag", value: "noindex, nofollow" },
+      { key: "Cache-Control", value: "private, no-store, max-age=0" },
+      // No referrer: the token must not travel to any origin the page touches.
+      { key: "Referrer-Policy", value: "no-referrer" },
     ],
   },
   {
