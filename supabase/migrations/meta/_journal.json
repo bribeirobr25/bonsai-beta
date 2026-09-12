@@ -29,6 +29,13 @@
       "when": 1789228840660,
       "tag": "20260912160040_complete_morbius",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789230160381,
+      "tag": "20260912162240_friendly_zeigeist",
+      "breakpoints": true
     }
   ]
 }

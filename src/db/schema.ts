@@ -901,6 +901,34 @@ export const consentEvents = pgTable(
   ],
 ).enableRLS();
 
+/**
+ * Fixed-window rate limiting (plan §24.2, "rate-limit tiers").
+ *
+ * Postgres-backed, not in-memory. On Vercel each request may hit a different
+ * instance, so an in-process counter would reset constantly and limit almost
+ * nothing - the one deployment shape where the easy implementation is also the
+ * useless one. Deliberately NOT Redis: the governance assessment rejected that
+ * as a paid dependency Bonsai does not need at this scale (§4 row 19).
+ *
+ * `bucket` IS A HASH, never a raw identifier. An email address or IP in a
+ * plain column would be personal data sitting in a table whose only purpose is
+ * counting - and the privacy notice commits to keeping IP-bearing records for
+ * at most 14 days. Hashing means the table can be read, dumped or debugged
+ * without exposing who was limited, while still counting them correctly.
+ *
+ * Rows are self-expiring by overwrite: a request in a new window resets the
+ * counter in place. Abandoned buckets are purged by the daily cron
+ * (`/api/keepalive`), so the table cannot grow without bound.
+ */
+export const rateLimits = pgTable("rate_limits", {
+  /** sha256 of `<tier>:<identifier>`. See src/lib/rate-limit.ts. */
+  bucket: text("bucket").primaryKey(),
+  windowStartedAt: timestamp("window_started_at", { withTimezone: true })
+    .notNull()
+    .defaultNow(),
+  hits: integer("hits").notNull().default(0),
+}).enableRLS();
+
 /** Touched daily by /api/keepalive so the free Supabase project is never idle 7 days. */
 export const keepalive = pgTable("keepalive", {
   id: integer("id").primaryKey(),
@@ -914,6 +942,7 @@ export type Moment = typeof moments.$inferSelect;
 export type EventRow = typeof events.$inferSelect;
 export type Photo = typeof photos.$inferSelect;
 export type ConsentEvent = typeof consentEvents.$inferSelect;
+export type RateLimitRow = typeof rateLimits.$inferSelect;
 export type PublicationState = (typeof publicationStateEnum.enumValues)[number];
 export type SessionClass = (typeof sessionClassEnum.enumValues)[number];
 export type Locale = (typeof localeEnum.enumValues)[number];
