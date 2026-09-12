@@ -91,6 +91,11 @@ jobs:
       - name: environment separation (ENV-1)
         run: pnpm check:environments
 
+      # A test importing a server-only module reports "0 test" while the suite
+      # still prints a passing count. That has happened four times here.
+      - name: testability
+        run: pnpm check:testability
+
       # Gate LEG-1: a rendered legal document must not ship with an unfilled
       # placeholder. Blocker B-5 means placeholders legitimately exist during
       # internal build, so this job REPORTS them and fails only on a release
