@@ -40,6 +40,10 @@ const ALLOWED = new Map([
     "Art. 15 export must include the subject's own events, which they have no owner path to read",
   ],
   [
+    "src/lib/rate-limit.ts",
+    "rate limiting must work for ANONYMOUS callers - magic-link sending has no auth.uid(), so rate_limits has RLS on with zero policies and is written only from here",
+  ],
+  [
     "src/app/[locale]/settings/actions.ts",
     "detaching events.user_id on research-consent withdrawal is a data-protection obligation the subject cannot perform themselves",
   ],

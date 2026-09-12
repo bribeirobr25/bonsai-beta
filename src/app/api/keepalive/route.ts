@@ -3,6 +3,7 @@ import { sql } from "drizzle-orm";
 import { db } from "@/db";
 import { keepalive } from "@/db/schema";
 import { env } from "@/lib/env";
+import { purgeExpiredRateLimits } from "@/lib/rate-limit";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 /**
@@ -24,5 +25,24 @@ export async function GET(request: NextRequest) {
     .values({ id: 1, lastPing: now })
     .onConflictDoUpdate({ target: keepalive.id, set: { lastPing: sql`excluded.last_ping` } });
   const { error } = await createAdminClient().from("keepalive").select("id").limit(1);
-  return NextResponse.json({ ok: !error, at: now.toISOString(), api: error ? error.message : "ok" });
+  /**
+   * Piggybacked on the existing daily cron rather than added as a second
+   * scheduled job. rate_limits rows are self-expiring by overwrite, so this
+   * only removes buckets nobody has touched since - without it the table grows
+   * by one row per distinct email and IP, forever. Gate JOB-1 requires every
+   * scheduled job be catalogued in one place; adding work to the one job that
+   * already exists keeps that catalogue honest and short.
+   */
+  let purged = -1;
+  try {
+    purged = await purgeExpiredRateLimits();
+  } catch (e) {
+    console.error("[cron] rate-limit purge failed", e);
+  }
+  return NextResponse.json({
+    ok: !error,
+    at: now.toISOString(),
+    api: error ? error.message : "ok",
+    rateLimitBucketsPurged: purged,
+  });
 }
