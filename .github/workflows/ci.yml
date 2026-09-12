@@ -1,0 +1,137 @@
+name: CI
+
+# Plan §17. Blocking on main and on every pull request, from Phase 1.
+#
+# Jobs are separate rather than one script so a failure names the guarantee that
+# broke, not "tests failed". `rls-integration` needs a database and therefore
+# cannot live inside `unit` - see vitest.rls.config.ts for why that split exists.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  unit:
+    name: typecheck · lint · unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # LFS pointers must resolve: docs/01-canon/ holds the visual package.
+          lfs: true
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: typecheck
+        run: pnpm typecheck
+      - name: lint
+        run: pnpm lint
+      - name: unit tests
+        run: pnpm test
+
+  guardrails:
+    name: service-role · placeholder · processor-parity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # §16: the service role is reachable only from an allowlisted module.
+      # Enforced here rather than by convention.
+      - name: service-role boundary
+        run: pnpm check:service-role
+
+      # Gate LEG-1: a rendered legal document must not ship with an unfilled
+      # placeholder. Blocker B-5 means placeholders legitimately exist during
+      # internal build, so this job REPORTS them and fails only on a release
+      # ref - the gate hard-blocks Gate C, not Phase 1 development.
+      - name: placeholder scan (LEG-1)
+        run: |
+          set +e
+          hits=$(grep -rnE '\[contact address\]|\[Kontaktadresse\]|\[TODO|XXX-PLACEHOLDER' \
+                   src/content messages 2>/dev/null)
+          set -e
+          if [ -n "$hits" ]; then
+            echo "::warning title=LEG-1::rendered legal text still contains placeholders (blocker B-5)"
+            echo "$hits"
+            if [ "${{ github.ref }}" = "refs/heads/release" ]; then
+              echo "::error title=LEG-1::placeholders must not reach a release"
+              exit 1
+            fi
+          else
+            echo "LEG-1: no placeholders found"
+          fi
+
+      # Gate LEG-2: a declared data processor must exist in the dependency
+      # graph, and vice versa. C-21: the privacy notice declared PostHog, which
+      # appears nowhere in the codebase. Founder ruling B-6 removes it from the
+      # notice - this check keeps that true.
+      - name: processor parity (LEG-2)
+        run: |
+          set +e
+          declared=$(grep -rloE 'PostHog|Plausible|Matomo|Google Analytics|Sentry' \
+                       src/content messages 2>/dev/null)
+          set -e
+          if [ -n "$declared" ]; then
+            echo "::error title=LEG-2::a third-party processor is named in user-facing legal text:"
+            echo "$declared"
+            echo "Either it must exist as a dependency, or the declaration must go (B-6)."
+            exit 1
+          fi
+          echo "LEG-2: no undeclared processors named in legal text"
+
+  rls-integration:
+    name: rls-integration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: start local Supabase
+        run: supabase start
+      - name: apply migrations from scratch
+        run: supabase db reset
+      - name: RLS isolation suite
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:54322/postgres
+        # The suite self-skips when no database is reachable, which is right for
+        # a local run and WRONG for CI: a skipped suite reports green while
+        # proving nothing. --passWithNoTests=false makes an empty run a failure,
+        # and the count assertion below catches a suite that skipped itself.
+        run: |
+          pnpm test:rls --passWithNoTests=false --reporter=json --outputFile=/tmp/rls.json
+          node -e '
+            const r = require("/tmp/rls.json");
+            const passed = r.numPassedTests ?? 0;
+            const skipped = r.numPendingTests ?? 0;
+            console.log(`rls-integration: ${passed} passed, ${skipped} skipped`);
+            if (passed < 40) {
+              console.error(`FAIL: expected at least 40 passing RLS tests, got ${passed}.`);
+              console.error("A suite that skips itself is not a suite that passed.");
+              process.exit(1);
+            }
+            if (skipped > 0) {
+              console.error(`FAIL: ${skipped} RLS test(s) skipped in CI.`);
+              process.exit(1);
+            }
+          '
