@@ -206,6 +206,39 @@ export const momentCategoryEnum = pgEnum("moment_category", [
 ]);
 
 /**
+ * How a Moment or action came to exist · **W7 §28.5**.
+ *
+ * These six values ARE canon. When M1 typed `moments.origin` as reserved text
+ * the comment claimed "canon does not yet enumerate" - that was wrong for
+ * origin, and the error is corrected here rather than left in place. W7 §28.5
+ * lists exactly these under `moment_created` properties.
+ *
+ * The distinction that survives, and it matters: W7 gives the VALUES but
+ * defers the RULES. §28.5 says "exact origin classification rules may be
+ * finalized as embedded beta instrumentation rules", and §29 marks the related
+ * return classification "DEFINE ONLY WHEN A SPECIFIC TEST REQUIRES IT". So the
+ * enum is safe to declare; deciding when a given action counts as
+ * `reminder_assisted` rather than `spontaneous` belongs to the evidence
+ * protocol and must not be invented in product code (gate ANA-2).
+ *
+ * `unknown` is the default for that reason. W7 is explicit that the product
+ * "must not infer voluntary merely because a user opened the app", so an
+ * unclassified action is UNKNOWN, never spontaneous.
+ *
+ * Distinct from `users.initial_origin` (W4 first-touch, immutable) and from
+ * `source_slug` (entry attribution). This answers "how did this happen", not
+ * "where did this person come from".
+ */
+export const actionOriginEnum = pgEnum("action_origin", [
+  "spontaneous",
+  "guided_workshop",
+  "reminder_assisted",
+  "researcher_prompted",
+  "instructor_requested",
+  "unknown",
+]);
+
+/**
  * Session classification for evidence exclusion (Gate A OI-50, plan 24.8).
  *
  * This is SESSION/EVENT CONTEXT, never a permanent classification of a person.
@@ -685,12 +718,20 @@ export const moments = pgTable(
      */
     intent: text("intent"),
     /**
-     * RESERVED, same reasoning. Carries how the Moment came to exist so that
-     * assisted activity stays separable from voluntary activity - the W4 L2
-     * discipline that makes the evidence readable. Never overwrites
-     * initial_origin on the user.
+     * CORRECTED. This was `text("origin")` with a comment saying canon did not
+     * enumerate the values. W7 §28.5 does enumerate them - the comment was
+     * wrong, not the canon. See actionOriginEnum.
+     *
+     * Carries how the Moment came to exist so assisted activity stays
+     * separable from voluntary activity, which is the W4 L2 discipline that
+     * makes the evidence readable at all. Never overwrites `initial_origin`
+     * on the user, which is an immutable first-touch envelope.
+     *
+     * Nullable: existing rows predate the field and must not be guessed into a
+     * classification. New writes should set it explicitly, defaulting to
+     * `unknown` rather than inferring `spontaneous`.
      */
-    origin: text("origin"),
+    origin: actionOriginEnum("origin"),
     noteRaw: text("note_raw"),
     noteStructured: jsonb("note_structured").$type<Record<string, unknown>>(),
     source: momentSourceEnum("source").notNull().default("manual"),
@@ -809,9 +850,36 @@ export const events = pgTable(
     name: text("name").notNull(),
     props: jsonb("props").$type<Record<string, unknown>>().notNull().default({}),
     cohort: cohortEnum("cohort"),
+    /**
+     * LEGACY, superseded by `source_slug`. Free text with no format
+     * constraint; `source_slug` carries the W4-mandated
+     * `^[a-z0-9]+(?:[-_][a-z0-9]+)*$` form and is what attribution reads.
+     * Retained because M1 is non-destructive and rows exist; new writes should
+     * populate `source_slug`. Dropped with M1b.
+     */
     source: text("source"),
     locale: localeEnum("locale"),
     sessionId: text("session_id"),
+    /**
+     * KNOWN GAP, recorded not invented (blocker B-24).
+     *
+     * Two values, and W7 §29 specifies FIVE return classifications:
+     * spontaneous_return, reminder_assisted_return, researcher_prompted_return,
+     * instructor_requested_return, unknown_return_source. This column cannot
+     * express them.
+     *
+     * What it actually measures today is narrow and correct for what it is:
+     * "did a researcher contact fall inside the 72-hour window"
+     * (see events-rules.ts isPrompted). So `none` means NOT-RESEARCHER-PROMPTED
+     * - it does NOT mean voluntary, and must never be read that way. W7 is
+     * explicit: "Product/UIUX must not infer 'voluntary' merely because a user
+     * opened the app."
+     *
+     * Widening it to the §29 vocabulary is deliberately NOT done here. §29
+     * marks the classification rules "DEFINE ONLY WHEN A SPECIFIC TEST
+     * REQUIRES IT", so the mapping is the evidence protocol's to set and
+     * inventing it in product code is what gate ANA-2 forbids.
+     */
     prompted: promptedEnum("prompted").notNull().default("none"),
     /**
      * Authoritative session classification (plan 24.8). Defaults to USER so an
@@ -831,6 +899,18 @@ export const events = pgTable(
      * and must be reported as such.
      */
     pseudonymVersion: integer("pseudonym_version").notNull().default(1),
+    /**
+     * Specified in Phase 1 ("add `origin`, `session_class`, `data_quality`,
+     * `pseudonym_version`, `locale` enum") and in the §22.3 T1 envelope, and
+     * MISSED when M1 added the other four. Found by auditing the event
+     * taxonomy against W7 §28.
+     *
+     * Carries the W7 §28.5 vocabulary - how the action came about - which is
+     * the only origin vocabulary canon actually enumerates. Entry attribution
+     * lives in `source_slug` and `users.initial_origin`; conflating the two
+     * under one name is the ambiguity this comment exists to close.
+     */
+    origin: actionOriginEnum("origin"),
     /**
      * W4 attribution. Distinct from `initial_origin` on the user, which is an
      * immutable first-touch envelope and is never overwritten by these.
