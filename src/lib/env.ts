@@ -38,6 +38,26 @@ const schema = z.object({
    * kill a hypothesis.
    */
   SESSION_CLASS_DEFAULT: z.enum(["USER", "INTERNAL", "QA"]).default("USER"),
+  /**
+   * Gate TEL-1 · OI-02 · Model B tier-1 legitimate-interest telemetry.
+   *
+   * The architecture is built; COLLECTION IS NOT SWITCHED ON. Founder ruling
+   * B-12 keeps activation `LEGAL PENDING`, so this flag is the technical
+   * expression of that decision rather than a note in a document.
+   *
+   * IT CANNOT DEFAULT ON. The default is the literal string "false", and
+   * turning it on requires BOTH this variable set to "true" AND a recorded
+   * legal-approval commit in the repository
+   * (docs/07-legal/TELEMETRY-LEGAL-APPROVAL.md). One without the other does
+   * nothing - so a stray environment variable in a dashboard cannot begin
+   * lawful-basis processing, and neither can a document nobody deployed.
+   *
+   * T2 research telemetry is unaffected: it runs on explicit opt-in consent
+   * (`research_consent`), which is a different lawful basis and already live.
+   */
+  TELEMETRY_LEGITIMATE_INTEREST_ENABLED: z
+    .enum(["true", "false"])
+    .default("false"),
   /** Vercel sends `Authorization: Bearer <CRON_SECRET>` to cron routes. */
   CRON_SECRET: z.string().min(16).optional(),
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),

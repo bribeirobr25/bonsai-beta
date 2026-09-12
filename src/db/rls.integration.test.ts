@@ -166,7 +166,7 @@ maybe()("the harness itself · without this, every test below is worthless", () 
   });
 });
 
-maybe()("owner isolation · trees · plan §16 step 2", () => {
+maybe()("owner isolation · trees · gate PRIV-1 · plan §16 step 2", () => {
   it("shows an owner only their own subjects", async () => {
     // Requirement: private by default (Handoff 04_CONTENT_GOVERNANCE).
     const rows = await asUser(UID_A, (tx) =>
@@ -205,7 +205,7 @@ maybe()("owner isolation · trees · plan §16 step 2", () => {
   });
 });
 
-maybe()("owner isolation · moments and photos · plan §16 step 2", () => {
+maybe()("owner isolation · moments and photos · gate PRIV-1 · plan §16 step 2", () => {
   it("scopes moments through the tree the moment belongs to", async () => {
     const mine = await asUser(UID_A, (tx) =>
       tx`select count(*)::int as n from moments`,
@@ -243,7 +243,7 @@ maybe()("owner isolation · moments and photos · plan §16 step 2", () => {
   });
 });
 
-maybe()("the public path · anon sees nothing private", () => {
+maybe()("the public path · gate PRIV-1 · anon sees nothing private", () => {
   it.each(["trees", "moments", "photos", "users", "consent_events"])(
     "returns zero rows from %s for an unauthenticated visitor",
     async (table) => {

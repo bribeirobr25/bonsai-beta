@@ -47,3 +47,22 @@ export function resolveSessionClass(
 ): SessionClassValue {
   return explicit ?? userDefault ?? deploymentDefault;
 }
+
+/**
+ * Whether an event about a signed-in person may be recorded at all.
+ *
+ * This is the mechanism behind a sentence in the privacy notice: "Without the
+ * optional research consent no usage events about you are stored; the site
+ * works unchanged." Gate COPY-1 requires that claim to have a test, and a test
+ * cannot reach inside the `server-only` emitter - so the decision lives here,
+ * pure, and the emitter calls it.
+ *
+ * Checked at WRITE TIME against the current value, not at sign-up. Withdrawal
+ * takes effect on the next event rather than at the next deploy, which is what
+ * Art. 7(3) "as easy to withdraw as to give" means in practice.
+ */
+export function mayRecordEventFor(user: {
+  researchConsent: boolean;
+}): boolean {
+  return user.researchConsent === true;
+}

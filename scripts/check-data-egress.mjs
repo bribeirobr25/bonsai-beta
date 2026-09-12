@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 /**
- * Gate DEV-1 · plan §24.5 item 1 · the data-egress rule.
+ * Gates DEV-1 and PRIV-5 · plan §24.5 item 1 · the data-egress rule.
+ *
+ * PRIV-5 ("precise user location stored, logged or transmitted") is the same
+ * check from the privacy register's side: the GPS patterns below are what make
+ * it enforceable rather than aspirational.
  *
  * Corrected by Founder ruling: raw image bytes MAY transit over TLS to the
  * trusted first-party upload/normalization endpoint. The rule governs

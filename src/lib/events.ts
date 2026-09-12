@@ -26,11 +26,12 @@ import {
 import { env } from "@/lib/env";
 import {
   isPrompted,
+  mayRecordEventFor,
   PROMPT_WINDOW_HOURS,
   resolveSessionClass,
 } from "./events-rules";
 
-export { isPrompted, PROMPT_WINDOW_HOURS, resolveSessionClass };
+export { isPrompted, mayRecordEventFor, PROMPT_WINDOW_HOURS, resolveSessionClass };
 
 /** Part 7 taxonomy, W6-SANDBOX-PLAN-v0.4. */
 export type EventName =
@@ -117,7 +118,8 @@ type TrackInput = {
 export async function track(input: TrackInput): Promise<void> {
   try {
     if (input.user) {
-      if (!input.user.researchConsent) return;
+      // The privacy notice's promise, in one line. See mayRecordEventFor.
+      if (!mayRecordEventFor(input.user)) return;
       const since = new Date(Date.now() - PROMPT_WINDOW_HOURS * 3_600_000);
       const contacts = await db
         .select({ at: researcherContacts.at })

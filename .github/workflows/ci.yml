@@ -67,6 +67,30 @@ jobs:
       - name: scheduled-jobs catalogue (JOB-1)
         run: pnpm check:scheduled-jobs
 
+      # Gate COPY-2: a prohibited W3 claim string must not ship. These are
+      # causal horticultural and wellbeing claims at an UNVALIDATED evidence
+      # level - not a tone problem.
+      - name: prohibited claims (COPY-2)
+        run: pnpm check:copy-claims
+
+      # Gates ANA-1, ANA-2, TEL-1: no free text, filename, image bytes or
+      # location in an analytics property; no evidence-protocol threshold
+      # compiled into the product; the telemetry activation gate exists and
+      # defaults off.
+      - name: analytics contract (ANA-1, ANA-2, TEL-1)
+        run: pnpm check:analytics
+
+      # Gate COPY-1: every privacy claim in shipped copy must cite a test that
+      # proves it, or be listed with a stated reason it is not yet proven. An
+      # UNLISTED claim fails - that is the state meaning somebody added a
+      # promise and nobody decided whether anything backs it.
+      - name: privacy claims (COPY-1)
+        run: pnpm check:privacy-claims
+
+      # Gate ENV-1: no CI job or example env may point at a remote project.
+      - name: environment separation (ENV-1)
+        run: pnpm check:environments
+
       # Gate LEG-1: a rendered legal document must not ship with an unfilled
       # placeholder. Blocker B-5 means placeholders legitimately exist during
       # internal build, so this job REPORTS them and fails only on a release
