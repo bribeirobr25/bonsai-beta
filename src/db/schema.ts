@@ -281,6 +281,24 @@ export const users = pgTable(
       using: sql`${t.id} = auth.uid()`,
       withCheck: sql`${t.id} = auth.uid()`,
     }),
+    /**
+     * Added so first-time consent can run on the OWNER path rather than
+     * needing the privileged connection.
+     *
+     * Without it the users row could only be created by a service-role write,
+     * which would have meant the very first thing a new account does bypasses
+     * RLS entirely - and would have quietly widened the service-role surface
+     * that §16 restricts to migration, seed, cron and admin.
+     *
+     * The WITH CHECK is what makes it safe: a caller can only create the row
+     * whose id equals their own auth.uid(), so no account can register a
+     * profile for anybody else.
+     */
+    pgPolicy("users_insert_own", {
+      for: "insert",
+      to: authenticatedRole,
+      withCheck: sql`${t.id} = auth.uid()`,
+    }),
   ],
 ).enableRLS();
 
@@ -371,10 +389,17 @@ export const species = pgTable(
   (t) => [
     uniqueIndex("species_slug_key").on(t.slug),
     index("species_accepted_name_idx").on(t.acceptedName),
+    // Plan §16 step 3: the public read gates on publication_state, which is
+    // "the only column a public read may reference". It previously gated on
+    // `status = 'published'` - equivalent TODAY, and a trap tomorrow: adding a
+    // content_status value would silently change what is public unless someone
+    // remembered to edit three policies. Gating on the derived column means the
+    // status -> visibility mapping lives in exactly one place, the generated
+    // expression, which no code path can write to.
     pgPolicy("species_public_read", {
       for: "select",
       to: [anonRole, authenticatedRole],
-      using: sql`${t.status} = 'published'`,
+      using: sql`${t.publicationState} = 'PUBLIC_APPROVED'`,
     }),
   ],
 ).enableRLS();
@@ -433,10 +458,17 @@ export const techniques = pgTable(
     createdAt: createdAt(),
   },
   (t) => [
+    // Plan §16 step 3: the public read gates on publication_state, which is
+    // "the only column a public read may reference". It previously gated on
+    // `status = 'published'` - equivalent TODAY, and a trap tomorrow: adding a
+    // content_status value would silently change what is public unless someone
+    // remembered to edit three policies. Gating on the derived column means the
+    // status -> visibility mapping lives in exactly one place, the generated
+    // expression, which no code path can write to.
     pgPolicy("techniques_public_read", {
       for: "select",
       to: [anonRole, authenticatedRole],
-      using: sql`${t.status} = 'published'`,
+      using: sql`${t.publicationState} = 'PUBLIC_APPROVED'`,
     }),
   ],
 ).enableRLS();
@@ -494,10 +526,17 @@ export const speciesTechniques = pgTable(
       t.techniqueKey,
       t.locale,
     ),
+    // Plan §16 step 3: the public read gates on publication_state, which is
+    // "the only column a public read may reference". It previously gated on
+    // `status = 'published'` - equivalent TODAY, and a trap tomorrow: adding a
+    // content_status value would silently change what is public unless someone
+    // remembered to edit three policies. Gating on the derived column means the
+    // status -> visibility mapping lives in exactly one place, the generated
+    // expression, which no code path can write to.
     pgPolicy("species_techniques_public_read", {
       for: "select",
       to: [anonRole, authenticatedRole],
-      using: sql`${t.status} = 'published'`,
+      using: sql`${t.publicationState} = 'PUBLIC_APPROVED'`,
     }),
   ],
 ).enableRLS();
