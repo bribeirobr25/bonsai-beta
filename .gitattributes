@@ -24,13 +24,25 @@
 *.woff  filter=lfs diff=lfs merge=lfs -text
 *.woff2 filter=lfs diff=lfs merge=lfs -text
 
-# --- Line-ending and diff hygiene for text the project does own ---
-*.md    text eol=lf
-*.ts    text eol=lf
-*.tsx   text eol=lf
-*.json  text eol=lf
-*.css   text eol=lf
-*.sql   text eol=lf
-*.csv   text eol=lf
-*.yml   text eol=lf
-*.yaml  text eol=lf
+# --- Line-ending hygiene for text the project itself owns ---
+# Deliberately scoped to source, NOT applied repository-wide. See the canon
+# exemption below for why a blanket *.csv / *.md rule is unsafe here.
+src/**          text eol=lf
+messages/*.json text eol=lf
+supabase/**     text eol=lf
+*.ts            text eol=lf
+*.tsx           text eol=lf
+*.css           text eol=lf
+*.sql           text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+
+# --- Canon and archive: byte-exact, never normalized ---
+# These trees are verified against sender SHA-256 manifests. Line-ending
+# normalization would rewrite bytes and permanently break that verification --
+# six W2/W3/W4 evidence CSVs genuinely contain CRLF and are listed in
+# 05-workstreams/W2-.../SHA256SUMS.txt and its siblings. `-text` disables
+# all eol conversion so `shasum -a 256 -c` keeps passing for the life of the
+# repository. Integrity of received authority outranks diff tidiness.
+docs/01-canon/**    -text
+docs/99-archive/**  -text
