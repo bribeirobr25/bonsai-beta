@@ -54,6 +54,19 @@ jobs:
       - name: service-role boundary
         run: pnpm check:service-role
 
+      # Gate DEV-1: a prohibited field must not appear in a log, an event
+      # property map, a Storage key or a request body. Static, and honest about
+      # it - the runtime half is exif_retained, the metadata-stripping re-encode
+      # and the RLS suite.
+      - name: data-egress rule (DEV-1)
+        run: pnpm check:data-egress
+
+      # Gate JOB-1: code and the jobs catalogue must agree, in both directions.
+      # A catalogue row with no cron is the dangerous half - it reads as
+      # coverage while nothing runs.
+      - name: scheduled-jobs catalogue (JOB-1)
+        run: pnpm check:scheduled-jobs
+
       # Gate LEG-1: a rendered legal document must not ship with an unfilled
       # placeholder. Blocker B-5 means placeholders legitimately exist during
       # internal build, so this job REPORTS them and fails only on a release

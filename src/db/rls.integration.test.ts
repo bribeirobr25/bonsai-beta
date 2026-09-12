@@ -18,7 +18,7 @@
  * reason the rest can be believed.
  */
 import postgres from "postgres";
-import { afterAll, beforeAll, describe, expect, it } from "vitest";
+import { afterAll, beforeAll, beforeEach, describe, expect, it } from "vitest";
 
 const DB_URL =
   process.env.DATABASE_URL ??
@@ -279,10 +279,34 @@ maybe()("Knowledge public reads · gate PUB-1 · plan §16 step 3", () => {
 
   beforeAll(async () => {
     if (!reachable) return;
+    await sql`delete from field_sources where record_id in (select id::text from species where slug like 'pub1-%')`;
     await sql`delete from species where slug like 'pub1-%'`;
+    /**
+     * The `published` fixture is created THE LEGITIMATE WAY - draft, then
+     * sources, then reviewer, then publish - because gate PROV-1 now makes
+     * that the only way a published row can exist.
+     *
+     * This fixture originally inserted `status = 'published'` directly. Adding
+     * the PROV-1 trigger made that insert fail, which took the whole PUB-1
+     * block down as 12 skipped tests rather than as a visible failure. The
+     * trigger was right and the fixture was wrong: a test that creates a state
+     * production cannot produce is testing something that cannot happen.
+     */
+    const REVIEWER = "33333333-3333-4333-8333-333333333333";
     for (const [status] of STATES) {
-      await sql`insert into species (slug, accepted_name, status)
-                values (${`pub1-${status}`}, ${`Probe ${status}`}, ${status}::content_status)`;
+      const slug = `pub1-${status}`;
+      if (status === "published") {
+        await sql`insert into species (slug, accepted_name, status)
+                  values (${slug}, ${`Probe ${status}`}, 'ai_draft')`;
+        await sql`insert into field_sources (record_type, record_id, field, value, source_url)
+                  select 'species', id::text, 'accepted_name', '"probe"'::jsonb, 'https://example.test/s'
+                  from species where slug = ${slug}`;
+        await sql`update species set status='published', reviewed_by=${REVIEWER}, reviewed_at=now()
+                  where slug = ${slug}`;
+      } else {
+        await sql`insert into species (slug, accepted_name, status)
+                  values (${slug}, ${`Probe ${status}`}, ${status}::content_status)`;
+      }
     }
   });
 
@@ -362,6 +386,101 @@ maybe()("Knowledge public reads · gate PUB-1 · plan §16 step 3", () => {
       await sql`select status from species where slug = 'pub1-ai_draft'`;
     expect(row.status).toBe("ai_draft");
     expect(outcome).toBeDefined();
+  });
+});
+
+maybe()("publication provenance · gate PROV-1 · ruling OI-49", () => {
+  /**
+   * "A published Knowledge field without provenance is a BUG, not a cosmetic
+   * gap", and "reviewed_at must never be refreshed without an actual review
+   * event." Until the trigger landed, both lived in prose while the registry
+   * row claimed coverage.
+   *
+   * Re-stamping a review date is one UPDATE away during a bulk edit, and it
+   * would silently convert unreviewed AI-generated horticultural advice into
+   * apparently-current reviewed guidance. That is the highest-consequence
+   * failure available in this product, which is why it is enforced in the
+   * database rather than in an admin UI.
+   */
+  const REVIEWER = "33333333-3333-4333-8333-333333333333";
+
+  beforeEach(async () => {
+    if (!reachable) return;
+    await sql`delete from field_sources where record_id in (select id::text from species where slug like 'prov1-%')`;
+    await sql`delete from species where slug like 'prov1-%'`;
+  });
+
+  it("refuses to publish without a reviewer", async () => {
+    const outcome = await attempt(
+      () =>
+        sql`insert into species (slug, accepted_name, status) values ('prov1-a','A','published')`,
+    );
+    expect(outcome).toBe("rejected");
+  });
+
+  it("refuses to publish with a reviewer but no provenance", async () => {
+    // Requirement: a reviewer's name is not provenance. Sources are.
+    const outcome = await attempt(
+      () =>
+        sql`insert into species (slug, accepted_name, status, reviewed_by, reviewed_at)
+            values ('prov1-b','B','published',${REVIEWER}, now())`,
+    );
+    expect(outcome).toBe("rejected");
+  });
+
+  it("refuses a post-dated review even on an internal draft", async () => {
+    // Requirement: a future reviewed_at is never legitimate, published or not.
+    // Allowing it on drafts would leave the forward-dated row waiting to look
+    // fresh the moment somebody publishes it.
+    const outcome = await attempt(
+      () =>
+        sql`insert into species (slug, accepted_name, status, reviewed_by, reviewed_at)
+            values ('prov1-c','C','ai_draft',${REVIEWER}, now() + interval '1 day')`,
+    );
+    expect(outcome).toBe("rejected");
+  });
+
+  it("allows the legitimate path: sources, then reviewer, then publish", async () => {
+    await sql`insert into species (slug, accepted_name, status) values ('prov1-ok','OK','ai_draft')`;
+    await sql`insert into field_sources (record_type, record_id, field, value, source_url)
+              select 'species', id::text, 'accepted_name', '"OK"'::jsonb, 'https://example.test/s'
+              from species where slug = 'prov1-ok'`;
+    await sql`update species set status='published', reviewed_by=${REVIEWER}, reviewed_at=now()
+              where slug='prov1-ok'`;
+    const [row] =
+      await sql`select status, publication_state from species where slug='prov1-ok'`;
+    expect(row.status).toBe("published");
+    expect(row.publication_state).toBe("PUBLIC_APPROVED");
+  });
+
+  it("refuses to re-stamp reviewed_at forward on a published row", async () => {
+    await sql`insert into species (slug, accepted_name, status) values ('prov1-fresh','F','ai_draft')`;
+    await sql`insert into field_sources (record_type, record_id, field, value, source_url)
+              select 'species', id::text, 'accepted_name', '"F"'::jsonb, 'https://example.test/s'
+              from species where slug = 'prov1-fresh'`;
+    await sql`update species set status='published', reviewed_by=${REVIEWER}, reviewed_at=now()
+              where slug='prov1-fresh'`;
+    const outcome = await attempt(
+      () =>
+        sql`update species set reviewed_at = now() + interval '30 days' where slug='prov1-fresh'`,
+    );
+    expect(outcome).toBe("rejected");
+  });
+
+  it("refuses further writes to a published row whose provenance was deleted", async () => {
+    // Requirement: provenance is a standing condition of being published, not
+    // a one-time check at publication.
+    await sql`insert into species (slug, accepted_name, status) values ('prov1-gone','G','ai_draft')`;
+    await sql`insert into field_sources (record_type, record_id, field, value, source_url)
+              select 'species', id::text, 'accepted_name', '"G"'::jsonb, 'https://example.test/s'
+              from species where slug = 'prov1-gone'`;
+    await sql`update species set status='published', reviewed_by=${REVIEWER}, reviewed_at=now()
+              where slug='prov1-gone'`;
+    await sql`delete from field_sources where record_id in (select id::text from species where slug='prov1-gone')`;
+    const outcome = await attempt(
+      () => sql`update species set accepted_name='edited' where slug='prov1-gone'`,
+    );
+    expect(outcome).toBe("rejected");
   });
 });
 
