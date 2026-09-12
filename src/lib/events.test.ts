@@ -45,9 +45,11 @@ describe("session classification · OI-50, gates ANA-3 and ANA-6", () => {
     expect(resolveSessionClass(undefined, null, "USER")).toBe("USER");
   });
 
-  it("honours a staging deployment marking itself INTERNAL", () => {
-    // Requirement: plan §24.8 - Staging is set to INTERNAL so its traffic can
-    // never be mistaken for evidence. Production leaves it unset and gets USER.
+  it("honours a deployment that marks itself INTERNAL", () => {
+    // Requirement: plan §24.8. There is no staging environment (ADR-011), so
+    // this is the fallback rather than the main path - but the resolution order
+    // must still respect a deployment-level default when one is set, or a
+    // future non-production deployment would silently emit USER.
     expect(resolveSessionClass(undefined, null, "INTERNAL")).toBe("INTERNAL");
     expect(resolveSessionClass(undefined, undefined, "QA")).toBe("QA");
   });

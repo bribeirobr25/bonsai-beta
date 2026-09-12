@@ -86,9 +86,15 @@ feature never upgrades a hypothesis.
   preserve individual commits — **squash-merge is prohibited**.
 - **Migrations:** `pnpm db:generate` writes into `supabase/migrations`; apply
   with the Supabase CLI, **never** with `drizzle-kit migrate`.
-- **Environments:** local Supabase for development and CI · separate remote
-  **Staging** · separate remote **Production**. Production data is not the
-  routine QA substrate.
+- **Environments:** local Supabase for development and CI, and one remote
+  **Production** project. **There is no staging.** Production data is not the
+  routine QA substrate — and with no rehearsal environment, two things follow.
+  Every data-transforming migration must carry a guard that names what is wrong
+  and refuses (see `M1`'s photos.tree_id backfill and the `action_origin` cast).
+  And a QA pass or support reproduction in production must set `sessionClass`
+  explicitly, because with no staging `session_class` is the **primary**
+  evidence-exclusion mechanism, not a residual one — an unclassified event
+  counts as `USER` and inflates the evidence.
 - **Binaries** go through Git LFS — see `.gitattributes`. `docs/01-canon/**` and
   `docs/99-archive/**` are `-text`: they are verified against sender SHA-256
   manifests and must stay byte-exact.

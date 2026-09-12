@@ -30,12 +30,16 @@ const schema = z.object({
   /**
    * Default session classification for this deployment (OI-50, plan §24.8).
    *
-   * Staging is set to INTERNAL so its traffic can never be mistaken for
-   * evidence. Production leaves this unset and therefore defaults to USER,
-   * because the common case in production IS a real user - and an
-   * unclassified event must count as evidence rather than be silently
-   * excluded, which is the safe direction for a metric that decides whether to
-   * kill a hypothesis.
+   * There is no staging environment (Founder ruling; ADR-011), so this is NOT
+   * the "mark the non-production deployment INTERNAL" switch it was originally
+   * written to be. Production leaves it unset and defaults to USER, because
+   * the common case in production IS a real user, and an unclassified event
+   * must count as evidence rather than be silently excluded - the safe
+   * direction for a metric that decides whether to kill a hypothesis.
+   *
+   * With no staging, internal and QA activity happens IN PRODUCTION, so
+   * per-event `sessionClass` is the primary exclusion mechanism and this
+   * deployment default is the fallback. A QA pass must classify itself.
    */
   SESSION_CLASS_DEFAULT: z.enum(["USER", "INTERNAL", "QA"]).default("USER"),
   /**

@@ -3,15 +3,15 @@
  * Gate ENV-1 · "a migration or seed running against Production as the routine
  * QA/staging substrate; a CI job pointing at a remote project".
  *
- * Plan §24.8 replaced assumption A-6 with local / Staging / Production
- * separation, and stated the rule plainly: Production data must not be the
- * routine QA substrate. This check enforces the half that is mechanically
- * checkable - that no CI job and no committed config aims a migration, a
- * reset or a seed at a remote database.
+ * Plan §24.8, as corrected by the Founder the same day: **local and Production
+ * only, no staging**. Production data must not be the routine QA substrate.
+ * This check enforces the half that is mechanically checkable - that no CI job
+ * and no committed config holds credentials for a remote database.
  *
  * What it CANNOT check, stated rather than implied: whether a human runs
  * `supabase db push` against Production from a laptop. That is why the rule
- * also lives in AGENTS.md, and why migrations rehearse on Staging first.
+ * also lives in AGENTS.md - and why, with no staging to rehearse on, every
+ * data-transforming migration has to carry its own guard instead.
  */
 import { readFile, readdir } from "node:fs/promises";
 import { join, relative } from "node:path";
@@ -81,11 +81,11 @@ for (const name of [".env.example", ".env.local.example"]) {
 const agents = (await readFile(join(ROOT, "AGENTS.md"), "utf8").catch(() => ""))
   .replace(/\s+/g, " ");
 if (
-  !/Staging/.test(agents) ||
+  !/no staging/i.test(agents) ||
   !/Production\s+(data\s+)?is not the routine QA substrate/i.test(agents)
 ) {
   problems.push(
-    "AGENTS.md does not state the local/Staging/Production rule; the part of ENV-1 that only a human can honour must at least be written where they will read it",
+    "AGENTS.md does not state the local + Production rule (and that there is no staging); the part of ENV-1 that only a human can honour must at least be written where they will read it",
   );
 }
 
@@ -93,7 +93,7 @@ if (problems.length) {
   console.error("\nENV-1 FAILED · environment separation\n");
   for (const p of problems) console.error(`  ${p}`);
   console.error(
-    "\nLocal Supabase for development and CI. Staging for rehearsal. Production is\nnot the routine QA substrate (plan §24.8).\n",
+    "\nLocal Supabase for development and CI. One remote Production project, no\nstaging. Production is not the routine QA substrate, and with no rehearsal\nenvironment every data-transforming migration must carry a guard (plan §24.8).\n",
   );
   process.exit(1);
 }
