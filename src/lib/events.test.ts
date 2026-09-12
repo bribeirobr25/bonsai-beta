@@ -4,6 +4,7 @@ import {
   mayRecordEventFor,
   resolveSessionClass,
 } from "./events-rules";
+import { EVENT_NAMES, RETIRED_EVENT_NAMES } from "./event-names";
 
 describe("isPrompted (72 h researcher window)", () => {
   const now = new Date("2026-10-01T12:00:00Z");
@@ -75,5 +76,66 @@ describe("research consent gates every event · gate COPY-1", () => {
       ).toBe(false);
     }
     expect(mayRecordEventFor({ researchConsent: true })).toBe(true);
+  });
+});
+
+describe("event taxonomy · reconciled to W7 §28", () => {
+  it("retires every old name and maps it to a live one", () => {
+    // Requirement: `events.name` is text, so a stale name would write silently
+    // rather than fail. The map exists so a removal is traceable and, if rows
+    // ever carry an old name, so the migration target is written down.
+    for (const [old, replacement] of Object.entries(RETIRED_EVENT_NAMES)) {
+      expect(EVENT_NAMES, `${old} maps to a name that no longer exists`).toContain(
+        replacement,
+      );
+      expect(EVENT_NAMES, `${old} was retired but is still live`).not.toContain(
+        old,
+      );
+    }
+  });
+
+  it("covers the distinctions W7 §28 requires, not just similar names", () => {
+    /**
+     * Requirement: W7 says the strings are "functional working names" and may
+     * change, so matching names proves little. What is binding is that the
+     * product can tell these apart. Each pair below is a distinction W7 states
+     * explicitly and the old W6 taxonomy could not express.
+     */
+    // §28.2 — activation is separable from repeat capture
+    expect(EVENT_NAMES).toContain("tree_created");
+    expect(EVENT_NAMES).toContain("moment_created");
+    // §28.5 — attempt, success and failure are three different facts
+    expect(EVENT_NAMES).toContain("moment_create_started");
+    expect(EVENT_NAMES).toContain("moment_create_failed");
+    // §28.3 — partial failure is not the same as completion
+    expect(EVENT_NAMES).toContain("history_import_completed");
+    expect(EVENT_NAMES).toContain("history_import_partial_failure");
+    // §28.6 — "Do not treat Add Tree CTA impression as expansion"
+    expect(EVENT_NAMES).toContain("second_tree_started");
+    expect(EVENT_NAMES).toContain("second_tree_created");
+    // §28.8 — object travel: publishing, viewing and recipient activation
+    expect(EVENT_NAMES).toContain("share_published");
+    expect(EVENT_NAMES).toContain("recipient_tree_created");
+  });
+
+  it("keeps the operational events W7 has no reason to specify", () => {
+    // Requirement: a data subject exercising Art. 15 or Art. 17 is not a
+    // product flow W7 has an opinion about, and it must still be instrumented.
+    // Deleting these to match a product spec would lose real instrumentation.
+    for (const name of [
+      "export_requested",
+      "account_deleted",
+      "research_job",
+      "field_published",
+      "instrument_error",
+    ]) {
+      expect(EVENT_NAMES).toContain(name);
+    }
+  });
+
+  it("has no duplicate names", () => {
+    // Requirement: a duplicated union member is invisible in TypeScript and
+    // would make the count assertions above pass while hiding a paste error.
+    expect(new Set(EVENT_NAMES).size).toBe(EVENT_NAMES.length);
   });
 });

@@ -33,37 +33,13 @@ import {
 
 export { isPrompted, mayRecordEventFor, PROMPT_WINDOW_HOURS, resolveSessionClass };
 
-/** Part 7 taxonomy, W6-SANDBOX-PLAN-v0.4. */
-export type EventName =
-  | "landing_view"
-  | "cta_click"
-  | "signup_started"
-  | "signup_completed"
-  | "tree_started"
-  | "species_lookup"
-  | "tree_created"
-  | "import_started"
-  | "import_completed"
-  | "journey_viewed"
-  | "moment_opened"
-  | "progress_viewed"
-  | "moment_added"
-  | "return_session"
-  | "second_tree_created"
-  | "share_created"
-  | "public_journey_view"
-  | "share_to_tree_start"
-  | "species_view"
-  | "technique_view"
-  | "explore_to_tree_start"
-  | "export_requested"
-  | "account_deleted"
-  | "workshop_signup"
-  | "workshop_tree_created"
-  | "research_job"
-  | "field_published"
-  | "researcher_contact"
-  | "instrument_error";
+import {
+  EVENT_NAMES,
+  type EventName,
+  RETIRED_EVENT_NAMES,
+} from "./event-names";
+
+export { EVENT_NAMES, type EventName, RETIRED_EVENT_NAMES };
 
 export function pseudonymFor(userId: string) {
   return createHash("sha256")
