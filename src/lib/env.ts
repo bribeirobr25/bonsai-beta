@@ -29,5 +29,29 @@ export function env() {
   return cached;
 }
 
-export const CONSENT_VERSION = "0.3";
-export const SITE_NAME = "Bar-Bonsai";
+/**
+ * Bumped 0.3 -> 0.4 on 12 September 2026.
+ *
+ * The rule in AGENTS.md is that this tracks the consent copy verbatim, so a
+ * change to src/content/privacy.{de,en}.md must bump it. Two changes forced
+ * this one: Founder ruling B-6 removed the PostHog declaration (it named an
+ * Art. 28 processor that exists nowhere in the codebase - conflict C-21), and
+ * the identity strings moved from Bar-Bonsai to Bonsai.
+ *
+ * Not cosmetic. Anyone who consented under 0.3 agreed to a notice that named a
+ * processor we never used; they are re-asked at next sign-in, and the ledger
+ * (consent_events) records which version and which exact wording each person
+ * saw. The in-force record is docs/07-legal/CONTENT-CONSENT-v0.4.md.
+ *
+ * B-5 is still open: the controller contact and §5 DDG details remain
+ * placeholders, and gate LEG-1 must block a public release while they do.
+ */
+export const CONSENT_VERSION = "0.4";
+/**
+ * The product name lives HERE and in the message catalogues, never inlined.
+ *
+ * Plan §2.7: `Bonsai` is the Functional Beta public identity, not a ratified
+ * trademark; final naming is DEFERRED PENDING VALIDATION. So a rename has to
+ * stay cheap, which means exactly one constant and one catalogue entry.
+ */
+export const SITE_NAME = "Bonsai";

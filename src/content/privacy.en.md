@@ -1,8 +1,8 @@
 
 ### 1. Controller
-Bar-Bonsai (research project), Berlin, Germany. Email: [contact address]. No data-protection officer is appointed because the statutory thresholds are not met.
+Bonsai (research project), Berlin, Germany. Email: [contact address]. No data-protection officer is appointed because the statutory thresholds are not met.
 
-### 2. What Bar-Bonsai is
+### 2. What Bonsai is
 A non-commercial research project in its validation phase. There is no charge and no advertising. The site exists to test whether a tree record of this kind is useful to people who keep bonsai.
 
 ### 3. What we process and why
@@ -19,7 +19,9 @@ A non-commercial research project in its validation phase. There is no charge an
 Without the optional research consent no usage events about you are stored; the site works unchanged.
 
 ### 4. Recipients and processors
-Processors under Art. 28 GDPR: **Supabase** (database, sign-in, photo storage), Frankfurt region, EU; **Vercel** (hosting), execution region Frankfurt, company seat in the USA, transfers under standard contractual clauses and the EU-US Data Privacy Framework where applicable; **PostHog** (usage statistics), EU cloud, only with research consent, cookieless; **Resend** (delivery of the sign-in link), USA, receiving only your email address, under standard contractual clauses.
+Processors under Art. 28 GDPR: **Supabase** (database, sign-in, photo storage), Frankfurt region, EU; **Vercel** (hosting), execution region Frankfurt, company seat in the USA, transfers under standard contractual clauses and the EU-US Data Privacy Framework where applicable; **Resend** (delivery of the sign-in link), USA, receiving only your email address, under standard contractual clauses.
+
+Usage statistics are first-party: events are stored in our own database in the EU and are not sent to any analytics provider.
 
 Date and category suggestions for a note are produced on our server by fixed rules; no external AI service is used for them.
 
@@ -42,5 +44,5 @@ A share link lets anyone holding it read your record. You can revoke it at any t
 ### 9. Changes
 This notice carries a version number. On material changes we ask you to acknowledge it again at your next sign-in and, where affected, to consent again.
 
-Last updated: 7 September 2026 · Version 0.3
+Last updated: 12 September 2026 · Version 0.4
 

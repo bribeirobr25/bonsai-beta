@@ -1,9 +1,9 @@
 
 ### 1. Verantwortlicher
-Bar-Bonsai (Forschungsprojekt), Berlin, Deutschland. E-Mail: [Kontaktadresse]. Es ist kein Datenschutzbeauftragter benannt, weil die gesetzlichen Schwellen nicht erreicht werden.
+Bonsai (Forschungsprojekt), Berlin, Deutschland. E-Mail: [Kontaktadresse]. Es ist kein Datenschutzbeauftragter benannt, weil die gesetzlichen Schwellen nicht erreicht werden.
 
-### 2. Was Bar-Bonsai ist
-Bar-Bonsai ist ein nicht kommerzielles Forschungsprojekt in der Validierungsphase. Es gibt kein Entgelt und keine Werbung. Die Seite wird betrieben, um zu prüfen, ob ein Baumeintrag dieser Art für Menschen nützlich ist, die Bonsai pflegen.
+### 2. Was Bonsai ist
+Bonsai ist ein nicht kommerzielles Forschungsprojekt in der Validierungsphase. Es gibt kein Entgelt und keine Werbung. Die Seite wird betrieben, um zu prüfen, ob ein Baumeintrag dieser Art für Menschen nützlich ist, die Bonsai pflegen.
 
 ### 3. Welche Daten wir verarbeiten und wozu
 
@@ -22,8 +22,9 @@ Ohne die freiwillige Einwilligung zur Forschung werden keine Nutzungsereignisse 
 Wir setzen folgende Dienstleister nach Art. 28 DSGVO ein:
 - **Supabase** (Datenbank, Anmeldung, Fotospeicher), Region Frankfurt am Main, EU.
 - **Vercel** (Hosting), Ausführungsregion Frankfurt am Main; Unternehmenssitz USA, Übermittlung auf Grundlage von Standardvertragsklauseln und des EU-US Data Privacy Framework, soweit anwendbar.
-- **PostHog** (Nutzungsstatistik), EU-Cloud, nur bei erteilter Forschungseinwilligung, ohne Cookies.
 - **Resend** (Versand des Anmeldelinks), USA; übermittelt wird nur deine E-Mail-Adresse; Übermittlung auf Grundlage von Standardvertragsklauseln.
+
+Nutzungsstatistiken sind First-Party: Ereignisse werden in unserer eigenen Datenbank in der EU gespeichert und an keinen Analyse-Anbieter übermittelt.
 
 Vorschläge zu Datum und Kategorie einer Notiz werden auf unserem Server nach festen Regeln erzeugt; es wird dafür kein externer KI-Dienst eingesetzt.
 
@@ -46,5 +47,5 @@ Wenn du einen Freigabelink erstellst, kann jede Person mit dem Link deinen Eintr
 ### 9. Änderungen
 Diese Hinweise tragen eine Versionsnummer. Bei wesentlichen Änderungen bitten wir dich bei der nächsten Anmeldung erneut um Kenntnisnahme und, soweit betroffen, um Einwilligung.
 
-Stand: 7. September 2026 · Version 0.3
+Stand: 12. September 2026 · Version 0.4
 

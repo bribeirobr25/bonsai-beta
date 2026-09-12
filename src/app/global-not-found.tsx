@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import { SITE_NAME } from "@/lib/env";
 
 const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Seite nicht gefunden · Page not found · Bar-Bonsai",
+  title: `Seite nicht gefunden · Page not found · ${SITE_NAME}`,
   robots: { index: false, follow: false },
 };
 
@@ -19,7 +20,7 @@ export default function GlobalNotFound() {
     <html lang="de" className={`${geist.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
         <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-12">
-          <p className="font-semibold tracking-tight">Bar-Bonsai</p>
+          <p className="font-semibold tracking-tight">{SITE_NAME}</p>
           <section className="mt-8 space-y-2">
             <h1 className="text-2xl font-semibold">Seite nicht gefunden</h1>
             <p className="text-muted">Diese Adresse gibt es nicht.</p>
