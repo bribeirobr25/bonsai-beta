@@ -21,7 +21,7 @@
  *              state that matters - it means a promise was added and nobody
  *              decided whether anything backs it.
  */
-import { readdir, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { join, relative } from "node:path";
 
 const ROOT = process.cwd();
