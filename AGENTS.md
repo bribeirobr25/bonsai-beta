@@ -10,6 +10,18 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Bonsai project notes
 
+> **This repository carries code only.** Project canon — the strategy, product
+> and UX specifications, the implementation plan, the ADRs and the audit
+> protocols — lives in a **separate private repository**. Paths under `docs/`
+> referenced below resolve there, not here.
+>
+> Three gate checks therefore cannot run in this checkout: `pnpm check:adrs`,
+> `pnpm check:scheduled-jobs` and `pnpm audit:unit`. They exit non-zero with an
+> explanation rather than reporting success, because a gate that passes while
+> verifying nothing is worse than one that is absent. The other seven run here
+> and are wired into CI.
+
+
 **Identity is `Bonsai`** for the Functional Beta. `Bar-Bonsai` is retired.
 Long-term naming is `DEFERRED PENDING VALIDATION`.
 

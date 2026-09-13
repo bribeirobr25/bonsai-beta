@@ -3,7 +3,7 @@
 Implementation-led validation instrument for the bonsai venture. A living
 subject's dated history, EU-hosted, four locales.
 
-**Authority:** [`docs/01-canon/README.md`](docs/01-canon/README.md) — the
+**Authority:** project canon lives in a separate private repository; `docs/` paths below resolve there, not in this code-only mirror. `docs/01-canon/README.md` — the
 authority order and read order. **Build plan:**
 [`docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md`](docs/06-implementation/BONSAI_FINAL_PHASED_IMPLEMENTATION_PLAN.md).
 **Agent/contributor rules:** [`AGENTS.md`](AGENTS.md).
