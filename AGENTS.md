@@ -68,6 +68,20 @@ feature never upgrades a hypothesis.
 - **RLS-first.** Three separated paths: public `anon` · owner `authenticated`
   JWT · privileged service role for migrations, seed, cron and admin only. Never
   reach for the service role to make a query work.
+- **Audit gates — these are process, not suggestions.**
+  - **After every implementation unit, before starting the next:** run
+    `pnpm audit:unit` and work
+    [`docs/06-implementation/AUDIT-PROTOCOL-PER-UNIT.md`](docs/06-implementation/AUDIT-PROTOCOL-PER-UNIT.md).
+    The script covers counts, skipped suites, unenforced gate rows and broken
+    links; the document covers the half a script cannot — **falsify what you
+    changed**, and state what you could not verify.
+  - **Before merging a phase branch:** run `pnpm audit:merge` and work
+    [`docs/06-implementation/AUDIT-PROTOCOL-PRE-MERGE.md`](docs/06-implementation/AUDIT-PROTOCOL-PRE-MERGE.md),
+    seven fronts, each anchored to a named artifact.
+  - Both protocols carry **revision triggers**. A defect that the protocol did
+    not prompt for means the protocol is incomplete: add a line, or better an
+    automated check. Every existing item cites the real defect that motivated
+    it — keep it that way.
 - **Architecture decisions.** [`docs/06-implementation/adr/`](docs/06-implementation/adr/)
   holds 17 ADRs, each naming what would reopen it. Read the relevant one before
   changing a load-bearing decision; if you change one, update its record in the

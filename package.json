@@ -20,6 +20,8 @@
     "check:testability": "node scripts/check-testability.mjs",
     "check:adrs": "node scripts/check-adrs.mjs",
     "check:gates": "pnpm check:service-role && pnpm check:data-egress && pnpm check:scheduled-jobs && pnpm check:copy-claims && pnpm check:privacy-claims && pnpm check:analytics && pnpm check:environments && pnpm check:testability && pnpm check:adrs",
+    "audit:unit": "node scripts/audit-per-unit.mjs",
+    "audit:merge": "pnpm check:gates && pnpm audit:unit",
     "db:generate": "drizzle-kit generate",
     "db:generate:custom": "drizzle-kit generate --custom",
     "db:reset": "supabase db reset",
