@@ -15,7 +15,9 @@
       "notice": "Bonsai (research project), Berlin · Data kept in the EU (Frankfurt)"
     },
     "switchLocale": "Deutsch",
-    "comingLater": "Arrives with the next release."
+    "comingLater": "Arrives with the next release.",
+    "currentLocale": "English",
+    "skipToContent": "Skip to content"
   },
   "landing": {
     "title": "One bonsai. Its history, with dates.",

@@ -13,6 +13,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { routing } from "@/i18n/routing";
 import {
   consentEvents,
   dataQualityEnum,
@@ -110,6 +111,35 @@ describe("locales · OI-06", () => {
       "es",
       "pt-BR",
     ]);
+  });
+});
+
+describe("locale routing vs database · gate I18N-3", () => {
+  it("does not let routing and the database enum drift apart silently", () => {
+    /**
+     * Requirement: found by the pre-merge audit. The `locale` enum carries four
+     * values (OI-06, ADR-010) while `routing.locales` carries two — and NOTHING
+     * asserted the relationship, so a fifth locale added to one and not the
+     * other would have passed every check.
+     *
+     * The invariant is containment, not equality: routing may legitimately lag
+     * the enum while Phase 2 builds the shell, but it must never serve a locale
+     * the database cannot store. Equality is asserted once Phase 2 lands all
+     * four.
+     */
+    const routed = [...routing.locales] as string[];
+    const stored = [...localeEnum.enumValues] as string[];
+    for (const l of routed) {
+      expect(stored, `routing serves ${l}, which the database cannot store`).toContain(l);
+    }
+    // Records the current, deliberate lag so closing it is a visible diff.
+    expect(routed.length).toBeLessThanOrEqual(stored.length);
+  });
+
+  it("keeps en as a storable locale, since ADR-010 makes it the fallback", () => {
+    // Requirement: ADR-010 — `en` is default and fallback. A fallback the
+    // database cannot store is not a fallback.
+    expect([...localeEnum.enumValues]).toContain("en");
   });
 });
 

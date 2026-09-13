@@ -15,6 +15,17 @@ export async function SiteHeader() {
   const ready = current?.profile?.consentVersion === CONSENT_VERSION;
   return (
     <header className="border-b border-line">
+      {/*
+        WCAG 2.4.1 Bypass Blocks. Visually hidden until focused, so a keyboard
+        user reaches the content without tabbing the whole header and a mouse
+        user never sees it. Cheap now with one nav block; the header only grows.
+      */}
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-bg focus:px-3 focus:py-2 focus:outline focus:outline-2"
+      >
+        {t("skipToContent")}
+      </a>
       <div className="mx-auto flex max-w-3xl flex-wrap items-center gap-x-4 gap-y-1 px-4 py-3">
         <Link href="/" className="mr-auto whitespace-nowrap font-semibold tracking-tight">
           {t("appName")}
@@ -46,7 +57,10 @@ export async function SiteHeader() {
             </Link>
           )}
           <Suspense fallback={null}>
-            <LocaleSwitch label={t("switchLocale")} />
+            <LocaleSwitch
+              label={t("switchLocale")}
+              currentLabel={t("currentLocale")}
+            />
           </Suspense>
         </nav>
       </div>

@@ -17,8 +17,19 @@
  *          are the specific numbers that must stay out.
  *
  * TEL-1 · "legitimate-interest telemetry collecting without recorded legal
- *          approval". Checked structurally: the activation gate must exist,
- *          must default to false, and must require the approval record.
+ *          approval". Checked STRUCTURALLY ONLY, and this is a real limit
+ *          rather than a caveat: the gate must exist, must default to false,
+ *          and must require the approval record.
+ *
+ *          What it CANNOT check is that the gate is APPLIED. The pre-merge
+ *          audit found telemetryMayCollect() is called by nothing but its own
+ *          test — because the tier-1 legitimate-interest emission path does not
+ *          exist yet, so there is nothing to gate. "Built inert" is the plan's
+ *          own wording for that state.
+ *
+ *          The application half goes live with the T1 layer, and this check
+ *          must be extended then. A guard nobody invokes is not enforcement,
+ *          and a check that reports otherwise is worse than no check.
  */
 import { readdir, readFile } from "node:fs/promises";
 import { join, relative } from "node:path";
@@ -145,5 +156,8 @@ if (violations.length) {
   process.exit(1);
 }
 console.log(
-  `ANA-1 / ANA-2 / TEL-1 passed · ${FORBIDDEN_IN_PROPS.length} forbidden property patterns, ${FORBIDDEN_THRESHOLDS.length} forbidden threshold patterns, activation gate present and defaulting off`,
+  `ANA-1 / ANA-2 passed · ${FORBIDDEN_IN_PROPS.length} forbidden property patterns, ${FORBIDDEN_THRESHOLDS.length} forbidden threshold patterns`,
+);
+console.log(
+  "TEL-1 partial · activation gate present and defaults off; APPLICATION not verifiable until a T1 emission path exists (see the header note)",
 );

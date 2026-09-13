@@ -56,7 +56,7 @@ export default async function LocaleLayout({
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider>
           <SiteHeader />
-          <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8">
+          <main id="main" className="mx-auto w-full max-w-3xl flex-1 px-4 py-8">
             {children}
           </main>
           <SiteFooter />

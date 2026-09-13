@@ -15,7 +15,9 @@
       "notice": "Bonsai (Forschungsprojekt), Berlin · Daten in der EU (Frankfurt)"
     },
     "switchLocale": "English",
-    "comingLater": "Kommt mit der nächsten Version."
+    "comingLater": "Kommt mit der nächsten Version.",
+    "currentLocale": "Deutsch",
+    "skipToContent": "Zum Inhalt springen"
   },
   "landing": {
     "title": "Ein Bonsai. Seine Geschichte, mit Datum.",
