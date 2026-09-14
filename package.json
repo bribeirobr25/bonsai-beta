@@ -13,7 +13,6 @@
     "db:generate:custom": "drizzle-kit generate --custom",
     "db:reset": "supabase db reset",
     "db:push": "supabase db push",
-    "seed:species": "tsx scripts/seed-species.ts",
     "supabase": "supabase"
   },
   "dependencies": {

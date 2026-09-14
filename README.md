@@ -17,7 +17,6 @@ pnpm install
 pnpm supabase start            # Docker; prints URL, publishable and secret keys
 cp .env.example .env.local     # paste the two keys
 pnpm db:reset                  # applies supabase/migrations
-pnpm seed:species              # 110 legacy species identities at `normalized`
 pnpm dev                       # http://localhost:3000 → /de
 ```
 Sign-in emails land in the local inbox at http://127.0.0.1:54324.
@@ -30,7 +29,6 @@ Sign-in emails land in the local inbox at http://127.0.0.1:54324.
 | `pnpm db:generate` | drizzle-kit → `supabase/migrations/<timestamp>_*.sql` |
 | `pnpm db:generate:custom` | empty migration for hand-written SQL (RLS, storage) |
 | `pnpm db:reset` / `pnpm db:push` | apply migrations locally / to the linked project |
-| `pnpm seed:species` | idempotent seed from `docs/04-evidence/legacy/bonsaiData.ts` |
 
 ## Layout
 - `src/db/schema.ts` schema v1 (plan Part 11) with RLS policies
