@@ -1,6 +1,7 @@
 "use server";
 import { eq } from "drizzle-orm";
 import { db } from "@/db";
+import { withOwnerDb } from "@/db/rls";
 import { events, users } from "@/db/schema";
 import { redirect } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -18,7 +19,10 @@ export async function updateLocale(formData: FormData) {
   const locale = localeOf(formData);
   const target = asLocale(formData.get("newLocale"));
   const { profile } = await requireUser(locale);
-  await db.update(users).set({ locale: target }).where(eq(users.id, profile.id));
+  // Owner path: `users_update_own` is what permits this, not the where clause.
+  await withOwnerDb(profile.id, (tx) =>
+    tx.update(users).set({ locale: target }).where(eq(users.id, profile.id)),
+  );
   redirect({ href: "/settings?saved=1", locale: target });
 }
 
@@ -28,15 +32,28 @@ export async function setResearchConsent(formData: FormData) {
   const grant = formData.get("grant") === "1";
   const { profile } = await requireUser(locale);
   if (grant) {
-    await db
-      .update(users)
-      .set({ researchConsent: true, researchConsentWithdrawnAt: null, consentAt: new Date() })
-      .where(eq(users.id, profile.id));
+    await withOwnerDb(profile.id, (tx) =>
+      tx
+        .update(users)
+        .set({
+          researchConsent: true,
+          researchConsentWithdrawnAt: null,
+          consentAt: new Date(),
+        })
+        .where(eq(users.id, profile.id)),
+    );
   } else {
-    await db
-      .update(users)
-      .set({ researchConsent: false, researchConsentWithdrawnAt: new Date() })
-      .where(eq(users.id, profile.id));
+    await withOwnerDb(profile.id, (tx) =>
+      tx
+        .update(users)
+        .set({ researchConsent: false, researchConsentWithdrawnAt: new Date() })
+        .where(eq(users.id, profile.id)),
+    );
+    // PRIVILEGED, deliberately. `events` has RLS enabled and no policies, so
+    // there is no owner path to it by design - telemetry is written by the
+    // server, never by the account. Detaching user_id on withdrawal is a
+    // data-protection obligation the subject cannot perform themselves. See the
+    // service-role exception note in src/db/rls.ts.
     await db.update(events).set({ userId: null }).where(eq(events.userId, profile.id));
   }
   redirect({ href: "/settings?saved=1", locale });

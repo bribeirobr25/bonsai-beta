@@ -1,7 +1,7 @@
 import "server-only";
 import { eq } from "drizzle-orm";
 import { cache } from "react";
-import { db } from "@/db";
+import { withOwnerDb } from "@/db/rls";
 import { users } from "@/db/schema";
 import type { AppLocale } from "@/i18n/routing";
 import { redirect } from "@/i18n/navigation";
@@ -34,8 +34,26 @@ export const getSessionId = cache(async (): Promise<string | null> => {
 export const getCurrentUser = cache(async () => {
   const auth = await getAuthUser();
   if (!auth) return null;
-  const profile =
-    (await db.query.users.findFirst({ where: eq(users.id, auth.id) })) ?? null;
+  /**
+   * Plan §16 step 1, the read-path proof: this is the first application read
+   * routed through the `authenticated` JWT path instead of the privileged
+   * connection. It is the right one to move first - highest frequency, lowest
+   * risk, and it exercises claims publishing on every authenticated request.
+   *
+   * The eq() predicate is now belt-and-braces rather than the enforcement:
+   * `users_select_own` already restricts the visible rows to auth.uid(). If the
+   * policy were dropped, the rls-integration suite fails - and this query would
+   * still return only the caller's row, so the predicate is not what is being
+   * relied on.
+   */
+  const profile = await withOwnerDb(auth.id, async (tx) => {
+    const rows = await tx
+      .select()
+      .from(users)
+      .where(eq(users.id, auth.id))
+      .limit(1);
+    return rows[0] ?? null;
+  });
   return { auth, profile };
 });
 

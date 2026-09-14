@@ -1,0 +1,63 @@
+# Bonsai · Git LFS tracking
+# Founder ruling B-2 · APPROVED 12 September 2026:
+#   "Track the large visual/canonical binary assets through Git LFS before
+#    their first committed introduction."
+#
+# Timing is the whole point. Git does not forget: a binary committed as a plain
+# blob stays in history for every future clone, and moving it to LFS afterwards
+# requires a history rewrite. At the time this file was written only 2.9 MB of
+# binaries existed in history and 79.7 MB were still uncommitted — so every
+# pattern below must be in place BEFORE the canon intake commit lands.
+
+# --- Canonical visual artifacts (W7 approved visual package) ---
+*.png   filter=lfs diff=lfs merge=lfs -text
+*.jpg   filter=lfs diff=lfs merge=lfs -text
+*.jpeg  filter=lfs diff=lfs merge=lfs -text
+*.webp  filter=lfs diff=lfs merge=lfs -text
+*.gif   filter=lfs diff=lfs merge=lfs -text
+
+# --- Sender packages retained for provenance (docs/99-archive/) ---
+*.zip   filter=lfs diff=lfs merge=lfs -text
+*.pdf   filter=lfs diff=lfs merge=lfs -text
+
+# --- Fonts, if any are ever vendored rather than loaded from a CDN ---
+*.woff  filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# --- Line-ending hygiene for text the project itself owns ---
+# Deliberately scoped to source, NOT applied repository-wide. See the canon
+# exemption below for why a blanket *.csv / *.md rule is unsafe here.
+src/**          text eol=lf
+messages/*.json text eol=lf
+supabase/**     text eol=lf
+*.ts            text eol=lf
+*.tsx           text eol=lf
+*.css           text eol=lf
+*.sql           text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+
+# --- Binary app assets: never text, never eol-converted ---
+# The `src/** text eol=lf` rule above matches by path, so it captured
+# src/app/favicon.ico and marked a Windows icon file as text. Renormalizing it
+# LOST A BYTE (25931 -> 25930) - silent binary corruption that would have fired
+# on the next `git add` touching it. Binary extensions must opt out explicitly.
+# png/jpg/jpeg/webp/gif/zip/pdf/woff already carry -text via their LFS lines.
+*.ico   -text
+*.icns  -text
+*.mp3   -text
+*.mp4   -text
+*.wasm  -text
+*.ttf   -text
+*.otf   -text
+*.eot   -text
+
+# --- Canon and archive: byte-exact, never normalized ---
+# These trees are verified against sender SHA-256 manifests. Line-ending
+# normalization would rewrite bytes and permanently break that verification --
+# six W2/W3/W4 evidence CSVs genuinely contain CRLF and are listed in
+# 05-workstreams/W2-.../SHA256SUMS.txt and its siblings. `-text` disables
+# all eol conversion so `shasum -a 256 -c` keeps passing for the life of the
+# repository. Integrity of received authority outranks diff tidiness.
+docs/01-canon/**    -text
+docs/99-archive/**  -text

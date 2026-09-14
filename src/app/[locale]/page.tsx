@@ -15,7 +15,7 @@ export default async function LandingPage({
   const tSettings = await getTranslations("settings");
   const current = await getCurrentUser();
   await track({
-    name: "landing_view",
+    name: "landing_viewed",
     locale: locale as "de" | "en",
     source: src,
     user: current?.profile ?? null,

@@ -42,3 +42,6 @@ next-env.d.ts
 
 # keep the template for local setup
 !.env.example
+
+# Local-only working ledger of open items (see the file header for why it is not committed)
+OPEN-ITEMS-LEDGER.local.md

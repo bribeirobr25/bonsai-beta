@@ -8,6 +8,41 @@
       "when": 1788735512966,
       "tag": "20260906225832_schema_v1",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789226972036,
+      "tag": "20260912152932_crazy_magik",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789228678643,
+      "tag": "20260912155758_overrated_molecule_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789228840660,
+      "tag": "20260912160040_complete_morbius",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789230160381,
+      "tag": "20260912162240_friendly_zeigeist",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789233738751,
+      "tag": "20260912172218_classy_triton",
+      "breakpoints": true
     }
   ]
 }

@@ -3,10 +3,12 @@ import { getFormatter, getTranslations } from "next-intl/server";
 import type { AppLocale } from "@/i18n/routing";
 import { requireUser } from "@/lib/auth/dal";
 import { deleteAccount, setResearchConsent, updateLocale } from "./actions";
+import { NO_INDEX } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("settings");
-  return { title: t("title") };
+  // Private surface: never indexed, never cached, no snippet (gate IDX-1).
+  return { title: t("title"), robots: NO_INDEX };
 }
 
 export default async function SettingsPage({

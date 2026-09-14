@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
+import { toNextHeaders } from "./src/lib/security-headers";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
@@ -11,6 +12,15 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/[locale]/privacy": ["./src/content/**/*"],
   },
+  /**
+   * Plan §24.2 and §24.6. Defined here, as data in src/lib/security-headers.ts,
+   * rather than in proxy.ts - because a header set in the proxy applies per
+   * request and a nonce would force every matched route to dynamic rendering.
+   * Static routes keep their headers and their static rendering this way.
+   */
+  headers: () => Promise.resolve(toNextHeaders()),
+  // The framework version is not information a visitor needs.
+  poweredByHeader: false,
 };
 
 export default withNextIntl(nextConfig);

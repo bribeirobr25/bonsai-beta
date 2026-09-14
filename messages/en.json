@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "Bar-Bonsai",
+    "appName": "Bonsai",
     "tagline": "A small research project",
     "nav": {
       "myTree": "My tree",
@@ -12,14 +12,16 @@
     "footer": {
       "privacy": "Privacy",
       "impressum": "Impressum",
-      "notice": "Bar-Bonsai (research project), Berlin · Data kept in the EU (Frankfurt)"
+      "notice": "Bonsai (research project), Berlin · Data kept in the EU (Frankfurt)"
     },
     "switchLocale": "Deutsch",
-    "comingLater": "Arrives with the next release."
+    "comingLater": "Arrives with the next release.",
+    "currentLocale": "English",
+    "skipToContent": "Skip to content"
   },
   "landing": {
     "title": "One bonsai. Its history, with dates.",
-    "lead": "Bar-Bonsai is a small research project. It helps you keep track of one bonsai: photos, what you did to it, and how it changes.",
+    "lead": "Bonsai is a small research project. It helps you keep track of one bonsai: photos, what you did to it, and how it changes.",
     "promiseTitle": "What you can do here",
     "promise1": "Create a tree and look up or type its species.",
     "promise2": "Import the photos you already have, with their dates, and add moments.",
@@ -47,10 +49,10 @@
   },
   "consent": {
     "title": "Before you start",
-    "intro1": "<b>Bar-Bonsai is a small research project.</b> It helps you keep track of one bonsai: photos, what you did to it, and how it changes. It gives no care advice.",
+    "intro1": "<b>Bonsai is a small research project.</b> It helps you keep track of one bonsai: photos, what you did to it, and how it changes. It gives no care advice.",
     "intro2": "To make the site work we store your email address and the photos, dates and notes you add about your tree. Your data is kept in the EU (Frankfurt). Your record is private unless you share it yourself. You can export everything or delete your account at any time.",
     "required": "<b>Required.</b> I am at least 16 years old and have read the <privacy>privacy notice</privacy>. (Contract, Art. 6(1)(b) GDPR)",
-    "optional": "<b>Optional.</b> I agree that Bar-Bonsai records how I use the site (which pages I open, when I add photos or notes, when I come back) to research whether a tree record like this is useful. Results are reported only in aggregate, without names, email addresses or photos. I can withdraw this consent at any time in Settings; the site works the same either way. (Art. 6(1)(a) GDPR)",
+    "optional": "<b>Optional.</b> I agree that Bonsai records how I use the site (which pages I open, when I add photos or notes, when I come back) to research whether a tree record like this is useful. Results are reported only in aggregate, without names, email addresses or photos. I can withdraw this consent at any time in Settings; the site works the same either way. (Art. 6(1)(a) GDPR)",
     "submit": "Sign up",
     "errorRequired": "The required confirmation is missing.",
     "version": "Notice version {version}"
@@ -74,7 +76,7 @@
     "researchWithdraw": "Withdraw consent",
     "researchGrant": "Give consent",
     "researchWithdrawnAt": "Withdrawn on {date}. Events recorded before then were pseudonymised.",
-    "researchText": "Bar-Bonsai records how you use the site (which pages you open, when you add photos or notes, when you come back) to research whether a tree record like this is useful. Results are reported only in aggregate, without names, email addresses or photos.",
+    "researchText": "Bonsai records how you use the site (which pages you open, when you add photos or notes, when you come back) to research whether a tree record like this is useful. Results are reported only in aggregate, without names, email addresses or photos.",
     "data": "Your data",
     "exportTitle": "Export everything",
     "exportBody": "A JSON file with your account, trees, moments and events. Photos are included as links valid for 24 hours.",
@@ -94,7 +96,7 @@
   },
   "impressum": {
     "title": "Impressum",
-    "body1": "Bar-Bonsai (research project)",
+    "body1": "Bonsai (research project)",
     "body2": "Berlin",
     "contact": "Contact: [contact address]",
     "note": "Note: name, postal address and the responsible person required by § 5 DDG are not yet entered. They must be added before public launch (open founder decision, see CONTENT-CONSENT-v0.3)."

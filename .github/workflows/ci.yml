@@ -1,0 +1,186 @@
+name: CI
+
+# Plan §17. Blocking on main and on every pull request, from Phase 1.
+#
+# Jobs are separate rather than one script so a failure names the guarantee that
+# broke, not "tests failed". `rls-integration` needs a database and therefore
+# cannot live inside `unit` - see vitest.rls.config.ts for why that split exists.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  unit:
+    name: typecheck · lint · unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # LFS pointers must resolve: docs/01-canon/ holds the visual package.
+          lfs: true
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: typecheck
+        run: pnpm typecheck
+      - name: lint
+        run: pnpm lint
+      - name: unit tests
+        run: pnpm test
+
+  # NOTE ON COVERAGE. Three gates do not run here: JOB-1 (scheduled-jobs
+  # catalogue), OI-46 (architecture decision records) and the per-unit audit.
+  # Each reads project canon under docs/, which this repository does not carry —
+  # the canon and the implementation plan live in a private repository, and this
+  # is a code-only mirror. Their scripts exit NON-ZERO here rather than
+  # reporting success, because a gate that passes while verifying nothing is
+  # worse than a gate that is absent.
+  guardrails:
+    name: service-role · placeholder · processor-parity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # §16: the service role is reachable only from an allowlisted module.
+      # Enforced here rather than by convention.
+      - name: service-role boundary
+        run: pnpm check:service-role
+
+      # Gate DEV-1: a prohibited field must not appear in a log, an event
+      # property map, a Storage key or a request body. Static, and honest about
+      # it - the runtime half is exif_retained, the metadata-stripping re-encode
+      # and the RLS suite.
+      - name: data-egress rule (DEV-1)
+        run: pnpm check:data-egress
+
+      # Gate JOB-1: code and the jobs catalogue must agree, in both directions.
+      # A catalogue row with no cron is the dangerous half - it reads as
+
+      # Gate COPY-2: a prohibited W3 claim string must not ship. These are
+      # causal horticultural and wellbeing claims at an UNVALIDATED evidence
+      # level - not a tone problem.
+      - name: prohibited claims (COPY-2)
+        run: pnpm check:copy-claims
+
+      # Gates ANA-1, ANA-2, TEL-1: no free text, filename, image bytes or
+      # location in an analytics property; no evidence-protocol threshold
+      # compiled into the product; the telemetry activation gate exists and
+      # defaults off.
+      - name: analytics contract (ANA-1, ANA-2, TEL-1)
+        run: pnpm check:analytics
+
+      # Gate COPY-1: every privacy claim in shipped copy must cite a test that
+      # proves it, or be listed with a stated reason it is not yet proven. An
+      # UNLISTED claim fails - that is the state meaning somebody added a
+      # promise and nobody decided whether anything backs it.
+      - name: privacy claims (COPY-1)
+        run: pnpm check:privacy-claims
+
+      # Gate ENV-1: no CI job or example env may point at a remote project.
+      - name: environment separation (ENV-1)
+        run: pnpm check:environments
+
+      # A test importing a server-only module reports "0 test" while the suite
+      # still prints a passing count. That has happened four times here.
+      - name: testability
+        run: pnpm check:testability
+
+      # OI-46: the ADR index and files must agree in both directions, and every
+      # record must name a reconsideration trigger. Without a trigger a
+
+      # Gate LEG-1: a rendered legal document must not ship with an unfilled
+      # placeholder. Blocker B-5 means placeholders legitimately exist during
+      # internal build, so this job REPORTS them and fails only on a release
+      # ref - the gate hard-blocks Gate C, not Phase 1 development.
+      - name: placeholder scan (LEG-1)
+        run: |
+          set +e
+          hits=$(grep -rnE '\[contact address\]|\[Kontaktadresse\]|\[TODO|XXX-PLACEHOLDER' \
+                   src/content messages 2>/dev/null)
+          set -e
+          if [ -n "$hits" ]; then
+            echo "::warning title=LEG-1::rendered legal text still contains placeholders (blocker B-5)"
+            echo "$hits"
+            if [ "${{ github.ref }}" = "refs/heads/release" ]; then
+              echo "::error title=LEG-1::placeholders must not reach a release"
+              exit 1
+            fi
+          else
+            echo "LEG-1: no placeholders found"
+          fi
+
+      # Gate LEG-2: a declared data processor must exist in the dependency
+      # graph, and vice versa. C-21: the privacy notice declared PostHog, which
+      # appears nowhere in the codebase. Founder ruling B-6 removes it from the
+      # notice - this check keeps that true.
+      - name: processor parity (LEG-2)
+        run: |
+          set +e
+          declared=$(grep -rloE 'PostHog|Plausible|Matomo|Google Analytics|Sentry' \
+                       src/content messages 2>/dev/null)
+          set -e
+          if [ -n "$declared" ]; then
+            echo "::error title=LEG-2::a third-party processor is named in user-facing legal text:"
+            echo "$declared"
+            echo "Either it must exist as a dependency, or the declaration must go (B-6)."
+            exit 1
+          fi
+          echo "LEG-2: no undeclared processors named in legal text"
+
+  rls-integration:
+    name: rls-integration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: start local Supabase
+        run: supabase start
+      - name: apply migrations from scratch
+        run: supabase db reset
+      - name: RLS isolation suite
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:54322/postgres
+        # The suite self-skips when no database is reachable, which is right for
+        # a local run and WRONG for CI: a skipped suite reports green while
+        # proving nothing. --passWithNoTests=false makes an empty run a failure,
+        # and the count assertion below catches a suite that skipped itself.
+        run: |
+          pnpm test:rls --passWithNoTests=false --reporter=json --outputFile=/tmp/rls.json
+          node -e '
+            const r = require("/tmp/rls.json");
+            const passed = r.numPassedTests ?? 0;
+            const skipped = r.numPendingTests ?? 0;
+            console.log(`rls-integration: ${passed} passed, ${skipped} skipped`);
+            if (passed < 40) {
+              console.error(`FAIL: expected at least 40 passing RLS tests, got ${passed}.`);
+              console.error("A suite that skips itself is not a suite that passed.");
+              process.exit(1);
+            }
+            if (skipped > 0) {
+              console.error(`FAIL: ${skipped} RLS test(s) skipped in CI.`);
+              process.exit(1);
+            }
+          '
