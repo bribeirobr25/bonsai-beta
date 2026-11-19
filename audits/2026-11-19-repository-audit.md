@@ -341,7 +341,7 @@ Analysis only; no change was made.
 
 ## 8. Questions and answers
 
-Questions asked by the founder after the audit, with the answers given.
+Questions asked by the founder after the audit, with the answers given, and one follow-up question (§8.6).
 
 ### 8.1 In one paragraph, what state is this project really in?
 
@@ -455,3 +455,55 @@ possible at all.
 - **Process overhead.** Forty gates and per-unit audits were designed for a
   team with a canon. For one person, trimming them to what still guards
   something real may matter more than adding features.
+
+### 8.6 Follow-up: given these five questions, is the main goal still clear?
+
+Only partly. **What Bonsai is meant to be** is still clear. **What this code,
+and a launch of it, is meant to achieve** is not. The five questions point
+toward a product launch, while the only strategy documents that still exist
+(v1.0, 2 September 2026) describe an experiment.
+
+**Still clear.** The v1.0 thesis is intact and the code follows it: a lasting
+record of one tree's life, kept before any advice is offered. The first unknown
+to test is also clear. It is **H1B**, whether growers keep a record of a tree
+for at least 183 days. Its thresholds were agreed in advance: 25% or more
+means proceed, under 10% means "the record thesis is dead". The answer in §8.2
+bases "live" on this test: a private tree journey.
+
+**No longer clear:**
+
+1. **Launch or experiment.** v1.0 says "the phase is **validation, not
+   construction**", and that for a logging-retention question the right tool
+   is a "tiny web app, or a manual journal" (`CURRENT-EVIDENCE-AND-DECISIONS.md`
+   §12, `PROJECT-BRIEF.md` §14). Question 8.2 asks what would put it "live in a
+   way to be proud of". Those are different goals with different scopes. The
+   19–27 day estimate is the "proud of" version; the experiment version would
+   be smaller.
+2. **Building before the go/no-go.** In v1.0, H1B decides whether to run the
+   pilot at all ("Fail → do not run the pilot"). The application is that
+   pilot, and H1B has not been measured. Whatever justified building first
+   lived in the v1.1.2 canon, which does not exist. Today nothing on record
+   explains that order.
+3. **What success means to the founder.** v1.0 lists questions only the
+   founder can answer (`PROJECT-BRIEF.md` §13): side income or a business,
+   solo or a team, how much time and for how long, whether there is capital,
+   and which markets. None of the answers is on record.
+4. **How the result would be read.** The thresholds exist, but there is no
+   cohort, no start date, and no plan for how the application would measure
+   183-day records. An H1B answer arrives about six months after the first
+   participant starts, so that clock matters more than build speed.
+5. **The market caveat.** v1.0 warns that even a strong H1B must be weighed
+   against 18 competitors who have built no business on record-keeping
+   (research brief §7).
+
+**Recommendation.** Before Phase 2, write one page that restates the goal:
+
+- who the user is;
+- the hypothesis under test;
+- what this build must prove and what it must not attempt;
+- the threshold that would stop the project;
+- the cohort and start date;
+- the founder's answers to the §13 questions.
+
+That page is also the "re-baseline" decision in §8.4. If those answers point
+somewhere other than the record thesis, the plan and estimate in §8.2 change.
