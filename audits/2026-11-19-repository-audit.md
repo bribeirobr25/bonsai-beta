@@ -336,3 +336,122 @@ Analysis only; no change was made.
    whether to ask GitHub Support to remove `refs/pull/14/head` (§4.5).
 6. Correct the documentation drift (§3.5), including `AGENTS.md`'s references
    to a canon repository that does not exist.
+
+---
+
+## 8. Questions and answers
+
+Questions asked by the founder after the audit, with the answers given.
+
+### 8.1 In one paragraph, what state is this project really in?
+
+A well-engineered foundation with no product on it yet, and the paperwork it
+was built under is gone. Sign-in, versioned consent with a consent record,
+export and deletion, and a database that enforces who can see what all work,
+and the tests and checks are unusually disciplined. But a user can only sign
+in, consent, and land on an empty "My tree" page: there is no tree creation,
+no moments, no photos, no Knowledge and no sharing, and nothing is deployed.
+The plan, the 17 decision records and the 40-row gate registry the code cites
+no longer exist anywhere, so three gates cannot run and "Phase 2" points at a
+document that is not there. The venture itself is pre-validation: every
+hypothesis that matters is still `UNVALIDATED`, above all whether people will
+keep logging a tree for months, and no workshop or participant source is
+scheduled. A sound base, and a validation instrument that has not started
+validating.
+
+### 8.2 What is the smallest set of work needed to put it live in a way to be proud of, and roughly how many days?
+
+"Live" should mean the first thing v1.0 says to test: **a private tree
+journey** — create a tree, add dated moments with photos, look back. Anything
+less gives participants nothing to do; anything more tests things that come
+later.
+
+| Work | Days |
+|---|---|
+| Security before launch: close direct REST and Storage access, lock sensitive columns, make consent-record writes server-only, upgrade Next, zod and sharp | 3–4 |
+| Privacy and consent correctness: a consent record on every change, export fixes, reliable deletion, align the notice with the code, stop the evidence inflation | 2–3 |
+| Core product: create tree, add moment (date and precision, kind, note), journey timeline, corrections | 5–7 |
+| Photo pipeline: direct upload to a private quarantine, server-side re-encode that strips EXIF and GPS, two derivatives, signed URLs, plus importing existing photos with their dates | 5–7 |
+| Production setup: Supabase and Vercel projects, domain, Resend, branch protection, environment variables | 1–2 |
+| End-to-end browser tests, accessibility and mobile pass, QA in production with `sessionClass` set | 2–3 |
+| Rewrite AGENTS.md and README.md around what actually exists | 1 |
+
+**About 19–27 working days, roughly four to five weeks**, for one person
+working with an AI assistant. Deliberately excluded: Knowledge (blocked by
+B-8), sharing, community, Spanish and Portuguese, and AI features. It assumes
+the imprint details are supplied; without them a launch in Germany is not
+possible at all.
+
+### 8.3 What is fragile, half-done or likely to break, including known tech debt?
+
+- **Security and integrity:**
+  - signed-in users can write directly through the REST API and Storage (§4.2);
+  - three ways around the provenance guard, PROV-1 (§4.1);
+  - publication is per row, not per language;
+  - the session cookie is readable by scripts while CSP allows inline scripts;
+  - 16 known dependency vulnerabilities, including one that affects Server Actions.
+- **Privacy correctness:**
+  - consent changes in Settings leave no record;
+  - the privacy notice promises a 3-year consent retention and "aggregate only" events, and the code does neither;
+  - the export omits data, and its photo links will break in Phase 4;
+  - deletion can half-fail and reads at most 1,000 Storage files per folder;
+  - the 24-month event purge is not built.
+- **Half-done by design:**
+  - the M1b cleanup columns are still in use (`moments.type` is the only populated taxonomy, with 119 references; `events.source` has 75);
+  - `prompted` has 2 values where W7 specifies 5;
+  - tier-1 telemetry exists but is switched off;
+  - four locales in the database, two served, and the default is `de` where ADR-010 says `en`;
+  - public pages render per request;
+  - the nonce-based CSP is not built;
+  - the rate limiter fails open, and its sign-in wiring is untested end to end.
+- **Process debt:**
+  - three gates and `audit:merge` cannot pass;
+  - documentation cites columns and a canon that do not exist;
+  - a duplicate test config could silently hide test files;
+  - the Supabase CLI version in CI is unpinned;
+  - there are no end-to-end tests.
+
+### 8.4 What is blocking progress right now?
+
+1. **A governance decision (founder).** The canon is gone, so either
+   re-baseline on v1.0, this audit and the code, or keep a process that points
+   at nothing. Until that is decided, "next phase" is undefined.
+2. **Legal inputs (founder):**
+   - the imprint and controller details (B-5), which hard-block a public launch;
+   - a qualifying practitioner (B-8), which blocks any Knowledge publishing;
+   - a budget ceiling (B-19);
+   - telemetry legal approval (B-12), which does not block launch.
+3. **Infrastructure (founder, about an hour):** provision Supabase production,
+   Vercel, and the domain and Resend.
+4. **Participants (strategic).** A validation instrument with no cohort
+   produces no evidence. No workshop or recruitment channel is on record, and
+   that blocks the *point* of going live more than any code does.
+5. **Technical:** nothing hard-blocking. The security work is a gate before
+   launch, not a blocker to starting.
+
+### 8.5 Is there anything to advise against doing next, or anything likely underestimated?
+
+**Advise against:**
+
+- Deploying the current `main` publicly. The direct-access weakness is now
+  documented in a public repository.
+- Building Knowledge, community, sharing or AI next. The v1.0 canon names
+  logging friction as risk #1, so capture-first comes first.
+- Having AI regenerate the lost v1.1.2 canon. That fabricates authority;
+  re-baseline honestly instead.
+- Ever shipping the 1,637 legacy technique entries.
+
+**Likely underestimated:**
+
+- **The photo pipeline.** Vercel caps function request bodies at 4.5 MB, while
+  the bucket allows 15 MB and phones produce HEIC. Uploads must go directly to
+  Storage and be processed afterwards, which collides with closing the
+  direct-Storage weakness. Expect it to be the hardest part.
+- **Distribution.** Months of logging per participant, against 18
+  competitors, is the real problem; the code is not.
+- **The German imprint** (§ 5 DDG) requires the operator's real name and
+  address on a public page.
+- **Vercel Hobby forbids commercial use.** Any monetisation means moving to Pro.
+- **Process overhead.** Forty gates and per-unit audits were designed for a
+  team with a canon. For one person, trimming them to what still guards
+  something real may matter more than adding features.
